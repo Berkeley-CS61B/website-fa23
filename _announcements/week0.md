@@ -11,7 +11,7 @@ will change.
 
 If you have urgent questions about the course, please email
 `cs61b (at) berkeley.edu`{: .blue}. You will get a faster response than
-emailing an instructor.
+emailing an instructor personally.
 
 We know that the links may be broken. If you want to get a head start on the content, you can check out the [Spring 2023 course website](https://sp23.datastructur.es/).
 
