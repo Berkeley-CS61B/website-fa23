@@ -1,0 +1,33 @@
+---
+layout: page
+released: true
+include_course_info: true
+title: All Announcements
+---
+<div class="segment">
+  <div style="max-width: 700px; margin: 0 auto;">
+    <div class="segmenttitle">
+      Announcements
+    </div>
+    <a id="expand-all">
+      (click to expand all announcements)
+    </a>
+    <a id="hide-all">
+      (click to collapse all announcements)
+    </a>
+    {%- assign announcements = site.announcements | sort: 'date' | reverse -%}
+    {%- for a in announcements -%}
+      <div class="toggle-wrapper">
+        <a class="toggle-link show-link">
+          {{ a.date | date: "[%m/%d]" }}
+          {{ a.title }}
+        </a>
+        <div class="toggle">
+          {{ a }}
+          <hr>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+<script type="text/javascript" src="/assets/js/toggle.js"></script>

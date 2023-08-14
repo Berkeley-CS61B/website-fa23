@@ -1,0 +1,55 @@
+- week: 
+  rows: 
+  discussions:
+    - name: 
+      file: discussion
+      released: false
+      solution_released: false
+    - name: 
+      file: discussion
+      released: false
+      solution_released: false
+  labs:
+    - name: (due )
+      link: materials/lab/lab
+      released: false
+  days:
+    - day: Mon 
+      lecture_topic: 
+      lecture_links:
+        - name: video
+          link: 
+        - name: slides
+          link: 
+        - name: guide
+          link: 
+      reading: > # Format in Markdown
+
+      assignments:
+        - title: ""
+          link: /materials/
+          released: false
+          rows: 3 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+    - day: Wed 
+      lecture_topic: 
+      lecture_links:
+        - name: video
+          link: 
+        - name: slides
+          link: 
+        - name: guide
+          link: 
+      reading: > # Format in Markdown
+        
+    - day: Fri 
+      lecture_topic: 
+      lecture_links:
+        - name: video
+          link: 
+        - name: slides
+          link: 
+        - name: guide
+          link: 
+      reading: >
+        

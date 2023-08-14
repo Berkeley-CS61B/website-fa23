@@ -1,0 +1,151 @@
+.text {
+  font-size: 14px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.instructor, .staff {
+  margin: 20px auto;
+  table-layout: fixed;
+
+  td {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    vertical-align: top;
+    width: 50%;
+  }
+
+  img {
+    display: block;
+    border: 0;
+    opacity: 0;
+  }
+  img:not(.initial) {
+    transition: opacity 0.2s;
+  }
+
+  img.initial,
+  img.loaded,
+  img.error {
+    opacity: 1;
+  }
+
+  img:not([src]) {
+    visibility: hidden;
+  }
+
+  .photo {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 10px auto 0;
+  }
+
+  .photo img {
+    height: 100%;
+  }
+
+  .photo2 {
+    display: none;
+  }
+
+  .photo3 {
+    display: none;
+  }
+
+  .photo4 {
+    display: none;
+  }
+
+  td > .text.bio {
+    margin-top: 10px;
+  }
+
+  td > .text.email {
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+
+.instructor {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  tr: {
+    margin: 0 auto;
+  }
+
+  td:nth-child(1) {
+    width: 250px;
+    margin: 0;
+  }
+
+  td:nth-child(2) {
+    min-width: 180px;
+    padding-left: 30px;
+    padding-top: 15px;
+    vertical-align: top;
+  }
+
+  td:nth-child(3) {
+    padding-left: 30px;
+    width: 250px;
+  }
+
+  td:nth-child(4) {
+    min-width: 300px;
+    padding-top: 15px;
+    vertical-align: top;
+  }
+
+  .segmenttitle {
+    margin: 0;
+  }
+
+  .photo {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.staff {
+  max-width: 900px;
+
+  td {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 33%;
+  }
+  .segmenttitle {
+    padding: 10px 10px 0;
+    margin: 0;
+  }
+  .text {
+    margin: 0;
+    padding: 0 10px 0;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  .photo {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 10px auto 0;
+  }
+
+  .staff-link {
+    color: $cs61b-blue-light;
+
+    &:hover {
+      color: $cs61b-blue-dark;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+// Literally copy-pasted from Bootstrap. Somehow.
+
+$bs-alert-types: (
+  "primary":    $bs-primary,
+  "task":       $bs-success,
+  "secondary":  $bs-secondary,
+  "success":    $bs-success,
+  "info":       $bs-info,
+  "warning":    $bs-warning,
+  "danger":     $bs-danger,
+  "light":      $bs-light,
+  "dark":       $bs-dark
+) !default;
+
+$alert-bg-scale:                -80% !default;
+$alert-border-scale:            -70% !default;
+$alert-color-scale:             40% !default;
+
+.alert {
+  @include block-base;
+  margin-bottom: 1rem;
+  color: var(--alert-color);
+  background-color: var(--alert-bg);
+  border: var(--alert-border);
+
+  a {
+    font-weight: bold;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  p > i.fa {
+    margin-right: 0.25rem;
+  }
+}
+
+@mixin alert-variant($background, $border, $color) {
+  --alert-color: #{$color};
+  --alert-bg: #{$background};
+  --alert-border-color: #{$border};
+
+  a {
+    color: shade-color($color, 20%);
+    text-decoration: underline;
+  }
+}
+
+@each $state, $value in $bs-alert-types {
+  $alert-background: shift-color($value, $alert-bg-scale);
+  $alert-border: shift-color($value, $alert-border-scale);
+  $alert-color: shift-color($value, $alert-color-scale);
+
+  @if (contrast-ratio($alert-background, $alert-color) < $bs-min-contrast-ratio) {
+    $alert-color: mix($value, color-contrast($alert-background), abs($alert-color-scale));
+  }
+  .alert-#{$state} {
+    @include alert-variant($alert-background, $alert-border, $alert-color);
+  }
+}

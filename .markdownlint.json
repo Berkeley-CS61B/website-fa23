@@ -1,0 +1,13 @@
+{
+  "MD033": false,
+  "MD030": {
+    "ol_multi": 2,
+    "ul_multi": 3
+  },
+  "MD007": {
+    "indent": 4
+  },
+  "MD026": {
+    "punctuation": ".,;:。，；："
+  }
+}

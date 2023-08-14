@@ -1,0 +1,95 @@
+- week: 8
+  # weekly_survey: "https://forms.gle/y1XfGX73UdVRpdNR9"
+  rows: 3
+  discussions:
+    - name: B-Trees, LLRBs, Hashing
+      released: false
+      link: "https://drive.google.com/file/d/1bsav6ui7bNOzgI_KfeOZ1a831KXbqzF8/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1SkTLqWZNPBIhcm7afKExwliYCRrMesC7/view?usp=sharing"
+        - name: video
+          released: false
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrjXIJbf0eFsWeUnD6RsfYa"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1tRaCrWTaAuQOIqJ1CXvAXlBAWHJY9COP-wP7wugByVo/edit?usp=sharing"
+    - name: B-Trees, LLRBs, Hashing (Exam-Level)
+      released: false
+      link: "https://drive.google.com/file/d/1wFMeZYDfuTaeCCDPe7xRDIfZkjQdpOoi/view?usp=share_link"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1Ts1vNUHt7_9BcxNHFZzRDyv9Un7eszdg/view?usp=share_link"
+        - name: video
+          released: false
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoIGRoR3H0WHl2AmxCgcxTN"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1eO0hUbtRLQfTgPFBBhDHKIW-Qp7GiqvGN8aFIcmlIYQ/edit?usp=share_link"
+    #   - name: video
+    #     released: false
+    #     link: "https://youtube.com/playlist?list=PLHnsju1DjvZNy62TahsOCauunuBB5XSoh"
+    #   - name: solution
+    #     released: false
+    #     link:
+  labs:
+    - name: HashMap (due TBD)
+      link: materials/lab/lab08/
+      released: false
+      resource_links:
+        - name: video
+          released: false
+          link: "https://www.youtube.com/watch?v=8QRAFbimWYw"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1KlEcp8s4cpjU6aiHJwv1EHYG5OJO5bJt/"
+  days:
+    - day: 2023-10-09
+      lecture_topic: Hashing II
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD637Q-6p7nn5dKz1tK6WAjJ
+        - name: slides
+          link: https://docs.google.com/presentation/d/1U_-RQCJB3j9B-k-kY8I4nS-FuxIvO8EgVIrOthx2InU/edit#slide=id.g2165b69ef3f_0_540
+      reading: >
+        [Ch 20](https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii)
+      assignments:
+        - title: Homework 3 (due TBD)
+          link: https://www.gradescope.com/courses/484660/assignments/2713206
+          rows: 1
+          cols: 2
+          released: false
+
+    - day: 2023-10-11
+      lecture_topic: Heaps and PQs
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD50LnOXTSpYgnVJQTIVFsmI
+        - name: slides
+          link: https://docs.google.com/presentation/d/1uws16IyE3oGKKbKgTpl7s4a2950ef2CjI7B3ez8Gctw/
+      reading: > # Format in Markdown
+        [Ch 21](https://cs61b-2.gitbook.io/cs61b-textbook/21.-heaps-and-priority-queues)
+      assignments:
+        - title: |
+            <span class="proj">[Project 2A due TBD]</span>
+          rows: 1
+          cols: 2
+          released: false
+
+    - day: 2023-10-13
+      lecture_topic: Tree and Graph Traversals
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/watch?v=wkkCVWn7au4&list=PL8FaHk7qbOD4tIQrwqsx16fNq6uXNhauw
+        - name: slides
+          link: https://docs.google.com/presentation/d/1d5NtBn-qKS6AkUJ5CWhMNZArGX2_2esFoJ3R4L4-7VE
+      reading: > # Format in Markdown
+        [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
+      assignments:
+        - title: Project 2B (due TBD)
+          link: materials/proj/proj2b
+          rows: 1
+          cols: 2
+          released: false

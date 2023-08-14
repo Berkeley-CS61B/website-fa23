@@ -1,0 +1,14 @@
+@mixin block-base {
+  position: relative;
+  padding: .5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}

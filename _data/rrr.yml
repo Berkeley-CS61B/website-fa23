@@ -1,0 +1,23 @@
+- week: 16
+  rows: 3
+  discussions:
+    - name: No Discussion
+      released: false
+  labs:
+    - name: No Lab
+      link:
+      released: false
+  days:
+    - custom: |
+        <td class="emph2" colspan="3">RRR Week</td>
+      assignments:
+        - title: |
+            <span class="proj">[HW4 due TBD]</span>
+          link: https://www.gradescope.com/courses/420508/assignments/2370669/
+          released: false
+          rows: 3 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+    - custom: |
+        <td class="emph2" colspan="3">RRR Week</td>
+    - custom: |
+        <td class="emph2" colspan="3">RRR Week</td>

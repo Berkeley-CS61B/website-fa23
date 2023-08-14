@@ -1,0 +1,76 @@
+- week: 6
+  # weekly_survey: "https://forms.gle/rNaz3FFqsfKmFSum8"
+  rows: 3
+  discussions:
+    - name: Asymptotics, Disjoint Sets
+      released: false
+      link: "https://drive.google.com/file/d/1Q9qtAwfzM4Vrf6F37bYymuajxNk7P8ir/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1DnrX6OiUBCQEUJxe6wvr4QNgWeGHn6jJ/view?usp=sharing"
+        - name: video
+          released: false
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpqWL31oiZlmcka8zFyT5uM"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1kfSeIEycRWZ30bb7_ba6cmXq2f_B9xr4MtvbiijLhQY/edit?usp=sharing"
+    - name: Asymptotics, Disjoint Sets (Exam-Level)
+      released: false
+      link: "https://drive.google.com/file/d/13Od0bQLdudTnpCeW-hKW3ErX7FZDmBdG/view?usp=share_link"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1GDh85Mr4193s6EIBs-94bHrcNPA8t4vt/view?usp=share_link"
+        - name: video
+          released: false
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRpebKdnwkYKIkyCBNzNXAHW"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1qPMuME25PmeRmbbOQi51_jmz4y9OSq3KvBKomGzzyTg/edit?usp=share_link"
+  labs:
+    - name: Project 1 Peer Review (due TBD)
+      link: materials/lab/lab06/
+      released: false
+  days:
+    - day: 2023-09-25
+      assignments:
+        - title: "Homework 2 (due TBD)"
+          link: materials/hw/hw2
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+
+    - day: 2023-09-27
+      lecture_topic: Asymptotics II
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5Ek10eT39UqAjcwr99xqZP
+        - name: slides
+          link: https://docs.google.com/presentation/d/1BFJ7ycE15A83n6qKcZUUExezu2DC5DwHFpEKP4QOTyA/edit#slide=id.g11c4f8c058_0_29
+        # - name: guide
+        #   link: /materials/lectures/lec15/
+      reading: > # Format in Markdown
+        [Ch 15](https://cs61b-2.gitbook.io/cs61b-textbook/15.-asymptotics-ii)
+      assignments:
+        - title: |
+            <span class="proj">[Project 1C due TBD]</span>
+          rows: 1
+          cols: 2
+          released: false
+
+    - day: 2023-09-29
+      lecture_topic: ADTs, Sets, Maps, BSTs
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5JBcKwLbuUf6BAdotM4-1K
+        - name: slides
+          link: https://docs.google.com/presentation/d/1vf9x_H6lhzBMmkdd4jle46W3KFthWaM-sDaNvn604eE
+      reading: > # Format in Markdown
+        [Ch 16](https://cs61b-2.gitbook.io/cs61b-textbook/16.-adts-and-bsts)
+      assignments:
+        - title: "Project 2A (due TBD)"
+          link: materials/proj/proj2a
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column

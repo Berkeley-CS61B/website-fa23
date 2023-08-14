@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+
+<div class="content-container">
+  <header class="title">{{ page.title }}</header>
+  <div class="content-flex">
+    <section id="main-content">
+      {%- if page.released or jekyll.environment == "debug" -%}
+        {%- if page.author -%}
+          <div class="due-date">Author: {{ page.author }}</div>
+        {%- endif -%}
+        {%- assign anchor_h_min = page.anchor.h_min | default: 1 -%}
+          {%- assign anchor_h_max = page.anchor.h_max | default: 6 -%}
+          {%- include
+              anchor_headings.html
+              html=content
+              h_min=anchor_h_min
+              h_max=anchor_h_max
+              anchorBody="#"
+              anchorClass="anchor_heading"
+          -%}
+      {%- else -%}
+        <h3>{{ page.title }} has not been released yet.</h3>
+      {%- endif -%}
+    </section>
+    {%- unless page.no_toc -%}
+      <nav class="content-nav {% if page.title contains 'FAQ' %}nav-faq{% endif %}">
+        {%- if page.released or jekyll.environment == "debug" -%}
+            {% assign toc_h_min = page.toc.h_min | default: 1 %}
+            {% assign toc_h_max = page.toc.h_max | default: 3 %}
+            {% include toc.html html=content h_min=toc_h_min h_max=toc_h_max %}
+        {%- endif -%}
+      </nav>
+    {%- endunless -%}
+  </div>
+</div>
+<script src="/assets/js/top.js" type="text/javascript" defer></script>
+{%- unless page.no_mathjax -%}
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ["$", "$"],
+          ["\\(", "\\)"]
+        ],
+        processEscapes: true
+      }
+    }
+  </script>
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/mathjax@3.2/es5/tex-chtml.js" async>
+  </script>
+{%- endunless -%}

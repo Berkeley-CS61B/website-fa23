@@ -1,0 +1,47 @@
+{% comment %}
+  Usage:
+    For a short, simple string:
+      {% include alert.html content="This is an alert." %}
+
+    For a longer string:
+      {% include alert.html type="success"
+        content="
+        This is an info alert, with a very long sentence that
+        is broken up into multiple lines in the markdown source.
+
+        It also has multiple paragraphs.
+        "
+      %}
+
+    For a string with too many quotes to reasonably escape:
+      {% capture alertContent %}
+      Hi! I'm an "alert", or 'alert'.
+
+      ```java
+      System.out.println("And some code that has quotes");
+      ```
+
+      {% endcapture %}
+      {% include alert.html content=alertContent %}
+  Parameters:
+    * content     (string)            - the markdown content to be placed in the alert
+  Optional Parameters:
+    * type        (string): 'primary' - the type of alert. See /_sass/includes/_alert.scss.
+  Output:
+    A div containing the alert.
+  Notes:
+    The markdown parser is block-style. The first / last paragraphs do not have top / bottom
+    margins for cleaner spacing.
+{% endcomment %}
+
+{% assign alertType = include.type | default: 'primary' %}
+<div markdown="block" class="alert alert-{{ alertType }}">
+  {%- case alertType -%}
+    {%- when 'success' -%}<i class="fa fa-check-square-o"></i>
+    {%- when 'info' -%}<i class="fa fa-info-circle"></i>
+    {%- when 'warning' -%}<i class="fa fa-exclamation-circle"></i>
+    {%- when 'danger' -%}<i class="fa fa-exclamation-triangle"></i>
+    {%- when 'task' -%}<i class="fa fa-pencil-square-o"></i>
+  {%- endcase -%}
+  {{ include.content }}
+</div>

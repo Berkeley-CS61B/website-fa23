@@ -1,0 +1,63 @@
+/* Styling for FullCalendar */
+.fc {
+  h2 {
+    font-size: 1.25em;
+  }
+  table {
+    margin: 0px !important;
+  }
+  td {
+    text-align: center;
+  }
+
+  .fc-content {
+    padding: 0 2px;
+  }
+
+  .fc-event {
+    font-size: 0.9em;
+    cursor: pointer;
+    background-color: $cs61b-blue-light;
+    border: 1px solid #1e87ff;
+  }
+
+  .lab-event {
+    background-color: #064995;
+    border: 1px solid #0e3a6c;
+  }
+
+  .lecture-event {
+    background-color: #939393;
+    border: 1px solid #474747;
+  }
+
+  .bridge-section-event {
+    background-color: #4f51bc;
+    border: 1px solid #33347a;
+  }
+
+  .exam-level-section-event {
+    background-color: #3a8c41;
+    border: 1px solid #265922;
+  }
+
+  .hug-event {
+    background-color: #ff4136;
+    border: 1px solid #d6372f;
+  }
+
+  .online-section-event {
+    background-color: #d62598;
+    border: 1px solid #b11d7d;
+  }
+
+  .review-session-event {
+    background-color: #0892a5;
+    border: 1px solid #0293a6;
+  }
+
+  .lab-review-event {
+    background-color: #601aa1;
+    border: 1px solid #510984;
+  }
+}

@@ -1,0 +1,66 @@
+- week: 1
+  # weekly_survey: "https://docs.google.com/forms/d/e/1FAIpQLSc2Emy3NLoxgBiZeT94y61nnpjgQhA3ydRrOUhl1ABDqv8UyQ/viewform"
+  rows: 3
+  discussions:
+    - name: No discussion week 1.
+      released: false
+  labs:
+    - name: IntelliJ, Git (due TBD)
+      link: materials/lab/lab01
+      resource_links:
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1uroW9Qpm9eICC8TcuogkrrqjgpaRnZPA"
+      released: false
+
+  days:
+    - custom: |
+        <td class="emph2" colspan="3">No Classes</td>
+      assignments:
+        - title:
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+
+    - day: 2023-08-23
+      lecture_topic: Intro
+      lecture_links:
+        - name: vid
+          link: https://www.youtube.com/watch?v=kktoaXCyVDw&list=PL8FaHk7qbOD6NlIHCjmKSpUudMA-8bMA1
+        - name: recording
+          link: https://kaf.berkeley.edu/media/t/1_uh6kt20r/287340162
+        - name: slides
+          link: https://docs.google.com/presentation/d/1EOHmv6G7LH-ZNrhyd2BXAG30tM65zlixc-vSrufQ-U4
+        - name: guide
+          link: /materials/lectures/lec1
+      reading: > # Format in Markdown
+        [1.1](https://joshhug.gitbooks.io/hug61b/content/chap1/chap11.html)
+      assignments:
+        - title: "HW0A: A Java Crash Course (due TBD)"
+          link: /materials/hw/hw0a
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+
+    - day: 2023-08-25
+      lecture_topic: Classes, Lists, Arrays, Maps
+      lecture_links:
+        - name: video
+          link: https://youtu.be/bE8KRUsWmx0
+        - name: slides
+          link: https://docs.google.com/presentation/d/1zzySpu-3U1lDJn26_F1nHMVTtnukacL0iGFdbUSxu5Y
+        - name: guide
+          link: /materials/lectures/lec2
+      reading: > # Format in Markdown
+        [1.2](https://joshhug.gitbooks.io/hug61b/content/chap1/chap12.html)
+      assignments:
+        - title: "Homework 0B: A Java Crash Course (due TBD)"
+          link: /materials/hw/hw0b
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 1 # 1 for half column, 2 for full column
+        - title: "Project 0: Awakening of Azathoth (due TBD)"
+          link: /materials/proj/proj0
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 1 # 1 for half column, 2 for full column

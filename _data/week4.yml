@@ -1,0 +1,79 @@
+- week: 4
+  # weekly_survey: "https://forms.gle/RbKmnBZvqJJDSWCK6"
+  rows: 3
+  discussions:
+    - name: Inheritance
+      released: false
+      link: "https://drive.google.com/file/d/19GsS_5ZH-UQU1wSifvRNdqC2Qgueb7_L/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1MkdMIPjJQcOCJ-b36KFDWvc80ZNxZRFc/view?usp=sharing"
+        - name: video
+          released: false
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRot6WChi3d2alB9QL7xjmpq"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1Hbs2mDGM7Ic9bWfih9t8FaokrjB-39-E6rjjjwEzX_k/edit?usp=sharing"
+    - name: Inheritance (Exam-Level)
+      released: false
+      link: "https://drive.google.com/file/d/1R7Zxxt_xu-gIZuJXsqeXkGn-T_hgUZ0A/view?usp=share_link"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1y-i3rBp9DSraNOz45KKW4ifP0XrbyOlT/view?usp=share_link"
+        - name: video
+          released: false
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRo32RBXkS7LFlMNNIgF618Q"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1D891iSa83JgrjUELO7UQwEsn_gvbroDCLYZJfnhUmPo/edit?usp=share_link"
+  labs:
+    - name: Project 1 Workday
+      link: materials/lab/lab04/
+      released: false
+  days:
+    - day: 2023-09-11
+      lecture_topic: Extends, Casting, Higher Order Functions
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD62-LKdfz_V_uMg7f5GaSnC
+        - name: slides
+          link: https://docs.google.com/presentation/d/1kddUDGDz_fxbWtUBXP-7-PsYG0JwAjPgyQ5zmDSGmx8
+      reading: > # Format in Markdown
+        [Ch 9](https://cs61b-2.gitbook.io/cs61b-textbook/9.-extends-casting-higher-order-functions)
+      assignments:
+        - title: |
+            <span class="proj">[Project 1A due TBD]</span>
+          rows: 1
+          cols: 2
+          released: false
+    - day: 2023-09-13
+      lecture_topic: Ask Anything (midterm prep)
+      lecture_links:
+        - name: video
+          link: https://youtu.be/8hhiFcOFzWU
+        - name: slides
+          link: https://docs.google.com/presentation/d/189M1lQ8GMzS_c6CyOIN2XcP8vWEshZHig8993wJKHKY/edit#slide=id.g1f04a497f28_0_0
+      assignments:
+        - title: |
+            Midterm 1 (<strong>Thursday</strong> 2/9)<br>7-9 PM
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+          class: emph1
+    - day: 2023-09-15
+      lecture_topic: Subtype Polymorphism, Comparators, Comparable
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD56r1sGUGifsfC0KRDAsuZ3
+        - name: slides
+          link: https://docs.google.com/presentation/d/1oug8uNDvLoDu1szTZ5CZINecDFHKSbRLdNGY5S21NpE
+      reading: > # Format in Markdown
+        [Ch 11](https://cs61b-2.gitbook.io/cs61b-textbook/11.-subtype-polymorphism-comparators-comparable)
+      assignments:
+        - title: "Project 1B (due TBD)"
+          link: /materials/proj/proj1b
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column

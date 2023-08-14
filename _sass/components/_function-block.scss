@@ -1,0 +1,39 @@
+.function-info {
+  @include block-base;
+  margin-bottom: 0;
+  padding: 0.3rem 1rem;
+  background: lighten($cs61b-blue-light, 20%);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  + div {
+    @include block-base;
+    background: lighten($cs61b-blue-light, 24.5%);
+    pre.highlight {
+      margin-bottom: 0px;
+    }
+    > hr {
+      border: 0;
+      border-bottom: 1px dashed black;
+    }
+
+    margin-bottom: 1rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    a {
+      color: shade-color($cs61b-blue-light, 30%);
+      text-decoration: underline;
+    }
+  }
+
+  > code {
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    border: 0px;
+    padding-left: 0;
+    white-space: break-spaces;
+    margin: 0;
+  }
+}

@@ -1,0 +1,21 @@
+details {
+  summary {
+      cursor: pointer;
+      > * {
+          display: inline;
+      }
+  }
+  margin-bottom: 1rem;
+}
+
+details[open] {
+  padding: 0 2rem 0.25rem;
+  background-color: darken(#eeeeee, 10%);
+  outline: 0.25rem solid darken(#eeeeee, 10%);
+  summary {
+      margin-left: -2rem;
+  }
+  :last-child {
+    margin-bottom: 0;
+  }
+}

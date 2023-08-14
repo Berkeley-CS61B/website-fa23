@@ -1,0 +1,72 @@
+#course-calendar {
+  margin: 20px 0;
+  width: 100%;
+
+  th,
+  td {
+    border: 1px solid black;
+  }
+
+  td {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: 4px 10px;
+    box-sizing: border-box;
+  }
+
+  .odd {
+    background-color: #ddd;
+    color: #222222;
+  }
+
+  .current-week {
+    background-color: #e9f2fd;
+  }
+
+  .emph1 {
+    color: white;
+    background-color: $cs61b-blue-light;
+    a {
+      color: white;
+      background-color: $cs61b-blue-light;
+      text-decoration: underline dotted;
+
+      &:hover {
+        color: #cce3ff;
+      }
+    }
+  }
+
+  .emph2 {
+    background-color: #777;
+    color: white;
+  }
+
+  .emph3 {
+    background-color: #cc0000;
+    color: white;
+  }
+
+  .emph4 {
+    background-color: #fdd2f7;
+    color: black;
+  }
+
+  .optional {
+    background-color: #fdd2f7;
+    &.outdated {
+      background-color: #a68da3;
+    }
+    color: black;
+  }
+
+  .outdated {
+    background-color: #aaaaaa;
+    color: black;
+  }
+  .proj {
+    color: #4cbb17;
+  }
+}

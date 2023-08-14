@@ -1,0 +1,8 @@
+- week: 17
+  custom: |
+    <tr>
+      <td height="60" rowspan="1" class="emph2" colspan="8">
+        Finals Week (Dec 11-15)<br>
+        Final exam: TBD
+      </td>
+    </tr>

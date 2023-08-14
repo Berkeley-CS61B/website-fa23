@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+table tbody tr td {
+  box-sizing: content-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.4;
+  color: $dark-grey;
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+  color: $cs61b-blue-light;
+
+  &:hover {
+    color: $cs61b-blue-dark;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.67em 0;
+  a {
+    color: $dark-grey;
+    text-decoration: underline;
+    &:hover {
+      color: $dark-grey;
+    }
+  }
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.15em;
+}
+
+.segmenttitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  a {
+    color: inherit;
+  }
+}
+
+.segment {
+  border-top: 2px solid $cs61b-blue-light;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#content {
+  margin: 20px 40px 40px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 0.9em;
+  }
+  body {
+    font-size: 0.9em;
+  }
+}
+
+code {
+  font-family: "Inconsolata", monospace;
+}
+
+.blue {
+  color: $cs61b-blue-light;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dl,
+dd {
+  margin-bottom: 1em;
+}

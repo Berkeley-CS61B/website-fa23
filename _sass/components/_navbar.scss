@@ -1,0 +1,30 @@
+.navbar-top {
+  top: 0;
+  padding: 10px 0;
+  width: 100%;
+  background-color: $cs61b-blue-light;
+  line-height: 20px;
+  text-align: center;
+  z-index: 10;
+}
+
+.navbar-top a {
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+}
+
+#navitems {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.navitem {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 15px;
+}

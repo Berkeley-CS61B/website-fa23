@@ -1,0 +1,85 @@
+- week: 7
+  # weekly_survey: "https://forms.gle/rK8mvkFg9W9y226v5"
+  rows: 3
+  discussions:
+    - name: ADTs, Asymptotics II, BSTs
+      released: false
+      link: "https://drive.google.com/file/d/1a1SWyETjnPTgkkTiXmMYzfJNwWEYrPfx/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/11s8VTgti_oduM_IAmxCGN9kAez6W9Yvp/view?usp=share_link"
+        - name: video
+          released: false
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRpBCAx-EGDwnOY4YW0zwczO"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1S1Hlu76htddAk_FAX7WyN6YvIF7mg6Bc8k7UczvIZWc/edit?usp=sharing"
+    - name: ADTs, Asymptotics II, BSTs (Exam-Level)
+      released: false
+      link: "https://drive.google.com/file/d/1DDGhpJEy6TdUkK-ru8kITbYs4u6HTs62/view?usp=share_link"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1x490MeDulddXD0tXiJZof5LVwPFOSOq9/view?usp=share_link"
+        - name: video
+          released: false
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRonJvfbSeiELXQ5TcvrAO1U"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/166G3dc-Qm0QPEMaFrDzXQ0vA_zMzlRIwwJw84BckJlw/edit?usp=share_link"
+  labs:
+    - name: BSTMap (due TBD)
+      link: materials/lab/lab07/
+      resource_links:
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1J91pQSLa816ZV9rNrVfRXoeTg0NDpWR4/"
+      released: false
+  days:
+    - day: 2023-10-02
+      lecture_topic: B-Trees (2-3, 2-3-4 Trees)
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/watch?v=0SCtnf84QrI&index=3&list=PL8FaHk7qbOD41EHkD7CgQuRw1jpH_Fv7-
+        - name: slides
+          link: https://docs.google.com/presentation/d/1mNAtzfc7Mna1rpVzoTcrn9p8ejWIh72QBuEqOJwQzbk
+      reading: > # Format in Markdown
+        [Ch 17](https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees)
+      assignments:
+        - title: "Project 2A (due TBD)"
+          link: materials/proj/proj2a
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+
+    - day: 2023-10-04
+      lecture_topic: Red Black Trees
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/watch?v=kkd8d0QhiQ0&list=PL8FaHk7qbOD6aKgTz2W-foDiTeBEaBoS3&index=2&t=0s
+        - name: slides
+          link: https://docs.google.com/presentation/d/1GP_5y1hpfF7SfUz4rfwcP7uXIYZ4cNRREFyz6IDfWhg/edit?usp=sharing
+      reading: > # Format in Markdown
+        [Ch 18](https://cs61b-2.gitbook.io/cs61b-textbook/18.-red-black-trees)
+      assignments:
+        - title: |
+            <span class="proj">[Homework 2 due TBD]</span>
+          rows: 1
+          cols: 2
+          released: false
+    - day: 2023-10-06
+      lecture_topic: Hashing
+      lecture_links:
+        - name: video
+          link: https://youtu.be/A5TwNyJns-Q
+        - name: slides
+          link: https://docs.google.com/presentation/d/1ugoQ4Ni0SrmMToiXmGyRZUueqiYBWeM1E78geVmyFW4
+      reading: >
+        [Ch 19](https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing)
+      assignments:
+        - title: "Project 2A (due TBD)"
+          link: materials/proj/proj2a
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column

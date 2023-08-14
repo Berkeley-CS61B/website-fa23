@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: CS 61B
+email: cs61b@berkeley.edu
+description: "Computer Science 61B: Data Structures"
+keywords: CS61B, Computer Science, CS, 61B, Data Structures, Josh Hug, Berkeley, EECS
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fa23.datastructur.es" # the base hostname & protocol for your site, e.g. http://example.com
+
+term: Fall 2023
+start_date: 2023-01-17
+# section_cal: "c_a5f5aadfe0fa2a01f8cb4fc40fe1c6ac9a3ad5a66fc99b88e8ef47862c6b2a4f@group.calendar.google.com"
+# oh_cal: "c_249dbe0fef817d62e4abe7ac7fa7fd65580a78d9a082ae9a3f9ff36c58291d52@group.calendar.google.com"
+
+github: https://github.com/Berkeley-CS61B/website-fa23
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - .venv
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - vendor
+collections:
+  - announcements
+plugins:
+  - jekyll-relative-links
+sass:
+  sass_dir: _sass
+  style: compressed
+  quiet_deps: true

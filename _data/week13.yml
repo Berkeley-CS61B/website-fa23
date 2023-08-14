@@ -1,0 +1,80 @@
+- week: 13
+  # weekly_survey: "https://forms.gle/Nr1dwYBbnabJg2Jq9"
+  rows: 3
+  custom:
+  discussions:
+    - name: Sorting
+      released: false
+      link: "https://drive.google.com/file/d/1hR_fB34cOWNBZmHlkjLmEm8uKPyDiDd7/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1oViirNhl9yCn6jhq2S2Vo8jAFqVJW7AA/view?usp=sharing"
+        - name: video
+          released: false
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqxJ0qF1CglXRb-Qb-oNOgs"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1CddpDFnS0_i3sEk6V-iGKi3QCRpS6u_5GZDCHn_6u4E/edit?usp=sharing"
+    - name: Sorting (Exam-Level)
+      released: false
+      link: "https://drive.google.com/file/d/1oBQ9iQvsNHABRBPyVmkeSL2L_zWIfwPA/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1c9cvmU2z1xFxkiWkVjmCyAsEQa-FGCUB/view?usp=share_link"
+        - name: video
+          released: false
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRrxu6rDIFiBjifethxW7gSl"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1ykhZDgYmaUiGWkNW5CUGf2QdQt9GoMiVtUesajjxAXs/edit?usp=share_link"
+  labs:
+    - name: Interactivity in Project 3 (due TBD)
+      link: materials/lab/lab13/
+      resource_links:
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1AMRwcmD-MBP28GtkgUkR3wCy98YAc6deVd2byEV0oEU"
+      released: false
+  days:
+    - day: 2023-11-13
+      lecture_topic: More Quicksort, Quick Select, Stability
+      lecture_links:
+        - name: video
+          link: https://youtu.be/l1vAXGWPeG4
+        - name: slides
+          link: https://docs.google.com/presentation/d/1jcIhrPiw6ycHG0cLpjJ5V__TdB1fOVqe-y0buFSd-SY/
+      reading: > # Format in Markdown
+        [Ch 32](https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary)
+      assignments:
+        - title: "Project 3 (due TBD)"
+          link: materials/proj/proj3
+          released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+    - day: 2023-11-15
+      lecture_topic: Software Engineering III
+      class: optional
+      lecture_links:
+        - name: video
+          link: https://youtu.be/ytRAJtFavqw
+        - name: slides
+          link: https://docs.google.com/presentation/d/1NGkMwnPngHDwJSK3DzPBkslm7bKjw6_flY_bFM95Ygs
+      reading: >
+        [Ch 33](https://cs61b-2.gitbook.io/cs61b-textbook/33.-software-engineering-iii)
+    - day: 2023-11-17
+      lecture_topic: Sorting and Algorithmic Bounds
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD7y8-q2qpfhZ-fzphsk3ETf
+        - name: slides
+          link: https://docs.google.com/presentation/d/18wdzl7XSbg6n5FsPvRA5-Xe2AtqeAQ2I1fT1BgMAHaU
+      reading: > # Format in Markdown
+        [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
+      assignments:
+        - title: |
+            <span class="proj">[Project 3 Phase 1 due TBD]</span>
+          rows: 1
+          cols: 2
+          released: false

@@ -1,0 +1,48 @@
+div.highlight {
+  border-radius: 0.5em;
+  overflow: auto;
+  padding: 0.5em;
+}
+
+pre.highlight {
+  margin: 0;
+}
+
+p,
+strong,
+em,
+ol,
+ul,
+li,
+dt,
+dd,
+summary {
+  > code {
+    border-radius: 3px;
+    border: 1px solid black;
+    border-width: 1px;
+    padding: 0.08em 0.3em;
+    margin: 0 0.1em;
+    white-space: nowrap;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  > code {
+    font-size: 1.1em;
+  }
+}
+
+pre code {
+  margin: 0;
+  border: 0;
+}
+
+.highlight > code {
+  color: #f7f7f7;
+  padding: 0px;
+}

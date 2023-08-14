@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% unless page.hide_navbar %} {% include navbar.html %} {% endunless %}
+    <a href="#" id="back-to-top" style="display: none"><span></span></a>
+    {% if page.include_course_info %}
+    <div id="coursename">
+      <a href="/"
+        ><span id="courseid">CS 61B</span> Data Structures, {{ site.term }}</a
+      >
+    </div>
+    <div id="courseinfo">
+      Instructor: Justin Yokota, Peyrin Kao
+      <br />
+      Lecture: 2-3 MWF, Wheeler 150, <a href="#">Zoom (TBD)</a>
+      <br />
+    </div>
+    {% endif %}
+    <main id="content" class="{{ page.class }}">{{ content }}</main>
+    <div id="build_time">
+      <em>Last built: {{ site.time | date: "%Y-%m-%d %H:%M %Z" }}</em>
+    </div>
+    <script src="/assets/js/top.js" type="text/javascript"></script>
+  </body>
+</html>

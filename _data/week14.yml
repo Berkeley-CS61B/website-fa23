@@ -1,0 +1,70 @@
+- week: 14
+  # weekly_survey: "https://forms.gle/RYLLtr7rqoj8KbPP7"
+  rows: 3
+  custom:
+  discussions:
+    - name: More Sorting
+      released: false
+      link: "https://drive.google.com/file/d/1ZwBjebsORfYxYfnWGbrY0J9msjfwpuQf/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/10oou36uzxPGEYWJYULacOPeUT6LVCpcK/view?usp=sharing"
+        - name: video
+          released: false
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrpqJ8WTjbBOwSNFg54wQDT"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1-IHAvOR_ctvOodKofxKoKUAHJFMrEf5UQNPjBRIHaGI/edit?usp=sharing"
+    - name: More Sorting (Exam-Level)
+      released: false
+      link: "https://drive.google.com/file/d/1bPo6CjJgKeAe8M1YAXk8z6Tm6gWr642s/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1w9aMmvStNCSY-6gTg_-MRxYb4GqdDgMt/view?usp=share_link"
+        - name: video
+          released: false
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRoenwS-qOt7TtocoDP-qXo4"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1_-6oCbpCBZmXebp6R_tqahNtJgd6WJwji5Zw0J9TLd8/edit?usp=share_link"
+  labs:
+    - name: Project 3 Workday
+      link: materials/lab/lab12/
+      released: false
+  days:
+    - day: 2023-11-20
+      lecture_topic: Radix Sorts
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/watch?v=AHgK4UqP_ig
+        - name: slides
+          link: https://docs.google.com/presentation/d/1p12fmvg4PXeMHBufBeXTo_BeFiSdl9l5jKeu13LEpbc
+      reading: > # Format in Markdown
+        [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
+      assignments:
+        - title: "Project 3 (due TBD)"
+          link: materials/proj/proj3
+          released: false
+          rows: 3 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+    - day: 2023-11-22
+      lecture_topic: Sorting and Data Structures Conclusion
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4i4ozOgclL_5HMpZrHYA8c&disable_polymer=true
+        - name: slides
+          link: https://docs.google.com/presentation/d/1ILp-tXesmyfkeJ_hfd80fK1CxKB8os_5pCSyDJ-n6Nk/
+      reading: > # Format in Markdown
+        [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)
+    - day: 2023-11-24
+      lecture_topic: Software Engineering IV<br>Designing 61B
+      class: optional
+      lecture_links:
+        - name: video
+          link: https://youtu.be/8lhVw-RCmKQ
+        - name: slides
+          link: https://docs.google.com/presentation/d/1dWqymxQxZrMWYl76GfJoyjP20McXIW6YLx2htZoRexM
+      reading: >
+        [Ch 37](https://cs61b-2.gitbook.io/cs61b-textbook/37-software-engineering-iv)

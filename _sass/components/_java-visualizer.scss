@@ -1,0 +1,20 @@
+figure.java-visualizer {
+  margin: 0;
+
+  iframe {
+    padding: 0;
+  }
+
+  figcaption {
+    padding: 0.75em 0;
+    color: $web-grey;
+
+    .button {
+      border-radius: 2em;
+      border: 1px solid;
+      display: inline-block;
+      margin: 0.25em;
+      padding: 0.5em 1em;
+    }
+  }
+}

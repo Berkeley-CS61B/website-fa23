@@ -1,0 +1,21 @@
+- topic: Online Section Recordings
+  md: |
+    - [Discussion 8 Video](https://www.youtube.com/playlist?list=PLEdR-EJ6X7NrGJT41Aui03QCumTvQk8YG)
+    - [Discussion 9 Video](https://www.youtube.com/playlist?list=PLEdR-EJ6X7NqM082qpgIZV1At0FDLpdMl)
+- topic: Inheritance
+  md: |
+    - [Nicole's videos on typing, overloading, and overriding](https://www.youtube.com/playlist?list=PLEdR-EJ6X7NrMIEgC1chCWUUvmU0j5ftZ)
+    - [Antares' and Vivian's notes on inheritance](https://drive.google.com/file/d/1lsSW3vrN7-x8SwsHqjfjDbAkyY0c_uv_/view?usp=sharing)
+- topic: Midterm 1
+  md: |
+    - [Midterm 1 Review Document](materials/review/MT1ReviewDocument.pdf) ([Solution](materials/review/MT1ReviewDocumentSolution.pdf))
+    - [Midterm 1 Review Guerrilla Section](materials/review/MT1Guerrilla.pdf) ([Solution](materials/review/MT1GuerrillaSolution.pdf))
+    - [Midterm 1 Review Slides](https://docs.google.com/presentation/d/14jUhFhqNiv4d9aeDKpvyW46x-HxIPDaUgRr7YEWSSmU/edit?usp=sharing)
+- topic: Midterm 2
+  md: |
+    - [Midterm 2 Review Document](materials/review/MT2ReviewDocument.pdf) ([Solution](materials/review/MT2ReviewDocumentSolution.pdf))
+    - [Midterm 2 Review Guerrilla Section](materials/review/MT2Guerrilla.pdf) ([Solution](materials/review/MT2GuerrillaSolution.pdf))
+- topic: Final
+  md: |
+    - [Final Review Document](materials/review/FinalReviewDocument.pdf) ([Solution](materials/review/FinalReviewDocumentSolution.pdf))
+    - [Final Review Guerrilla Section](materials/review/FinalGuerrilla.pdf) ([Solution](materials/review/FinalGuerrillaSolution.pdf))

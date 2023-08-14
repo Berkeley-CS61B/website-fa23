@@ -1,0 +1,36 @@
+.about {
+  #main-content {
+    pre,
+    ol,
+    ul {
+      max-width: 700px;
+      margin: auto;
+    }
+  }
+
+  #grade-breakdown, #letter-grades {
+    width: 100%;
+    margin-bottom: 20px;
+    td {
+      width: unset;
+    }
+  }
+
+  #grade-breakdown {
+    > tbody {
+      > tr:nth-child(2n + 1) {
+        background-color: #ddd;
+      }
+    }
+
+    td {
+      text-align: center;
+      min-width: 100px;
+    }
+  }
+
+  #letter-grades td {
+    text-align: center;
+    min-width: 0px;
+  }
+}

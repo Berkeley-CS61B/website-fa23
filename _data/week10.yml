@@ -1,0 +1,80 @@
+- week: 10
+  # weekly_survey: "https://forms.gle/x7a6Do3JYSTr1sEf8"
+  rows: 3
+  discussions:
+    - name: Shortest Paths, MSTs
+      released: false
+      link: "https://drive.google.com/file/d/1BS-5XtL9GpkmeW3IWx44xt-qJHD3pk7P/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1_jT2AmCMkP25F1KRhHRXV2-abHiLq2V8/view?usp=sharing"
+        - name: video
+          released: false
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRp0SkHfIO9HavzXht0K9mOA"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/19aJa7llCHKmBFlmlI0pzWapV8DE_nRjKE0C9ciO1x6g/edit?usp=sharing"
+    - name: Shortest Paths, MSTs (Exam-Level)
+      released: false
+      link: "https://drive.google.com/file/d/1At-W5zAQzyrbUyX6VdDJJPh9UY9rTWYx/view?usp=share_link"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1X5oVs_qO2hgN5vwNMZnoIRrqVo8TaaOk/view?usp=share_link"
+        - name: video
+          released: false
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRqhMYH6tRt4bru5HxoWta9G"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1rwMI17qMU3KgmA3k1nh1fuWBW8ZFCO4RwB_VfT8mYsY/edit?usp=share_link"
+  labs:
+    - name: No Lab (Project 2 Workday)
+      released: false
+
+  days:
+    - day: 2023-10-23
+      lecture_topic: Prefix Operations and Tries
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/watch?v=F8Q-SHW2hAM&list=PL8FaHk7qbOD7eyAcACitG8neRNL2rsvng
+        - name: slides
+          link: https://docs.google.com/presentation/d/1Xvm1BB6WeUwYrwRe8QmcRscD0ivqOlLyWBhYQrDxzHQ/edit
+      reading: > # Format in Markdown
+        [Ch 26](https://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
+      assignments:
+        - title: Project 2B (due TBD)
+          link: materials/proj/proj2b
+          rows: 2
+          cols: 2
+          released: false
+
+    - day: 2023-10-25
+      lecture_topic: Software Engineering I
+      class: optional
+      lecture_links:
+        - name: video
+          link: https://youtu.be/fHEVKqYb9x8
+        - name: slides
+          link: https://docs.google.com/presentation/d/1gmTi34M9-L8ERjB_fV5PhNoPJIUd1ThGaS1-rNGykP0/edit#slide=id.g1df97568178_0_0
+      reading: >
+        [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
+
+    - day: 2023-10-27
+      lecture_topic: Reductions and Decomposition
+      class: optional
+      lecture_links:
+        - name: video
+          link: https://youtu.be/rf1mHSoGomk
+        - name: slides
+          link: https://docs.google.com/presentation/d/1yrFdtRFZB9rHTNOMwB1qt9PjWK7hDhbhF3F2KXZU9hM/edit#slide=id.g409413421_0637
+        # - name: check in
+        #   link: https://forms.gle/LKCByxFmEpRVFVHo9
+      reading: > # Format in Markdown
+        [Ch 28](https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition)
+      assignments:
+        - title: |
+            <span class="proj">[Project 2B due TBD]</span>
+          rows: 1
+          cols: 2
+          released: false

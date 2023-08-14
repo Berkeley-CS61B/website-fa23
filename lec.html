@@ -1,0 +1,20 @@
+---
+layout: page
+released: true
+include_course_info: true
+title: Lecture Links
+---
+
+{% for lec in site.data.lecture_polls %}
+<div class="segment">
+  <div class="segmenttitle"> Lecture {{ lec.lecture_num }} </div>
+    <ul>
+    {% for poll in lec.polls %}
+      {% assign i = forloop.index %}
+      <li><a href="{{ poll.link }}" target="_blank">{{ i }}. {{ poll.name }}</a>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endfor %}
+

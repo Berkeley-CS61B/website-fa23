@@ -1,0 +1,108 @@
+- week: 3
+  # weekly_survey: "https://forms.gle/QjKBTdm8T2eknVsx5"
+  rows: 3
+  discussions:
+    - name: Scope, Static, Linked Lists, Arrays
+      released: false
+      link: "https://drive.google.com/file/d/1qiF-aEYKl6-Y8gsf_SfHSjlgQ9SlLHTb/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1b9-OZnczWknxe9huqJhUkjIjhEqNuF_e/view?usp=sharing"
+        - name: video
+          released: false
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpemggJcC8s64Om7XBMmmWZ"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1AyMB8SSXx3HzAkRDsny3cgcrh-KtD60F70swxMQHTtY/edit?usp=sharing"
+    - name: Arrays, Linked Lists (Exam-Level)
+      released: false
+      link: "https://drive.google.com/file/d/14MsmrUNXnp-aiJVosQYTbMusnt2rrgeH/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/14SvSDnM1oGaAT6Dgw9eU6Z_3syR6G1WJ/view?usp=sharing"
+        - name: video
+          released: false
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRpPzSP6eDAJLsqxHbAqhgkX"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1VjmwgTGgH5bWsBoPePlOxJrONgHBAz3_Wi1RRfT_XHk/edit?usp=share_link"
+    - name: Exam Review Session (2/3)
+      released: false
+      link: "https://drive.google.com/file/d/1koTjUljHHI_ojyw5Q_DqBYhw6nnl7kh5/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: https://drive.google.com/file/d/1d7bkHNMp4CA3fPB49hgGup48bUxaS110/view?usp=sharing
+        - name: video
+          released: false
+          link:
+        - name: slides
+          released: false
+          link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
+  labs:
+    - name: Timing (due TBD)
+      link: materials/lab/lab03
+      resource_links:
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1OpGIcghuK0jrVYxR04HtY_oKAAaG4j8D"
+      released: false
+  days:
+    - day: 2023-09-04
+      lecture_topic: Testing
+      lecture_links:
+        - name: video
+          link: https://youtu.be/Dpe3FPRfaFE
+        - name: bonus video
+          link: https://youtu.be/1MzbwZwos6Q
+        - name: slides
+          link: https://docs.google.com/presentation/d/1KZLjMPnJ69UkgUQpJqyBEtgOb-XrjwIMO-cL4CUyvjk
+        - name: guide
+          link: /materials/lectures/lec3/
+      reading: > # Format in Markdown
+        Optional: [TDD is dead](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html),
+        [Unit Tests Are Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf),
+        [Response](http://henrikwarne.com/2014/09/04/a-response-to-why-most-unit-testing-is-waste/)
+      assignments:
+        - title: "Project 1A: Deques (due TBD)"
+          link: /materials/proj/proj1a
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+
+    - day: 2023-09-06
+      lecture_topic: ArrayLists, Resizing
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4S8NCRyN3yQV2U2TpjWUhy
+        - name: slides
+          link: https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit?usp=sharing
+        - name: guide
+          link: /materials/lectures/lec7
+      reading: > # Format in Markdown
+        [2.5](https://joshhug.gitbooks.io/hug61b/content/chap2/chap25.html)
+      assignments:
+        - title: "Project 1A (due TBD)"
+          link: /materials/proj/proj1a
+          released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 1 # 1 for half column, 2 for full column
+        - title: "Project 1B (due TBD)"
+          link: /materials/proj/proj1b
+          released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 1 # 1 for half column, 2 for full column
+
+    - day: 2023-09-08
+      lecture_topic: Inheritance, Implements
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6UzicZ-KQwB0z1ThjGxjFF
+        - name: slides
+          link: https://docs.google.com/presentation/d/1iqgV3yttGp8VxfIhJzTT7DMHv8LZ78SFMvklO8z58rI
+        - name: guide
+          link: /materials/lectures/lec8/
+      reading: > # Format in Markdown
+        [4.1](https://joshhug.gitbooks.io/hug61b/content/chap4/chap41.html)

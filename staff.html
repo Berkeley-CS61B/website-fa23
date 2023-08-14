@@ -1,0 +1,163 @@
+---
+layout: default
+released: true
+include_course_info: true
+title: Staff
+---
+
+<div class="segment" id="instructor">
+  <div class="segmenttitle">Instructors</div>
+  <div class="text">
+    <span id="josh-fake-email">
+      <em
+        >Please email <strong>cs61b (at) berkeley.edu</strong> for
+        logistics.</em
+      >
+    </span>
+    <button id="email-trigger">OK, show emails</button><br />
+  </div>
+  <br />
+
+  <!-- TODO: Remove this warning -->
+  <h1 style="color: red">
+    This site is under construction. Staff will come soon!
+  </h1>
+  <!-- <div class="table-container">
+    <table class="instructor">
+      <tr>
+        <td>
+          <div class="photo photo1">
+            <img alt="hug1" data-src="assets/img/staff/hug1.png" />
+          </div>
+          <div class="photo photo2">
+            <img alt="hug2" data-src="assets/img/staff/hug2.png" />
+          </div>
+          <div class="photo photo3">
+            <img alt="hug3" data-src="assets/img/staff/hug3.png" />
+          </div>
+        </td>
+        <td>
+          <div class="segmenttitle">Josh Hug</div>
+          <span id="josh-email" style="display: none">
+            hug (at) cs.berkeley.edu
+          </span>
+          <hr />
+          <div class="text">
+            One time
+            <a href="http://longhorncampus.blogspot.com/2004_02_01_archive.html"
+              >this happened</a
+            >.
+          </div>
+        </td>
+        <td>
+          <div class="photo photo1">
+            <img alt="justin-yokota" data-src="assets/img/staff/justin-yokota.png" />
+          </div>
+          <div class="photo photo2">
+            <img alt="justin-yokota" data-src="assets/img/staff/justin-yokota.png" />
+          </div>
+          <div class="photo photo3">
+            <img alt="justin-yokota" data-src="assets/img/staff/justin-yokota.png" />
+          </div>
+        </td>
+        <td>
+          <div class="segmenttitle">Justin Yokota</div>
+          <span id="justin-email" style="display: none">
+            jyokota (at) berkeley.edu
+          </span>
+          <hr />
+          <div class="text">
+            Hi All! I'm Justin (he/him), one of the co-instructors for 61B and 61C this semester. As an undergraduate, I did a double math/CS major, and completed a fifth-year masters in a parallel computing project (all at Berkeley). I additionally worked as a TA for nine semesters, with a focus on exam writing.
+            Outside of work, I spend most of my time playing Celeste (9D is brutal) and solving/writing puzzles as part of BMT and teammate.
+            Part 1 of 2: Literal wariness snacks overpays, but fries alert scams. Foaming clams?
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="segment" id="tas">
+  <div class="segmenttitle">Teaching Assistants</div>
+  <div class="table-container">
+    <table class="staff">
+      {%- for staff in site.data.tas -%} {%- assign mod = forloop.index0 | modulo:
+      3 -%} {%- if mod == 0 -%}
+      <tr>
+        {%- endif -%}
+        <td>
+          {%- if staff.pic1 -%}
+          <div class="photo photo1"><img data-src="{{ staff.pic1 }}" /></div>
+          {%- else -%}
+          <div class="photo photo1"><img data-src="assets/img/corgi.jpg" /></div>
+          {%- endif -%} {%- if staff.pic2 -%}
+          <div class="photo photo2"><img data-src="{{ staff.pic2 }}" /></div>
+          {%- else -%}
+          <div class="photo photo2"><img data-src="assets/img/corgi.jpg" /></div>
+          {%- endif -%} {%- if staff.pic3 -%}
+          <div class="photo photo3"><img data-src="{{ staff.pic3 }}" /></div>
+          {%- endif -%} {%- if staff.pic4 -%}
+          <div class="photo photo4"><img data-src="{{ staff.pic4 }}" /></div>
+          {%- endif -%} {%- if staff.link != nil -%}
+          <div class="segmenttitle">
+            <a class="staff-link" href="{{ staff.link }}">{{ staff.name }}</a>
+          </div>
+          {%- else -%}
+          <div class="segmenttitle">{{ staff.name }}</div>
+          {%- endif -%}
+          <div class="text email">{{ staff.email }}</div>
+          {%- if staff.pronouns -%}
+          <div class="text">Pronouns: {{ staff.pronouns }}</div>
+          {%- endif -%} {%- if staff.role -%}
+          <div class="text">{{ staff.role }}</div>
+          {%- endif -%}
+          <div class="text bio">{{ staff.bio }}</div>
+        </td>
+        {% if mod == g %}
+      </tr>
+      {% endif %}{%- endfor -%}
+    </table>
+  </div>
+</div>
+<div class="segment" id="tutors">
+  <div class="segmenttitle">Tutors</div>
+  <table class="staff">
+    {%- for staff in site.data.tutors -%} {%- assign mod = forloop.index0 | modulo:
+    3 -%} {%- if mod == 0 -%}
+    <tr>
+      {%- endif -%}
+      <td>
+        {%- if staff.pic1 -%}
+        <div class="photo photo1"><img data-src="{{ staff.pic1 }}" /></div>
+        {%- else -%}
+        <div class="photo photo1"><img data-src="assets/img/corgi.jpg" /></div>
+        {%- endif -%} {%- if staff.pic2 -%}
+        <div class="photo photo2"><img data-src="{{ staff.pic2 }}" /></div>
+        {%- else -%}
+        <div class="photo photo2"><img data-src="assets/img/corgi.jpg" /></div>
+        {%- endif -%} {%- if staff.pic3 -%}
+        <div class="photo photo3"><img data-src="{{ staff.pic3 }}" /></div>
+        {%- endif -%} {%- if staff.pic4 -%}
+        <div class="photo photo4"><img data-src="{{ staff.pic4 }}" /></div>
+        {%- endif -%} {%- if staff.link != nil -%}
+        <div class="segmenttitle">
+          <a class="staff-link" href="{{ staff.link }}">{{ staff.name }}</a>
+        </div>
+        {%- else -%}
+        <div class="segmenttitle">{{ staff.name }}</div>
+        {%- endif -%}
+        <div class="text email">{{ staff.email }}</div>
+        {%- if staff.pronouns -%}
+        <div class="text">Pronouns: {{ staff.pronouns }}</div>
+        {%- endif -%} {%- if staff.role -%}
+        <div class="text">{{ staff.role }}</div>
+        {%- endif -%}
+        <div class="text bio">{{ staff.bio }}</div>
+      </td>
+      {% if mod == g %}
+    </tr>
+    {% endif %}{%- endfor -%}
+  </table>
+</div> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.6.0/lazyload.min.js"></script>
+  <script src="/assets/js/staff.js"></script>
+</div>

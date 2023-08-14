@@ -1,0 +1,81 @@
+{% comment %}
+  Liquid template for generating Java Visualizer embeds.
+
+  Usage:
+    {%- capture HelloWorld -%}
+    public class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello, world!");
+        }
+    }
+    {%- endcapture -%}
+    {% include java_visualizer.html
+        embed=true caption="Hello, world!" code=HelloWorld
+        height="480px" curInstr="0" args='["arg1", ...]' stdin="stdin" %}
+{% endcomment %}
+
+{% assign height = include.height | default: '564px' %}
+{% assign curInstr = include.curInstr | default: 0 %}
+{% assign args = include.args | default: '[]' %}
+{% assign stdin = include.stdin | default: '' %}
+{% assign code = include.code | default: '' %}
+{% assign caption = include.caption | default: '' %}
+
+{% if include.embed %}
+{% capture data %}
+{
+  "user_script":"{{ code | replace: '"', '\"' | newline_to_br | replace: '<br />', '\n' }}",
+  "options":{
+    "showStringsAsValues":false,
+    "showAllFields":false
+  },
+  "args":{{ args }},
+  "stdin":"{{ stdin }}"
+}
+{% endcapture %}
+{% assign data = data
+  | strip_newlines
+  | uri_escape
+  | replace: '#', '%23'
+  | replace: '$', '%24'
+  | replace: '&', '%26'
+  | replace: '+', '%2B'
+  | replace: ',', '%2C'
+  | replace: '/', '%2F'
+  | replace: ':', '%3A'
+  | replace: ';', '%3B'
+  | replace: '=', '%3D'
+  | replace: '?', '%3F'
+  | replace: '@', '%40'
+  | replace: '[', '%5B'
+  | replace: ']', '%5D'
+%}
+{% else %}
+{% capture codeBlock %}
+```java
+{{ code }}
+```
+{% endcapture %}
+{% assign codeBlock = codeBlock | markdownify %}
+{% endif %}
+
+<figure class="java-visualizer">
+  {% if include.embed %}
+  <iframe style="width: 100%; height: {{ height }}; border: 0;"
+    src="https://cscircles.cemc.uwaterloo.ca/java_visualize/iframe-embed.html#data={{ data }}&cumulative=true&heapPrimitives=false&drawParentPointers=false&textReferences=false&showOnlyOutputs=false&py=3&curInstr={{ curInstr }}&resizeContainer=true&highlightLines=true&rightStdout=true">
+  </iframe>
+  {% else %}
+  {{ codeBlock }}
+  {% endif %}
+  {% if caption %}
+  <figcaption>
+    {{ caption }}
+    <div class="tag-list">
+      <a class="button" target="_blank" rel="noreferrer"
+        href="https://cscircles.cemc.uwaterloo.ca/java_visualize/#code={{ code | url_encode }}&mode=edit&showStringsAsObjects=&disableNesting=&args={{ args | url_encode }}&stdin={{ stdin | url_encode }}&curInstr={{ curInstr }}">
+        Open in Java Visualizer
+      </a>
+    </div>
+  </figcaption>
+  {% endif %}
+</figure>

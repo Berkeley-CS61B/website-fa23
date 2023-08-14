@@ -1,0 +1,15 @@
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+<div class="post-metadata">
+  Posted {{ page.date | date: "%B %-d, %Y @ %H:%M:%S" }}
+  {%- if page.updated and page.updated > page.date -%}
+  <!--
+    <br>
+    Last updated {{ page.updated | date: "%B %-d, %Y @ %H:%M:%S" }}
+  -->
+  {%- endif -%}
+  {%- if page.piazza_link -%}
+  <br>
+  <a href="{{ page.piazza_link }}">Link to Piazza post</a>
+  {%- endif -%}
+</div>
+{{ content }}

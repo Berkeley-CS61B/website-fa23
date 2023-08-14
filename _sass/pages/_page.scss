@@ -1,0 +1,133 @@
+.content-container {
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  img.inline {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 3em;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    // Pad title to content. Maths, because of pixel max width
+    padding-left: max(4.5%, calc(5% + (72.5% - 850px)) / 2);
+  }
+
+  /* Content */
+  .content-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5% 1.5%;
+    justify-content: center;
+
+    #main-content {
+      h2:first-child {
+        margin-top: 5px;
+      }
+
+      ul,
+      ol,
+      li {
+        margin: 10px 0;
+      }
+
+      flex: 0 0 75%;
+      max-width: min(75%, 850px);
+
+      @media (max-width: $toc-break) {
+        flex: 0 0 100%;
+        max-width: 100%;
+        order: 1;
+      }
+
+      &.no-toc {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .due-date {
+    font-size: 16px;
+    color: #0072c1;
+  }
+
+  .redtext {
+    color: red;
+  }
+
+  .whitetext {
+    color: white;
+  }
+
+  /* Tables */
+  table {
+    border: 1px solid black;
+    margin: auto;
+    width: 100%;
+    max-width: 750px;
+  }
+
+  th {
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px 10px;
+  }
+
+  td {
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px 10px;
+  }
+
+  table.unlined {
+    border: none;
+  }
+
+  table.unlined > tbody > tr > td {
+    border: none;
+    padding: 3px 10px;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  div.highlighter-rouge {
+    margin: 1.0em auto;
+    max-width: 750px;
+  }
+
+  h2, h3, h4 {
+    padding-top: 20px;
+    border-top: 2px solid $cs61b-blue-light;
+  }
+
+  p.center {
+    text-align: center;
+  }
+}
+
+a.anchor_heading {
+  visibility: hidden;
+  text-decoration: none;
+  color: $cs61b-blue-light;
+  &:hover {
+    color: $cs61b-blue-dark;
+  }
+}
+
+h1:hover > a.anchor_heading,
+h2:hover > a.anchor_heading,
+h3:hover > a.anchor_heading,
+h4:hover > a.anchor_heading,
+h5:hover > a.anchor_heading,
+h6:hover > a.anchor_heading {
+  visibility: visible;
+}

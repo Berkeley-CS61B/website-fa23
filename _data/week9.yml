@@ -1,0 +1,78 @@
+- week: 9
+  # weekly_survey: "https://forms.gle/R1JNQaMwycgzAphEA"
+  rows: 3
+  discussions:
+    - name: Graphs, Heaps
+      released: false
+      link: "https://drive.google.com/file/d/1xQuz9DGTkarjvl8MCxpbXiBBRFOIBj1_/view?usp=sharing"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1ozcY7plnywg1NeWhuI9vDGSvmZDw-_2S/view?usp=sharing"
+        - name: video
+          released: false
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrdIn4Jnf_aI1Hgw5m-wrL2"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1Qsw8cnhfkmZxCmnD5jNS1CYnGZiyAoun9M3L3aKEVq8/edit?usp=sharing"
+    - name: Graphs, Heaps (Exam-Level)
+      released: false
+      link: "https://drive.google.com/file/d/1O3ks_kojbcnm-K2GkTGfniABxM0xiEwn/view?usp=share_link"
+      resource_links:
+        - name: solution
+          released: false
+          link: "https://drive.google.com/file/d/1dcDpCOcvJNdctZXQIpakl-R2FGUs-3dT/view?usp=share_link"
+        - name: video
+          released: false
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRqWGEpy-S22SMXVVxtkqmmT"
+        - name: slides
+          released: false
+          link: "https://docs.google.com/presentation/d/1M4M_uupWmL1XmZJRIfvvKrzpva9P0zEKN7tme5fz-2c/edit?usp=share_link"
+  labs:
+    - name: Project 2B Checkpoint (due TBD)
+      link: materials/lab/lab09/
+      released: false
+  days:
+    - day: 2023-10-16
+      lecture_topic: Graph Traversals and Implementations
+      lecture_links:
+        - name: video
+          link: https://youtu.be/YgPtwbWpLaM
+        - name: slides
+          link: https://docs.google.com/presentation/d/14JBHhFswzC_9_g_OD0DARiLTE5J7wZJ4hIQJQCvBB6c
+      reading: > # Format in Markdown
+        [Ch 23](https://cs61b-2.gitbook.io/cs61b-textbook/23.-graph-traversals-and-implementations)
+      assignments:
+        - title: |
+            <span class="proj">[Homework 3 due TBD]</span>
+          rows: 1
+          cols: 2
+          released: false
+    - day: 2023-10-18
+      lecture_topic: Shortest Paths
+      lecture_links:
+        - name: old video
+          link: https://www.youtube.com/watch?v=iMoFtG1md3w&feature=youtu.be&t=5m03s
+        - name: slides
+          link: https://docs.google.com/presentation/d/18pU3NjOeYZCWqo7VrXZwsF2y7AEO4X7xY50NnsKyHw0/edit?usp=sharing
+      reading: > # Format in Markdown
+        [Ch 24](https://cs61b-2.gitbook.io/cs61b-textbook/24.-shortest-paths)
+      assignments:
+        - title: |
+            Midterm 2 (<strong>Thursday</strong> 3/16)<br>7-9 PM<br>
+          link:
+          solution:
+          video:
+          released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+          class: emph1
+    - day: 2023-10-20
+      lecture_topic: Minimum Spanning Trees
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/watch?v=vnKK38JS9Ik&list=PL8FaHk7qbOD7SvlWei_-neNmgmXzJG2ad&index=1
+        - name: slides
+          link: https://docs.google.com/presentation/d/1ILecDfqGbGg676xEmp4djysXv2nPNKOZ8FcqjlnR9fE/edit?usp=sharing
+      reading: > # Format in Markdown
+        [Ch 25](https://cs61b-2.gitbook.io/cs61b-textbook/25.-minimum-spanning-trees)

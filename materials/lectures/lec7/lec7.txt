@@ -1,0 +1,107 @@
+These notes are an abridged, concatenated, and somewhat revised version of 
+Jonathan Shewchuk's 61B Spring 2014 notes. The originals can be found at:
+
+http://www.cs.berkeley.edu/~jrs/61b/lec/07
+
+and
+
+http://www.cs.berkeley.edu/~jrs/61b/lec/08
+
+DOUBLY-LINKED LISTS
+===================
+As we saw last class, inserting an item at the front of a linked list is easy.
+Deleting from the front of a list is also easy.  However, inserting or deleting
+an item at the end of a list entails a search through the entire list, which
+might take a long time.  (Inserting at the end is easy if you have a `tail'
+pointer, as you will learn in Lab 3, but deleting is still hard.)
+
+A doubly-linked list is a list in which each node has a reference to the
+previous node, as well as the next node.
+
+  class DListNode {                    |  class DList {
+    Object item;                       |    private DListNode head;
+    DListNode next;                    |    private DListNode tail;
+    DListNode prev;                    |  }
+  }                                    |
+
+           -------------      -------------      -------------
+           |       item|      |       item|      |       item|
+    head   |      -----|      |      -----|      |      -----|   tail
+    -----  |----- | 4 ||      |----- | 1 ||      |----- | 8 ||  -----
+    | . +->|| X | -----|<-----++-. | -----|<-----++-. | -----|<-+-. |
+    -----  |----- -----|      |----- -----|      |----- -----|  -----
+           |prev  | .-++----->|prev  | .-++----->|prev  | X ||
+           |      -----|      |      -----|      |      -----|
+           |       next|      |       next|      |       next|
+           -------------      -------------      -------------
+
+DLists make it possible to insert and delete items at both ends of the list,
+taking constant running time per insertion and deletion.  The following code
+removes the tail node (in constant time) if there are at least two items in the
+DList.
+
+  tail.prev.next = null;
+  tail = tail.prev;
+
+You'll need a special case for a DList with no items.  You'll also need a
+special case for a DList with one item, because tail.prev.next does not exist.
+(Instead, head needs to be changed.)
+
+Let's look at a clever trick for reducing the number of special cases, thereby
+simplifying our DList code.  We designate one DListNode as a _sentinel_, a
+special node that does not represent an item.  Our list representation will be
+circularly linked, and the sentinel will represent both the head and the tail
+of the list.  Our DList class no longer needs a tail pointer, and the head
+pointer points to the sentinel.
+
+  class DList {
+    private DListNode head;
+    private int size;
+  }
+
+                          sentinel
+                          -------------    -----
+                          |       item|<---+-. |
+          --------------->|      -----|    -----
+          |               |prev  | X ||     head
+          |               |----- -----|
+          |               || .-+------+-----------------
+          |               |----- -----|                |
+          |      ---------+------+-. ||                |
+          |      |        |  next-----|<---------------+-----
+          |      |        -------------                |    |
+          |      v                                     v    |
+       ---+---------      -------------      -------------  |
+       |  |    item|      |       item|      |       item|  |
+       |  |   -----|      |      -----|      |      -----|  |
+       |--+-- | 4 ||      |----- | 1 ||      |----- | 8 ||  |
+       || . | -----|<-----++-. | -----|<-----++-. | -----|  |
+       |----- -----|      |----- -----|      |----- -----|  |
+       |prev  | .-++----->|prev  | .-++----->|prev  | .-++---
+       |      -----|      |      -----|      |      -----|
+       |       next|      |       next|      |       next|
+       -------------      -------------      -------------
+
+The invariants of the DList ADT are more complicated than the SList invariants.
+The following invariants apply to the DList with a sentinel.
+(1)  For any DList d, d.head != null.  (There's always a sentinel.)
+(2)  For any DListNode x, x.next != null.
+(3)  For any DListNode x, x.prev != null.
+(4)  For any DListNode x, if x.next == y, then y.prev == x.
+(5)  For any DListNode x, if x.prev == y, then y.next == x.
+(6)  A DList's "size" variable is the number of DListNodes, NOT COUNTING the
+     sentinel (denoted by "head"), that can be accessed from the sentinel by
+     a sequence of "next" references.
+
+An empty DList is represented by having the sentinel's prev and next fields
+point to itself.
+
+Here's an example of a method that removes the last item from a DList.
+
+  public void removeBack() {
+    if (head.prev != head) {        // Do nothing if the DList is empty.
+      head.prev = head.prev.prev;   // Sentinel now points to second-last item.
+      head.prev.next = head;        // Second-last item now points to sentinel.
+      size--;
+    }
+  }

@@ -1,0 +1,14 @@
+- lecture_num: 3
+  polls:
+    - name: Is This Working?
+      link: https://docs.google.com/forms/d/e/1FAIpQLSdB3KbiDbQPBgYBBdxyW0m_UH7SyU09lA0oLX6OD0TCb21sZw/viewform?usp=sf_link
+    - name: Walrus Mystery 1
+      link: https://docs.google.com/forms/d/e/1FAIpQLScBNa7n3mvdlTQVzCa8kBCuNRsB2hyb6ZJVcIeSTZLc6GJ0OQ/viewform?usp=sf_link
+    - name: Walrus Mystery 2
+      link: https://docs.google.com/forms/d/e/1FAIpQLScnfaGBse9tR1ug8W_NdWxVcLObE7icjb7aLV2XuVYEADEEXA/viewform?usp=sf_link
+    - name: PBV
+      link: https://docs.google.com/forms/d/e/1FAIpQLSfQvtXFg4B94u9M5y7VuqIi2CZgixgQEl2kpBoCGfnDdQ_FPw/viewform?usp=sf_link
+    - name: PBV Again
+      link: https://docs.google.com/forms/d/e/1FAIpQLSeQn17p34ZY0p5LoEo1Ye0hbGXP69GVaBPGS5bE_IT6xjhrsA/viewform?usp=sf_link
+    - name: Comfort
+      link: https://docs.google.com/forms/d/e/1FAIpQLSee85uqSrbAY6BeW26hgFAb9vEz7d7bLKB8BIqSLUIQ4H9oqw/viewform?usp=sf_link
