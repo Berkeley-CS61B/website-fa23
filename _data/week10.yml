@@ -53,10 +53,6 @@
       lecture_topic: Software Engineering I
       class: optional
       lecture_links:
-        - name: video
-          link: https://youtu.be/fHEVKqYb9x8
-        - name: slides
-          link: https://docs.google.com/presentation/d/1gmTi34M9-L8ERjB_fV5PhNoPJIUd1ThGaS1-rNGykP0/edit#slide=id.g1df97568178_0_0
       reading: >
         [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
 
