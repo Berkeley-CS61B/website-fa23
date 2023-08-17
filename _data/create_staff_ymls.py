@@ -52,8 +52,9 @@ website_link = "Personal Website"
 
 tas = []
 tutors = []
+ais = []
 
-with open (csv_file_name, newline='') as csvfile:
+with open(csv_file_name, newline='') as csvfile:
     reader = DictReader(csvfile)
     for row in reader:
         staff_member = {}
@@ -72,9 +73,12 @@ with open (csv_file_name, newline='') as csvfile:
         staff_member['pronouns'] = row[pronouns]
         staff_member['link'] = row[website_link] or None
 
-        dest_lst = tas if staff_type != 'tutor' else tutors
-
-        dest_lst.append(staff_member)
+        if staff_type == 'ta':
+            tas.append(staff_member)
+        elif staff_type == 'tutor':
+            tutors.append(staff_member)
+        else:
+            ais.append(staff_member)
 
         hyphenated_name = _name.lower().replace(' ', '-')
         img_path = f'assets/img/staff/{hyphenated_name}-1.jpg'
@@ -98,12 +102,17 @@ with open (csv_file_name, newline='') as csvfile:
 
 tas.sort(key=lambda row: row['name'])
 tutors.sort(key=lambda row: row['name'])
+ais.sort(key=lambda row: row['name'])
 
 tas_file_contents = dump(tas)
 tutors_file_contents = dump(tutors)
+ai_file_contents = dump(ais)
 
 with open('tas.yml', 'w') as file:
     file.write(tas_file_contents)
 
 with open('tutors.yml', 'w') as file:
     file.write(tutors_file_contents)
+
+with open('ais.yml', 'w') as file:
+    file.write(ai_file_contents)

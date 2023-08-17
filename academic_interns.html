@@ -1,0 +1,58 @@
+---
+layout: default
+released: true
+include_course_info: true
+title: Academic Interns
+---
+
+  <!-- TODO: Remove this warning -->
+  <h1 style="color: red">
+    This site is under construction. AIs will come soon!
+  </h1>
+  
+<!-- <div class="segment" id="ais">
+  <div class="segmenttitle">Teaching Assistants</div>
+  <div class="table-container">
+    <table class="staff">
+      {%- for ai in site.data.ais -%} {%- assign mod = forloop.index0 | modulo:
+      3 -%} {%- if mod == 0 -%}
+      <tr>
+        {%- endif -%}
+        <td>
+          {%- if ai.pic1 -%}
+          <div class="photo photo1"><img data-src="{{ ai.pic1 }}" /></div>
+          {%- else -%}
+          <div class="photo photo1"><img data-src="assets/img/corgi.jpg" /></div>
+          {%- endif -%} {%- if ai.pic2 -%}
+          <div class="photo photo2"><img data-src="{{ ai.pic2 }}" /></div>
+          {%- else -%}
+          <div class="photo photo2"><img data-src="assets/img/corgi.jpg" /></div>
+          {%- endif -%} {%- if ai.pic3 -%}
+          <div class="photo photo3"><img data-src="{{ ai.pic3 }}" /></div>
+          {%- endif -%} {%- if ai.pic4 -%}
+          <div class="photo photo4"><img data-src="{{ ai.pic4 }}" /></div>
+          {%- endif -%} {%- if ai.link != nil -%}
+          <div class="segmenttitle">
+            <a class="ai-link" href="{{ ai.link }}">{{ ai.name }}</a>
+          </div>
+          {%- else -%}
+          <div class="segmenttitle">{{ ai.name }}</div>
+          {%- endif -%}
+          <div class="text email">{{ ai.email }}</div>
+          {%- if ai.pronouns -%}
+          <div class="text">Pronouns: {{ ai.pronouns }}</div>
+          {%- endif -%} {%- if ai.role -%}
+          <div class="text">{{ ai.role }}</div>
+          {%- endif -%}
+          <div class="text bio">{{ ai.bio }}</div>
+        </td>
+        {% if mod == g %}
+      </tr>
+      {% endif %}{%- endfor -%}
+    </table>
+  </div>
+</div> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.6.0/lazyload.min.js"></script>
+  <script src="/assets/js/staff.js"></script>
+</div>
