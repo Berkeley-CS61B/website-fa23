@@ -143,8 +143,6 @@ class Cookie:
 
 
 
-
-Cookie.print_fun_fact()
 ```
 
 </td>
@@ -162,8 +160,6 @@ class Cookie {
             + yearInvented);
     }
 }
-
-
 ```
 
 </td>
