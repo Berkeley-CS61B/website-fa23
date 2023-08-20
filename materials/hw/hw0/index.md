@@ -2,7 +2,7 @@
 layout: page
 title: "HW 0: A Java Crash Course"
 categories: hw
-released: false
+released: true
 toc:
   h_max: 4
 ---
