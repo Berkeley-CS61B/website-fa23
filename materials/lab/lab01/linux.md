@@ -2,7 +2,7 @@
 layout: page
 title: "Lab 1 Setup: Linux/Unix"
 categories: lab
-released: false
+released: true
 ---
 
 ## A. Setup
