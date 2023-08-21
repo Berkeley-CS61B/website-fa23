@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "HW 0B: Data Structures"
+title: "Data Structures"
 categories: hw
 released: true
 ---

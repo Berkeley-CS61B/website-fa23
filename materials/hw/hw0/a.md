@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "HW 0A: Java Syntax"
+title: "Java Syntax"
 categories: hw
 released: true
 ---
