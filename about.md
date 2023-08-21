@@ -102,6 +102,8 @@ Lecture is scheduled on Monday, Wednesday, and Friday from 2-3 PM in
 Wheeler 150. Since the classroom is not large enough to allow all enrolled
 students to physically attend, lecture will be simultaneously webcast over Zoom.
 
+We will post lecture recordings as well as Josh Hug's Spring 2023 web videos to the content schedule on the main page. Both will cover the same content.
+
 ### Discussion
 
 Discussion sections are 1 hour long and feature a worksheet with problems
@@ -128,7 +130,7 @@ supported by academic interns.
 Labs will primarily be held in-person, though we may have limited remote
 options on Zoom.
 
-Lab attendance is not mandatory, with the _exception_ of two labs: Lab 6\*
+Lab attendance is not mandatory, with the _exception_ of two labs: Lab 6
 (Project 1 Code Review) and Lab 15 (Project 3 Demos). These labs include an
 assignment for which you will need to get checked-off by a TA to receive
 credit.
@@ -139,12 +141,10 @@ page.
 We will not have section signups this term. For the mandatory
 attendance labs, you will have the following options:
 
-- Lab 6\*: You will be able to attend any lab that works with your schedule.
+- Lab 6: You will be able to attend any lab that works with your schedule.
 - Lab 15: There will be official sign ups for this checkoff, in which you and
   your partner will present the work you completed for Project 3. The signups
   will be available shortly before the last week of classes.
-
-_\* Lab 6 may be modified_
 
 ### Office Hours
 
@@ -375,7 +375,7 @@ There will be two evening midterms:
 - Week 5, Thursday 9/21, 7-9 PM
 - Week 9, Thursday 10/19, 7-9 PM
 
-There is also a final exam on Tuesday 5/9, 8-11 AM.
+There is also a final exam on Tuesday 12/14, 3-6 PM.
 
 CS 61B exams will by default be in-person, though you may request a proctored
 remote exam. Proctoring details will be released closer to the exam.
