@@ -287,7 +287,7 @@ Labs are graded according to autograder tests on Gradescope. There are no
 hidden tests for which your score is not displayed, though we may have tests
 which you do not have access to.
 
-Out of the 14 labs (excluding spring break), only 10 will entail an assignment you need to submit. Each
+Out of the 14 labs, only 10 will entail an assignment you need to submit. Each
 of these 10 labs will be worth 5 points (for a total of 50 points).
 
 You do not need to attend lab to receive credit for lab, with the exception of
