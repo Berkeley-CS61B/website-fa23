@@ -2,7 +2,7 @@
 layout: page
 title: "Lab 1 Setup: Windows"
 categories: lab
-released: false
+released: true
 ---
 
 A video walkthrough for this guide is available at <https://sp21.datastructur.es/materials/lab/lab1setup/windows_setup_video.html>.

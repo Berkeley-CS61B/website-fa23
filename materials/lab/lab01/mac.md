@@ -2,7 +2,7 @@
 layout: page
 title: "Lab 1 Setup: Mac OS"
 categories: lab
-released: false
+released: true
 ---
 
 ## A. Setup
@@ -54,8 +54,8 @@ released: false
     Java that is Java 17 or higher will be sufficient for the course.
     " %}
 
-{:start="5"} 5.
-After successfully installing Java, please run
+{:start="5"} 
+5. After successfully installing Java, please run
 
     ```sh
     sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
@@ -87,7 +87,7 @@ After successfully installing Java, please run
     javac -version
     ```
 
-    Both of these commands should succeed and show version 17. If both
+    Both of these commands should succeed and show version 17 (or newer). If both
     installations are good, woohoo! Skip the rest of this guide and return to the lab.
 
 ## B. Java Install Issues
@@ -153,7 +153,8 @@ touch with your TA before proceeding.
     (Did you echo into the correct file? If you source it, you won't know.)
     " %}
 
-{:start="6"} 6. Restart your terminal, and verify that your environment variables have been
+{:start="6"} 
+6. Restart your terminal, and verify that your environment variables have been
 setup correctly by running:
 
     ```sh

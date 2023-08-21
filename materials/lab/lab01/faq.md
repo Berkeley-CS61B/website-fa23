@@ -2,13 +2,13 @@
 layout: page
 title: "FAQ - Lab 01: Setup"
 categories: lab
-released: false
+released: true
 searchable: true
 ---
 
 ### Student-Facing Setup FAQ Doc
 
-Please take a look at the [setup FAQ doc](https://docs.google.com/document/d/1tIkF038wHicdpen2v66bxTvG4AoG5xbIKEEqG3y1lj4/edit?usp=sharing) for additional setup assistance!
+Please take a look at the [setup FAQ doc](https://docs.google.com/document/d/105i_qCGOzgTUQl8plNzXFcKI2Sby3jMo4nHpIvUmt3k/edit?usp=sharing) for additional setup assistance!
 
 ### Mac: Homebrew installs Java 18 instead of the recommended Java 17
 
@@ -41,7 +41,7 @@ your repository on GitHub.
 Secondly, the expected file structure is
 
 ```text
-sp23-***
+fa23-***
 └── lab01
     ├── magic_word.txt
     ├── src
@@ -53,7 +53,7 @@ sp23-***
 Note that the files are inside the `lab01` directory. If the files aren't
 inside `lab01`, then the autograder won't be able to find them.
 
-If you’re sure you’ve done the above correctly, you may have two copies of your `sp23-s*` folder (with differing locations on your computer). Be sure that the one in your terminal and the one in IntelliJ match, otherwise your changes won’t be recorded! You can see the current working directory of your terminal by running `pwd`.
+If you’re sure you’ve done the above correctly, you may have two copies of your `fa23-s*` folder (with differing locations on your computer). Be sure that the one in your terminal and the one in IntelliJ match, otherwise your changes won’t be recorded! You can see the current working directory of your terminal by running `pwd`.
 
 ### I didn't complete the git checkoff during my lab section
 
@@ -80,3 +80,15 @@ password, as described in the [spec](index.md#clone-your-sp23-s-git-repository).
 
 Go into File > Project Structure > Project Settings > Project, and make sure
 that your Language level is set to 17.
+
+### In IntelliJ, when I open up `Arithmetic.java`, my import is grayed out at the top. 
+
+In some cases, you might get something like this:
+
+![Library Import Issue](img/import_algs4.png){: style="max-height: 200;" }
+
+IntelliJ can be very weird - if you've already ensured that your `library-fa23` is there (navigate to File --> Project Structure --> Libraries) 
+to check everything seems okay), then try deleting the library, reimporting it and clicking "Apply". Make sure to hit "OK" before 
+exiting the window.
+
+
