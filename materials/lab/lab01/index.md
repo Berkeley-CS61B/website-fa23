@@ -692,7 +692,9 @@ Open IntelliJ. Then follow the steps below.
 
 **Make sure you're running IntelliJ Version 2021.2 or later before
 continuing.** This is because we will use Java 17.
-We are using **IntelliJ Version 2023.2** (in the images), which has an updated user interface. 
+We are using **IntelliJ Version 2023.2** (in the images), which has an updated user interface. Note 
+that there might be older screenshots of IntelliJ in this lab - that is fine since the general layout is still 
+relatively consistent. 
 
 1.  In the _Welcome_ window, click the **"Plugins"** button in the menu on the
     left.
