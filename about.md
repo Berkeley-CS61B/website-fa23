@@ -122,14 +122,13 @@ Discussion attendance is not mandatory, though you are given [pacing points](#pa
 
 Lab sections are 2 hours long and feature coding assignments that students
 submit for credit. In these sections, TAs will introduce the assignment, review
-relevant material, and answer students’ questions. In some weeks, Lab TAs will
-also go over the staff’s solution to the lab assignment. Lab sections are also
+relevant material, and answer students’ questions. Lab sections are also
 supported by academic interns.
 
 Labs will primarily be held in-person, though we may have limited remote
 options on Zoom.
 
-Lab attendance is not mandatory, with the _exception_ of two labs: Lab 6
+Lab attendance is not mandatory, with the _exception_ of two labs: Lab 6\*
 (Project 1 Code Review) and Lab 15 (Project 3 Demos). These labs include an
 assignment for which you will need to get checked-off by a TA to receive
 credit.
@@ -140,10 +139,12 @@ page.
 We will not have section signups this term. For the mandatory
 attendance labs, you will have the following options:
 
-- Lab 6: You will be able to attend any lab that works with your schedule.
+- Lab 6\*: You will be able to attend any lab that works with your schedule.
 - Lab 15: There will be official sign ups for this checkoff, in which you and
   your partner will present the work you completed for Project 3. The signups
   will be available shortly before the last week of classes.
+
+_\* Lab 6 may be modified_
 
 ### Office Hours
 
@@ -439,9 +440,9 @@ There are three ways to earn “pacing” points, which are given for keeping up
 - Attending lab synchronously (either in person or via Max's online lab)
 - Attending live/Zoom lecture or watching the pre-recorded videos on time.
 
-Each discussion or lab is worth 0.5 pacing points. Each lecture is worth 0.5 pacing points. You may earn up to 20 pacing points. We will calculate pacing points using responses to the weekly surveys.
+Each discussion or lab is worth 0.5 pacing points. Each lecture is worth 0.5 pacing points. You may earn up to 16 pacing points. We will calculate pacing points using responses to the weekly surveys.
 
-Pacing points are added to your score, but cannot increase your score beyond 660 points. In other words, if you have 650 points and 20 pacing points, your final score will be 660 points.
+Pacing points are added to your score, but cannot increase your score beyond 660 points. In other words, if you have 650 points and 15 pacing points, your final score will be 660 points.
 
 ## Grades
 
