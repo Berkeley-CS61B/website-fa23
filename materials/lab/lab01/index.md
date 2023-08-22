@@ -345,7 +345,7 @@ First, read the **Remote Repositories** section of the
 **[Using Git Guide](../../guides/git/index.md#d-remote-repositories)**.
 
 In this course, you'll be required to submit your code using git to your course
-GitHub repository that you created in [Account Setup](#account-setup).
+GitHub repository that you created in [Account Setup](#task-setting-up-accounts).
 This is for several reasons:
 
 - To spare you the incredible agony of losing your files.
@@ -446,13 +446,6 @@ in the future.
 ```shell
 git clone https://github.com/Berkeley-CS61B-Student/fa23-s***.git
 ```
-
-You might be prompted for a username and password:
-
-![GitHub PAT Settings](img/git_clone_password.png)
-
-Enter your GitHub username. For the password, use the token you generated.
-When you copy-paste, it won't show anything -- this is expected.
 
 {% include alert.html type="info" content="
 **INFO**: After cloning your terminal will report `warning: You appear to have cloned
