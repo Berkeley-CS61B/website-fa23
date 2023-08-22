@@ -55,7 +55,7 @@ small Java program to get situated with the Java language!
 {% include alert.html type="info" content="
 **INFO**: This lab will be long! To help guide you through this lab, here's a brief overview of what your workflow 
 should look like: 
-- Installing Software (Java and Git)
+- Installing Software (Java, Git, Gh)
 - Terminal Tasks  
 - Setting Up Github and Beacon Accounts 
 - Git Basics and Exercises
@@ -405,12 +405,7 @@ the course libraries.
 
 Now, it's time to clone your personal repository. As you did with the libraries, navigate to the 
 folder where you would like to keep your repository. We recommend that it's the same folder as where
-you stored your Java libraries (for example, `cs61b`). 
-
-{% include alert.html type="danger" content="
-**WARNING**: Do not place your repository inside the `library-fa23` folder. This will cause headaches
-in the future.
-" %}
+you stored your Java libraries (for example, `cs61b`).
 
 Before we do clone your repo though, we need to login to Github. Verify that you have the Github package: 
 ```sh
@@ -432,7 +427,7 @@ with a one time code, and prompted to open the browser.
 
 Enter the code in the browser window and select authorize Github. You should now be logged in!
 
-{% include alert.html type="info" content="**NOTE**: For Window Users: if you run into an error that says 
+{% include alert.html type="info" content="**NOTE**: For Windows Users: if you run into an error that says 
 \"could not prompt: Incorrect Function\", run `winpty gh auth login` instead.
 " %}
 
@@ -440,8 +435,13 @@ The entire process should look like the below:
 
 <script async id="asciicast-rzokme4d9MDHMkmzIRxdnFfyG" src="https://asciinema.org/a/rzokme4d9MDHMkmzIRxdnFfyG.js"></script>
 
-Once you've logged in, run the following command to clone your personal repository. Make sure to replace the `***` with your 
+**Once you've logged in, run the following command to clone your personal repository.** Make sure to replace the `***` with your 
 class repository number (you can find this repo number on Beacon). 
+
+{% include alert.html type="danger" content="
+**WARNING**: Do not place your repository inside the `library-fa23` folder. This will cause headaches
+in the future.
+" %}
 
 ```shell
 git clone https://github.com/Berkeley-CS61B-Student/fa23-s***.git
@@ -686,7 +686,7 @@ to text editors you have used in the past.
 Open IntelliJ. Then follow the steps below.
 
 **Make sure you're running IntelliJ Version 2021.2 or later before
-continuing.** This is because we will use Java 17.
+continuing.** This is because we will use Java 17 or later.
 We are using **IntelliJ Version 2023.2** (in the images), which has an updated user interface. Note 
 that there might be older screenshots of IntelliJ in this lab - that is fine since the general layout is still 
 relatively consistent. 
@@ -886,7 +886,7 @@ with an autograder! For this lab, the autograder tests are the same as the
 ones you have on your computer.
 
 Be sure to submit **again** according to the
-[submission section](#submitting-to-gradescope), so that you submit your
+[submission section](#task-submitting-to-gradescope), so that you submit your
 completed lab. Congratulations on finishing your first CS 61B lab!
 
 ## Optional: Josh Hug's Color Scheme IntelliJ Download

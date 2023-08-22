@@ -29,7 +29,7 @@ is located at `https://github.com/Berkeley-CS61B/skeleton-fa23.git`) and copies
 them into your current folder.
 
 {% include alert.html type="warning" content="
-If you get an error similar to `fatal: refusing to merge unrelated histories`,
+**NOTE**: If you get an error similar to `fatal: refusing to merge unrelated histories`,
 you can fix this each time by using
 
 ```shell
