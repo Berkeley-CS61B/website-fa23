@@ -412,38 +412,36 @@ you stored your Java libraries (for example, `cs61b`).
 in the future.
 " %}
 
-In order to clone your GitHub repo, your local computer needs to setup GitHub
-access credentials. Go to `github.com`, sign in with your GitHub username and
-password, and click the user profile in the top right corner, then click to
-"Settings":
+Before we do clone your repo though, we need to login to Github. Verify that you have the Github package: 
+```sh
+gh --version
+```
 
-![GitHub Profile Navigation](img/github_profile.png){: style="max-height: 300;" }
+You should see a version number displayed. If you instead see a command not found error, please install Github cli 
+again by following the steps outlined for you [operating system](#task-installing-software).
 
-Then click on the "developer settings" tab:
+Next login with your account with the following command: 
 
-![GitHub Developer Settings](img/github_dev_settings.png)
+```sh
+gh auth login
+```
 
-and generate a **classic** personal access token.
+You'll be asked a few questions with some options to select from. You don't have to worry
+about them, simply select the first options for all of them and proceed. You'll be provided
+with a one time code, and prompted to open the browser.
 
-![GitHub PAT Generate](img/github_gen_pat.png)
+Enter the code in the browser window and select authorize Github. You should now be logged in!
 
-- Give a note to the token so you remember what it's for
-- Set the token to have no expiration
-- Give the token "repo" permissions
-
-![GitHub PAT Settings](img/github_pat_settings.png){: style="max-height: 300;" }
-
-Then, when you're ready, scroll to the bottom of the page and press the green
-"Generate Token" button.
-
-{% include alert.html type="danger" content="
-**WARNING**: Be sure to copy the token GitHub presents. **This token is a password; do not
-upload it to the internet or give it to anyone.** Someone can use this token to
-delete your GitHub repos.
+{% include alert.html type="info" content="**NOTE**: For Window Users: if you run into an error that says 
+"could not prompt: Incorrect Function", run `winpty gh auth login` instead.
 " %}
 
-**After obtaining a token, enter the following command to clone your GitHub repo.
-Make sure to replace the `***` with your repository number from Beacon.**
+The entire process should look like the below: 
+
+<script async id="asciicast-rzokme4d9MDHMkmzIRxdnFfyG" src="https://asciinema.org/a/rzokme4d9MDHMkmzIRxdnFfyG.js"></script>
+
+Once you've logged in, run the following command to clone your personal repository. Make sure to replace the `***` with your 
+class repository number (you can find this repo number on Beacon). 
 
 ```shell
 git clone https://github.com/Berkeley-CS61B-Student/fa23-s***.git
@@ -462,10 +460,6 @@ an empty repository.` This is not an issue, it is just git letting you know
 that there are no files in the repo.
 " %}
 
-You might instead be prompted to sign in in a browser window for "Git Credential
-Manager," or not be prompted to sign in at all. As long as you're able to clone
-the repo successfully, the exact sign in method does not matter.
-
 Move into your newly created repo!
 
 ```shell
@@ -478,8 +472,9 @@ Make sure that we're working with the branch name we expect, `main`:
 git branch -M main
 ```
 
-**Add the `skeleton` remote repository.** We add starter code for the assignments
-to `skeleton`, and you will pull from it.
+**Now, we'll add the `skeleton` remote repository.** We add starter code for the assignments
+to `skeleton`, and you will pull from it (please make sure you're in your newly created repository 
+before running this command!). 
 
 ```shell
 git remote add skeleton https://github.com/Berkeley-CS61B/skeleton-fa23.git
