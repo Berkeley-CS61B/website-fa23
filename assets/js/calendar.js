@@ -31,7 +31,7 @@ function render(event, element, _) {
   if (event.title.includes("Online")) {
     let link = event.description;
     // Checks if event description is already a hyperlink
-    if (link.startsWith("<a href=")) {
+    if (link && link.startsWith("<a href=")) {
       // Extract plain text link
       link = link.split('"')[1];
     }
@@ -83,6 +83,7 @@ function render(event, element, _) {
 }
 
 function launchCal(lab_disc_url, oh_url) {
+  console.log(oh_url);
   return function () {
     $("#lab_disc").fullCalendar({
       allDaySlot: false,
