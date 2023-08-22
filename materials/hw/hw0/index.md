@@ -9,35 +9,17 @@ toc:
 
 ## Introduction
 
-In this assignment, we will go through basic Java syntax. Since roughly 98.5%
-of you have used Python, everything in this homework is similar to a Python
-concept. This homework does NOT require that you know Python. Even if you don't
-know Python, you'll see that Python code is almost like pseudocode and should
-therefore be readable.
+In this assignment, we will go through basic Java syntax concepts. To help ease the introduction, equivalent concepts are also shown in Python. This homework does NOT require that you know Python. Even if you don't know Python, you'll see that Python code is almost like pseudocode and should therefore be readable.
 
-If you've written code in C or C++, you'll see that Java is very similar.
-
-For the 0.3% of you who have never written code in Python, C, or C++, please
-feel free to contact the staff if you need extra assistance understanding basic
-Java syntax.
+This tutorial assumes that you have significant (one semester) experience with at least some programming language, and is intended only to highlight the Java way of doing some previously familiar things. If you don't have prior experience, please feel free to contact the staff if you need extra assistance.
 
 This homework is due on **Friday, August 25**! Early lectures, labs, and
 projects will rely on being able to read and understand the basic structure of
 Java code.
 
-### Goals and Outcomes
-
-In this HW, you will complete a few Java exercises, and translate your existing
-programming knowledge to Java. By the end of this HW you will:
-
-- Understand how fundamental constructs translate to Java.
-- Be able to read short Java snippets.
-- Be able to implement novel programs in Java.
-
 ## Crash Course
 
-For ease of navigation, this crash course has been split up into several parts.
-Read through them:
+For ease of navigation, this crash course has been split up into several parts. Feel free to skim and read at whatever pace you feel comfortable with. You can start the exercises even before you finish reading part A - we recommend doing the reading and the exercises concurrently. 
 
 [Part A: Java Syntax](./a)
 
@@ -171,3 +153,16 @@ or need to generate a random number, you can skip that problem.)
 
 We also recommend <https://codingbat.com/java/AP-1>, which has more advanced
 Java problems.
+
+<!--
+## Extra Practice (Optional)
+
+Here are some challenging problems:
+ - [scoresAverage](https://codingbat.com/prob/p123837)
+ - [wordsWithoutList](https://codingbat.com/prob/p183407)
+ - [mapBully](https://codingbat.com/prob/p197888)
+ - [firstChar](https://codingbat.com/prob/p168493)
+ - [allSwap](https://codingbat.com/prob/p134133)
+ - [mergeTwo](https://codingbat.com/prob/p139150)
+
+-->
