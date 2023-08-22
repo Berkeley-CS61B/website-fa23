@@ -442,7 +442,7 @@ There are three ways to earn “pacing” points, which are given for keeping up
 
 Each discussion or lab is worth 0.5 pacing points. Each lecture is worth 0.5 pacing points. You may earn up to 16 pacing points. We will calculate pacing points using responses to the weekly surveys.
 
-Pacing points are added to your score, but cannot increase your score beyond 660 points. In other words, if you have 650 points and 15 pacing points, your final score will be 660 points.
+Pacing points are added to your score, but cannot increase your score beyond 750 points. In other words, if you have 740 points and 15 pacing points, your final score will be 750 points.
 
 ## Grades
 
@@ -465,11 +465,11 @@ lower the the grading bins for 61B if grades are too low. We will not raise them
 
 | A+  | A   | A-  | B+  | B   | B-  |
 | --- | --- | --- | --- | --- | --- |
-| 968 | 906 | 851 | 773 | 718 | 644 |
+| 984 | 914 | 854 | 794 | 754 | 714 |
 
 | C+  | C   | C-  | D+  | D   | D-  | F   |
 | --- | --- | --- | --- | --- | --- | --- |
-| 582 | 507 | 457 | 394 | 332 | 250 | 0   |
+| 679 | 644 | 609 | 569 | 534 | 499 | 0   |
 
 {: #letter-grades}
 
