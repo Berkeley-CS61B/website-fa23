@@ -39,6 +39,7 @@
   days:
     - day: 2023-11-06
       lecture_topic: Basic Sorts
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=mBIUU38XNyk
@@ -54,6 +55,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-08
       lecture_topic: Quick Sort
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/H3Kn8cqfOtU
@@ -63,7 +65,7 @@
         [Ch 30](https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort)
     - day: 2023-11-10
       lecture_topic: Software Engineering II
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://youtu.be/TR7kCjJAgPA

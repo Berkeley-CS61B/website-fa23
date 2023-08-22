@@ -35,6 +35,7 @@
   days:
     - day: 2023-09-11
       lecture_topic: Extends, Casting, Higher Order Functions
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD62-LKdfz_V_uMg7f5GaSnC
@@ -50,6 +51,7 @@
           released: false
     - day: 2023-09-13
       lecture_topic: Ask Anything (midterm prep)
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/8hhiFcOFzWU
@@ -64,6 +66,7 @@
           class: emph1
     - day: 2023-09-15
       lecture_topic: Subtype Polymorphism, Comparators, Comparable
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD56r1sGUGifsfC0KRDAsuZ3

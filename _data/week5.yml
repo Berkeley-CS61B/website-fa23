@@ -42,6 +42,7 @@
   days:
     - day: 2023-09-18
       lecture_topic: Iterators, Object Methods
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD64f0vO7ouRCX1cPEcR0XqW
@@ -57,6 +58,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-20
       lecture_topic: Asymptotics I
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5aPaPuP4Z28OGOfWtT1jto
@@ -72,6 +74,7 @@
           released: false
     - day: 2023-09-22
       lecture_topic: Disjoint Sets
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD44CGmkFro1gqxkDl5gIpXB

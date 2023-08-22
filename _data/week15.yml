@@ -16,7 +16,7 @@
   days:
     - day: 2023-11-27
       lecture_topic: Compression
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6kGO6F1uWKggr-Ie9TCMUZ&disable_polymer=true
@@ -34,7 +34,7 @@
           released: false
     - day: 2023-11-29
       lecture_topic: Compression, Complexity, and P=NP?
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5nfUOOXco_8Sx5Nkt-Wgq8
@@ -51,7 +51,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-12-01
       lecture_topic: Summary, Fun
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: slides
           link: https://docs.google.com/presentation/d/1E5CvEEnPrhHBpXfWBamCP4YEcIhLB4SrdCH43YIBhAo

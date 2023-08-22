@@ -6,7 +6,7 @@
     - name: No discussion week 1.
       released: false
   labs:
-    - name: IntelliJ, Git (due 8/29)
+    - name: IntelliJ, Git (due 8/25)
       link: materials/lab/lab01
       resource_links:
         - name: slides
@@ -25,6 +25,7 @@
 
     - day: 2023-08-23
       lecture_topic: Intro
+      class: outdated
       lecture_links:
         - name: vid
           link: https://www.youtube.com/watch?v=kktoaXCyVDw&list=PL8FaHk7qbOD6NlIHCjmKSpUudMA-8bMA1
@@ -37,14 +38,15 @@
       reading: > # Format in Markdown
         [1.1](https://joshhug.gitbooks.io/hug61b/content/chap1/chap11.html)
       assignments:
-        - title: "HW0A: A Java Crash Course (due TBD)"
-          link: /materials/hw/hw0a
+        - title: "HW0: A Java Crash Course (due 8/25)"
+          link: /materials/hw/hw0
           released: false
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 
     - day: 2023-08-25
-      lecture_topic: Classes, Lists, Arrays, Maps
+      lecture_topic: Defining and Using Classes
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/bE8KRUsWmx0
@@ -55,16 +57,16 @@
       reading: > # Format in Markdown
         [1.2](https://joshhug.gitbooks.io/hug61b/content/chap1/chap12.html)
       assignments:
-        - title: "Homework 0B: A Java Crash Course (due TBD)"
-          link: /materials/hw/hw0b
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 1 # 1 for half column, 2 for full column
-        - title: "Project 0: Awakening of Azathoth (due TBD)"
+        - title: "Project 0: 2048 (due 9/1)"
           link: /materials/proj/proj0
           released: false
           rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
+        - title: |
+            <span class="proj">[HW0 due 8/25]</span>
+          rows: 1
+          cols: 1
+          released: false
 - week: 2
   # weekly_survey: "https://forms.gle/XjkbFo1rVjkWswSX6"
   rows: 3
@@ -95,21 +97,21 @@
         - name: slides
           released: false
           link: "https://docs.google.com/presentation/d/1KhMd5RoVnTgqLjVsFJaXui2BIUlaYqfGl8zLu8G7bhE/edit?usp=sharing"
-    - name: Tutor Review Session (1/27)
-      released: false
-      link: "https://drive.google.com/file/d/135cZ5OyhJzvrkc-wpj7KRiwCNCuNWTkB/view?usp=sharing"
-      resource_links:
-        - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/147wgz1ztOTuq6Rgfcvs3dW-xu93ZNE8c/view?usp=sharing"
-        - name: video
-          released: false
-          link: "https://edstem.org/us/courses/25759/discussion/2453816"
-        - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1YBqOYxebldUugIhX97Qwgj39YE4_VP1dGVF_gSeLRXg/edit"
+    # - name: Tutor Review Session (1/27)
+    #   released: false
+    #   link: "https://drive.google.com/file/d/135cZ5OyhJzvrkc-wpj7KRiwCNCuNWTkB/view?usp=sharing"
+    #   resource_links:
+    #     - name: solution
+    #       released: false
+    #       link: "https://drive.google.com/file/d/147wgz1ztOTuq6Rgfcvs3dW-xu93ZNE8c/view?usp=sharing"
+    #     - name: video
+    #       released: false
+    #       link: "https://edstem.org/us/courses/25759/discussion/2453816"
+    #     - name: slides
+    #       released: false
+    #       link: "https://docs.google.com/presentation/d/1YBqOYxebldUugIhX97Qwgj39YE4_VP1dGVF_gSeLRXg/edit"
   labs:
-    - name: Debugging (due TBD)
+    - name: Debugging (due 9/1)
       link: materials/lab/lab02
       resource_links:
         - name: slides
@@ -119,6 +121,7 @@
   days:
     - day: 2023-08-28
       lecture_topic: References, Recursion, and Lists
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4xiNMw6A4GmQ1BbfW4EUJ9
@@ -129,7 +132,7 @@
       reading: > # Format in Markdown
         [2.1](https://joshhug.gitbooks.io/hug61b/content/chap2/chap21.html)
       assignments:
-        - title: "HW1: Being a Good Classmate (due TBD)"
+        - title: "HW1: Being a Good Classmate (due 9/1)"
           link: https://www.gradescope.com/courses/484660/assignments/2599221/
           released: false
           rows: 1 # the number of rows the assignment spans
@@ -137,6 +140,7 @@
 
     - day: 2023-08-30
       lecture_topic: SLLists, Nested Classes, Sentinel Nodes
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4iIbJYDWuBjSiyxRAMYfnp
@@ -147,7 +151,7 @@
       reading: > # Format in Markdown
         [2.2](https://joshhug.gitbooks.io/hug61b/content/chap2/chap22.html)
       assignments:
-        - title: Project 0 (due TBD)
+        - title: Project 0 (due 9/1)
           link: /materials/proj/proj0/
           released: false
           rows: 1 # the number of rows the assignment spans
@@ -155,6 +159,7 @@
 
     - day: 2023-09-01
       lecture_topic: DLLists, Arrays
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6rD0Tkr1E5NDmUUzItMRE8
@@ -166,7 +171,7 @@
         [2.3](https://joshhug.gitbooks.io/hug61b/content/chap2/chap23.html), [2.4](https://joshhug.gitbooks.io/hug61b/content/chap2/chap24.html)
       assignments:
         - title: |
-            <span class="proj">[Lab 02 due TBD, Project 0 due TBD]</span>
+            <span class="proj">[HW1, Project 0 due 9/1]</span>
           rows: 1
           cols: 2
           released: false
@@ -200,19 +205,19 @@
         - name: slides
           released: false
           link: "https://docs.google.com/presentation/d/1VjmwgTGgH5bWsBoPePlOxJrONgHBAz3_Wi1RRfT_XHk/edit?usp=share_link"
-    - name: Exam Review Session (2/3)
-      released: false
-      link: "https://drive.google.com/file/d/1koTjUljHHI_ojyw5Q_DqBYhw6nnl7kh5/view?usp=sharing"
-      resource_links:
-        - name: solution
-          released: false
-          link: https://drive.google.com/file/d/1d7bkHNMp4CA3fPB49hgGup48bUxaS110/view?usp=sharing
-        - name: video
-          released: false
-          link:
-        - name: slides
-          released: false
-          link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
+    # - name: Exam Review Session (2/3)
+    #   released: false
+    #   link: "https://drive.google.com/file/d/1koTjUljHHI_ojyw5Q_DqBYhw6nnl7kh5/view?usp=sharing"
+    #   resource_links:
+    #     - name: solution
+    #       released: false
+    #       link: https://drive.google.com/file/d/1d7bkHNMp4CA3fPB49hgGup48bUxaS110/view?usp=sharing
+    #     - name: video
+    #       released: false
+    #       link:
+    #     - name: slides
+    #       released: false
+    #       link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
   labs:
     - name: Timing (due TBD)
       link: materials/lab/lab03
@@ -224,6 +229,7 @@
   days:
     - day: 2023-09-04
       lecture_topic: Testing
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/Dpe3FPRfaFE
@@ -246,6 +252,7 @@
 
     - day: 2023-09-06
       lecture_topic: ArrayLists, Resizing
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4S8NCRyN3yQV2U2TpjWUhy
@@ -269,6 +276,7 @@
 
     - day: 2023-09-08
       lecture_topic: Inheritance, Implements
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6UzicZ-KQwB0z1ThjGxjFF
@@ -315,6 +323,7 @@
   days:
     - day: 2023-09-11
       lecture_topic: Extends, Casting, Higher Order Functions
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD62-LKdfz_V_uMg7f5GaSnC
@@ -330,6 +339,7 @@
           released: false
     - day: 2023-09-13
       lecture_topic: Ask Anything (midterm prep)
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/8hhiFcOFzWU
@@ -344,6 +354,7 @@
           class: emph1
     - day: 2023-09-15
       lecture_topic: Subtype Polymorphism, Comparators, Comparable
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD56r1sGUGifsfC0KRDAsuZ3
@@ -401,6 +412,7 @@
   days:
     - day: 2023-09-18
       lecture_topic: Iterators, Object Methods
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD64f0vO7ouRCX1cPEcR0XqW
@@ -416,6 +428,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-20
       lecture_topic: Asymptotics I
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5aPaPuP4Z28OGOfWtT1jto
@@ -431,6 +444,7 @@
           released: false
     - day: 2023-09-22
       lecture_topic: Disjoint Sets
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD44CGmkFro1gqxkDl5gIpXB
@@ -490,6 +504,7 @@
 
     - day: 2023-09-27
       lecture_topic: Asymptotics II
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5Ek10eT39UqAjcwr99xqZP
@@ -508,6 +523,7 @@
 
     - day: 2023-09-29
       lecture_topic: ADTs, Sets, Maps, BSTs
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5JBcKwLbuUf6BAdotM4-1K
@@ -562,6 +578,7 @@
   days:
     - day: 2023-10-02
       lecture_topic: B-Trees (2-3, 2-3-4 Trees)
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=0SCtnf84QrI&index=3&list=PL8FaHk7qbOD41EHkD7CgQuRw1jpH_Fv7-
@@ -578,6 +595,7 @@
 
     - day: 2023-10-04
       lecture_topic: Red Black Trees
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=kkd8d0QhiQ0&list=PL8FaHk7qbOD6aKgTz2W-foDiTeBEaBoS3&index=2&t=0s
@@ -593,6 +611,7 @@
           released: false
     - day: 2023-10-06
       lecture_topic: Hashing
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/A5TwNyJns-Q
@@ -656,6 +675,7 @@
   days:
     - day: 2023-10-09
       lecture_topic: Hashing II
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD637Q-6p7nn5dKz1tK6WAjJ
@@ -672,6 +692,7 @@
 
     - day: 2023-10-11
       lecture_topic: Heaps and PQs
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD50LnOXTSpYgnVJQTIVFsmI
@@ -688,6 +709,7 @@
 
     - day: 2023-10-13
       lecture_topic: Tree and Graph Traversals
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=wkkCVWn7au4&list=PL8FaHk7qbOD4tIQrwqsx16fNq6uXNhauw
@@ -738,6 +760,7 @@
   days:
     - day: 2023-10-16
       lecture_topic: Graph Traversals and Implementations
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/YgPtwbWpLaM
@@ -753,6 +776,7 @@
           released: false
     - day: 2023-10-18
       lecture_topic: Shortest Paths
+      class: outdated
       lecture_links:
         - name: old video
           link: https://www.youtube.com/watch?v=iMoFtG1md3w&feature=youtu.be&t=5m03s
@@ -772,6 +796,7 @@
           class: emph1
     - day: 2023-10-20
       lecture_topic: Minimum Spanning Trees
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=vnKK38JS9Ik&list=PL8FaHk7qbOD7SvlWei_-neNmgmXzJG2ad&index=1
@@ -816,6 +841,7 @@
   days:
     - day: 2023-10-23
       lecture_topic: Prefix Operations and Tries
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=F8Q-SHW2hAM&list=PL8FaHk7qbOD7eyAcACitG8neRNL2rsvng
@@ -832,14 +858,14 @@
 
     - day: 2023-10-25
       lecture_topic: Software Engineering I
-      class: optional
+      class: optional outdated
       lecture_links:
       reading: >
         [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
 
     - day: 2023-10-27
       lecture_topic: Reductions and Decomposition
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://youtu.be/rf1mHSoGomk
@@ -892,6 +918,7 @@
   days:
     - day: 2023-10-30
       lecture_topic: TBD
+      class: outdated
       # lecture_links:
       #   - name: video
       #     link: https://www.youtube.com/watch?v=F8Q-SHW2hAM&list=PL8FaHk7qbOD7eyAcACitG8neRNL2rsvng
@@ -908,6 +935,7 @@
 
     - day: 2023-11-01
       lecture_topic: TBD
+      class: outdated
       # class: optional
       # lecture_links:
       #   - name: video
@@ -919,6 +947,7 @@
 
     - day: 2023-11-03
       lecture_topic: TBD
+      class: outdated
       # class: optional
       # lecture_links:
       #   - name: video
@@ -976,6 +1005,7 @@
   days:
     - day: 2023-11-06
       lecture_topic: Basic Sorts
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=mBIUU38XNyk
@@ -991,6 +1021,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-08
       lecture_topic: Quick Sort
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/H3Kn8cqfOtU
@@ -1000,7 +1031,7 @@
         [Ch 30](https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort)
     - day: 2023-11-10
       lecture_topic: Software Engineering II
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://youtu.be/TR7kCjJAgPA
@@ -1050,6 +1081,7 @@
   days:
     - day: 2023-11-13
       lecture_topic: More Quicksort, Quick Select, Stability
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/l1vAXGWPeG4
@@ -1065,7 +1097,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-15
       lecture_topic: Software Engineering III
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://youtu.be/ytRAJtFavqw
@@ -1075,6 +1107,7 @@
         [Ch 33](https://cs61b-2.gitbook.io/cs61b-textbook/33.-software-engineering-iii)
     - day: 2023-11-17
       lecture_topic: Sorting and Algorithmic Bounds
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD7y8-q2qpfhZ-fzphsk3ETf
@@ -1126,6 +1159,7 @@
   days:
     - day: 2023-11-20
       lecture_topic: Radix Sorts
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=AHgK4UqP_ig
@@ -1141,6 +1175,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-22
       lecture_topic: Sorting and Data Structures Conclusion
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4i4ozOgclL_5HMpZrHYA8c&disable_polymer=true
@@ -1150,7 +1185,7 @@
         [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)
     - day: 2023-11-24
       lecture_topic: Software Engineering IV<br>Designing 61B
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://youtu.be/8lhVw-RCmKQ
@@ -1176,7 +1211,7 @@
   days:
     - day: 2023-11-27
       lecture_topic: Compression
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6kGO6F1uWKggr-Ie9TCMUZ&disable_polymer=true
@@ -1194,7 +1229,7 @@
           released: false
     - day: 2023-11-29
       lecture_topic: Compression, Complexity, and P=NP?
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5nfUOOXco_8Sx5Nkt-Wgq8
@@ -1211,7 +1246,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-12-01
       lecture_topic: Summary, Fun
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: slides
           link: https://docs.google.com/presentation/d/1E5CvEEnPrhHBpXfWBamCP4YEcIhLB4SrdCH43YIBhAo
