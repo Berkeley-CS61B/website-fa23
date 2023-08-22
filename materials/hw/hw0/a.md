@@ -273,9 +273,9 @@ if (i % 3 == 0 && i % 5 == 0) {
 The boolean operators are as follows:
 
 | Python | Java |
-| ------ | ---- | --- | --- |
+| ------ | ---- |
 | `and`  | `&&` |
-| `or`   | `    |     | `   |
+| `or`   | `||` |
 | `not`  | `!`  |
 | `==`   | `==` |
 

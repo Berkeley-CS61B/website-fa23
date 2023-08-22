@@ -39,6 +39,7 @@
   days:
     - day: 2023-10-02
       lecture_topic: B-Trees (2-3, 2-3-4 Trees)
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=0SCtnf84QrI&index=3&list=PL8FaHk7qbOD41EHkD7CgQuRw1jpH_Fv7-
@@ -55,6 +56,7 @@
 
     - day: 2023-10-04
       lecture_topic: Red Black Trees
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=kkd8d0QhiQ0&list=PL8FaHk7qbOD6aKgTz2W-foDiTeBEaBoS3&index=2&t=0s
@@ -70,6 +72,7 @@
           released: false
     - day: 2023-10-06
       lecture_topic: Hashing
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/A5TwNyJns-Q

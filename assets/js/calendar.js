@@ -1,8 +1,8 @@
 /*
  * Lots of credit to CS 61A - cs61a.org
  */
-const startDate = "2023-01-17",
-  endDate = "2023-05-16";
+const startDate = "2023-08-23",
+  endDate = "2023-12-14";
 
 // Show the current week during the semester and the first week of class otherwise.
 function calendarStartDate() {
@@ -27,14 +27,13 @@ function render(event, element, _) {
   }
   element.append($('<div class="fc-content">').html(eventStr));
 
-
   // Clicking event redirects to Zoom/Discord.
   if (event.title.includes("Online")) {
     let link = event.description;
     // Checks if event description is already a hyperlink
-    if (link.startsWith("<a href=")) {
-        // Extract plain text link 
-        link = link.split("\"")[1];
+    if (link && link.startsWith("<a href=")) {
+      // Extract plain text link
+      link = link.split('"')[1];
     }
     element.attr("href", link);
     element.addClass("online-section-event");
@@ -79,12 +78,12 @@ function render(event, element, _) {
     boundary: "viewport",
     theme: "light",
     animateFill: false,
-    livePlacement: false
+    livePlacement: false,
   });
 }
 
 function launchCal(lab_disc_url, oh_url) {
-  return function() {
+  return function () {
     $("#lab_disc").fullCalendar({
       allDaySlot: false,
       defaultView: "agendaWeek",
@@ -100,9 +99,9 @@ function launchCal(lab_disc_url, oh_url) {
       eventSources: [
         {
           googleCalendarId: lab_disc_url,
-          cache: true
-        }
-      ]
+          cache: true,
+        },
+      ],
     });
     $("#oh").fullCalendar({
       allDaySlot: false,
@@ -118,9 +117,9 @@ function launchCal(lab_disc_url, oh_url) {
       eventSources: [
         {
           googleCalendarId: oh_url,
-          cache: true
-        }
-      ]
+          cache: true,
+        },
+      ],
     });
 
     resizeCal();

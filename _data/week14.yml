@@ -36,6 +36,7 @@
   days:
     - day: 2023-11-20
       lecture_topic: Radix Sorts
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=AHgK4UqP_ig
@@ -51,6 +52,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-22
       lecture_topic: Sorting and Data Structures Conclusion
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4i4ozOgclL_5HMpZrHYA8c&disable_polymer=true
@@ -60,7 +62,7 @@
         [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)
     - day: 2023-11-24
       lecture_topic: Software Engineering IV<br>Designing 61B
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://youtu.be/8lhVw-RCmKQ

@@ -43,6 +43,7 @@
 
     - day: 2023-09-27
       lecture_topic: Asymptotics II
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5Ek10eT39UqAjcwr99xqZP
@@ -61,6 +62,7 @@
 
     - day: 2023-09-29
       lecture_topic: ADTs, Sets, Maps, BSTs
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5JBcKwLbuUf6BAdotM4-1K

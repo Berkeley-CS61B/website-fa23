@@ -882,15 +882,24 @@ Be sure to submit **again** according to the
 [submission section](#task-submitting-to-gradescope), so that you submit your
 completed lab. Congratulations on finishing your first CS 61B lab!
 
-## Optional: Josh Hug's Color Scheme IntelliJ Download
+## Optional: Josh Hug's Color Schemes
 
 Per Josh Hug:
 
-> I'm not a big fan of the default IntelliJ colors, so I made my own color
-> scheme, which is a very close imitation of the extremely good Sunburst theme
-> for Sublime. To use my theme, download [hug_sunburst](hug_sunburst.jar), and
+> I'm not a big fan of the default IntelliJ colors.
+>
+> **Sunburst**: If you want the color scheme that is used in most of the lecture videos,
+> this is a custom color scheme I made which is a very close imitation of the great Sunburst theme
+> for Sublime. To use Sunburst, download [hug_sunburst](hug_sunburst.jar), and
 > import it using the "File &rarr; Manage IDE Settings &rarr; Import Settings"
 > option in IntelliJ. You might end up with large text, which I use for
 > recording videos. To adjust the size of the font in Intellij to your liking,
 > see
 > [this link](https://www.jetbrains.com/help/idea/configuring-colors-and-fonts.html).
+> 
+> **Mariana Pro**: In 2022, I switched over to Mariana Pro. It doesn't feel as much like
+> being in a forest as Sunburst, but it has more color depth. To get Mariana Pro, go to the
+> same plug-in shop that you used to install the CS 61B plugin, and search for "Mariana Pro".
+> This plugin was made by Thibault Soulabaille. Note that I prefer a pure black background,
+> whereas Mariana Pro is a dark grey. You can change the background color using 
+> [these directions](https://stackoverflow.com/questions/19411510/how-do-you-change-background-color-in-the-settings-of-jetbrains-ide).

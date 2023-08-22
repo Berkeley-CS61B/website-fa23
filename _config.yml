@@ -21,9 +21,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fa23.datastructur.es" # the base hostname & protocol for your site, e.g. http://example.com
 
 term: Fall 2023
-start_date: 2023-01-17
-# section_cal: "c_a5f5aadfe0fa2a01f8cb4fc40fe1c6ac9a3ad5a66fc99b88e8ef47862c6b2a4f@group.calendar.google.com"
-# oh_cal: "c_249dbe0fef817d62e4abe7ac7fa7fd65580a78d9a082ae9a3f9ff36c58291d52@group.calendar.google.com"
+start_date: 2023-08-23
+section_cal: "c_687dcb22b386b35862890a018b34fd3baaf68a83f9c397e13d3c43f01e2b1f14@group.calendar.google.com"
+oh_cal: "c_13b7317c875bb0432cc813f6262e13b4aeed62b508b5fc3f2c47ee25faae63a5@group.calendar.google.com"
 
 github: https://github.com/Berkeley-CS61B/website-fa23
 
