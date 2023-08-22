@@ -1,0 +1,85 @@
+\documentclass[11pt]{pnhslide2}
+
+\advance\textheight4in
+
+\pagestyle{empty}
+
+\begin{document}
+
+.PS
+
+.PE
+
+\begin{figure}[h]
+\begin{center}
+.PS
+u = 0.5
+du = 3 / 72.0
+
+define board {
+    LR: Here
+    for r = 0 to 3 by 1 do { 
+        for c = 0 to 3 by 1 do {
+            box fill 0.8 ht u wid u with .sw at LR + (c * u, r * u)
+        }
+    }
+    for k = 0 to 4 by 1 do {
+        line thick 3 from LR + (k * u, 0) to LR + (k * u, 4 * u)
+        line thick 3 from LR + (0, k * u) to LR + (4 * u, k * u)
+    }
+}
+define sq {
+    box fill 1 ht u-du wid u-du with .sw at LR + ($2*u+0.5*du, $3*u+0.5*du) \
+           "\textsf\bf\huge$1"
+}
+
+board(); "(a)" above at LR + (2 * u, -0.5*u)
+sq(2, 1, 3); sq(2, 2, 3); sq(4, 1, 2); sq(4, 3, 2);
+sq(8, 0, 0); sq(4, 0, 1); sq(8, 2, 1)
+
+move to LR + (5 * u, 0)
+board(); "(b)" above at LR + (2 * u, -0.5*u)
+sq(8, 3, 0); sq(4, 2, 1); sq(8, 3, 1)
+sq(8, 3, 2); sq(4, 3, 3)
+sq(~2*, 1, 2)
+
+arrow thick 10 wid 1.0/3.6 ht 1.0/3.6 from LR + (u, 4.5*u) right 2*u
+
+move to LR + (-5 * u, -5*u)
+board(); "(c)" above at LR + (2 * u, -0.5*u)
+sq(2, 1, 0); sq(4, 2, 0);
+sq(16, 3, 0); sq(8, 3, 1); sq(4, 3,2)
+sq(~2*,1,1)
+
+arrow thick 10 wid 1.0/3.6 ht 1.0/3.6 from LR + (-0.5*u, 3*u) down 2*u
+
+move to LR + (5 * u, 0)
+board(); "(d)" above at LR + (2 * u, -0.5*u)
+sq(4,1,3); sq(4,2,3); sq(4,3,3); sq(8,3,2); sq(16,3,1)
+sq(~4*,0,0)
+
+arrow thick 10 wid 1.0/3.6 ht 1.0/3.6 from LR + (4.5*u, u) up 2*u
+
+move to LR + (-5 * u, -5.5*u)\
+board(); "(e)" above at LR + (2 * u, -0.5*u)
+sq(4,1,3); sq(4,2,3); sq(4,3,3); sq(8,3,2); sq(16,3,1)
+sq(4,0,3); sq(~2*,3,0)
+
+arrow thick 10 wid 1.0/3.6 ht 1.0/3.6 from LR + (-0.5*u, u) up 2*u
+
+move to LR + (5 * u, 0)
+board(); "(f)" above at LR + (2 * u, -0.5*u)
+sq(8,2,3); sq(8,3,3); sq(8,3,2); sq(16,3,1)
+sq(2,3,0); sq(~2*,1,1)
+
+arrow thick 10 wid 1.0/3.6 ht 1.0/3.6 from LR + (u, 4.5*u) right 2*u
+.PE
+\end{center}
+\caption{(a) Possible configurations in the 2048 game.  (b)--(f) The results of
+sliding (a) to the right (east), south, north, north, and finally
+east, each time
+randomly adding a new tile
+to an empty square (indicated with an asterisk).}
+\end{figure}
+
+\end{document}
