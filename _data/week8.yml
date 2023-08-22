@@ -48,6 +48,7 @@
   days:
     - day: 2023-10-09
       lecture_topic: Hashing II
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD637Q-6p7nn5dKz1tK6WAjJ
@@ -64,6 +65,7 @@
 
     - day: 2023-10-11
       lecture_topic: Heaps and PQs
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD50LnOXTSpYgnVJQTIVFsmI
@@ -80,6 +82,7 @@
 
     - day: 2023-10-13
       lecture_topic: Tree and Graph Traversals
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=wkkCVWn7au4&list=PL8FaHk7qbOD4tIQrwqsx16fNq6uXNhauw

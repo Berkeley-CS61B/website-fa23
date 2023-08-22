@@ -109,6 +109,10 @@ We will post lecture recordings as well as Josh Hug's Spring 2023 web videos to 
 Discussion sections are 1 hour long and feature a worksheet with problems
 reviewing the material learned in the past week. In discussion sections, TAs
 will help students review the material and solve the problems on the worksheet.
+Note that your TA may not cover all the problems on the worksheet, and that's
+intentional - you can review the remaining problems later with our posted
+solutions and walkthroughs.
+
 Discussion sections will primarily be held in-person, though we may have
 limited remote options on Zoom.
 
@@ -119,6 +123,33 @@ The schedule of all sections and lectures can be found at the bottom of our
 course website's [main page](/#disccal).
 
 Discussion attendance is not mandatory, though you are given [pacing points](#pacing-points) for attending.
+
+We have three (3) different types of discussions this semester:
+
+**Bridge (2hr)**
+
+Do you want more of an emphasis on the concepts before diving into the
+discussion worksheet? If so, our bridge discussion may be the right place for
+you! Some of our amazing TAs will lead a two-hour discussion section
+intentionally organized for students who are not as familiar with the material
+that week. It’s a great way to get a little more comfortable with the topics and
+receive more individualized attention during the section. The material and
+difficulty covered during the bridge discussion section will be the same as the
+Practice discussion section, and we’ll have an extended mini-lecture to
+reinforce conceptual understanding.
+
+**Regular (1hr)**
+
+This section is best for students who are caught up with lectures and are ready
+to tackle some medium-difficulty questions. We recommend attending this section
+if you are unsure which to attend.
+
+**Exam-Level (1hr)**
+
+Exam-level sections are faster-paced sections that cover a different worksheet
+with more difficult problems. The goal of these sections is to get comfortable
+with exam-level problems and problem-solving strategies. In general, there will
+be less focus on review/mini-lecture and more time spent on the problems.
 
 ### Lab
 
@@ -442,7 +473,7 @@ There are three ways to earn “pacing” points, which are given for keeping up
 
 Each discussion or lab is worth 0.5 pacing points. Each lecture is worth 0.5 pacing points. You may earn up to 16 pacing points. We will calculate pacing points using responses to the weekly surveys.
 
-Pacing points are added to your score, but cannot increase your score beyond 660 points. In other words, if you have 650 points and 15 pacing points, your final score will be 660 points.
+Pacing points are added to your score, but cannot increase your score beyond 750 points. In other words, if you have 740 points and 15 pacing points, your final score will be 750 points.
 
 ## Grades
 
@@ -465,11 +496,11 @@ lower the the grading bins for 61B if grades are too low. We will not raise them
 
 | A+  | A   | A-  | B+  | B   | B-  |
 | --- | --- | --- | --- | --- | --- |
-| 968 | 906 | 851 | 773 | 718 | 644 |
+| 984 | 914 | 854 | 794 | 754 | 714 |
 
 | C+  | C   | C-  | D+  | D   | D-  | F   |
 | --- | --- | --- | --- | --- | --- | --- |
-| 582 | 507 | 457 | 394 | 332 | 250 | 0   |
+| 679 | 644 | 609 | 569 | 534 | 499 | 0   |
 
 {: #letter-grades}
 

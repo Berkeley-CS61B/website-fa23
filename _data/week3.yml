@@ -28,19 +28,19 @@
         - name: slides
           released: false
           link: "https://docs.google.com/presentation/d/1VjmwgTGgH5bWsBoPePlOxJrONgHBAz3_Wi1RRfT_XHk/edit?usp=share_link"
-    - name: Exam Review Session (2/3)
-      released: false
-      link: "https://drive.google.com/file/d/1koTjUljHHI_ojyw5Q_DqBYhw6nnl7kh5/view?usp=sharing"
-      resource_links:
-        - name: solution
-          released: false
-          link: https://drive.google.com/file/d/1d7bkHNMp4CA3fPB49hgGup48bUxaS110/view?usp=sharing
-        - name: video
-          released: false
-          link:
-        - name: slides
-          released: false
-          link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
+    # - name: Exam Review Session (2/3)
+    #   released: false
+    #   link: "https://drive.google.com/file/d/1koTjUljHHI_ojyw5Q_DqBYhw6nnl7kh5/view?usp=sharing"
+    #   resource_links:
+    #     - name: solution
+    #       released: false
+    #       link: https://drive.google.com/file/d/1d7bkHNMp4CA3fPB49hgGup48bUxaS110/view?usp=sharing
+    #     - name: video
+    #       released: false
+    #       link:
+    #     - name: slides
+    #       released: false
+    #       link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
   labs:
     - name: Timing (due TBD)
       link: materials/lab/lab03
@@ -52,6 +52,7 @@
   days:
     - day: 2023-09-04
       lecture_topic: Testing
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/Dpe3FPRfaFE
@@ -74,6 +75,7 @@
 
     - day: 2023-09-06
       lecture_topic: ArrayLists, Resizing
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4S8NCRyN3yQV2U2TpjWUhy
@@ -97,6 +99,7 @@
 
     - day: 2023-09-08
       lecture_topic: Inheritance, Implements
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6UzicZ-KQwB0z1ThjGxjFF

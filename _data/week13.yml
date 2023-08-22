@@ -40,6 +40,7 @@
   days:
     - day: 2023-11-13
       lecture_topic: More Quicksort, Quick Select, Stability
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/l1vAXGWPeG4
@@ -55,7 +56,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-15
       lecture_topic: Software Engineering III
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://youtu.be/ytRAJtFavqw
@@ -65,6 +66,7 @@
         [Ch 33](https://cs61b-2.gitbook.io/cs61b-textbook/33.-software-engineering-iii)
     - day: 2023-11-17
       lecture_topic: Sorting and Algorithmic Bounds
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD7y8-q2qpfhZ-fzphsk3ETf

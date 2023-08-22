@@ -55,7 +55,7 @@ small Java program to get situated with the Java language!
 {% include alert.html type="info" content="
 **INFO**: This lab will be long! To help guide you through this lab, here's a brief overview of what your workflow 
 should look like: 
-- Installing Software (Java and Git)
+- Installing Software (Java, Git, Gh)
 - Terminal Tasks  
 - Setting Up Github and Beacon Accounts 
 - Git Basics and Exercises
@@ -405,45 +405,43 @@ the course libraries.
 
 Now, it's time to clone your personal repository. As you did with the libraries, navigate to the 
 folder where you would like to keep your repository. We recommend that it's the same folder as where
-you stored your Java libraries (for example, `cs61b`). 
+you stored your Java libraries (for example, `cs61b`).
+
+Before we do clone your repo though, we need to login to Github. Verify that you have the Github package: 
+```sh
+gh --version
+```
+
+You should see a version number displayed. If you instead see a command not found error, please install Github cli 
+again by following the steps outlined for you [operating system](#task-installing-software).
+
+Next login with your account with the following command: 
+
+```sh
+gh auth login
+```
+
+You'll be asked a few questions with some options to select from. You don't have to worry
+about them, simply select the first options for all of them and proceed. You'll be provided
+with a one time code, and prompted to open the browser.
+
+Enter the code in the browser window and select authorize Github. You should now be logged in!
+
+{% include alert.html type="info" content="**NOTE**: For Windows Users: if you run into an error that says 
+\"could not prompt: Incorrect Function\", run `winpty gh auth login` instead.
+" %}
+
+The entire process should look like the below: 
+
+<script async id="asciicast-rzokme4d9MDHMkmzIRxdnFfyG" src="https://asciinema.org/a/rzokme4d9MDHMkmzIRxdnFfyG.js"></script>
+
+**Once you've logged in, run the following command to clone your personal repository.** Make sure to replace the `***` with your 
+class repository number (you can find this repo number on Beacon). 
 
 {% include alert.html type="danger" content="
 **WARNING**: Do not place your repository inside the `library-fa23` folder. This will cause headaches
 in the future.
 " %}
-
-In order to clone your GitHub repo, your local computer needs to setup GitHub
-access credentials. Go to `github.com`, sign in with your GitHub username and
-password, and click the user profile in the top right corner, then click to
-"Settings":
-
-![GitHub Profile Navigation](img/github_profile.png){: style="max-height: 300;" }
-
-Then click on the "developer settings" tab:
-
-![GitHub Developer Settings](img/github_dev_settings.png)
-
-and generate a **classic** personal access token.
-
-![GitHub PAT Generate](img/github_gen_pat.png)
-
-- Give a note to the token so you remember what it's for
-- Set the token to have no expiration
-- Give the token "repo" permissions
-
-![GitHub PAT Settings](img/github_pat_settings.png){: style="max-height: 300;" }
-
-Then, when you're ready, scroll to the bottom of the page and press the green
-"Generate Token" button.
-
-{% include alert.html type="danger" content="
-**WARNING**: Be sure to copy the token GitHub presents. **This token is a password; do not
-upload it to the internet or give it to anyone.** Someone can use this token to
-delete your GitHub repos.
-" %}
-
-**After obtaining a token, enter the following command to clone your GitHub repo.
-Make sure to replace the `***` with your repository number from Beacon.**
 
 ```shell
 git clone https://github.com/Berkeley-CS61B-Student/fa23-s***.git
@@ -462,10 +460,6 @@ an empty repository.` This is not an issue, it is just git letting you know
 that there are no files in the repo.
 " %}
 
-You might instead be prompted to sign in in a browser window for "Git Credential
-Manager," or not be prompted to sign in at all. As long as you're able to clone
-the repo successfully, the exact sign in method does not matter.
-
 Move into your newly created repo!
 
 ```shell
@@ -478,8 +472,9 @@ Make sure that we're working with the branch name we expect, `main`:
 git branch -M main
 ```
 
-**Add the `skeleton` remote repository.** We add starter code for the assignments
-to `skeleton`, and you will pull from it.
+**Now, we'll add the `skeleton` remote repository.** We add starter code for the assignments
+to `skeleton`, and you will pull from it (please make sure you're in your newly created repository 
+before running this command!). 
 
 ```shell
 git remote add skeleton https://github.com/Berkeley-CS61B/skeleton-fa23.git
@@ -691,7 +686,7 @@ to text editors you have used in the past.
 Open IntelliJ. Then follow the steps below.
 
 **Make sure you're running IntelliJ Version 2021.2 or later before
-continuing.** This is because we will use Java 17.
+continuing.** This is because we will use Java 17 or later.
 We are using **IntelliJ Version 2023.2** (in the images), which has an updated user interface. Note 
 that there might be older screenshots of IntelliJ in this lab - that is fine since the general layout is still 
 relatively consistent. 
@@ -891,18 +886,27 @@ with an autograder! For this lab, the autograder tests are the same as the
 ones you have on your computer.
 
 Be sure to submit **again** according to the
-[submission section](#submitting-to-gradescope), so that you submit your
+[submission section](#task-submitting-to-gradescope), so that you submit your
 completed lab. Congratulations on finishing your first CS 61B lab!
 
-## Optional: Josh Hug's Color Scheme IntelliJ Download
+## Optional: Josh Hug's Color Schemes
 
 Per Josh Hug:
 
-> I'm not a big fan of the default IntelliJ colors, so I made my own color
-> scheme, which is a very close imitation of the extremely good Sunburst theme
-> for Sublime. To use my theme, download [hug_sunburst](hug_sunburst.jar), and
+> I'm not a big fan of the default IntelliJ colors.
+>
+> **Sunburst**: If you want the color scheme that is used in most of the lecture videos,
+> this is a custom color scheme I made which is a very close imitation of the great Sunburst theme
+> for Sublime. To use Sunburst, download [hug_sunburst](hug_sunburst.jar), and
 > import it using the "File &rarr; Manage IDE Settings &rarr; Import Settings"
 > option in IntelliJ. You might end up with large text, which I use for
 > recording videos. To adjust the size of the font in Intellij to your liking,
 > see
 > [this link](https://www.jetbrains.com/help/idea/configuring-colors-and-fonts.html).
+> 
+> **Mariana Pro**: In 2022, I switched over to Mariana Pro. It doesn't feel as much like
+> being in a forest as Sunburst, but it has more color depth. To get Mariana Pro, go to the
+> same plug-in shop that you used to install the CS 61B plugin, and search for "Mariana Pro".
+> This plugin was made by Thibault Soulabaille. Note that I prefer a pure black background,
+> whereas Mariana Pro is a dark grey. You can change the background color using 
+> [these directions](https://stackoverflow.com/questions/19411510/how-do-you-change-background-color-in-the-settings-of-jetbrains-ide).
