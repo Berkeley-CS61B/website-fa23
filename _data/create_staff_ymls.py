@@ -37,7 +37,7 @@ IMG_ID_PATTERN = r'((?:\w|-){33})'
 
 long_line = '-' * 50
 
-csv_file_name = "staff.csv"
+csv_file_name = "_data/staff.csv"
 # print("Now we will ask for the column headers.")
 # print(long_line)
 
@@ -107,12 +107,12 @@ ais.sort(key=lambda row: row['name'])
 tas_file_contents = dump(tas)
 tutors_file_contents = dump(tutors)
 ai_file_contents = dump(ais)
-
-with open('tas.yml', 'w') as file:
+print(tas_file_contents)
+with open('_data/tas.yml', 'w') as file:
     file.write(tas_file_contents)
 
-with open('tutors.yml', 'w') as file:
+with open('_data/tutors.yml', 'w') as file:
     file.write(tutors_file_contents)
 
-with open('ais.yml', 'w') as file:
+with open('_data/ais.yml', 'w') as file:
     file.write(ai_file_contents)

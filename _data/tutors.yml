@@ -1,75 +1,7 @@
-- bio: Hey y'all! I'm Aarin, a sophomore majoring in CS & DS from Simi Valley, California. 
-    In my free time I enjoy playing Catan, watching sports (basketball, football, tennis) & 
-    kdramas, and sleeping. Super excited to be a tutor this semester!! :)  
-  email: aarin.salot@berkeley.edu
-  link: null
-  name: Aarin Salot
-  pic1: assets/img/staff/aarin-salot-1.jpg
-  pic2: assets/img/staff/aarin-salot-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi, I'm Aleem! I'm a third year studying computer science and data science.
-    I love reading and watching basketball (go Hawks + Warriors)! Feel free to email
-    me about anything - I look forward to meeting you guys!
-  email: aleem.l08@berkeley.edu
-  link: null
-  name: Aleem Lakdawala
-  pic1: assets/img/staff/aleem-lakdawala-1.jpg
-  pic2: assets/img/staff/aleem-lakdawala-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hello! I am a 4th year EECS transfer and am always open to offering assistance
-    and advice on course materials and on courses. I am currently working hard to
-    provide for my cat, Tofu who prefers to play with my hands rather than her toys.
-    When not spending time with my cat, I go to cafes in Berkeley!
-  email: naycal@berkeley.edu
-  link: null
-  name: Alexander YatChung Ng
-  pic1: assets/img/staff/alexander-yatchung-ng-1.jpg
-  pic2: assets/img/staff/alexander-yatchung-ng-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: He/Him/His
-- bio: Hi everyone, I am Allen, a junior CS major. I am from Pleasanton, CA. In my
-    free time, I enjoy play guitar, going to the gym, taking long walks, and of course
-    ballin' out every season.
-  email: allencao@berkeley.edu
-  link: https://allencaoo.github.io/
-  name: Allen Cao
-  pic1: assets/img/staff/allen-cao-1.jpg
-  pic2: assets/img/staff/allen-cao-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi! My name is Allison and I'm a second-year studying EECS. In my free time,
-    I enjoy traveling, binging kdramas, and listening to sad OSTs. Also, I really
-    like noodles. I'm looking forward to this be working with 61B this semester!
-  email: allisonhong1023@berkeley.edu
-  link: null
-  name: Allison Hong
-  pic1: assets/img/staff/allison-hong-1.jpg
-  pic2: assets/img/staff/allison-hong-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: "Hello there! I\u2019m a third-year majoring in Computer Science and Political\
-    \ Science. I really like camping and traveling with friends, Ghibli movies, Bowie,\
-    \ Super Metroid, and this class. I will try to be as helpful as hashmaps are!\
-    \ So feel free to reach out about anything!"
-  email: aaaldaco2002@berkeley.edu
-  link: null
-  name: Angel Aldaco
-  pic1: assets/img/staff/angel-aldaco-1.jpg
-  pic2: assets/img/staff/angel-aldaco-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hello! I'm Ashley and I'm a second-year EECS major from Irvine. I like cats,
-    computational biology, obsessing over public transport, exploring on Google Maps,
-    and wasting time on Discord. CS 61B is one of my favorite classes and I'm looking
-    forward to this semester!
+- bio: "Hi! I\xE2\u20AC\u2122m Ashley and I\xE2\u20AC\u2122m a third-year EECS major\
+    \ from Irvine, CA. This is my third time on 61B(L) staff. I like cats, wintermelon\
+    \ tea, public transit, shiny Pokemon, cursed data structures, and 61bees. Looking\
+    \ forward to meeting you all!"
   email: ashleykao@berkeley.edu
   link: null
   name: Ashley Kao
@@ -78,24 +10,10 @@
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: "Hi! I'm Ashley and a junior studying EECS. This is my second time tutoring\
-    \ for 61B, and I\u2019m super excited to work with everyone this semester! In\
-    \ my free time, I like to songwrite and listen to Taylor Swift (hit me up if you\
-    \ want to 1v1 me in guess the song)"
-  email: ashleyye@berkeley.edu
-  link: https://open.spotify.com/artist/36teKkbL34lTxGvCkAkGWX?si=pyfVQ9KNTr6-VyjEn7tceg
-  name: Ashley Ye
-  pic1: assets/img/staff/ashley-ye-1.jpg
-  pic2: assets/img/staff/ashley-ye-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: Hii, I'm Ayati! I'm a sophomore from India majoring in CS and minoring in BioE.
-    This was my favourite class and I'm super excited to be teaching 61B this semester!
-    I really enjoy reading, dancing, art history and everything related to the human
-    genome. In my free time you'll find me listening to music, binge watching the
-    latest dramas and movies (I love whodunnits) and attempting (unsuccessfully) to
-    solve wordle, worldle and other puzzles. Looking forward to meeting everyone :D
+- bio: Hii, I'm Ayati! I'm a junior from India studying CS and CogSci. This was my
+    favourite class and I'm super excited to be teaching 61B again! I really enjoy
+    reading, dancing and learning about art history, linguistics & the brain. Feel
+    free to reach out anytime and looking forward to meeting everyone :D
   email: ayati.sharma@berkeley.edu
   link: null
   name: Ayati Sharma
@@ -103,36 +21,28 @@
   pic2: assets/img/staff/ayati-sharma-1.jpg
   pic3: null
   pic4: null
-  pronouns: she/her/hers
-- bio: Hey! I'm a second year studying CS from Beijing. In my free time, you'll find
-    me in the kitchen trying to recreate recipes I found on Youtube. I'm also (for
-    the longest time) teaching myself how to play the ukulele. Talk to me about food,
-    music, standup comedy, sports, and anything at all! This is my first time tutoring
-    for 61B & I'm so ready to dive into data structures with you all this semester!
-    Let me know how I can help :)
+  pronouns: she/her
+- bio: 'Hey all! Hope you had a great summer and welcome to CS 61B! This will be my
+    second time as a tutor on course staff, and i''m so ready to get to know everyone!
+
+    I''m a junior studying CS with a minor in History. Over the summer, I spent a
+    lot of time playing around language models, and I''m pretty excited to see how
+    it will change the way people teach and learn. If you are also interested in cool
+    new ways to prompt GPT or want to talk about anything at all, please reach out!
+    & as always, let me know how I can help :)'
   email: jixy2012@berkeley.edu
-  link: null
+  link: https://youtu.be/U10KhWU-Jho
   name: Carl Ji
   pic1: assets/img/staff/carl-ji-1.jpg
   pic2: assets/img/staff/carl-ji-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hello!! My name is Claire and I'm a junior studying computer science from LA. 
-    I love to cook, do puzzles, watch insta reels (to avoid tiktok addiction) and watch 
-    extremely long tv shows in my free time! Super excited to help y'all learn 61b this semester :)
-  email: clairethibodeaux@berkeley.edu
-  link: null
-  name: Claire Thibodeaux
-  pic1: assets/img/staff/claire-thibodeaux-1.jpg
-  pic2: assets/img/staff/claire-thibodeaux-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: Hi yall, I'm David! I'm a second-year studying CS and Linguistics from Tallahassee,
-    Florida. Some fun things that I've picked up since I came to Berkeley are rock-climbing,
-    word games, and growing plants. Please reach out to me if you wanna talk about
-    any common (or uncommon) interests. Looking forward to meeting everyone!
+- bio: "Hi everyone! My name is David and I\xE2\u20AC\u2122m a junior studying CS\
+    \ and Linguistics from Tallahassee, Florida. In my free time, I enjoy rock-climbing,\
+    \ playing music, chess, and keeping my Duolingo streak. Please reach out to me\
+    \ if you wanna talk about any common interests or simply want to chat. Looking\
+    \ forward to meeting everyone!"
   email: davidmyang@berkeley.edu
   link: null
   name: David Yang
@@ -141,108 +51,14 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hey everyone! My name is Deepak, and I'm a CS + Political Science student from
-    Pleasanton teaching CS61B for the first time! Outside of school, I enjoy hanging
-    out with my friends and playing all sorts of card and board games. During my free
-    time, I love watching comedy/mystery TV shows like Psych, the Mentalist, and (currently)
-    New Girl. Can't wait to meet everyone!
-  email: deepak.ragu@berkeley.edu
-  link: null
-  name: Deepak Ragu
-  pic1: assets/img/staff/deepak-ragu-1.jpg
-  pic2: assets/img/staff/deepak-ragu-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hey Everyone! I'm Dhruv and I'm a second year studying CS, and potentially
-    minoring in Math. I'm super excited to be tutoring 61B this semester and can't
-    wait to meet y'all. In my free time, I love to watch and play sports, especially
-    soccer, football, and basketball. Please don't hesitate to reach out if you have
-    any questions, whether 61B related or not!
-  email: dhruv_ahuja@berkeley.edu
-  link: null
-  name: Dhruv Ahuja
-  pic1: assets/img/staff/dhruv-ahuja-1.jpg
-  pic2: assets/img/staff/dhruv-ahuja-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hey everyone! I'm Erik, a sophomore in EECS and I'm really excited to help
-    teach 61B this semester. I like volleyball, Super Smash Bros, and Catan.  Feel
-    free to message me anytime!
+- bio: Hey everyone! I'm Erik, a junior in EECS and I'm really excited to help teach
+    61B this semester. I like volleyball, Super Smash Bros, and Catan. Feel free to
+    message me anytime!
   email: erikkizior@berkeley.edu
   link: null
   name: Erik Kizior
   pic1: assets/img/staff/erik-kizior-1.jpg
   pic2: assets/img/staff/erik-kizior-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: hiii! i'm a third-year majoring in computer science. I love fashion, gaming, 
-    and going to concerts! I'm currently learning to dj and I also have my bartenders 
-    license. feel free to reach out about runway shows, virtual reality, the gaming 
-    industry, or anything at all! (´｡• ω •｡`) ♡ 
-  email: erik.nelson@berkeley.edu
-  link: null
-  name: Erik Nelson
-  pic1: assets/img/staff/erik-nelson-1.jpg
-  pic2: assets/img/staff/erik-nelson-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/they
-- bio: hey everybody i'm eshaan! i'm a junior studying CS from maryland(!). i love 
-    fruit snacks, playing super smash bros, eating good, and listening to dominic 
-    fike. hit me up anytime to talk about literally anything :) 
-  email: eshaan@berkeley.edu
-  link: null
-  name: Eshaan Moorjani
-  pic1: assets/img/staff/eshaan-moorjani-1.jpg
-  pic2: assets/img/staff/eshaan-moorjani-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi guys! I'm a third year studying CS and Music from Davis! I play baseball at 
-    Cal, the cello in UCBSO, and my twin sister claims I ate her optical nerves in the 
-    womb. Hit me up if you have any questions about anything. Cant wait to meet y'all!
-  email: ethanlo@berkeley.edu
-  link: null
-  name: Ethan Lo
-  pic1: assets/img/staff/ethan-lo-1.jpg
-  pic2: assets/img/staff/ethan-lo-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi, my name is Ian, and I'm a sophomore majoring in EECS. I'm extremely excited
-    to teach this class and meet you all!
-  email: ian_li@berkeley.edu
-  link: null
-  name: Hanzhang Li
-  pic1: assets/img/staff/hanzhang-li-1.jpg
-  pic2: assets/img/staff/hanzhang-li-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: hey! i'm janani, and i'm a sophomore :) i love talking about random things,
-    singing, reading, and generally being active in sunny weather, so i'm always down
-    to chill at the glade! really excited to be a tutor this semester <3
-  email: janani.sriram@berkeley.edu
-  link: https://jananisriram.github.io/
-  name: Janani Sriram
-  pic1: assets/img/staff/janani-sriram-1.jpg
-  pic2: assets/img/staff/janani-sriram-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: What's up! I'm Jay and I'm a sophomore studying CS, DS, and probably linguistics?
-    I like to play piano, read crime thrillers, work out at the gym, and travel to
-    see beautiful sunsets / sunrises in different places. Favorite restaurant in Berkeley
-    is probably a tie between Great China and Imm Thai. I hope all of y'all enjoy
-    61B as much as I did!
-  email: jaychou@berkeley.edu
-  link: null
-  name: Jay Chou
-  pic1: assets/img/staff/jay-chou-1.jpg
-  pic2: assets/img/staff/jay-chou-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -255,11 +71,10 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hi! I'm Kevin, a second year majoring in Computer Science. CS 61B is one of
-    my favorite classes here at Berkeley, and I really want to help more people have
-    a positive and fun experience in this class. In my free time, I like to work out,
-    play unhealthy amounts of video games, and strucure data >:). Feel free to reach
-    out for any potential questions!
+- bio: Hi there! I'm Kevin, a junior CS major from SoCal, and this will be my third
+    semester on the 61B course staff. In my free time I like to learn about game development,
+    cook, and workout.  Feel free to ask my any questions, and definitely say hi if
+    you bump into me!
   email: kevinsheng@berkeley.edu
   link: null
   name: Kevin Sheng
@@ -268,114 +83,11 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hi, my name is Kevin Xu, a sophomore studying CS + Mathematics here at Cal.
-    This is my first time teaching CS61b, but I have prior experience in CS70 and
-    CS170 course staff, so feel free to ask me about anything! My hobbies include
-    a good amount of sleeping, gaming, and playing poker :)
-  email: kxu144@berkeley.edu
-  link: null
-  name: Kevin Xu
-  pic1: assets/img/staff/kevin-xu-1.jpg
-  pic2: assets/img/staff/kevin-xu-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: ''
-- bio: Hello! My name is Lawrence and I am a sophomore double majoring in computer
-    science and data science. Some hobbies I have include playing badminton, hiking,
-    and playing chess. I love getting boba and poke when I have the chance to do so.
-    I look forward to meeting you all soon!
-  email: lawrence92@berkeley.edu
-  link: null
-  name: Lawrence Shieh
-  pic1: assets/img/staff/lawrence-shieh-1.jpg
-  pic2: assets/img/staff/lawrence-shieh-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: 'Hellooo people! My name is Teresa and I am a sophomore studying CS and Cog
-    Sci. I am a seasonal resident of Chengdu, Beijing, and Palos Verdes(LA), currently
-    listening to Taylor Swift, petting corgis, reading Ocean Vuong and psychology,
-    and trying to pick up my high school Spanish. Reach out to me if you like Sweet
-    potato, Soccer, Switzerland, and of course to ask me some questions about data
-    Structures :)
-
-    Beyond excited for a fun semester with you all!'
-  email: teresaluo1210@berkeley.edu
-  link: null
-  name: Manke Luo
-  pic1: assets/img/staff/manke-luo-1.jpg
-  pic2: assets/img/staff/manke-luo-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: hey! im a second year majoring in eecs and (intended) business administration.
-    besides teaching, im interested in cooking, fitness, and playing pokemon showdown.
-    please feel free to reach out about anything at all, or to challenge me to a pokemon
-    battle >:).
-  email: michael.wu1@berkeley.edu
-  link: null
-  name: Michael Wu
-  pic1: assets/img/staff/michael-wu-1.jpg
-  pic2: assets/img/staff/michael-wu-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi everyone! I am a second-year CS Major from Mountain View, CA! The algorithm
-    I most identify with is Depth First Search (DFS). I am usually an inquisitive
-    person, and this forces me to go deeper and deeper into the stack of watching
-    more YouTube like clips from "The Office". When I get too far off topic, I exit
-    with my base case and unravel a new stack of video content where I can again recursively
-    go deeper into a completely new playlist like '80s music. In this way, I spend
-    too much time on YouTube :D I look forward to meeting all of you this semester!
-  email: mihirm@berkeley.edu
-  link: https://www.linkedin.com/in/mihir-mirchandani/
-  name: Mihir Mirchandani
-  pic1: assets/img/staff/mihir-mirchandani-1.jpg
-  pic2: assets/img/staff/mihir-mirchandani-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him
-- bio: Hi! I'm Nadia and I'm super excited to be on course staff this semester! Taking 
-    61B really opened my eyes to the beauty of computer science. I'm passionate about 
-    helping students in the course however I can so please feel free to reach out to 
-    me! In my free time you can find me working out or reading. Looking forward to 
-    a 61Bangin' semester with you all! :) 
-  email: nlatifi420@berkeley.edu
-  link: null
-  name: Nadia Latifi
-  pic1: assets/img/staff/nadia-latifi-1.jpg
-  pic2: assets/img/staff/nadia-latifi-1.jpg
-  pic3: null
-  pic4: null
-  pronouns:
-- bio: "Hi, I\u2019m Nathalys, and I\u2019m a junior majoring in CS. I spend too much\
-    \ time playing games like Catan, Dominion, and TFT and watching shows like Futurama,\
-    \ Saiki K, and Bojack Horseman. Some of my hobbies are drawing, crocheting, baking,\
-    \ and knitting! I also like Kpop and dessert, and all of my money from being on\
-    \ staff will go to concerts and boba <3. "
-  email: ntpham@berkeley.edu
-  link: null
-  name: Nathalys Pham
-  pic1: assets/img/staff/nathalys-pham-1.jpg
-  pic2: assets/img/staff/nathalys-pham-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: Hello! I'm a second-year student majoring in Computer Science and active in
-    Cal's Vietnamese Student Association and the Cal Lion Dance team. In my free time,
-    I like playing around with Neovim, crocheting, watching video games, and spending
-    time with my friends. My favorite 61B project was Build-Your-Own-World!
-  email: ntn.nicholas@berkeley.edu
-  link: https://ntn-nicholas.com
-  name: Nicholas Nguyen
-  pic1: assets/img/staff/nicholas-nguyen-1.jpg
-  pic2: assets/img/staff/nicholas-nguyen-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi! I'm a third-year from NJ studying CS and cognitive science. I'm a big kpoppie
-    and in my free time, I watch kdramas or play Minecraft with friends :0 Feel free
-    to reach out to talk about data structures or literally anything else!
+- bio: Hi! I'm a fourth-year from NJ studying CS and cognitive science. I'm a big
+    kpoppie and in my free time, I watch kdramas, waste away my money on boba, or
+    play Minecraft with friends :0 This is my second time teaching 61B and I'm so
+    excited to share the love of this class! Feel free to reach out to talk about
+    data structures or literally anything else!
   email: ohuang@berkeley.edu
   link: null
   name: Olivia Huang
@@ -384,20 +96,20 @@
   pic3: null
   pic4: null
   pronouns: she/her
-- bio: hi yaal! My name is Pradyun and im a sophomore studying cs and economics! i
-    like cooking, working out, and exploring big cities. my second home at berkeley
-    is imm thai (best thai place hands down). i cant wait to meet some of you this
-    sem :)
-  email: pradyunkumar@berkeley.edu
-  link: null
-  name: Pradyun Kumar
-  pic1: assets/img/staff/pradyun-kumar-1.jpg
-  pic2: assets/img/staff/pradyun-kumar-1.jpg
+- bio: Hey! I'm Omar, a senior transfer majoring in EECS. I love talking about cats,
+    music of all kinds, and why cloudy rainy weather is the best. Looking forward
+    to a great semester of 61B!
+  email: omaryu@berkeley.edu
+  link: https://www.youtube.com/watch?v=Y9r_BLEKd3o
+  name: Omar Yu
+  pic1: assets/img/staff/omar-yu-1.jpg
+  pic2: assets/img/staff/omar-yu-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "Hey all~ \nI'm a sophomore majoring in CS in L&S. When I'm not bent over a\
-    \ computer doing homework you can find me cooking or dancing :)"
+- bio: Hey all~ I'm a junior majoring in CS in L&S, and this will be my third semester
+    teaching 61B. You'll find me pulling late nights with y'all in Soda on the 2nd
+    floor, but when I'm not coding I love to cook and dance :)
   email: ronaldwang2025@berkeley.edu
   link: null
   name: Ronald Wang
@@ -406,67 +118,24 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hey guys! I’m Sophie, a sophomore studying BioeE and CS. I like playing 
-    basketball, video games and watching the Lakers lose (even tho i’m from LA). 
-    It’s my first semester teaching and i’m really excited, so we are getting through 
-    this class together. Cant wait to see y’all around !
-  email: sophiekay@berkeley.edu
-  link: null
-  name: Sophie Nazarian
-  pic1: assets/img/staff/sophie-nazarian-1.jpg
-  pic2: assets/img/staff/sophie-nazarian-1.jpg
+- bio: 'Hello wonderful people : ) My name is Teresa and I am a junior studying Computer
+    Science and Data Science. I am from Chengdu, Beijing, and Palos Verdes(LA), currently
+    getting my daily dose of corgi and motorcycle content, reading about why humans
+    are not inherently evil, and trying to learn how to play La La Land epilogue on
+    the piano. This is my third time teaching 61B and looking forward to a fun semester
+    with you all!'
+  email: teresaluo1210@berkeley.edu
+  link: https://www.youtube.com/watch?v=df7-56dcb-k
+  name: Teresa Luo
+  pic1: assets/img/staff/teresa-luo-1.jpg
+  pic2: assets/img/staff/teresa-luo-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: Hey! I'm a junior studying cs and business from seattle! Super excited to be
-    helping with 61b this semester! In my free time, I love watching food vids on
-    tiktok, trying new recipes, and am currently learning to crochet!
-  email: surbhij@berkeley.edu
-  link: null
-  name: Surbhi Jain
-  pic1: assets/img/staff/surbhi-jain-1.jpg
-  pic2: assets/img/staff/surbhi-jain-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her
-- bio: 'Hi, I''m Tanya! I''m a second-year from Pennsylvania studying EECS. In my
-    free time, I love playing with makeup, eating vegan food, and traveling. My favorite
-    restaurant at Berkeley is Tane Vegan Izakaya.  I''m really excited to be apart
-    of CS61B course staff! '
-  email: tanyamehta@berkeley.edu
-  link: null
-  name: Tanya Mehta
-  pic1: assets/img/staff/tanya-mehta-1.jpg
-  pic2: assets/img/staff/tanya-mehta-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: She/Her/Hers
-- bio: Hi, I'm Taylor! I'm a sophomore studying CS from Toronto, Canada! In my free
-    time, I love to travel, cook, swim, and hike. Looking forward to meeting you all
-    - feel free to reach out about anything!
-  email: taylorhodan@berkeley.edu
-  link: null
-  name: Taylor Hodan
-  pic1: assets/img/staff/taylor-hodan-1.jpg
-  pic2: assets/img/staff/taylor-hodan-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: 'Hey y''all! I am a Junior majoring in Computer Science. Outside of class,
-    I play a lot of board games (Catan, Terraforming Mars, etc). I am very into the
-    show Star Trek. I recently finish Deep Space 9 and would love to have someone
-    to talk with about it. I also make boba drinks occasionally. '
-  email: thomascl@berkeley.edu
-  link: null
-  name: Thomas Lee
-  pic1: assets/img/staff/thomas-lee-1.jpg
-  pic2: assets/img/staff/thomas-lee-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: 'hi! i''m vanessa, a sophomore from the bay area studying computer science
-    and data science. i love to crochet, play with my cats, and listen to every possible
-    genre of music. i really enjoyed 61B and am incredibly excited to meet everyone! '
+- bio: "hi! i\xE2\u20AC\u2122m vanessa, a junior from the bay area studying computer\
+    \ science and business. i like to crochet, play with my cats, and make+listen\
+    \ to every possible genre of music. i really enjoyed taking+teaching 61B and am\
+    \ incredibly excited to meet everyone!"
   email: vanessateo@berkeley.edu
   link: null
   name: Vanessa Teo
@@ -475,34 +144,9 @@
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: "Hi! I\u2019m Vika and I\u2019m a second year Computer Science and Data Science\
-    \ major. Some of my interests include hiking, ballet, and skiing! When I\u2019\
-    m not debugging something you can find me going on walks around Berkeley or the\
-    \ Fire Trails. There are so many good restaurants in Berkeley but if I had to\
-    \ pick one I'd say it's Lucia's (the pizza there is \U0001F90C). A fun fact about\
-    \ me is that I absolutely love carrots and always have at least 3 carrot related\
-    \ items on me. Can't wait to help teach some data structures :)"
-  email: victoria.stukalova@berkeley.edu
-  link: null
-  name: Vika Stukalova
-  pic1: assets/img/staff/victoria-stukalova-1.jpg
-  pic2: assets/img/staff/victoria-stukalova-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her
-- bio: Hello! I'm a second year student. It's my first time tutoring CS61B. I'm looking
-    forward to meeting you all!
-  email: kumarvikram2020@berkeley.edu
-  link: null
-  name: Vikram Kumar
-  pic1: assets/img/staff/vikram-kumar-1.jpg
-  pic2: assets/img/staff/vikram-kumar-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: ''
-- bio: Hi, I'm William and I'm a 3rd year studying CS. I enjoy going down history
-    rabbit holes on Wikipedia and eating the duck noodle soup at Racha Cafe. I'm super
-    excited to be working with you all this semester!
+- bio: Hi, I'm William and I'm a senior studying CS. I enjoy going down history rabbit
+    holes on Wikipedia, riding the new BART trains, and eating the Fish Noodle Soup
+    at Noodle Dynasty. I'm super excited to be working with you all this semester!
   email: william.lee@berkeley.edu
   link: null
   name: William Lee
@@ -511,7 +155,7 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: hi there! I'm Xifeng, a 2nd year CS major from LA! I love music, gardening,
+- bio: hi! I'm Xifeng, a 3rd year CS + DS major from LA. I love music, gardening,
     board games, Tetris, and of course, CS 61B! I'm so so so excited to meet y'all
     & feel free to reach out if you need anything at all :)
   email: xifengli@berkeley.edu
