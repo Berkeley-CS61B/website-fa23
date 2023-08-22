@@ -83,7 +83,6 @@ function render(event, element, _) {
 }
 
 function launchCal(lab_disc_url, oh_url) {
-  console.log(oh_url);
   return function () {
     $("#lab_disc").fullCalendar({
       allDaySlot: false,
