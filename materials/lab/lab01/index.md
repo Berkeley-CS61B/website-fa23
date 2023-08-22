@@ -433,7 +433,7 @@ with a one time code, and prompted to open the browser.
 Enter the code in the browser window and select authorize Github. You should now be logged in!
 
 {% include alert.html type="info" content="**NOTE**: For Window Users: if you run into an error that says 
-"could not prompt: Incorrect Function", run `winpty gh auth login` instead.
+\"could not prompt: Incorrect Function\", run `winpty gh auth login` instead.
 " %}
 
 The entire process should look like the below: 
