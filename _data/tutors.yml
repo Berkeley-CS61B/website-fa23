@@ -1,3 +1,15 @@
+- bio: Hello! I am a 4th year EECS transfer and am always open to offering assistance
+    and advice on course materials and on courses. I am currently working hard to
+    provide for my cat, Tofu who prefers to play with my hands rather than her toys.
+    When not spending time with my cat, I go to cafes in Berkeley!
+  email: naycal@berkeley.edu
+  link: null
+  name: Alexander YatChung Ng
+  pic1: assets/img/staff/alexander-yatchung-ng-1.jpg
+  pic2: assets/img/staff/alexander-yatchung-ng-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him/his
 - bio: "Hi! I\xE2\u20AC\u2122m Ashley and I\xE2\u20AC\u2122m a third-year EECS major\
     \ from Irvine, CA. This is my third time on 61B(L) staff. I like cats, wintermelon\
     \ tea, public transit, shiny Pokemon, cursed data structures, and 61bees. Looking\
@@ -22,14 +34,13 @@
   pic3: null
   pic4: null
   pronouns: she/her
-- bio: 'Hey all! Hope you had a great summer and welcome to CS 61B! This will be my
-    second time as a tutor on course staff, and i''m so ready to get to know everyone!
-
-    I''m a junior studying CS with a minor in History. Over the summer, I spent a
-    lot of time playing around language models, and I''m pretty excited to see how
-    it will change the way people teach and learn. If you are also interested in cool
-    new ways to prompt GPT or want to talk about anything at all, please reach out!
-    & as always, let me know how I can help :)'
+- bio: "Hey all! Hope you had a great summer and welcome to CS 61B! This will be my\
+    \ second time as a tutor on course staff, and i'm so ready to get to know everyone!\r\
+    \nI'm a junior studying CS with a minor in History. Over the summer, I spent a\
+    \ lot of time playing around language models, and I'm pretty excited to see how\
+    \ it will change the way people teach and learn. If you are also interested in\
+    \ cool new ways to prompt GPT or want to talk about anything at all, please reach\
+    \ out! & as always, let me know how I can help :)"
   email: jixy2012@berkeley.edu
   link: https://youtu.be/U10KhWU-Jho
   name: Carl Ji
