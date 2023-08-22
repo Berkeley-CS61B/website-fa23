@@ -2,7 +2,7 @@
 layout: page
 title: "Lab 1 Setup: Mac OS"
 categories: lab
-released: false
+released: true
 ---
 
 ## A. Setup
@@ -32,30 +32,35 @@ released: false
 
     ![Homebrew Warnings](img/mac/homebrew_warnings.png)
 
-3.  If you encounter a warning asking you to download Command Line Tools, you
-    will need to do this. Please follow the StackOverflow post
+3.  If you encounter a warning asking you to download Command Line Tools, you might need to try installing
+    manually with this command: 
+    ```sh
+    xcode-select --install
+    ```
+    If that doesn't work, please try following the StackOverflow post 
     [here](http://stackoverflow.com/questions/9329243/xcode-4-4-and-later-install-command-line-tools).
 
-4.  Install the Java JDK and git. You can do this by typing:
+4.  Install the Java JDK, git and gh. You can do this by typing:
 
     ```sh
     brew install java
     brew install git
+    brew install gh
     ```
 
     {% include alert.html type="warning" content="
-    If in the Java install output, you see \"For the system Java wrappers to
+    **NOTE**: If in the Java install output, you see \"For the system Java wrappers to
     find this JDK, symlink it with\" -- run the command it says to run, starting
     with `sudo ln`.
     " %}
 
     {% include alert.html type="info" content="
-    Some versions of Homebrew will install Java 18 or above. Any version of
+    **INFO**: More recent versions of Homebrew will install Java 20 or above. Any version of
     Java that is Java 17 or higher will be sufficient for the course.
     " %}
 
-{:start="5"} 5.
-After successfully installing Java, please run
+{:start="5"} 
+5. After successfully installing Java, please run
 
     ```sh
     sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
@@ -64,20 +69,14 @@ After successfully installing Java, please run
     and put in your password. You may not be able to see your password while
     typing (that's ok). There shouldn't be any output after running this command.
 
-6.  Install the git credentials manager:
-
-    ```shell
-    brew tap microsoft/git
-    brew install --cask git-credential-manager-core
-    ```
-
-7.  Verify your git installation by typing:
+6. Verify your git and gh installation by typing:
 
     ```shell
     git --version
+    gh --version
     ```
 
-    You have successfully installed git if this command returns a valid version
+    You have successfully installed git and gh if this command returns a valid version
     number and does not fail.
 
     Similarly, you can verify your Java installation by typing:
@@ -87,7 +86,7 @@ After successfully installing Java, please run
     javac -version
     ```
 
-    Both of these commands should succeed and show version 17. If both
+    Both of these commands should succeed and show version 17 (or newer). If both
     installations are good, woohoo! Skip the rest of this guide and return to the lab.
 
 ## B. Java Install Issues
@@ -147,13 +146,14 @@ touch with your TA before proceeding.
     by using <kbd>CMD+Q</kbd>.
 
     {% include alert.html type="warning" content="
-    If you have worked with this type of stuff
+    **NOTE**: If you have worked with this type of stuff
     before, you may be tempted to source your zprofile or bash_profile. Do
     **NOT** be tempted; simply close out of your terminal with <kbd>CMD+Q</kbd>.
     (Did you echo into the correct file? If you source it, you won't know.)
     " %}
 
-{:start="6"} 6. Restart your terminal, and verify that your environment variables have been
+{:start="6"} 
+6. Restart your terminal, and verify that your environment variables have been
 setup correctly by running:
 
     ```sh

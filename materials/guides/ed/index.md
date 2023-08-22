@@ -24,7 +24,7 @@ the person responsible for the content will face repercussions. Please aim to
 keep the climate inclusive for everyone. If at any point you have felt
 targeted, excluded, disrespected, or discriminated against by a student or
 someone from our course staff, please fill out our
-[Incident Report form](https://forms.gle/ffJgcZ9croEWrra26) to report it. If
+[Incident Report form](https://forms.gle/5Q33zxKXDQmSqU6v5) to report it. If
 you would rather not speak to someone from staff, there are several campus
 offices you may report to instead
 (<https://diversity.berkeley.edu/report-incident>).

@@ -10,8 +10,7 @@ include_course_info: false
 <h1 style="color: red">Note: This page is not updated for Fall 2023</h1>
 
 **This document provides an overview of the policies for this course as taught
-at UC Berkeley. If you just want to know how to get started on the class, see
-this [getting started guide](materials/guides/old/misc/getting-started.md).**
+at UC Berkeley.**
 
 ## General Background Information
 
@@ -38,11 +37,6 @@ largely built upon the assumption that you have taken CS 61A. CS 88 and E7
 students may find the beginning of the course to be a bit scarier, particularly
 when it comes to object oriented programming. We assume you are coming in with
 zero Java experience, but we will move through basic Java syntax very quickly.
-
-We recommend all students to complete the
-[optional introductory assignment](/materials/hw/hw0/index.md) by the beginning
-of the semester to get comfortable with Java and practice some of the
-programming skills expected by this class.
 
 If you already have Java experience, great! We hope that you’ll help out your
 fellow students in discussion, lab, and on our class forum, particularly in the
@@ -81,7 +75,7 @@ The National Suicide Prevention Lifeline is a 24-hour number any student or
 faculty/staff person can call to speak with someone about suicide:
 (800) 273-TALK (8255).
 
-If you're experiencing extenuating circumstances impacting your mental health and would like to meet with a member of course staff to work out accommodations within the course, or would like to be connected to more resources, you can set up a meeting with us [here](https://docs.google.com/forms/d/e/1FAIpQLScQfcFOWj9iy-SsG8U72BiWXHwzmO80psVBEseY9PHUrqB0Kg/viewform)
+If you're experiencing extenuating circumstances impacting your mental health and would like to meet with a member of course staff to work out accommodations within the course, or would like to be connected to more resources, you can set up a meeting with us [here](https://forms.gle/Pyajz6QoibMhbXAo8)
 
 ### Accommodation
 
@@ -104,9 +98,11 @@ develop an implementation plan.
 
 ### Lecture
 
-Lecture is scheduled on Monday, Wednesday, and Friday from 1 to 2 PM in
-Li Ka Shing 245. Since the classroom is not large enough to allow all enrolled
+Lecture is scheduled on Monday, Wednesday, and Friday from 2-3 PM in
+Wheeler 150. Since the classroom is not large enough to allow all enrolled
 students to physically attend, lecture will be simultaneously webcast over Zoom.
+
+We will post lecture recordings as well as Josh Hug's Spring 2023 web videos to the content schedule on the main page. Both will cover the same content.
 
 ### Discussion
 
@@ -126,7 +122,7 @@ page. We will not have section signups this term.
 The schedule of all sections and lectures can be found at the bottom of our
 course website's [main page](/#disccal).
 
-Discussion attendance is not mandatory.
+Discussion attendance is not mandatory, though you are given [pacing points](#pacing-points) for attending.
 
 We have three (3) different types of discussions this semester:
 
@@ -159,38 +155,27 @@ be less focus on review/mini-lecture and more time spent on the problems.
 
 Lab sections are 2 hours long and feature coding assignments that students
 submit for credit. In these sections, TAs will introduce the assignment, review
-relevant material, and answer students’ questions. In some weeks, Lab TAs will
-also go over the staff’s solution to the lab assignment. Lab sections are also
+relevant material, and answer students’ questions. Lab sections are also
 supported by academic interns.
 
 Labs will primarily be held in-person, though we may have limited remote
 options on Zoom.
 
-Lab attendance is not mandatory, with the _exception_ of two labs: Lab 5
+Lab attendance is not mandatory, with the _exception_ of two labs: Lab 6
 (Project 1 Code Review) and Lab 15 (Project 3 Demos). These labs include an
 assignment for which you will need to get checked-off by a TA to receive
 credit.
 
 Information about the staff running each section can be found on the staff
-page. We will not have section signups this term.
+page.
 
-If you choose to not sign up for a lab to attend regularly, for the mandatory
+We will not have section signups this term. For the mandatory
 attendance labs, you will have the following options:
 
-- Lab 5: You will be able to attend any lab that works with your schedule.
+- Lab 6: You will be able to attend any lab that works with your schedule.
 - Lab 15: There will be official sign ups for this checkoff, in which you and
   your partner will present the work you completed for Project 3. The signups
   will be available shortly before the last week of classes.
-
-### Post Lab Review Sections
-
-Occasionally students complete the weekly lab assignment but still feel that
-there are flaws in their understanding, or that although their code may pass
-the tests, it is still inefficient and clunky. For this reason 61B will be
-hosting Post-Lab Review Sections throughout the semester. These will be weekly
-one hour sections where course staff will live code a solution to the previous
-week's lab as well as describe their approach so that you can see how a more
-experienced Java programmer might approach the assignments.
 
 ### Office Hours
 
@@ -246,7 +231,7 @@ or sudden necessary travel that result in extended absences), please contact
 
 ### Beacon
 
-Rather than using bcourses, we will be using our own custom learning management
+Rather than using bCourses, we will be using our own custom learning management
 system called Beacon located at [beacon.datastructur.es](https://beacon.datastructur.es).
 You can use Beacon to keep track of your grades and late assignments.
 You can also read
@@ -256,9 +241,9 @@ our full guide on Beacon [here](/materials/guides/beacon/index.md).
 
 **There is no required textbook for the class.**
 
-There is an online textbook written by myself and a large team of former TAs.
+There is an online textbook written by myself and a large team of course staff.
 It can be found at
-[https://joshhug.gitbooks.io/hug61b](https://joshhug.gitbooks.io/hug61b).
+[https://cs61b-2.gitbook.io/cs61b-textbook/](https://cs61b-2.gitbook.io/cs61b-textbook/).
 If you find these notes insufficient, you might consider consulting
 [Paul Hilfinger's (free) Java Reference](http://www-inst.eecs.berkeley.edu/~cs61b/fa14/book1/java.pdf)
 or
@@ -281,8 +266,8 @@ Integrated Development Environment (IDE) called IntelliJ. While we will not
 enforce using IntelliJ, we strongly recommend it. We will not officially
 support any editing or programming environment other than IntelliJ.
 
-This semester, we will use Java 17 (and therefore require at least
-IntelliJ 2021.2.1, though we recommend IntelliJ 2022.2).
+This semester, we will use Java 17 or higher (and therefore require at least
+IntelliJ 2021.2.1, though we recommend IntelliJ 2022.3 or IntelliJ 2023.2).
 
 You will be able to do any work you’d like on any Windows, Mac OS X, or Linux
 computer. You will set up your own computer in Lab 1.
@@ -333,8 +318,8 @@ Labs are graded according to autograder tests on Gradescope. There are no
 hidden tests for which your score is not displayed, though we may have tests
 which you do not have access to.
 
-Out of the 14 labs (excluding spring break), only 10 will entail an assignment you need to submit. Each
-of these 10 labs will be worth 256 points (for a total of 2560 points).
+Out of the 14 labs, only 10 will entail an assignment you need to submit. Each
+of these 10 labs will be worth 5 points (for a total of 50 points).
 
 You do not need to attend lab to receive credit for lab, with the exception of
 two specific assignments (see [above](#lab)).
@@ -361,14 +346,14 @@ We have three kinds of homework:
   multiple choice and fill-in-the-blanks questions. You can expect to have to
   work out these problems on paper before filling in your answer on Gradescope.
 
-Each homework will be worth 768 points (for a total of 3840 points).
+Each homework will be worth 15 points (for a total of 75 points).
 
 No homeworks will be dropped, though we have a generous lateness policy.
 
 ### Projects
 
 In addition to the HWs and labs, there will be 4 programming projects. In these
-projects you will build an entire system. All projects except projects 2B and 3 must
+projects you will build an entire system. All projects except project 3 must
 be completed on your own.
 
 Project 0 and 1 will be relatively easier than projects 2 and 3, taking less
@@ -380,7 +365,7 @@ Project 2.
 
 Each project has a specific theme:
 
-- Project 0 (Awakening of Azathoth): Introduction to Java
+- Project 0 (2048): Introduction to Java
 - Project 1 (Deques): Basic Design, Testing, and Code Review
 - Project 2 (Ngordnet): Design, Large Scale Implementation
 - Project 3 (BYOW): Large Scale Design
@@ -389,7 +374,7 @@ Projects will have different grader release schedule and restrictions on the
 number of allowed submissions per a time interval. Full grader details will be
 provided on the release of each project.
 
-Projects 0, 1, 2, and 3 will be worth 2560, 2560, 6400, and 6400 points
+Projects 0, 1, 2, and 3 will be worth 50, 50, 125, and 125 points
 respectively.
 
 #### Project 3
@@ -418,10 +403,10 @@ Full details on partnerships can be found
 
 There will be two evening midterms:
 
-- Week 4, Thursday 2/9, 7-9 PM
-- Week 9, Thursday 3/16, 7-9 PM
+- Week 5, Thursday 9/21, 7-9 PM
+- Week 9, Thursday 10/19, 7-9 PM
 
-There is also a final exam on Tuesday 5/9, 8-11 AM.
+There is also a final exam on Tuesday 12/14, 3-6 PM.
 
 CS 61B exams will by default be in-person, though you may request a proctored
 remote exam. Proctoring details will be released closer to the exam.
@@ -471,10 +456,10 @@ Extra credit is very limited in this course, because we would rather you
 achieve your grade by demonstrating your knowledge on the assignments and
 exams. That said, here are a few:
 
-- Pre-semester survey (128 points)
-- Mid-semester survey (128 points)
-- End-of-semester survey (128 points)
-- Official university course evals (up to 128 points)
+- Pre-semester survey (2.5 points)
+- Mid-semester survey (2.5 points)
+- End-of-semester survey (2.5 points)
+- Official university course evals (up to 2.5 points)
 
 We may add additional extra credit, but do not expect us to do so.
 
@@ -486,36 +471,36 @@ There are three ways to earn “pacing” points, which are given for keeping up
 - Attending lab synchronously (either in person or via Max's online lab)
 - Attending live/Zoom lecture or watching the pre-recorded videos on time.
 
-Each discussion or lab is worth 32 pacing points. Each lecture is worth 16 pacing points. You may earn up to 960 pacing points. We will calculate pacing points using responses to the weekly surveys.
+Each discussion or lab is worth 0.5 pacing points. Each lecture is worth 0.5 pacing points. You may earn up to 16 pacing points. We will calculate pacing points using responses to the weekly surveys.
 
-Pacing points are added to your score, but cannot increase your score beyond 34,000 points. In other words, if you have 33,586 points and 816 pacing points, your final score will be 34,000 points.
+Pacing points are added to your score, but cannot increase your score beyond 750 points. In other words, if you have 740 points and 15 pacing points, your final score will be 750 points.
 
 ## Grades
 
-Your letter grade will be determined by the total points out of the possible
-51,200. In other words, there is _no curving in this course_, other than the
+Your letter grade will be determined by the total points out of the possible 1000. In other words, there is _no curving in this course_, other than the
 clobbering policy above. Your grade will depend on how well you do relative to the bins, and
 not on how well everyone else does. Though we do not usually do this, we reserve the right to
 lower the the grading bins for 61B if grades are too low. We will not raise them.
 
 | Category      | Percentage | Points |
 | ------------- | ---------- | ------ |
-| Homework/Labs | 12.5%      | 6400   |
-| Surveys       | 2.5%       | 1280   |
-| Projects      | 35%        | 17920  |
-| Midterms      | 25%        | 12800  |
-| Final Exam    | 25%        | 12800  |
-| Total         | 100%       | 51200  |
+| Homework/Labs | 12.5%      | 125    |
+| Surveys       | 2.5%       | 25     |
+| Projects      | 35%        | 350    |
+| Midterm 1     | 10%        | 100    |
+| Midterm 2     | 15%        | 150    |
+| Final Exam    | 25%        | 250    |
+| Total         | 100%       | 1000   |
 
 {: #grade-breakdown}
 
-| A+    | A     | A-    | B+    | B     | B-    |
-| ----- | ----- | ----- | ----- | ----- | ----- |
-| 49600 | 46400 | 43600 | 39600 | 36800 | 33000 |
+| A+  | A   | A-  | B+  | B   | B-  |
+| --- | --- | --- | --- | --- | --- |
+| 984 | 914 | 854 | 794 | 754 | 714 |
 
-| C+    | C     | C-    | D+    | D     | D-    | F   |
-| ----- | ----- | ----- | ----- | ----- | ----- | --- |
-| 29800 | 26000 | 23400 | 20200 | 17000 | 12800 | 0   |
+| C+  | C   | C-  | D+  | D   | D-  | F   |
+| --- | --- | --- | --- | --- | --- | --- |
+| 679 | 644 | 609 | 569 | 534 | 499 | 0   |
 
 {: #letter-grades}
 
@@ -631,6 +616,25 @@ three important rules for coding assignments:
     to you to decide what constitutes 'significant'. However, citing does not
     change the extent of collaboration or reference allowed.
 
+    {% include alert.html type="info"
+    content="
+    Examples:
+
+    // @source I worked with [person], the code below receives a list of objects
+    // and iterates through the list until it finds the number 3 and
+    // returns the index.
+    ...
+
+    // @source From https://stackoverflow.com/questions/16242733/sum-all-the-elements-java-arraylist,
+    // the following code iterates through the list and sums its values.
+    ...
+
+    // @source This code was generated by ChatGPT. It reads and parses
+    // all integers from the file, which I then pass into my computeSum method.
+    ...
+    "
+    %}
+
 For clarity, some examples of specific activities are listed below:
 
 **Permitted**:
@@ -676,13 +680,9 @@ Permitted with **Extreme Caution**:
   group of people identifying, tackling, and effectively identically solving a
   sequence of subproblems.
 
-We have advanced cheating detection software, and we will routinely run this
-code to detect cheating. Every semester, we catch and penalize a significant
-number of people (roughly 100 cases per semester). Do not be one of them. If you
-find yourself at such a point of total desperation that cheating begins to look
-attractive, contact one of the instructors.
-Likewise, if 61B is causing massive disruption to your personal life, please
-contact us directly.
+We have advanced cheating detection software, and we will routinely run this code to detect cheating. Every semester, we catch and penalize a significant number of people (roughly 100 cases per semester). Do not be one of them. If you find yourself at such a point of total desperation that cheating begins to look attractive, contact one of the instructors. Likewise, if 61B is causing massive disruption to your personal life, please email `cs61b (at) berkeley.edu`{: .blue}.
+
+In essence, our ultimate goal is for students to grasp the code they've crafted. It's not just about completing projects; it's about cultivating a deep comprehension of their code. We assign these projects to give you an opportunity to build a strong foundation in coding, ensuring that you truly understand the core principles behind the concepts we teach in this course.
 
 If you admit guilt to an act of plagiarism before we catch you, you will
 receive the same penalty (redoing the assignment), but we will not refer your
@@ -707,16 +707,38 @@ There is no partial credit for work that is submitted late.
 And thus, by default, Gradescope will give you zero points if you submit after the deadline.
 
 However, we understand that you may be busy, tired, or experiencing a crisis. We would like your grade to reflect what you demonstrate proficiency in and accomplish in the class, and have designed some flexibility to our lateness policy to achieve that as much as possible. Your health, safety, and well-being are the priority, and ideally your grades should reflect what you have learned, not when you learned it.
-If you have extenuating circumstances, you may request an extension. Extensions are not guaranteed. All extensions will require you to provide detailed reasons for your extension. There are two types of extensions:
+
+Our extensions policy consists of two phases.
+
+### Phase 1
+
+Phase 1 includes assignments between the start of the semester until around week 5. Assignments in Phase 1 are: Homeworks 0-1, Labs 1-5, and Projects 0-1.
+
+During this phase, there are two types of extensions:
 
 - Short extension: Extensions submitted for less than 24 hours will be instantly processed by an automatic system,
 - Long extension: Extensions submitted for 24-72 hours will be manually processed by GSIs and will receive a reply within 1 business day.
   Extensions beyond 72 cannot be granted using the Beacon extension system.
 
-After week 5, the course content builds on itself in a less time-critical manner, so starting in week 6, the thresholds for "short" and "long" extensions will be increased to 72 for short extensions and 120 hours for long extensions.
+All extensions will require you to provide detailed reasons for your extension. If you have [extenuating circumstances](#extenuating-circumstances), you may request a longer extension. Extensions are not guaranteed.
 
-An important note on extensions: leading up to an assignment deadline, we usually provide increased support for that assignment (in the form of incrased staffing). As a result, continuing to work on an assignment after the original deadline may lead to slower respones times on Ed/longer wait times in OH, as staff will actively prioritize assignments whose deadlines have not passed.
+### Phase 2
 
+Around the middle of week 6, the extensions policy enters Phase 2 where the course content builds on itself in a less time-critical manner. Assignments in Phase 2 are: Homeworks 2-4, Labs 6-15, and Projects 2-3.
+
+- Short extension: Extended to 72 hours
+- Long extension: Extended to between 72-120 hours. Extensions beyond 120 hours cannot be granted through Beacon.
+
+Like Phase 1, all extensions will require you to provide detailed reasons for your extension. If you have [extenuating circumstances](#extenuating-circumstances), you may request a longer extension. Extensions are not guaranteed.
+
+{% include alert.html type="info"
+  content="An important note on extensions: leading up to an assignment deadline, we usually provide increased support for that assignment (in the form of incrased staffing). As a result, continuing to work on an assignment after the original deadline may lead to slower respones times on Ed/longer wait times in OH, as staff will actively prioritize assignments whose deadlines have not passed."
+%}
+
+### Exceptions
+
+{% include alert.html type="warning"
+content="
 **Some aspects of the course cannot be extended:**
 
 - Surveys may not be extended.
@@ -724,6 +746,8 @@ An important note on extensions: leading up to an assignment deadline, we usuall
   exam prep.
 - Project 3 Phase 2 may not be extended, as it is difficult to arrange late
   project presentations.
+  "
+  %}
 
 ## Extenuating Circumstances
 
@@ -733,9 +757,9 @@ We define extenuating circumstances as circumstances outside of the student’s 
 
 We will be restrictive about granting these extensions.
 
-If you are experiencing such circumstances and need more flexible deadlines than the lateness system provides, please fill out [this form](https://forms.gle/czP6fZ8bhszN8XzC8).
+If you are experiencing such circumstances and need more flexible deadlines than the lateness system provides, please fill out [this form](https://forms.gle/QWrwvY4n8e7C9LpR8).
 
-Additionally, if you'd like to speak to a student support TA, book an appointment with us [here](https://docs.google.com/forms/d/e/1FAIpQLScQfcFOWj9iy-SsG8U72BiWXHwzmO80psVBEseY9PHUrqB0Kg/viewform).
+Additionally, if you'd like to speak to a student support TA, book an appointment with us [here](https://forms.gle/eMTPsvh33kcfoYRw5).
 
 ## Auditing CS61B
 
