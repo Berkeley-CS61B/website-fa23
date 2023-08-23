@@ -39,7 +39,7 @@
       assignments:
         - title: "HW0: A Java Crash Course (due 8/25)"
           link: /materials/hw/hw0
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 
