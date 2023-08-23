@@ -6,7 +6,7 @@
     - name: No discussion week 1.
       released: false
   labs:
-    - name: IntelliJ, Git (due 8/28)
+    - name: IntelliJ, Git (due 8/25)
       link: materials/lab/lab01
       resource_links:
         - name: slides
