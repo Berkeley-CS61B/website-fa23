@@ -26,8 +26,8 @@
       lecture_topic: Intro
       #class: outdated
       lecture_links:
-        #- name: videos
-        #  link: 
+        - name: videos
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRq5wRDN8wZFy7GrrJXUtr1q
         - name: recording
           link: https://www.youtube.com/watch?v=kGlwWTEWUYM
         - name: slides
