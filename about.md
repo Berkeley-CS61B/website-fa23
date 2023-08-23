@@ -6,9 +6,6 @@ class: about
 include_course_info: false
 ---
 
-<!-- TODO: Remove this warning -->
-<h1 style="color: red">Note: This page is not updated for Fall 2023</h1>
-
 **This document provides an overview of the policies for this course as taught
 at UC Berkeley.**
 
@@ -418,6 +415,10 @@ will be determined closer to the exam.
 Midterm 1 grades will be unavailable before the drop deadline. If you’re a
 prospective CS major and you are worried about dropping the course in the time
 before the drop deadline, please reach out to course staff for advice.
+
+#### Exam Grading
+
+For each exam, if the average score is less than 65%, then the maximum score is reduced until the average is 65% (More precisely, everyone's score becomes `min(1, your_score * 0.65 / mean_score)*(max_score)`). If the average is greater than 65%, then no change is made.
 
 #### Final Exam Percentile Clobbering
 
