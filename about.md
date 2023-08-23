@@ -467,8 +467,8 @@ We may add additional extra credit, but do not expect us to do so.
 
 There are three ways to earn “pacing” points, which are given for keeping up with the class.
 
-- Attending discussion synchronously (either in person or via Max's online discussion)
-- Attending lab synchronously (either in person or via Max's online lab)
+- Attending discussion synchronously (in person or online)
+- Attending lab synchronously (in person or online)
 - Attending live/Zoom lecture or watching the pre-recorded videos on time.
 
 Each discussion or lab is worth 0.5 pacing points. Each lecture is worth 0.5 pacing points. You may earn up to 16 pacing points. We will calculate pacing points using responses to the weekly surveys.
