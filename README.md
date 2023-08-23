@@ -154,7 +154,7 @@ _Please don't add discussion PDFs to this repo. Add it to the SPA's drive instea
 ### Add Course Staff
 
 1. Create a spreadsheet with responses to the staff info form, but only columns for: Email Address, Full Name, Bio, Appointment, Photo, Pronouns, and Personal Website. Download this spreadsheet as a CSV and move it to `_data/staff.csv`.
-2. Invoke the script `create_staff_ymls.py` (located in `_data`). This script will create two .yml files: `tas.yml` and `tutors.yml`. It also downloads the photos from Google Drive into a new folder `assets/img/staff`.
+2. Invoke the script `create_staff_ymls.py` (located in `_data`). This script will create two .yml files: `tas.yml` and `tutors.yml`. It also downloads the photos from Google Drive into a new folder `assets/img/staff`. Make the drive folder temporarily public so the script can access the photos.
 3. Invoke the `resize.py` script in `assets/img/staff/`.
 
 ## More Links
