@@ -10,9 +10,9 @@
       link: materials/lab/lab01
       resource_links:
         - name: slides
-          released: true
-          link: "https://docs.google.com/presentation/d/1DoSvSLSyZg4XSSZXvWiN6I_Pj1bfACOgFsj7y-MS06s/edit?usp=sharing"
-      released: true
+          released: false
+          link: "https://docs.google.com/presentation/d/1uroW9Qpm9eICC8TcuogkrrqjgpaRnZPA"
+      released: false
 
   days:
     - custom: |
@@ -25,16 +25,16 @@
 
     - day: 2023-08-23
       lecture_topic: Intro
-      class: outdated
+      #class: outdated
       lecture_links:
-        - name: vid
-          link: 
-        - name: recording
-          link: 
+        #- name: vid
+        #  link: 
+        #- name: recording
+        #  link: 
         - name: slides
           link: https://docs.google.com/presentation/d/1kcUqOa2i2vN18exxUYO0XnzGUKAnf0hACdW1qF7XoII
-        - name: guide
-          link: /materials/lectures/lec1
+        #- name: guide
+        #  link: /materials/lectures/lec1
       reading: > # Format in Markdown
         [1.1](https://joshhug.gitbooks.io/hug61b/content/chap1/chap11.html)
       assignments:
