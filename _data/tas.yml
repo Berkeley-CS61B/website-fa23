@@ -1,9 +1,8 @@
-- bio: "Hi! I\xE2\u20AC\u2122m Adit, and I\xE2\u20AC\u2122m a second year EECS and\
-    \ Business major from the Bay Area. I love exploring the outdoors through biking,\
-    \ hiking, and backpacking. I\xE2\u20AC\u2122m also a big fan of food, whether\
-    \ it\xE2\u20AC\u2122s cooking new cuisines or trying all the new restaurants in\
-    \ Berkeley. This is my third time teaching 61B, and I\xE2\u20AC\u2122m excited\
-    \ to meet you all this semester!"
+- bio: "Hi! I\u2019m Adit, and I\u2019m a second year EECS and Business major from\
+    \ the Bay Area. I love exploring the outdoors through biking, hiking, and backpacking.\
+    \ I\u2019m also a big fan of food, whether it\u2019s cooking new cuisines or trying\
+    \ all the new restaurants in Berkeley. This is my third time teaching 61B, and\
+    \ I\u2019m excited to meet you all this semester!"
   email: aditshah@berkeley.edu
   link: null
   name: Adit Shah
@@ -13,7 +12,7 @@
   pic4: null
   pronouns: he/him/his
 - bio: "heyo, i'm allen! i'm a 4th year studying eecs and this is my 4th semester\
-    \ teaching 61b! (unfortunately, this is not my dog \xF0\u0178\u02DC\xAD)"
+    \ teaching 61b! (unfortunately, this is not my dog \U0001F62D)"
   email: allengu01@berkeley.edu
   link: https://www.youtube.com/watch?v=aTYVdK3GNxI
   name: Allen Gu
@@ -22,13 +21,13 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "hello! i\xE2\u20AC\u2122m a spongebob enthusiast who likes to reference spongebob\
-    \ a lot in my daily life. i am from la who now lives in the bay but i like to\
-    \ stay in la. i guess i\xE2\u20AC\u2122m a senior now, and that\xE2\u20AC\u2122\
-    s pretty wild. i've been really into jewelry-making, knitting, finding cheap concerts\
-    \ around berkeley, museum-roaming, and eating cereal \xE2\u20AC\u201D so that\xE2\
-    \u20AC\u2122s fun. this is my fifth time teaching CS 61b and i\xE2\u20AC\u2122\
-    d love to teach y\xE2\u20AC\u2122all my flips and tricks or just vibe :)"
+- bio: "hello! i\u2019m a spongebob enthusiast who likes to reference spongebob a\
+    \ lot in my daily life. i am from la who now lives in the bay but i like to stay\
+    \ in la. i guess i\u2019m a senior now, and that\u2019s pretty wild. i've been\
+    \ really into jewelry-making, knitting, finding cheap concerts around berkeley,\
+    \ museum-roaming, and eating cereal \u2014 so that\u2019s fun. this is my fifth\
+    \ time teaching CS 61b and i\u2019d love to teach y\u2019all my flips and tricks\
+    \ or just vibe :)"
   email: angelinasongco@berkeley.edu
   link: https://www.youtube.com/watch?v=ocY-Yf2n0Ts
   name: Angelina Songco
@@ -37,11 +36,11 @@
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: "yooo, I\xE2\u20AC\u2122m austin! i\xE2\u20AC\u2122m a senior majoring in CS\
-    \ and this is my second time TAing for 61b. this class was easily my favorite\
-    \ course at Berkeley and hopefully I can share that excitement with y\xE2\u20AC\
-    \u2122all. i love running, hiking, and very spicy food. rule #1 in my discussion,\
-    \ judgement leaves at the door. let\xE2\u20AC\u2122s have a good semester! :D"
+- bio: "yooo, I\u2019m austin! i\u2019m a senior majoring in CS and this is my second\
+    \ time TAing for 61b. this class was easily my favorite course at Berkeley and\
+    \ hopefully I can share that excitement with y\u2019all. i love running, hiking,\
+    \ and very spicy food. rule #1 in my discussion, judgement leaves at the door.\
+    \ let\u2019s have a good semester! :D"
   email: a2@berkeley.edu
   link: https://youtu.be/KigVdcSr8s4
   name: Austin George
@@ -64,10 +63,9 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "Hi! I\xE2\u20AC\u2122m Claire, a fourth year studying CS from the Bay Area!\
-    \ The is my third time teaching CS61B, and I\xE2\u20AC\u2122m super stoked :)\
-    \ I enjoy dancing, exploring new coffee shops, and trying new foods. Look forward\
-    \ to meeting you all!"
+- bio: "Hi! I\u2019m Claire, a fourth year studying CS from the Bay Area! The is my\
+    \ third time teaching CS61B, and I\u2019m super stoked :) I enjoy dancing, exploring\
+    \ new coffee shops, and trying new foods. Look forward to meeting you all!"
   email: clairelee8@berkeley.edu
   link: null
   name: Claire Lee
@@ -101,10 +99,10 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "Heyoooo I\xE2\u20AC\u2122m Dylan! I\xE2\u20AC\u2122m a Junior in EECS and\
-    \ this is my third semester TAing 61B. I\xE2\u20AC\u2122m SO excited support y\xE2\
-    \u20AC\u2122all through your 61B grind. Always feel free to reach out if you have\
-    \ any questions about absolutely anything. I\xE2\u20AC\u2122m here to help!"
+- bio: "Heyoooo I\u2019m Dylan! I\u2019m a Junior in EECS and this is my third semester\
+    \ TAing 61B. I\u2019m SO excited support y\u2019all through your 61B grind. Always\
+    \ feel free to reach out if you have any questions about absolutely anything.\
+    \ I\u2019m here to help!"
   email: dylanhamuy@berkeley.edu
   link: https://peal.io/soundboards/paul-hilfinger
   name: Dylan Hamuy
@@ -149,8 +147,8 @@
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: "Hey, I'm Erg\xC3\xBCn! I'm a senior majoring in computer science and this\
-    \ is my 4th time teaching 61B. I like geography :)"
+- bio: "Hey, I'm Erg\xFCn! I'm a senior majoring in computer science and this is my\
+    \ 4th time teaching 61B. I like geography :)"
   email: ergunackz@berkeley.edu
   link: null
   name: Ergun Acikoz
@@ -201,7 +199,7 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "\xF0\u0178\xA7\u20AC"
+- bio: "\U0001F9C0"
   email: sberkun@berkeley.edu
   link: https://natethesnake.com/
   name: Samuel Berkun
@@ -225,8 +223,8 @@
     \ Area, CA. I'm a huge fan of shows like Survivor and The Office, I always have\
     \ music on repeat, my camera roll is flooded with sunset pics, and I'm obsessed\
     \ with iced coffee. This semester, I'm excited to help simplify data structures\
-    \ using real-life examples and stories. Feel free to reach out anytime \xE2\u20AC\
-    \u201C I'm here to help you ace this course while having a blast! :)"
+    \ using real-life examples and stories. Feel free to reach out anytime \u2013\
+    \ I'm here to help you ace this course while having a blast! :)"
   email: stellakaval@berkeley.edu
   link: https://stellakaval.github.io/teaching/
   name: Stella Kaval
