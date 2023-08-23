@@ -572,7 +572,7 @@ By contrast, the projects were designed not just for learning (particularly how
 to be self-reliant in the context of large unfamiliar systems), but also for
 the dual purpose of evaluating your mastery of the course material. As such,
 they are intended to be completed primarily on your own (or with your partner
-on projects 2B and 3, which allow partners), particularly when it comes to writing the actual code.
+on project 3, which allow partners), particularly when it comes to writing the actual code.
 
 ### Exam Misconduct
 
