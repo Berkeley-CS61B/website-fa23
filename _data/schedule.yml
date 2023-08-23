@@ -10,9 +10,9 @@
       link: materials/lab/lab01
       resource_links:
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1uroW9Qpm9eICC8TcuogkrrqjgpaRnZPA"
-      released: false
+          released: true
+          link: "https://docs.google.com/presentation/d/1DoSvSLSyZg4XSSZXvWiN6I_Pj1bfACOgFsj7y-MS06s/edit?usp=sharing"
+      released: true
 
   days:
     - custom: |
