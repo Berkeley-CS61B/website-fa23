@@ -69,10 +69,10 @@ $(document).ready(function() {
     } else {
       $("#justin-email").fadeIn(200);
     }
-		if ($("peyrin-email").is(":visible")) {
-			$("#peyrin-email").fadeOut(200);
-		} else {
-			$("#peyrin-email").fadeIn(200);
-		}
+    if ($("#peyrin-email").is(":visible")) {
+      $("#peyrin-email").fadeOut(200);
+    } else {
+      $("#peyrin-email").fadeIn(200);
+    }
   });
 });
