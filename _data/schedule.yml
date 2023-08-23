@@ -10,9 +10,9 @@
       link: materials/lab/lab01
       resource_links:
         - name: slides
-          released: true
-          link: "https://docs.google.com/presentation/d/1DoSvSLSyZg4XSSZXvWiN6I_Pj1bfACOgFsj7y-MS06s/edit?usp=sharing"
-      released: true
+          released: false
+          link: "https://docs.google.com/presentation/d/1uroW9Qpm9eICC8TcuogkrrqjgpaRnZPA"
+      released: false
 
   days:
     - custom: |
@@ -27,10 +27,10 @@
       lecture_topic: Intro
       #class: outdated
       lecture_links:
-        #- name: vid
+        #- name: videos
         #  link: 
-        #- name: recording
-        #  link: 
+        - name: recording
+          link: https://www.youtube.com/watch?v=kGlwWTEWUYM
         - name: slides
           link: https://docs.google.com/presentation/d/1kcUqOa2i2vN18exxUYO0XnzGUKAnf0hACdW1qF7XoII
         #- name: guide
@@ -457,7 +457,6 @@
           released: false
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
-
 - week: 6
   # weekly_survey: "https://forms.gle/rNaz3FFqsfKmFSum8"
   rows: 3

@@ -26,10 +26,10 @@
       lecture_topic: Intro
       #class: outdated
       lecture_links:
-        #- name: vid
+        #- name: videos
         #  link: 
-        #- name: recording
-        #  link: 
+        - name: recording
+          link: https://www.youtube.com/watch?v=kGlwWTEWUYM
         - name: slides
           link: https://docs.google.com/presentation/d/1kcUqOa2i2vN18exxUYO0XnzGUKAnf0hACdW1qF7XoII
         #- name: guide
