@@ -10,10 +10,10 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "Hi! I\xE2\u20AC\u2122m Ashley and I\xE2\u20AC\u2122m a third-year EECS major\
-    \ from Irvine, CA. This is my third time on 61B(L) staff. I like cats, wintermelon\
-    \ tea, public transit, shiny Pokemon, cursed data structures, and 61bees. Looking\
-    \ forward to meeting you all!"
+- bio: "Hi! I\u2019m Ashley and I\u2019m a third-year EECS major from Irvine, CA.\
+    \ This is my third time on 61B(L) staff. I like cats, wintermelon tea, public\
+    \ transit, shiny Pokemon, cursed data structures, and 61bees. Looking forward\
+    \ to meeting you all!"
   email: ashleykao@berkeley.edu
   link: null
   name: Ashley Kao
@@ -49,11 +49,11 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "Hi everyone! My name is David and I\xE2\u20AC\u2122m a junior studying CS\
-    \ and Linguistics from Tallahassee, Florida. In my free time, I enjoy rock-climbing,\
-    \ playing music, chess, and keeping my Duolingo streak. Please reach out to me\
-    \ if you wanna talk about any common interests or simply want to chat. Looking\
-    \ forward to meeting everyone!"
+- bio: "Hi everyone! My name is David and I\u2019m a junior studying CS and Linguistics\
+    \ from Tallahassee, Florida. In my free time, I enjoy rock-climbing, playing music,\
+    \ chess, and keeping my Duolingo streak. Please reach out to me if you wanna talk\
+    \ about any common interests or simply want to chat. Looking forward to meeting\
+    \ everyone!"
   email: davidmyang@berkeley.edu
   link: null
   name: David Yang
@@ -143,10 +143,10 @@
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: "hi! i\xE2\u20AC\u2122m vanessa, a junior from the bay area studying computer\
-    \ science and business. i like to crochet, play with my cats, and make+listen\
-    \ to every possible genre of music. i really enjoyed taking+teaching 61B and am\
-    \ incredibly excited to meet everyone!"
+- bio: "hi! i\u2019m vanessa, a junior from the bay area studying computer science\
+    \ and business. i like to crochet, play with my cats, and make+listen to every\
+    \ possible genre of music. i really enjoyed taking+teaching 61B and am incredibly\
+    \ excited to meet everyone!"
   email: vanessateo@berkeley.edu
   link: null
   name: Vanessa Teo
