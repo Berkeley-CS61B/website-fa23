@@ -28,11 +28,11 @@
       class: outdated
       lecture_links:
         - name: vid
-          link: https://www.youtube.com/watch?v=kktoaXCyVDw&list=PL8FaHk7qbOD6NlIHCjmKSpUudMA-8bMA1
+          link: 
         - name: recording
-          link: https://kaf.berkeley.edu/media/t/1_uh6kt20r/287340162
+          link: 
         - name: slides
-          link: https://docs.google.com/presentation/d/1EOHmv6G7LH-ZNrhyd2BXAG30tM65zlixc-vSrufQ-U4
+          link: https://docs.google.com/presentation/d/1kcUqOa2i2vN18exxUYO0XnzGUKAnf0hACdW1qF7XoII
         - name: guide
           link: /materials/lectures/lec1
       reading: > # Format in Markdown
