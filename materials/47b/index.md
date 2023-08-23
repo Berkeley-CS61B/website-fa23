@@ -128,7 +128,7 @@ For Projects 2 and 3, you will be paired with another 47B student. Project pairi
 
 Most communication, including announcements and updates, for 47B will be through the 61B course email, `cs47b (at) berkeley.edu`{: .blue}. 
 
-Additionally, the TA in charge of CS 47B is Stella Kaval. His contact info can be found on the [course staff page](https://fa23.datastructur.es/staff.html). Please also include the 61B course email!
+Additionally, the TA in charge of CS 47B is Stella Kaval. Her contact info can be found on the [course staff page](https://fa23.datastructur.es/staff.html). Please also include the 61B course email!
 
 The course also has a "47B" topic on [61B's Ed forum](https://edstem.org/us/courses/42700/discussion/). If you have questions about the course, feel free to ask them there! Making public posts also allows other 47B students to view and answer them.
 
