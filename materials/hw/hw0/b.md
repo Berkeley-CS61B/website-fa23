@@ -470,7 +470,7 @@ def minIndex(numbers):
 ```java
 public static int minIndex(int[] numbers) {
     if (numbers.length == 0) {
-        throw new Exception("There are no elements in the array!")
+        throw new Exception("There are no elements in the array!");
     }
     int m = numbers[0];
     int idx = 0;
