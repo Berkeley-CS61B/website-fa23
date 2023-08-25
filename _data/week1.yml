@@ -28,10 +28,10 @@
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRq5wRDN8wZFy7GrrJXUtr1q
-        - name: recording
-          link: https://www.youtube.com/watch?v=kGlwWTEWUYM
         - name: slides
           link: https://docs.google.com/presentation/d/1kcUqOa2i2vN18exxUYO0XnzGUKAnf0hACdW1qF7XoII
+        - name: recording
+          link: https://www.youtube.com/watch?v=kGlwWTEWUYM
         #- name: guide
         #  link: /materials/lectures/lec1
       reading: > # Format in Markdown
