@@ -5,7 +5,7 @@ categories: proj
 released: true # you have to also change this to true to release.
 ---
 
-## Due: 09/02/2022
+## Due: 09/01/2023
 
 ## [FAQ](faq.md)
 
@@ -116,48 +116,6 @@ reason we're doing this is that in the real world, you'll often work with codeba
 maybe don't understand at all, like in this project!) and will have to do some tinkering and experimentation to get the
 results you want. Don't worry, when we get to project 1 next week, you'll have a chance to start from scratch.
 
-Below, we describe some of the ideas behind the architecture of the given skeleton code, which was created by Paul
-Hilfinger. It is not important that you understand every detail, but you might find it interesting.
-
-The skeleton exhibits two *design patterns* in common use:
-the Model-View-Controller Pattern (MVC), and the Observer Pattern.
-
-The MVC pattern divides our problem into three parts:
-
-* The **model** represents the subject matter being represented and acted upon -- in this case incorporating the state
-  of a board game and the rules by which it may be modified. Our model resides in the `Model`,
-  `Side`, `Board`, and `Tile` classes. The instance variables of `Model` fully determine what the state of the game is.
-  Note: You'll only be modifying the `Model` class.
-* A **view** of the model, which displays the game state to the user. Our view resides in the `GUI` and `BoardWidget`
-  classes.
-* A **controller** for the game, which translates user actions into operations on the model. Our controller resides
-  mainly in the `Game` class, although it also uses the GUI class to read keystrokes.
-
-The MVC pattern is not a topic of 61B, nor will you be expected to know or understand this design pattern on exams or
-future projects.
-
-The second pattern utilized is the "Observer pattern". Basically this means that the **model** doesn't actually report
-changes to the **view**. Instead, the **view** *registers* itself as an *observer* of the `Model` object. This is a
-somewhat advanced topic so we will provide no additional information here.
-
-<!--in our particular design, the **view** is notified of changes to the game
-state by *registering* itself as an *observer* of the `Model` object.
-The model does need not know that it is being observed.  Instead, the
-controller logic from time to time asks the model to notify all
-observers who have registered on it about changes to the model. -->
-<!--The
-observers then query the model for its current state.  The standard
-Java classes `java.util.Observer` and `java.util.Observable` handle this
-registration and notification: classes that wish to observe implement
-`Observer` and those that allow themselves to be observed extend
-`Observable`. Note: The class `java.util.Observer` is no longer
-recommended for use in new projects, i.e. it has been [deprecated](https://en.wikipedia.org/wiki/Deprecation#Software) by the company in charge of the Java programming
-language.
-
-**It's not required to understand the `Observable` and `Observer`
-interfaces,and no knowledge of these interfaces is required to complete the
-project;** this bit was just included to satisfy those curious.-->
-
 We'll now go over the different classes that you will interact with.
 
 ### Tile
@@ -170,8 +128,8 @@ tile with the value 8, then `t.value()` will return `8`.
 
 ### Side
 
-The `Side` class is a special type of class called an `Enum`. An enum is similar has restricted functionality.
-Specifically, enums may take on only one of a finite set of values. In this case, we have a value for each of the 4
+The `Side` class is a special type of class called an `Enum`.
+Enums may take on only one of a finite set of values. In this case, we have a value for each of the 4
 sides: `NORTH`,
 `SOUTH`, `EAST`, and `WEST`. You will not need to use any of the methods of this class nor manipulate the instance
 variables.
@@ -195,7 +153,7 @@ method) will be to figure out which of these methods and instance variables are 
 ### Board
 
 This class represents the board of tiles itself. It has three methods that you'll use: `setViewingPerspective`, `tile`
-, `move`. Optionally, for experimentation, you can use `getRandomNonNullTile`.
+, `move`.
 
 **You will only edit the `Model.java` file in this assignment.** Gradescope will only take your `Model.java` file and
 use the skeleton versions of the other files, so if you make an edit to `Tile.java` for example, it will not be
@@ -213,7 +171,7 @@ First, make sure that everything in your repository is properly updated and chec
 
     git status
 
-when done in your `fa22-s***` directory should report that the directory is clean and that there are no untracked files
+when done in your `fa23-s***` directory should report that the directory is clean and that there are no untracked files
 that should be added and committed. If there are, simply add and commit.
 
 _Never_ start a new project without doing this.
@@ -222,7 +180,7 @@ To obtain the skeleton files, you should use the command
 
     git pull skeleton main
 
-in your `fa22-s***` directory. You'll see a folder `proj0` containing all of the skeleton code is now in your student
+in your `fa23-s***` directory. You'll see a folder `proj0` containing all of the skeleton code is now in your student
 repo.
 
 In the unlikely event that we must update the skeleton, you can use the same command to update your project with the
@@ -231,9 +189,9 @@ same changes.
 ### Getting restarted: Skeleton
 
 Rather than trying to get your current code to work, you might find yourself wanting to just restart completely. That is
-possible with Git! Simply run this command in your `fa22-s***` directory:
+possible with Git! Simply run this command in your `fa23-s***` directory:
 
-    git checkout skeleton/main -- proj0
+    git restore --source=skeleton/main proj0
 
 Beware: this command will get rid of all changes to anything in the `proj0`
 directory that you haven't committed. So if you think you _might_ want the code you currently have, simply make a commit
@@ -244,10 +202,11 @@ this you could do the following:
     git add proj0
     git commit -m "save work because I want to start back over"
     git push
-    git checkout skeleton/main -- proj0
+    git restore --source=skeleton/main proj0
 
-Then later, if you wanted to restore your work that you saved, you could use `git checkout`. If you can't figure out how
-to use checkout to this, post to Ed or ask a TA.
+Then later, if you wanted to restore your work that you saved, you could use `git restore` with that commit as the source. If you have trouble with this, post to Ed or ask a TA.
+
+For more information, refer to [this section of the git guide](../../guides/git/#getting-previous-versions-of-files)
 
 ### IntelliJ Setup
 
@@ -267,15 +226,15 @@ the down arrow on the `proj0` folder which will expand the folder below. It shou
 
 The `.idea` folder is something that IntelliJ generates to store miscellaneous settings. You can ignore this folder.
 
-The `game2048` folder is the source for all the Java files. Everything you need to do lies in this folder.
+The `src` folder contains all the Java source files for the game. The `tests` folder contains all the testing files. Everything you need to do lies in these folders.
 
 IntelliJ is usually smart enough to set up the rest of the things for you, but in case your IntelliJ application is
 having a hard time we'll walk through the setup procedures.
 
-We need to tell IntelliJ that we want to use those `.jar` files in the `library-fa22`
+We need to tell IntelliJ that we want to use those `.jar` files in the `library-fa23`
 folder. Still in the Project Structure, on the left-hand side click the section of the Project Settings called "Library"
-. If you see that `library-fa22` is already added, there is nothing to do. Else, we will click on the "+" button and
-then "Java" which will launch our operating system's file browser, and we'll click on the `library-fa22` folder. Then,
+. If you see that `library-fa23` is already added, there is nothing to do. Else, we will click on the "+" button and
+then "Java" which will launch our operating system's file browser, and we'll click on the `library-fa23` folder. Then,
 in the bottom right of the screen, hit "Apply" and then the blue "OK" button.
 
 In all, the setup would look like this (sorry for the blurryness):
