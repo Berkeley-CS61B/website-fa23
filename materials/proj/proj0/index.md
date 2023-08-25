@@ -5,7 +5,7 @@ categories: proj
 released: true # you have to also change this to true to release.
 ---
 
-## Due: 09/01/2023
+Due: 09/01/2023
 
 ## [FAQ](faq.md)
 
@@ -532,19 +532,19 @@ Testing
 While in the future we expect you to be able to test your own programs, for this project we've given you the full test
 suite.
 
-The tests are split over 5 files: `TestEmptySpace`, `TestMaxTileExists`,
-`TestAtLeastOneMoveExists`, `TestUpOnly`, and `TestModel`. Each file tests a specific portion of the code with the
-exception of `TestModel` which tests all the things you write in coordination with each other. Such a test is called an
+The tests are split over 9 files: `TestEmptySpace`, `TestMaxTileExists`,
+`TestAtLeastOneMoveExists`, `TestModel`, `TestUpOnly`, `TestTiltNoMerge`, `TestTiltMerge`, `TestMultipleMoves`, and `TestNbyN`. Each file tests a specific portion of the code with the
+exception of `TestMultipleMoves` which tests all the things you write in coordination with each other. Such a test is called an
 _integration test_ and are incredibly important in testing. While unit tests run things in isolation, integration tests
 run things all together and are designed to catch obscure bugs that occur as a result of the interaction between
 different functions you've written.
 
-So do not attempt to debug `TestModel` until you're passing the rest of the tests! In fact, the order in which we
+So do not attempt to debug `TestMultipleMoves` until you're passing the rest of the tests! In fact, the order in which we
 discuss the tests is the order you should attempt them in.
 
-We recommend using the given tests to debug your code, though you're also welcome to debug by running `Main.java`. We
-have also provided an alternate way to start the game in a file called `CustomizableMain.java`. This is the same
-as `Main`, but allows you to start the board from any state you'd like (by editing the `createCustomStartModel` method).
+We recommend using the given tests to debug your code, though you're also welcome to debug by running `Main.java`. You can also start the game from a specific state by changing the `CUSTOM_START` and `USE_CUSTOM_START` variables in `Main.java`, which may be helpful for debugging specific tests.
+
+To run all the tests at once, you can right-click the tests folder in Intellij, then click "Run All Tests"
 
 We'll now take a look at each of these tests and show you how to read the error messages.
 
@@ -581,6 +581,10 @@ above two. Since the
 `atLeastOneMoveExists` method depends on the `emptySpaceExists` method, you shouldn't expect to pass these tests until
 you are passing all of the tests in `TestEmptySpace`.
 
+### TestModel
+
+These tests create a `Model` at a specific state, then check correctness of the `gameOver` method. Since `gameOver` is a combination of `maxTileExists` and `atLeastOneMoveExists`, you should expect to pass these tests if both of those methods are implemented correctly.
+
 ### TestUpOnly
 
 These tests will check the correctness of your `tilt` method, but only in the up (`Side.NORTH`) direction. The error
@@ -613,20 +617,23 @@ rule. We suggest writing out on pen and paper the steps your code takes so you c
 the way it does, then coming up with a fix. These tests only call `tilt`
 once, so you don't need to worry about debugging multiple calls to tilt.
 
-### TestModel
+### TestTiltNoMerge
 
-These tests will check the correctness of everything together. The majority of these tests are similar to the tests
-in `TestUpOnly` as they only call `tilt`
-once, but we also have tests for `gameOver` (which test all of your
-`emptySpaceExists`, `maxTileExists`, and `atLeastOneMoveExists` methods together) and tests that make many calls
-to `tilt` in a sequence.
+This is similar to `TestUpOnly`, but specifically tests situations with no merges. Unlike `TestUpOnly`, it tests in all 4 directions.
 
-The error messages for these look exactly the same as those in `TestUpOnly`, and the javadoc comments are similarly
-useful in figuring out what the test is testing.
+### TestTiltMerge
 
-Don't worry about the actual code for the tests: you're not required to understand or modify any of these, though you're
-welcome to read through and get an idea for how test writing works and even add some of your own if you are feeling
-really ambitious.
+This is similar to `TestUpOnly`, but specifically tests situations with merges. Unlike `TestUpOnly`, it tests in all 4 directions.
+
+
+### TestMultipleMoves
+
+These integration tests simulate parts of a game. They run multiple tilts in a row and add random tiles to the board.
+
+### TestNbyN
+
+2048 is normally played on a 4x4 board, but it is generalizable to any size board. These tests make sure the game works on non-4x4 boards.
+
 
 Grading
 -------
@@ -697,7 +704,7 @@ test isn't passing, figure out which part isn't passing and why there is a discr
 properly, or perhaps things don't merge the way they should be. This helps speed things up and might even lead you to
 find your own bug.
 
-If you're posting on Ed, please read our [Ed policies](../../guides/ed-policies.html) to make sure you're not
+If you're posting on Ed, please read our [Ed policies](../../guides/ed/) to make sure you're not
 accidentally posting part of your solution and hence violating our academic integrity policies. Otherwise, we welcome
 constructive discussion on our megathreads. Remember to search for your issue before posting a follow-up as many
 students have very similar bugs!
