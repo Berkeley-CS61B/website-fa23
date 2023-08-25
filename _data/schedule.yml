@@ -52,6 +52,8 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqziLs3JZ6LIH73ZsVtvsGy
         - name: slides
           link: https://docs.google.com/presentation/d/1gMxJn4-S1npZRTlUnoMDKqnkec1YW1K33NKiqTA5Fsw
+        - name: recording
+          link: https://www.youtube.com/watch?v=Ff7i-tqstPk
         #- name: guide
         #  link: /materials/lectures/lec2
       reading: > # Format in Markdown
