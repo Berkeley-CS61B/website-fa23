@@ -13,17 +13,13 @@ tree is clean.
 
 Then, refer to the [Git WTFs](../../guides/git/wtfs) section on resolving merge
 conflicts. You'll need to incorporate both your local changes (this likely
-includes your `BombMain` passwords and `AdventureGame` fixes) and the bug fixes
+includes your `BombMain` passwords) and the bug fixes
 from the skeleton.
 
 After you've resolved the merge conflicts in the files, you'll need to re-add and commit them
 to complete the merge.
 
 Come into office hours or lab if you're unsure on what to do!
-
-## I still fail every test in `AdventureGameTests` even after implementing `BeeCountingStage`!
-
-Re-pull from the skeleton using `git pull skeleton main`.
 
 ## There's a lot of red in my IntelliJ
 
@@ -34,8 +30,3 @@ if you need a refresher on how to do this.
 If that doesn't work, be sure that `src` is blue and `tests` is green. Refer to
 the [IntelliJ WTFS](../../../materials/guides/intellij/wtfs/#i-cant-run-my-java-filefiles-dont-show-up-as-java-files)
 to mark your `src` and `tests` folders appropriately.
-
-## `IllegalArgumentException: Could not open ...txt` in `AdventureGameTests`
-
-Be sure that you've opened the project with the `lab02` folder as the parent
-directory.
