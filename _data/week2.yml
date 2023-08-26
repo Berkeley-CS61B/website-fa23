@@ -51,15 +51,17 @@
       released: false
   days:
     - day: 2023-08-28
-      lecture_topic: References, Recursion, and Lists
-      class: outdated
+      lecture_topic: "Lists 1: References, Recursion, and Lists"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4xiNMw6A4GmQ1BbfW4EUJ9
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRpb4EQp0tOFJNZUXHnxTfXm
         - name: slides
-          link: https://docs.google.com/presentation/d/1LLKolI8k4hVxjJmT2QN511U-dH5Q3C7dw_c5tz-UprM/edit?usp=sharing
-        - name: guide
-          link: /materials/lectures/lec4/
+          link: https://docs.google.com/presentation/d/15uESzAYiD1-aLOVJCp32ksFD333CFebfKOrhLBMXFtI
+        #- name: guide
+        #  link: /materials/lectures/lec4/
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [2.1](https://joshhug.gitbooks.io/hug61b/content/chap2/chap21.html)
       assignments:
@@ -70,15 +72,17 @@
           cols: 2 # 1 for half column, 2 for full column
 
     - day: 2023-08-30
-      lecture_topic: SLLists, Nested Classes, Sentinel Nodes
-      class: outdated
+      lecture_topic: "Lists 2: SLLists"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4iIbJYDWuBjSiyxRAMYfnp
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8
         - name: slides
-          link: https://docs.google.com/presentation/d/1b3ezovH8kO6s0oWkJ6QhBKJndkYuDSdDck7CcOi26Ok/edit?usp=sharing
-        - name: guide
-          link: /materials/lectures/lec5/
+          link: https://docs.google.com/presentation/d/1XUyEY_qVcKZuOLlSfc5hQFdNt4rDLHnw2L92ZrmEppI
+        #- name: guide
+        #  link: /materials/lectures/lec5/
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [2.2](https://joshhug.gitbooks.io/hug61b/content/chap2/chap22.html)
       assignments:
@@ -89,15 +93,17 @@
           cols: 2 # 1 for half column, 2 for full column
 
     - day: 2023-09-01
-      lecture_topic: DLLists, Arrays
-      class: outdated
+      lecture_topic: "Lists 3: DLLists and Arrays"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6rD0Tkr1E5NDmUUzItMRE8
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRpPjLuN6-QJUFeK_mBZPve4
         - name: slides
-          link: https://docs.google.com/presentation/d/10JSf8_Cut4kodFP3MxoPovUVjTGWZ6YFyIuT95NyqTk/edit?usp=sharing
-        - name: guide
-          link: /materials/lectures/lec6
+          link: https://docs.google.com/presentation/d/1MQ_ZyCoA2cYOIkF-JRbGQchZ734m7qKyRYfwtQ7kquQ
+        #- name: guide
+        #  link: /materials/lectures/lec6
+        #- name: recording
+        #  link: TODO
       reading: >
         [2.3](https://joshhug.gitbooks.io/hug61b/content/chap2/chap23.html), [2.4](https://joshhug.gitbooks.io/hug61b/content/chap2/chap24.html)
       assignments:
