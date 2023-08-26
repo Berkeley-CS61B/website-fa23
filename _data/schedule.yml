@@ -61,7 +61,7 @@
       assignments:
         - title: "Project 0: 2048 (due 9/1)"
           link: /materials/proj/proj0
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
         - title: |
@@ -155,7 +155,7 @@
       assignments:
         - title: Project 0 (due 9/1)
           link: /materials/proj/proj0/
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 
