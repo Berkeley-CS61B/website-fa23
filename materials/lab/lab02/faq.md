@@ -2,7 +2,7 @@
 layout: page
 title: "FAQ - Lab 02: Debugging"
 categories: lab
-released: false
+released: true
 searchable: true
 ---
 
