@@ -634,7 +634,7 @@ These integration tests simulate parts of a game. They run multiple tilts in a r
 2048 is normally played on a 4x4 board, but it is generalizable to any size board. These tests make sure the game works on non-4x4 boards.
 
 
-Grading & Deliverables
+Grading
 -------
 
 A full scoring project will pass all of the unit tests that we provide. Remember that **there are no hidden tests**, so
