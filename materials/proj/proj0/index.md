@@ -120,7 +120,7 @@ We'll now go over the different classes that you will interact with.
 
 ### Tile
 
-This class represents numbered tiles on the board. If a variable of type `Tile`
+This class represents the numbered tiles on the board. If a variable of type `Tile`
 is `null`, it's treated as an empty tile on the board. You will not need to instantiate any `Tile` objects, though you
 will need have an understanding of them since you will be using them in the `Model` class. The only method of this class
 you'll need to use is `.value()` which returns the value of the given tile. For example if `Tile t` corresponds to a
@@ -193,7 +193,7 @@ possible with Git! Simply run this command in your `fa23-s***` directory:
 
     git restore --source=skeleton/main proj0
 
-Beware: this command will get rid of all changes to anything in the `proj0`
+**Beware: this command will get rid of all changes to anything in the `proj0`**
 directory that you haven't committed. So if you think you _might_ want the code you currently have, simply make a commit
 before running this command, and then you can use a similar command to revert your `proj0` directory to the state it was
 in the commit you just made. For example, suppose you want to save a copy of your work and then start back over. To do
@@ -237,7 +237,7 @@ folder. Still in the Project Structure, on the left-hand side click the section 
 then "Java" which will launch our operating system's file browser, and we'll click on the `library-fa23` folder. Then,
 in the bottom right of the screen, hit "Apply" and then the blue "OK" button.
 
-In all, the setup would look like this (sorry for the blurryness):
+In all, the setup would look like this (this is from fa22, fa23 might have different files so don't worry if the files exactly match, also sorry for the blurryness):
 
 ![IntelliJ Setup](img/intellij-setup.gif)
 
@@ -246,8 +246,7 @@ options, but the one we care about is the green "Run Main.main()" button. It sho
 
 ![Run Main](img/run-main.png)
 
-Click that to launch the 2048 game. This will launch a new window with a blank board. Just close the window for now and
-we'll come back to it later when we get to the section of this spec called "Main Task: Building the Game Logic".
+Click that to launch the 2048 game. This will launch a new window with a blank board. Just close the window for now by pressing the red square at the top right of IntelliJ and we’ll come back to it later when we get to the section of this spec called "Main Task: Building the Game Logic".
 
 If nothing pops up, it means your setup is incorrect. You should redo the above steps to make sure you didn't miss
 anything, but don't spend more than 10 minutes on this. It's best to get setup problems fixed with a TAs help, meaning
@@ -635,28 +634,26 @@ These integration tests simulate parts of a game. They run multiple tilts in a r
 2048 is normally played on a 4x4 board, but it is generalizable to any size board. These tests make sure the game works on non-4x4 boards.
 
 
-Grading
+Grading & Deliverables
 -------
 
 A full scoring project will pass all of the unit tests that we provide. Remember that **there are no hidden tests**, so
 if you're passing all of these tests then you have a full scoring project!
 
-Some tests are weighted slightly differently than others on Gradescope, so if you're not passing some fraction of the
-tests, your score as a percent will be some different fraction (likely higher).
-
-That's because some parts of this project are harder than others, and we know this is many students' first time using
-Java, so we've weighted each portion of the project with that in mind.
+Tests are "all or nothing" in their own fields. If you fail one of the subtests in the test category, you will not receive credit for that category although you might have passed different test cases. For example, you'll see in Gradescope `TestModel` category 5 subtests.
 
 Here is a breakdown of what percent you'd earn on this project with varying levels of completing:
 
-1. Only implementing `emptySpaceExists` or `maxTileExists`: ~27%
-2. Implementing everything except `tilt`: ~47%
-3. Implementing everything, except `tilt` only works in the Up direction: ~68%
-4. Implementing everything, except merging: ~64%
-5. Implementing everything, except rule 2 of merging: ~93%
+1. `TestEmptySpace`: 10%
+2. `TestMaxTileExists`: 10%
+3. `TestAtLeastOneMoveExists`: 15%
+4. `TestUpOnly`: 10%
+5. `TestModel`: 5%
+6. `TestTiltMerge`: 10%
+7. `TestTiltNoMerge`: 10%
+8. `TestMultipleMoves`: 15%
+9. `TestNbyN`: 15%
 
-You'll note that getting the rule 2 of merging is only ~7% of the project. That is because it's a difficult rule to
-handle that accounts for a very small portion of the game itself, so we've weighted it accordingly.
 
 Submission and Version Control
 ------------------------------
