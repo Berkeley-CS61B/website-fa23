@@ -19,7 +19,7 @@ To debug a program, you must first know what's wrong. In this lab, you'll get
 some experience with using the debugger to see the program state. When you run into
 a bug, the error is accompanied with a "stack trace" that details the method
 calls that caused the error in the first place. We won't cover going through the stack trace 
-in this lab, but we'll talk more about in next week's lab.
+in this lab, but we'll talk more about it in next week's lab.
 
 ### Setup
 
@@ -48,8 +48,10 @@ error means or the exception that is thrown - google it!
 ## `Bomb`
 
 The `BombMain` class calls the various `phase` methods of the `Bomb` class.
-Your job is to figure out what the passwords to each of these phrases is by
-_using the IntelliJ debugger_.
+At this point, if you were to run `BombMain`, you'll notice that there are some errors - 
+this is because the current inputs to the phase methods aren't the correct passwords! 
+Your job is to figure out what the passwords to each of these phases is by _using the IntelliJ 
+debugger_.
 
 {% include alert.html type="danger" content="
 **WARNING**: The code is written so that you can't find the password just by reading it. For
@@ -62,7 +64,7 @@ a lot down the road. Please take it seriously!
 
 ### Interactive Debugging
 
-So far, you might have practiced debugging by using using print statements to
+So far, you might have practiced debugging by using print statements to
 see the values of certain variables as a program runs. When placed
 strategically, the output from printing might help make the bugs obvious or
 narrow down their cause. This method is called **print debugging**. While print
@@ -133,7 +135,8 @@ In the debugger, you have a few options:
   - ![step out](img/step-out.png){: .inline } will advance the program until
     after it returns from the current method.
 - If you accidentally step too far and want to start the session over, click
-  ![rerun](img/rerun.png){: .inline }.
+  ![rerun](img/rerun.png){: .inline } (at least right now, there isn't a good way to directly 
+  step back).
 
 ### `Bomb` Introduction (Phase 0)
 
@@ -171,9 +174,7 @@ to use the debugger to find the value of `correctPassword` and pass in a
 ### Visualizer (Phase 1)
 
 For this portion of the lab, we'll be working with `IntList`. If you need a quick recap, 
-refer to the lecture slides from 
-[Monday](https://docs.google.com/presentation/d/1LLKolI8k4hVxjJmT2QN511U-dH5Q3C7dw_c5tz-UprM/edit?usp=sharing)
-and [Wednesday](https://docs.google.com/presentation/d/1b3ezovH8kO6s0oWkJ6QhBKJndkYuDSdDck7CcOi26Ok/edit?usp=sharing). 
+refer to the lecture slides from this Monday and Wednesday (links found on website). 
 
 Adding to our implementation of `IntList` are two methods that may not have been 
 mentioned: `print` and `of`. The `of` method makes it more convenient to create `IntList`s. 
@@ -236,11 +237,13 @@ in a `password` that matches it!
 
 ### Conditional Breakpoints (Phase 2)
 
-Sometimes you may want to have your program pause only on certain conditions.
-To do so, create a breakpoint at the line of interest and open the
-"Edit breakpoint" menu by right-clicking the breakpoint icon itself. There,
-you can enter a boolean condition such that the program will only pause at this
-breakpoint if the condition is true. It will look something like this: 
+Consider a program that loops 5000 times - trying to step 
+through each time to find the error wouldn't be too efficient. Instead, you would want 
+your program to pause on a specific iteration, such as the last one. In other words, you 
+would want your program to pause on certain conditions. To do so, create a breakpoint at the 
+line of interest and open the "Edit breakpoint" menu by right-clicking the breakpoint icon itself. 
+There, you can enter a boolean condition such that the program will only pause at this
+breakpoint if the condition is true. It will look something like this:
 
 ![Conditional Breakpoint](img/conditional_breakpoint.png)
 
