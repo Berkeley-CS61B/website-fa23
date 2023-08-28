@@ -174,7 +174,7 @@ to use the debugger to find the value of `correctPassword` and pass in a
 ### Visualizer (Phase 1)
 
 For this portion of the lab, we'll be working with `IntList`. If you need a quick recap, 
-refer to the lecture slides from this Monday and Wednesday (links found on website). 
+refer to the relevant lecture slides from this week. 
 
 Adding to our implementation of `IntList` are two methods that may not have been 
 mentioned: `print` and `of`. The `of` method makes it more convenient to create `IntList`s. 

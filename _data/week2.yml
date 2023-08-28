@@ -46,9 +46,9 @@
       link: materials/lab/lab02
       resource_links:
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1uK2I2hlgZBzrFmTC5kwNjjOkY16WutQJ"
-      released: false
+          released: true
+          link: "https://docs.google.com/presentation/d/1tisk4CanEnTtQTCzc0EQAcaE3ijd19_gKny1OHpWi38/edit?usp=sharing"
+      released: true
   days:
     - day: 2023-08-28
       lecture_topic: "Lists 1: References, Recursion, and Lists"
