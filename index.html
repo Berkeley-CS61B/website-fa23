@@ -15,35 +15,6 @@ extra_head: |
   </span>
 </div>
 <div class="segment">
-    <span class="anchor" id="announcements"></span>
-    <div class="segmenttitle">
-        Announcements
-        [<a href="announcements.html" id="announcements-view-all">View All</a>]
-    </div>
-    <div class="announcement-wrapper">
-      <ul class="announcements" id="announce-scroll">
-      {%- assign announcements = site.announcements | sort: 'date' | reverse -%}
-      {%- for a in announcements -%}
-        {%- assign i = forloop.index -%}
-        {%- if i == 1 -%}
-          <li class="announcement-item show">
-        {%- else -%}
-          <li class="announcement-item hide">
-        {%- endif -%}
-            <div class="announcement-title-wrapper" align="center">
-              <div class="tr">
-                <div class="prev unreleased"> &laquo; </div>
-                <div class="td title"> {{ a.title }} </div>
-                <div class="td next"> &raquo; </div>
-              </div>
-            </div>
-            {{ a }}
-          </li>
-      {%- endfor -%}
-      </ul>
-    </div>
-</div>
-<div class="segment">
     <span class="anchor" id="cal"></span>
     <div class="segmenttitle">Calendar <span color="red">(not updated for Fall 2023)</span></div>
     <table id="course-calendar">

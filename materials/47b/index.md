@@ -2,7 +2,7 @@
 layout: page
 title: "CS 47B"
 categories: guides
-author: Josh Hug
+author: Josh Hug, Allen Gu, Stella Kaval
 released: true
 ---
 
@@ -51,11 +51,11 @@ If any of this work seems tedious or redundant with what you learned at your pre
 Your score will be based entirely on your performance on these homeworks, labs, and projects. There will be no exams. Optional assignments and 61B assignments not listed above are not graded, but you might find them cool.
 
 CS 47B is **not** graded on a curve, and grade bins are released below. Points for each assignment will follow 61B:
-- **Labs**: 256 points each
-- **Homeworks**: 768 points each
-- **Project 2 and 3**: 6400 points each
+- **Labs**: 5 points each
+- **Homeworks**: 15 points each
+- **Project 2 and 3**: 125 points each
 
-For project only CS 47B students, there are 14366 total points. The grade bins are:
+For project only CS 47B students, there are 280 total pointsm including 3 labs, 1 homework, and 2 projects. The grade bins are:
 
 <table id="letter-grades">
 	<tr>
@@ -67,16 +67,16 @@ For project only CS 47B students, there are 14366 total points. The grade bins a
         <td>C</td>
 	</tr>
 	<tr>
-        <td>14112</td>
-        <td>12784</td>
-        <td>11202</td>
-        <td>9366</td>
-        <td>7784</td>
-        <td>4874</td>
+        <td>275</td>
+        <td>249</td>
+        <td>220</td>
+        <td>183</td>
+        <td>151</td>
+        <td>99</td>
 	</tr>
 </table>
 
-For standard only CS 47B students, there are 16384 total points. The grade bins are:
+For standard only CS 47B students, there are 320 total points, including 5 labs, 3 homeworks, and 2 projects. The grade bins are:
 
 <table id="letter-grades">
 	<tr>
@@ -88,28 +88,28 @@ For standard only CS 47B students, there are 16384 total points. The grade bins 
         <td>C</td>
 	</tr>
 	<tr>
-        <td>16132</td>
-        <td>14838</td>
-        <td>13292</td>
-        <td>11500</td>
-        <td>9954</td>
-        <td>7110</td>
+        <td>315</td>
+        <td>285</td>
+        <td>250</td>
+        <td>163</td>
+        <td>134</td>
+        <td>90</td>
 	</tr>
 </table>
 
 ### Deadlines and Extensions
 The 47B deadline and extensions policy will align with the self-paced nature of the course. 
 
-The **deadlines** for each assignment will follow the due dates set by 61B. These deadlines can be found on the [main page](https://sp23.datastructur.es/) of this website. Changes to these deadlines will be communicated by email.
+The **deadlines** for each assignment will follow the due dates set by 61B. These deadlines can be found on the [main page](https://fa23.datastructur.es/) of this website. Changes to these deadlines will be communicated by email.
 
-There is no partial credit for submitting late work. However, we have an **extensions policy** to allow for some leniency and flexibility. You may receive credit for work submitted after the deadline by applying for extension requests in Beacon's [Extensions tab](https://sp23.beacon.datastructur.es/extensions/). 
+There is no partial credit for submitting late work. However, we have an **extensions policy** to allow for some leniency and flexibility. You may receive credit for work submitted after the deadline by applying for extension requests in Beacon's [Extensions tab](https://fa23.beacon.datastructur.es/extensions/). 
 
 {% include alert.html type="info" content="
-Extensions up to 1 week will be granted automatically. If you want to request an extension over 1 week, you must meet synchronously with the 47B TA to check in and schedule a modified set of deadlines before your request is approved. Emails scheduling this meeting will be sent out when your extension request is made.
+Extensions up to 2 weeks will be granted automatically. If you want to request an extension over 2 weeks, you must meet synchronously with the 47B TA, Stella Kaval, to check in and schedule a modified set of deadlines before your request is approved. Emails scheduling this meeting will be sent out when your extension request is made.
 " %}
 
 {% include alert.html type="warning" content="
-All assignments must be submitted by the end of the semester, May 12 (5/12). Additionally, Project 3 has a hard deadline of May 5 (5/5) (*updated on 4/13*) due to scheduling project presentations. Checkoffs for Project 3 can either be completed during 61B sections or alternate times during RRR week/finals week.
+All assignments must be submitted by the end of the semester (December 16). Additionally, Project 3 has a hard deadline of November 30 due to scheduling project presentations. Checkoffs for Project 3 can either be completed during 61B sections or alternate times during RRR week/finals week.
 " %}
 
 ### Resources
@@ -126,20 +126,20 @@ For Projects 2 and 3, you will be paired with another 47B student. Project pairi
 
 ### Communication
 
-Most communication, including announcements and updates, for 47B will be through the 61B course email, `cs61b (at) berkeley.edu`{: .blue}. 
+Most communication, including announcements and updates, for 47B will be through the 61B course email, `cs47b (at) berkeley.edu`{: .blue}. 
 
-Additionally, the TA in charge of CS 47B is Allen Gu. His contact info can be found on the [course staff page](https://sp23.datastructur.es/staff.html). Please also include the 61B course email!
+Additionally, the TA in charge of CS 47B is Stella Kaval. Her contact info can be found on the [course staff page](https://fa23.datastructur.es/staff.html). Please also include the 61B course email!
 
-The course also has a "47B" topic on [61B's Ed forum](https://edstem.org/us/courses/25759/discussion/). If you have questions about the course, feel free to ask them there! Making public posts also allows other 47B students to view and answer them.
+The course also has a "47B" topic on [61B's Ed forum](https://edstem.org/us/courses/42700/discussion/). If you have questions about the course, feel free to ask them there! Making public posts also allows other 47B students to view and answer them.
 
 ### Getting Help
 
-If you need help with labs, homeworks, or projects, please come to lab or office hours. The schedule is located at the bottom of the [website's main page](https://sp23.datastructur.es/index.html#disccal). All sections are open to 47B students!
+If you need help with labs, homeworks, or projects, please come to lab or office hours. The schedule is located at the bottom of the [website's main page](https://fa23.datastructur.es/index.html#disccal). All sections are open to 47B students!
 
 ### Getting Started
 
 1. Review the [47B course page](index.md) and the [61B course policies](../../about.md) ("General Background Information", "Resources", "Collaboration and Academic Misconduct" sections).
 2. Check your email for a bCourses invitation to 61B. This will give you access to our course forum Ed and Gradescope. Reach out if you run into issues or have not received an invite.
 3. Start setting up your computer with the instructions in [Lab 1](../lab/lab01/index.md). By the end of this lab, you should have your Github repository, Beacon account, and development environment.
-4. Fill out the [CS 47B introductory survey](https://forms.gle/426erE4gJeEawiXX8). Feel free to skip any questions you don't want to answer.
+4. Fill out the [CS 47B introductory survey](https://forms.gle/htrZawELw8f26DD8A). 
 5. Get started on coursework. Everything is linked from the [course website](../../). All CS 47B students should start with Lab 1 "Setting Up Your Computer" and work your way down the labs column until you've completed Lab 3. HWs and projects will be released later in the semester.

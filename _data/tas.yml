@@ -1,7 +1,7 @@
 - bio: "Hi! I\u2019m Adit, and I\u2019m a second year EECS and Business major from\
     \ the Bay Area. I love exploring the outdoors through biking, hiking, and backpacking.\
     \ I\u2019m also a big fan of food, whether it\u2019s cooking new cuisines or trying\
-    \ all the new restaurants in Berkeley. This is my second time teaching 61B, and\
+    \ all the new restaurants in Berkeley. This is my third time teaching 61B, and\
     \ I\u2019m excited to meet you all this semester!"
   email: aditshah@berkeley.edu
   link: null
@@ -11,53 +11,10 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "Hello!\nI am a 6th year 5th year Master\u2019s student (long story) and this\
-    \ is my 10th time teaching CS61B. I have been teaching this class so long that\
-    \ I used to teach it before the pandemic! In addition to CS I am very interested\
-    \ in travel, video games, sad girl indie music, film, and critical theory, so\
-    \ if you ever want to talk about how Marvel movies and Taylor Swift are both highly\
-    \ destructive and cannibalistic manifestations of a capitalist system hellbent\
-    \ on cultural erasure and the ultimate degradation the film and music industries\
-    \ respectively, all you have to do is ask."
-  email: alexschedel@berkeley.edu
-  link: null
-  name: Alex Schedel
-  pic1: assets/img/staff/alex-schedel-1.jpg
-  pic2: assets/img/staff/alex-schedel-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hello! My name is Alexander and I'm a third-year EECS major. I look forward
-    to meeting and teaching you all in a course that makes the impossible, possible!
-    In addition to the literal black magic that is CS 61B, feel free to talk to me
-    about Minecraft, traveling, Legos, or even the color blue.
-  email: alew2161@berkeley.edu
-  link: https://www.qxbytes.com/
-  name: Alexander Lew
-  pic1: assets/img/staff/alexander-lew-1.jpg
-  pic2: assets/img/staff/alexander-lew-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: "Salams! I'm Ali, a sophomore from Tracy, CA. Some fast facts: I play tennis,\
-    \ I lightsaber duel, and I love road trips. I also enjoy pulling pranks, so swing\
-    \ by my section for the occasional surprise. :)\n\nReach out to me via email for\
-    \ the best sunset spot recs, CS advice, or anything in between \u2014 I'd love\
-    \ to chat!"
-  email: khani@berkeley.edu
-  link: https://www.youtube.com/watch?v=5srhwqzBQE8
-  name: Ali Khani
-  pic1: assets/img/staff/ali-khani-1.jpg
-  pic2: assets/img/staff/ali-khani-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi! I'm Allen, a third-year EECS major from Illinois. In my free time, I like
-    playing card games, listening to music, and learning new piano songs. I'm super
-    excited to meet all of you and hope everyone has a great semester learning data
-    structures!
+- bio: "heyo, i'm allen! i'm a 4th year studying eecs and this is my 4th semester\
+    \ teaching 61b! (unfortunately, this is not my dog \U0001F62D)"
   email: allengu01@berkeley.edu
-  link: null
+  link: https://www.youtube.com/watch?v=aTYVdK3GNxI
   name: Allen Gu
   pic1: assets/img/staff/allen-gu-1.jpg
   pic2: assets/img/staff/allen-gu-1.jpg
@@ -66,118 +23,58 @@
   pronouns: he/him/his
 - bio: "hello! i\u2019m a spongebob enthusiast who likes to reference spongebob a\
     \ lot in my daily life. i am from la who now lives in the bay but i like to stay\
-    \ in la. i guess i\u2019m a junior now, and that\u2019s pretty wild. i've been\
+    \ in la. i guess i\u2019m a senior now, and that\u2019s pretty wild. i've been\
     \ really into jewelry-making, knitting, finding cheap concerts around berkeley,\
-    \ and wikipedia surfing \u2014 so that\u2019s fun. this is my fourth time teaching\
-    \ CS 61b and i\u2019d love to teach y\u2019all my flips and tricks or just vibe\
-    \ :)"
+    \ museum-roaming, and eating cereal \u2014 so that\u2019s fun. this is my fifth\
+    \ time teaching CS 61b and i\u2019d love to teach y\u2019all my flips and tricks\
+    \ or just vibe :)"
   email: angelinasongco@berkeley.edu
-  link: https://youtu.be/ZzXgX-Xncag
+  link: https://www.youtube.com/watch?v=ocY-Yf2n0Ts
   name: Angelina Songco
   pic1: assets/img/staff/angelina-songco-1.jpg
   pic2: assets/img/staff/angelina-songco-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: "Hey everyone! Hope you\u2019re doing well! I\u2019m a fourth year CS major\
-    \ at Berkeley and I absolutely loved 61B! I spend my free-time hiking up Big C\
-    \ or chilling at the Marina. Please reach out to me if you have any questions\
-    \ about the material or anything else \u2014 especially if you\u2019re interested\
-    \ in gaining insider information about secret hiking spots in the Bay Area :)"
-  email: anishbajaj@berkeley.edu
-  link: null
-  name: Anish Bajaj
-  pic1: assets/img/staff/anish-bajaj-1.jpg
-  pic2: assets/img/staff/anish-bajaj-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: I am a cat.
-  email: azabreyko@berkeley.edu
-  link: null
-  name: Anton Zabreyko
-  pic1: assets/img/staff/anton-zabreyko-1.jpg
-  pic2: assets/img/staff/anton-zabreyko-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: ''
-- bio: Hey! I'm Aram and I'm a senior majoring in CS from LA. During my free time,
-    I am either playing basketball or watching the Lakers, playing video games, watching
-    Tarantino movies, or making too much coffee to drink. I hope I can make you all
-    love this class as much as I did! Don't hesitate to reach out, and I'm looking
-    forward to an awesome semester with you all!
-  email: aramk@berkeley.edu
-  link: null
-  name: Aram Kazorian
-  pic1: assets/img/staff/aram-kazorian-1.jpg
-  pic2: assets/img/staff/aram-kazorian-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: "yooo, I\u2019m austin! 61b was easily my favorite course at Berkeley and hopefully\
-    \ I can share that excitement with y\u2019all. i love running, hiking, and very\
-    \ spicy food. rule #1 in my discussion, judgement leaves at the door. let\u2019\
-    s have a good semester! :D"
+- bio: "yooo, I\u2019m austin! i\u2019m a senior majoring in CS and this is my second\
+    \ time TAing for 61b. this class was easily my favorite course at Berkeley and\
+    \ hopefully I can share that excitement with y\u2019all. i love running, hiking,\
+    \ and very spicy food. rule #1 in my discussion, judgement leaves at the door.\
+    \ let\u2019s have a good semester! :D"
   email: a2@berkeley.edu
-  link: https://www.linkedin.com/in/austinzg/
+  link: https://youtu.be/KigVdcSr8s4
   name: Austin George
   pic1: assets/img/staff/austin-george-1.jpg
   pic2: assets/img/staff/austin-george-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: 'I''ll let ChatGPT do the job:
-
-
-    Hello there, my name is Circle Chen
-
-    A TA for CS 61B, I''m glad to be here again
-
-    With a background in software development
-
-    And a passion for problem-solving, I''m here to mentor
-
-    I''ve always loved gaming, it''s my obsession
-
-    But as a TA, my goal is to help with progression
-
-    In the field of computer science, I want to guide
-
-    All of you to success, it''s my pride
-
-    In my free time, I tinker and play
-
-    With new technologies, it''s a hobby and a way
-
-    To stay up-to-date and continue to learn
-
-    So that I can help others and their knowledge burn
-
-    Check out my Spermulator game at the link above
-
-    I hope you''ll have a blast and find it full of love!'
+- bio: 'Hi! I''m a junior from Shenzhen, China, and this is my 5th time teaching CS
+    61B(L)! I study Computer Science and Data Science, which partly contributes to
+    my geeky mindset. Some facts about me outside of school: my favorite artist group
+    is Project Mili (click on my name to listen to some of their songs); I''ve been
+    an active Genshin player for the most part of this year; and I make/mod games.
+    Feel free to chat with me about things in and out of 61B!'
   email: circlecly@berkeley.edu
-  link: https://circlecly.itch.io/spermulator
+  link: https://open.spotify.com/playlist/6J8QO2Wz8KNPfW4vO3MhRe
   name: Circle Chen
   pic1: assets/img/staff/circle-chen-1.jpg
-  pic2: assets/img/staff/circle-chen-1.jpg
+  pic2: assets/img/staff/circle-chen-2.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hello! I'm a senior CS + Linguistics major and this is my 5th (and last :')!)
-    time teaching 61B! I love writing, learning new languages, playing taiko, and
-    relaxing via peaceful video games like Stardew Valley and Animal Crossing. In
-    no particular order, I'm obsessed with puzzles, Google Translate, tomatoes, Wikipedia,
-    and black bean noodles. Feel free to reach out if you have any questions!
-  email: crystalwang@berkeley.edu
-  link: https://www.youtube.com/watch?v=7mT5x8kt3Gs
-  name: Crystal Wang
-  pic1: assets/img/staff/crystal-wang-1.jpg
-  pic2: assets/img/staff/crystal-wang-1.jpg
+- bio: "Hi! I\u2019m Claire, a fourth year studying CS from the Bay Area! The is my\
+    \ third time teaching CS61B, and I\u2019m super stoked :) I enjoy dancing, exploring\
+    \ new coffee shops, and trying new foods. Look forward to meeting you all!"
+  email: clairelee8@berkeley.edu
+  link: null
+  name: Claire Lee
+  pic1: assets/img/staff/claire-lee-1.jpg
+  pic2: assets/img/staff/claire-lee-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: Hi! I'm Dhruti, a junior from San Diego majoring in EECS. I love to play badminton,
+- bio: Hi! I'm Dhruti, a senior from San Diego majoring in EECS. I love to play badminton,
     hike (especially by the beach), explore coffee shops, try new food, and everything
     that's the color purple. Feel free to reach out to talk about anything at all,
     61B related or not :)
@@ -188,57 +85,60 @@
   pic2: assets/img/staff/dhruti-pandya-1.jpg
   pic3: null
   pic4: null
-  pronouns: she/her
+  pronouns: she/her/hers
 - bio: Hey y'all! My name is Dom, I'm a CS major from the Salinas Valley and this
-    is my 3rd semester TAing for the 61Best course. I enjoy salsa dancing, cooking
-    new recipies, and getting punched in the face with the cal boxing team. Holler
-    at me if you want to talk for any reason :)
+    is my 4th semester TAing for the 61Best course. In my time here I've done everything
+    from latin dance to rocket engineering to collegiate boxing, and I'm always looking
+    for something new to pick up. Maybe you'll catch me desperately trying to get
+    in shape for the Berkeley half marathon or at an indie concert :)
   email: dvconricode@berkeley.edu
-  link: conrico.de
+  link: https://xkcd.com/323/
   name: Dominic Conricode
   pic1: assets/img/staff/dominic-conricode-1.jpg
   pic2: assets/img/staff/dominic-conricode-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Heyoooo I'm Dylan! I'm a sophomore in EECS and I'm really excited support y'all
-    through 61B. I loved 61B and I hope you will too! Always feel free to reach out
-    if you have any questions about absolutely anything. I'm here to help!
+- bio: "Heyoooo I\u2019m Dylan! I\u2019m a Junior in EECS and this is my third semester\
+    \ TAing 61B. I\u2019m SO excited support y\u2019all through your 61B grind. Always\
+    \ feel free to reach out if you have any questions about absolutely anything.\
+    \ I\u2019m here to help!"
   email: dylanhamuy@berkeley.edu
-  link: null
+  link: https://peal.io/soundboards/paul-hilfinger
   name: Dylan Hamuy
   pic1: assets/img/staff/dylan-hamuy-1.jpg
   pic2: assets/img/staff/dylan-hamuy-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hey! I'm Eddie, a third-year EECS major from San Jose. I enjoy outdoor activities
-    such as hiking and biking. Feel free to talk to me about international affairs,
-    61B stuff, or anything at all! Looking forward to a great semester with you :)
+- bio: Hey! I'm Eddie, a senior EECS major from San Jose. When I'm not teaching 61b,
+    you can often catch me sleeping when I shouldn't and not sleeping when I should
+    :')
   email: epark2@berkeley.edu
-  link: https://www.youtube.com/watch?v=apH9QsAdhh8
+  link: https://www.youtube.com/watch?v=c36UNSoJenI
   name: Eddie Park
   pic1: assets/img/staff/eddie-park-1.jpg
   pic2: assets/img/staff/eddie-park-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hi! I'm Elana, a sophomore majoring in computer science. In addition to being
-    a TA, I am also a CSM senior mentor for 61B. When I'm not teaching data structures
-    and algorithms, I enjoy drawing, learning foreign languages, and watching anime.
-    I'm super excited to meet you all, and I look forward to a fun semester! Please
-    feel free to reach out about anything :3
+- bio: Hi! I'm Elana, a third year majoring in computer science and French. In addition
+    to being a TA, I am also a CSM senior mentor advisor for 61B. When I'm not teaching
+    data structures and algorithms, I enjoy drawing, learning new languages, and watching
+    anime. I'm super excited to meet you all, and I look forward to a fun semester!
+    Please feel free to reach out about anything :3
   email: elanaho@berkeley.edu
-  link: null
+  link: https://forms.gle/eLqQF6cNDjrewCp48
   name: Elana Ho
   pic1: assets/img/staff/elana-ho-1.jpg
   pic2: assets/img/staff/elana-ho-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: hello!! i'm elisa and i'm a sophomore studying EECS. i love picnics and going
-    to trader joe's, and my favorite movie is big hero 6. feel free to reach out and
-    i'm excited to meet you all!
+- bio: hello!! i'm elisa and i'm a junior studying eecs. this is my second semester
+    teaching 61b and super excited to be back with you all :D i love picnics, and
+    my favorite movie is how to train your dragon. feel free to reach out and i'm
+    excited to meet everyone!
   email: elisakim@berkeley.edu
   link: null
   name: Elisa Kim
@@ -247,30 +147,17 @@
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: "Heyoo! I\u2019m Emily and I\u2019m a 4th year from Toronto, Canada studying\
-    \ CS & ORMS! I love film photography, fruit tarts, French pop, matcha lattes,\
-    \ and cows! I'm SUPER excited to be teaching 61B this semester :~)"
-  email: emilysu@berkeley.edu
-  link: null
-  name: Emily Su
-  pic1: assets/img/staff/emily-su-1.jpg
-  pic2: assets/img/staff/emily-su-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: "Hiiii! I'm Erg\xFCn from Istanbul, Turkey. I like food and geography : )"
+- bio: "Hey, I'm Erg\xFCn! I'm a senior majoring in computer science and this is my\
+    \ 4th time teaching 61B. I like geography :)"
   email: ergunackz@berkeley.edu
-  link: https://www.youtube.com/shorts/G8o9vWivPWs
+  link: null
   name: Ergun Acikoz
   pic1: assets/img/staff/ergun-acikoz-1.jpg
   pic2: assets/img/staff/ergun-acikoz-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: 'Hi, I''m Eric, a third year CS major from the bay. I previously taught CS170,
-    and this will be my first time teaching CS61B. In my free time, I unwind by learning
-    new pieces on the piano or clarinet and solving the Rubik''s cube. I hope you
-    have a great semester and enjoy the class! '
+- bio: it's yokover
   email: ericche@berkeley.edu
   link: null
   name: Eric Che
@@ -279,18 +166,7 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hello! I'm a 3rd year studying EECS from SoCal. In my free time I'm usually
-    drawing, playing guitar, listening to music, eating acai bowls, napping, or watching
-    other people play games :) Excited to meet you all!
-  email: haileyswpa@berkeley.edu
-  link: null
-  name: Hailey Park
-  pic1: assets/img/staff/hailey-park-1.jpg
-  pic2: assets/img/staff/hailey-park-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: 'Boba. '
+- bio: Boba.
   email: jaslin@berkeley.edu
   link: null
   name: Jasmine Lin
@@ -298,731 +174,11 @@
   pic2: assets/img/staff/jasmine-lin-1.jpg
   pic3: null
   pic4: null
-  pronouns: She/Her/They
-- bio: "According to all known laws of aviation, there is no way a bee should be able\
-    \ to fly.\nIts wings are too small to get its fat little body off the ground.\n\
-    The bee, of course, flies anyway because bees don't care what humans think is\
-    \ impossible.\nYellow, black. Yellow, black. Yellow, black. Yellow, black.\nOoh,\
-    \ black and yellow!\nLet's shake it up a little.\nBarry! Breakfast is ready!\n\
-    Coming!\nHang on a second.\nHello?\nBarry?\nAdam?\nCan you believe this is happening?\n\
-    I can't.\nI'll pick you up.\nLooking sharp.\nUse the stairs, Your father paid\
-    \ good money for those.\nSorry. I'm excited.\nHere's the graduate.\nWe're very\
-    \ proud of you, son.\nA perfect report card, all B's.\nVery proud.\nMa! I got\
-    \ a thing going here.\nYou got lint on your fuzz.\nOw! That's me!\nWave to us!\
-    \ We'll be in row 118,000.\nBye!\nBarry, I told you, stop flying in the house!\n\
-    Hey, Adam.\nHey, Barry.\nIs that fuzz gel?\nA little. Special day, graduation.\n\
-    Never thought I'd make it.\nThree days grade school, three days high school.\n\
-    Those were awkward.\nThree days college. I'm glad I took a day and hitchhiked\
-    \ around The Hive.\nYou did come back different.\nHi, Barry. Artie, growing a\
-    \ mustache? Looks good.\nHear about Frankie?\nYeah.\nYou going to the funeral?\n\
-    No, I'm not going.\nEverybody knows, sting someone, you die.\nDon't waste it on\
-    \ a squirrel.\nSuch a hothead.\nI guess he could have just gotten out of the way.\n\
-    I love this incorporating an amusement park into our day.\nThat's why we don't\
-    \ need vacations.\nBoy, quite a bit of pomp under the circumstances.\nWell, Adam,\
-    \ today we are men.\nWe are!\nBee-men.\nAmen!\nHallelujah!\nStudents, faculty,\
-    \ distinguished bees,\nplease welcome Dean Buzzwell.\nWelcome, New Hive City graduating\
-    \ class of 9:15.\nThat concludes our ceremonies And begins your career at Honex\
-    \ Industries!\nWill we pick our job today?\nI heard it's just orientation.\nHeads\
-    \ up! Here we go.\nKeep your hands and antennas inside the tram at all times.\n\
-    Wonder what it'll be like?\nA little scary.\nWelcome to Honex, a division of Honesco\
-    \ and a part of the Hexagon Group.\nThis is it!\nWow.\nWow.\nWe know that you,\
-    \ as a bee, have worked your whole life to get to the point where you can work\
-    \ for your whole life.\nHoney begins when our valiant Pollen Jocks bring the nectar\
-    \ to The Hive.\nOur top-secret formula is automatically color-corrected, scent-adjusted\
-    \ and bubble-contoured into this soothing sweet syrup with its distinctive golden\
-    \ glow you know as... Honey!\nThat girl was hot.\nShe's my cousin!\nShe is?\n\
-    Yes, we're all cousins.\nRight. You're right.\nAt Honex, we constantly strive\
-    \ to improve every aspect of bee existence.\nThese bees are stress-testing a new\
-    \ helmet technology.\nWhat do you think he makes?\nNot enough.\nHere we have our\
-    \ latest advancement, the Krelman.\nWhat does that do?\nCatches that little strand\
-    \ of honey that hangs after you pour it.\nSaves us millions.\nCan anyone work\
-    \ on the Krelman?\nOf course. Most bee jobs are small ones.\nBut bees know that\
-    \ every small job, if it's done well, means a lot.\nBut choose carefully because\
-    \ you'll stay in the job you pick for the rest of your life.\nThe same job the\
-    \ rest of your life? I didn't know that.\nWhat's the difference?\nYou'll be happy\
-    \ to know that bees, as a species, haven't had one day off in 27 million years.\n\
-    So you'll just work us to death?\nWe'll sure try.\nWow! That blew my mind!\n\"\
-    What's the difference?\"\nHow can you say that?\nOne job forever?\nThat's an insane\
-    \ choice to have to make.\nI'm relieved. Now we only have to make one decision\
-    \ in life.\nBut, Adam, how could they never have told us that?\nWhy would you\
-    \ question anything? We're bees.\nWe're the most perfectly functioning society\
-    \ on Earth.\nYou ever think maybe things work a little too well here?\nLike what?\
-    \ Give me one example.\nI don't know. But you know what I'm talking about.\nPlease\
-    \ clear the gate. Royal Nectar Force on approach.\nWait a second. Check it out.\n\
-    Hey, those are Pollen Jocks!\nWow.\nI've never seen them this close.\nThey know\
-    \ what it's like outside The Hive.\nYeah, but some don't come back.\nHey, Jocks!\n\
-    Hi, Jocks!\nYou guys did great!\nYou're monsters!\nYou're sky freaks! I love it!\
-    \ I love it!\nI wonder where they were.\nI don't know.\nTheir day's not planned.\n\
-    Outside The Hive, flying who knows where, doing who knows what.\nYou can't just\
-    \ decide to be a Pollen Jock. You have to be bred for that.\nRight.\nLook. That's\
-    \ more pollen than you and I will see in a lifetime.\nIt's just a status symbol.\n\
-    Bees make too much of it.\nPerhaps. Unless you're wearing it and the ladies see\
-    \ you wearing it.\nThose ladies?\nAren't they our cousins too?\nDistant. Distant.\n\
-    Look at these two.\nCouple of Hive Harrys.\nLet's have fun with them.\nIt must\
-    \ be dangerous being a Pollen Jock.\nYeah. Once a bear pinned me against a mushroom!\n\
-    He had a paw on my throat, and with the other, he was slapping me!\nOh, my!\n\
-    I never thought I'd knock him out.\nWhat were you doing during this?\nTrying to\
-    \ alert the authorities.\nI can autograph that.\nA little gusty out there today,\
-    \ wasn't it, comrades?\nYeah. Gusty.\nWe're hitting a sunflower patch six miles\
-    \ from here tomorrow.\nSix miles, huh?\nBarry!\nA puddle jump for us, but maybe\
-    \ you're not up for it.\nMaybe I am.\nYou are not!\nWe're going 0900 at J-Gate.\n\
-    What do you think, buzzy-boy?\nAre you bee enough?\nI might be. It all depends\
-    \ on what 0900 means.\nHey, Honex!\nDad, you surprised me.\nYou decide what you're\
-    \ interested in?\nWell, there's a lot of choices.\nBut you only get one.\nDo you\
-    \ ever get bored doing the same job every day?\nSon, let me tell you about stirring.\n\
-    You grab that stick, and you just move it around, and you stir it around.\nYou\
-    \ get yourself into a rhythm.\nIt's a beautiful thing.\nYou know, Dad, the more\
-    \ I think about it,\nmaybe the honey field just isn't right for me.\nYou were\
-    \ thinking of what, making balloon animals?\nThat's a bad job for a guy with a\
-    \ stinger.\nJanet, your son's not sure he wants to go into honey!\nBarry, you\
-    \ are so funny sometimes.\nI'm not trying to be funny.\nYou're not funny! You're\
-    \ going into honey. Our son, the stirrer!\nYou're gonna be a stirrer?\nNo one's\
-    \ listening to me!\nWait till you see the sticks I have.\nI could say anything\
-    \ right now.\nI'm gonna get an ant tattoo!\nLet's open some honey and celebrate!\n\
-    Maybe I'll pierce my thorax. Shave my antennae. Shack up with a grasshopper. Get\
-    \ a gold tooth and call everybody \"dawg\"!\nI'm so proud.\nWe're starting work\
-    \ today!\nToday's the day.\nCome on! All the good jobs will be gone.\nYeah, right.\n\
-    Pollen counting, stunt bee, pouring, stirrer, front desk, hair removal...\nIs\
-    \ it still available?\nHang on. Two left!\nOne of them's yours! Congratulations!\n\
-    Step to the side.\nWhat'd you get?\nPicking crud out. Stellar!\nWow!\nCouple of\
-    \ newbies?\nYes, sir! Our first day! We are ready!\nMake your choice.\nYou want\
-    \ to go first?\nNo, you go.\nOh, my. What's available?\nRestroom attendant's open,\
-    \ not for the reason you think.\nAny chance of getting the Krelman?\nSure, you're\
-    \ on.\nI'm sorry, the Krelman just closed out.\nWax monkey's always open.\nThe\
-    \ Krelman opened up again.\nWhat happened?\nA bee died. Makes an opening. See?\
-    \ He's dead. Another dead one.\nDeady. Deadified. Two more dead.\nDead from the\
-    \ neck up. Dead from the neck down. That's life!\nOh, this is so hard!\nHeating,\
-    \ cooling, stunt bee, pourer, stirrer, humming, inspector number seven, lint coordinator,\
-    \ stripe supervisor, mite wrangler.\nBarry, what do you think I should... Barry?\n\
-    Barry!\nAll right, we've got the sunflower patch in quadrant nine...\nWhat happened\
-    \ to you?\nWhere are you?\nI'm going out.\nOut? Out where?\nOut there.\nOh, no!\n\
-    I have to, before I go to work for the rest of my life.\nYou're gonna die! You're\
-    \ crazy! Hello?\nAnother call coming in.\nIf anyone's feeling brave, there's a\
-    \ Korean deli on 83rd that gets their roses today.\nHey, guys.\nLook at that.\n\
-    Isn't that the kid we saw yesterday?\nHold it, son, flight deck's restricted.\n\
-    It's OK, Lou. We're gonna take him up.\nReally? Feeling lucky, are you?\nSign\
-    \ here, here. Just initial that.\nThank you.\nOK.\nYou got a rain advisory today,\
-    \ and as you all know, bees cannot fly in rain.\nSo be careful. As always, watch\
-    \ your brooms, hockey sticks, dogs, birds, bears and bats.\nAlso, I got a couple\
-    \ of reports of root beer being poured on us.\nMurphy's in a home because of it,\
-    \ babbling like a cicada!\nThat's awful.\nAnd a reminder for you rookies, bee\
-    \ law number one, absolutely no talking to humans!\n All right, launch positions!\n\
-    Buzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz!\nBlack\
-    \ and yellow!\nHello!\nYou ready for this, hot shot?\nYeah. Yeah, bring it on.\n\
-    Wind, check.\nAntennae, check.\nNectar pack, check.\nWings, check.\nStinger, check.\n\
-    Scared out of my shorts, check.\nOK, ladies,\nlet's move it out!\nPound those\
-    \ petunias, you striped stem-suckers!\nAll of you, drain those flowers!\nWow!\
-    \ I'm out!\nI can't believe I'm out!\nSo blue.\nI feel so fast and free!\nBox\
-    \ kite!\nWow!\nFlowers!\nThis is Blue Leader, We have roses visual.\nBring it\
-    \ around 30 degrees and hold.\nRoses!\n30 degrees, roger. Bringing it around.\n\
-    Stand to the side, kid.\nIt's got a bit of a kick.\nThat is one nectar collector!\n\
-    Ever see pollination up close?\nNo, sir.\nI pick up some pollen here, sprinkle\
-    \ it over here. Maybe a dash over there, a pinch on that one.\nSee that? It's\
-    \ a little bit of magic.\nThat's amazing. Why do we do that?\nThat's pollen power.\
-    \ More pollen, more flowers, more nectar, more honey for us.\nCool.\nI'm picking\
-    \ up a lot of bright yellow, Could be daisies, Don't we need those?\nCopy that\
-    \ visual.\nWait. One of these flowers seems to be on the move.\nSay again? You're\
-    \ reporting a moving flower?\nAffirmative.\nThat was on the line!\nThis is the\
-    \ coolest. What is it?\nI don't know, but I'm loving this color.\nIt smells good.\n\
-    Not like a flower, but I like it.\nYeah, fuzzy.\nChemical-y.\nCareful, guys. It's\
-    \ a little grabby.\nMy sweet lord of bees!\nCandy-brain, get off there!\nProblem!\n\
-    Guys!\nThis could be bad.\nAffirmative.\nVery close.\nGonna hurt.\nMama's little\
-    \ boy.\nYou are way out of position, rookie!\nComing in at you like a missile!\n\
-    Help me!\nI don't think these are flowers.\nShould we tell him?\nI think he knows.\n\
-    What is this?!\nMatch point!\nYou can start packing up, honey, because you're\
-    \ about to eat it!\nYowser!\nGross.\nThere's a bee in the car!\nDo something!\n\
-    I'm driving!\nHi, bee.\nHe's back here!\nHe's going to sting me!\nNobody move.\
-    \ If you don't move, he won't sting you. Freeze!\nHe blinked!\nSpray him, Granny!\n\
-    What are you doing?!\nWow... the tension level out here is unbelievable.\nI gotta\
-    \ get home.\nCan't fly in rain. Can't fly in rain. Can't fly in rain.\nMayday!\
-    \ Mayday! Bee going down!\nKen, could you close the window please?\nKen, could\
-    \ you close the window please?\nCheck out my new resume. I made it into a fold-out\
-    \ brochure. You see? Folds out.\nOh, no. More humans. I don't need this.\nWhat\
-    \ was that?\nMaybe this time. This time. This time. This time! This time! This...\
-    \ Drapes!\nThat is diabolical.\nIt's fantastic. It's got all my special skills,\
-    \ even my top-ten favorite movies.\nWhat's number one? Star Wars?\nNah, I don't\
-    \ go for that... kind of stuff.\nNo wonder we shouldn't talk to them. They're\
-    \ out of their minds.\nWhen I leave a job interview, they're flabbergasted, can't\
-    \ believe what I say.\nThere's the sun. Maybe that's a way out.\nI don't remember\
-    \ the sun having a big 75 on it.\nI predicted global warming. I could feel it\
-    \ getting hotter. At first I thought it was just me.\nWait! Stop! Bee!\nStand\
-    \ back. These are winter boots.\nWait!\nDon't kill him!\nYou know I'm allergic\
-    \ to them! This thing could kill me!\nWhy does his life have less value than yours?\n\
-    Why does his life have any less value than mine? Is that your statement?\nI'm\
-    \ just saying all life has value. You don't know what he's capable of feeling.\n\
-    My brochure!\nThere you go, little guy.\nI'm not scared of him.It's an allergic\
-    \ thing.\n Put that on your resume brochure.\nMy whole face could puff up.\nMake\
-    \ it one of your special skills.\nKnocking someone out is also a special skill.\n\
-    Right. Bye, Vanessa. Thanks.\nVanessa, next week? Yogurt night?\nSure, Ken. You\
-    \ know, whatever.\nYou could put carob chips on there.\nBye.\nSupposed to be less\
-    \ calories.\nBye.\nI gotta say something. She saved my life. I gotta say something.\n\
-    All right, here it goes.\nNah.\nWhat would I say?\nI could really get in trouble.\
-    \ It's a bee law. You're not supposed to talk to a human.\nI can't believe I'm\
-    \ doing this. I've got to.\nOh, I can't do it. Come on!\nNo. Yes. No. Do it. I\
-    \ can't.\nHow should I start it? \"You like jazz?\" No, that's no good.\nHere\
-    \ she comes! Speak, you fool!\nHi!\nI'm sorry. You're talking.\nYes, I know.\n\
-    You're talking!\nI'm so sorry.\nNo, it's OK. It's fine.\nI know I'm dreaming.\
-    \ But I don't recall going to bed.\nWell, I'm sure this is very disconcerting.\n\
-    This is a bit of a surprise to me. I mean, you're a bee!\nI am. And I'm not supposed\
-    \ to be doing this, but they were all trying to kill me.\nAnd if it wasn't for\
-    \ you... I had to thank you. It's just how I was raised.\nThat was a little weird.\
-    \ I'm talking with a bee.\nYeah.\nI'm talking to a bee. And the bee is talking\
-    \ to me!\nI just want to say I'm grateful.\nI'll leave now.\nWait! How did you\
-    \ learn to do that?\nWhat?\nThe talking thing.\nSame way you did, I guess. \"\
-    Mama, Dada, honey.\" You pick it up.\nThat's very funny.\nYeah.\nBees are funny.\
-    \ If we didn't laugh, we'd cry with what we have to deal with.\nAnyway... Can\
-    \ I... get you something?\nLike what?\nI don't know. I mean... I don't know. Coffee?\n\
-    I don't want to put you out.\nIt's no trouble. It takes two minutes.\nIt's just\
-    \ coffee.\nI hate to impose.\nDon't be ridiculous!\nActually, I would love a cup.\n\
-    Hey, you want rum cake?\nI shouldn't.\nHave some.\nNo, I can't.\nCome on!\nI'm\
-    \ trying to lose a couple micrograms.\nWhere?\nThese stripes don't help.\nYou\
-    \ look great!\nI don't know if you know anything about fashion.\nAre you all right?\n\
-    No.\nHe's making the tie in the cab as they're flying up Madison.\nHe finally\
-    \ gets there.\nHe runs up the steps into the church.\nThe wedding is on.\nAnd\
-    \ he says, \"Watermelon?\nI thought you said Guatemalan.\nWhy would I marry a\
-    \ watermelon?\"\nIs that a bee joke?\nThat's the kind of stuff we do.\nYeah, different.\n\
-    So, what are you gonna do, Barry?\nAbout work? I don't know.\nI want to do my\
-    \ part for The Hive, but I can't do it the way they want.\nI know how you feel.\n\
-    You do?\nSure.\nMy parents wanted me to be a lawyer or a doctor, but I wanted\
-    \ to be a florist.\nReally?\nMy only interest is flowers.\nOur new queen was just\
-    \ elected with that same campaign slogan.\nAnyway, if you look... There's my hive\
-    \ right there. See it?\nYou're in Sheep Meadow!\nYes! I'm right off the Turtle\
-    \ Pond!\nNo way! I know that area. I lost a toe ring there once.\nWhy do girls\
-    \ put rings on their toes?\nWhy not?\nIt's like putting a hat on your knee.\n\
-    Maybe I'll try that.\nYou all right, ma'am?\nOh, yeah. Fine.\nJust having two\
-    \ cups of coffee!\nAnyway, this has been great.\nThanks for the coffee.\nYeah,\
-    \ it's no trouble.\nSorry I couldn't finish it. If I did, I'd be up the rest of\
-    \ my life.\nAre you...?\nCan I take a piece of this with me?\nSure! Here, have\
-    \ a crumb.\nThanks!\nYeah.\nAll right. Well, then... I guess I'll see you around.\
-    \ Or not.\nOK, Barry.\nAnd thank you so much again... for before.\nOh, that? That\
-    \ was nothing.\nWell, not nothing, but... Anyway...\nThis can't possibly work.\n\
-    He's all set to go.\nWe may as well try it.\nOK, Dave, pull the chute.\nSounds\
-    \ amazing.\nIt was amazing!\nIt was the scariest, happiest moment of my life.\n\
-    Humans! I can't believe you were with humans!\nGiant, scary humans!\nWhat were\
-    \ they like?\nHuge and crazy. They talk crazy.\nThey eat crazy giant things.\n\
-    They drive crazy.\nDo they try and kill you, like on TV?\nSome of them. But some\
-    \ of them don't.\nHow'd you get back?\nPoodle.\nYou did it, and I'm glad. You\
-    \ saw whatever you wanted to see.\nYou had your \"experience.\" Now you can pick\
-    \ out yourjob and be normal.\nWell...\nWell?\nWell, I met someone.\nYou did? Was\
-    \ she Bee-ish?\nA wasp?! Your parents will kill you!\nNo, no, no, not a wasp.\n\
-    Spider?\nI'm not attracted to spiders.\nI know it's the hottest thing, with the\
-    \ eight legs and all. I can't get by that face.\nSo who is she?\nShe's... human.\n\
-    No, no. That's a bee law. You wouldn't break a bee law.\nHer name's Vanessa.\n\
-    Oh, boy.\nShe's so nice. And she's a florist!\nOh, no! You're dating a human florist!\n\
-    We're not dating.\nYou're flying outside The Hive, talking to humans that attack\
-    \ our homes with power washers and M-80s! One-eighth a stick of dynamite!\nShe\
-    \ saved my life! And she understands me.\nThis is over!\nEat this.\nThis is not\
-    \ over! What was that?\nThey call it a crumb.\nIt was so stingin' stripey!\nAnd\
-    \ that's not what they eat.\nThat's what falls off what they eat!\nYou know what\
-    \ a Cinnabon is?\nNo.\nIt's bread and cinnamon and frosting. They heat it up...\n\
-    Sit down!\n...really hot!\nListen to me!\nWe are not them! We're us.\nThere's\
-    \ us and there's them!\nYes, but who can deny the heart that is yearning?\nThere's\
-    \ no yearning. Stop yearning. Listen to me!\nYou have got to start thinking bee,\
-    \ my friend. Thinking bee!\nThinking bee.\nThinking bee.\nThinking bee! Thinking\
-    \ bee! Thinking bee! Thinking bee!\nThere he is. He's in the pool.\nYou know what\
-    \ your problem is, Barry?\nI gotta start thinking bee?\nHow much longer will this\
-    \ go on?\nIt's been three days! Why aren't you working?\nI've got a lot of big\
-    \ life decisions to think about.\nWhat life? You have no life!\nYou have no job.\
-    \ You're barely a bee!\nWould it kill you to make a little honey?\nBarry, come\
-    \ out. Your father's talking to you.\nMartin, would you talk to him?\nBarry, I'm\
-    \ talking to you!\nYou coming?\nGot everything?\nAll set!\nGo ahead. I'll catch\
-    \ up.\nDon't be too long.\nWatch this!\nVanessa!\nWe're still here.\nI told you\
-    \ not to yell at him.\nHe doesn't respond to yelling!\nThen why yell at me?\n\
-    Because you don't listen!\nI'm not listening to this.\nSorry, I've gotta go.\n\
-    Where are you going?\nI'm meeting a friend.\nA girl? Is this why you can't decide?\n\
-    Bye.\nI just hope she's Bee-ish.\nThey have a huge parade of flowers every year\
-    \ in Pasadena?\nTo be in the Tournament of Roses, that's every florist's dream!\n\
-    Up on a float, surrounded by flowers, crowds cheering.\nA tournament. Do the roses\
-    \ compete in athletic events?\nNo. All right, I've got one.\nHow come you don't\
-    \ fly everywhere?\nIt's exhausting. Why don't you run everywhere? It's faster.\n\
-    Yeah, OK, I see, I see.\nAll right, your turn.\nTiVo. You can just freeze live\
-    \ TV? That's insane!\nYou don't have that?\nWe have Hivo, but it's a disease.\
-    \ It's a horrible, horrible disease.\nOh, my.\nDumb bees!\nYou must want to sting\
-    \ all those jerks.\nWe try not to sting. It's usually fatal for us.\nSo you have\
-    \ to watch your temper.\nVery carefully.\nYou kick a wall, take a walk, write\
-    \ an angry letter and throw it out. Work through it like any emotion: Anger, jealousy,\
-    \ lust.\nOh, my goodness! Are you OK?\nYeah.\nWhat is wrong with you?!\nIt's a\
-    \ bug.\nHe's not bothering anybody.\nGet out of here, you creep!\nWhat was that?\
-    \ A Pic 'N' Save circular?\nYeah, it was. How did you know?\nIt felt like about\
-    \ 10 pages. Seventy-five is pretty much our limit.\nYou've really got that down\
-    \ to a science.\nI lost a cousin to Italian Vogue.\nI'll bet.\nWhat in the name\
-    \ of Mighty Hercules is this?\nHow did this get here? cute Bee, Golden Blossom,\
-    \ Ray Liotta Private Select?\nIs he that actor?\nI never heard of him.\nWhy is\
-    \ this here?\nFor people. We eat it.\nYou don't have enough food of your own?\n\
-    Well, yes.\nHow do you get it?\nBees make it.\nI know who makes it! And it's hard\
-    \ to make it!\nThere's heating, cooling, stirring. You need a whole Krelman thing!\n\
-    It's organic.\nIt's our-ganic!\nIt's just honey, Barry.\nJust what?!\nBees don't\
-    \ know about this! This is stealing! A lot of stealing!\nYou've taken our homes,\
-    \ schools,hospitals! This is all we have!\nAnd it's on sale?! I'm getting to the\
-    \ bottom of this.\nI'm getting to the bottom of all of this!\nHey, Hector. You\
-    \ almost done?\nAlmost.\nHe is here. I sense it.\nWell, I guess I'll go home now\
-    \ and just leave this nice honey out, with no one around.\nYou're busted, box\
-    \ boy!\nI knew I heard something.\nSo you can talk!\nI can talk. And now you'll\
-    \ start talking!\nWhere you getting the sweet stuff? Who's your supplier?\nI don't\
-    \ understand.\nI thought we were friends.\nThe last thing we want to do is upset\
-    \ bees!\nYou're too late! It's ours now!\nYou, sir, have crossed the wrong sword!\n\
-    You, sir, will be lunch for my iguana, Ignacio!\nWhere is the honey coming from?\
-    \ Tell me where!\nHoney Farms! It comes from Honey Farms!\nCrazy person!\nWhat\
-    \ horrible thing has happened here?\nThese faces, they never knew what hit them.\
-    \ And now\nthey're on the road to nowhere!\nJust keep still.\nWhat? You're not\
-    \ dead?\nDo I look dead? They will wipe anything that moves. Where you headed?\n\
-    To Honey Farms. I am onto something huge here.\nI'm going to Alaska. Moose blood,\
-    \ crazy stuff. Blows your head off!\nI'm going to Tacoma.\nAnd you?\nHe really\
-    \ is dead.\nAll right.\nUh-oh!\nWhat is that?!\nOh, no!\nA wiper! Triple blade!\n\
-    Triple blade?\nJump on! It's your only chance, bee!\nWhy does everything have\n\
-    to be so doggone clean?!\nHow much do you people need to see?!\nOpen your eyes!\n\
-    Stick your head out the window!\nFrom NPR News in Washington,\nI'm Carl Kasell.\n\
-    But don't kill no more bugs!\nBee!\nMoose blood guy!!\nYou hear something?\nLike\
-    \ what?\nLike tiny screaming.\nTurn off the radio.\nWhassup, bee boy?\nHey, Blood.\n\
-    Just a row of honey jars, as far as the eye could see.\nWow!\nI assume wherever\
-    \ this truck goes is where they're getting it. I mean, that honey's ours.\nBees\
-    \ hang tight. We're all jammed in.\nIt's a close community.\nNot us, man. We on\
-    \ our own. Every mosquito on his own.\nWhat if you get in trouble?\nYou a mosquito,\
-    \ you in trouble. Nobody likes us. They just smack. See a mosquito, smack, smack!\n\
-    At least you're out in the world. You must meet girls.\nMosquito girls try to\
-    \ trade up, get with a moth, dragonfly. Mosquito girl don't want no mosquito.\n\
-    You got to be kidding me!\nMooseblood's about to leave the building! So long,\
-    \ bee!\nHey, guys!\nMooseblood!\nI knew I'd catch y'all down here.\nDid you bring\
-    \ your crazy straw?\nWe throw it in jars, slap a label on it, and it's pretty\
-    \ much pure profit.\nWhat is this place?\nA bee's got a brain the size of a pinhead.\n\
-    They are pinheads!\nPinhead.\nCheck out the new smoker.\nOh, sweet. That's the\
-    \ one you want. The Thomas 3000!\nSmoker?\nNinety puffs a minute, semi-automatic.\
-    \ Twice the nicotine, all the tar. A couple breaths of this knocks them right\
-    \ out.\nThey make the honey, and we make the money.\n\"They make the honey, and\
-    \ we make the money\"?\nOh, my!\nWhat's going on? Are you OK?\nYeah. It doesn't\
-    \ last too long.\nDo you know you're in a fake hive with fake walls?\nOur queen\
-    \ was moved here. We had no choice.\nThis is your queen? That's a man in women's\
-    \ clothes! That's a drag queen!\nWhat is this?\nOh, no!\nThere's hundreds of them!\n\
-    Bee honey.\nOur honey is being brazenly stolen on a massive scale!\nThis is worse\
-    \ than anything bears have done! I intend to do something.\nOh, Barry, stop.\n\
-    Who told you humans are taking our honey? That's a rumor.\nDo these look like\
-    \ rumors?\nThat's a conspiracy theory. These are obviously doctored photos. How\
-    \ did you get mixed up in this?\nHe's been talking to humans.\nWhat? Talking to\
-    \ humans?!\nHe has a human girlfriend. And they make out!\nMake out? Barry!\n\
-    We do not.\nYou wish you could.\nWhose side are you on?\nThe bees!\nI dated a\
-    \ cricket once in San Antonio. Those crazy legs kept me up all night.\nBarry,\
-    \ this is what you want to do with your life?\nI want to do it for all our lives.\
-    \ Nobody works harder than bees!\nDad, I remember you coming home so overworked\n\
-    your hands were still stirring. You couldn't stop.\nI remember that.\nWhat right\
-    \ do they have to our honey?\nWe live on two cups a year. They put it in lip balm\
-    \ for no reason whatsoever!\nEven if it's true, what can one bee do?\nSting them\
-    \ where it really hurts.\nIn the face! The eye!\nThat would hurt.\nNo.\nUp the\
-    \ nose? That's a killer.\nThere's only one place you can sting the humans, one\
-    \ place where it matters.\nHive at Five, The Hive's only full-hour action news\
-    \ source.\nNo more bee beards!\nWith Bob Bumble at the anchor desk. Weather with\
-    \ Storm Stinger. Sports with Buzz Larvi. And Jeanette Chung.\nGood evening. I'm\
-    \ Bob Bumble.\nAnd I'm Jeanette Ohung.\nA tri-county bee, Barry Benson, intends\
-    \ to sue the human race for stealing our honey, packaging it and profiting from\
-    \ it illegally!\nTomorrow night on Bee Larry King, we'll have three former queens\
-    \ here in our studio, discussing their new book, classy Ladies, out this week\
-    \ on Hexagon.\nTonight we're talking to Barry Benson.\nDid you ever think, \"\
-    I'm a kid from The Hive. I can't do this\"?\nBees have never been afraid to change\
-    \ the world.\nWhat about Bee Oolumbus? Bee Gandhi? Bejesus?\nWhere I'm from, we'd\
-    \ never sue humans.\nWe were thinking of stickball or candy stores.\nHow old are\
-    \ you?\nThe bee community is supporting you in this case, which will be the trial\
-    \ of the bee century.\nYou know, they have a Larry King in the human world too.\n\
-    It's a common name. Next week...\nHe looks like you and has a show and suspenders\
-    \ and colored dots...\nNext week...\nGlasses, quotes on the bottom from the guest\
-    \ even though you just heard 'em.\nBear Week next week! They're scary, hairy and\
-    \ here live.\nAlways leans forward, pointy shoulders, squinty eyes, very Jewish.\n\
-    In tennis, you attack at the point of weakness!\nIt was my grandmother, Ken. She's\
-    \ 81.\nHoney, her backhand's a joke!\nI'm not gonna take advantage of that?\n\
-    Quiet, please.\nActual work going on here.\nIs that that same bee?\nYes, it is!\n\
-    I'm helping him sue the human race.\nHello.\nHello, bee.\nThis is Ken.\nYeah,\
-    \ I remember you. Timberland, size ten and a half. Vibram sole, I believe.\nWhy\
-    \ does he talk again?\nListen, you better go 'cause we're really busy working.\n\
-    But it's our yogurt night!\nBye-bye.\nWhy is yogurt night so difficult?!\nYou\
-    \ poor thing. You two have been at this for hours!\nYes, and Adam here has been\
-    \ a huge help.\nFrosting...\nHow many sugars?\nJust one. I try not to use the\
-    \ competition.\nSo why are you helping me?\nBees have good qualities. And it takes\
-    \ my mind off the shop. Instead of flowers, people are giving balloon bouquets\
-    \ now.\nThose are great, if you're three.\nAnd artificial flowers.\nOh, those\
-    \ just get me psychotic!\nYeah, me too.\nBent stingers, pointless pollination.\n\
-    Bees must hate those fake things!\nNothing worse than a daffodil that's had work\
-    \ done.\nMaybe this could make up for it a little bit.\nThis lawsuit's a pretty\
-    \ big deal.\nI guess.\nYou sure you want to go through with it?\nAm I sure? When\
-    \ I'm done with the humans, they won't be able to say, \"Honey, I'm home,\" without\
-    \ paying a royalty!\nIt's an incredible scene here in downtown Manhattan, where\
-    \ the world anxiously waits, because for the first time in history, we will hear\
-    \ for ourselves if a honeybee can actually speak.\nWhat have we gotten into here,\
-    \ Barry?\nIt's pretty big, isn't it?\nI can't believe how many humans don't work\
-    \ during the day.\nYou think billion-dollar multinational food companies have\
-    \ good lawyers?\nEverybody needs to stay behind the barricade.\nWhat's the matter?\n\
-    I don't know, I just got a chill.\nWell, if it isn't the bee team.\nYou boys work\
-    \ on this?\nAll rise! The Honorable Judge Bumbleton presiding.\nAll right. Case\
-    \ number 4475,\nSuperior Court of New York,\nBarry Bee Benson v. the Honey Industry\
-    \ is now in session.\nMr. Montgomery, you're representing the five food companies\
-    \ collectively?\nA privilege.\nMr. Benson... you're representing all the bees\
-    \ of the world?\nI'm kidding. Yes, Your Honor, we're ready to proceed.\nMr. Montgomery,\
-    \ your opening statement, please.\nLadies and gentlemen of the jury, my grandmother\
-    \ was a simple woman. Born on a farm, she believed it was man's divine right to\
-    \ benefit from the bounty of nature God put before us.\nIf we lived in the topsy-turvy\
-    \ world Mr. Benson imagines, just think of what would it mean.\nI would have to\
-    \ negotiate with the silkworm for the elastic in my britches!\nTalking bee!\n\
-    How do we know this isn't some sort of holographic motion-picture-capture Hollywood\
-    \ wizardry?\nThey could be using laser beams! Robotics! Ventriloquism! Cloning!\
-    \ For all we know, he could be on steroids!\nMr. Benson?\nLadies and gentlemen,\
-    \ there's no trickery here. I'm just an ordinary bee. Honey's pretty important\
-    \ to me. It's important to all bees. We invented it! We make it. And we protect\
-    \ it with our lives.\nUnfortunately, there are some people in this room who think\
-    \ they can take it from us 'cause we're the little guys!\nI'm hoping that, after\
-    \ this is all over, you'll see how, by taking our honey, you not only take everything\
-    \ we have but everything we are!\nI wish he'd dress like that all the time. So\
-    \ nice!\nCall your first witness.\nSo, Mr. Klauss Vanderhayden of Honey Farms,\
-    \ big company you have.\nI suppose so.\nI see you also own Honeyburton and Honron!\n\
-    Yes, they provide beekeepers for our farms.\nBeekeeper. I find that to be a very\
-    \ disturbing term.\nI don't imagine you employ any bee-free-ers, do you?\nNo.\n\
-    I couldn't hear you.\nNo.\nNo. Because you don't free bees. You keep bees. Not\
-    \ only that, it seems you thought a bear would be an appropriate image for a jar\
-    \ of honey.\nThey're very lovable creatures. Yogi Bear, Fozzie Bear, Build-A-Bear.\n\
-    You mean like this?\nBears kill bees!\nHow'd you like his head crashing through\
-    \ your living room?! Biting into your couch! Spitting out your throw pillows!\
-    \ OK, that's enough. Take him away.\nSo, Mr. Sting, thank you for being here.\
-    \ Your name intrigues me. Where have I heard it before?\nI was with a band called\
-    \ The Police.\nBut you've never been a police officer, have you?\nNo, I haven't.\n\
-    No, you haven't. And so here we have yet another example of bee culture casually\
-    \ stolen by a human for nothing more than a prance-about stage name.\nOh, please.\n\
-    Have you ever been stung, Mr. Sting? Because I'm feeling a little stung, Sting.\
-    \ Or should I say... Mr. Gordon M. Sumner!\nThat's not his real name?! You idiots!\n\
-    Mr. Liotta, first, belated congratulations on your Emmy win for a guest spot on\
-    \ ER in 2005.\nThank you. Thank you.\nI see from your resume that you're devilishly\
-    \ handsome with a churning inner turmoil that's ready to blow.\nI enjoy what I\
-    \ do. Is that a crime?\nNot yet it isn't. But is this what it's come to for you?\
-    \ Exploiting tiny, helpless bees so you don't have to rehearse your part and learn\
-    \ your lines, sir?\nWatch it, Benson! I could blow right now!\nThis isn't a goodfella.\n\
-    This is a badfella!\nWhy doesn't someone just step on this creep, and we can all\
-    \ go home?!\nOrder in this court!\nYou're all thinking it!\nOrder! Order, I say!\n\
-    Say it!\nMr. Liotta, please sit down!\nI think it was awfully nice of that bear\
-    \ to pitch in like that. I think the jury's on our side.\nAre we doing everything\
-    \ right, legally?\nI'm a florist.\nRight. Well, here's to a great team.\nTo a\
-    \ great team!\nWell, hello.\nKen!\nHello.\nI didn't think you were coming.\nNo,\
-    \ I was just late I tried to call, but... the battery.\nI didn't want all this\
-    \ to go to waste,\nso I called Barry. Luckily, he was free.\nOh, that was lucky.\n\
-    There's a little left. I could heat it up.\nYeah, heat it up, sure, whatever.\n\
-    So I hear you're quite a tennis player. I'm not much for the game myself. The\
-    \ ball's a little grabby.\nThat's where I usually sit. Right... there.\nKen, Barry\
-    \ was looking at your resume, and he agreed with me that eating with chopsticks\
-    \ isn't really a special skill.\nYou think I don't see what you're doing?\nI know\
-    \ how hard it is to find the right job. We have that in common.\nDo we?\nBees\
-    \ have 100 percent employment, but we do jobs like taking the crud out.\nThat's\
-    \ just what I was thinking about doing.\nKen, I let Barry borrow your razor for\
-    \ his fuzz. I hope that was all right.\nI'm going to drain the old stinger.\n\
-    Yeah, you do that.\nLook at that.\nYou know, I've just about had it with your\
-    \ little Mind Games.\nWhat's that?\nItalian Vogue.\nMamma mia, that's a lot of\
-    \ pages.\nA lot of ads.\nRemember what Van said, why is your life more valuable\
-    \ than mine?\nFunny, I just can't seem to recall that! I think something stinks\
-    \ in here!\nI love the smell of flowers.\nHow do you like the smell of flames?!\n\
-    Not as much.\nWater bug! Not taking sides!\nKen, I'm wearing a Chapstick hat!\n\
-    This is pathetic!\nI've got issues!\nWell, well, well, a royal flush!\nYou're\
-    \ bluffing.\nAm I?\nSurf's up, dude!\nPoo water!\nThat bowl is gnarly. Except\
-    \ for those dirty yellow rings!\nKenneth! What are you doing?!\nYou know, I don't\
-    \ even like honey! I don't eat it!\nWe need to talk! He's just a little bee!\n\
-    And he happens to be the nicest bee I've met in a long time!\nLong time? What\
-    \ are you talking about?! Are there other bugs in your life?\n No, but there are\
-    \ other things bugging me in life. And you're one of them!\nFine! Talking bees,\
-    \ no yogurt night...\nMy nerves are fried from riding on this emotional roller\
-    \ coaster!\nGoodbye, Ken.\nAnd for your information, I prefer sugar-free, artificial\
-    \ sweeteners made by man!\nI'm sorry about all that.\nI know it's got an aftertaste!\
-    \ I like it!\nI always felt there was some kind of barrier between Ken and me.\
-    \ I couldn't overcome it.\nOh, well.\nAre you OK for the trial?\nI believe Mr.\
-    \ Montgomery is about out of ideas.\nWe would like to call Mr. Barry Benson Bee\
-    \ to the stand.\nGood idea! You can really see why he's considered one of the\
-    \ best lawyers...\nYeah.\nLayton, you've gotta weave some magic with this jury,\
-    \ or it's gonna be all over.\nDon't worry. The only thing I have to do to turn\
-    \ this jury around is to remind them of what they don't like about bees.\nYou\
-    \ got the tweezers?\nAre you allergic?\nOnly to losing, son. Only to losing.\n\
-    Mr. Benson Bee, I'll ask you what I think we'd all like to know.\nWhat exactly\
-    \ is your relationship to that woman?\nWe're friends.\nGood friends?\nYes.\nHow\
-    \ good? Do you live together?\nWait a minute... Are you her little... bedbug?\n\
-    I've seen a bee documentary or two. From what I understand, doesn't your queen\
-    \ give birth to all the bee children?\nYeah, but...\nSo those aren't your real\
-    \ parents!\nOh, Barry...\nYes, they are!\nHold me back!\nYou're an illegitimate\
-    \ bee, aren't you, Benson?\nHe's denouncing bees!\nDon't y'all date your cousins?\n\
-    Objection!\nI'm going to pincushion this guy!\nAdam, don't! It's what he wants!\n\
-    Oh, I'm hit!! Oh, lordy, I am hit!\nOrder! Order!\nThe venom! The venom is coursing\
-    \ through my veins! I have been felled by a winged beast of destruction! You see?\
-    \ You can't treat them like equals! They're striped savages! Stinging's the only\
-    \ thing they know! It's their way!\nAdam, stay with me.\nI can't feel my legs.\n\
-    What Angel of Mercy will come forward to suck the poison from my heaving buttocks?\n\
-    I will have order in this court. Order! Order, please!\nThe case of the honeybees\
-    \ versus the human race took a pointed Turn Against the bees yesterday when one\
-    \ of their legal team stung Layton T. Montgomery.\nHey, buddy.\nHey.\nIs there\
-    \ much pain?\nYeah.\nI... I blew the whole case, didn't I?\nIt doesn't matter.\
-    \ What matters is\nyou're alive. You could have died.\nI'd be better off dead.\
-    \ Look at me.\nThey got it from the cafeteria downstairs, in a tuna sandwich.\
-    \ Look, there's a little celery still on it.\nWhat was it like to sting someone?\n\
-    I can't explain it. It was all... All adrenaline and then...and then ecstasy!\n\
-    All right.\nYou think it was all a trap?\nOf course. I'm sorry. I flew us right\
-    \ into this.\nWhat were we thinking? Look at us. We're just a couple of bugs in\
-    \ this world.\nWhat will the humans do to us if they win?\nI don't know.\nI hear\
-    \ they put the roaches in motels. That doesn't sound so bad.\nAdam, they check\
-    \ in, but they don't check out!\nOh, my.\nCould you get a nurse to close that\
-    \ window?\nWhy?\nThe smoke.\nBees don't smoke.\nRight. Bees don't smoke.\nBees\
-    \ don't smoke!\nBut some bees are smoking.\nThat's it! That's our case!\nIt is?\
-    \ It's not over?\nGet dressed. I've gotta go somewhere.\nGet back to the court\
-    \ and stall. Stall any way you can.\nAnd assuming you've done step correctly,\
-    \ you're ready for the tub.\nMr. Flayman.\nYes? Yes, Your Honor!\nWhere is the\
-    \ rest of your team?\nWell, Your Honor, it's interesting. Bees are trained to\
-    \ fly haphazardly, and as a result, we don't make very good time.\nI actually\
-    \ heard a funny story about...\nYour Honor, haven't these ridiculous bugs taken\
-    \ up enough of this court's valuable time? How much longer will we allow these\
-    \ absurd shenanigans to go on?\nThey have presented no compelling evidence to\
-    \ support their charges against my clients, who run legitimate businesses.\nI\
-    \ move for a complete dismissal of this entire case!\nMr. Flayman, I'm afraid\
-    \ I'm going to have to consider Mr. Montgomery's motion.\nBut you can't! We have\
-    \ a terrific case.\nWhere is your proof?\nWhere is the evidence?\nShow me the\
-    \ smoking gun!\nHold it, Your Honor!\nYou want a smoking gun? Here is your smoking\
-    \ gun.\nWhat is that?\nIt's a bee smoker!\nWhat, this? This harmless little contraption?\
-    \ This couldn't hurt a fly, let alone a bee.\nLook at what has happened to bees\
-    \ who have never been asked, \"Smoking or non?\" Is this what nature intended\
-    \ for us? To be forcibly addicted to smoke machines and man-made wooden slat work\
-    \ camps?\nLiving out our lives as honey slaves to the white man?\nWhat are we\
-    \ gonna do?\nHe's playing the species card.\nLadies and gentlemen, please, free\
-    \ these bees!\nFree the bees! Free the bees! Free the bees! Free the bees! Free\
-    \ the bees!\nThe court finds in favor of the bees!\nVanessa, we won!\nI knew you\
-    \ could do it! High-five!\nSorry.\nI'm OK! You know what this means?\nAll the\
-    \ honey will finally belong to the bees.\nNow we won't have to work so hard all\
-    \ the time.\nThis is an unholy perversion of the balance of nature, Benson.\n\
-    You'll regret this.\nBarry, how much honey is out there?\nAll right. One at a\
-    \ time.\nBarry, who are you wearing?\nMy sweater is Ralph Lauren, and I have no\
-    \ pants.\nWhat if Montgomery's right?\nWhat do you mean?\nWe've been living the\
-    \ bee way a long time, 27 million years.\nCongratulations on your victory. What\
-    \ will you demand as a settlement?\nFirst, we'll demand a complete shutdown of\
-    \ all bee work camps.\nThen we want back the honey that was ours to begin with,\
-    \ every last drop.\nWe demand an end to the glorification of the bear as anything\
-    \ more than a filthy, smelly, bad-breath stink machine.\nWe're all aware of what\
-    \ they do in the woods.\nWait for my signal. Take him out.\nHe'll have nauseous\
-    \ for a few hours, then he'll be fine.\nAnd we will no longer tolerate bee-negative\
-    \ nicknames...\nBut it's just a prance-about stage name!\n...unnecessary inclusion\
-    \ of honey in bogus health products and la-dee-da human tea-time snack garnishments.\n\
-    Can't breathe.\nBring it in, boys!\nHold it right there! Good.\nTap it.\nMr. Buzzwell,\
-    \ we just passed three cups and there's gallons more coming!\nI think we need\
-    \ to shut down!\nShut down? We've never shut down.\nShut down honey production!\n\
-    Stop making honey!\nTurn your key, sir!\nWhat do we do now?\nCannonball!\nWe're\
-    \ shutting honey production!\nMission abort.\nAborting pollination and nectar\
-    \ detail.\nReturning to base.\nAdam, you wouldn't believe how much honey was out\
-    \ there.\nOh, yeah?\nWhat's going on? Where is everybody?\nAre they out celebrating?\n\
-    They're home.\nThey don't know what to do. Laying out, sleeping in.\nI heard your\
-    \ Uncle Carl was on his way to San Antonio with a cricket.\nAt least we got our\
-    \ honey back.\nSometimes I think, so what if humans liked our honey? Who wouldn't?\n\
-    It's the greatest thing in the world! I was excited to be part of making it.\n\
-    This was my new desk. This was my new job. I wanted to do it really well. And\
-    \ now...\nNow I can't.\nI don't understand why they're not happy.\nI thought their\
-    \ lives would be better!\nThey're doing nothing. It's amazing.\nHoney really changes\
-    \ people.\nYou don't have any idea what's going on, do you?\nWhat did you want\
-    \ to show me?\nThis.\nWhat happened here?\nThat is not the half of it.\nOh, no.\
-    \ Oh, my.\nThey're all wilting.\nDoesn't look very good, does it?\nNo.\nAnd whose\
-    \ fault do you think that is?\nYou know, I'm gonna guess bees.\nBees?\nSpecifically,\
-    \ me.\nI didn't think bees not needing to make honey would affect all these things.\n\
-    It's not just flowers. Fruits, vegetables, they all need bees.\nThat's our whole\
-    \ SAT test right there.\nTake away produce, that affects the entire animal kingdom.\n\
-    And then, of course...\nThe human species?\nSo if there's no more pollination,\
-    \ it could all just go south here, couldn't it?\nI know this is also partly my\
-    \ fault.\nHow about a suicide pact?\nHow do we do it?\nI'll sting you, you step\
-    \ on me.\nThat just kills you twice.\nRight, right.\nListen, Barry... sorry, but\
-    \ I gotta get going.\nI had to open my mouth and talk.\nVanessa?\nVanessa? Why\
-    \ are you leaving?\nWhere are you going?\nTo the final Tournament of Roses parade\
-    \ in Pasadena.\nThey've moved it to this weekend because all the flowers are dying.\n\
-    It's the Last Chance I'll ever have to see it.\nVanessa, I just wanna say I'm\
-    \ sorry.\nI never meant it to turn out like this.\nI know. Me neither.\nTournament\
-    \ of Roses.\nRoses can't do sports.\nWait a minute. Roses. Roses?\nRoses!\nVanessa!\n\
-    Roses?!\nBarry?\nRoses are flowers!\nYes, they are.\nFlowers, bees, pollen!\n\
-    I know.\nThat's why this is the last parade.\nMaybe not.\nCould you ask him to\
-    \ slow down?\nCould you slow down?\nBarry!\nOK, I made a huge mistake.\nThis is\
-    \ a total disaster, all my fault.\nYes, it kind of is.\nI've ruined the planet.\
-    \ I wanted to help you with the flower shop. I've made it worse.\nActually, it's\
-    \ completely closed down.\nI thought maybe you were remodeling.\nBut I have another\
-    \ idea, and it's greater than my previous ideas combined.\nI don't want to hear\
-    \ it!\nAll right, they have the roses, the roses have the pollen.\nI know every\
-    \ bee, plant and flower bud in this park.\nAll we gotta do is get what they've\
-    \ got back here with what we've got.\nBees.\nPark.\nPollen!\nFlowers.\nRepollination!\n\
-    Across the nation!\nTournament of Roses, Pasadena, California.\nThey've got nothing\
-    \ but flowers, floats and cotton candy.\nSecurity will be tight.\nI have an idea.\n\
-    Vanessa Bloome, FTD.\nOfficial floral business. It's real.\nSorry, ma'am. Nice\
-    \ brooch.\nThank you. It was a gift.\nOnce inside, we just pick the right float.\n\
-    How about The Princess and the Pea?\nI could be the princess, and you could be\
-    \ the pea!\nYes, I got it.\nWhere should I sit?\nWhat are you?\nI believe I'm\
-    \ the pea.\nThe pea?\nIt goes under the mattresses.\nNot in this fairy tale, sweetheart.\n\
-    I'm getting the marshal.\nYou do that! This whole parade is a fiasco!\nLet's see\
-    \ what this baby'll do.\nHey, what are you doing?!\nThen all we do is blend in\
-    \ with traffic... without arousing suspicion.\nOnce at the airport, there's no\
-    \ stopping us.\nStop! Security.\nYou and your insect pack your float?\nYes.\n\
-    Has it been in your possession the entire time?\nWould you remove your shoes?\n\
-    Remove your stinger.\nIt's part of me.\nI know. Just having some fun.\nEnjoy your\
-    \ flight.\nThen if we're lucky, we'll have just enough pollen to do the job.\n\
-    Can you believe how lucky we are? We have just enough pollen to do the job!\n\
-    I think this is gonna work.\nIt's got to work.\nAttention, passengers, this is\
-    \ Captain Scott. We have a bit of bad weather in New York. It looks like we'll\
-    \ experience a couple hours delay.\nBarry, these are cut flowers with no water.\
-    \ They'll never make it.\nI gotta get up there and talk to them.\nBe careful.\n\
-    Can I get help with the Sky Mall magazine? I'd like to order the talking inflatable\
-    \ nose and ear hair trimmer.\nCaptain, I'm in a real situation.\nWhat'd you say,\
-    \ Hal?\nNothing.\nBee!\nDon't freak out! My entire species...\nWhat are you doing?\n\
-    Wait a minute! I'm an attorney!\nWho's an attorney?\nDon't move.\nOh, Barry.\n\
-    Good afternoon, passengers. This is your captain. Would a Miss Vanessa Bloome\
-    \ in 24B please report to the cockpit? And please hurry!\nWhat happened here?\n\
-    There was a DustBuster, a toupee, a life raft exploded.\nOne's bald, one's in\
-    \ a boat, they're both unconscious!\nIs that another bee joke?\nNo!\nNo one's\
-    \ flying the plane!\nThis is JFK control tower, Flight 356. What's your status?\n\
-    This is Vanessa Bloome. I'm a florist from New York.\nWhere's the pilot?\nHe's\
-    \ unconscious, and so is the copilot.\nNot good. Does anyone onboard have flight\
-    \ experience?\nAs a matter of fact, there is.\nWho's that?\nBarry Benson.\nFrom\
-    \ the honey trial?! Oh, great.\nVanessa, this is nothing more than a big metal\
-    \ bee.\nIt's got giant wings, huge engines.\nI can't fly a plane.\nWhy not? Isn't\
-    \ John Travolta a pilot?\nYes.\nHow hard could it be?\nWait, Barry!\nWe're headed\
-    \ into some lightning.\nThis is Bob Bumble. We have some late-breaking news from\
-    \ JFK Airport, where a suspenseful scene is developing.\nBarry Benson, fresh from\
-    \ his legal victory...\nThat's Barry!\n...is attempting to land a plane, loaded\
-    \ with people, flowers and an incapacitated flight crew.\nFlowers?!\nWe have a\
-    \ storm in the area and two individuals at the controls with absolutely no flight\
-    \ experience.\nJust a minute. There's a bee on that plane.\nI'm quite familiar\
-    \ with Mr. Benson and his no-account compadres.\nThey've done enough damage.\n\
-    But isn't he your only hope?\nTechnically, a bee shouldn't be able to fly at all.\n\
-    Their wings are too small... Haven't we heard this a million times?\n\"The surface\
-    \ area of the wings and body mass make no sense.\"\nGet this on the air!\nGot\
-    \ it.\nStand by.\nWe're going live.\nThe way we work may be a mystery to you.\
-    \ Making honey takes a lot of bees doing a lot of small jobs.\nBut let me tell\
-    \ you about a small job. If you do it well, it makes a big difference.\nMore than\
-    \ we realized. To us, to everyone.\nThat's why I want to get bees back to working\
-    \ together. That's the bee way! We're not made of Jell-O.\nWe get behind a fellow.\n\
-    Black and yellow!\nHello!\nLeft, right, down, hover.\nHover?\nForget hover.\n\
-    This isn't so hard.\nBeep-beep! Beep-beep!\nBarry, what happened?!\nWait, I think\
-    \ we were on autopilot the whole time.\nThat may have been helping me.\nAnd now\
-    \ we're not!\nSo it turns out I cannot fly a plane.\nAll of you, let's get behind\
-    \ this fellow! Move it out!\nMove out!\nOur only chance is if I do what I'd do,\
-    \ you copy me with the wings of the plane!\nDon't have to yell.\nI'm not yelling!\
-    \ We're in a lot of trouble.\nIt's very hard to concentrate with that panicky\
-    \ tone in your voice!\nIt's not a tone. I'm panicking!\nI can't do this!\nVanessa,\
-    \ pull yourself together. You have to snap out of it!\nYou snap out of it.\nYou\
-    \ snap out of it.\nYou snap out of it!\nYou snap out of it!\nYou snap out of it!\n\
-    You snap out of it!\nYou snap out of it!\nYou snap out of it!\nHold it!\nWhy?\
-    \ Come on, it's my turn.\nHow is the plane flying?\nI don't know.\nHello?\nBenson,\
-    \ got any flowers for a happy occasion in there?\nThe Pollen Jocks!\nThey do get\
-    \ behind a fellow.\nBlack and yellow.\nHello.\nAll right, let's drop this tin\
-    \ can on the blacktop.\nWhere? I can't see anything. Can you?\nNo, nothing. It's\
-    \ all cloudy.\nCome on. You got to think bee, Barry.\nThinking bee.\nThinking\
-    \ bee.\nThinking bee!\nThinking bee! Thinking bee!\nWait a minute. I think I'm\
-    \ feeling something.\nWhat?\nI don't know. It's strong, pulling me.\nLike a 27-million-year-old\
-    \ instinct.\nBring the nose down.\nThinking bee!\nThinking bee! Thinking bee!\n\
-    What in the world is on the tarmac?\nGet some lights on that!\nThinking bee!\n\
-    Thinking bee! Thinking bee!\nVanessa, aim for the flower.\nOK.\nCut the engines.\
-    \ We're going in on bee power. Ready, boys?\nAffirmative!\nGood. Good. Easy, now.\
-    \ That's it.\nLand on that flower!\nReady? Full reverse!\nSpin it around!\nNot\
-    \ that flower! The other one!\nWhich one?\nThat flower.\nI'm aiming at the flower!\n\
-    That's a fat guy in a flowered shirt.\nI mean the giant pulsating flower made\
-    \ of millions of bees!\nPull forward. Nose down. Tail up.\nRotate around it.\n\
-    This is insane, Barry!\nThis's the only way I know how to fly.\nAm I koo-koo-kachoo,\
-    \ or is this plane flying in an insect-like pattern?\nGet your nose in there.\
-    \ Don't be afraid. Smell it. Full reverse!\nJust drop it. Be a part of it.\nAim\
-    \ for the center!\nNow drop it in! Drop it in, woman!\nCome on, already.\nBarry,\
-    \ we did it! You taught me how to fly!\nYes. No high-five!\nRight.\nBarry, it\
-    \ worked!\nDid you see the giant flower?\nWhat giant flower? Where? Of course\n\
-    I saw the flower! That was genius!\nThank you.\nBut we're not done yet.\nListen,\
-    \ everyone!\nThis runway is covered with the last pollen from the last flowers\
-    \ available anywhere on Earth.\nThat means this is our Last Chance. We're the\
-    \ only ones who make honey, pollinate flowers and dress like this.\nIf we're gonna\
-    \ survive as a species, this is our moment! What do you say?\nAre we going to\
-    \ be bees, or just Museum of Natural History keychains?\nWe're bees!\nKeychain!\n\
-    Then follow me! Except Keychain.\nHold on, Barry. Here. You've earned this.\n\
-    Yeah!\nI'm a Pollen Jock! And it's a perfect fit. All I gotta do are the sleeves.\n\
-    Oh, yeah.\nThat's our Barry.\nMom! The bees are back!\nIf anybody needs to make\
-    \ a call, now's the time. I got a feeling we'll be working late tonight!\nHere's\
-    \ your change. Have a great afternoon! Can I help who's next?\nWould you like\
-    \ some honey with that?\nIt is bee-approved. Don't forget these.\nMilk, cream,\
-    \ cheese, it's all me.  And I don't see a nickel!\nSometimes I just feel like\
-    \ a piece of meat!\nI had no idea.\nBarry, I'm sorry.\nHave you got a moment?\n\
-    Would you excuse me?\nMy mosquito associate will help you.\nSorry I'm late.\n\
-    He's a lawyer too?\nI was already a blood-sucking parasite. All I needed was a\
-    \ briefcase.\nHave a great afternoon!\nBarry, I just got this huge tulip order,\
-    \ and I can't get them anywhere.\nNo problem, Vannie. Just leave it to me.\nYou're\
-    \ a lifesaver, Barry. Can I help who's next?\nAll right, scramble, jocks! It's\
-    \ time to fly.\nThank you, Barry!\nThat bee is living my life!\nLet it go, Kenny.\n\
-    When will this nightmare end?!\nLet it all go.\nBeautiful day to fly.\nSure is.\n\
-    Between you and me,\nI was dying to get out of that office.\nYou have got to start\
-    \ thinking bee, my friend.\nThinking bee!\nMe?\nHold it. Let's just stop for a\
-    \ second. Hold it.\nI'm sorry. I'm sorry, everyone. Can we stop here?\nI'm not\
-    \ making a major life decision during a production number!\nAll right. Take ten,\
-    \ everybody. Wrap it up, guys.\nI had virtually no rehearsal for that."
-  email: jedidiahtsang@berkeley.edu
-  link: null
-  name: Jedidiah Tsang
-  pic1: assets/img/staff/jedidiah-tsang-1.jpg
-  pic2: assets/img/staff/jedidiah-tsang-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hello! I'm Jenny, and I'm a fourth year EECS major from San Jose. I had a really
-    fun time taking 61B, and I'm super excited to share my love for the class with
-    you all! In my free time I like reading fantasy novels, crocheting, and playing
-    volleyball. Feel free to reach out if you want to talk about anything!
-  email: jenniferprince@berkeley.edu
-  link: null
-  name: Jennifer Prince
-  pic1: assets/img/staff/jennifer-prince-1.jpg
-  pic2: assets/img/staff/jennifer-prince-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: Hi! I'm a senior and while it's my first time TA'ing for 61B, I've taught IEOR
-    162, CS 70, and UGBA 102A in the past! I exclusively go first in TFT, enjoy Austen/Murakami,
-    and eat too much food at Racha's. Reach out to me if you have literally any questions
-    about literally anything.
-  email: kennethwang@berkeley.edu
-  link: null
-  name: Kenneth Wang
-  pic1: assets/img/staff/kenneth-wang-1.jpg
-  pic2: assets/img/staff/kenneth-wang-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: computer
-  email: kylezzhang@berkeley.edu
-  link: null
-  name: Kyle ZHang
-  pic1: assets/img/staff/kyle-zhang-1.jpg
-  pic2: assets/img/staff/kyle-zhang-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: ''
-- bio: '"I should probably go to sleep..."'
-  email: laksith@berkeley.edu
-  link: null
-  name: Laksith Prabu
-  pic1: assets/img/staff/laksith-prabu-1.jpg
-  pic2: assets/img/staff/laksith-prabu-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi! I am a junior studying Computer Science, and I am a first gen college student.
-    This is my fourth time teaching 61B, so excited to meet you all! If you like K-Pop,
-    we sure will have a lot to talk about! I also like to play racquet sports. And,
-    I LOVE boba, spicy food, and especially noodles. Feel free to reach out to me
-    for anything!
-  email: zhixinlu@berkeley.edu
-  link: null
-  name: Lucy Lu
-  pic1: assets/img/staff/lucy-lu-1.jpg
-  pic2: assets/img/staff/lucy-lu-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her
-- bio: "Hello everyone! I\u2019m Max and I\u2019m a sophomore majoring in CS. 61B\
-    \ is one of my favorite classes, and I hope you enjoy it as much as I did. My\
-    \ hobbies include swimming, yoga, meditation, and cooking. Don\u2019t hesitate\
-    \ to reach out to me about 61B or anything else \u2014 especially if you want\
-    \ to swim some laps together!"
-  email: maxye@berkeley.edu
-  link: null
-  name: Max Ye
-  pic1: assets/img/staff/max-ye-1.jpg
-  pic2: assets/img/staff/max-ye-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hello! I'm a 3rd year CS major and it's my 3rd semester on course staff. I'm
-    a big Raiders fan and am very confident this semester will go better than our
-    season. Also if Beacon breaks, it's probably because I was trying to make it look
-    prettier and crashed the server. Hope to see you in discussion, OH, or lab!
+  pronouns: she/her/they
+- bio: Hello! I'm a 4th year CS major from the central valley. This is my 4th semester
+    on 61B staff and I have a feeling it's going to be the best yet. I'm a big football
+    fan and am always happy to talk. Also, if any of the course infrastructure breaks...
+    sorry. Hope to see you in OH, lab, and discussion!
   email: mkhosla@berkeley.edu
   link: https://meshan.dev
   name: Meshan Khosla
@@ -1031,145 +187,54 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: updogs! i'm a third-year from the socal south bay studying computer science
-    (woo) and applied math (boo) and this will be my fourth time teaching 61b! when
-    i'm free, catch me playing piano and guitar and maybe singing sometimes. i also
-    play questionable amounts of chess and hearthstone. super excited to meet y'all!
+- bio: updogs! i'm a fourth-year from the socal south bay studying applied math and
+    cs and this will be my fifth time teaching 61b! catch me playing piano and guitar
+    and maybe singing sometimes. i also play questionable amounts of chess and hearthstone.
+    super excited to meet y'all!
   email: noahadhikari@berkeley.edu
-  link: null
+  link: https://xkcd.com/524/
   name: Noah Adhikari
   pic1: assets/img/staff/noah-adhikari-1.jpg
   pic2: assets/img/staff/noah-adhikari-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: Hey! I'm Omar, a senior transfer majoring in EECS. I love talking about cats,
-    music of all kinds (currently on a huge krnb spree), ARAM, why cloudy rainy weather
-    is the best, and monkfish. Looking forward to a great semester of 61B!
-  email: omaryu@berkeley.edu
-  link: https://www.youtube.com/watch?v=Y9r_BLEKd3o
-  name: Omar Yu
-  pic1: assets/img/staff/omar-yu-1.jpg
-  pic2: assets/img/staff/omar-yu-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi! I'm Royce, currently a sophomore studying, well, CS! When I'm not nerding
-    out over Union Find (very cool!) and 61B, you can find me watching anime, playing
-    League (I'm sorry), going gym, and wasting far too much time on YouTube. Super
-    stoked for a great semester :)
-  email: royce.ren@berkeley.edu
-  link: null
-  name: Royce Ren
-  pic1: assets/img/staff/royce-ren-1.jpg
-  pic2: assets/img/staff/royce-ren-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hi everyone! I'm Sahityasree, and I'm a sophomore majoring in CS. Apart from
-    teaching, I also enjoy writing, early morning hikes, crosswords, and music. Feel
-    free to reach out anytime, and I hope you enjoy 61B!
-  email: sahityasree@berkeley.edu
-  link: null
-  name: Sahityasree Subramanian
-  pic1: assets/img/staff/sahityasree-subramanian-1.jpg
-  pic2: assets/img/staff/sahityasree-subramanian-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: '<div><br><form onsubmit="event.preventDefault(); if(this.pass.value == ''cheese''){this.parentElement.innerHTML
-    = ''I like cheese''; document.body.style.background = ''url(https://sberkun.github.io/cheese.png)'';
-    document.body.style[''background-size''] = ''10em''; $(''td'').css(''backdrop-filter'',
-    ''blur(1em)''); $(''head'').append(''<style>@keyframes spin { 100% { transform:rotate(360deg);
-    } }</style>''); $(''img'').css(''animation'', ''spin 4s linear infinite''); }
-    else {this.pass.value=''''}">Password: <input type="text" name="pass"><input type="submit"
-    value="Submit"></form></div>'
+- bio: "\U0001F9C0"
   email: sberkun@berkeley.edu
-  link: https://cs61br.github.io/website_sp23/
+  link: https://natethesnake.com/
   name: Samuel Berkun
   pic1: assets/img/staff/samuel-berkun-1.jpg
   pic2: assets/img/staff/samuel-berkun-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "Hi! I\u2019m Shirley and I\u2019m a second-year Computer Science major from\
-    \ Guangzhou, China. This is my third time teaching 61B and I\u2019m super excited!\
-    \ In my free time, I enjoy listening to music and sleeping :) "
+- bio: 'Hi! I''m Shirley and I''m a third-year Computer Science major! I''m from Guangzhou,
+    China, and this is my fourth semester teaching 61B. Looking forward to this new
+    semester! '
   email: shirleyc815@berkeley.edu
   link: null
-  name: Shaohua Chen
-  pic1: assets/img/staff/shaohua-chen-1.jpg
-  pic2: assets/img/staff/shaohua-chen-1.jpg
+  name: Shirley Chen
+  pic1: assets/img/staff/shirley-chen-1.jpg
+  pic2: assets/img/staff/shirley-chen-1.jpg
   pic3: null
   pic4: null
-  pronouns: she/her/hers
-- bio: Hi everyone! This is my fifth time teaching 61B and I couldn't be more excited
-    :) My hobbies include board games, travel, music, and fashion. I'm so excited
-    to meet yall this semester!
-  email: sherryfansf@berkeley.edu
-  link: null
-  name: Sherry Fan
-  pic1: assets/img/staff/sherry-fan-1.jpg
-  pic2: assets/img/staff/sherry-fan-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: "Hello, hello! I\u2019m junior studying Bioengineering and EECS, and this is\
-    \ my 4th time teaching 61B! I\u2019m also a huge aviation geek, so if you strike\
-    \ it rich and need someone to fly your private jet, you know who to call. See\
-    \ you in the skies \U0001F6EB"
-  email: shreyask@berkeley.edu
-  link: null
-  name: Shreyas Kallingal
-  pic1: assets/img/staff/shreyas-kallingal-1.jpg
-  pic2: assets/img/staff/shreyas-kallingal-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Hey everyone! I'm Shreyas, a senior CS student from Sonoma County. This is
-    my 6th semester teaching CS61B, and it's one of my favorite things to do at Berkeley.
-    Apart from CS, I'm a huge sports fan (basketball, soccer, tennis, football, you
-    name it) and I love listening to R&B and hip-hop artists like The Weeknd and Travis
-    Scott. Feel free to reach out if you have any questions!
-  email: shreyaskompalli@berkeley.edu
-  link: https://youtu.be/yModCU1OVHY?t=84
-  name: Shreyas Kompalli
-  pic1: assets/img/staff/shreyas-kompalli-1.jpg
-  pic2: assets/img/staff/shreyas-kompalli-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: he/him/his
-- bio: Heyooo! I'm Vidya, a senior majoring in Computer Science and Economics from
-    Freakmont, CA. This is my 5th (and last :') time teaching 61bestest and I can't
-    wait for a fantastic final semester. Some of my hobbies include DJing, eating
-    mac n cheese, lifting, and attending music festivals. Can't wait for a 61banger
-    time and hmu if you need absolutely anything!
-  email: sreevidyaganga0@berkeley.edu
-  link: https://www.youtube.com/watch?v=YbPsnmE3_ag&ab_channel=JacobLnz4d
-  name: SreeVidya Ganga
-  pic1: assets/img/staff/sreevidya-ganga-1.jpg
-  pic2: assets/img/staff/sreevidya-ganga-1.jpg
-  pic3: null
-  pic4: null
-  pronouns: she/her/hers
-- bio: Hey there, I'm Stella, your new CS61B TA from the Bay Area, CA! While I'm not
-    in class or coding away, you can find me catching up on the latest season of Survivor,
-    hitting the golf course, learning Swedish, going to concerts, or sipping on iced
-    coffees. My favorite data structure is a stack of Little Gem Belgian Waffles :)
-    but I'm excited to hear what yours is. Get ready for a semester full of fun and
-    learning, I'm here to help you understand data structures and make it an enjoyable
-    experience for you!
+  pronouns: she/her
+- bio: "Hey there! I'm Stella, a junior majoring in computer science from the Bay\
+    \ Area, CA. I'm a huge fan of shows like Survivor and The Office, I always have\
+    \ music on repeat, my camera roll is flooded with sunset pics, and I'm obsessed\
+    \ with iced coffee. This semester, I'm excited to help simplify data structures\
+    \ using real-life examples and stories. Feel free to reach out anytime \u2013\
+    \ I'm here to help you ace this course while having a blast! :)"
   email: stellakaval@berkeley.edu
-  link: https://stellakaval.github.io/
+  link: https://stellakaval.github.io/teaching/
   name: Stella Kaval
   pic1: assets/img/staff/stella-kaval-1.jpg
   pic2: assets/img/staff/stella-kaval-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
-- bio: Hi! I'm Yaofu(David), a third year CS and econ major. This is my fourth time
-    teaching CS 61B. Looking forward to explore data structures and algorithms with
-    you all!
+- bio: 'Hi! I''m Yaofu(David), a senior majoring in CS and Econ. This is my fifth
+    time teaching for 61B and I''m very excited to explore data structures with you! '
   email: zuo.davidyf@berkeley.edu
   link: null
   name: Yaofu Zuo

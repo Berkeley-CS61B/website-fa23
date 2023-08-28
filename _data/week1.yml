@@ -1,17 +1,17 @@
 - week: 1
-  # weekly_survey: "https://docs.google.com/forms/d/e/1FAIpQLSc2Emy3NLoxgBiZeT94y61nnpjgQhA3ydRrOUhl1ABDqv8UyQ/viewform"
+  weekly_survey: "https://forms.gle/U1HZy1zwFQ1bDWEy6"
   rows: 3
   discussions:
     - name: No discussion week 1.
       released: false
   labs:
-    - name: IntelliJ, Git (due TBD)
+    - name: IntelliJ, Git (due 8/28)
       link: materials/lab/lab01
       resource_links:
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1uroW9Qpm9eICC8TcuogkrrqjgpaRnZPA"
-      released: false
+          released: true
+          link: "https://docs.google.com/presentation/d/1DoSvSLSyZg4XSSZXvWiN6I_Pj1bfACOgFsj7y-MS06s/edit?usp=sharing"
+      released: true
 
   days:
     - custom: |
@@ -24,43 +24,47 @@
 
     - day: 2023-08-23
       lecture_topic: Intro
+      #class: outdated
       lecture_links:
-        - name: vid
-          link: https://www.youtube.com/watch?v=kktoaXCyVDw&list=PL8FaHk7qbOD6NlIHCjmKSpUudMA-8bMA1
-        - name: recording
-          link: https://kaf.berkeley.edu/media/t/1_uh6kt20r/287340162
+        - name: video
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRq5wRDN8wZFy7GrrJXUtr1q
         - name: slides
-          link: https://docs.google.com/presentation/d/1EOHmv6G7LH-ZNrhyd2BXAG30tM65zlixc-vSrufQ-U4
-        - name: guide
-          link: /materials/lectures/lec1
+          link: https://docs.google.com/presentation/d/1kcUqOa2i2vN18exxUYO0XnzGUKAnf0hACdW1qF7XoII
+        - name: recording
+          link: https://www.youtube.com/watch?v=kGlwWTEWUYM
+        #- name: guide
+        #  link: /materials/lectures/lec1
       reading: > # Format in Markdown
         [1.1](https://joshhug.gitbooks.io/hug61b/content/chap1/chap11.html)
       assignments:
-        - title: "HW0A: A Java Crash Course (due TBD)"
-          link: /materials/hw/hw0a
-          released: false
+        - title: "HW0: A Java Crash Course (due 8/25)"
+          link: /materials/hw/hw0
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 
     - day: 2023-08-25
-      lecture_topic: Classes, Lists, Arrays, Maps
+      lecture_topic: Defining and Using Classes
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/bE8KRUsWmx0
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqziLs3JZ6LIH73ZsVtvsGy
         - name: slides
-          link: https://docs.google.com/presentation/d/1zzySpu-3U1lDJn26_F1nHMVTtnukacL0iGFdbUSxu5Y
-        - name: guide
-          link: /materials/lectures/lec2
+          link: https://docs.google.com/presentation/d/1gMxJn4-S1npZRTlUnoMDKqnkec1YW1K33NKiqTA5Fsw
+        - name: recording
+          link: https://www.youtube.com/watch?v=Ff7i-tqstPk
+        #- name: guide
+        #  link: /materials/lectures/lec2
       reading: > # Format in Markdown
         [1.2](https://joshhug.gitbooks.io/hug61b/content/chap1/chap12.html)
       assignments:
-        - title: "Homework 0B: A Java Crash Course (due TBD)"
-          link: /materials/hw/hw0b
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 1 # 1 for half column, 2 for full column
-        - title: "Project 0: Awakening of Azathoth (due TBD)"
+        - title: "Project 0: 2048 (due 9/1)"
           link: /materials/proj/proj0
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
+        - title: |
+            <span class="proj">[HW0 due 8/25]</span>
+          rows: 1
+          cols: 1
+          released: false

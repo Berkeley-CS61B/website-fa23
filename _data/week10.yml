@@ -35,6 +35,7 @@
   days:
     - day: 2023-10-23
       lecture_topic: Prefix Operations and Tries
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/watch?v=F8Q-SHW2hAM&list=PL8FaHk7qbOD7eyAcACitG8neRNL2rsvng
@@ -51,14 +52,14 @@
 
     - day: 2023-10-25
       lecture_topic: Software Engineering I
-      class: optional
+      class: optional outdated
       lecture_links:
       reading: >
         [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
 
     - day: 2023-10-27
       lecture_topic: Reductions and Decomposition
-      class: optional
+      class: optional outdated
       lecture_links:
         - name: video
           link: https://youtu.be/rf1mHSoGomk

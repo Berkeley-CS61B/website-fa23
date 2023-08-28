@@ -14,13 +14,19 @@ released: true
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-    **Note:** During the process, you may be prompted to enter a password. When
-    you enter your password, _nothing_ will display on the terminal, but the
-    computer is actually recording your password. This is a security measure.
-    Just type your password and hit enter.
+    {% include alert.html type="warning" content="**Note:** During the process, you may be prompted to 
+    enter a password. When you enter your password, _nothing_ will display on the terminal, but the
+    computer is actually recording your password. This is a security measure. Just type your password and 
+    hit enter. You may be prompted to hit enter again to start the installation after entering your password.
+    " %}
 
-    You may be prompted to hit enter again to start the installation after entering your password.
+    {% include alert.html type="warning" content="**NOTE**: After running the above command to install
+    Homebrew, make sure to run the commands under Next Steps if prompted. This will appear once the
+    installation is finished. Specifically, it will ask that you run these two commands in your terminal
+    to add Homebrew to your PATH: `(echo; echo 'eval'.....) >> ...` and `eval \"$(...)\"`.
+    " %}
 
+{:start="2"}
 2.  Then, check to make sure brew is working properly on your system by typing:
 
     ```sh

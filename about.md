@@ -6,9 +6,6 @@ class: about
 include_course_info: false
 ---
 
-<!-- TODO: Remove this warning -->
-<h1 style="color: red">Note: This page is not updated for Fall 2023</h1>
-
 **This document provides an overview of the policies for this course as taught
 at UC Berkeley.**
 
@@ -406,7 +403,7 @@ There will be two evening midterms:
 - Week 5, Thursday 9/21, 7-9 PM
 - Week 9, Thursday 10/19, 7-9 PM
 
-There is also a final exam on Tuesday 12/14, 3-6 PM.
+There is also a final exam on Thursday 12/14, 3-6 PM.
 
 CS 61B exams will by default be in-person, though you may request a proctored
 remote exam. Proctoring details will be released closer to the exam.
@@ -418,6 +415,10 @@ will be determined closer to the exam.
 Midterm 1 grades will be unavailable before the drop deadline. If you’re a
 prospective CS major and you are worried about dropping the course in the time
 before the drop deadline, please reach out to course staff for advice.
+
+#### Exam Grading
+
+For each exam, if the average score is less than 65%, then the maximum score is reduced until the average is 65% (More precisely, everyone's score becomes `min(1, your_score * 0.65 / mean_score)*(max_score)`). If the average is greater than 65%, then no change is made.
 
 #### Final Exam Percentile Clobbering
 
@@ -467,8 +468,8 @@ We may add additional extra credit, but do not expect us to do so.
 
 There are three ways to earn “pacing” points, which are given for keeping up with the class.
 
-- Attending discussion synchronously (either in person or via Max's online discussion)
-- Attending lab synchronously (either in person or via Max's online lab)
+- Attending discussion synchronously (in person or online)
+- Attending lab synchronously (in person or online)
 - Attending live/Zoom lecture or watching the pre-recorded videos on time.
 
 Each discussion or lab is worth 0.5 pacing points. Each lecture is worth 0.5 pacing points. You may earn up to 16 pacing points. We will calculate pacing points using responses to the weekly surveys.
@@ -571,7 +572,7 @@ By contrast, the projects were designed not just for learning (particularly how
 to be self-reliant in the context of large unfamiliar systems), but also for
 the dual purpose of evaluating your mastery of the course material. As such,
 they are intended to be completed primarily on your own (or with your partner
-on projects 2B and 3, which allow partners), particularly when it comes to writing the actual code.
+on project 3, which allow partners), particularly when it comes to writing the actual code.
 
 ### Exam Misconduct
 

@@ -42,6 +42,7 @@
   days:
     - day: 2023-09-18
       lecture_topic: Iterators, Object Methods
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD64f0vO7ouRCX1cPEcR0XqW
@@ -57,6 +58,7 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-20
       lecture_topic: Asymptotics I
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5aPaPuP4Z28OGOfWtT1jto
@@ -68,10 +70,17 @@
         - title: |
             <span class="proj">[Project 1B due TBD]</span>
           rows: 1
-          cols: 2
+          cols: 1
           released: false
+        - title: |
+            Midterm 1 (<strong>Thursday</strong> 9/21)<br>7-9 PM
+          released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+          class: emph1
     - day: 2023-09-22
       lecture_topic: Disjoint Sets
+      class: outdated
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD44CGmkFro1gqxkDl5gIpXB
@@ -85,4 +94,3 @@
           released: false
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
-

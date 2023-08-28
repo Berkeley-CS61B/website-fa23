@@ -6,12 +6,12 @@
       released: true
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week02/regular/regular02.pdf"
       resource_links:
-        - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/18F1LqieNH7aWjv2igJg0GxWv0qI-bqiB/view?usp=sharing"
-        - name: video
-          released: false
-          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoxyC5HydoGxbeinh4WAcls"
+        # - name: solution
+        #   released: false
+        #   link: "https://drive.google.com/file/d/18F1LqieNH7aWjv2igJg0GxWv0qI-bqiB/view?usp=sharing"
+        # - name: video
+        #   released: false
+        #   link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoxyC5HydoGxbeinh4WAcls"
         - name: slides
           released: true
           link: "https://docs.google.com/presentation/d/1BX8Y-5coLpSnDsoAuU86bz88vUYAZGCjXgaYZx8im_s/edit?usp=sharing"
@@ -19,87 +19,96 @@
       released: true
       link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week02/examlevel/examlevel02.pdf
       resource_links:
-        - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1pIVL1tdIdk38sw8plPzcwtsaeo-jVPEt/view?usp=sharing"
-        - name: video
-          released: false
-          link: "https://youtube.com/playlist?list=PLnp31xXvnfRqmJrttvdz-MDUyAantKH2P"
+        # - name: solution
+        #   released: false
+        #   link: "https://drive.google.com/file/d/1pIVL1tdIdk38sw8plPzcwtsaeo-jVPEt/view?usp=sharing"
+        # - name: video
+        #   released: false
+        #   link: "https://youtube.com/playlist?list=PLnp31xXvnfRqmJrttvdz-MDUyAantKH2P"
         - name: slides
           released: true
-          link: "https://docs.google.com/presentation/d/1b31wtdOAIIfBDUpszanuGowJDjXM4PsvlhGt7Ox3gJs/edit?usp=sharing"
-    - name: Tutor Review Session (1/27)
-      released: false
-      link: "https://drive.google.com/file/d/135cZ5OyhJzvrkc-wpj7KRiwCNCuNWTkB/view?usp=sharing"
-      resource_links:
-        - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/147wgz1ztOTuq6Rgfcvs3dW-xu93ZNE8c/view?usp=sharing"
-        - name: video
-          released: false
-          link: "https://edstem.org/us/courses/25759/discussion/2453816"
-        - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1YBqOYxebldUugIhX97Qwgj39YE4_VP1dGVF_gSeLRXg/edit"
+          link: "https://docs.google.com/presentation/d/1KhMd5RoVnTgqLjVsFJaXui2BIUlaYqfGl8zLu8G7bhE/edit?usp=sharing"
+    # - name: Tutor Review Session (1/27)
+    #   released: false
+    #   link: "https://drive.google.com/file/d/135cZ5OyhJzvrkc-wpj7KRiwCNCuNWTkB/view?usp=sharing"
+    #   resource_links:
+    #     - name: solution
+    #       released: false
+    #       link: "https://drive.google.com/file/d/147wgz1ztOTuq6Rgfcvs3dW-xu93ZNE8c/view?usp=sharing"
+    #     - name: video
+    #       released: false
+    #       link: "https://edstem.org/us/courses/25759/discussion/2453816"
+    #     - name: slides
+    #       released: false
+    #       link: "https://docs.google.com/presentation/d/1YBqOYxebldUugIhX97Qwgj39YE4_VP1dGVF_gSeLRXg/edit"
   labs:
-    - name: Debugging (due TBD)
+    - name: Debugging (due 9/1)
       link: materials/lab/lab02
       resource_links:
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1uK2I2hlgZBzrFmTC5kwNjjOkY16WutQJ"
-      released: false
+          released: true
+          link: "https://docs.google.com/presentation/d/1tisk4CanEnTtQTCzc0EQAcaE3ijd19_gKny1OHpWi38/edit?usp=sharing"
+      released: true
   days:
     - day: 2023-08-28
-      lecture_topic: References, Recursion, and Lists
+      lecture_topic: "Lists 1: References, Recursion, and Lists"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4xiNMw6A4GmQ1BbfW4EUJ9
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRpb4EQp0tOFJNZUXHnxTfXm
         - name: slides
-          link: https://docs.google.com/presentation/d/1LLKolI8k4hVxjJmT2QN511U-dH5Q3C7dw_c5tz-UprM/edit?usp=sharing
-        - name: guide
-          link: /materials/lectures/lec4/
+          link: https://docs.google.com/presentation/d/15uESzAYiD1-aLOVJCp32ksFD333CFebfKOrhLBMXFtI
+        #- name: guide
+        #  link: /materials/lectures/lec4/
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [2.1](https://joshhug.gitbooks.io/hug61b/content/chap2/chap21.html)
       assignments:
-        - title: "HW1: Being a Good Classmate (due TBD)"
-          link: https://www.gradescope.com/courses/484660/assignments/2599221/
-          released: false
+        - title: "HW1: Being a Good Classmate (due 9/1)"
+          link: https://www.gradescope.com/courses/572446/assignments/3146368
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 
     - day: 2023-08-30
-      lecture_topic: SLLists, Nested Classes, Sentinel Nodes
+      lecture_topic: "Lists 2: SLLists"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4iIbJYDWuBjSiyxRAMYfnp
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8
         - name: slides
-          link: https://docs.google.com/presentation/d/1b3ezovH8kO6s0oWkJ6QhBKJndkYuDSdDck7CcOi26Ok/edit?usp=sharing
-        - name: guide
-          link: /materials/lectures/lec5/
+          link: https://docs.google.com/presentation/d/1XUyEY_qVcKZuOLlSfc5hQFdNt4rDLHnw2L92ZrmEppI
+        #- name: guide
+        #  link: /materials/lectures/lec5/
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [2.2](https://joshhug.gitbooks.io/hug61b/content/chap2/chap22.html)
       assignments:
-        - title: Project 0 (due TBD)
+        - title: Project 0 (due 9/1)
           link: /materials/proj/proj0/
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 
     - day: 2023-09-01
-      lecture_topic: DLLists, Arrays
+      lecture_topic: "Lists 3: DLLists and Arrays"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6rD0Tkr1E5NDmUUzItMRE8
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRpPjLuN6-QJUFeK_mBZPve4
         - name: slides
-          link: https://docs.google.com/presentation/d/10JSf8_Cut4kodFP3MxoPovUVjTGWZ6YFyIuT95NyqTk/edit?usp=sharing
-        - name: guide
-          link: /materials/lectures/lec6
+          link: https://docs.google.com/presentation/d/1MQ_ZyCoA2cYOIkF-JRbGQchZ734m7qKyRYfwtQ7kquQ
+        #- name: guide
+        #  link: /materials/lectures/lec6
+        #- name: recording
+        #  link: TODO
       reading: >
         [2.3](https://joshhug.gitbooks.io/hug61b/content/chap2/chap23.html), [2.4](https://joshhug.gitbooks.io/hug61b/content/chap2/chap24.html)
       assignments:
         - title: |
-            <span class="proj">[Lab 02 due TBD, Project 0 due TBD]</span>
+            <span class="proj">[HW1, Project 0 due 9/1]</span>
           rows: 1
           cols: 2
           released: false

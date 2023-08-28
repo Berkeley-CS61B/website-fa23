@@ -1,34 +1,27 @@
 ---
 layout: page
-title: "FAQ - Lab 03: Timing"
+title: "FAQ - Lab 03: Advanced Git and Debugging"
 categories: lab
 released: false
 searchable: false
 ---
 
-### Completed the timing portion of the lab but still failing local tests?
+### I got the correct merge conflict but still don't pass `testConflictExists`.
 
-The tests that verify the correctness of your timing are very subject to the
-vagaries of the computer you're running on, so take them with a grain of salt.
-This can cause an incorrect result, even if you've done everything correctly.
-Your Gradescope score will be your final score on the lab, so don't worry if
-you're failing these tests locally.
+If you are failing `testConflictExists`, it is likely due to a typo in one of
+the versions of `hello.txt` from an earlier step. Feel free to manually edit
+`hello.txt` in a text editor so that it matches the expected output.
 
-### Completed `AdventureGame` but still failing
+### I accidentally resolved the merge conflict before submitting to Gradescope, so I can't proceeed with the lab.
 
-If you completed lab02 last week, be sure to paste your `adventure` code from lab02 into `lab03/src/adventure`!
+Refer to [this FAQ entry](#i-dont-get-a-merge-conflict-in-step-7-what-do-i-do).
 
-Also, the tests were rewritten to be less buggy/annoying and slightly more comprehensive, so you may fail tests that you passed last
-week if there are still some bugs present in your code.
+### I don't get a merge conflict in step 7. What do I do?
 
-### All I see is the Fibonacci experiment
-
-Be sure to replace the experiment you're running in `main` with whichever one you want to run!
-
-### Having trouble running Timing Tests with a good resize strategy
-
-Be sure to modify the `AList` class so that the resize strategy is multiplicative instead of additive and rerun `timeAListConstruction`.
-
-### I get "AdventureGame(edu.princeton.cs.algs4.In,adventure.AdventureStage) has private access in adventure.AdventureGame"
-
-Please do not copy the `AdventureGame.java` file from the `lab02` folder, but only the individual stages. If you have already done so, you could restore the `AdventureGame.java` via `git restore --source=skeleton/lab03 lab03/src/adventure/AdventureGame.java`.
+Chances are you skipped a step, or did something out of order. Follow the steps
+again so that your local machine contains a different version of `hello.txt`
+than your online repo (you don't have to replace the files with the exact
+content mentioned in the spec - as long as they're different, you'll get a
+conflict). Then pull from `origin main` again and you should get a merge
+conflict. You can then update the file's content manually to match the expected
+output.
