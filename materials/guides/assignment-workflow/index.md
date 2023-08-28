@@ -58,7 +58,7 @@ through the following steps again.**
     If 17 or higher isn't available in the dropdown, make sure you downloaded
     and installed Java completely.
 
-    ![select-jdk](img/select-jdk.png){: style="max-height: 300;"}
+    ![select-jdk](img/select_jdk.png){: style="max-height: 300;"}
 
 1.  Still in the **Project** tab, set the Project Language Level to
     "17 - Sealed types, always-strict floating-point semantics".
