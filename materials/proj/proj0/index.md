@@ -684,7 +684,7 @@ commit you've pushed, so if you do not run `git push` before you submit on Grade
 of the most recent code you have on your computer.
 
 Something to note, for this project we will be limiting the number of times you can submit your code within an hour to
-three times. You will be granted three "tokens" and once you use a token, it will only recharge after an hour.
+three times. you will get 4 submission "tokens" that each regenerate after 24 hours.
 
 Getting Help
 ------------
