@@ -470,7 +470,7 @@ There are three ways to earn “pacing” points, which are given for keeping up
 
 - Attending discussion synchronously (in person or online)
 - Attending lab synchronously (in person or online)
-- Attending live/Zoom lecture or watching the pre-recorded videos on time.
+- Attending live/Zoom lecture, watching the pre-recorded videos, or watching the recorded lectures on time (before the start of the subsequent lecture).
 
 Each discussion or lab is worth 0.5 pacing points. Each lecture is worth 0.5 pacing points. You may earn up to 16 pacing points. We will calculate pacing points using responses to the weekly surveys.
 
