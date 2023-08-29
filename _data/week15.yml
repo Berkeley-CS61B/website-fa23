@@ -11,7 +11,6 @@
           link:
   labs:
     - name: Project 3 Demos
-      link:
       released: false
   days:
     - day: 2023-11-27
@@ -28,7 +27,7 @@
         [Ch 38](https://cs61b-2.gitbook.io/cs61b-textbook/38.-compression-and-complexity)
       assignments:
         - title: |
-            <span class="proj">[Project 3 Phase 2 due TBD]</span>
+            <span class="proj">[Project 3 Phase 2 due 11/27]</span>
           rows: 1
           cols: 2
           released: false
@@ -44,7 +43,7 @@
       reading: > # Format in Markdown
         [Ch 39](https://cs61b-2.gitbook.io/cs61b-textbook/39.-compression-complexity-p-np)
       assignments:
-        - title: "Homework 4 (due TBD)"
+        - title: "Homework 4 (due 12/8)"
           link: https://www.gradescope.com/courses/484660/assignments/2856603
           released: false
           rows: 2 # the number of rows the assignment spans

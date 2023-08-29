@@ -131,8 +131,8 @@
           link: https://docs.google.com/presentation/d/15uESzAYiD1-aLOVJCp32ksFD333CFebfKOrhLBMXFtI
         #- name: guide
         #  link: /materials/lectures/lec4/
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=ZJqrJ-CSjqI"
       reading: > # Format in Markdown
         [2.1](https://joshhug.gitbooks.io/hug61b/content/chap2/chap21.html)
       assignments:
@@ -227,7 +227,7 @@
     #       released: false
     #       link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
   labs:
-    - name: Timing (due TBD)
+    - name: Advanced Git and Debugging (due 09/08)
       link: materials/lab/lab03
       resource_links:
         - name: slides
@@ -235,7 +235,15 @@
           link: "https://docs.google.com/presentation/d/1OpGIcghuK0jrVYxR04HtY_oKAAaG4j8D"
       released: false
   days:
-    - day: 2023-09-04
+    - custom: |
+        <td class="emph2" colspan="3">No Classes</td>
+      assignments:
+        - title: "Project 1A: Deques (due 9/11)"
+          link: /materials/proj/proj1a
+          released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+    - day: 2023-09-06
       lecture_topic: Testing
       class: outdated
       lecture_links:
@@ -251,14 +259,8 @@
         Optional: [TDD is dead](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html),
         [Unit Tests Are Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf),
         [Response](http://henrikwarne.com/2014/09/04/a-response-to-why-most-unit-testing-is-waste/)
-      assignments:
-        - title: "Project 1A: Deques (due TBD)"
-          link: /materials/proj/proj1a
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
 
-    - day: 2023-09-06
+    - day: 2023-09-08
       lecture_topic: ArrayLists, Resizing
       class: outdated
       lecture_links:
@@ -271,29 +273,16 @@
       reading: > # Format in Markdown
         [2.5](https://joshhug.gitbooks.io/hug61b/content/chap2/chap25.html)
       assignments:
-        - title: "Project 1A (due TBD)"
+        - title: "Project 1A (due 9/11)"
           link: /materials/proj/proj1a
           released: false
-          rows: 2 # the number of rows the assignment spans
+          rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
-        - title: "Project 1B (due TBD)"
+        - title: "Project 1B (due 9/18)"
           link: /materials/proj/proj1b
           released: false
-          rows: 2 # the number of rows the assignment spans
+          rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
-
-    - day: 2023-09-08
-      lecture_topic: Inheritance, Implements
-      class: outdated
-      lecture_links:
-        - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6UzicZ-KQwB0z1ThjGxjFF
-        - name: slides
-          link: https://docs.google.com/presentation/d/1iqgV3yttGp8VxfIhJzTT7DMHv8LZ78SFMvklO8z58rI
-        - name: guide
-          link: /materials/lectures/lec8/
-      reading: > # Format in Markdown
-        [4.1](https://joshhug.gitbooks.io/hug61b/content/chap4/chap41.html)
 - week: 4
   # weekly_survey: "https://forms.gle/RbKmnBZvqJJDSWCK6"
   rows: 3
@@ -326,10 +315,27 @@
           link: "https://docs.google.com/presentation/d/1D891iSa83JgrjUELO7UQwEsn_gvbroDCLYZJfnhUmPo/edit?usp=share_link"
   labs:
     - name: Project 1 Workday
-      link: materials/lab/lab04/
       released: false
   days:
     - day: 2023-09-11
+      lecture_topic: Inheritance, Implements
+      class: outdated
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6UzicZ-KQwB0z1ThjGxjFF
+        - name: slides
+          link: https://docs.google.com/presentation/d/1iqgV3yttGp8VxfIhJzTT7DMHv8LZ78SFMvklO8z58rI
+        - name: guide
+          link: /materials/lectures/lec8/
+      reading: > # Format in Markdown
+        [4.1](https://joshhug.gitbooks.io/hug61b/content/chap4/chap41.html)
+      assignments:
+        - title: |
+            <span class="proj">[Project 1A due 9/11]</span>
+          rows: 1
+          cols: 2
+          released: false
+    - day: 2023-09-13
       lecture_topic: Extends, Casting, Higher Order Functions
       class: outdated
       lecture_links:
@@ -340,19 +346,11 @@
       reading: > # Format in Markdown
         [Ch 9](https://cs61b-2.gitbook.io/cs61b-textbook/9.-extends-casting-higher-order-functions)
       assignments:
-        - title: |
-            <span class="proj">[Project 1A due TBD]</span>
-          rows: 2
-          cols: 2
+        - title: "Project 1B (due 9/18)"
+          link: /materials/proj/proj1b
           released: false
-    - day: 2023-09-13
-      lecture_topic: Ask Anything (midterm prep)
-      class: outdated
-      lecture_links:
-        - name: video
-          link: https://youtu.be/8hhiFcOFzWU
-        - name: slides
-          link: https://docs.google.com/presentation/d/189M1lQ8GMzS_c6CyOIN2XcP8vWEshZHig8993wJKHKY/edit#slide=id.g1f04a497f28_0_0
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-15
       lecture_topic: Subtype Polymorphism, Comparators, Comparable
       class: outdated
@@ -364,8 +362,8 @@
       reading: > # Format in Markdown
         [Ch 11](https://cs61b-2.gitbook.io/cs61b-textbook/11.-subtype-polymorphism-comparators-comparable)
       assignments:
-        - title: "Project 1B (due TBD)"
-          link: /materials/proj/proj1b
+        - title: "Project 1C (due 9/25)"
+          link: /materials/proj/proj1c
           released: false
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
@@ -400,7 +398,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/1Ky8wuwwFFsWox4b0cp7xiA_NzhpDHbS9PndoazCtI50/edit?usp=share_link"
   labs:
-    - name: Advanced Git and Debugging (due TBD)
+    - name: Timing (due 09/22)
       link: materials/lab/lab05
       resource_links:
         - name: videos
@@ -428,6 +426,20 @@
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-20
+      lecture_topic: Ask Anything (midterm prep)
+      class: outdated
+      lecture_links:
+        - name: video
+          link: https://youtu.be/8hhiFcOFzWU
+        - name: slides
+          link: https://docs.google.com/presentation/d/189M1lQ8GMzS_c6CyOIN2XcP8vWEshZHig8993wJKHKY/edit#slide=id.g1f04a497f28_0_0
+      assignments:
+        - title: Midterm 1 (<strong>Thursday</strong> 9/21)<br>7-9 PM
+          released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+          class: emph1
+    - day: 2023-09-22
       lecture_topic: Asymptotics I
       class: outdated
       lecture_links:
@@ -437,34 +449,6 @@
           link: https://docs.google.com/presentation/d/1IbXUJiZw863TcdP505iAhE5FIdMK9xgp2xeyHKPDrI8/edit#slide=id.p
       reading: > # Format in Markdown
         [Ch 13](https://cs61b-2.gitbook.io/cs61b-textbook/13.-asymptotics-i)
-      assignments:
-        - title: |
-            <span class="proj">[Project 1B due TBD]</span>
-          rows: 1
-          cols: 1
-          released: false
-        - title: |
-            Midterm 1 (<strong>Thursday</strong> 9/21)<br>7-9 PM
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
-          class: emph1
-    - day: 2023-09-22
-      lecture_topic: Disjoint Sets
-      class: outdated
-      lecture_links:
-        - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD44CGmkFro1gqxkDl5gIpXB
-        - name: slides
-          link: https://docs.google.com/presentation/d/1CVbH3Jy9C5OOlRjwLlXvHCoEI8GGFQe6xfMLMOaxpDc/edit
-      reading: >
-        [Ch 14](https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets)
-      assignments:
-        - title: "Project 1C (due TBD)"
-          link: /materials/proj/proj1c
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
 - week: 6
   # weekly_survey: "https://forms.gle/rNaz3FFqsfKmFSum8"
   rows: 3
@@ -496,17 +480,31 @@
           released: false
           link: "https://docs.google.com/presentation/d/1qPMuME25PmeRmbbOQi51_jmz4y9OSq3KvBKomGzzyTg/edit?usp=share_link"
   labs:
-    - name: Project 1 Peer Review (due TBD)
+    - name: Project 1 Peer Review (due 09/29)
       link: materials/lab/lab06/
       released: false
   days:
     - day: 2023-09-25
+      lecture_topic: Disjoint Sets
+      class: outdated
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD44CGmkFro1gqxkDl5gIpXB
+        - name: slides
+          link: https://docs.google.com/presentation/d/1CVbH3Jy9C5OOlRjwLlXvHCoEI8GGFQe6xfMLMOaxpDc/edit
+      reading: >
+        [Ch 14](https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets)
       assignments:
-        - title: "Homework 2 (due TBD)"
-          link: materials/hw/hw2
+        - title: "Homework 2 (due 10/2)"
+          link: /materials/hw/hw2
           released: false
           rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
+          cols: 1 # 1 for half column, 2 for full column
+        - title: |
+            <span class="proj">[Project 1C due 9/25]</span>
+          rows: 1
+          cols: 2
+          released: false
 
     - day: 2023-09-27
       lecture_topic: Asymptotics II
@@ -521,11 +519,11 @@
       reading: > # Format in Markdown
         [Ch 15](https://cs61b-2.gitbook.io/cs61b-textbook/15.-asymptotics-ii)
       assignments:
-        - title: |
-            <span class="proj">[Project 1C due TBD]</span>
-          rows: 1
-          cols: 2
+        - title: "Homework 2 (due 10/2)"
+          link: /materials/hw/hw2
           released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
 
     - day: 2023-09-29
       lecture_topic: ADTs, Sets, Maps, BSTs
@@ -538,7 +536,7 @@
       reading: > # Format in Markdown
         [Ch 16](https://cs61b-2.gitbook.io/cs61b-textbook/16.-adts-and-bsts)
       assignments:
-        - title: "Project 2A (due TBD)"
+        - title: "Project 2A (due 10/11)"
           link: materials/proj/proj2a
           released: false
           rows: 1 # the number of rows the assignment spans
@@ -574,7 +572,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/166G3dc-Qm0QPEMaFrDzXQ0vA_zMzlRIwwJw84BckJlw/edit?usp=share_link"
   labs:
-    - name: BSTMap (due TBD)
+    - name: BSTMap (due 10/06)
       link: materials/lab/lab07/
       resource_links:
         - name: slides
@@ -593,8 +591,9 @@
       reading: > # Format in Markdown
         [Ch 17](https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees)
       assignments:
-        - title: "Project 2A (due TBD)"
-          link: materials/proj/proj2a
+        - title: |
+            <span class="proj">[Homework 2 due 10/2]</span>
+          link: /materials/hw/hw2
           released: false
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
@@ -610,11 +609,11 @@
       reading: > # Format in Markdown
         [Ch 18](https://cs61b-2.gitbook.io/cs61b-textbook/18.-red-black-trees)
       assignments:
-        - title: |
-            <span class="proj">[Homework 2 due TBD]</span>
-          rows: 1
-          cols: 2
+        - title: "Project 2A (due 10/11)"
+          link: materials/proj/proj2a
           released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
     - day: 2023-10-06
       lecture_topic: Hashing
       class: outdated
@@ -625,12 +624,6 @@
           link: https://docs.google.com/presentation/d/1ugoQ4Ni0SrmMToiXmGyRZUueqiYBWeM1E78geVmyFW4
       reading: >
         [Ch 19](https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing)
-      assignments:
-        - title: "Project 2A (due TBD)"
-          link: materials/proj/proj2a
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
 - week: 8
   # weekly_survey: "https://forms.gle/y1XfGX73UdVRpdNR9"
   rows: 3
@@ -668,7 +661,7 @@
     #     released: false
     #     link:
   labs:
-    - name: HashMap (due TBD)
+    - name: HashMap (due 10/13)
       link: materials/lab/lab08/
       released: false
       resource_links:
@@ -690,7 +683,7 @@
       reading: >
         [Ch 20](https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii)
       assignments:
-        - title: Homework 3 (due TBD)
+        - title: Homework 3 (due 10/16)
           link: https://www.gradescope.com/courses/484660/assignments/2713206
           rows: 1
           cols: 2
@@ -708,9 +701,14 @@
         [Ch 21](https://cs61b-2.gitbook.io/cs61b-textbook/21.-heaps-and-priority-queues)
       assignments:
         - title: |
-            <span class="proj">[Project 2A due TBD]</span>
+            <span class="proj">[Project 2A due 10/11]</span>
           rows: 1
-          cols: 2
+          cols: 1
+          released: false
+        - title: Project 2B (due 10/27)
+          link: materials/proj/proj2b
+          rows: 1
+          cols: 1
           released: false
 
     - day: 2023-10-13
@@ -724,7 +722,7 @@
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
-        - title: Project 2B (due TBD)
+        - title: Project 2B (due 10/27)
           link: materials/proj/proj2b
           rows: 1
           cols: 2
@@ -760,7 +758,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/1M4M_uupWmL1XmZJRIfvvKrzpva9P0zEKN7tme5fz-2c/edit?usp=share_link"
   labs:
-    - name: Project 2B Checkpoint (due TBD)
+    - name: LLRBs (due 10/20)
       link: materials/lab/lab09/
       released: false
   days:
@@ -776,7 +774,7 @@
         [Ch 23](https://cs61b-2.gitbook.io/cs61b-textbook/23.-graph-traversals-and-implementations)
       assignments:
         - title: |
-            <span class="proj">[Homework 3 due TBD]</span>
+            <span class="proj">[Homework 3 due 10/16]</span>
           rows: 1
           cols: 2
           released: false
@@ -841,7 +839,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/1rwMI17qMU3KgmA3k1nh1fuWBW8ZFCO4RwB_VfT8mYsY/edit?usp=share_link"
   labs:
-    - name: No Lab (Project 2 Workday)
+    - name: Project 2 Workday
       released: false
 
   days:
@@ -870,8 +868,8 @@
         [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
 
     - day: 2023-10-27
-      lecture_topic: Reductions and Decomposition
-      class: optional outdated
+      lecture_topic: Directed Acyclic Graphs
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/rf1mHSoGomk
@@ -882,96 +880,13 @@
       reading: > # Format in Markdown
         [Ch 28](https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition)
       assignments:
-        - title: |
-            <span class="proj">[Project 2B due TBD]</span>
+        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
+          link: materials/proj/proj3
           rows: 1
           cols: 2
           released: false
 - week: 11
   # weekly_survey: "https://forms.gle/x7a6Do3JYSTr1sEf8"
-  rows: 3
-  discussions:
-    - name: TBD
-      released: false
-      # link: "https://drive.google.com/file/d/1BS-5XtL9GpkmeW3IWx44xt-qJHD3pk7P/view?usp=sharing"
-  #     resource_links:
-  #       - name: solution
-  #         released: false
-  #         link: "https://drive.google.com/file/d/1_jT2AmCMkP25F1KRhHRXV2-abHiLq2V8/view?usp=sharing"
-  #       - name: video
-  #         released: false
-  #         link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRp0SkHfIO9HavzXht0K9mOA"
-  #       - name: slides
-  #         released: false
-  #         link: "https://docs.google.com/presentation/d/19aJa7llCHKmBFlmlI0pzWapV8DE_nRjKE0C9ciO1x6g/edit?usp=sharing"
-  #   - name: Shortest Paths, MSTs (Exam-Level)
-  #     released: false
-  #     link: "https://drive.google.com/file/d/1At-W5zAQzyrbUyX6VdDJJPh9UY9rTWYx/view?usp=share_link"
-  #     resource_links:
-  #       - name: solution
-  #         released: false
-  #         link: "https://drive.google.com/file/d/1X5oVs_qO2hgN5vwNMZnoIRrqVo8TaaOk/view?usp=share_link"
-  #       - name: video
-  #         released: false
-  #         link: "https://youtube.com/playlist?list=PLnp31xXvnfRqhMYH6tRt4bru5HxoWta9G"
-  #       - name: slides
-  #         released: false
-  #         link: "https://docs.google.com/presentation/d/1rwMI17qMU3KgmA3k1nh1fuWBW8ZFCO4RwB_VfT8mYsY/edit?usp=share_link"
-  # labs:
-  #   - name: No Lab (Project 2 Workday)
-  #     released: false
-
-  days:
-    - day: 2023-10-30
-      lecture_topic: TBD
-      class: outdated
-      # lecture_links:
-      #   - name: video
-      #     link: https://www.youtube.com/watch?v=F8Q-SHW2hAM&list=PL8FaHk7qbOD7eyAcACitG8neRNL2rsvng
-      #   - name: slides
-      #     link: https://docs.google.com/presentation/d/1Xvm1BB6WeUwYrwRe8QmcRscD0ivqOlLyWBhYQrDxzHQ/edit
-      # reading: > # Format in Markdown
-      #   [Ch 26](https://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
-      assignments:
-        - title: Project 2B (due TBD)
-          link: materials/proj/proj2b
-          rows: 2
-          cols: 2
-          released: false
-
-    - day: 2023-11-01
-      lecture_topic: TBD
-      class: outdated
-      # class: optional
-      # lecture_links:
-      #   - name: video
-      #     link: https://youtu.be/fHEVKqYb9x8
-      #   - name: slides
-      #     link: https://docs.google.com/presentation/d/1gmTi34M9-L8ERjB_fV5PhNoPJIUd1ThGaS1-rNGykP0/edit#slide=id.g1df97568178_0_0
-      # reading: >
-      #   [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
-
-    - day: 2023-11-03
-      lecture_topic: TBD
-      class: outdated
-      # class: optional
-      # lecture_links:
-      #   - name: video
-      #     link: https://youtu.be/rf1mHSoGomk
-      #   - name: slides
-      #     link: https://docs.google.com/presentation/d/1yrFdtRFZB9rHTNOMwB1qt9PjWK7hDhbhF3F2KXZU9hM/edit#slide=id.g409413421_0637
-      #   # - name: check in
-      #   #   link: https://forms.gle/LKCByxFmEpRVFVHo9
-      # reading: > # Format in Markdown
-      #   [Ch 28](https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition)
-      # assignments:
-      #   - title: |
-      #       <span class="proj">[Project 2B due TBD]</span>
-      #     rows: 1
-      #     cols: 2
-      #     released: false
-- week: 12
-  # weekly_survey: "https://forms.gle/ddbg5RPbAARrgg2H8"
   rows: 3
   discussions:
     - name: Graphs II, Tries
@@ -1001,15 +916,11 @@
           released: false
           link: "https://docs.google.com/presentation/d/1GMU44_pRrfpRl9aFjbf4SBANmQf1UbV3cVjWpohQs9k/edit?usp=share_link"
   labs:
-    - name: Getting Started on Project 3 (due TBD)
-      link: materials/lab/lab12/
-      resource_links:
-        - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1ZWegt0VUifxxL79V-M3nJFHprebB3XBTN1xbTHT4l9s"
+    - name: Getting Started on Project 3 (due 11/3)
       released: false
+
   days:
-    - day: 2023-11-06
+    - day: 2023-10-30
       lecture_topic: Basic Sorts
       class: outdated
       lecture_links:
@@ -1020,12 +931,12 @@
       reading: >
         [Ch 29](https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts)
       assignments:
-        - title: "Project 3 (due TBD)"
+        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
           link: materials/proj/proj3
           released: false
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
-    - day: 2023-11-08
+    - day: 2023-11-01
       lecture_topic: Quick Sort
       class: outdated
       lecture_links:
@@ -1035,7 +946,7 @@
           link: https://docs.google.com/presentation/d/1_7VuU3cynSGKbvzHk0PfK65HeHFT-jDp3XrbihRXetw/
       reading: > # Format in Markdown
         [Ch 30](https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort)
-    - day: 2023-11-10
+    - day: 2023-11-03
       lecture_topic: Software Engineering II
       class: optional outdated
       lecture_links:
@@ -1045,10 +956,9 @@
           link: https://docs.google.com/presentation/d/185YdUur8Ll4IbFbtp-FYWnlf_yG6m3AGzyGxJ_ngJuY/edit#slide=id.g22bf3f92c06_0_286
       reading: >
         [Ch 31](https://cs61b-2.gitbook.io/cs61b-textbook/31.-software-engineering-ii)
-- week: 13
-  # weekly_survey: "https://forms.gle/Nr1dwYBbnabJg2Jq9"
+- week: 12
+  # weekly_survey: "https://forms.gle/ddbg5RPbAARrgg2H8"
   rows: 3
-  custom:
   discussions:
     - name: Sorting
       released: false
@@ -1077,15 +987,15 @@
           released: false
           link: "https://docs.google.com/presentation/d/1ykhZDgYmaUiGWkNW5CUGf2QdQt9GoMiVtUesajjxAXs/edit?usp=share_link"
   labs:
-    - name: Interactivity in Project 3 (due TBD)
-      link: materials/lab/lab13/
+    - name: Interactivity in Project 3 (due 11/13)
+      link: materials/lab/lab12/
       resource_links:
         - name: slides
           released: false
-          link: "https://docs.google.com/presentation/d/1AMRwcmD-MBP28GtkgUkR3wCy98YAc6deVd2byEV0oEU"
+          link: "https://docs.google.com/presentation/d/1ZWegt0VUifxxL79V-M3nJFHprebB3XBTN1xbTHT4l9s"
       released: false
   days:
-    - day: 2023-11-13
+    - day: 2023-11-06
       lecture_topic: More Quicksort, Quick Select, Stability
       class: outdated
       lecture_links:
@@ -1096,12 +1006,12 @@
       reading: > # Format in Markdown
         [Ch 32](https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary)
       assignments:
-        - title: "Project 3 (due TBD)"
+        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
           link: materials/proj/proj3
           released: false
-          rows: 2 # the number of rows the assignment spans
+          rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
-    - day: 2023-11-15
+    - day: 2023-11-08
       lecture_topic: Software Engineering III
       class: optional outdated
       lecture_links:
@@ -1111,24 +1021,10 @@
           link: https://docs.google.com/presentation/d/1NGkMwnPngHDwJSK3DzPBkslm7bKjw6_flY_bFM95Ygs
       reading: >
         [Ch 33](https://cs61b-2.gitbook.io/cs61b-textbook/33.-software-engineering-iii)
-    - day: 2023-11-17
-      lecture_topic: Sorting and Algorithmic Bounds
-      class: outdated
-      lecture_links:
-        - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD7y8-q2qpfhZ-fzphsk3ETf
-        - name: slides
-          link: https://docs.google.com/presentation/d/18wdzl7XSbg6n5FsPvRA5-Xe2AtqeAQ2I1fT1BgMAHaU
-      reading: > # Format in Markdown
-        [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
-      assignments:
-        - title: |
-            <span class="proj">[Project 3 Phase 1 due TBD]</span>
-          rows: 1
-          cols: 2
-          released: false
-- week: 14
-  # weekly_survey: "https://forms.gle/RYLLtr7rqoj8KbPP7"
+    - custom: |
+        <td class="emph2" colspan="3">No Classes</td>
+- week: 13
+  # weekly_survey: "https://forms.gle/Nr1dwYBbnabJg2Jq9"
   rows: 3
   custom:
   discussions:
@@ -1160,10 +1056,25 @@
           link: "https://docs.google.com/presentation/d/1_-6oCbpCBZmXebp6R_tqahNtJgd6WJwji5Zw0J9TLd8/edit?usp=share_link"
   labs:
     - name: Project 3 Workday
-      link: materials/lab/lab12/
       released: false
   days:
-    - day: 2023-11-20
+    - day: 2023-11-13
+      lecture_topic: Sorting and Algorithmic Bounds
+      class: outdated
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD7y8-q2qpfhZ-fzphsk3ETf
+        - name: slides
+          link: https://docs.google.com/presentation/d/18wdzl7XSbg6n5FsPvRA5-Xe2AtqeAQ2I1fT1BgMAHaU
+      reading: > # Format in Markdown
+        [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
+      assignments:
+        - title: |
+            <span class="proj">[Project 3 Phase 1 due 11/17]</span>
+          rows: 1
+          cols: 2
+          released: false
+    - day: 2023-11-15
       lecture_topic: Radix Sorts
       class: outdated
       lecture_links:
@@ -1174,12 +1085,12 @@
       reading: > # Format in Markdown
         [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
       assignments:
-        - title: "Project 3 (due TBD)"
+        - title: "Project 3 Phase 2 (due 11/27)"
           link: materials/proj/proj3
           released: false
-          rows: 3 # the number of rows the assignment spans
+          rows: 2 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
-    - day: 2023-11-22
+    - day: 2023-11-17
       lecture_topic: Sorting and Data Structures Conclusion
       class: outdated
       lecture_links:
@@ -1189,6 +1100,17 @@
           link: https://docs.google.com/presentation/d/1ILp-tXesmyfkeJ_hfd80fK1CxKB8os_5pCSyDJ-n6Nk/
       reading: > # Format in Markdown
         [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)
+- week: 14
+  # weekly_survey: "https://forms.gle/RYLLtr7rqoj8KbPP7"
+  rows: 3
+  custom:
+  discussions:
+    - name: No Discussion
+      released: false
+  labs:
+    - name: No Lab
+      released: false
+  days:
     - day: 2023-11-24
       lecture_topic: Software Engineering IV<br>Designing 61B
       class: optional outdated
@@ -1199,6 +1121,16 @@
           link: https://docs.google.com/presentation/d/1dWqymxQxZrMWYl76GfJoyjP20McXIW6YLx2htZoRexM
       reading: >
         [Ch 37](https://cs61b-2.gitbook.io/cs61b-textbook/37-software-engineering-iv)
+      assignments:
+        - title: "Project 3 Phase 2 (due 11/27)"
+          link: materials/proj/proj3
+          released: false
+          rows: 3 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+    - custom: |
+        <td class="emph2" colspan="3">No Classes (Thanksgiving)</td>
+    - custom: |
+        <td class="emph2" colspan="3">No Classes (Thanksgiving)</td>
 - week: 15
   # weekly_survey: "https://forms.gle/VihbcoV5JQu6w5Wz8"
   rows: 3
@@ -1212,7 +1144,6 @@
           link:
   labs:
     - name: Project 3 Demos
-      link:
       released: false
   days:
     - day: 2023-11-27
@@ -1229,7 +1160,7 @@
         [Ch 38](https://cs61b-2.gitbook.io/cs61b-textbook/38.-compression-and-complexity)
       assignments:
         - title: |
-            <span class="proj">[Project 3 Phase 2 due TBD]</span>
+            <span class="proj">[Project 3 Phase 2 due 11/27]</span>
           rows: 1
           cols: 2
           released: false
@@ -1245,7 +1176,7 @@
       reading: > # Format in Markdown
         [Ch 39](https://cs61b-2.gitbook.io/cs61b-textbook/39.-compression-complexity-p-np)
       assignments:
-        - title: "Homework 4 (due TBD)"
+        - title: "Homework 4 (due 12/8)"
           link: https://www.gradescope.com/courses/484660/assignments/2856603
           released: false
           rows: 2 # the number of rows the assignment spans
@@ -1272,7 +1203,7 @@
         <td class="emph2" colspan="3">RRR Week</td>
       assignments:
         - title: |
-            <span class="proj">[HW4 due TBD]</span>
+            <span class="proj">[HW4 due 12/8]</span>
           link: https://www.gradescope.com/courses/420508/assignments/2370669/
           released: false
           rows: 3 # the number of rows the assignment spans
@@ -1286,6 +1217,6 @@
     <tr>
       <td height="60" rowspan="1" class="emph2" colspan="8">
         Finals Week (Dec 11-15)<br>
-        Final exam: TBD
+        Final exam: Thursday (12/14), 3-6 PM
       </td>
     </tr>

@@ -2,34 +2,34 @@
   # weekly_survey: "https://forms.gle/ddbg5RPbAARrgg2H8"
   rows: 3
   discussions:
-    - name: Graphs II, Tries
+    - name: Sorting
       released: false
-      link: "https://drive.google.com/file/d/1xKHMF0kUsj2_qx4KgQEapL69TZocMAje/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1hR_fB34cOWNBZmHlkjLmEm8uKPyDiDd7/view?usp=sharing"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1RDY7tsuOBe3T3XW1xdmaT_eWZam1tb-E/view?usp=sharing"
+          link: "https://drive.google.com/file/d/1oViirNhl9yCn6jhq2S2Vo8jAFqVJW7AA/view?usp=sharing"
         - name: video
           released: false
-          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrD3GyILak06gbTN0rbKJat"
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqxJ0qF1CglXRb-Qb-oNOgs"
         - name: slides
           released: false
-          link: "https://docs.google.com/presentation/d/1mT6m3jleTW3B1JzPFv116nUnboWj29-0eBqoiOTxgLY/edit?usp=sharing"
-    - name: Graphs II, Tries (Exam-Level)
+          link: "https://docs.google.com/presentation/d/1CddpDFnS0_i3sEk6V-iGKi3QCRpS6u_5GZDCHn_6u4E/edit?usp=sharing"
+    - name: Sorting (Exam-Level)
       released: false
-      link: "https://drive.google.com/file/d/1T8nHuKBz7Za6sodZ8U1QszvV7XzAH-vM/view?usp=share_link"
+      link: "https://drive.google.com/file/d/1oBQ9iQvsNHABRBPyVmkeSL2L_zWIfwPA/view?usp=sharing"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1BHLJLyvzXPLu_6WKNRA6iSKqtFekvs8_/view?usp=share_link"
+          link: "https://drive.google.com/file/d/1c9cvmU2z1xFxkiWkVjmCyAsEQa-FGCUB/view?usp=share_link"
         - name: video
           released: false
-          link: "https://youtube.com/playlist?list=PLnp31xXvnfRoboeJhEoJbAb7U_W7KBvoj"
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRrxu6rDIFiBjifethxW7gSl"
         - name: slides
           released: false
-          link: "https://docs.google.com/presentation/d/1GMU44_pRrfpRl9aFjbf4SBANmQf1UbV3cVjWpohQs9k/edit?usp=share_link"
+          link: "https://docs.google.com/presentation/d/1ykhZDgYmaUiGWkNW5CUGf2QdQt9GoMiVtUesajjxAXs/edit?usp=share_link"
   labs:
-    - name: Getting Started on Project 3 (due TBD)
+    - name: Interactivity in Project 3 (due 11/13)
       link: materials/lab/lab12/
       resource_links:
         - name: slides
@@ -38,38 +38,30 @@
       released: false
   days:
     - day: 2023-11-06
-      lecture_topic: Basic Sorts
+      lecture_topic: More Quicksort, Quick Select, Stability
       class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=mBIUU38XNyk
+          link: https://youtu.be/l1vAXGWPeG4
         - name: slides
-          link: https://docs.google.com/presentation/d/14RfFPU3RX9iDpE4OCXlXKmtaoxZbdNdcXTGhC9dr9xQ/edit#slide=id.g22a557a7614_0_0
-      reading: >
-        [Ch 29](https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts)
+          link: https://docs.google.com/presentation/d/1jcIhrPiw6ycHG0cLpjJ5V__TdB1fOVqe-y0buFSd-SY/
+      reading: > # Format in Markdown
+        [Ch 32](https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary)
       assignments:
-        - title: "Project 3 (due TBD)"
+        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
           link: materials/proj/proj3
           released: false
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-08
-      lecture_topic: Quick Sort
-      class: outdated
-      lecture_links:
-        - name: video
-          link: https://youtu.be/H3Kn8cqfOtU
-        - name: slides
-          link: https://docs.google.com/presentation/d/1_7VuU3cynSGKbvzHk0PfK65HeHFT-jDp3XrbihRXetw/
-      reading: > # Format in Markdown
-        [Ch 30](https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort)
-    - day: 2023-11-10
-      lecture_topic: Software Engineering II
+      lecture_topic: Software Engineering III
       class: optional outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/TR7kCjJAgPA
+          link: https://youtu.be/ytRAJtFavqw
         - name: slides
-          link: https://docs.google.com/presentation/d/185YdUur8Ll4IbFbtp-FYWnlf_yG6m3AGzyGxJ_ngJuY/edit#slide=id.g22bf3f92c06_0_286
+          link: https://docs.google.com/presentation/d/1NGkMwnPngHDwJSK3DzPBkslm7bKjw6_flY_bFM95Ygs
       reading: >
-        [Ch 31](https://cs61b-2.gitbook.io/cs61b-textbook/31.-software-engineering-ii)
+        [Ch 33](https://cs61b-2.gitbook.io/cs61b-textbook/33.-software-engineering-iii)
+    - custom: |
+        <td class="emph2" colspan="3">No Classes</td>

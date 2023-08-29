@@ -3,68 +3,37 @@
   rows: 3
   custom:
   discussions:
-    - name: Sorting
+    - name: More Sorting
       released: false
-      link: "https://drive.google.com/file/d/1hR_fB34cOWNBZmHlkjLmEm8uKPyDiDd7/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1ZwBjebsORfYxYfnWGbrY0J9msjfwpuQf/view?usp=sharing"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1oViirNhl9yCn6jhq2S2Vo8jAFqVJW7AA/view?usp=sharing"
+          link: "https://drive.google.com/file/d/10oou36uzxPGEYWJYULacOPeUT6LVCpcK/view?usp=sharing"
         - name: video
           released: false
-          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqxJ0qF1CglXRb-Qb-oNOgs"
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrpqJ8WTjbBOwSNFg54wQDT"
         - name: slides
           released: false
-          link: "https://docs.google.com/presentation/d/1CddpDFnS0_i3sEk6V-iGKi3QCRpS6u_5GZDCHn_6u4E/edit?usp=sharing"
-    - name: Sorting (Exam-Level)
+          link: "https://docs.google.com/presentation/d/1-IHAvOR_ctvOodKofxKoKUAHJFMrEf5UQNPjBRIHaGI/edit?usp=sharing"
+    - name: More Sorting (Exam-Level)
       released: false
-      link: "https://drive.google.com/file/d/1oBQ9iQvsNHABRBPyVmkeSL2L_zWIfwPA/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1bPo6CjJgKeAe8M1YAXk8z6Tm6gWr642s/view?usp=sharing"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1c9cvmU2z1xFxkiWkVjmCyAsEQa-FGCUB/view?usp=share_link"
+          link: "https://drive.google.com/file/d/1w9aMmvStNCSY-6gTg_-MRxYb4GqdDgMt/view?usp=share_link"
         - name: video
           released: false
-          link: "https://youtube.com/playlist?list=PLnp31xXvnfRrxu6rDIFiBjifethxW7gSl"
+          link: "https://youtube.com/playlist?list=PLnp31xXvnfRoenwS-qOt7TtocoDP-qXo4"
         - name: slides
           released: false
-          link: "https://docs.google.com/presentation/d/1ykhZDgYmaUiGWkNW5CUGf2QdQt9GoMiVtUesajjxAXs/edit?usp=share_link"
+          link: "https://docs.google.com/presentation/d/1_-6oCbpCBZmXebp6R_tqahNtJgd6WJwji5Zw0J9TLd8/edit?usp=share_link"
   labs:
-    - name: Interactivity in Project 3 (due TBD)
-      link: materials/lab/lab13/
-      resource_links:
-        - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1AMRwcmD-MBP28GtkgUkR3wCy98YAc6deVd2byEV0oEU"
+    - name: Project 3 Workday
       released: false
   days:
     - day: 2023-11-13
-      lecture_topic: More Quicksort, Quick Select, Stability
-      class: outdated
-      lecture_links:
-        - name: video
-          link: https://youtu.be/l1vAXGWPeG4
-        - name: slides
-          link: https://docs.google.com/presentation/d/1jcIhrPiw6ycHG0cLpjJ5V__TdB1fOVqe-y0buFSd-SY/
-      reading: > # Format in Markdown
-        [Ch 32](https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary)
-      assignments:
-        - title: "Project 3 (due TBD)"
-          link: materials/proj/proj3
-          released: false
-          rows: 2 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
-    - day: 2023-11-15
-      lecture_topic: Software Engineering III
-      class: optional outdated
-      lecture_links:
-        - name: video
-          link: https://youtu.be/ytRAJtFavqw
-        - name: slides
-          link: https://docs.google.com/presentation/d/1NGkMwnPngHDwJSK3DzPBkslm7bKjw6_flY_bFM95Ygs
-      reading: >
-        [Ch 33](https://cs61b-2.gitbook.io/cs61b-textbook/33.-software-engineering-iii)
-    - day: 2023-11-17
       lecture_topic: Sorting and Algorithmic Bounds
       class: outdated
       lecture_links:
@@ -76,7 +45,33 @@
         [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
       assignments:
         - title: |
-            <span class="proj">[Project 3 Phase 1 due TBD]</span>
+            <span class="proj">[Project 3 Phase 1 due 11/17]</span>
           rows: 1
           cols: 2
           released: false
+    - day: 2023-11-15
+      lecture_topic: Radix Sorts
+      class: outdated
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/watch?v=AHgK4UqP_ig
+        - name: slides
+          link: https://docs.google.com/presentation/d/1p12fmvg4PXeMHBufBeXTo_BeFiSdl9l5jKeu13LEpbc
+      reading: > # Format in Markdown
+        [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
+      assignments:
+        - title: "Project 3 Phase 2 (due 11/27)"
+          link: materials/proj/proj3
+          released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+    - day: 2023-11-17
+      lecture_topic: Sorting and Data Structures Conclusion
+      class: outdated
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4i4ozOgclL_5HMpZrHYA8c&disable_polymer=true
+        - name: slides
+          link: https://docs.google.com/presentation/d/1ILp-tXesmyfkeJ_hfd80fK1CxKB8os_5pCSyDJ-n6Nk/
+      reading: > # Format in Markdown
+        [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)

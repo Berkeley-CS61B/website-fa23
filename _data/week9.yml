@@ -29,7 +29,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/1M4M_uupWmL1XmZJRIfvvKrzpva9P0zEKN7tme5fz-2c/edit?usp=share_link"
   labs:
-    - name: Project 2B Checkpoint (due TBD)
+    - name: LLRBs (due 10/20)
       link: materials/lab/lab09/
       released: false
   days:
@@ -45,7 +45,7 @@
         [Ch 23](https://cs61b-2.gitbook.io/cs61b-textbook/23.-graph-traversals-and-implementations)
       assignments:
         - title: |
-            <span class="proj">[Homework 3 due TBD]</span>
+            <span class="proj">[Homework 3 due 10/16]</span>
           rows: 1
           cols: 2
           released: false

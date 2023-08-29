@@ -29,7 +29,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/1Ky8wuwwFFsWox4b0cp7xiA_NzhpDHbS9PndoazCtI50/edit?usp=share_link"
   labs:
-    - name: Advanced Git and Debugging (due TBD)
+    - name: Timing (due 09/22)
       link: materials/lab/lab05
       resource_links:
         - name: videos
@@ -57,6 +57,20 @@
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-20
+      lecture_topic: Ask Anything (midterm prep)
+      class: outdated
+      lecture_links:
+        - name: video
+          link: https://youtu.be/8hhiFcOFzWU
+        - name: slides
+          link: https://docs.google.com/presentation/d/189M1lQ8GMzS_c6CyOIN2XcP8vWEshZHig8993wJKHKY/edit#slide=id.g1f04a497f28_0_0
+      assignments:
+        - title: Midterm 1 (<strong>Thursday</strong> 9/21)<br>7-9 PM
+          released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+          class: emph1
+    - day: 2023-09-22
       lecture_topic: Asymptotics I
       class: outdated
       lecture_links:
@@ -66,31 +80,3 @@
           link: https://docs.google.com/presentation/d/1IbXUJiZw863TcdP505iAhE5FIdMK9xgp2xeyHKPDrI8/edit#slide=id.p
       reading: > # Format in Markdown
         [Ch 13](https://cs61b-2.gitbook.io/cs61b-textbook/13.-asymptotics-i)
-      assignments:
-        - title: |
-            <span class="proj">[Project 1B due TBD]</span>
-          rows: 1
-          cols: 1
-          released: false
-        - title: |
-            Midterm 1 (<strong>Thursday</strong> 9/21)<br>7-9 PM
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
-          class: emph1
-    - day: 2023-09-22
-      lecture_topic: Disjoint Sets
-      class: outdated
-      lecture_links:
-        - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD44CGmkFro1gqxkDl5gIpXB
-        - name: slides
-          link: https://docs.google.com/presentation/d/1CVbH3Jy9C5OOlRjwLlXvHCoEI8GGFQe6xfMLMOaxpDc/edit
-      reading: >
-        [Ch 14](https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets)
-      assignments:
-        - title: "Project 1C (due TBD)"
-          link: /materials/proj/proj1c
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column

@@ -30,10 +30,27 @@
           link: "https://docs.google.com/presentation/d/1D891iSa83JgrjUELO7UQwEsn_gvbroDCLYZJfnhUmPo/edit?usp=share_link"
   labs:
     - name: Project 1 Workday
-      link: materials/lab/lab04/
       released: false
   days:
     - day: 2023-09-11
+      lecture_topic: Inheritance, Implements
+      class: outdated
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6UzicZ-KQwB0z1ThjGxjFF
+        - name: slides
+          link: https://docs.google.com/presentation/d/1iqgV3yttGp8VxfIhJzTT7DMHv8LZ78SFMvklO8z58rI
+        - name: guide
+          link: /materials/lectures/lec8/
+      reading: > # Format in Markdown
+        [4.1](https://joshhug.gitbooks.io/hug61b/content/chap4/chap41.html)
+      assignments:
+        - title: |
+            <span class="proj">[Project 1A due 9/11]</span>
+          rows: 1
+          cols: 2
+          released: false
+    - day: 2023-09-13
       lecture_topic: Extends, Casting, Higher Order Functions
       class: outdated
       lecture_links:
@@ -44,19 +61,11 @@
       reading: > # Format in Markdown
         [Ch 9](https://cs61b-2.gitbook.io/cs61b-textbook/9.-extends-casting-higher-order-functions)
       assignments:
-        - title: |
-            <span class="proj">[Project 1A due TBD]</span>
-          rows: 2
-          cols: 2
+        - title: "Project 1B (due 9/18)"
+          link: /materials/proj/proj1b
           released: false
-    - day: 2023-09-13
-      lecture_topic: Ask Anything (midterm prep)
-      class: outdated
-      lecture_links:
-        - name: video
-          link: https://youtu.be/8hhiFcOFzWU
-        - name: slides
-          link: https://docs.google.com/presentation/d/189M1lQ8GMzS_c6CyOIN2XcP8vWEshZHig8993wJKHKY/edit#slide=id.g1f04a497f28_0_0
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-15
       lecture_topic: Subtype Polymorphism, Comparators, Comparable
       class: outdated
@@ -68,8 +77,8 @@
       reading: > # Format in Markdown
         [Ch 11](https://cs61b-2.gitbook.io/cs61b-textbook/11.-subtype-polymorphism-comparators-comparable)
       assignments:
-        - title: "Project 1B (due TBD)"
-          link: /materials/proj/proj1b
+        - title: "Project 1C (due 9/25)"
+          link: /materials/proj/proj1c
           released: false
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column

@@ -29,7 +29,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/166G3dc-Qm0QPEMaFrDzXQ0vA_zMzlRIwwJw84BckJlw/edit?usp=share_link"
   labs:
-    - name: BSTMap (due TBD)
+    - name: BSTMap (due 10/06)
       link: materials/lab/lab07/
       resource_links:
         - name: slides
@@ -48,8 +48,9 @@
       reading: > # Format in Markdown
         [Ch 17](https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees)
       assignments:
-        - title: "Project 2A (due TBD)"
-          link: materials/proj/proj2a
+        - title: |
+            <span class="proj">[Homework 2 due 10/2]</span>
+          link: /materials/hw/hw2
           released: false
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
@@ -65,11 +66,11 @@
       reading: > # Format in Markdown
         [Ch 18](https://cs61b-2.gitbook.io/cs61b-textbook/18.-red-black-trees)
       assignments:
-        - title: |
-            <span class="proj">[Homework 2 due TBD]</span>
-          rows: 1
-          cols: 2
+        - title: "Project 2A (due 10/11)"
+          link: materials/proj/proj2a
           released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
     - day: 2023-10-06
       lecture_topic: Hashing
       class: outdated
@@ -80,9 +81,3 @@
           link: https://docs.google.com/presentation/d/1ugoQ4Ni0SrmMToiXmGyRZUueqiYBWeM1E78geVmyFW4
       reading: >
         [Ch 19](https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing)
-      assignments:
-        - title: "Project 2A (due TBD)"
-          link: materials/proj/proj2a
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
