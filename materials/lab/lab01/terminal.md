@@ -17,7 +17,7 @@ Here are the most important commands that you'll need to know for CS61B:
 
 This command will change your directory to `hw`.
 
-### `pwd`: present working directory
+### `pwd`: print working directory
 
   ```shell                                                                                                  
   pwd 

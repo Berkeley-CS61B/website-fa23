@@ -26,12 +26,12 @@
       lecture_topic: Intro
       #class: outdated
       lecture_links:
-        - name: videos
+        - name: video
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRq5wRDN8wZFy7GrrJXUtr1q
-        - name: recording
-          link: https://www.youtube.com/watch?v=kGlwWTEWUYM
         - name: slides
           link: https://docs.google.com/presentation/d/1kcUqOa2i2vN18exxUYO0XnzGUKAnf0hACdW1qF7XoII
+        - name: recording
+          link: https://www.youtube.com/watch?v=kGlwWTEWUYM
         #- name: guide
         #  link: /materials/lectures/lec1
       reading: > # Format in Markdown
@@ -45,20 +45,22 @@
 
     - day: 2023-08-25
       lecture_topic: Defining and Using Classes
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/bE8KRUsWmx0
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqziLs3JZ6LIH73ZsVtvsGy
         - name: slides
-          link: https://docs.google.com/presentation/d/1zzySpu-3U1lDJn26_F1nHMVTtnukacL0iGFdbUSxu5Y
-        - name: guide
-          link: /materials/lectures/lec2
+          link: https://docs.google.com/presentation/d/1gMxJn4-S1npZRTlUnoMDKqnkec1YW1K33NKiqTA5Fsw
+        - name: recording
+          link: https://www.youtube.com/watch?v=Ff7i-tqstPk
+        #- name: guide
+        #  link: /materials/lectures/lec2
       reading: > # Format in Markdown
         [1.2](https://joshhug.gitbooks.io/hug61b/content/chap1/chap12.html)
       assignments:
         - title: "Project 0: 2048 (due 9/1)"
           link: /materials/proj/proj0
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
         - title: |

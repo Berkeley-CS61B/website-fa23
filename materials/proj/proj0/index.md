@@ -5,7 +5,7 @@ categories: proj
 released: true # you have to also change this to true to release.
 ---
 
-## Due: 09/02/2022
+Due: 09/01/2023
 
 ## [FAQ](faq.md)
 
@@ -116,53 +116,11 @@ reason we're doing this is that in the real world, you'll often work with codeba
 maybe don't understand at all, like in this project!) and will have to do some tinkering and experimentation to get the
 results you want. Don't worry, when we get to project 1 next week, you'll have a chance to start from scratch.
 
-Below, we describe some of the ideas behind the architecture of the given skeleton code, which was created by Paul
-Hilfinger. It is not important that you understand every detail, but you might find it interesting.
-
-The skeleton exhibits two *design patterns* in common use:
-the Model-View-Controller Pattern (MVC), and the Observer Pattern.
-
-The MVC pattern divides our problem into three parts:
-
-* The **model** represents the subject matter being represented and acted upon -- in this case incorporating the state
-  of a board game and the rules by which it may be modified. Our model resides in the `Model`,
-  `Side`, `Board`, and `Tile` classes. The instance variables of `Model` fully determine what the state of the game is.
-  Note: You'll only be modifying the `Model` class.
-* A **view** of the model, which displays the game state to the user. Our view resides in the `GUI` and `BoardWidget`
-  classes.
-* A **controller** for the game, which translates user actions into operations on the model. Our controller resides
-  mainly in the `Game` class, although it also uses the GUI class to read keystrokes.
-
-The MVC pattern is not a topic of 61B, nor will you be expected to know or understand this design pattern on exams or
-future projects.
-
-The second pattern utilized is the "Observer pattern". Basically this means that the **model** doesn't actually report
-changes to the **view**. Instead, the **view** *registers* itself as an *observer* of the `Model` object. This is a
-somewhat advanced topic so we will provide no additional information here.
-
-<!--in our particular design, the **view** is notified of changes to the game
-state by *registering* itself as an *observer* of the `Model` object.
-The model does need not know that it is being observed.  Instead, the
-controller logic from time to time asks the model to notify all
-observers who have registered on it about changes to the model. -->
-<!--The
-observers then query the model for its current state.  The standard
-Java classes `java.util.Observer` and `java.util.Observable` handle this
-registration and notification: classes that wish to observe implement
-`Observer` and those that allow themselves to be observed extend
-`Observable`. Note: The class `java.util.Observer` is no longer
-recommended for use in new projects, i.e. it has been [deprecated](https://en.wikipedia.org/wiki/Deprecation#Software) by the company in charge of the Java programming
-language.
-
-**It's not required to understand the `Observable` and `Observer`
-interfaces,and no knowledge of these interfaces is required to complete the
-project;** this bit was just included to satisfy those curious.-->
-
 We'll now go over the different classes that you will interact with.
 
 ### Tile
 
-This class represents numbered tiles on the board. If a variable of type `Tile`
+This class represents the numbered tiles on the board. If a variable of type `Tile`
 is `null`, it's treated as an empty tile on the board. You will not need to instantiate any `Tile` objects, though you
 will need have an understanding of them since you will be using them in the `Model` class. The only method of this class
 you'll need to use is `.value()` which returns the value of the given tile. For example if `Tile t` corresponds to a
@@ -170,8 +128,8 @@ tile with the value 8, then `t.value()` will return `8`.
 
 ### Side
 
-The `Side` class is a special type of class called an `Enum`. An enum is similar has restricted functionality.
-Specifically, enums may take on only one of a finite set of values. In this case, we have a value for each of the 4
+The `Side` class is a special type of class called an `Enum`.
+Enums may take on only one of a finite set of values. In this case, we have a value for each of the 4
 sides: `NORTH`,
 `SOUTH`, `EAST`, and `WEST`. You will not need to use any of the methods of this class nor manipulate the instance
 variables.
@@ -195,7 +153,7 @@ method) will be to figure out which of these methods and instance variables are 
 ### Board
 
 This class represents the board of tiles itself. It has three methods that you'll use: `setViewingPerspective`, `tile`
-, `move`. Optionally, for experimentation, you can use `getRandomNonNullTile`.
+, `move`.
 
 **You will only edit the `Model.java` file in this assignment.** Gradescope will only take your `Model.java` file and
 use the skeleton versions of the other files, so if you make an edit to `Tile.java` for example, it will not be
@@ -213,7 +171,7 @@ First, make sure that everything in your repository is properly updated and chec
 
     git status
 
-when done in your `fa22-s***` directory should report that the directory is clean and that there are no untracked files
+when done in your `fa23-s***` directory should report that the directory is clean and that there are no untracked files
 that should be added and committed. If there are, simply add and commit.
 
 _Never_ start a new project without doing this.
@@ -222,7 +180,7 @@ To obtain the skeleton files, you should use the command
 
     git pull skeleton main
 
-in your `fa22-s***` directory. You'll see a folder `proj0` containing all of the skeleton code is now in your student
+in your `fa23-s***` directory. You'll see a folder `proj0` containing all of the skeleton code is now in your student
 repo.
 
 In the unlikely event that we must update the skeleton, you can use the same command to update your project with the
@@ -231,11 +189,11 @@ same changes.
 ### Getting restarted: Skeleton
 
 Rather than trying to get your current code to work, you might find yourself wanting to just restart completely. That is
-possible with Git! Simply run this command in your `fa22-s***` directory:
+possible with Git! Simply run this command in your `fa23-s***` directory:
 
-    git checkout skeleton/main -- proj0
+    git restore --source=skeleton/main proj0
 
-Beware: this command will get rid of all changes to anything in the `proj0`
+**Beware: this command will get rid of all changes to anything in the `proj0`**
 directory that you haven't committed. So if you think you _might_ want the code you currently have, simply make a commit
 before running this command, and then you can use a similar command to revert your `proj0` directory to the state it was
 in the commit you just made. For example, suppose you want to save a copy of your work and then start back over. To do
@@ -244,10 +202,11 @@ this you could do the following:
     git add proj0
     git commit -m "save work because I want to start back over"
     git push
-    git checkout skeleton/main -- proj0
+    git restore --source=skeleton/main proj0
 
-Then later, if you wanted to restore your work that you saved, you could use `git checkout`. If you can't figure out how
-to use checkout to this, post to Ed or ask a TA.
+Then later, if you wanted to restore your work that you saved, you could use `git restore` with that commit as the source. If you have trouble with this, post to Ed or ask a TA.
+
+For more information, refer to [this section of the git guide](../../guides/git/#getting-previous-versions-of-files)
 
 ### IntelliJ Setup
 
@@ -267,18 +226,18 @@ the down arrow on the `proj0` folder which will expand the folder below. It shou
 
 The `.idea` folder is something that IntelliJ generates to store miscellaneous settings. You can ignore this folder.
 
-The `game2048` folder is the source for all the Java files. Everything you need to do lies in this folder.
+The `src` folder contains all the Java source files for the game. The `tests` folder contains all the testing files. Everything you need to do lies in these folders.
 
 IntelliJ is usually smart enough to set up the rest of the things for you, but in case your IntelliJ application is
 having a hard time we'll walk through the setup procedures.
 
-We need to tell IntelliJ that we want to use those `.jar` files in the `library-fa22`
+We need to tell IntelliJ that we want to use those `.jar` files in the `library-fa23`
 folder. Still in the Project Structure, on the left-hand side click the section of the Project Settings called "Library"
-. If you see that `library-fa22` is already added, there is nothing to do. Else, we will click on the "+" button and
-then "Java" which will launch our operating system's file browser, and we'll click on the `library-fa22` folder. Then,
+. If you see that `library-fa23` is already added, there is nothing to do. Else, we will click on the "+" button and
+then "Java" which will launch our operating system's file browser, and we'll click on the `library-fa23` folder. Then,
 in the bottom right of the screen, hit "Apply" and then the blue "OK" button.
 
-In all, the setup would look like this (sorry for the blurryness):
+In all, the setup would look like this (this is from fa22, fa23 might have different files so don't worry if the files exactly match, also sorry for the blurryness):
 
 ![IntelliJ Setup](img/intellij-setup.gif)
 
@@ -287,8 +246,7 @@ options, but the one we care about is the green "Run Main.main()" button. It sho
 
 ![Run Main](img/run-main.png)
 
-Click that to launch the 2048 game. This will launch a new window with a blank board. Just close the window for now and
-we'll come back to it later when we get to the section of this spec called "Main Task: Building the Game Logic".
+Click that to launch the 2048 game. This will launch a new window with a blank board. Just close the window for now by pressing the red square at the top right of IntelliJ and we’ll come back to it later when we get to the section of this spec called "Main Task: Building the Game Logic".
 
 If nothing pops up, it means your setup is incorrect. You should redo the above steps to make sure you didn't miss
 anything, but don't spend more than 10 minutes on this. It's best to get setup problems fixed with a TAs help, meaning
@@ -573,19 +531,19 @@ Testing
 While in the future we expect you to be able to test your own programs, for this project we've given you the full test
 suite.
 
-The tests are split over 5 files: `TestEmptySpace`, `TestMaxTileExists`,
-`TestAtLeastOneMoveExists`, `TestUpOnly`, and `TestModel`. Each file tests a specific portion of the code with the
-exception of `TestModel` which tests all the things you write in coordination with each other. Such a test is called an
+The tests are split over 9 files: `TestEmptySpace`, `TestMaxTileExists`,
+`TestAtLeastOneMoveExists`, `TestModel`, `TestUpOnly`, `TestTiltNoMerge`, `TestTiltMerge`, `TestMultipleMoves`, and `TestNbyN`. Each file tests a specific portion of the code with the
+exception of `TestMultipleMoves` which tests all the things you write in coordination with each other. Such a test is called an
 _integration test_ and are incredibly important in testing. While unit tests run things in isolation, integration tests
 run things all together and are designed to catch obscure bugs that occur as a result of the interaction between
 different functions you've written.
 
-So do not attempt to debug `TestModel` until you're passing the rest of the tests! In fact, the order in which we
+So do not attempt to debug `TestMultipleMoves` until you're passing the rest of the tests! In fact, the order in which we
 discuss the tests is the order you should attempt them in.
 
-We recommend using the given tests to debug your code, though you're also welcome to debug by running `Main.java`. We
-have also provided an alternate way to start the game in a file called `CustomizableMain.java`. This is the same
-as `Main`, but allows you to start the board from any state you'd like (by editing the `createCustomStartModel` method).
+We recommend using the given tests to debug your code, though you're also welcome to debug by running `Main.java`. You can also start the game from a specific state by changing the `CUSTOM_START` and `USE_CUSTOM_START` variables in `Main.java`, which may be helpful for debugging specific tests.
+
+To run all the tests at once, you can right-click the tests folder in Intellij, then click "Run All Tests"
 
 We'll now take a look at each of these tests and show you how to read the error messages.
 
@@ -622,6 +580,10 @@ above two. Since the
 `atLeastOneMoveExists` method depends on the `emptySpaceExists` method, you shouldn't expect to pass these tests until
 you are passing all of the tests in `TestEmptySpace`.
 
+### TestModel
+
+These tests create a `Model` at a specific state, then check correctness of the `gameOver` method. Since `gameOver` is a combination of `maxTileExists` and `atLeastOneMoveExists`, you should expect to pass these tests if both of those methods are implemented correctly.
+
 ### TestUpOnly
 
 These tests will check the correctness of your `tilt` method, but only in the up (`Side.NORTH`) direction. The error
@@ -654,20 +616,23 @@ rule. We suggest writing out on pen and paper the steps your code takes so you c
 the way it does, then coming up with a fix. These tests only call `tilt`
 once, so you don't need to worry about debugging multiple calls to tilt.
 
-### TestModel
+### TestTiltNoMerge
 
-These tests will check the correctness of everything together. The majority of these tests are similar to the tests
-in `TestUpOnly` as they only call `tilt`
-once, but we also have tests for `gameOver` (which test all of your
-`emptySpaceExists`, `maxTileExists`, and `atLeastOneMoveExists` methods together) and tests that make many calls
-to `tilt` in a sequence.
+This is similar to `TestUpOnly`, but specifically tests situations with no merges. Unlike `TestUpOnly`, it tests in all 4 directions.
 
-The error messages for these look exactly the same as those in `TestUpOnly`, and the javadoc comments are similarly
-useful in figuring out what the test is testing.
+### TestTiltMerge
 
-Don't worry about the actual code for the tests: you're not required to understand or modify any of these, though you're
-welcome to read through and get an idea for how test writing works and even add some of your own if you are feeling
-really ambitious.
+This is similar to `TestUpOnly`, but specifically tests situations with merges. Unlike `TestUpOnly`, it tests in all 4 directions.
+
+
+### TestMultipleMoves
+
+These integration tests simulate parts of a game. They run multiple tilts in a row and add random tiles to the board.
+
+### TestNbyN
+
+2048 is normally played on a 4x4 board, but it is generalizable to any size board. These tests make sure the game works on non-4x4 boards.
+
 
 Grading
 -------
@@ -675,22 +640,20 @@ Grading
 A full scoring project will pass all of the unit tests that we provide. Remember that **there are no hidden tests**, so
 if you're passing all of these tests then you have a full scoring project!
 
-Some tests are weighted slightly differently than others on Gradescope, so if you're not passing some fraction of the
-tests, your score as a percent will be some different fraction (likely higher).
-
-That's because some parts of this project are harder than others, and we know this is many students' first time using
-Java, so we've weighted each portion of the project with that in mind.
+Tests are "all or nothing" in their own fields. If you fail one of the subtests in the test category, you will not receive credit for that category although you might have passed different test cases. For example, you'll see in Gradescope `TestModel` category 5 subtests.
 
 Here is a breakdown of what percent you'd earn on this project with varying levels of completing:
 
-1. Only implementing `emptySpaceExists` or `maxTileExists`: ~27%
-2. Implementing everything except `tilt`: ~47%
-3. Implementing everything, except `tilt` only works in the Up direction: ~68%
-4. Implementing everything, except merging: ~64%
-5. Implementing everything, except rule 2 of merging: ~93%
+1. `TestEmptySpace`: 10%
+2. `TestMaxTileExists`: 10%
+3. `TestAtLeastOneMoveExists`: 15%
+4. `TestUpOnly`: 10%
+5. `TestModel`: 5%
+6. `TestTiltMerge`: 10%
+7. `TestTiltNoMerge`: 10%
+8. `TestMultipleMoves`: 15%
+9. `TestNbyN`: 15%
 
-You'll note that getting the rule 2 of merging is only ~7% of the project. That is because it's a difficult rule to
-handle that accounts for a very small portion of the game itself, so we've weighted it accordingly.
 
 Submission and Version Control
 ------------------------------
@@ -721,7 +684,7 @@ commit you've pushed, so if you do not run `git push` before you submit on Grade
 of the most recent code you have on your computer.
 
 Something to note, for this project we will be limiting the number of times you can submit your code within an hour to
-three times. You will be granted three "tokens" and once you use a token, it will only recharge after an hour.
+three times. you will get 4 submission "tokens" that each regenerate after 24 hours.
 
 Getting Help
 ------------
@@ -738,7 +701,7 @@ test isn't passing, figure out which part isn't passing and why there is a discr
 properly, or perhaps things don't merge the way they should be. This helps speed things up and might even lead you to
 find your own bug.
 
-If you're posting on Ed, please read our [Ed policies](../../guides/ed-policies.html) to make sure you're not
+If you're posting on Ed, please read our [Ed policies](../../guides/ed/) to make sure you're not
 accidentally posting part of your solution and hence violating our academic integrity policies. Otherwise, we welcome
 constructive discussion on our megathreads. Remember to search for your issue before posting a follow-up as many
 students have very similar bugs!
