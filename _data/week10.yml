@@ -29,7 +29,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/1rwMI17qMU3KgmA3k1nh1fuWBW8ZFCO4RwB_VfT8mYsY/edit?usp=share_link"
   labs:
-    - name: No Lab (Project 2 Workday)
+    - name: Project 2 Workday
       released: false
 
   days:
@@ -58,8 +58,8 @@
         [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
 
     - day: 2023-10-27
-      lecture_topic: Reductions and Decomposition
-      class: optional outdated
+      lecture_topic: Directed Acyclic Graphs
+      class: outdated
       lecture_links:
         - name: video
           link: https://youtu.be/rf1mHSoGomk
@@ -70,8 +70,8 @@
       reading: > # Format in Markdown
         [Ch 28](https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition)
       assignments:
-        - title: |
-            <span class="proj">[Project 2B due TBD]</span>
+        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
+          link: materials/proj/proj3
           rows: 1
           cols: 2
           released: false

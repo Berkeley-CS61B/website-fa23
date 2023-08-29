@@ -29,17 +29,31 @@
           released: false
           link: "https://docs.google.com/presentation/d/1qPMuME25PmeRmbbOQi51_jmz4y9OSq3KvBKomGzzyTg/edit?usp=share_link"
   labs:
-    - name: Project 1 Peer Review (due TBD)
+    - name: Project 1 Peer Review (due 09/29)
       link: materials/lab/lab06/
       released: false
   days:
     - day: 2023-09-25
+      lecture_topic: Disjoint Sets
+      class: outdated
+      lecture_links:
+        - name: video
+          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD44CGmkFro1gqxkDl5gIpXB
+        - name: slides
+          link: https://docs.google.com/presentation/d/1CVbH3Jy9C5OOlRjwLlXvHCoEI8GGFQe6xfMLMOaxpDc/edit
+      reading: >
+        [Ch 14](https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets)
       assignments:
-        - title: "Homework 2 (due TBD)"
-          link: materials/hw/hw2
+        - title: "Homework 2 (due 10/2)"
+          link: /materials/hw/hw2
           released: false
           rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
+          cols: 1 # 1 for half column, 2 for full column
+        - title: |
+            <span class="proj">[Project 1C due 9/25]</span>
+          rows: 1
+          cols: 2
+          released: false
 
     - day: 2023-09-27
       lecture_topic: Asymptotics II
@@ -54,11 +68,11 @@
       reading: > # Format in Markdown
         [Ch 15](https://cs61b-2.gitbook.io/cs61b-textbook/15.-asymptotics-ii)
       assignments:
-        - title: |
-            <span class="proj">[Project 1C due TBD]</span>
-          rows: 1
-          cols: 2
+        - title: "Homework 2 (due 10/2)"
+          link: /materials/hw/hw2
           released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
 
     - day: 2023-09-29
       lecture_topic: ADTs, Sets, Maps, BSTs
@@ -71,7 +85,7 @@
       reading: > # Format in Markdown
         [Ch 16](https://cs61b-2.gitbook.io/cs61b-textbook/16.-adts-and-bsts)
       assignments:
-        - title: "Project 2A (due TBD)"
+        - title: "Project 2A (due 10/11)"
           link: materials/proj/proj2a
           released: false
           rows: 1 # the number of rows the assignment spans

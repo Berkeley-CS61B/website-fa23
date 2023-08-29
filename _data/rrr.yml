@@ -12,7 +12,7 @@
         <td class="emph2" colspan="3">RRR Week</td>
       assignments:
         - title: |
-            <span class="proj">[HW4 due TBD]</span>
+            <span class="proj">[HW4 due 12/8]</span>
           link: https://www.gradescope.com/courses/420508/assignments/2370669/
           released: false
           rows: 3 # the number of rows the assignment spans

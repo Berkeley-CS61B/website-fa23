@@ -42,7 +42,7 @@
     #       released: false
     #       link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
   labs:
-    - name: Timing (due TBD)
+    - name: Advanced Git and Debugging (due 09/08)
       link: materials/lab/lab03
       resource_links:
         - name: slides
@@ -50,7 +50,15 @@
           link: "https://docs.google.com/presentation/d/1OpGIcghuK0jrVYxR04HtY_oKAAaG4j8D"
       released: false
   days:
-    - day: 2023-09-04
+    - custom: |
+        <td class="emph2" colspan="3">No Classes</td>
+      assignments:
+        - title: "Project 1A: Deques (due 9/11)"
+          link: /materials/proj/proj1a
+          released: false
+          rows: 2 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
+    - day: 2023-09-06
       lecture_topic: Testing
       class: outdated
       lecture_links:
@@ -66,14 +74,8 @@
         Optional: [TDD is dead](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html),
         [Unit Tests Are Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf),
         [Response](http://henrikwarne.com/2014/09/04/a-response-to-why-most-unit-testing-is-waste/)
-      assignments:
-        - title: "Project 1A: Deques (due TBD)"
-          link: /materials/proj/proj1a
-          released: false
-          rows: 1 # the number of rows the assignment spans
-          cols: 2 # 1 for half column, 2 for full column
 
-    - day: 2023-09-06
+    - day: 2023-09-08
       lecture_topic: ArrayLists, Resizing
       class: outdated
       lecture_links:
@@ -86,26 +88,13 @@
       reading: > # Format in Markdown
         [2.5](https://joshhug.gitbooks.io/hug61b/content/chap2/chap25.html)
       assignments:
-        - title: "Project 1A (due TBD)"
+        - title: "Project 1A (due 9/11)"
           link: /materials/proj/proj1a
           released: false
-          rows: 2 # the number of rows the assignment spans
+          rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
-        - title: "Project 1B (due TBD)"
+        - title: "Project 1B (due 9/18)"
           link: /materials/proj/proj1b
           released: false
-          rows: 2 # the number of rows the assignment spans
+          rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
-
-    - day: 2023-09-08
-      lecture_topic: Inheritance, Implements
-      class: outdated
-      lecture_links:
-        - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6UzicZ-KQwB0z1ThjGxjFF
-        - name: slides
-          link: https://docs.google.com/presentation/d/1iqgV3yttGp8VxfIhJzTT7DMHv8LZ78SFMvklO8z58rI
-        - name: guide
-          link: /materials/lectures/lec8/
-      reading: > # Format in Markdown
-        [4.1](https://joshhug.gitbooks.io/hug61b/content/chap4/chap41.html)
