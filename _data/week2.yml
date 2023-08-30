@@ -4,11 +4,11 @@
   discussions:
     - name: Introduction To Java
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week02/regular/regular02.pdf"
+      link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week02/regular/regular02.pdf
       resource_links:
-        # - name: solution
-        #   released: false
-        #   link: "https://drive.google.com/file/d/18F1LqieNH7aWjv2igJg0GxWv0qI-bqiB/view?usp=sharing"
+        - name: solution
+          released: true
+          link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week02/regular/regular02sol.pdf
         # - name: video
         #   released: false
         #   link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoxyC5HydoGxbeinh4WAcls"
@@ -19,12 +19,12 @@
       released: true
       link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week02/examlevel/examlevel02.pdf
       resource_links:
-        # - name: solution
-        #   released: false
-        #   link: "https://drive.google.com/file/d/1pIVL1tdIdk38sw8plPzcwtsaeo-jVPEt/view?usp=sharing"
-        # - name: video
-        #   released: false
-        #   link: "https://youtube.com/playlist?list=PLnp31xXvnfRqmJrttvdz-MDUyAantKH2P"
+        - name: solution
+          released: true
+          link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week02/examlevel/examlevel02sol.pdf
+        - name: video
+          released: true
+          link: https://www.youtube.com/playlist?list=PLHnsju1DjvZO7F05fJ1dUg5GsT44gzdhL
         - name: slides
           released: true
           link: "https://docs.google.com/presentation/d/1b31wtdOAIIfBDUpszanuGowJDjXM4PsvlhGt7Ox3gJs/edit?usp=sharing"
