@@ -62,6 +62,9 @@ The point of this exercise is to get comfortable using tools that will help you
 a lot down the road. Please take it seriously!
 " %}
 
+**`BombMain.java` is where you will be running the program. `Bomb.java` will not have the green run button 
+since it does not contain a `static void main(String[] args)` so please make sure to run the program `BombMain.java`!**
+
 ### Interactive Debugging
 
 So far, you might have practiced debugging by using print statements to
