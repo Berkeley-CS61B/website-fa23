@@ -28,9 +28,7 @@ rules.
 2. Files may not contain horizontal tab characters. Use blanks (spaces) only for
    indentation.
 
-3. No line may contain trailing blanks.
-
-4. Do NOT put whitespace:
+3. Do NOT put whitespace:
 
    - Around the `<` and `>` within a generic type designation
      (`List<Integer>`, not `List <Integer>`, or `List< Integer >`).
@@ -39,7 +37,7 @@ rules.
    - After `(` or before `)`.
    - After `.`
 
-5. DO put whitespace:
+4. DO put whitespace:
 
    - After `;`, `,`, or type casts (e.g., `(String) x`, not `(String)x`).
    - Around binary operators (e.g., `*`, `+`) and comparison operators.
@@ -48,7 +46,7 @@ rules.
    - Around the keywords `assert`, `catch`, `do`, `else`, `finally`, `for`,
      `if`, `return`, `try`, and `while`.
 
-6. In general, if you need to use multiple lines for a single statement, break
+5. In general, if you need to use multiple lines for a single statement, break
    (insert newlines in) lines before an operator, as in
 
    ```text
@@ -56,7 +54,7 @@ rules.
        + Y;
    ```
 
-7. Do not separate a method name from the `(` in a method call with blanks.
+6. Do not separate a method name from the `(` in a method call with blanks.
    However, you may separate them with a newline followed by blanks (for
    indentation) on long lines.
 
