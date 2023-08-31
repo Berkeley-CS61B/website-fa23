@@ -57,7 +57,7 @@ structures outside of tests, and we will clearly say where.
 ### Style
 
 Starting with this project, **we will be enforcing style**. You must follow the
-[style guide](/materials/guides/style/index.md), or you will be penalized on the
+[style guide](../../guides/style/index.md), or you will be penalized on the
 autograder.
 
 You can and should check your style locally with the CS 61B plugin. **We will
