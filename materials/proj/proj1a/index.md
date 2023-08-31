@@ -43,7 +43,7 @@ the DLList lecture, Lecture 5.
 
 {% include alert.html type="warning" content="
 For this project, you must work alone! Please carefully read the
-[Policy on Collaboration and Cheating](/about.md#project-collaboration-policy)
+[Policy on Collaboration and Cheating](../../../about.md#project-collaboration-policy)
 to see what this means exactly. In particular, do not look for solutions online.
 " %}
 
@@ -82,7 +82,7 @@ proj1a
 ```
 
 If you get some sort of error, STOP and either figure it out by carefully
-reading the [git WTFs](/materials/guides/git/wtfs/index.md) or seek help at OH
+reading the [git WTFs](../../guides/git/wtfs/index.md) or seek help at OH
 or Ed. You'll potentially save yourself a lot of trouble vs. guess-and-check
 with git commands. If you find yourself trying to use commands recommended by
 Google like `force push`,
