@@ -2,7 +2,7 @@
 layout: page # The HTML template to use to render this page.
 title: "Project 1A: LinkedListDeque" # Title of page.
 categories: proj
-released: false # you have to also change this to true to release.
+released: true # you have to also change this to true to release.
 toc:
   h_max: 4
 ---
@@ -563,7 +563,8 @@ of which you must implement _completely correctly_ to receive credit.
     add methods working.
 4.  **`get` (10%)**: Correctly implement `get`.
 5.  **`getRecursive` (5%)**: Correctly implement `getRecursive`.
-6.  **Removing (40%)**: Correctly implement `removeFirst` and `removeLast`.
+6.  **Removing (30%)**: Correctly implement `removeFirst` and `removeLast`.
+6.  **Integration (10%)**: Pass a integration test suite that randomly calls all the methods. 
 
 Additionally, there is a **test coverage (10%)** component. We will run your
 tests against a staff solution, and check how many scenarios and edge cases are
