@@ -70,7 +70,7 @@
           cols: 1
           released: false
 - week: 2
-  # weekly_survey: "https://forms.gle/XjkbFo1rVjkWswSX6"
+  weekly_survey: "https://forms.gle/tFzG2cUyMbwHD58t9"
   rows: 3
   discussions:
     - name: Introduction To Java
