@@ -173,8 +173,8 @@
           link: https://docs.google.com/presentation/d/1MQ_ZyCoA2cYOIkF-JRbGQchZ734m7qKyRYfwtQ7kquQ
         #- name: guide
         #  link: /materials/lectures/lec6
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=zStk6ebKDNk"
       reading: >
         [2.3](https://joshhug.gitbooks.io/hug61b/content/chap2/chap23.html), [2.4](https://joshhug.gitbooks.io/hug61b/content/chap2/chap24.html)
       assignments:
