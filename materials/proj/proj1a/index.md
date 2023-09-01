@@ -152,15 +152,9 @@ Start by creating a file called `LinkedListDeque`. This file should be created
 in the `proj1a/src` directory. To do this, right-click on the `src` directory,
 navigate to "New -> Java Class", and give it the name `LinkedListDeque`.
 
-Create a `main` method in the class and add exactly this code:
-
-```java
-public static void main(String[] args) {
-  Deque<Integer> lld = new LinkedListDeque<>();
-}
-```
-
-You should see a squiggly red line underneath the `<>`. To fix this, you should
+We want our `LinkedListDeque` to be able to hold several different types. For
+example, a `LinkedListDeque<String>` holds `String`s and a
+`LinkedListDeque<Integer>` holds `Integer`s. To enable this, you should
 edit the declaration of your class so that it reads:
 
 ```java
@@ -171,19 +165,19 @@ Recall from lecture that it doesn't actually matter if we use `T` or some other
 string like `LinkedListDeque<Glerp>`. However, we recommend using `<T>` for
 consistency with other Java code.
 
-Now that we've fixed this problem, you'll see that the entire line declaring
-your new Deque is underlined. Press `Alt+Enter` (Windows / Linux) or `⌥ ⏎` /
-`Option+Enter` (Mac) and you'll see a list of options. Select "Make
-'LinkedListDeque' implement 'Deque'" and press enter. You'll see a bunch of
-methods appear, all of which need filling in.
+We also want to tell Java that every `LinkedListDeque` is a `Deque`, so that
+users can write code like `Deque<String> lld1 = new LinkedListDeque<>();`. 
+To enable this, change the declaration of your class so that it reads:
 
-If you look carefully, you'll also see that our class declaration now ends with
-`implements Deque<Integer>`. This is a slight mistake on IntelliJ's part. It
-assumed that a `LinkedListDeque` always represents a `Deque` of integers. To
-fix this, right-click on the word "Integer", then click "Refactor", then
-"Type Migration". Replace `java.lang.Integer` with `T`, then click "Refactor",
-and all of these erroneous usages of `Integer` will be replaced by `T`. If you
-picked a string other than `T` you'll need to use that instead.
+```java
+public class LinkedListDeque<T> implements Deque<T>
+```
+
+However, this creates an error. In order for a `LinkedListDeque` to be a 
+`Deque`, it needs to implement all the `Deque` methods. However your mouse over
+the red squiggle, and click the "implement methods" button when the error
+message box pops up. This will autogenerate the method headers for you.
+
 
 Lastly, you should create an empty constructor. To do this, add the following
 code to your file, leaving the constructor blank for now.
@@ -193,8 +187,8 @@ public LinkedListDeque() {
 }
 ```
 
-You can also watch [this](https://www.youtube.com/watch?v=pjrsaYGa8x0) video
-that goes through the steps mentioned in the spec.
+You can also watch [this](https://www.youtube.com/watch?v=pjrsaYGa8x0) video.
+This video follows slightly different steps, but ends up with the same class.
 
 Note: You can also generate the constructor by clicking "Code", then "Generate"
 then "Constructor", though I prefer the typing the code yourself approach.
