@@ -1,23 +1,40 @@
 ---
 layout: page
-title: "Lab 03: Advanced Git and Debugging"
+title: "Lab 03: Debugging (Part 2)"
 categories: lab
-released: false
+released: true
 ---
 
 ## FAQ
 
 The FAQ for Lab 03 is [here](faq.md).
 
+## Introduction 
+This is a continuation of debugging from last week. In this week's lab, we will 
+be utilizing the debugging tools we used last week and gaining more practice 
+with debugging. The goal for today's lab is to learn more about the following: 
+- Reading the stack trace and knowing how to isolate the bug from it.
+- Understanding the different types of exceptions we might run into.
+- Getting more comfortable using the IntelliJ debugger.
+- Exception breakpoints, expressions and watches (optional).
+
+As usual, don't hesitate to look things up if you're unsure what something means, particularly, 
+what a specific exception or error means if it comes up in the stack trace (which we'll be
+covering in today's lab). The hints are meant to guide your thinking, but we encourage you 
+to try going through the lab on your own first before opening the hints.
+
 ## `Adventure`
 
 ### Running the Game and Tests
 
 The very first thing you should do is run the `main` method in `AdventureGame`
-to run through the game. This will give you a sense of what the program you are
-debugging is actually supposed to do. Then, after you’ve run the game, run the
-tests in `tests/adventure/AdventureGameTests`. They should fail on
-`BeeCountingStage` which will lead you into debugging the first error below.
+to run through the game. Follow the instructions that are given once you run 
+through the game. This will give you a sense of what the program you are
+debugging is supposed to do (if you run into an error, that's normal). 
+
+Then, after you’ve run the game, run the tests in `tests/adventure/AdventureGameTests`. 
+They should fail on `BeeCountingStage` which will lead you into debugging the first error
+below (note that all the tests will be failing at this point).
 
 ### Reading Stack Traces
 
@@ -43,10 +60,20 @@ which threw the error, and so on.
 
 You can click on **`blue text`**{: .blue} to navigate to that file and line.
 
+{% include alert.html type="info" content="
+**NOTE**: To get a sense of how you would interpret stack traces in, you would usually start from
+the top. As mentioned, the first line in the stack trace is where the error occurred -
+in other words, it is the last method call that took place before the error,
+so you can use that to isolate where the bug is. Depending on how the program is written, how 
+it's designed and what code you've written/contributed, you would navigate to the appropriate
+line in the stack trace and click on the **`blue text`**{: .blue} to go that line and start 
+debugging.
+" %}
+
 ---
 
 {% include alert.html type="warning" content="
-For each of the following stages, **only change what is necessary**! You should
+**INFO**: For each of the following stages, **only change what is necessary**! You should
 not be rewriting entire blocks of code unless otherwise specified. We've
 included how many lines we changed as a guideline.
 " %}
@@ -54,36 +81,21 @@ included how many lines we changed as a guideline.
 {% include alert.html type="info" content="
 **Note**: You can run through the adventure game each time if you'd like to
 validate correctness, but you don't need to - feel free to debug through the
-tests directly. This can be done by setting a breakpoint in `playStage` for the
-appropriate stage file you'd like to debug, then debugging `AdventureGameTests`.
+tests directly. For each file you'll be working in, it contains a `playStage` method,
+and you can set a breakpoint in that method. From there, you can start debugging 
+in `AdventureGameTests`.
 " %}
 
 ### Debug `BeeCountingStage`
 
 {% include alert.html type="task" content="
-**Task**: Fix the `NullPointerException` that occurs in `BeeCountingStage` by
+**TASK**: Fix the `NullPointerException` that occurs in `BeeCountingStage` by
 analyzing the stack trace. You can ignore the lines with `<XX internal calls>`;
 these are from test framework or library code and usually won't help you find
 errors.
 " %}
 
 Expected lines modified: 1
-
----
-
-It turns out that this isn’t the only error in `BeeCountingStage`!
-
-{% include alert.html type="task" content="
-**Task**: Fix the `IndexOutOfBoundsError` that occurs in `BeeCountingStage`.
-" %}
-
-**Note**: Ignore the grey links to `Objects.java` and `ArrayList.java` at the
-top of the stack trace. The error may have _occurred_ in code that was not
-yours, but the root cause was probably something _your code_ tried to do.
-
-Expected lines modified: 1
-
----
 
 <details markdown="block">
 <summary markdown="block">
@@ -105,24 +117,42 @@ be the elusive culprit!
 
 </summary>
 
-Take a close look at the constructor.
+Take a close look at the constructor. Look at the variables that are declared and what 
+is instantiated. 
 
 </details>
 
-## Optional for This Week Only
+---
 
-{% include alert.html type="warning" content="
-**Note**: Due to the Project 0 deadline and the length of this lab, the
-following tasks are optional *for this week only*. We still recommend you
-complete them for more practice debugging before finishing Project 0, but they
-will each be worth 0 points for Lab 02. They will be required and worth points
-for Lab 03.
+It turns out that this isn’t the only error in `BeeCountingStage`!
+
+{% include alert.html type="task" content="
+**TASK**: Fix the `IndexOutOfBoundsError` that occurs in `BeeCountingStage`.
 " %}
+
+**Note**: Ignore the grey links to `Objects.java` and `ArrayList.java` at the
+top of the stack trace. The error may have _occurred_ in code that was not
+yours, but the root cause was probably something _your code_ tried to do.
+
+Expected lines modified: 1
+
+---
+
+<details markdown="block">
+<summary markdown="block">
+
+**Hint 1**
+
+</summary>
+
+Don't forget, Java is 0-indexed!
+
+</details>
 
 ### Debug `SpeciesListStage`
 
 {% include alert.html type="task" content="
-**Task**: Fix the error(s) in `SpeciesListStage`. If you don't see what the
+**TASK**: Fix the error(s) in `SpeciesListStage`. If you don't see what the
 issue is inside the method where the exception occurred (the top line of the
 stack trace), it's often a good idea to look at the second line to see where the
 method is being called from, and with what arguments.
@@ -135,22 +165,26 @@ Expected lines modified: 3-4
 <details markdown="block">
 <summary markdown="block">
 
-**Hint**
+**Hint 1**
 
 </summary>
 
 Consider the possibilities for lists. Does the code account for all of
 them? Are there any edge cases the code fails to handle?
 
+It might also help to read the javadoc comments above the method to gain more 
+context on what the method does. 
+
 </details>
 
 ### Debug `PalindromeStage`
 
 {% include alert.html type="task" content="
-**Task**: Sometimes, IntelliJ will tell you something that it thinks is wrong.
-Hover over the yellow / orange highlights in the method with the bug. Does that
-give you any useful information? <br/><br/> Use this feature to address the
-error(s) in `PalindromeStage`.
+**TASK**: Sometimes, IntelliJ will tell you something that it thinks is wrong.
+Hover over the yellow / orange highlights in the method with the bug (in the
+`digitsToIntList` method in `PalindromeStage` - you can navigate to it 
+through the stack trace). Does that give you any useful information?
+<br/><br/> Use this feature to address the error in `PalindromeStage`.
 " %}
 
 **Note:** If the debugger feels unresponsive, it is usually due to an infinite
@@ -158,7 +192,37 @@ loop somewhere in your code. If you set a breakpoint and it is never reached,
 then you know an infinite loop occurs before the breakpoint! Use this in
 combination with stepping to isolate the problem.
 
+**There are two bugs in this part that you'll need to fix. Fix the most obvious one 
+first and then try to isolate and solve the second one. The hints for this part of the 
+lab applies to the second bug that needs to be resolved.** 
+
 Expected lines modified: 3
+
+<details markdown="block">
+<summary markdown="block">
+
+**Hint 1 (Only applies to second bug)**
+
+</summary>
+
+If you haven't already, read through the note above. Look at the method where `digitsToIntList`
+is called on. If you set a breakpoint in the method and run through the debugger, do we ever exit 
+out the `while` loop? What is the condition we need to meet to break out of the `while` loop? Is it 
+being met? 
+
+</details>
+
+<details markdown="block">
+<summary markdown="block">
+
+**Hint 2 (Only applies to second bug)**
+
+</summary>
+
+Take a closer look at `reverseList` through the Java Visualizer and its output. 
+What do you notice? 
+
+</details>
 
 ### Debug `MachineStage`
 
@@ -185,7 +249,7 @@ how a fish works at a molecular level, there are some cases where I can clearly
 tell that a fish is dead.
 
 {% include alert.html type="task" content="
-**Task**: Fix the two bugs so that `sumOfElementwiseMax` returns a correct
+**TASK**: Fix the two bugs so that `sumOfElementwiseMax` returns a correct
 result.
 
 ---
@@ -221,266 +285,15 @@ Expected lines modified: 2-5
 
 </details>
 
-### Still Broken...?
+## Another Debugging Puzzle?! [OPTIONAL]
 
-At this point, the test for correct inputs should pass. That test is testing a
-**correct** input to the adventure game. The second test checks an **incorrect**
-input (meaning one that gets something wrong at some point during the game). You
-should have gotten an error this time which tells you that the output the game
-gave did not match the output we expected. Click on `<Click to see difference>`,
-and IntelliJ will tell you where and how the long `String` outputs differed.
-Specifically, in this case, `SpeciesListStage` has a bug.
+The rest of the lab is **optional**. We'll cover some additional 
+tools that you can use in the IntelliJ debugger that you may find useful - 
+exception breakpoints and expressions and watches.
 
-{% include alert.html type="task" content="
-**Task**: Go back to `SpeciesListStage` to find and fix the bug (if you didn't
-find it before). You may find what you learned in `PalindromeStage` helpful.
-" %}
+{% include alert.html type="danger" content="**WARNING**: Do not modify `Puzzle.java`!" %}
 
-Expected lines changed: 0-1
-
----
-
-After completing this task, all of the tests should pass.
-
----
-
-<details markdown="block">
-<summary markdown="block">
-
-**Hint**
-
-</summary>
-
-You can force Java to use decimal division by multiplying the numerator by
-`1.0`.
-
-</details>
-
-## Setup
-
-Follow the
-[assignment workflow instructions](https://sp23.datastructur.es/materials/guides/assignment-workflow/#getting-the-skeleton)
-to get the assignment and open it in IntelliJ. This assignment is `lab05`.
-
-## Introduction
-
-In this lab, you will take a deeper dive into git and also learn some advanced
-debugging techniques with another exercise. By the end of this lab, you should
-feel much stronger about the git workflow, and your debugging skills should be
-more refined!
-
-A playlist with some videos that may be helpful for this lab is available **[here](https://www.youtube.com/watch?v=6YhV4L7NNv8&list=PLnp31xXvnfRqw9s4bCo8BFq9U_sLedPVn&index=1)**.
-
-## Git Background
-
-In this part, you may watch a series of videos that explain the major concepts
-of git, and then get some hands-on practice using git. We've already practiced
-git before in lab01 (and we have an awesome **[git guide](../../guides/git)**), so **feel free to watch these as you are
-doing the lab, or skip them if you feel comfortable**.
-
-- [Git Review (updated for sp23)](https://www.youtube.com/watch?v=zl5aaPsv4qk&list=PLnp31xXvnfRqw9s4bCo8BFq9U_sLedPVn&index=2)
-
-{% include alert.html type="warning" content="
-We no longer use `checkout` in 61B (instead replacing it with `restore` and
-`switch`), so the following videos are a bit out-of-date. However, they are still
-useful for learning the basics of how git works!
-" %}
-
-These videos talk more about how git works, and are optional for this lab.
-
-- [Git Intro - Part 1](https://www.youtube.com/watch?v=yWBzCAY_5UI)
-- [Git Intro - Part 2](https://www.youtube.com/watch?v=CnMpARAOhFg)
-- [Git Intro - Part 3](https://www.youtube.com/watch?v=t0tzTcZESWk)
-- [Git Intro - Part 4](https://www.youtube.com/watch?v=ca1oCEMQGRQ)
-- [Git Intro - Part 5](https://www.youtube.com/watch?v=dZbj9gjjYv8)
-- [Git Intro - Part 6](https://www.youtube.com/watch?v=r0oHi0vXhLE)
-
-In particular, you should understand the following concepts:
-
-- Local git workflow: `git add` and `git commit`
-- Updating files with `git restore`
-- Remote repositories, e.g. those hosted on [GitHub](https://github.com)
-- Local git integration with remote repositories: `origin` and `skeleton`
-- How to resolve merge conflicts
-
-If you have any questions about the above concepts, you can reference our [git guide](../../guides/git) and the [Git WTFS](https://sp19.datastructur.es/materials/guides/git-wtfs) (Git Weird
-Technical Failure Scenarios -- get your mind out of the gutter!), or you can
-always feel free to ask your TA to clarify concepts.
-
-We will warn you here: _be wary of git information that you find online_, since
-not all of it comes from trusted sources. Also, be sure to **NEVER copy commands
-you find online or get from friends with git when you are stuck, unless you
-_really, really_ know what you're doing - always ask your TA when you are in
-doubt**.
-
-**And remember, we also have our [git guide](../../guides/git) and
-[guide on merging](../../guides/git/skeleton-merge-guide.md) as resources!**
-
-## Git Exercise
-
-{% include alert.html type="warning" content="This exercise has a lot of steps,
-and it's important you follow each one carefully. If you run into trouble at any
-moment, ask on Ed or come into lab/OH for help." %}
-
-{% include alert.html type="info" content="
-If you prefer a video format, a walkthrough for most of this exercise is
-available [here](https://www.youtube.com/watch?v=OKbl6U2oqI0).
-" %}
-
-1. Pull the skeleton code as described in the [assignment workflow
-   instructions](https://sp23.datastructur.es/materials/guides/assignment-workflow/#getting-the-skeleton),
-   if you haven't already.
-
-2. After pulling the skeleton code, run `git push origin main` (yes, even before
-   doing any work on the lab). Make sure to commit your code before you push!
-
-3. Navigate to your GitHub repo online
-   (https://github.com/Berkeley-CS61B-Student/sp23-s\*\*\*\*) and go to the
-   `lab05` folder (if you can't find it, be sure you've completed step 2). Then,
-   click on the `src` and `conflict` folders, and then click on `hello.txt`. You
-   should see the following:
-
-   ![hello.txt](img/hello-txt-initial.png)
-
-{:start="4"} 4. Click the pencil icon on the right-hand side to edit the file.
-Change the contents of the file to be
-`text
-    Hello, I am NOT a 61A student!
-    `
-and then scroll to the bottom of the page. Change the commit message from
-"Update hello.txt" to "Change hello.txt to NOT 61A" and click the green
-"Commit changes" button.
-
-    ![hello-changed.txt](img/commit-changes.png)
-
-5. Now, open up `hello.txt` locally (in your terminal editor, IntelliJ, or
-   something else). You should still see the original contents (`Hello, I am a
-61A student!`). This time, change the file to read
-   ```text
-   Hello, I am a 61B student!
-   ```
-6. Add and commit this change **locally** (i.e., not on GitHub!) with the
-   message "Change hello.txt to 61B".
-
-7. Now, try to `git push` your code from the terminal, as you usually would to
-   submit your work. You should see an error like the following (you may have
-   seen something like this before):
-   ```sh
-    ! [rejected]        main -> main (fetch first)
-   error: failed to push some refs to 'https://github.com/Berkeley-CS61B-Student/sp23-s****.git'
-   hint: Updates were rejected because the remote contains work that you do
-   hint: not have locally. This is usually caused by another repository pushing
-   hint: to the same ref. You may want to first integrate the remote changes
-   hint: (e.g., 'git pull ...') before pushing again.
-   hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-   ```
-   This occurs because git is extremely hesitant about overwriting changes. You
-   don't yet have the latest version of the file that the remote has ("NOT
-   61A"), so if you pushed your local commits, the "NOT 61A" version of the file
-   would be lost!
-
-{% include alert.html type="warning" content="The following step will introduce
-a merge conflict. If you have experience with this sort of thing, you may be
-tempted to resolve it right away. **Don't do that yet!**" %}
-
-{:start="8"} 8. To resolve this, run `git pull origin main` to integrate the remote's changes
-with your local changes. Oh no, git is saying something about a conflict! You
-should have gotten a message like the following:
-
-    ```sh
-    Auto-merging lab05/src/conflict/hello.txt
-    CONFLICT (content): Merge conflict in lab05/src/conflict/hello.txt
-    Automatic merge failed; fix conflicts and then commit the result.
-    ```
-
-    If you now inspect the contents of `hello.txt`, you should see something like
-
-    ```text
-    <<<<<<< HEAD
-    Hello, I am a 61B student!
-    =======
-    Hello, I am NOT a 61A student!
-    >>>>>>> 538409c19b3d2dafccd3e8b0c16449662e78de04
-    ```
-
-    Don't panic! This is a common occurrence, especially
-    when working with others. Git does its best to integrate your changes
-    ("61B") with the remote's changes ("NOT 61A"), but it isn't always smart
-    enough to figure out how to do so automatically. In this case, git has
-    identified a conflict in `hello.txt`, and doesn't know which version to keep.
-    We'll learn how to resolve this in a bit, but **don't edit anything yet**!
-
-    The text between `<<<<<<< HEAD` and `=======` is the version of the file in
-    your "HEAD" commit, git's shorthand for your most recent local commit. The
-    text between `=======` and `>>>>>>> 538409c...` is the version of the file
-    in the remote's commit `538409c...`. These two versions are incompatible, so
-    git edits our file with these strange conflict markers to let us know that
-    we need to resolve the conflict manually.
-
-    In this case, the conflict involves the entire file, but in practice,
-    conflicts will only involve a small portion of the conflicted file. Git is
-    smart enough to only mark the lines that are in conflict and leave the rest
-    of the file alone.
-
-    At this point, the output of `git status` should look similar to this:
-
-    ```sh
-    $ git status
-    On branch main
-    Your branch and 'origin/main' have diverged,
-    and have 1 and 1 different commits each, respectively.
-        (use "git pull" to merge the remote branch into yours)
-
-    You have unmerged paths.
-        (fix conflicts and run "git commit")
-        (use "git merge --abort" to abort the merge)
-
-    Unmerged paths:
-        (use "git add <file>..." to mark resolution)
-            both modified:   src/conflict/hello.txt
-    ```
-
-9. If you run `tests/conflict/ConflictTest`, you should now pass
-   `testConflictExists`. You will still be failing `testConflictResolved`, but
-   that's okay - we'll come back to it later.
-
-   (If you are failing `testConflictExists` but are sure you've done everything
-   correctly, refer to the [FAQ](faq.md).)
-
-10. Usually, you would resolve the merge conflict first, and then commit the
-    result. However, for this lab, we want to make sure you actually got a merge
-    conflict! Run the following commands in the terminal, from the `lab05/` directory:
-
-    ```sh
-    $ git add src/conflict/hello.txt
-    $ git commit -m "Merge conflict still present"
-    ```
-
-11. You should now `git push` as usual and submit your code to Gradescope. If
-    everything goes smoothly, your submission should tell you some hidden
-    directions on exactly how to resolve the merge conflict and proceed with the
-    assignment.
-
-12. Resolve the conflict using the directions stated by the autograder. You
-    should now be passing all tests in `ConflictTest`.
-
-{% include alert.html type="task" content="
-**Task**: Carefully follow the steps above to introduce and resolve a merge conflict.
-" %}
-
-Congratulations, you've successfully resolved a merge conflict! In real-world
-code, the merge conflicts you encounter may be much more complex, but the
-general idea is the same - your changes are incompatible with the remote's
-changes, and you need to reconcile them manually.
-
-## Another Debugging Puzzle?!
-
-In Lab 02, we learned how to use the IntelliJ debugger. In this lab, we'll learn
-some more handy features of the debugger, and use it to solve a puzzle!
-
-{% include alert.html type="danger" content="Do not modify `Puzzle.java`!" %}
-
-{% include alert.html type="warning" content="These exercises will involve working
+{% include alert.html type="warning" content="**NOTE**: These exercises will involve working
 with code that may seem quite cryptic and unfamiliar. Enforce the abstraction
 barriers and try to find the answers without having to understand exactly what
 is going on!" %}
@@ -541,11 +354,11 @@ breakpoint.
 
 From this, we can see that IntelliJ is hinting that the problem may be in
 `src/puzzle/answer.txt`. By inspecting that file, poking around `Puzzle.java`,
-and using other debugging techniques you learned in Lab 02, can you figure out what's
-going on?
+and using other debugging techniques you learned in Lab 02 and this lab, can 
+you figure out what's going on?
 
 {% include alert.html type="task" content="
-**Task**: Fix `answer.txt` so that `Puzzle` no longer throws a `RuntimeException`.
+**TASK**: Fix `answer.txt` so that `Puzzle` no longer throws a `RuntimeException`.
 
 Feel free to look at the hint if you're stuck!
 " %}
@@ -573,7 +386,7 @@ correct, `Puzzle.java` will no longer error and you should pass `testPuzzle`
 inside of `tests/puzzle/PuzzleTest`.
 
 {% include alert.html type="task" content="
-**Task**: Replace the value in `answer.txt` so that `Puzzle` no longer errors.
+**TASK**: Replace the value in `answer.txt` so that `Puzzle` no longer errors.
 " %}
 
 ### Expressions and Watches
@@ -606,47 +419,28 @@ have to re-evaluate the expression for the debugger to tell me what it was!
 
 ![Evaluate Expression 1717](img/evaluate-expression-1717.png)
 
-### A Secret Challenge
-
-At this point, you should have one more failing test, `testSecret` (there is no
-associated Java file for this test). We're being intentionally vague and not
-telling you what `testSecret` does. In the real world, you often need to figure
-out what poorly documented code is doing, and the debugging skills you've
-learned over the past three labs will prove immensely helpful!
-
-While you're debugging, you may find the exception breakpoint from the last
-exercise to be quite annoying. Feel free to open up the advanced breakpoints
-window again to disable or delete it.
-
-{% include alert.html type="warning" content="
-**Note**: As a reminder, you don't necessarily need to know what's going on with
-the code - embrace the beauty of abstraction and let the tools work their magic!
-" %}
-
-{% include alert.html type="task" content="
-**Task**: Debug `testSecret` directly (in `PuzzleTest`) and figure out what to put in `secret.txt` such that you pass the test.
-
-**Hint**: Watches and the expression evaluator will likely be helpful here!
-" %}
+There won't be an associated exercise with this part, but we think it would be a 
+useful thing to know about!
 
 ---
 
-Once you're done with that, congratulations, you have finished Lab 05!
+Congratulations, you've made it to the end of Lab03!
 
 ## Deliverables and Scoring
 
-The lab is out of 256 points. There are no hidden tests on Gradescope. If you
-pass all the local tests, you will receive full credit on the lab (unless you
-modified things you weren't supposed to modify).
+The lab is out of 5 points. There are no hidden tests on Gradescope. If you
+pass all the local tests for `Adventure`, you will receive full credit on the 
+lab (unless you modified things you weren't supposed to modify). To reiterate, 
+"Another Debugging Puzzle?!" is optional for this lab. The final deliverables are: 
 
-- Create a merge conflict in `conflict/hello.txt` (64 pts)
-- Resolve the merge conflict appropriately in `conflict/hello.txt` (64 pts)
-- Find a correct value for `puzzle/answer.txt` (64 pts)
-- Find a correct value for `puzzle/secret.txt` (64 pts)
+- `BeeCountingStage` (1.25 pts)
+- `SpeciesListStage` (1.25 pts)
+- `PalindromeStage` (1.25 pts)
+- `MachineStage` (1.25 pts)
 
 ## Submission
 
-Just as you did for the previous assignments, add, commit, then push your Lab 05
+Just as you did for the previous assignments, add, commit, then push your Lab 03
 code to GitHub. Then, submit to Gradescope to test your code. If you need a
 refresher, check out the instructions in the
 [Lab 1 spec](/materials/lab/lab01/index.md#saving-your-work-using-git-and-github)

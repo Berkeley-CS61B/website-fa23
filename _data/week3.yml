@@ -42,7 +42,7 @@
     #       released: false
     #       link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
   labs:
-    - name: Advanced Git and Debugging (due 09/08)
+    - name: Advanced Git and Debugging (due 09/11)
       link: materials/lab/lab03
       resource_links:
         - name: slides
