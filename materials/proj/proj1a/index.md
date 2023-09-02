@@ -178,6 +178,9 @@ However, this creates an error. In order for a `LinkedListDeque` to be a
 the red squiggle, and click the "implement methods" button when the error
 message box pops up. This will autogenerate the method headers for you.
 
+The below GIF goes through these steps:
+
+![Proj 1A Setup](img/proj1a-setup.gif)
 
 Lastly, you should create an empty constructor. To do this, add the following
 code to your file, leaving the constructor blank for now.
@@ -186,10 +189,6 @@ code to your file, leaving the constructor blank for now.
 public LinkedListDeque() {
 }
 ```
-
-The below GIF goes through these steps:
-
-![Proj 1A Setup](img/proj1a-setup.gif)
 
 Note: You can also generate the constructor by clicking "Code", then "Generate"
 then "Constructor", though I prefer the typing the code yourself approach.
