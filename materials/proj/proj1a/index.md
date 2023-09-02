@@ -220,7 +220,7 @@ This section assumes you have watched and fully digested the lectures up to
 Start by selecting a "topology," or structure that you'd like to represent the
 empty list. The possible choices discussed in lecture are:
 
-- The empty list is represented by a null value. [See this slide.](https://docs.google.com/presentation/d/10JSf8_Cut4kodFP3MxoPovUVjTGWZ6YFyIuT95NyqTk/edit#slide=id.g829fe3f43_0_146).
+- The empty list is represented by a null value. [See this slide](https://docs.google.com/presentation/d/10JSf8_Cut4kodFP3MxoPovUVjTGWZ6YFyIuT95NyqTk/edit#slide=id.g829fe3f43_0_146).
 - The empty list is represented by two sentinel nodes that point at each
   other. The first sentinel node is pointed to by a variable called `first`,
   and the last sentinel node is pointed to by a variable called `last`.
@@ -251,7 +251,7 @@ Java Visualizer to verify that your created object matches the topology you
 chose.
 
 {% include alert.html type="task" content="
-**Task**: Pick a doubly-linked list topology, and implement the constructor.
+**Task**: Pick a doubly-linked list topology, and implement the constructor. Implement a Node Class. (You would also probably need some instance variables.)
 
 ---
 
@@ -302,7 +302,7 @@ as you change your code. Imagine that you made some minor but uncertain change
 to `addLast`. To verify that you didn't break anything you'd have to go back
 and do that whole process again. Yuck.
 
-(Also, we have just under 1700 students! No way we're doing that to grade
+(Also, we have just under 1300 students! No way we're doing that to grade
 everyone's work.)
 
 What we really want are some automated tests. But unfortunately there's no easy
@@ -318,7 +318,11 @@ then 9, then 10. If printed in Java, it'd show up as `[3, 5, 9, 10]`.
 
 Write the `toList` method. The first line of the method should be something
 like `List<T> returnList = new ArrayList<>()`. **This is one location where you
-are allowed to use a Java data structure.**
+are allowed to use a Java data structure.** You can import ArrayList by using IntelliJ's auto import or copying this statement:
+
+```java
+import java.util.ArrayList; // import the ArrayList class
+```
 
 To verify that your `toList` method is working correctly, you can run the tests
 in `LinkedListDequeTest`. If you pass all the tests, you've established a firm
