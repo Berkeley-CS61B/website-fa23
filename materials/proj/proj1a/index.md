@@ -490,7 +490,7 @@ they fail. Then, implement the methods.
 
 Write a test for the `get` method. Make sure to test the cases where `get`
 receives an invalid argument, e.g. `get(28723)` when the `Deque` only has 1
-item, or a negative index. In these cases `get` should return `null`. You should disregard the skeleton code comments for `Deque.java` and take spec as your primary point.
+item, or a negative index. In these cases `get` should return `null`.
 
 `get` must use iteration.
 
