@@ -567,4 +567,4 @@ of which you must implement _completely correctly_ to receive credit.
 
 Additionally, there is a **test coverage (10%)** component. We will run your
 tests against a staff solution, and check how many scenarios and edge cases are
-tested. You can receive partial credit for this component.
+tested. You can receive partial credit for this component. You can find the list of scenarios here.
