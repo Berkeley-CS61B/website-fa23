@@ -32,3 +32,7 @@ Out of bounds.
 ##### Q: My tests pass locally but Gradescope is telling me "NullPointerException: Cannot invoke java.lang.Iterable.iterator() because this.actual is null"
 
 This may be caused by returning null in your `toList` method. Make sure that toList always returns an `ArrayList`, even if the Deque is empty.
+
+##### Q: I am receiving style error saying: "Class member field 'val' may not be public"
+
+Try using `class ClassName` instead of `public class ClassName`
