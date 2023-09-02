@@ -36,3 +36,5 @@ This may be caused by returning null in your `toList` method. Make sure that toL
 ##### Q: I am receiving style error saying: "Class member field 'val' may not be public"
 
 Try using `class ClassName` instead of `public class ClassName`
+
+## Make sure to use your `Deque` interface rather than `java.util.Deque`
