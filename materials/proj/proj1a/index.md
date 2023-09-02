@@ -187,8 +187,9 @@ public LinkedListDeque() {
 }
 ```
 
-You can also watch [this](https://www.youtube.com/watch?v=pjrsaYGa8x0) video.
-This video follows slightly different steps, but ends up with the same class.
+The below GIF goes through these steps:
+
+![Proj 1A Setup](img/proj1a-setup.gif)
 
 Note: You can also generate the constructor by clicking "Code", then "Generate"
 then "Constructor", though I prefer the typing the code yourself approach.
