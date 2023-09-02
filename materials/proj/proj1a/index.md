@@ -187,8 +187,9 @@ public LinkedListDeque() {
 }
 ```
 
-You can also watch [this](https://www.youtube.com/watch?v=pjrsaYGa8x0) video.
-This video follows slightly different steps, but ends up with the same class.
+The below GIF goes through these steps:
+
+![Proj 1A Setup](img/proj1a-setup.gif)
 
 Note: You can also generate the constructor by clicking "Code", then "Generate"
 then "Constructor", though I prefer the typing the code yourself approach.
@@ -544,8 +545,7 @@ Once you've written local tests and passed them, try submitting to the
 autograder. You may or may not pass everything.
 
 - If you fail any of the coverage tests, it means that there is a case that
-  your local tests did not cover. The autograder test name and the test
-  coverage component will give you hints towards the missing case.
+  your local tests did not cover. [Here](./flags.md) is a list of test cases that you should cover.
 - If you fail any of the timing tests, it means that your implementation does
   not meet the timing constraints described above.
 
@@ -566,4 +566,4 @@ of which you must implement _completely correctly_ to receive credit.
 
 Additionally, there is a **test coverage (10%)** component. We will run your
 tests against a staff solution, and check how many scenarios and edge cases are
-tested. You can receive partial credit for this component.
+tested. You can receive partial credit for this component. You can find the list of scenarios [here](./flags.md).
