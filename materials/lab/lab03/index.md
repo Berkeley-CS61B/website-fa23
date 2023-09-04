@@ -39,8 +39,8 @@ below (note that all the tests will be failing at this point). To pass the entir
 show that you passed that individual stage). **The stages are meant to be completed in order
 of the spec.**
 
-We encourage you to run through the game for each stage you complete to see how they're all 
-related to the game. Don't forget to commit frequently to save your progress! 
+We encourage you to run through the game for each stage you complete to see how they’re all 
+related to the game. Don’t forget to commit frequently to save your progress!
 
 ### Reading Stack Traces
 
