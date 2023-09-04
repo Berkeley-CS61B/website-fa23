@@ -34,7 +34,13 @@ debugging is supposed to do (if you run into an error, that's normal).
 
 Then, after you’ve run the game, run the tests in `tests/adventure/AdventureGameTests`. 
 They should fail on `BeeCountingStage` which will lead you into debugging the first error
-below (note that all the tests will be failing at this point).
+below (note that all the tests will be failing at this point). To pass the entirety of 
+`AdventureGameTests`, you'll need to fix all the individual stage tests (fixing one stage will 
+show that you passed that individual stage). **The stages are meant to be completed in order
+of the spec.**
+
+We encourage you to run through the game for each stage you complete to see how they're all 
+related to the game. Don't forget to commit frequently to save your progress! 
 
 ### Reading Stack Traces
 
@@ -90,7 +96,7 @@ in `AdventureGameTests`.
 
 {% include alert.html type="task" content="
 **TASK**: Fix the `NullPointerException` that occurs in `BeeCountingStage` by
-analyzing the stack trace. You can ignore the lines with `<XX internal calls>`;
+analyzing the stack trace. You can ignore the lines with `<XX internal lines>`;
 these are from test framework or library code and usually won't help you find
 errors.
 " %}
@@ -219,8 +225,7 @@ being met?
 
 </summary>
 
-Take a closer look at `reverseList` through the Java Visualizer and its output. 
-What do you notice? 
+In conjunction with the first hint, try using the Java visualizer! 
 
 </details>
 
@@ -443,6 +448,6 @@ lab (unless you modified things you weren't supposed to modify). To reiterate,
 Just as you did for the previous assignments, add, commit, then push your Lab 03
 code to GitHub. Then, submit to Gradescope to test your code. If you need a
 refresher, check out the instructions in the
-[Lab 1 spec](/materials/lab/lab01/index.md#saving-your-work-using-git-and-github)
+[Lab 1 spec](../lab01/index.md) 
 and the
-[Assignment Workflow Guide](/materials/guides/assignment-workflow/index.md#submitting-to-gradescope).
+[Assignment Workflow Guide](../../guides/assignment-workflow/index.md#submitting-to-gradescope).
