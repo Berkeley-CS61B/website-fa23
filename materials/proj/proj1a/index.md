@@ -2,12 +2,12 @@
 layout: page # The HTML template to use to render this page.
 title: "Project 1A: LinkedListDeque" # Title of page.
 categories: proj
-released: false # you have to also change this to true to release.
+released: true # you have to also change this to true to release.
 toc:
   h_max: 4
 ---
 
-## Due: February 6th
+Due: September 11th
 
 {: .no_toc}
 
@@ -43,7 +43,7 @@ the DLList lecture, Lecture 5.
 
 {% include alert.html type="warning" content="
 For this project, you must work alone! Please carefully read the
-[Policy on Collaboration and Cheating](/about.md#project-collaboration-policy)
+[Policy on Collaboration and Cheating](../../../about.md#project-collaboration-policy)
 to see what this means exactly. In particular, do not look for solutions online.
 " %}
 
@@ -57,7 +57,7 @@ structures outside of tests, and we will clearly say where.
 ### Style
 
 Starting with this project, **we will be enforcing style**. You must follow the
-[style guide](/materials/guides/style/index.md), or you will be penalized on the
+[style guide](../../guides/style/index.md), or you will be penalized on the
 autograder.
 
 You can and should check your style locally with the CS 61B plugin. **We will
@@ -82,7 +82,7 @@ proj1a
 ```
 
 If you get some sort of error, STOP and either figure it out by carefully
-reading the [git WTFs](/materials/guides/git/wtfs/index.md) or seek help at OH
+reading the [git WTFs](../../guides/git/wtfs/index.md) or seek help at OH
 or Ed. You'll potentially save yourself a lot of trouble vs. guess-and-check
 with git commands. If you find yourself trying to use commands recommended by
 Google like `force push`,
@@ -152,15 +152,9 @@ Start by creating a file called `LinkedListDeque`. This file should be created
 in the `proj1a/src` directory. To do this, right-click on the `src` directory,
 navigate to "New -> Java Class", and give it the name `LinkedListDeque`.
 
-Create a `main` method in the class and add exactly this code:
-
-```java
-public static void main(String[] args) {
-  Deque<Integer> lld = new LinkedListDeque<>();
-}
-```
-
-You should see a squiggly red line underneath the `<>`. To fix this, you should
+We want our `LinkedListDeque` to be able to hold several different types. For
+example, a `LinkedListDeque<String>` holds `String`s and a
+`LinkedListDeque<Integer>` holds `Integer`s. To enable this, you should
 edit the declaration of your class so that it reads:
 
 ```java
@@ -171,19 +165,22 @@ Recall from lecture that it doesn't actually matter if we use `T` or some other
 string like `LinkedListDeque<Glerp>`. However, we recommend using `<T>` for
 consistency with other Java code.
 
-Now that we've fixed this problem, you'll see that the entire line declaring
-your new Deque is underlined. Press `Alt+Enter` (Windows / Linux) or `⌥ ⏎` /
-`Option+Enter` (Mac) and you'll see a list of options. Select "Make
-'LinkedListDeque' implement 'Deque'" and press enter. You'll see a bunch of
-methods appear, all of which need filling in.
+We also want to tell Java that every `LinkedListDeque` is a `Deque`, so that
+users can write code like `Deque<String> lld1 = new LinkedListDeque<>();`. 
+To enable this, change the declaration of your class so that it reads:
 
-If you look carefully, you'll also see that our class declaration now ends with
-`implements Deque<Integer>`. This is a slight mistake on IntelliJ's part. It
-assumed that a `LinkedListDeque` always represents a `Deque` of integers. To
-fix this, right-click on the word "Integer", then click "Refactor", then
-"Type Migration". Replace `java.lang.Integer` with `T`, then click "Refactor",
-and all of these erroneous usages of `Integer` will be replaced by `T`. If you
-picked a string other than `T` you'll need to use that instead.
+```java
+public class LinkedListDeque<T> implements Deque<T>
+```
+
+However, this creates an error. In order for a `LinkedListDeque` to be a 
+`Deque`, it needs to implement all the `Deque` methods. However your mouse over
+the red squiggle, and click the "implement methods" button when the error
+message box pops up. This will autogenerate the method headers for you.
+
+The below GIF goes through these steps:
+
+![Proj 1A Setup](img/proj1a-setup.gif)
 
 Lastly, you should create an empty constructor. To do this, add the following
 code to your file, leaving the constructor blank for now.
@@ -192,9 +189,6 @@ code to your file, leaving the constructor blank for now.
 public LinkedListDeque() {
 }
 ```
-
-You can also watch [this](https://www.youtube.com/watch?v=pjrsaYGa8x0) video
-that goes through the steps mentioned in the spec.
 
 Note: You can also generate the constructor by clicking "Code", then "Generate"
 then "Constructor", though I prefer the typing the code yourself approach.
@@ -226,7 +220,7 @@ This section assumes you have watched and fully digested the lectures up to
 Start by selecting a "topology," or structure that you'd like to represent the
 empty list. The possible choices discussed in lecture are:
 
-- The empty list is represented by a null value. [See this slide.](https://docs.google.com/presentation/d/10JSf8_Cut4kodFP3MxoPovUVjTGWZ6YFyIuT95NyqTk/edit#slide=id.g829fe3f43_0_146).
+- The empty list is represented by a null value. [See this slide](https://docs.google.com/presentation/d/10JSf8_Cut4kodFP3MxoPovUVjTGWZ6YFyIuT95NyqTk/edit#slide=id.g829fe3f43_0_146).
 - The empty list is represented by two sentinel nodes that point at each
   other. The first sentinel node is pointed to by a variable called `first`,
   and the last sentinel node is pointed to by a variable called `last`.
@@ -250,14 +244,14 @@ necessary fields for a doubly linked node. Additionally, you should only have
 one node class, and this node class **must** be an inner, or nested class
 inside `LinkedListDeque`.
 
-When you're done, set a breakpoint on the line where you create a
-`LinkedListDeque` in the `main` method. Run your program in debug mode, and use
+When you're done, set a breakpoint on the first line of `addFirstTestBasic`.
+Run the test in debug mode, and use
 the Step Over (![step-over](img/step-over.png){: .inline}) feature. Use the
 Java Visualizer to verify that your created object matches the topology you
 chose.
 
 {% include alert.html type="task" content="
-**Task**: Pick a doubly-linked list topology, and implement the constructor.
+**Task**: Pick a doubly-linked list topology, and implement the constructor. Implement a Node Class. (You would also probably need some instance variables.)
 
 ---
 
@@ -283,16 +277,14 @@ operation must take \"constant time,\" that is, adding an element should take
 approximately the same amount of time no matter how large the deque is. This
 means that you cannot use loops that iterate through all / most elements of the deque.
 
-Now fill in the `addFirst` method. Add some `addFirst` calls to your
-`main` method and use the debugger and visualizer to verify that your code is
-working correctly.
-
-Fill in the `addLast` method, and again add some `addLast` calls and use
-the visualizer to verify correctness.
+Fill in the `addFirst` and `addLast` methods. Then, debug
+`addFirstAndAddLastTest`. This test will not pass because you haven't written
+`toList` yet, but you can use the debugger and visualizer to verify that
+your code is working correctly.
 
 {% include alert.html type="task" content="
 **Task**: Implement `addFirst` and `addLast`, and verify that they are correct
-using `main` and the Java visualizer.
+using `addFirstAndAddLastTest` and the Java visualizer.
 
 ---
 
@@ -308,7 +300,7 @@ as you change your code. Imagine that you made some minor but uncertain change
 to `addLast`. To verify that you didn't break anything you'd have to go back
 and do that whole process again. Yuck.
 
-(Also, we have just under 1700 students! No way we're doing that to grade
+(Also, we have just under 1300 students! No way we're doing that to grade
 everyone's work.)
 
 What we really want are some automated tests. But unfortunately there's no easy
@@ -324,7 +316,11 @@ then 9, then 10. If printed in Java, it'd show up as `[3, 5, 9, 10]`.
 
 Write the `toList` method. The first line of the method should be something
 like `List<T> returnList = new ArrayList<>()`. **This is one location where you
-are allowed to use a Java data structure.**
+are allowed to use a Java data structure.** You can import ArrayList by using IntelliJ's auto import or copying this statement:
+
+```java
+import java.util.ArrayList; // import the ArrayList class
+```
 
 To verify that your `toList` method is working correctly, you can run the tests
 in `LinkedListDequeTest`. If you pass all the tests, you've established a firm
@@ -496,7 +492,7 @@ they fail. Then, implement the methods.
 
 Write a test for the `get` method. Make sure to test the cases where `get`
 receives an invalid argument, e.g. `get(28723)` when the `Deque` only has 1
-item, or a negative index. In these cases `get` should return `null`. You should disregard the skeleton code comments for `Deque.java` and take spec as your primary point.
+item, or a negative index. In these cases `get` should return `null`.
 
 `get` must use iteration.
 
@@ -546,8 +542,7 @@ Once you've written local tests and passed them, try submitting to the
 autograder. You may or may not pass everything.
 
 - If you fail any of the coverage tests, it means that there is a case that
-  your local tests did not cover. The autograder test name and the test
-  coverage component will give you hints towards the missing case.
+  your local tests did not cover. [Here](./flags.md) is a list of test cases that you should cover.
 - If you fail any of the timing tests, it means that your implementation does
   not meet the timing constraints described above.
 
@@ -563,8 +558,9 @@ of which you must implement _completely correctly_ to receive credit.
     add methods working.
 4.  **`get` (10%)**: Correctly implement `get`.
 5.  **`getRecursive` (5%)**: Correctly implement `getRecursive`.
-6.  **Removing (40%)**: Correctly implement `removeFirst` and `removeLast`.
+6.  **Removing (30%)**: Correctly implement `removeFirst` and `removeLast`.
+6.  **Integration (10%)**: Pass a integration test suite that randomly calls all the methods. 
 
 Additionally, there is a **test coverage (10%)** component. We will run your
 tests against a staff solution, and check how many scenarios and edge cases are
-tested. You can receive partial credit for this component.
+tested. You can receive partial credit for this component. You can find the list of scenarios [here](./flags.md).

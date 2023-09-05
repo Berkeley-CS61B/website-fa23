@@ -173,8 +173,8 @@
           link: https://docs.google.com/presentation/d/1MQ_ZyCoA2cYOIkF-JRbGQchZ734m7qKyRYfwtQ7kquQ
         #- name: guide
         #  link: /materials/lectures/lec6
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=zStk6ebKDNk"
       reading: >
         [2.3](https://joshhug.gitbooks.io/hug61b/content/chap2/chap23.html), [2.4](https://joshhug.gitbooks.io/hug61b/content/chap2/chap24.html)
       assignments:
@@ -227,7 +227,7 @@
     #       released: false
     #       link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
   labs:
-    - name: Advanced Git and Debugging (due 09/08)
+    - name: Advanced Git and Debugging (due 09/11)
       link: materials/lab/lab03
       resource_links:
         - name: slides
@@ -240,7 +240,7 @@
       assignments:
         - title: "Project 1A: Deques (due 9/11)"
           link: /materials/proj/proj1a
-          released: false
+          released: true
           rows: 2 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-06
@@ -275,7 +275,7 @@
       assignments:
         - title: "Project 1A (due 9/11)"
           link: /materials/proj/proj1a
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
         - title: "Project 1B (due 9/18)"

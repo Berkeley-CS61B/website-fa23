@@ -37,7 +37,7 @@ IMG_ID_PATTERN = r'((?:\w|-){33})'
 
 long_line = '-' * 50
 
-csv_file_name = "_data/staff.csv"
+csv_file_name = "staff.csv"
 # print("Now we will ask for the column headers.")
 # print(long_line)
 
@@ -81,12 +81,12 @@ with open(csv_file_name, newline='') as csvfile:
             ais.append(staff_member)
 
         hyphenated_name = _name.lower().replace(' ', '-')
-        img_path = f'assets/img/staff/{hyphenated_name}-1.jpg'
+        img_path = f'../assets/img/staff/{hyphenated_name}-1.jpg'
 
         staff_member['pic1'] = img_path
         staff_member['pic2'] = img_path
 
-        if os.path.exists(f'../{img_path}'):
+        if os.path.exists(f'{img_path}'):
             continue
 
         if re.findall(IMG_ID_PATTERN, gdrive_link) == []:
@@ -96,7 +96,7 @@ with open(csv_file_name, newline='') as csvfile:
 
         gdd.download_file_from_google_drive(
             file_id=img_id,
-            dest_path=f'../{img_path}',
+            dest_path=f'{img_path}',
             overwrite=True,
         )
 
@@ -107,12 +107,12 @@ ais.sort(key=lambda row: row['name'])
 tas_file_contents = dump(tas)
 tutors_file_contents = dump(tutors)
 ai_file_contents = dump(ais)
-print(tas_file_contents)
-with open('_data/tas.yml', 'w') as file:
+
+with open('tas.yml', 'w') as file:
     file.write(tas_file_contents)
 
-with open('_data/tutors.yml', 'w') as file:
+with open('tutors.yml', 'w') as file:
     file.write(tutors_file_contents)
 
-with open('_data/ais.yml', 'w') as file:
+with open('ais.yml', 'w') as file:
     file.write(ai_file_contents)
