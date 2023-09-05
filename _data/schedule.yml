@@ -188,31 +188,31 @@
   rows: 3
   discussions:
     - name: Scope, Static, Linked Lists, Arrays
-      released: false
-      link: "https://drive.google.com/file/d/1qiF-aEYKl6-Y8gsf_SfHSjlgQ9SlLHTb/view?usp=sharing"
+      released: true
+      link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/regular/regular03.pdf
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1b9-OZnczWknxe9huqJhUkjIjhEqNuF_e/view?usp=sharing"
+          link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/regular/regular03sol.pdf
         - name: video
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpemggJcC8s64Om7XBMmmWZ"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1AyMB8SSXx3HzAkRDsny3cgcrh-KtD60F70swxMQHTtY/edit?usp=sharing"
+          released: true
+          link: https://docs.google.com/presentation/d/1H00oSJqEDGCClrD33Pn4f4INuvQa0IVFoBtpL0vxFgY/edit#slide=id.p
     - name: Arrays, Linked Lists (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/14MsmrUNXnp-aiJVosQYTbMusnt2rrgeH/view?usp=sharing"
+      released: true
+      link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/examlevel/examlevel03.pdf
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/14SvSDnM1oGaAT6Dgw9eU6Z_3syR6G1WJ/view?usp=sharing"
+          link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/examlevel/examlevel03sol.pdf
         - name: video
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRpPzSP6eDAJLsqxHbAqhgkX"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1VjmwgTGgH5bWsBoPePlOxJrONgHBAz3_Wi1RRfT_XHk/edit?usp=share_link"
+          released: true
+          link: https://docs.google.com/presentation/d/1IdFLXDWWU8kzBEnct8MRAGydOPG2fdeDMJpcc6AciCc/edit#slide=id.p
     # - name: Exam Review Session (2/3)
     #   released: false
     #   link: "https://drive.google.com/file/d/1koTjUljHHI_ojyw5Q_DqBYhw6nnl7kh5/view?usp=sharing"
