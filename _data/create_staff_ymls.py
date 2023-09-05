@@ -86,7 +86,7 @@ with open(csv_file_name, newline='') as csvfile:
         staff_member['pic1'] = img_path
         staff_member['pic2'] = img_path
 
-        if os.path.exists(f'../{img_path}'):
+        if os.path.exists(f'{img_path}'):
             continue
 
         if re.findall(IMG_ID_PATTERN, gdrive_link) == []:
