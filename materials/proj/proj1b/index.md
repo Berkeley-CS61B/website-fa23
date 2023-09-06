@@ -334,6 +334,14 @@ the coverage of your unit tests for Project 1B. You might find some of your
 tests from Project 1A to be reusable in this project; don't be afraid to
 copy them over!
 
+
+### Suggestions
+
+- Try to get everything working for a fixed-size array first. This would be good point to start to familiarize yourself.
+- Once you are confident working solution for a fixed-size array, try resizing - consider having a helper method for it!
+- **DO NOT** modify `Deque` interface
+
+
 ### Submit to the Autograder
 
 Once you've written local tests and passed them, try submitting to the
@@ -367,10 +375,3 @@ Additionally, there is a **test coverage (10%)** component. We will run your
 tests against a staff solution, and check how many scenarios and edge cases are
 tested. You can receive partial credit for this component.
 
-### Spec Changes to Make for Fall 2023 (Staff Reference Only)
-
-1. Suggest getting everything working for a fixed size array first.
-2. `get` should come before `toList`.
-3. Existence of main methods is confusing. Convert into telling them to write a test file (otherwise they try to write their tests in main).
-4. Should we suggest to students explicitly that they write resize as a helper method? Same with nextValue. [some sort of hint at least sounds good]
-5. Don't modify the Deque interface!
