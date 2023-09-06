@@ -109,24 +109,21 @@ Start by creating a file called `ArrayDeque`. This file should be created
 in the `proj1b/src` directory. To do this, right-click on the `src` directory,
 navigate to "New -> Java Class", and give it the name `ArrayDeque`.
 
-Create a `main` method in the class and add exactly this code:
+Just like you did in Project 1A We want our `ArrayDeque` to be able to hold several different types. To enable this, you should edit the declaration of your class so that it reads:
 
 ```java
-public static void main(String[] args) {
-  Deque<Integer> ad = new ArrayDeque<>();
-}
-```
-
-You should see a squiggly red line underneath the `<>`. To fix this, you should
-edit the declaration of your class so that it reads:
-
-```java
-public class ArrayDeque<T> implements Deque<T>
+public class ArrayDeque<T>
 ```
 
 Recall from lecture that it doesn't actually matter if we use `T` or some other
 string like `ArrayDeque<Glerp>`. However, we recommend using `<T>` for
 consistency with other Java code.
+
+We also want to tell Java that every `ArrayDeque` is a `Deque`, so that users can write code like `Deque<String> lld1 = new ArrayDeque<>();`. To enable this, change the declaration of your class so that it reads:
+
+```java
+public class ArrayDeque<T> implements Deque<T>
+```
 
 Once you've done this step, you'll likely see a squiggly red line under the
 entire class declaration. This is because you said that your class implements
@@ -138,6 +135,8 @@ IntelliJ pop-up appears, click the "Implement methods" button. Ensure that all t
 methods in the list are highlighted, and click "OK". Now, your class should
 be filled with a bunch of empty method declarations. These are the methods that you'll
 need to implement for this project!
+
+
 
 Lastly, you should create an empty constructor. To do this, add the following
 code to your file, leaving the constructor blank for now.
@@ -222,6 +221,31 @@ using `main` and the Java visualizer. Make sure to add enough elements so that
 your backing array resizes! For more info on resizing, check out [these slides](https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit#slide=id.g625dc7e36_0943).
 " %}
 
+### `get`
+
+Unlike in `LinkedListDeque`, this method must take **constant time**.
+
+As before, `get` should return `null` when the index is invalid (too large or
+negative). You should disregard the skeleton code comments for `Deque.java`
+for this case.
+
+{% include alert.html type="task" content="
+**Task**: **After you've written tests and verified that they fail**, implement
+`get`.
+" %}
+
+
+### `isEmpty` and `size`
+
+These two methods must take **constant time**. That is, the time it takes to for
+either method to finish execution should not depend on how many elements are in
+the deque.
+
+{% include alert.html type="task" content="
+**Task**: **Write tests** for the `isEmpty` and `size` methods, and check that
+they fail. Then, implement the methods.
+" %}
+
 ### `toList`
 
 `toList` will continue to be useful to test your `Deque`.
@@ -236,10 +260,16 @@ Some later methods might seem easy if you use `toList`.
 checks for this.
 " %}
 
+{% include alert.html type="warning" content="
+**Hint** One of the other methods may be helpful for implementing this method.
+" %}
+
 {% include alert.html type="task" content="
 **Task**: Implement `toList`. You are not given tests this time, so you will
 need to write them!
 " %}
+
+
 
 All that's left is to test and implement all the remaining methods. For the
 rest of this project, we'll describe our suggested steps at a high level. We
@@ -248,29 +278,7 @@ In particular, **write tests before you implement the method's functionality.**
 This is called "test-driven development," and helps ensure that you know what
 your methods are supposed to do before you do them.
 
-### `isEmpty` and `size`
 
-These two methods must take **constant time**. That is, the time it takes to for
-either method to finish execution should not depend on how many elements are in
-the deque.
-
-{% include alert.html type="task" content="
-**Task**: **Write tests** for the `isEmpty` and `size` methods, and check that
-they fail. Then, implement the methods.
-" %}
-
-### `get`
-
-Unlike in `LinkedListDeque`, this method must take **constant time**.
-
-As before, `get` should return `null` when the index is invalid (too large or
-negative). You should disregard the skeleton code comments for `Deque.java`
-for this case.
-
-{% include alert.html type="task" content="
-**Task**: **After you've written tests and verified that they fail**, implement
-`get`.
-" %}
 
 ### `removeFirst` and `removeLast`
 
@@ -278,6 +286,17 @@ Lastly, write some tests that test the behavior of `removeFirst` and
 `removeLast`, and again ensure that the tests fail.
 
 Do not maintain references to items that are no longer in the deque.
+
+#### `getRecursive`
+
+Although we are not using a linked list anymore for this project, it is still required to implement this method to keep consistent with our interface.
+This method technically shouldn't be in the interface, but it's here to make testing nice. Gets an element, recursively. Returns null if index is out of bounds. Does not alter the deque.
+
+{% include alert.html type="task" content="
+**Task**: implement `getRecursive`.
+" %}
+
+
 
 #### Resizing Down
 
