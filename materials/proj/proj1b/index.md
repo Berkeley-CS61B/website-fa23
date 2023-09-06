@@ -2,7 +2,7 @@
 layout: page # The HTML template to use to render this page.
 title: "Project 1B: ArrayDeque" # Title of page.
 categories: proj
-released: false
+released: true
 toc:
   h_max: 4
 ---
