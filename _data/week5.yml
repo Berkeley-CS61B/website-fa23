@@ -41,13 +41,15 @@
       released: false
   days:
     - day: 2023-09-18
-      lecture_topic: Iterators, Object Methods
-      class: outdated
+      lecture_topic: "Inheritance 4: Iterators, Object Methods"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD64f0vO7ouRCX1cPEcR0XqW
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrvh9PM0gK9fm7VAD0HdijJ
         - name: slides
-          link: https://docs.google.com/presentation/d/1GufAGPM358-PYaVVvlT3UO5kcaI2VfxufzSe5e-hVXc
+          link: https://docs.google.com/presentation/d/1kOdhZSeCUSUwX8VwF8xNuFyXqp9OR8sfN2ZZWNxiCUU
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [Ch 12](https://cs61b-2.gitbook.io/cs61b-textbook/12.-exceptions-iterators-object-methods)
       assignments:

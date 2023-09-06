@@ -60,31 +60,35 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-06
       lecture_topic: Testing
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/Dpe3FPRfaFE
-        - name: bonus video
-          link: https://youtu.be/1MzbwZwos6Q
-        - name: slides
-          link: https://docs.google.com/presentation/d/1KZLjMPnJ69UkgUQpJqyBEtgOb-XrjwIMO-cL4CUyvjk
-        - name: guide
-          link: /materials/lectures/lec3/
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqRR4OQx_I3YPkA87bO0whh
+        - name: "Josh slides"
+          link: https://docs.google.com/presentation/d/1oS_2ZtuqK7QVW05f_n7pJICA97ZjGtrxnOaEXVUrV5c
+        - name: "Justin slides"
+          link: https://docs.google.com/presentation/d/1DBTKzI6eDcRr_Mg05jQWBEEfgkR4pEJ7O3ZuZI7L-Pw
+        #- name: guide
+        #  link: /materials/lectures/lec3/
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         Optional: [TDD is dead](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html),
         [Unit Tests Are Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf),
         [Response](http://henrikwarne.com/2014/09/04/a-response-to-why-most-unit-testing-is-waste/)
 
     - day: 2023-09-08
-      lecture_topic: ArrayLists, Resizing
-      class: outdated
+      lecture_topic: "Lists 4: Arrays and Lists"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4S8NCRyN3yQV2U2TpjWUhy
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrv834ePjKGB7i1az039-Gw
         - name: slides
-          link: https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit?usp=sharing
-        - name: guide
-          link: /materials/lectures/lec7
+          link: https://docs.google.com/presentation/d/1yGLKPo8qvoRe6AXeHluBPahttNawAfmv6beQPAW4J2o
+        #- name: guide
+        #  link: /materials/lectures/lec7
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [2.5](https://joshhug.gitbooks.io/hug61b/content/chap2/chap25.html)
       assignments:

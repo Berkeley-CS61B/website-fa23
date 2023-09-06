@@ -245,31 +245,35 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-06
       lecture_topic: Testing
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/Dpe3FPRfaFE
-        - name: bonus video
-          link: https://youtu.be/1MzbwZwos6Q
-        - name: slides
-          link: https://docs.google.com/presentation/d/1KZLjMPnJ69UkgUQpJqyBEtgOb-XrjwIMO-cL4CUyvjk
-        - name: guide
-          link: /materials/lectures/lec3/
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqRR4OQx_I3YPkA87bO0whh
+        - name: "Josh slides"
+          link: https://docs.google.com/presentation/d/1oS_2ZtuqK7QVW05f_n7pJICA97ZjGtrxnOaEXVUrV5c
+        - name: "Justin slides"
+          link: https://docs.google.com/presentation/d/1DBTKzI6eDcRr_Mg05jQWBEEfgkR4pEJ7O3ZuZI7L-Pw
+        #- name: guide
+        #  link: /materials/lectures/lec3/
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         Optional: [TDD is dead](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html),
         [Unit Tests Are Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf),
         [Response](http://henrikwarne.com/2014/09/04/a-response-to-why-most-unit-testing-is-waste/)
 
     - day: 2023-09-08
-      lecture_topic: ArrayLists, Resizing
-      class: outdated
+      lecture_topic: "Lists 4: Arrays and Lists"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4S8NCRyN3yQV2U2TpjWUhy
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrv834ePjKGB7i1az039-Gw
         - name: slides
-          link: https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit?usp=sharing
-        - name: guide
-          link: /materials/lectures/lec7
+          link: https://docs.google.com/presentation/d/1yGLKPo8qvoRe6AXeHluBPahttNawAfmv6beQPAW4J2o
+        #- name: guide
+        #  link: /materials/lectures/lec7
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [2.5](https://joshhug.gitbooks.io/hug61b/content/chap2/chap25.html)
       assignments:
@@ -318,15 +322,17 @@
       released: false
   days:
     - day: 2023-09-11
-      lecture_topic: Inheritance, Implements
-      class: outdated
+      lecture_topic: "Inheritance 1: Interface and Implementation Inheritance"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6UzicZ-KQwB0z1ThjGxjFF
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqJVbwFNWwRrGyBwedwLnuW
         - name: slides
-          link: https://docs.google.com/presentation/d/1iqgV3yttGp8VxfIhJzTT7DMHv8LZ78SFMvklO8z58rI
-        - name: guide
-          link: /materials/lectures/lec8/
+          link: https://docs.google.com/presentation/d/1Esm050dMGOOOVHB5qw42HBtd3r_bQ5RMF3zlXzJobCc
+        #- name: guide
+        #  link: /materials/lectures/lec8/
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [4.1](https://joshhug.gitbooks.io/hug61b/content/chap4/chap41.html)
       assignments:
@@ -336,13 +342,15 @@
           cols: 2
           released: false
     - day: 2023-09-13
-      lecture_topic: Extends, Casting, Higher Order Functions
-      class: outdated
+      lecture_topic: "Inheritance 2: Extends, Casting, Higher Order Functions"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD62-LKdfz_V_uMg7f5GaSnC
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrLnGlBmWCRXEuKF5Am09yB
         - name: slides
-          link: https://docs.google.com/presentation/d/1kddUDGDz_fxbWtUBXP-7-PsYG0JwAjPgyQ5zmDSGmx8
+          link: https://docs.google.com/presentation/d/1p8xF-7EPX12pIw0GEAPF12_brQy9jqdl-1GO5JtNXMg
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [Ch 9](https://cs61b-2.gitbook.io/cs61b-textbook/9.-extends-casting-higher-order-functions)
       assignments:
@@ -352,13 +360,15 @@
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-15
-      lecture_topic: Subtype Polymorphism, Comparators, Comparable
-      class: outdated
+      lecture_topic: "Inheritance 3: Subtype Polymorphism, Comparators, Comparable"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD56r1sGUGifsfC0KRDAsuZ3
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqAB5rg3v2NvfF_cb9OJ9cB
         - name: slides
-          link: https://docs.google.com/presentation/d/1oug8uNDvLoDu1szTZ5CZINecDFHKSbRLdNGY5S21NpE
+          link: https://docs.google.com/presentation/d/18FVBQg-r-_RNhJZn6rwsm5QoQYduI-AU1U4OT8T6-mg
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [Ch 11](https://cs61b-2.gitbook.io/cs61b-textbook/11.-subtype-polymorphism-comparators-comparable)
       assignments:
@@ -410,13 +420,15 @@
       released: false
   days:
     - day: 2023-09-18
-      lecture_topic: Iterators, Object Methods
-      class: outdated
+      lecture_topic: "Inheritance 4: Iterators, Object Methods"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD64f0vO7ouRCX1cPEcR0XqW
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrvh9PM0gK9fm7VAD0HdijJ
         - name: slides
-          link: https://docs.google.com/presentation/d/1GufAGPM358-PYaVVvlT3UO5kcaI2VfxufzSe5e-hVXc
+          link: https://docs.google.com/presentation/d/1kOdhZSeCUSUwX8VwF8xNuFyXqp9OR8sfN2ZZWNxiCUU
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [Ch 12](https://cs61b-2.gitbook.io/cs61b-textbook/12.-exceptions-iterators-object-methods)
       assignments:
