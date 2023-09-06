@@ -2,7 +2,7 @@
 layout: page
 title: "FAQ - Project 1B: Deques"
 categories: proj
-released: false
+released: true
 searchable: false
 ---
 
