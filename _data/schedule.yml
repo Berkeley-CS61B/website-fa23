@@ -192,10 +192,10 @@
       link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/regular/regular03.pdf
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/regular/regular03sol.pdf
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpemggJcC8s64Om7XBMmmWZ"
         - name: slides
           released: true
@@ -205,10 +205,10 @@
       link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/examlevel/examlevel03.pdf
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/examlevel/examlevel03sol.pdf
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRpPzSP6eDAJLsqxHbAqhgkX"
         - name: slides
           released: true
