@@ -7,7 +7,7 @@ toc:
   h_max: 4
 ---
 
-## Due: February 15th
+## Due: September 18th
 
 {: .no_toc}
 
@@ -48,7 +48,7 @@ the `ArrayList` lecture, Lecture 7.
 
 {% include alert.html type="warning" content="
 For this project, you must work alone! Please carefully read the
-[Policy on Collaboration and Cheating](/about.md#project-collaboration)
+[Policy on Collaboration and Cheating](../../../about.md#project-collaboration)
 to see what this means exactly. In particular, do not look for solutions online.
 " %}
 
@@ -62,7 +62,7 @@ structures outside of tests, and we will clearly say where.
 ### Style
 
 As in Project 1A, **we will be enforcing style**. You must follow the
-[style guide](/materials/guides/style/index.md), or you will be penalized on the
+[style guide](../../guides/style/index.md), or you will be penalized on the
 autograder.
 
 You can and should check your style locally with the CS 61B plugin. **We will
@@ -86,7 +86,7 @@ You see a `proj1b` directory appear in your repo with the following structure:
 ```
 
 If you get some sort of error, STOP and either figure it out by carefully
-reading the [git WTFs](/materials/guides/git/wtfs/index.md) or seek help at OH
+reading the [git WTFs](../../guides/git/wtfs/index.md) or seek help at OH
 or Ed. You'll potentially save yourself a lot of trouble vs. guess-and-check
 with git commands. If you find yourself trying to use commands recommended by
 Google like `force push`,
@@ -100,7 +100,7 @@ if you encounter some git issues.
 ## Deque: ADT and API
 
 If you need a refresher on `Deque`s, refer to the
-[Project 1A spec](.../../../proj1a/index.md#deque-adt-and-api)
+[Project 1A spec](../proj1a/index.md#deque-adt-and-api)
 and the `Deque.java` file.
 
 ## Creating the File
@@ -109,24 +109,21 @@ Start by creating a file called `ArrayDeque`. This file should be created
 in the `proj1b/src` directory. To do this, right-click on the `src` directory,
 navigate to "New -> Java Class", and give it the name `ArrayDeque`.
 
-Create a `main` method in the class and add exactly this code:
+Just like you did in Project 1A We want our `ArrayDeque` to be able to hold several different types. To enable this, you should edit the declaration of your class so that it reads:
 
 ```java
-public static void main(String[] args) {
-  Deque<Integer> ad = new ArrayDeque<>();
-}
-```
-
-You should see a squiggly red line underneath the `<>`. To fix this, you should
-edit the declaration of your class so that it reads:
-
-```java
-public class ArrayDeque<T> implements Deque<T>
+public class ArrayDeque<T>
 ```
 
 Recall from lecture that it doesn't actually matter if we use `T` or some other
 string like `ArrayDeque<Glerp>`. However, we recommend using `<T>` for
 consistency with other Java code.
+
+We also want to tell Java that every `ArrayDeque` is a `Deque`, so that users can write code like `Deque<String> lld1 = new ArrayDeque<>();`. To enable this, change the declaration of your class so that it reads:
+
+```java
+public class ArrayDeque<T> implements Deque<T>
+```
 
 Once you've done this step, you'll likely see a squiggly red line under the
 entire class declaration. This is because you said that your class implements
@@ -138,6 +135,8 @@ IntelliJ pop-up appears, click the "Implement methods" button. Ensure that all t
 methods in the list are highlighted, and click "OK". Now, your class should
 be filled with a bunch of empty method declarations. These are the methods that you'll
 need to implement for this project!
+
+
 
 Lastly, you should create an empty constructor. To do this, add the following
 code to your file, leaving the constructor blank for now.
@@ -217,9 +216,34 @@ a `for` loop in some way.
 " %}
 
 {% include alert.html type="task" content="
-**Task**: Implement `addFirst` and `addLast`, and verify that they are correct
-using `main` and the Java visualizer. Make sure to add enough elements so that
+**Task**: Implement `addFirst` and `addLast`, and write tests to verify that 
+they are correct. Make sure to add enough elements so that
 your backing array resizes! For more info on resizing, check out [these slides](https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit#slide=id.g625dc7e36_0943).
+" %}
+
+### `get`
+
+Unlike in `LinkedListDeque`, this method must take **constant time**.
+
+As before, `get` should return `null` when the index is invalid (too large or
+negative). You should disregard the skeleton code comments for `Deque.java`
+for this case.
+
+{% include alert.html type="task" content="
+**Task**: **After you've written tests and verified that they fail**, implement
+`get`.
+" %}
+
+
+### `isEmpty` and `size`
+
+These two methods must take **constant time**. That is, the time it takes to for
+either method to finish execution should not depend on how many elements are in
+the deque.
+
+{% include alert.html type="task" content="
+**Task**: **Write tests** for the `isEmpty` and `size` methods, and check that
+they fail. Then, implement the methods.
 " %}
 
 ### `toList`
@@ -236,10 +260,16 @@ Some later methods might seem easy if you use `toList`.
 checks for this.
 " %}
 
+{% include alert.html type="warning" content="
+**Hint** One of the other methods may be helpful for implementing this method.
+" %}
+
 {% include alert.html type="task" content="
 **Task**: Implement `toList`. You are not given tests this time, so you will
 need to write them!
 " %}
+
+
 
 All that's left is to test and implement all the remaining methods. For the
 rest of this project, we'll describe our suggested steps at a high level. We
@@ -248,29 +278,7 @@ In particular, **write tests before you implement the method's functionality.**
 This is called "test-driven development," and helps ensure that you know what
 your methods are supposed to do before you do them.
 
-### `isEmpty` and `size`
 
-These two methods must take **constant time**. That is, the time it takes to for
-either method to finish execution should not depend on how many elements are in
-the deque.
-
-{% include alert.html type="task" content="
-**Task**: **Write tests** for the `isEmpty` and `size` methods, and check that
-they fail. Then, implement the methods.
-" %}
-
-### `get`
-
-Unlike in `LinkedListDeque`, this method must take **constant time**.
-
-As before, `get` should return `null` when the index is invalid (too large or
-negative). You should disregard the skeleton code comments for `Deque.java`
-for this case.
-
-{% include alert.html type="task" content="
-**Task**: **After you've written tests and verified that they fail**, implement
-`get`.
-" %}
 
 ### `removeFirst` and `removeLast`
 
@@ -278,6 +286,8 @@ Lastly, write some tests that test the behavior of `removeFirst` and
 `removeLast`, and again ensure that the tests fail.
 
 Do not maintain references to items that are no longer in the deque.
+
+
 
 #### Resizing Down
 
@@ -288,7 +298,7 @@ that can hold 10,000 items. For arrays of length 16 or more, your usage factor
 should always be at least 25%. This means that before performing a remove
 operation that will bring the number of elements in the array under 25% the
 length of the array, you should resize the size of the array down. For arrays
-under length 16, your usage factor can be arbitrarily low.
+length 15 or less, your usage factor can be arbitrarily low.
 
 {% include alert.html type="danger" content="
 We, again, **do not** recommend using `arraycopy` with a circular
@@ -307,6 +317,26 @@ For the intended experience, follow these steps in order. If you do something
 else and ask us for help, we will refer you back to these steps.
 " %}
 
+
+
+### `getRecursive`
+
+Although we are not using a linked list anymore for this project, it is still required to implement this method to keep consistent with our interface.
+This method technically shouldn't be in the interface, but it's here to make testing nice. You can just use this code block for it:
+
+```java
+    @Override
+    public T getRecursive(int index) {
+        throw new UnsupportedOperationException("No need to implement getRecursive for proj 1b");
+    }
+```
+
+{% include alert.html type="task" content="
+**Task**: implement `getRecursive`.
+" %}
+
+
+
 ### Writing Tests
 
 Refer to the [Project 1A spec](../proj1a/index.md#writing-tests) for
@@ -314,6 +344,14 @@ a review of how to write tests. Similar to Project 1A, you will be scored on
 the coverage of your unit tests for Project 1B. You might find some of your
 tests from Project 1A to be reusable in this project; don't be afraid to
 copy them over!
+
+
+### Suggestions
+
+- Try to get everything working for a fixed-size array first. This would be good point to start to familiarize yourself.
+- Once you are confident working solution for a fixed-size array, try resizing - consider having a helper method for it!
+- **DO NOT** modify `Deque` interface
+
 
 ### Submit to the Autograder
 
@@ -348,10 +386,3 @@ Additionally, there is a **test coverage (10%)** component. We will run your
 tests against a staff solution, and check how many scenarios and edge cases are
 tested. You can receive partial credit for this component.
 
-### Spec Changes to Make for Fall 2023 (Staff Reference Only)
-
-1. Suggest getting everything working for a fixed size array first.
-2. `get` should come before `toList`.
-3. Existence of main methods is confusing. Convert into telling them to write a test file (otherwise they try to write their tests in main).
-4. Should we suggest to students explicitly that they write resize as a helper method? Same with nextValue. [some sort of hint at least sounds good]
-5. Don't modify the Deque interface!

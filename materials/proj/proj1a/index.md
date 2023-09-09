@@ -178,6 +178,9 @@ However, this creates an error. In order for a `LinkedListDeque` to be a
 the red squiggle, and click the "implement methods" button when the error
 message box pops up. This will autogenerate the method headers for you.
 
+The below GIF goes through these steps:
+
+![Proj 1A Setup](img/proj1a-setup.gif)
 
 Lastly, you should create an empty constructor. To do this, add the following
 code to your file, leaving the constructor blank for now.
@@ -186,10 +189,6 @@ code to your file, leaving the constructor blank for now.
 public LinkedListDeque() {
 }
 ```
-
-The below GIF goes through these steps:
-
-![Proj 1A Setup](img/proj1a-setup.gif)
 
 Note: You can also generate the constructor by clicking "Code", then "Generate"
 then "Constructor", though I prefer the typing the code yourself approach.
@@ -245,8 +244,8 @@ necessary fields for a doubly linked node. Additionally, you should only have
 one node class, and this node class **must** be an inner, or nested class
 inside `LinkedListDeque`.
 
-When you're done, set a breakpoint on the line where you create a
-`LinkedListDeque` in the `main` method. Run your program in debug mode, and use
+When you're done, set a breakpoint on the first line of `addFirstTestBasic`.
+Run the test in debug mode, and use
 the Step Over (![step-over](img/step-over.png){: .inline}) feature. Use the
 Java Visualizer to verify that your created object matches the topology you
 chose.
@@ -278,16 +277,14 @@ operation must take \"constant time,\" that is, adding an element should take
 approximately the same amount of time no matter how large the deque is. This
 means that you cannot use loops that iterate through all / most elements of the deque.
 
-Now fill in the `addFirst` method. Add some `addFirst` calls to your
-`main` method and use the debugger and visualizer to verify that your code is
-working correctly.
-
-Fill in the `addLast` method, and again add some `addLast` calls and use
-the visualizer to verify correctness.
+Fill in the `addFirst` and `addLast` methods. Then, debug
+`addFirstAndAddLastTest`. This test will not pass because you haven't written
+`toList` yet, but you can use the debugger and visualizer to verify that
+your code is working correctly.
 
 {% include alert.html type="task" content="
 **Task**: Implement `addFirst` and `addLast`, and verify that they are correct
-using `main` and the Java visualizer.
+using `addFirstAndAddLastTest` and the Java visualizer.
 
 ---
 

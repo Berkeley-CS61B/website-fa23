@@ -3,31 +3,31 @@
   rows: 3
   discussions:
     - name: Scope, Static, Linked Lists, Arrays
-      released: false
-      link: "https://drive.google.com/file/d/1qiF-aEYKl6-Y8gsf_SfHSjlgQ9SlLHTb/view?usp=sharing"
+      released: true
+      link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/regular/regular03.pdf
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1b9-OZnczWknxe9huqJhUkjIjhEqNuF_e/view?usp=sharing"
+          released: true
+          link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/regular/regular03sol.pdf
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpemggJcC8s64Om7XBMmmWZ"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1AyMB8SSXx3HzAkRDsny3cgcrh-KtD60F70swxMQHTtY/edit?usp=sharing"
+          released: true
+          link: https://docs.google.com/presentation/d/1H00oSJqEDGCClrD33Pn4f4INuvQa0IVFoBtpL0vxFgY/edit#slide=id.p
     - name: Arrays, Linked Lists (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/14MsmrUNXnp-aiJVosQYTbMusnt2rrgeH/view?usp=sharing"
+      released: true
+      link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/examlevel/examlevel03.pdf
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/14SvSDnM1oGaAT6Dgw9eU6Z_3syR6G1WJ/view?usp=sharing"
+          released: true
+          link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week03/examlevel/examlevel03sol.pdf
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRpPzSP6eDAJLsqxHbAqhgkX"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1VjmwgTGgH5bWsBoPePlOxJrONgHBAz3_Wi1RRfT_XHk/edit?usp=share_link"
+          released: true
+          link: https://docs.google.com/presentation/d/1IdFLXDWWU8kzBEnct8MRAGydOPG2fdeDMJpcc6AciCc/edit#slide=id.p
     # - name: Exam Review Session (2/3)
     #   released: false
     #   link: "https://drive.google.com/file/d/1koTjUljHHI_ojyw5Q_DqBYhw6nnl7kh5/view?usp=sharing"
@@ -42,13 +42,13 @@
     #       released: false
     #       link: https://docs.google.com/presentation/d/1X_XsKuZ9CU-XEGDO-Q3-1tTRNWFRs5pCQfC-l_wMPFE/edit?usp=share_link
   labs:
-    - name: Advanced Git and Debugging (due 09/08)
+    - name: Debugging Part 2 (due 09/11)
       link: materials/lab/lab03
       resource_links:
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1OpGIcghuK0jrVYxR04HtY_oKAAaG4j8D"
-      released: false
+          released: true
+          link: "https://docs.google.com/presentation/d/1M-y6m0N5Q0yIMXBTtaMpa1XcxUmIYJYyP_DzV55LwYI/edit?usp=sharing"
+      released: true
   days:
     - custom: |
         <td class="emph2" colspan="3">No Classes</td>
@@ -60,31 +60,35 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-06
       lecture_topic: Testing
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/Dpe3FPRfaFE
-        - name: bonus video
-          link: https://youtu.be/1MzbwZwos6Q
-        - name: slides
-          link: https://docs.google.com/presentation/d/1KZLjMPnJ69UkgUQpJqyBEtgOb-XrjwIMO-cL4CUyvjk
-        - name: guide
-          link: /materials/lectures/lec3/
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqRR4OQx_I3YPkA87bO0whh
+        - name: "Josh slides"
+          link: https://docs.google.com/presentation/d/1oS_2ZtuqK7QVW05f_n7pJICA97ZjGtrxnOaEXVUrV5c
+        - name: "Justin slides"
+          link: https://docs.google.com/presentation/d/1DBTKzI6eDcRr_Mg05jQWBEEfgkR4pEJ7O3ZuZI7L-Pw
+        #- name: guide
+        #  link: /materials/lectures/lec3/
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         Optional: [TDD is dead](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html),
         [Unit Tests Are Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf),
         [Response](http://henrikwarne.com/2014/09/04/a-response-to-why-most-unit-testing-is-waste/)
 
     - day: 2023-09-08
-      lecture_topic: ArrayLists, Resizing
-      class: outdated
+      lecture_topic: "Lists 4: Arrays and Lists"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4S8NCRyN3yQV2U2TpjWUhy
+          link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrv834ePjKGB7i1az039-Gw
         - name: slides
-          link: https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit?usp=sharing
-        - name: guide
-          link: /materials/lectures/lec7
+          link: https://docs.google.com/presentation/d/1yGLKPo8qvoRe6AXeHluBPahttNawAfmv6beQPAW4J2o
+        #- name: guide
+        #  link: /materials/lectures/lec7
+        #- name: recording
+        #  link: TODO
       reading: > # Format in Markdown
         [2.5](https://joshhug.gitbooks.io/hug61b/content/chap2/chap25.html)
       assignments:
