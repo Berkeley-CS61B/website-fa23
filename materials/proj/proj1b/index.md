@@ -48,7 +48,7 @@ the `ArrayList` lecture, Lecture 7.
 
 {% include alert.html type="warning" content="
 For this project, you must work alone! Please carefully read the
-[Policy on Collaboration and Cheating](/about.md#project-collaboration)
+[Policy on Collaboration and Cheating](../../../about.md#project-collaboration)
 to see what this means exactly. In particular, do not look for solutions online.
 " %}
 
@@ -62,7 +62,7 @@ structures outside of tests, and we will clearly say where.
 ### Style
 
 As in Project 1A, **we will be enforcing style**. You must follow the
-[style guide](/materials/guides/style/index.md), or you will be penalized on the
+[style guide](../../guides/style/index.md), or you will be penalized on the
 autograder.
 
 You can and should check your style locally with the CS 61B plugin. **We will
@@ -86,7 +86,7 @@ You see a `proj1b` directory appear in your repo with the following structure:
 ```
 
 If you get some sort of error, STOP and either figure it out by carefully
-reading the [git WTFs](/materials/guides/git/wtfs/index.md) or seek help at OH
+reading the [git WTFs](../../guides/git/wtfs/index.md) or seek help at OH
 or Ed. You'll potentially save yourself a lot of trouble vs. guess-and-check
 with git commands. If you find yourself trying to use commands recommended by
 Google like `force push`,
@@ -100,7 +100,7 @@ if you encounter some git issues.
 ## Deque: ADT and API
 
 If you need a refresher on `Deque`s, refer to the
-[Project 1A spec](.../../../proj1a/index.md#deque-adt-and-api)
+[Project 1A spec](../proj1a/index.md#deque-adt-and-api)
 and the `Deque.java` file.
 
 ## Creating the File
@@ -216,8 +216,8 @@ a `for` loop in some way.
 " %}
 
 {% include alert.html type="task" content="
-**Task**: Implement `addFirst` and `addLast`, and verify that they are correct
-using `main` and the Java visualizer. Make sure to add enough elements so that
+**Task**: Implement `addFirst` and `addLast`, and write tests to verify that 
+they are correct. Make sure to add enough elements so that
 your backing array resizes! For more info on resizing, check out [these slides](https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit#slide=id.g625dc7e36_0943).
 " %}
 
@@ -287,24 +287,6 @@ Lastly, write some tests that test the behavior of `removeFirst` and
 
 Do not maintain references to items that are no longer in the deque.
 
-#### `getRecursive`
-
-Although we are not using a linked list anymore for this project, it is still required to implement this method to keep consistent with our interface.
-This method technically shouldn't be in the interface, but it's here to make testing nice. You can just use this code block for it:
-
-```java
-@Override
-    public T getRecursive(int index) {
-        throw new UnsupportedOperationException("No need to implement getRecursive for proj 1b");
-    }
-```
-
-
-
-{% include alert.html type="task" content="
-**Task**: implement `getRecursive`.
-" %}
-
 
 
 #### Resizing Down
@@ -316,7 +298,7 @@ that can hold 10,000 items. For arrays of length 16 or more, your usage factor
 should always be at least 25%. This means that before performing a remove
 operation that will bring the number of elements in the array under 25% the
 length of the array, you should resize the size of the array down. For arrays
-under length 16, your usage factor can be arbitrarily low.
+length 15 or less, your usage factor can be arbitrarily low.
 
 {% include alert.html type="danger" content="
 We, again, **do not** recommend using `arraycopy` with a circular
@@ -334,6 +316,26 @@ method?).
 For the intended experience, follow these steps in order. If you do something
 else and ask us for help, we will refer you back to these steps.
 " %}
+
+
+
+### `getRecursive`
+
+Although we are not using a linked list anymore for this project, it is still required to implement this method to keep consistent with our interface.
+This method technically shouldn't be in the interface, but it's here to make testing nice. You can just use this code block for it:
+
+```java
+    @Override
+    public T getRecursive(int index) {
+        throw new UnsupportedOperationException("No need to implement getRecursive for proj 1b");
+    }
+```
+
+{% include alert.html type="task" content="
+**Task**: implement `getRecursive`.
+" %}
+
+
 
 ### Writing Tests
 
