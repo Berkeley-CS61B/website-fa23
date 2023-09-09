@@ -290,7 +290,16 @@ Do not maintain references to items that are no longer in the deque.
 #### `getRecursive`
 
 Although we are not using a linked list anymore for this project, it is still required to implement this method to keep consistent with our interface.
-This method technically shouldn't be in the interface, but it's here to make testing nice. Gets an element, recursively. Returns null if index is out of bounds. Does not alter the deque.
+This method technically shouldn't be in the interface, but it's here to make testing nice. You can just use this code block for it:
+
+```java
+@Override
+    public T getRecursive(int index) {
+        throw new UnsupportedOperationException("No need to implement getRecursive for proj 1b");
+    }
+```
+
+
 
 {% include alert.html type="task" content="
 **Task**: implement `getRecursive`.
