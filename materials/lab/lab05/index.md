@@ -1,11 +1,15 @@
 ---
 layout: page
-title: "Lab 05: Timing"
+title: "Lab 05: Timing (Optional)"
 categories: lab
-released: false
+released: true
 toc:
   h_max: 4
 ---
+
+**This lab is optional, and you are not required to complete it. Because of this,
+there is no set due date for this lab. There is a corresponding video that we
+recommend you watch to help you get started with this lab.**
 
 ## FAQ Page
 
@@ -23,7 +27,7 @@ classes we discussed in lecture.
 
 Follow the
 [assignment workflow instructions](../../guides/assignment-workflow/index.md#getting-the-skeleton)
-to get the assignment and open it in IntelliJ. This assignment is `lab03`.
+to get the assignment and open it in IntelliJ. This assignment is `lab05`.
 
 ### Goals and Outcomes
 
@@ -36,18 +40,6 @@ By the end of this lab, you will...
 - Understand that different data structures have different time guarantees.
 - Be able to empirically measure the runtime of a program.
 - Interpret timing experiments and reason about their implications.
-
-## Lab 2 Part 2: `Adventure`
-
-First, head back to [Lab 02](../lab02/index.md#adventure) to complete the
-`Adventure` section of the lab! In this section, you'll see some common
-Java errors. For this week, we have already fixed `BeeCountingStage` for you.
-
-{% include alert.html type="danger" content="
-We have copied the `adventure` files into Lab 03. **Please complete `adventure`
-in Lab 3.** If you've already done it in Lab 02, please make sure that you copy
-your solutions into the correct directory.
-" %}
 
 ## Timing Experiments
 
@@ -210,7 +202,7 @@ fast add operations (good performance), while an additive resizing strategy
 will result in slow add operations (bad performance). In this part of the lab,
 we'll put visuals to these statements!
 
-[lecture]: https://docs.google.com/presentation/d/1ZKSPKdEjlLlzmf7LoQJlTUC3w0MPInSXy2DxTEva0yo/edit#slide=id.g625dc7e36_0943
+[lecture]: https://docs.google.com/presentation/d/1yGLKPo8qvoRe6AXeHluBPahttNawAfmv6beQPAW4J2o/edit#slide=id.g625dc7e36_0943
 
 In the `timing` package, we've provided the `AList` class created in lecture
 with the bad resizing strategy below:
@@ -238,14 +230,14 @@ above.
 - We're interested in the average time per `addLast` call, so the number of
   operations is the number of `addLast` calls, or `N`.
 
-{% include alert.html type="task" content=" **Task**: Implement
-`timeAListConstruction` to perform a timing experiment with the aforementioned
+{% include alert.html type="task" content=" **TASK**: Implement
+`timeAListConstruction`, found in `Experiments.java` to perform a timing experiment with the aforementioned
 specification. Make sure to replace the function call in `main` to be
 `timeAListConstruction`! You may find the example in
 `exampleFibonacciExperiment` helpful as a reference. " %}
 
 {% include alert.html type="info" content="
-**Note**: The timing tests are very subject to random chance and the vagaries of
+**NOTE**: The timing tests are very subject to random chance and the vagaries of
 your computer, and can fail even if you've implemented the timing tables
 correctly. Take them with a grain of salt.
 " %}
@@ -256,7 +248,7 @@ instead of 128000.
 ### `AList`, Good Resizing
 
 {% include alert.html type="task" content="
-**Task**:
+**TASK**:
 Modify the `AList`  class so that the resize strategy is multiplicative
 instead of additive and rerun `timeAListConstruction`.
 " %}
@@ -350,23 +342,17 @@ your `LinkedListDeque` that makes the `getLast` function faster?
 
 ## Deliverables and Scoring
 
-The lab is out of 256 points. There are no hidden tests on Gradescope. If you
-pass all the local tests, you will receive full credit on the lab.
+The lab is not worth any points. There are no hidden tests on Gradescope. 
 
-- The remaining adventure stages **in your `lab03/adventure` directory**. (`BeeCountingStage` is already done for you.)
-  - `SpeciesListStage` (32 pts)
-  - `PalindromeStage` (32 pts)
-  - `MachineStage` (32 pts)
-  - Integration test for the entire game (32 pts)
 - `timing/Experiments.java`
-  - `timeAListConstruction` (64 pts)
-  - `timeSLListGetLast` (64 pts)
+  - `timeAListConstruction`
+  - `timeSLListGetLast` 
 
 ## Submission
 
-Just as you did for the previous assignments, add, commit, then push your Lab 3
+Just as you did for the previous assignments, add, commit, then push your Lab 5
 code to GitHub. Then, submit to Gradescope to test your code. If you need a
 refresher, check out the instructions in the
-[Lab 1 spec](/materials/lab/lab01/index.md#saving-your-work-using-git-and-github)
+[Lab 1 spec](../lab01/index.md)
 and the
-[Assignment Workflow Guide](/materials/guides/assignment-workflow/index.md#submitting-to-gradescope).
+[Assignment Workflow Guide](../../guides/assignment-workflow/index.md#submitting-to-gradescope).

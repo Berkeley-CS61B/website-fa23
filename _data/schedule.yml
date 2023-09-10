@@ -408,15 +408,12 @@
           released: false
           link: "https://docs.google.com/presentation/d/1Ky8wuwwFFsWox4b0cp7xiA_NzhpDHbS9PndoazCtI50/edit?usp=share_link"
   labs:
-    - name: Timing (due 09/22)
+    - name: Timing (Optional)
       link: materials/lab/lab05
       resource_links:
         - name: videos
           released: false
           link: "https://www.youtube.com/watch?v=6YhV4L7NNv8&list=PLnp31xXvnfRqw9s4bCo8BFq9U_sLedPVn&index=1"
-        - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1N0UQcg9l5voR2tYthUmv_d84CfkbSWEH/edit"
       released: false
   days:
     - day: 2023-09-18
