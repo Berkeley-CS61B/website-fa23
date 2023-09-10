@@ -328,7 +328,7 @@ the list would become so large that the `getLast` operation would be unusably
 slow. While this is a contrived example, similar problems have plagued real
 world systems!
 
-For this reason, the `LinkedListDeque` that you build in Project 1A will be
+For this reason, the `LinkedListDeque` that you build in Project 1A was
 required to have a runtime that is independent of the size of the data
 structure. In other words, the last column will be some approximately constant
 value.
