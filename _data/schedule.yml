@@ -255,8 +255,8 @@
           link: https://docs.google.com/presentation/d/1DBTKzI6eDcRr_Mg05jQWBEEfgkR4pEJ7O3ZuZI7L-Pw
         #- name: guide
         #  link: /materials/lectures/lec3/
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=eQtYunCk1g4"
       reading: > # Format in Markdown
         Optional: [TDD is dead](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html),
         [Unit Tests Are Waste](http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf),
