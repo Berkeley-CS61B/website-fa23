@@ -331,8 +331,8 @@
           link: https://docs.google.com/presentation/d/1Esm050dMGOOOVHB5qw42HBtd3r_bQ5RMF3zlXzJobCc
         #- name: guide
         #  link: /materials/lectures/lec8/
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=ywA77u6DNvk"
       reading: > # Format in Markdown
         [4.1](https://joshhug.gitbooks.io/hug61b/content/chap4/chap41.html)
       assignments:
