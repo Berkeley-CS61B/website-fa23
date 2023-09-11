@@ -292,31 +292,31 @@
   rows: 3
   discussions:
     - name: Inheritance
-      released: false
-      link: "https://drive.google.com/file/d/19GsS_5ZH-UQU1wSifvRNdqC2Qgueb7_L/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/regular/regular04.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1MkdMIPjJQcOCJ-b36KFDWvc80ZNxZRFc/view?usp=sharing"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/regular/regular04sol.pdf"
         - name: video
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRot6WChi3d2alB9QL7xjmpq"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1Hbs2mDGM7Ic9bWfih9t8FaokrjB-39-E6rjjjwEzX_k/edit?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1yekRogdp4lxbfCAmY90AnadK_lZpVhDXdZSp6Pdgd58/edit?usp=sharing"
     - name: Inheritance (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/1R7Zxxt_xu-gIZuJXsqeXkGn-T_hgUZ0A/view?usp=share_link"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/examlevel/examlevel04.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1y-i3rBp9DSraNOz45KKW4ifP0XrbyOlT/view?usp=share_link"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/examlevel/examlevel04sol.pdf"
         - name: video
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRo32RBXkS7LFlMNNIgF618Q"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1D891iSa83JgrjUELO7UQwEsn_gvbroDCLYZJfnhUmPo/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1NjhxcP-0JWEBB8R_kBpqAS0528p-h7D54_XdodjCNTY/edit?usp=sharing"
   labs:
     - name: Project 1 Workday
       released: false
