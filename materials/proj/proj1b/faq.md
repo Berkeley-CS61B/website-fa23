@@ -41,23 +41,6 @@ the spec and provide a default implementation within the Deque.java file.
 Use the strange syntax, i.e. `T[] a = (T[]) new Object[1000];`. Here, `T` is a generic type, it's a placeholder for
 other Object types like "String" or "Integer".
 
-### What is the Precondition test that's being run on Gradescope? Is it the same one as Project 1A?
-
-This precondition test is checking that the only instance variables declared in your ArrayDeque class are an array and any primitive types (ints, booleans, etc). We forgot to include this test in the skeleton `ArrayDequeTest.java` file that we gave you, but the exact test is written below. If you're failing this test on Gradescope, try copy pasting the below test into your local test file and running it.
-
-```java
-@Test
-@DisplayName("ArrayDeque has no fields besides backing array and primitives")
-void noNonTrivialFields() {
-    List<Field> badFields = Reflection.getFields(ArrayDeque.class)
-            .filter(f -> !(f.getType().isPrimitive() || f.getType().equals(Object[].class) || f.isSynthetic()))
-            .toList();
-
-    assertWithMessage("Found fields that are not array or primitives").that(badFields).isEmpty();
-}
-```
-
-
 ### I’m sure I wrote tests for coverage, but I’m not attaining those fl ags on the grader! 
 
 There’s a chance that when running your tests against the staff version of the code, we run into an assertion error. Make sure that all your assertion statements have the correct expected output! For instance, if you had code that called get(0) on an ArrayDeque with the elements 1, 2, 3, and asserted that the 0th element should be 2, any tests written after this incorrect test won’t count in the test coverage.
