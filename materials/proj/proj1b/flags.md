@@ -33,7 +33,7 @@ searchable: false
 - “get_oob_large”: Check that get works on a large, out of bounds index.
 - “get_oob_neg”: Check that get works on a negative index.
 
-Flags for size tests 
+### Flags for size tests 
 - “size”: Check that size works.
 - “size_after_remove_to_empty”: Add some elements to a deque and remove them all, then check that size still works.
 - “size_after_remove_from_empty”: Remove from an empty deque, then check that size still works.
