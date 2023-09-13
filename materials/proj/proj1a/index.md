@@ -545,6 +545,7 @@ autograder. You may or may not pass everything.
   your local tests did not cover. [Here](./flags.md) is a list of test cases that you should cover.
 - If you fail any of the timing tests, it means that your implementation does
   not meet the timing constraints described above.
+- You will have a token limit of 4 tokens every 24 hours. In the last 2 hours before the deadline, the token limiting will be relaxed and your tokens will recharged every 15 minutes.
 
 ### Scoring
 
