@@ -349,8 +349,8 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrLnGlBmWCRXEuKF5Am09yB
         - name: slides
           link: https://docs.google.com/presentation/d/1p8xF-7EPX12pIw0GEAPF12_brQy9jqdl-1GO5JtNXMg
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=ayTFS2ulFRY"
       reading: > # Format in Markdown
         [Ch 9](https://cs61b-2.gitbook.io/cs61b-textbook/9.-extends-casting-higher-order-functions)
       assignments:
