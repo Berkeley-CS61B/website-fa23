@@ -489,7 +489,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/1qPMuME25PmeRmbbOQi51_jmz4y9OSq3KvBKomGzzyTg/edit?usp=share_link"
   labs:
-    - name: Project 1 Peer Review (due 09/29)
+    - name: Disjoint Sets (due 09/29)
       link: materials/lab/lab06/
       released: false
   days:
