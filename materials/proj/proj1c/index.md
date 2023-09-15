@@ -92,21 +92,12 @@ if you encounter some git issues.
 set up for Project 1C!**
 
 In order to implement the following methods, you should start by copying and pasting your Project 1A and Project 1B
-implementations of `LinkedListDeque` and `ArrayDeque` into the relevant files in your `proj1c` directory. Please keep `package deque`.
+implementations of `LinkedListDeque` and `ArrayDeque` into the relevant files in your `proj1c` directory. 
 
 {% include alert.html type="warning" content="
-Important: Because of the way that the `Deque` interfaces were structured in Projects 1A and 1B, you'll need to implement the
-`getRecursive()` method in `ArrayDeque` after copy-pasting it. **If you don't implement this method, both the autograder and your own code will not compile.**
-This doesn't need to be an actual implementation of the method, since we won't test it. Instead, it can just look like the code snippet
-below (feel free to copy-paste this snippet directly into your file).
+Please keep `package deque;` at the top of both files. Otherwise, your code will not compile.
 " %}
 
-```java
-@Override
-public T getRecursive(int index) {
-    return get(index);
-}
-```
 
 #### `iterator()`
 
@@ -152,7 +143,7 @@ Next, implement the `iterator()` method using the techniques described in lectur
 " %}
 
 {% include alert.html type="danger" content="
-You are not allowed to call `toString` here.
+You are not allowed to call `toList` here.
 " %}
 
 #### `equals()`
@@ -209,7 +200,7 @@ Important: Make sure you use the `@Override` tag when overriding methods. A comm
 " %}
 
 {% include alert.html type="danger" content="
-You are not allowed to call `toString` here.
+You are not allowed to call `toList` here.
 " %}
 
 #### `toString()`
