@@ -78,8 +78,8 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqAB5rg3v2NvfF_cb9OJ9cB
         - name: slides
           link: https://docs.google.com/presentation/d/18FVBQg-r-_RNhJZn6rwsm5QoQYduI-AU1U4OT8T6-mg
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=MD0t3uMwe30"
       reading: > # Format in Markdown
         [Ch 11](https://cs61b-2.gitbook.io/cs61b-textbook/11.-subtype-polymorphism-comparators-comparable)
       assignments:
