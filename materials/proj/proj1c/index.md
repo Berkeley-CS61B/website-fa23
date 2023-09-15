@@ -151,6 +151,10 @@ Next, implement the `iterator()` method using the techniques described in lectur
 `ArrayDeque` according to lecture.
 " %}
 
+{% include alert.html type="danger" content="
+You are not allowed to call `toString` here.
+" %}
+
 #### `equals()`
 
 Consider the following code:
@@ -202,6 +206,10 @@ Important: You should not use `getClass`, and there's no need to do any casting 
 
 {% include alert.html type="warning" content="
 Important: Make sure you use the `@Override` tag when overriding methods. A common mistake in student code is to try to override `equals(ArrayList<T> other)` rather than `equals(Object other)`. Using the optional `@Override` tag will prevent your code from compiling if you make this mistake. `@Override` is  a great safety net.
+" %}
+
+{% include alert.html type="danger" content="
+You are not allowed to call `toString` here.
 " %}
 
 #### `toString()`
