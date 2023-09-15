@@ -365,9 +365,10 @@ autograder. You may or may not pass everything.
   local tests did not cover, despite having sufficient coverage for flags.
   This is **expected**. Coverage flags are an approximation! They also do not
   provide describe every single behavior that needs to be tested, nor do they
-  guarantee that you assert everything.
+  guarantee that you assert everything. [Here](./flags.md) is a list of them!
 - If you fail any of the timing tests, it means that your implementation does
   not meet the timing constraints described above.
+- You will have a token limit of 4 tokens every 24 hours. In the last 2 hours before the deadline, the token limiting will be relaxed and your tokens will recharged every 15 minutes.
 
 ### Scoring
 
@@ -384,5 +385,5 @@ of which you must implement _completely correctly_ to receive credit.
 
 Additionally, there is a **test coverage (10%)** component. We will run your
 tests against a staff solution, and check how many scenarios and edge cases are
-tested. You can receive partial credit for this component.
+tested. You can receive partial credit for this component. [Here](./flags.md) is a list of them!
 

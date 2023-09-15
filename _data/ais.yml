@@ -5,8 +5,8 @@
   email: aarushishah@berkeley.edu
   link: null
   name: Aarushi Shah
-  pic1: ../assets/img/staff/aarushi-shah-1.jpg
-  pic2: ../assets/img/staff/aarushi-shah-1.jpg
+  pic1: assets/img/staff/aarushi-shah-1.jpg
+  pic2: assets/img/staff/aarushi-shah-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -15,8 +15,8 @@
   email: albertojulio@berkeley.edu
   link: https://www.youtube.com/watch?v=F1sjuey25ug&ab_channel=ThrasherMagazine
   name: Alberto Julio
-  pic1: ../assets/img/staff/alberto-julio-1.jpg
-  pic2: ../assets/img/staff/alberto-julio-1.jpg
+  pic1: assets/img/staff/alberto-julio-1.jpg
+  pic2: assets/img/staff/alberto-julio-1.jpg
   pic3: null
   pic4: null
   pronouns: ''
@@ -26,18 +26,31 @@
   email: alenachao@berkeley.edu
   link: null
   name: Alena Chao
-  pic1: ../assets/img/staff/alena-chao-1.jpg
-  pic2: ../assets/img/staff/alena-chao-1.jpg
+  pic1: assets/img/staff/alena-chao-1.jpg
+  pic2: assets/img/staff/alena-chao-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
+- bio: "Hi everyone! I\u2019m Alexa, I\u2019m from the East Bay and have been coding\
+    \ since I was a kid for fun, but after arriving at Berkeley I\u2019ve learned\
+    \ about how much fun it is to teach it too! As for my hobbies, I love video games\
+    \ (play Pikmin 4!!!), painting digitally, and reading. My favorite \u201Crestaurant\u201D\
+    \ in Berkeley is between Top Dog and Blondie\u2019s :)"
+  email: alexa.banuelos@berkeley.edu
+  link: null
+  name: Alexa Banuelos
+  pic1: assets/img/staff/alexa-banuelos-1.jpg
+  pic2: assets/img/staff/alexa-banuelos-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: They/them/theirs
 - bio: Hi, I'm Alex a third year EECS major. When I'm not admiring the beauty that
     are hash maps you can find me on my journey to find the absolute best burrito.
   email: a.huizar3@berkeley.edu
   link: https://order.snackpass.co/EL-TALPENSE-MEXICAN-RESTAURANT-5fca6d4a36379700b6ecc749/cart
   name: Alexander Huizar
-  pic1: ../assets/img/staff/alexander-huizar-1.jpg
-  pic2: ../assets/img/staff/alexander-huizar-1.jpg
+  pic1: assets/img/staff/alexander-huizar-1.jpg
+  pic2: assets/img/staff/alexander-huizar-1.jpg
   pic3: null
   pic4: null
   pronouns: He/Him
@@ -46,8 +59,19 @@
   email: andy.weng@berkeley.edu
   link: https://www.linkedin.com/in/andy-weng/
   name: Andy Weng
-  pic1: ../assets/img/staff/andy-weng-1.jpg
-  pic2: ../assets/img/staff/andy-weng-1.jpg
+  pic1: assets/img/staff/andy-weng-1.jpg
+  pic2: assets/img/staff/andy-weng-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him/his
+- bio: "Hey! I\u2019m Anirudh, a second-year from the Bay Area studying Computer Science.\
+    \ I love landscape photography, listening to film scores, and bike rides. Excited\
+    \ to meet you!"
+  email: akotamraju@berkeley.edu
+  link: https://anirudhkotamraju.com/
+  name: Anirudh Kotamraju
+  pic1: assets/img/staff/anirudh-kotamraju-1.jpg
+  pic2: assets/img/staff/anirudh-kotamraju-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -56,11 +80,24 @@
   email: anirudh.s@berkeley.edu
   link: null
   name: Anirudh Sreerama
-  pic1: ../assets/img/staff/anirudh-sreerama-1.jpg
-  pic2: ../assets/img/staff/anirudh-sreerama-1.jpg
+  pic1: assets/img/staff/anirudh-sreerama-1.jpg
+  pic2: assets/img/staff/anirudh-sreerama-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
+- bio: hi! I'm anousha, a second year studying EECS from san jose. I enjoy learning
+    about cybersecurity, tech policy, and cognitive science. I'm also a huge fan of
+    the slightly comedic mystery/horror mix & detective shows so if you have any recommendations
+    let me know! I'm really excited to be an AI for 61b this semester and look forward
+    to meeting you all!
+  email: aaathreya2@berkeley.edu
+  link: https://www.youtube.com/watch?v=mmkCS5eA4f8
+  name: Anousha Athreya
+  pic1: assets/img/staff/anousha-athreya-1.jpg
+  pic2: assets/img/staff/anousha-athreya-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: she/her/hers
 - bio: 'Hi my name is Anushka! I am a sophomore studying EECS at Berkeley. I am passionate
     about education and love collaborating with other students. I love racket sports
     including tennis, ping pong, and badminton. I also love to play piano and bake
@@ -68,11 +105,22 @@
   email: amukh946@berkeley.edu
   link: null
   name: Anushka Mukhopadhyay
-  pic1: ../assets/img/staff/anushka-mukhopadhyay-1.jpg
-  pic2: ../assets/img/staff/anushka-mukhopadhyay-1.jpg
+  pic1: assets/img/staff/anushka-mukhopadhyay-1.jpg
+  pic2: assets/img/staff/anushka-mukhopadhyay-1.jpg
   pic3: null
   pic4: null
   pronouns: She/her
+- bio: "Hi! I\u2019m a first year from San Jose, CA planning on majoring in cs + applied\
+    \ math. I love coffee, the beach, going to the gym, etc. I took this course last\
+    \ summer and enjoyed it a lot so I hope you do too!"
+  email: arzbshara@berkeley.edu
+  link: null
+  name: Arz Bshara
+  pic1: assets/img/staff/arz-bshara-1.jpg
+  pic2: assets/img/staff/arz-bshara-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: she/her/hers
 - bio: Hi there! My name is Bella and I'm a senior majoring in Computer Science. I
     was born and raised in South Korea and moved to the US about 5 years ago! One
     of my all-time favorite tv series is How I Met Your Mother. Feel free to reach
@@ -80,8 +128,19 @@
   email: bellalee03@berkeley.edu
   link: null
   name: Bella Lee
-  pic1: ../assets/img/staff/bella-lee-1.jpg
-  pic2: ../assets/img/staff/bella-lee-1.jpg
+  pic1: assets/img/staff/bella-lee-1.jpg
+  pic2: assets/img/staff/bella-lee-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: she/her/hers
+- bio: Hi everyone! My name is Claire and I'm a sophomore from San Francisco majoring
+    in CS. I spend most of my free time watching k-dramas and adding music to my already
+    extensive Spotify playlist. I'm super excited to work with you all!
+  email: cctao@berkeley.edu
+  link: null
+  name: Claire Tao
+  pic1: assets/img/staff/claire-tao-1.jpg
+  pic2: assets/img/staff/claire-tao-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -91,8 +150,8 @@
   email: connorchen@berkeley.edu
   link: null
   name: Connor Chen
-  pic1: ../assets/img/staff/connor-chen-1.jpg
-  pic2: ../assets/img/staff/connor-chen-1.jpg
+  pic1: assets/img/staff/connor-chen-1.jpg
+  pic2: assets/img/staff/connor-chen-1.jpg
   pic3: null
   pic4: null
   pronouns: ''
@@ -101,8 +160,18 @@
   email: eduardo_lopez@berkeley.edu
   link: null
   name: Eduardo Lopez
-  pic1: ../assets/img/staff/eduardo-lopez-1.jpg
-  pic2: ../assets/img/staff/eduardo-lopez-1.jpg
+  pic1: assets/img/staff/eduardo-lopez-1.jpg
+  pic2: assets/img/staff/eduardo-lopez-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him
+- bio: Hey everyone, I'm Ethan! I'm a sophomore from Chicago studying CS. Talk to
+    me about movies/TV shows, Olivia Rodrigo, or 61B!
+  email: etam1@berkeley.edu
+  link: etweb.me
+  name: Ethan Tam
+  pic1: assets/img/staff/ethan-tam-1.jpg
+  pic2: assets/img/staff/ethan-tam-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him
@@ -110,8 +179,8 @@
   email: gabrielliu@berkeley.edu
   link: null
   name: Gabriel Liu
-  pic1: ../assets/img/staff/gabriel-liu-1.jpg
-  pic2: ../assets/img/staff/gabriel-liu-1.jpg
+  pic1: assets/img/staff/gabriel-liu-1.jpg
+  pic2: assets/img/staff/gabriel-liu-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -123,8 +192,8 @@
   email: hazelan@berkeley.edu
   link: null
   name: Hazel An
-  pic1: ../assets/img/staff/hazel-an-1.jpg
-  pic2: ../assets/img/staff/hazel-an-1.jpg
+  pic1: assets/img/staff/hazel-an-1.jpg
+  pic2: assets/img/staff/hazel-an-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/her
@@ -134,19 +203,30 @@
   email: hwank29@berkeley.edu
   link: null
   name: Hwanhee Kim
-  pic1: ../assets/img/staff/hwanhee-kim-1.jpg
-  pic2: ../assets/img/staff/hwanhee-kim-1.jpg
+  pic1: assets/img/staff/hwanhee-kim-1.jpg
+  pic2: assets/img/staff/hwanhee-kim-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
+- bio: hii! i'm iris, a sophomore from san jose studying cs & astrophysics. outside
+    of 61b, i enjoy cafe hopping, skiing, listening to taylor swift & kpop, and thrifting.
+    looking forward to meeting everyone this semester!
+  email: iris.zhou@berkeley.edu
+  link: null
+  name: Iris Zhou
+  pic1: assets/img/staff/iris-zhou-1.jpg
+  pic2: assets/img/staff/iris-zhou-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: she/her/hers
 - bio: good afternoon, my name is Jai Bhatia and I'm a sophomore from Vancouver, Canada.
     When I'm not an AI for 61B, I'm normally playing different sports like leetcode
     or hockey. My favourite restaurant at Berkeley is anywhere with mango lassi.
   email: jaibhatia@berkeley.edu
   link: null
   name: Jai Bhatia
-  pic1: ../assets/img/staff/jai-bhatia-1.jpg
-  pic2: ../assets/img/staff/jai-bhatia-1.jpg
+  pic1: assets/img/staff/jai-bhatia-1.jpg
+  pic2: assets/img/staff/jai-bhatia-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -157,8 +237,20 @@
   email: jchahal@berkeley.edu
   link: null
   name: Jaiteg Chahal
-  pic1: ../assets/img/staff/jaiteg-chahal-1.jpg
-  pic2: ../assets/img/staff/jaiteg-chahal-1.jpg
+  pic1: assets/img/staff/jaiteg-chahal-1.jpg
+  pic2: assets/img/staff/jaiteg-chahal-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him/his
+- bio: Hi everyone! I am a third year majoring in computer science and mathematics.
+    I love cats, basketball, music, and chess. I love 61b and it's a really interesting
+    class. Hope to meet you all this semester and feel free to reach out to me if
+    you have any questions!
+  email: jamesh120801@berkeley.edu
+  link: null
+  name: James Huang
+  pic1: assets/img/staff/james-huang-1.jpg
+  pic2: assets/img/staff/james-huang-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -166,8 +258,8 @@
   email: jjiang148@berkeley.edu
   link: null
   name: James Jiang
-  pic1: ../assets/img/staff/james-jiang-1.jpg
-  pic2: ../assets/img/staff/james-jiang-1.jpg
+  pic1: assets/img/staff/james-jiang-1.jpg
+  pic2: assets/img/staff/james-jiang-1.jpg
   pic3: null
   pic4: null
   pronouns: ''
@@ -176,8 +268,8 @@
   email: jjhe9999@berkeley.edu
   link: null
   name: Jessica He
-  pic1: ../assets/img/staff/jessica-he-1.jpg
-  pic2: ../assets/img/staff/jessica-he-1.jpg
+  pic1: assets/img/staff/jessica-he-1.jpg
+  pic2: assets/img/staff/jessica-he-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her
@@ -187,8 +279,8 @@
   email: jialinn09@berkeley.edu
   link: null
   name: Jialin Jiang
-  pic1: ../assets/img/staff/jialin-jiang-1.jpg
-  pic2: ../assets/img/staff/jialin-jiang-1.jpg
+  pic1: assets/img/staff/jialin-jiang-1.jpg
+  pic2: assets/img/staff/jialin-jiang-1.jpg
   pic3: null
   pic4: null
   pronouns: She/her/hers
@@ -199,8 +291,8 @@
   email: jocelyn.ding@berkeley.edu
   link: null
   name: Jocelyn Ding
-  pic1: ../assets/img/staff/jocelyn-ding-1.jpg
-  pic2: ../assets/img/staff/jocelyn-ding-1.jpg
+  pic1: assets/img/staff/jocelyn-ding-1.jpg
+  pic2: assets/img/staff/jocelyn-ding-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -209,8 +301,8 @@
   email: jocelynxmartin@berkeley.edu
   link: null
   name: Jocelyn Martin
-  pic1: ../assets/img/staff/jocelyn-martin-1.jpg
-  pic2: ../assets/img/staff/jocelyn-martin-1.jpg
+  pic1: assets/img/staff/jocelyn-martin-1.jpg
+  pic2: assets/img/staff/jocelyn-martin-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -220,19 +312,19 @@
   email: drjoyo@berkeley.edu
   link: null
   name: Johan Ko
-  pic1: ../assets/img/staff/johan-ko-1.jpg
-  pic2: ../assets/img/staff/johan-ko-1.jpg
+  pic1: assets/img/staff/johan-ko-1.jpg
+  pic2: assets/img/staff/johan-ko-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
-- bio: "Hello! I'm a sophomore in CS interested in CV and ML. My hobbies are reading,\
-    \ playing the piano, badminton, sleeping (?), and drinking boba (??). Hope y'all\
-    \ have a wonderful semester, and CS61B? We got this 8)\r\n"
+- bio: Hello! I'm a sophomore in CS interested in CV and ML. My hobbies are reading,
+    playing the piano, badminton, sleeping (?), and drinking boba (??). Hope y'all
+    have a wonderful semester, and CS61B? We got this 8)
   email: karen93@berkeley.edu
   link: https://www.linkedin.com/in/karenshieh/
   name: Karen Shieh
-  pic1: ../assets/img/staff/karen-shieh-1.jpg
-  pic2: ../assets/img/staff/karen-shieh-1.jpg
+  pic1: assets/img/staff/karen-shieh-1.jpg
+  pic2: assets/img/staff/karen-shieh-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her
@@ -242,8 +334,8 @@
   email: kathleenhua@berkeley.edu
   link: null
   name: Kathleen Hua
-  pic1: ../assets/img/staff/kathleen-hua-1.jpg
-  pic2: ../assets/img/staff/kathleen-hua-1.jpg
+  pic1: assets/img/staff/kathleen-hua-1.jpg
+  pic2: assets/img/staff/kathleen-hua-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -253,8 +345,8 @@
   email: kklairee@berkeley.edu
   link: null
   name: Klaire Sobrepena
-  pic1: ../assets/img/staff/klaire-sobrepena-1.jpg
-  pic2: ../assets/img/staff/klaire-sobrepena-1.jpg
+  pic1: assets/img/staff/klaire-sobrepena-1.jpg
+  pic2: assets/img/staff/klaire-sobrepena-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -265,8 +357,8 @@
   email: laulee@berkeley.edu
   link: null
   name: Lauren Lee
-  pic1: ../assets/img/staff/lauren-lee-1.jpg
-  pic2: ../assets/img/staff/lauren-lee-1.jpg
+  pic1: assets/img/staff/lauren-lee-1.jpg
+  pic2: assets/img/staff/lauren-lee-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -276,11 +368,24 @@
   email: m.kaur@berkeley.edu
   link: null
   name: Mahik Kaur
-  pic1: ../assets/img/staff/mahik-kaur-1.jpg
-  pic2: ../assets/img/staff/mahik-kaur-1.jpg
+  pic1: assets/img/staff/mahik-kaur-1.jpg
+  pic2: assets/img/staff/mahik-kaur-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her
+- bio: "Hey guys I\u2019m Melania and I\u2019m a Data Science major focusing in Econ.\
+    \ This was/is/will forever be my favorite class at Berkeley so I\u2019m excited\
+    \ to AI for it a second time. On the weekends I love swimming, exploring nature,\
+    \ and going to concerts. Please feel free to reach out, I\u2019m super excited\
+    \ to meet you all!"
+  email: melaniaohanian@berkeley.edu
+  link: null
+  name: Melania Ohanian
+  pic1: assets/img/staff/melania-ohanian-1.jpg
+  pic2: assets/img/staff/melania-ohanian-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: she/her/hers
 - bio: Hi guys, my name is Mihika and I'm a second-year student pursuing Computer
     Science and Data Science! Some of my hobbies include being a foodie, traveling,
     board games, go karting, skiing, and surfing! Some of my top food picks in Berkeley
@@ -288,8 +393,8 @@
   email: mihika12345@berkeley.edu
   link: null
   name: Mihika Bhatnagar
-  pic1: ../assets/img/staff/mihika-bhatnagar-1.jpg
-  pic2: ../assets/img/staff/mihika-bhatnagar-1.jpg
+  pic1: assets/img/staff/mihika-bhatnagar-1.jpg
+  pic2: assets/img/staff/mihika-bhatnagar-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -300,8 +405,8 @@
   email: mohammadshahnawaz@berkeley.edu
   link: null
   name: Mohammad Shahnawaz
-  pic1: ../assets/img/staff/mohammad-shahnawaz-1.jpg
-  pic2: ../assets/img/staff/mohammad-shahnawaz-1.jpg
+  pic1: assets/img/staff/mohammad-shahnawaz-1.jpg
+  pic2: assets/img/staff/mohammad-shahnawaz-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -311,8 +416,19 @@
   email: nithurhan@berkeley.edu
   link: null
   name: NIthurhan Carthikeyhan
-  pic1: ../assets/img/staff/nithurhan-carthikeyhan-1.jpg
-  pic2: ../assets/img/staff/nithurhan-carthikeyhan-1.jpg
+  pic1: assets/img/staff/nithurhan-carthikeyhan-1.jpg
+  pic2: assets/img/staff/nithurhan-carthikeyhan-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: ''
+- bio: "Hi I\u2019m Natalie! I\u2019m a senior from Orange County studying cognitive\
+    \ science. I love artists like Lana Del Rey, Kali Uchis, Grateful Dead, Fleetwood\
+    \ Mac\u2026 This is my second time being an AI for 61B!"
+  email: nataliegodinez@berkeley.edu
+  link: null
+  name: Natalie Godinez
+  pic1: assets/img/staff/natalie-godinez-1.jpg
+  pic2: assets/img/staff/natalie-godinez-1.jpg
   pic3: null
   pic4: null
   pronouns: ''
@@ -326,8 +442,8 @@
   email: nela.taeb@berkeley.edu
   link: null
   name: Nela Taeb
-  pic1: ../assets/img/staff/nela-taeb-1.jpg
-  pic2: ../assets/img/staff/nela-taeb-1.jpg
+  pic1: assets/img/staff/nela-taeb-1.jpg
+  pic2: assets/img/staff/nela-taeb-1.jpg
   pic3: null
   pic4: null
   pronouns: ''
@@ -337,8 +453,18 @@
   email: octavio.lomeli@berkeley.edu
   link: https://www.youtube.com/watch?v=V-_O7nl0Ii0&t=17s
   name: Octavio Lomeli-Castro
-  pic1: ../assets/img/staff/octavio-lomeli-castro-1.jpg
-  pic2: ../assets/img/staff/octavio-lomeli-castro-1.jpg
+  pic1: assets/img/staff/octavio-lomeli-castro-1.jpg
+  pic2: assets/img/staff/octavio-lomeli-castro-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him/his
+- bio: hello im philip! I love pretending to be a crab. If you need help with any
+    labs, feel free to let me know and i'll scuttle over and help you!
+  email: philipye@berkeley.edu
+  link: null
+  name: Philip Ye
+  pic1: assets/img/staff/philip-ye-1.jpg
+  pic2: assets/img/staff/philip-ye-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -346,8 +472,8 @@
   email: ranaajamshed@berkeley.edu
   link: null
   name: Ranaa Jamshed
-  pic1: ../assets/img/staff/ranaa-jamshed-1.jpg
-  pic2: ../assets/img/staff/ranaa-jamshed-1.jpg
+  pic1: assets/img/staff/ranaa-jamshed-1.jpg
+  pic2: assets/img/staff/ranaa-jamshed-1.jpg
   pic3: null
   pic4: null
   pronouns: ''
@@ -358,8 +484,8 @@
   email: rlakhnor@berkeley.edu
   link: null
   name: Rishi Lakhnori
-  pic1: ../assets/img/staff/rishi-lakhnori-1.jpg
-  pic2: ../assets/img/staff/rishi-lakhnori-1.jpg
+  pic1: assets/img/staff/rishi-lakhnori-1.jpg
+  pic2: assets/img/staff/rishi-lakhnori-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -370,8 +496,8 @@
   email: rbeggs@berkeley.edu
   link: null
   name: Ronnie Beggs
-  pic1: ../assets/img/staff/ronnie-beggs-1.jpg
-  pic2: ../assets/img/staff/ronnie-beggs-1.jpg
+  pic1: assets/img/staff/ronnie-beggs-1.jpg
+  pic2: assets/img/staff/ronnie-beggs-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -382,8 +508,8 @@
   email: rmalibiran@berkeley.edu
   link: null
   name: Ryssa Malibiran
-  pic1: ../assets/img/staff/ryssa-malibiran-1.jpg
-  pic2: ../assets/img/staff/ryssa-malibiran-1.jpg
+  pic1: assets/img/staff/ryssa-malibiran-1.jpg
+  pic2: assets/img/staff/ryssa-malibiran-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -395,8 +521,8 @@
   email: saduri@berkeley.edu
   link: https://www.linkedin.com/in/sasankaduri/
   name: Sasank Aduri
-  pic1: ../assets/img/staff/sasank-aduri-1.jpg
-  pic2: ../assets/img/staff/sasank-aduri-1.jpg
+  pic1: assets/img/staff/sasank-aduri-1.jpg
+  pic2: assets/img/staff/sasank-aduri-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -405,8 +531,8 @@
   email: spark6015@berkeley.edu
   link: null
   name: Seong Hyun Park
-  pic1: ../assets/img/staff/seong-hyun-park-1.jpg
-  pic2: ../assets/img/staff/seong-hyun-park-1.jpg
+  pic1: assets/img/staff/seong-hyun-park-1.jpg
+  pic2: assets/img/staff/seong-hyun-park-1.jpg
   pic3: null
   pic4: null
   pronouns: ''
@@ -416,8 +542,8 @@
   email: shashwat@berkeley.edu
   link: https://www.linkedin.com/in/shashwat-bansal/
   name: Shashwat Bansal
-  pic1: ../assets/img/staff/shashwat-bansal-1.jpg
-  pic2: ../assets/img/staff/shashwat-bansal-1.jpg
+  pic1: assets/img/staff/shashwat-bansal-1.jpg
+  pic2: assets/img/staff/shashwat-bansal-1.jpg
   pic3: null
   pic4: null
   pronouns: he/him/his
@@ -427,8 +553,8 @@
   email: sdahiyat@berkeley.edu
   link: null
   name: Sierra Dahiyat
-  pic1: ../assets/img/staff/sierra-dahiyat-1.jpg
-  pic2: ../assets/img/staff/sierra-dahiyat-1.jpg
+  pic1: assets/img/staff/sierra-dahiyat-1.jpg
+  pic2: assets/img/staff/sierra-dahiyat-1.jpg
   pic3: null
   pic4: null
   pronouns: She/her/hers
@@ -439,8 +565,8 @@
   email: sofiag26@berkeley.edu
   link: null
   name: Sofia Garcia
-  pic1: ../assets/img/staff/sofia-garcia-1.jpg
-  pic2: ../assets/img/staff/sofia-garcia-1.jpg
+  pic1: assets/img/staff/sofia-garcia-1.jpg
+  pic2: assets/img/staff/sofia-garcia-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -449,8 +575,8 @@
   email: sri.chandrasekaran@berkeley.edu
   link: null
   name: Sri Chandrasekaran
-  pic1: ../assets/img/staff/sri-chandrasekaran-1.jpg
-  pic2: ../assets/img/staff/sri-chandrasekaran-1.jpg
+  pic1: assets/img/staff/sri-chandrasekaran-1.jpg
+  pic2: assets/img/staff/sri-chandrasekaran-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -462,8 +588,8 @@
   email: sriyakantipudi@berkeley.edu
   link: null
   name: Sriya Kantipudi
-  pic1: ../assets/img/staff/sriya-kantipudi-1.jpg
-  pic2: ../assets/img/staff/sriya-kantipudi-1.jpg
+  pic1: assets/img/staff/sriya-kantipudi-1.jpg
+  pic2: assets/img/staff/sriya-kantipudi-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -474,8 +600,8 @@
   email: stacey.lei@berkeley.edu
   link: null
   name: Stacey Lei
-  pic1: ../assets/img/staff/stacey-lei-1.jpg
-  pic2: ../assets/img/staff/stacey-lei-1.jpg
+  pic1: assets/img/staff/stacey-lei-1.jpg
+  pic2: assets/img/staff/stacey-lei-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her/hers
@@ -485,8 +611,8 @@
   email: terriannezhang@berkeley.edu
   link: null
   name: Terrianne Zhang
-  pic1: ../assets/img/staff/terrianne-zhang-1.jpg
-  pic2: ../assets/img/staff/terrianne-zhang-1.jpg
+  pic1: assets/img/staff/terrianne-zhang-1.jpg
+  pic2: assets/img/staff/terrianne-zhang-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her
@@ -496,8 +622,20 @@
   email: tiffany_li@berkeley.edu
   link: null
   name: Tiffany Li
-  pic1: ../assets/img/staff/tiffany-li-1.jpg
-  pic2: ../assets/img/staff/tiffany-li-1.jpg
+  pic1: assets/img/staff/tiffany-li-1.jpg
+  pic2: assets/img/staff/tiffany-li-1.jpg
   pic3: null
   pic4: null
   pronouns: she/her
+- bio: "Hi everyone! I\u2019m Yamuna, a sophomore studying EECS. I\u2019m from the\
+    \ bay and I love watching TV, dancing, singing, playing guitar, and playing tennis.\
+    \ Some of my favorite food places in Berkeley are Imm Thai, Pok\xE9 Parlor, and\
+    \ Sodoi. Looking forward to meeting you all :)"
+  email: y.rao@berkeley.edu
+  link: null
+  name: Yamuna Rao
+  pic1: assets/img/staff/yamuna-rao-1.jpg
+  pic2: assets/img/staff/yamuna-rao-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: she/her/hers
