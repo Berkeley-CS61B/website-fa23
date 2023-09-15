@@ -374,7 +374,7 @@
       assignments:
         - title: "Project 1C (due 9/25)"
           link: /materials/proj/proj1c
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 - week: 5
