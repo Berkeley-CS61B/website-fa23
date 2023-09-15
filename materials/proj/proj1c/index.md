@@ -31,13 +31,13 @@ By the end of Project 1C, you will complete the following:
 
 {% include alert.html type="warning" content="
 This section assumes you have watched and fully digested the lectures up till
-the Iterators, Object Methods lecture, Lecture 12.
+the Iterators, Object Methods lecture, Lecture 11.
 " %}
 
 ### Style
 
 As in Project 1B, **we will be enforcing style**. You must follow the
-[style guide](/materials/guides/style/index.md), or you will be penalized on the
+[style guide](../../guides/style/index.md), or you will be penalized on the
 autograder.
 
 You can and should check your style locally with the CS 61B plugin. **We will
@@ -70,13 +70,17 @@ You see a `proj1c` directory appear in your repo with the following structure:
     └── TestGuitarString.java
 ```
 
+
+{% include alert.html type="danger" content="
 If you get some sort of error, STOP and either figure it out by carefully
 reading the [git WTFs](/materials/guides/git/wtfs/index.md) or seek help at OH
 or Ed. You'll potentially save yourself a lot of trouble vs. guess-and-check
 with git commands. If you find yourself trying to use commands recommended by
 Google like `force push`,
 [don't](https://twitter.com/heathercmiller/status/526770571728531456).
+
 **Don't use force push, even if a post you found on Stack Overflow says to do it!**
+" %}
 
 You can also watch Professor Hug's [demo](https://www.youtube.com/watch?v=tABtNcN5y0A)
 about how to get started and this [video](https://www.youtube.com/watch?v=Squ8TmG5mX0)
