@@ -7,3 +7,6 @@ searchable: false
 ---
 
 Frequently asked questions...
+
+
+#### Be sure to check that your keep `package deque` when you are copying files.
