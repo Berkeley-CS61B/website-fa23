@@ -197,7 +197,7 @@ Override the equals method in the `ArrayDeque` and `LinkedListDeque` classes. Fo
 " %}
 
 {% include alert.html type="warning" content="
-Important: You should not use `getClass`, and there's no need to do any casting in your `equals` method. That is, you shouldn't be doing `(ArrayDeque) o`. Such `equals` methods are old fashioned and overly complex.
+Important: You should not use `getClass`, and there's no need to do any casting in your `equals` method. That is, you shouldn't be doing `(ArrayDeque) o`. Such `equals` methods are old fashioned and overly complex. Use `instaceof` instead.
 " %}
 
 {% include alert.html type="warning" content="
@@ -387,51 +387,6 @@ averaging operation.
 You should now also be able to use the `GuitarHeroLite` class. Running it will provide a graphical interface, allowing
 the user (you!) to interactively play sounds using the `gh2` package's `GuitarString` class.
 
-### The Birds
-
-To earn ["The Birds"](https://edstem.org/us/courses/25759/discussion/2462227), you must create `GuitarHero` and also implement at least one additional instrument.
-
-Consider creating a program `GuitarHero` that is similar to `GuitarHeroLite`, but supports a total of 37 notes on the
-chromatic scale from 110Hz to 880Hz. Use the following 37 keys to represent the keyboard, from lowest note to highest
-note:
-
-```java
-String keyboard="q2we4r5ty7u8i9op-[=zxdcfvgbnjmk,.;/' ";
-```
-
-This keyboard arrangement imitates a piano keyboard: The "white keys" are on the qwerty and zxcv rows and the "black
-keys" on the 12345 and asdf rows of the keyboard.
-
-The ith character of the string keyboard corresponds to a frequency of $440 \cdot 2^{(i - 24) / 12}$, so that the
-character 'q' is 110Hz, 'i' is 220Hz, 'v' is 440Hz, and ' ' is 880Hz. Don't even think of including 37 individual
-GuitarString variables or a 37-way if statement! Instead, create an array of 37
-`GuitarString` objects and use `keyboard.indexOf(key)` to figure out which key was typed. Make sure your program does
-not crash if a key is pressed that does not correspond to one of your 37 notes.
-
-- Harp strings: Create a `Harp` class in the `gh2` package. Flipping the sign of the new value before enqueueing it
-  in `tic()`
-  will change the sound from guitar-like to harp-like. You may want to play with the decay factors to improve the
-  realism, and adjust the buffer sizes by a factor of two since the natural resonance frequency is cut in half by the
-  `tic()` change.
-- Drums: Create a `Drum` class in the `gh2` package. Flipping the sign of a new value with probability 0.5 before
-  enqueueing it in `tic()` will produce a drum sound. A decay factor of 1.0 (no decay) will yield a better sound, and
-  you will need to adjust the set of frequencies used.
-
-- Other: Try inventing a new instrument.
-
-### Other Possibilities for Further Enrichment
-
-- Guitars play each note on one of 6 physical strings. To simulate this you can divide your `GuitarString` instances
-  into 6 groups, and when a string is plucked, zero out all other strings in that group.
-- Pianos come with a damper pedal which can be used to make the strings stationary. You can implement this by, on
-  iterations where a certain key
-  (such as Shift) is held down, changing the decay factor.
-- While we have used equal temperament, the ear finds it more pleasing when musical intervals follow the small fractions
-  in the just intonation system. For example, when a musician uses a brass instrument to play a perfect fifth
-  harmonically, the ratio of frequencies is 3/2 = 1.5 rather than 27/12 ∼ 1.498. Write a program where each successive
-  pair of notes has just intonation.
-
-To earn "The Birds", create a short video demo and fill out [this Google Form](https://forms.gle/xhUXoqCXAfsgrmck7).
 
 ### Submission
 
@@ -440,7 +395,7 @@ assignment on Gradescope and submit there.
 
 The autograder for this assignment will have the following velocity limiting scheme:
 
-- From the release of the project to 10:00PM on 2/22/2023, you will have 6 tokens; each of
+- From the release of the project to 10:00PM on 09/25/2023, you will have 6 tokens; each of
   these tokens will refresh every 24 hours.
 - From 10:00PM to 11:59PM on 2/22/2023 (the last 2 hours before the deadline), you will get 4 tokens; each of
   these tokens will refresh every 15 minutes.
@@ -457,7 +412,7 @@ of which you must implement _completely correctly_ to receive credit.
 4. **`MaxArrayDeque` Max (35%)**: Correctly implement `max` in `MaxArrayDeque`.
 5. **`GuitarString` (20%)**: Correctly implement the `GuitarString` client class.
 
-In total, Project 1c is worth 512 points.
+In total, Project 1c is worth 10 points.
 
 ### Credits
 
