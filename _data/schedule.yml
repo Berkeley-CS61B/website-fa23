@@ -288,7 +288,7 @@
           rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
 - week: 4
-  # weekly_survey: "https://forms.gle/RbKmnBZvqJJDSWCK6"
+  weekly_survey: "https://forms.gle/EzA2fk2DGWzzGQGd9"
   rows: 3
   discussions:
     - name: Inheritance
