@@ -296,7 +296,7 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/regular/regular04.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/regular/regular04sol.pdf"
         - name: video
           released: false
@@ -309,7 +309,7 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/examlevel/examlevel04.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/examlevel/examlevel04sol.pdf"
         - name: video
           released: false
