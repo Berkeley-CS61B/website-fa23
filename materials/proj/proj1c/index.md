@@ -92,7 +92,7 @@ if you encounter some git issues.
 set up for Project 1C!**
 
 In order to implement the following methods, you should start by copying and pasting your Project 1A and Project 1B
-implementations of `LinkedListDeque` and `ArrayDeque` into the relevant files in your `proj1c` directory.
+implementations of `LinkedListDeque` and `ArrayDeque` into the relevant files in your `proj1c` directory. Please keep `package deque`.
 
 {% include alert.html type="warning" content="
 Important: Because of the way that the `Deque` interfaces were structured in Projects 1A and 1B, you'll need to implement the
