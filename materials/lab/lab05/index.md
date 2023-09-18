@@ -15,7 +15,7 @@ recommend you watch to help you get started with this lab.**
 
 Please use our **[common issues and frequently asked questions page](./faq.md)**
 as a resource. We'll be updating this FAQ page on the website throughout the
-week! In future labs, we'll link the FAQ at the top.
+week!
 
 ## Introduction
 

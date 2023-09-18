@@ -412,9 +412,9 @@
       link: materials/lab/lab05
       resource_links:
         - name: videos
-          released: false
-          link: "https://www.youtube.com/watch?v=6YhV4L7NNv8&list=PLnp31xXvnfRqw9s4bCo8BFq9U_sLedPVn&index=1"
-      released: false
+          released: true
+          link: "https://youtu.be/GDXaeXN0PcI?si=3WhM9lXl_cztkvDT"
+      released: true
   days:
     - day: 2023-09-18
       lecture_topic: "Inheritance 4: Iterators, Object Methods"
