@@ -288,7 +288,7 @@
           rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
 - week: 4
-  # weekly_survey: "https://forms.gle/RbKmnBZvqJJDSWCK6"
+  weekly_survey: "https://forms.gle/EzA2fk2DGWzzGQGd9"
   rows: 3
   discussions:
     - name: Inheritance
@@ -367,14 +367,14 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqAB5rg3v2NvfF_cb9OJ9cB
         - name: slides
           link: https://docs.google.com/presentation/d/18FVBQg-r-_RNhJZn6rwsm5QoQYduI-AU1U4OT8T6-mg
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=MD0t3uMwe30"
       reading: > # Format in Markdown
         [Ch 11](https://cs61b-2.gitbook.io/cs61b-textbook/11.-subtype-polymorphism-comparators-comparable)
       assignments:
         - title: "Project 1C (due 9/25)"
           link: /materials/proj/proj1c
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 - week: 5
@@ -412,9 +412,9 @@
       link: materials/lab/lab05
       resource_links:
         - name: videos
-          released: false
-          link: "https://www.youtube.com/watch?v=6YhV4L7NNv8&list=PLnp31xXvnfRqw9s4bCo8BFq9U_sLedPVn&index=1"
-      released: false
+          released: true
+          link: "https://youtu.be/GDXaeXN0PcI?si=3WhM9lXl_cztkvDT"
+      released: true
   days:
     - day: 2023-09-18
       lecture_topic: "Inheritance 4: Iterators, Object Methods"
@@ -429,9 +429,9 @@
       reading: > # Format in Markdown
         [Ch 12](https://cs61b-2.gitbook.io/cs61b-textbook/12.-exceptions-iterators-object-methods)
       assignments:
-        - title: "Project 1C (due TBD)"
+        - title: "Project 1C (due 9/25)"
           link: /materials/proj/proj1c
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-20

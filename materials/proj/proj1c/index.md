@@ -7,7 +7,7 @@ toc:
   h_max: 4
 ---
 
-## Due: February 22nd
+## Due: September 25th
 
 {: .no_toc}
 
@@ -31,13 +31,13 @@ By the end of Project 1C, you will complete the following:
 
 {% include alert.html type="warning" content="
 This section assumes you have watched and fully digested the lectures up till
-the Iterators, Object Methods lecture, Lecture 12.
+the Iterators, Object Methods lecture, Lecture 11.
 " %}
 
 ### Style
 
 As in Project 1B, **we will be enforcing style**. You must follow the
-[style guide](/materials/guides/style/index.md), or you will be penalized on the
+[style guide](../../guides/style/index.md), or you will be penalized on the
 autograder.
 
 You can and should check your style locally with the CS 61B plugin. **We will
@@ -70,13 +70,17 @@ You see a `proj1c` directory appear in your repo with the following structure:
     └── TestGuitarString.java
 ```
 
+
+{% include alert.html type="danger" content="
 If you get some sort of error, STOP and either figure it out by carefully
 reading the [git WTFs](/materials/guides/git/wtfs/index.md) or seek help at OH
 or Ed. You'll potentially save yourself a lot of trouble vs. guess-and-check
 with git commands. If you find yourself trying to use commands recommended by
 Google like `force push`,
 [don't](https://twitter.com/heathercmiller/status/526770571728531456).
+
 **Don't use force push, even if a post you found on Stack Overflow says to do it!**
+" %}
 
 You can also watch Professor Hug's [demo](https://www.youtube.com/watch?v=tABtNcN5y0A)
 about how to get started and this [video](https://www.youtube.com/watch?v=Squ8TmG5mX0)
@@ -88,21 +92,12 @@ if you encounter some git issues.
 set up for Project 1C!**
 
 In order to implement the following methods, you should start by copying and pasting your Project 1A and Project 1B
-implementations of `LinkedListDeque` and `ArrayDeque` into the relevant files in your `proj1c` directory.
+implementations of `LinkedListDeque` and `ArrayDeque` into the relevant files in your `proj1c` directory. 
 
 {% include alert.html type="warning" content="
-Important: Because of the way that the `Deque` interfaces were structured in Projects 1A and 1B, you'll need to implement the
-`getRecursive()` method in `ArrayDeque` after copy-pasting it. **If you don't implement this method, both the autograder and your own code will not compile.**
-This doesn't need to be an actual implementation of the method, since we won't test it. Instead, it can just look like the code snippet
-below (feel free to copy-paste this snippet directly into your file).
+Please keep `package deque;` at the top of both files. Otherwise, your code will not compile.
 " %}
 
-```java
-@Override
-public T getRecursive(int index) {
-    return get(index);
-}
-```
 
 #### `iterator()`
 
@@ -145,6 +140,10 @@ Next, implement the `iterator()` method using the techniques described in lectur
 {% include alert.html type="task" content="
 **Task**: Implement the `iterator()` method in both `LinkedListDeque` and
 `ArrayDeque` according to lecture.
+" %}
+
+{% include alert.html type="danger" content="
+You are not allowed to call `toList` here.
 " %}
 
 #### `equals()`
@@ -193,11 +192,15 @@ Override the equals method in the `ArrayDeque` and `LinkedListDeque` classes. Fo
 " %}
 
 {% include alert.html type="warning" content="
-Important: You should not use `getClass`, and there's no need to do any casting in your `equals` method. That is, you shouldn't be doing `(ArrayDeque) o`. Such `equals` methods are old fashioned and overly complex.
+Important: You should not use `getClass`, and there's no need to do any casting in your `equals` method. That is, you shouldn't be doing `(ArrayDeque) o`. Such `equals` methods are old fashioned and overly complex. Use `instaceof` instead.
 " %}
 
 {% include alert.html type="warning" content="
 Important: Make sure you use the `@Override` tag when overriding methods. A common mistake in student code is to try to override `equals(ArrayList<T> other)` rather than `equals(Object other)`. Using the optional `@Override` tag will prevent your code from compiling if you make this mistake. `@Override` is  a great safety net.
+" %}
+
+{% include alert.html type="danger" content="
+You are not allowed to call `toList` here.
 " %}
 
 #### `toString()`
@@ -383,51 +386,6 @@ averaging operation.
 You should now also be able to use the `GuitarHeroLite` class. Running it will provide a graphical interface, allowing
 the user (you!) to interactively play sounds using the `gh2` package's `GuitarString` class.
 
-### The Birds
-
-To earn ["The Birds"](https://edstem.org/us/courses/25759/discussion/2462227), you must create `GuitarHero` and also implement at least one additional instrument.
-
-Consider creating a program `GuitarHero` that is similar to `GuitarHeroLite`, but supports a total of 37 notes on the
-chromatic scale from 110Hz to 880Hz. Use the following 37 keys to represent the keyboard, from lowest note to highest
-note:
-
-```java
-String keyboard="q2we4r5ty7u8i9op-[=zxdcfvgbnjmk,.;/' ";
-```
-
-This keyboard arrangement imitates a piano keyboard: The "white keys" are on the qwerty and zxcv rows and the "black
-keys" on the 12345 and asdf rows of the keyboard.
-
-The ith character of the string keyboard corresponds to a frequency of $440 \cdot 2^{(i - 24) / 12}$, so that the
-character 'q' is 110Hz, 'i' is 220Hz, 'v' is 440Hz, and ' ' is 880Hz. Don't even think of including 37 individual
-GuitarString variables or a 37-way if statement! Instead, create an array of 37
-`GuitarString` objects and use `keyboard.indexOf(key)` to figure out which key was typed. Make sure your program does
-not crash if a key is pressed that does not correspond to one of your 37 notes.
-
-- Harp strings: Create a `Harp` class in the `gh2` package. Flipping the sign of the new value before enqueueing it
-  in `tic()`
-  will change the sound from guitar-like to harp-like. You may want to play with the decay factors to improve the
-  realism, and adjust the buffer sizes by a factor of two since the natural resonance frequency is cut in half by the
-  `tic()` change.
-- Drums: Create a `Drum` class in the `gh2` package. Flipping the sign of a new value with probability 0.5 before
-  enqueueing it in `tic()` will produce a drum sound. A decay factor of 1.0 (no decay) will yield a better sound, and
-  you will need to adjust the set of frequencies used.
-
-- Other: Try inventing a new instrument.
-
-### Other Possibilities for Further Enrichment
-
-- Guitars play each note on one of 6 physical strings. To simulate this you can divide your `GuitarString` instances
-  into 6 groups, and when a string is plucked, zero out all other strings in that group.
-- Pianos come with a damper pedal which can be used to make the strings stationary. You can implement this by, on
-  iterations where a certain key
-  (such as Shift) is held down, changing the decay factor.
-- While we have used equal temperament, the ear finds it more pleasing when musical intervals follow the small fractions
-  in the just intonation system. For example, when a musician uses a brass instrument to play a perfect fifth
-  harmonically, the ratio of frequencies is 3/2 = 1.5 rather than 27/12 ∼ 1.498. Write a program where each successive
-  pair of notes has just intonation.
-
-To earn "The Birds", create a short video demo and fill out [this Google Form](https://forms.gle/xhUXoqCXAfsgrmck7).
 
 ### Submission
 
@@ -436,7 +394,7 @@ assignment on Gradescope and submit there.
 
 The autograder for this assignment will have the following velocity limiting scheme:
 
-- From the release of the project to 10:00PM on 2/22/2023, you will have 6 tokens; each of
+- From the release of the project to 10:00PM on 09/25/2023, you will have 6 tokens; each of
   these tokens will refresh every 24 hours.
 - From 10:00PM to 11:59PM on 2/22/2023 (the last 2 hours before the deadline), you will get 4 tokens; each of
   these tokens will refresh every 15 minutes.
@@ -453,7 +411,7 @@ of which you must implement _completely correctly_ to receive credit.
 4. **`MaxArrayDeque` Max (35%)**: Correctly implement `max` in `MaxArrayDeque`.
 5. **`GuitarString` (20%)**: Correctly implement the `GuitarString` client class.
 
-In total, Project 1c is worth 512 points.
+In total, Project 1c is worth 10 points.
 
 ### Credits
 
