@@ -424,8 +424,8 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrvh9PM0gK9fm7VAD0HdijJ
         - name: slides
           link: https://docs.google.com/presentation/d/1kOdhZSeCUSUwX8VwF8xNuFyXqp9OR8sfN2ZZWNxiCUU
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=89Al2pJ_0jI"
       reading: > # Format in Markdown
         [Ch 12](https://cs61b-2.gitbook.io/cs61b-textbook/12.-exceptions-iterators-object-methods)
       assignments:
