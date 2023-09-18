@@ -1,5 +1,5 @@
 - week: 4
-  # weekly_survey: "https://forms.gle/RbKmnBZvqJJDSWCK6"
+  weekly_survey: "https://forms.gle/EzA2fk2DGWzzGQGd9"
   rows: 3
   discussions:
     - name: Inheritance
@@ -7,7 +7,7 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/regular/regular04.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/regular/regular04sol.pdf"
         - name: video
           released: false
@@ -20,7 +20,7 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/examlevel/examlevel04.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/examlevel/examlevel04sol.pdf"
         - name: video
           released: false
@@ -60,8 +60,8 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrLnGlBmWCRXEuKF5Am09yB
         - name: slides
           link: https://docs.google.com/presentation/d/1p8xF-7EPX12pIw0GEAPF12_brQy9jqdl-1GO5JtNXMg
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=ayTFS2ulFRY"
       reading: > # Format in Markdown
         [Ch 9](https://cs61b-2.gitbook.io/cs61b-textbook/9.-extends-casting-higher-order-functions)
       assignments:
@@ -78,13 +78,13 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRqAB5rg3v2NvfF_cb9OJ9cB
         - name: slides
           link: https://docs.google.com/presentation/d/18FVBQg-r-_RNhJZn6rwsm5QoQYduI-AU1U4OT8T6-mg
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=MD0t3uMwe30"
       reading: > # Format in Markdown
         [Ch 11](https://cs61b-2.gitbook.io/cs61b-textbook/11.-subtype-polymorphism-comparators-comparable)
       assignments:
         - title: "Project 1C (due 9/25)"
           link: /materials/proj/proj1c
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
