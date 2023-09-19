@@ -80,9 +80,9 @@
         - name: solution
           released: true
           link: https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week02/regular/regular02sol.pdf
-        # - name: video
-        #   released: false
-        #   link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoxyC5HydoGxbeinh4WAcls"
+        - name: video
+          released: true
+          link: "https://drive.google.com/file/d/1dMOeDVuvV1Tt7185rYYbSW2UGMdvwHQ7/view?usp=drive_link"
         - name: slides
           released: true
           link: "https://docs.google.com/presentation/d/1BX8Y-5coLpSnDsoAuU86bz88vUYAZGCjXgaYZx8im_s/edit?usp=sharing"
@@ -381,9 +381,9 @@
   # weekly_survey: "https://forms.gle/CGGaqBvKGex2ufcH6"
   rows: 3
   discussions:
-    - name: Iterators, Iterable, Polymorphism
-      released: false
-      link: "https://drive.google.com/file/d/1RgrKIf4plNOt2biAtDMAHSN6hf_sfAgy/view?usp=sharing"
+    - name: Comparators, Iterators
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular05.pdf"
       resource_links:
         - name: solution
           released: false
@@ -392,11 +392,11 @@
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRosONixmTTQnspn7fLOV4-Y"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1OYIEWsGum-La9s6VFnEM0_SDW7x0nbN5bHKS0wn9Sqc/edit?usp=sharing"
-    - name: Iterators, Polymorphism (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/1kh7zPPY3hHBPXYbmRBlLI1kg0Sro6v65/view?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1fPizAGPMyO15j4jW0JmQp2Pz7txycgptvku6CyOEk2s/edit?usp=sharing"
+    - name: Comparators, Iterators (Exam-Level)
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel05.pdf"
       resource_links:
         - name: solution
           released: false
@@ -405,8 +405,8 @@
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRqOkhLqRr1OoRCpUKvlqm_P"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1Ky8wuwwFFsWox4b0cp7xiA_NzhpDHbS9PndoazCtI50/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1MR1Xcu75A5Quo5tZ9R-5ZRrfKDhWUC3NSJB_zO72oWM/edit?usp=sharing"
   labs:
     - name: Timing (Optional)
       link: materials/lab/lab05
@@ -424,8 +424,8 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrvh9PM0gK9fm7VAD0HdijJ
         - name: slides
           link: https://docs.google.com/presentation/d/1kOdhZSeCUSUwX8VwF8xNuFyXqp9OR8sfN2ZZWNxiCUU
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=89Al2pJ_0jI"
       reading: > # Format in Markdown
         [Ch 12](https://cs61b-2.gitbook.io/cs61b-textbook/12.-exceptions-iterators-object-methods)
       assignments:
