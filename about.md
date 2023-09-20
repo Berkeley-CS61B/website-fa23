@@ -320,7 +320,7 @@ Out of the 14 labs, only 10 will entail an assignment you need to submit. Each
 of these 10 labs will be worth 5 points (for a total of 50 points).
 
 You do not need to attend lab to receive credit for lab, with the exception of
-one specific assignmenta (see [above](#lab)).
+one specific assignment (see [above](#lab)).
 
 This semester, we are **not** allowing lab partners for lab assignments. We do
 encourage you to discuss ideas (see the
