@@ -4,26 +4,26 @@
   discussions:
     - name: Comparators, Iterators
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular05.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular/regular05.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1hvub0gZbzs36W8kcstfM2A3WQOzBuOih/view?usp=sharing"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular/regular05sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRosONixmTTQnspn7fLOV4-Y"
         - name: slides
           released: true
           link: "https://docs.google.com/presentation/d/1fPizAGPMyO15j4jW0JmQp2Pz7txycgptvku6CyOEk2s/edit?usp=sharing"
     - name: Comparators, Iterators (Exam-Level)
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel05.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel/examlevel04.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1p_L2RHqOoPZxUVFzS3AKmUd_KZnBO0tI/view?usp=share_link"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel/examlevel05sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRqOkhLqRr1OoRCpUKvlqm_P"
         - name: slides
           released: true

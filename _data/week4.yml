@@ -10,7 +10,7 @@
           released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/regular/regular04sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRot6WChi3d2alB9QL7xjmpq"
         - name: slides
           released: true
@@ -23,7 +23,7 @@
           released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/examlevel/examlevel04sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRo32RBXkS7LFlMNNIgF618Q"
         - name: slides
           released: true
