@@ -440,8 +440,8 @@
       lecture_links:
         - name: slides
           link: "https://docs.google.com/presentation/d/1jTTbV85O93_m9ApfCRjMIf9BZDDUkLlROd63UvvYabw"
-        #- name: recording
-        #  link: "TODO"
+        - name: recording
+          link: "https://youtu.be/So1raqpV-Xo"
       assignments:
         - title: Midterm 1 (<strong>Thursday</strong> 9/21)<br>7-9 PM
           released: false
