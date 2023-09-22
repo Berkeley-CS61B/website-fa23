@@ -82,7 +82,7 @@ See the following visual for some intuition on how this works:
 
 ## Example
 
-Let's go a brief example of what this all looks like for weighted quick union. When we initially 
+Let's go over a example of what this all looks like for weighted quick union. When we initially 
 create our disjoint set, each item is in its own set, so we will initialize all of the elements in the array to `-1`.
 For this representation, we want to track our size in the array, so we 
 **store the weight of a set at its root as -weight** (to also distinguish 
@@ -191,8 +191,8 @@ make sure to read those carefully to understand what you'll want to implement. R
 optimizations discussed above, and take note of the tie-breaking scheme that is described in the comments 
 of some of the methods.
 
-For the above functions you should also correctly handle faulty inputs,
-e.g if invalid vertices are passed into the above functions, throw an `IllegalArgumentException`. You can throw an 
+You should also correctly handle faulty inputs, e.g if invalid vertices are passed 
+into the functions, throw an `IllegalArgumentException`. You can throw an 
 `IllegalArgumentException` with the following line: 
 
     throw new IllegalArgumentException("Some comment to describe the reason for throwing.");
