@@ -22,8 +22,7 @@ need to know to get started.
 For this week's lab, we will be implementing our own disjoint sets, `UnionFind`. More specifically, we 
 will be implementing Weighted Quick Union + Path Compression. 
 
-While we will briefly cover the concepts needed, please reference the slides from lecture for more 
-information.
+While we will briefly cover the concepts needed, please reference lecture for more information. 
 
 As usual, pull the files from the skeleton: 
 
@@ -38,8 +37,6 @@ For disjoint sets, we generally limit ourselves to two main operations: `union` 
 will combine two sets into one set. The `find` operation will take in an item, and tell us which set that 
 item belongs to. With these operations, we're able to easily check if two items are connected to each other.
 
-**For this lab, we will work with non-negative integers as the items in our disjoint sets.**
-
 ## Quick Union
 
 As introduced in lecture, we talked about quick union. With this representation, we can think of our disjoint sets 
@@ -51,10 +48,10 @@ data structure as a tree. Specifically, the tree would have the following qualit
 - the top of each tree (we refer to this top as the "root" of the tree) will be
   the face of the set it represents.
 
-However, one of the problems with this approach is that the worst case runtime of `union` could lead to a 
-linear runtime, depending on how items are connected. In other words, the trees can get really tall, leading 
-to poor performance for `union`. For example, take a look at the example below - why would this lead to worst 
-case?
+However, one of the problems with this approach is that the worst case runtime of `union` would be 
+linear, depending on how items are connected. In other words, the trees can get really tall, leading 
+to poor performance for `union`. For example, take a look at the example below - why would this lead 
+to the worst case runtime?
 
 ![worst](img/worst.png)
 
@@ -85,23 +82,25 @@ See the following visual for some intuition on how this works:
 
 ## Example
 
-Let's go through a brief example of what this all looks like for weighted quick union. When we initially 
+Let's go a brief example of what this all looks like for weighted quick union. When we initially 
 create our disjoint set, each item is in its own set, so we will initialize all of the elements in the array to `-1`.
-For this representation, we want to track our size in the array, so we store the weight of a set at its root as -weight
-(to also distinguish between a parent and the weight of the set).
+For this representation, we want to track our size in the array, so we 
+**store the weight of a set at its root as -weight** (to also distinguish 
+between a parent and the weight of the set).
 
 ![initial](img/initial.png)
 
-After we call `union(0,1)` and `union(2,3)`, our array and our abstract representation will end up as below (the tie-breaking 
-scheme in this case is that the smallest element becomes the root):
+After we call `union(0,1)` and `union(2,3)`, our array and our abstract representation will end up as below
+(**the tie-breaking scheme in this case is that the smallest element becomes the root**):
 
 ![union1](img/union1.png)
 
-Now let's call `union(0,2)`. It'll look like this: 
+Notice that for above, the values stored at 0 and 2 are -2, as the roots of the respective 
+set are storing their (negated) size. Now let's call `union(0,2)`. It'll look like this: 
 
 ![union2](img/union2.png)
 
-For the sake of the example, let's say we have another set like below along with the sets above:
+For the sake of an example, let's say we have another set like below along with the sets above:
 
 ![wqu1](img/wqu_before.png)
 
@@ -110,9 +109,10 @@ If we were to connect the two larger sets, through `union(7, 2)`, we would get t
 ![wqu2](img/wqu_after.png)
 
 In this case, we connect the roots of the sets that 7 and 2 belong to respectively, with the smaller 
-set's root becoming the child of the larger set's root. With weighted quick union, we update two values in the array - 
-the smaller root's parent becomes the root of the larger set and the larger root's value is updated accordingly with a 
-new size. 
+set's root becoming the child of the larger set's root. With weighted quick union, we update two values
+in the array: 
+- the smaller root's parent becomes the root of the larger set 
+- the larger root's value is updated accordingly with a new size
 
 ### Path Compression
 
@@ -124,11 +124,12 @@ Each time, we would have to traverse the tree from the leaf to the root.
 A clever optimization is to move the leaf up the tree so it becomes a direct
 child of the root. That way, the next time you call `find` on that leaf, it
 will run much more quickly. An even more clever idea is that we could do the
-same thing to *every* node that is on the path from the leaf to the root,
-connecting each node to the root as we traverse up the tree. This optimization
-is called **path compression**. Once you find an item, path compression will
-make finding it (and all the nodes on the path to the root) in the future
-faster.
+same thing to *every* node that is on the path from the leaf to the root. 
+Specifically, when we call `find` on an item, all of the nodes that were 
+traversed upon going up the tree (to the root) are updated so that they are 
+now connected directly to the root. This optimization is called **path compression**. 
+Once you find an item, path compression will make finding it (and all the nodes 
+on the path to the root) in the future faster.
 
 The runtime for any combination of $$f$$ `find` and $$u$$ `union` operations
 takes $$\Theta(u + f \alpha(f+u,u))$$ time, where $$\alpha$$ is an *extremely*
@@ -146,26 +147,44 @@ average!
 > Without that qualification we should still describe it by using the inverse
 > Ackermann function.
 
+An example of this is shown below, where we start out with the following: 
+
+![path_compression_before](img/path_compression_before.png)
+
+After we call on `find(5)`, all of the nodes we traversed to get to the root 
+are updated so that they now connect directly to the root: 
+
+![path_compression_after](img/path_compression_after.png)
+
 You can visit this link
 [here](http://www.cs.usfca.edu/~galles/visualization/DisjointSets.html) to play
 around with disjoint sets.
 
 ## Exercise: `UnionFind`
 
-We will now implement our own disjoint sets data structure, `UnionFind`. Read on for more details in 
-the Deliverables section.
+We will now implement our own disjoint sets data structure, `UnionFind`. At this point, if you haven't already, take a look at `UnionFind.java` file. In this file, you'll
+see that some skeleton code has been provided for you - you'll have to fill in the implementation for the
+following methods:
+- `UnionFind(int N)`: This is the constructor. It creates a `UnionFind` data structure that holds N items.
+- `int sizeOf(int v)`: Returns the size of the set that `v` belongs to.
+- `int parent(int v)`: Returns the parent of v.
+- `boolean connected(int v1, int v2)`: Returns `true` if the two vertices are connected.
+- `int find(int v)`: Returns the root of the set that `v` belongs to.
+- `void union(int v1, int v2)`: Connects `v1` and `v2` together.
 
-## Deliverables
+We recommend that you start with implementing the constructor and taking a look at `find`
+before the rest of the other methods. 
 
-At this point, if you haven't already, take a look at `UnionFind.java` file. In this file, you'll 
-see that some skeleton code has been provided for you - you'll have to fill in the implementation for the 
-following methods: 
-- `UnionFind(int N)`: This is the constructor. It creates a `UnionFind` data structure that holds N items. 
-- `int sizeOf(int v)`: Returns the size of the set that `v` belongs to. 
-- `int parent(int v)`: Returns the parent of v. 
-- `boolean connected(int v1, int v2)`: Returns `true` if the two vertices are connected. 
-- `int find(int v)`: Returns the root of the set that `v` belongs to. 
-- `void union(int v1, int v2)`: Connects `v1` and `v2` together. 
+## Lab Notes
+
+The underlying array has been provided for you in the skeleton code. **Do not delete or
+modify it, as this will affect the tests on Gradescope**. In addition, the method called 
+`returnData` is also given in the skeleton code and is provided for testing purposes - 
+**as is the same with the array, do not delete or modify it or the tests on Gradescope will 
+break**. 
+
+**Please note, for this lab, we will work with non-negative integers as the items 
+in our disjoint sets.**
 
 Comments have been provided for each method and will go into a little more detail than the summary above, so 
 make sure to read those carefully to understand what you'll want to implement. Remember to implement both 
@@ -179,8 +198,10 @@ e.g if invalid vertices are passed into the above functions, throw an `IllegalAr
     throw new IllegalArgumentException("Some comment to describe the reason for throwing.");
 
 ## Testing
-There are no hidden tests on Gradescope. For this lab, we have provided tests for you to check for 
-the correctness of your implementation. If you pass all local tests, you will receive full credit on Gradescope. 
+There are no hidden tests on Gradescope. For this lab, we've provided some tests for you 
+to check your implementation, but they are **not comprehensive.** Passing the tests do not 
+mean you will pass the tests on Gradescope and you will need to write your own tests 
+to verify correctness. 
 
 ## Submission
 
