@@ -71,12 +71,12 @@
           class: emph1
     - day: 2023-09-22
       lecture_topic: Asymptotics I
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5aPaPuP4Z28OGOfWtT1jto
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrajvLNrqCND6CQUbqaR0mU"
         - name: slides
-          link: https://docs.google.com/presentation/d/1IbXUJiZw863TcdP505iAhE5FIdMK9xgp2xeyHKPDrI8/edit#slide=id.p
+          link: "https://docs.google.com/presentation/d/1jV07yNB2r9YTLjxL3qH6uGGz1AwAOs5exUItf9KKyPQ"
         - name: recording
           link: "https://www.youtube.com/watch?v=kmdcA0taHaw"
       reading: > # Format in Markdown
