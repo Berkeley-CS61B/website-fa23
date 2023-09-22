@@ -37,7 +37,7 @@ For disjoint sets, we generally limit ourselves to two main operations: `union` 
 will combine two sets into one set. The `find` operation will take in an item, and tell us which set that 
 item belongs to. With these operations, we're able to easily check if two items are connected to each other.
 
-## Quick Union
+### Quick Union
 
 As introduced in lecture, we talked about quick union. With this representation, we can think of our disjoint sets 
 data structure as a tree. Specifically, the tree would have the following qualities:
@@ -80,7 +80,7 @@ $$\log N$$ times until we have reached a total of $$N$$ items.
 See the following visual for some intuition on how this works:
 ![Weighted Quick Union](img/weighted.png)
 
-## Example
+### Example
 
 Let's go over a example of what this all looks like for weighted quick union. When we initially 
 create our disjoint set, each item is in its own set, so we will initialize all of the elements in the array to `-1`.
