@@ -2,18 +2,9 @@
 layout: page
 title: "HW 2: Percolation"
 categories: hw
-released: false
+released: true
 ---
 
-<!--
-
-## Deltas
- - Make it EXTREMELY CLEAR that they shouldn't be reimplement WQU.
- - Give more explicit guidance about testing code, i.e. let them know to use the InteractiveVisualizer.
- - Possibly give them unit tests.
- - Consider fact that if their open is broken (Circle knows more about this), the number of open sites can run off pretty large pretty quickly due to it adding an open site as mouse button is held down. Maybe put this in FAQ.
-
--->
 
 ## Due: 3/1/2023
 
