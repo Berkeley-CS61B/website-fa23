@@ -8,6 +8,10 @@ released: true
 
 ## Due: 10/4/2023
 
+{% include alert.html type="warning" content="
+This homework is comparable to a project in length. Start early. You have been warned.
+" %}
+
 ## [FAQ](faq.md)
 
 Each assignment will have an FAQ linked at the top. You can also access it by adding "/faq" to the end of the URL. The
@@ -137,12 +141,12 @@ the [video](https://www.youtube.com/watch?v=kIYKCsvG6UI&list=PLNSdoiHk6ujjZs46s6
 this spec. Your `numberOfOpenSites()` method must take constant time. Part of the goal of this assignment is to learn
 how to cast one problem (Percolation) in terms of an already solved problem (Disjoint Sets, a.k.a Union Find).
 
+{% include alert.html type="warning" content="
 If you are at this part of the spec and are still unsure of how to start, go through
 these [slides](https://docs.google.com/presentation/d/12mvVbdoq7SKZy02u_i7Z7LCyrDCpbYmUhl_qqW95T_4/edit?usp=sharing) and
 watch this [video](https://www.youtube.com/watch?v=kIYKCsvG6UI&list=PLNSdoiHk6ujjZs46s6XVXEbZUuF1MIO7g).
+" %}
 
-_Note: If you are using IntelliJ, you can choose which class to run (i.e. choose whose main method you want to run) in
-Run -> Edit Configurations. For more information, please check the FAQ_
 
 ## `PercolationStats.java`
 
@@ -274,11 +278,8 @@ to provide a program argument.
 Use this tool to help you debug your `Percolation.java` methods!
 " %}
 
-{% include alert.html type="warning" content="
-If you are at this part of the spec and are still unsure of how to start, go through
-these [slides](https://docs.google.com/presentation/d/12mvVbdoq7SKZy02u_i7Z7LCyrDCpbYmUhl_qqW95T_4/edit?usp=sharing) and
-watch this [video](https://www.youtube.com/watch?v=kIYKCsvG6UI&list=PLNSdoiHk6ujjZs46s6XVXEbZUuF1MIO7g).
-" %}
+_Note: If you are using IntelliJ, you can choose which class to run (i.e. choose whose main method you want to run) in
+Run -> Edit Configurations. For more information, please check the FAQ_
 
 ## Testing
 
