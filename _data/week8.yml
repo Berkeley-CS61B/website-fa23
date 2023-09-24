@@ -35,7 +35,7 @@
     #     released: false
     #     link:
   labs:
-    - name: HashMap (due 10/13)
+    - name: LLRBs (due 10/13)
       link: materials/lab/lab08/
       released: false
       resource_links:
