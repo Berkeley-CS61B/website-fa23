@@ -2,20 +2,15 @@
 layout: page
 title: "HW 2: Percolation"
 categories: hw
-released: false
+released: true
 ---
 
-<!--
 
-## Deltas
- - Make it EXTREMELY CLEAR that they shouldn't be reimplement WQU.
- - Give more explicit guidance about testing code, i.e. let them know to use the InteractiveVisualizer.
- - Possibly give them unit tests.
- - Consider fact that if their open is broken (Circle knows more about this), the number of open sites can run off pretty large pretty quickly due to it adding an open site as mouse button is held down. Maybe put this in FAQ.
+## Due: 10/4/2023
 
--->
-
-## Due: 3/1/2023
+{% include alert.html type="warning" content="
+This homework is comparable to a project in length. Start early. You have been warned.
+" %}
 
 ## [FAQ](faq.md)
 
@@ -101,9 +96,24 @@ estimate $p^&#42;$.
 
 {% include alert.html type="task" content="
 **Task**: Fill out `Percolation.java` by implementing all the methods given in the above API.
+" %}
 
+### The `WeightedQuickUnionUF` class
+
+The `WeightedQuickUnionUF` class is provided by Princeton's `algs4` library, and has the following API:
+```java
+public class WeightedQuickUnionUF {
+   public WeightedQuickUnionUF(int n)      // creates a UF with n elements
+   public int count()                      // number of disjoint sets
+   public int find(int p)                  // the root of p's set
+   public boolean connected(int p, int q)  // whether p and q are in the same set
+   public void union(int p, int q)         // join p and q's sets together
+}
+```
+
+{% include alert.html type="warning" content="
 **Your code must use
-the [`WeightedQuickUnionUF`](https://algs4.cs.princeton.edu/15uf/WeightedQuickUnionUF.java.html) class!** Do not
+the [`WeightedQuickUnionUF`](https://algs4.cs.princeton.edu/15uf/WeightedQuickUnionUF.java.html) class!** It has already been implemented for you, so do not
 reimplement the Union Find ADT.
 " %}
 
@@ -131,12 +141,12 @@ the [video](https://www.youtube.com/watch?v=kIYKCsvG6UI&list=PLNSdoiHk6ujjZs46s6
 this spec. Your `numberOfOpenSites()` method must take constant time. Part of the goal of this assignment is to learn
 how to cast one problem (Percolation) in terms of an already solved problem (Disjoint Sets, a.k.a Union Find).
 
+{% include alert.html type="warning" content="
 If you are at this part of the spec and are still unsure of how to start, go through
 these [slides](https://docs.google.com/presentation/d/12mvVbdoq7SKZy02u_i7Z7LCyrDCpbYmUhl_qqW95T_4/edit?usp=sharing) and
 watch this [video](https://www.youtube.com/watch?v=kIYKCsvG6UI&list=PLNSdoiHk6ujjZs46s6XVXEbZUuF1MIO7g).
+" %}
 
-_Note: If you are using IntelliJ, you can choose which class to run (i.e. choose whose main method you want to run) in
-Run -> Edit Configurations. For more information, please check the FAQ_
 
 ## `PercolationStats.java`
 
@@ -182,12 +192,12 @@ $[\mu - \frac{1.96\sigma}{\sqrt{T}}, \mu + \frac{1.96\sigma}{\sqrt{T}}]$
 
 To perform a series of computational experiments, we've given you a `PercolationStats` data type.
 
-The constructor takes three arguments `N`, `T`, and `pf`, and performs `T` independent computational experiments (
+The constructor takes two arguments `N` and `T`, and performs `T` independent computational experiments (
 discussed above) on an `N`-by-`N` grid. Using this experimental data, it calculates the mean, standard deviation,
 and the 95% confidence interval for the percolation threshold.
 
 {% include alert.html type="task" content="
-**Task**: Uncomment all the code in `PercolationStats.java` and take a look at the provided constructor and methods.
+**Task**: Open `PercolationStats.java` and take a look at the provided constructor and methods.
 Then, run the `main` method, and interpret the results. What do these numbers tell you about the solution to the
 Percolation Problem?
 
@@ -210,18 +220,19 @@ following points:
 
 ## Provided Files
 
-We provide two clients that serve as large-scale visual traces. **We highly recommend using them for testing and debugging
-your `Percolation` implementation.** Only uncomment the contents of these files once you have implemented the methods
-in `Percolation`.
+We provide two clients that serve as large-scale visual traces. **We highly 
+recommend using them for testing and debugging your `Percolation` implementation.** 
 
 #### Sample Data Files
 
 The `inputFiles` directory contains some sample files for use with the visualization client,
 including `input20.txt`, which we will use below.
 
+[Here](outputs.md) are the expected output images corresponding to each input file.
+
 #### File-Based Visualization Client
 
-`PercolationVisualizer.java` visualizes by performing the following steps:
+`PercolationPicture.java` visualizes by performing the following steps:
 
 - Read the grid size N from the file.
 - Create an N-by-N grid of sites (initially all blocked).
@@ -242,12 +253,12 @@ correspond to the 50, 100, 150, 204, and 250 sites being open, respectively.
 {: .center }
 
 You can run the visualizer on this input by passing in the correct arguments to the IntelliJ
-program's `Run -> Edit Configurations -> + -> Application` tab. Here, set the "Main class" to `PercolationVisualizer`
+program's `Run -> Edit Configurations -> + -> Application` tab. Here, set the "Main class" to `PercolationPicture`
 and set the "Program arguments" to an input file (for example, `inputFiles/input20.txt`). Finally, hit the "Run" button
 to begin running the visualizer.
 
 {% include alert.html type="task" content="
-**Task**: Uncomment all the code in `PercolationVisualizer.java` and follow the steps above to run the visualizer.
+**Task**: Open `PercolationPicture.java` and follow the steps above to run the visualizer.
 Use this tool to help you debug your `Percolation.java` methods!
 " %}
 
@@ -255,28 +266,25 @@ Use this tool to help you debug your `Percolation.java` methods!
 
 `InteractivePercolationVisualizer.java` animates the results of opening sites in a
 percolation system, using the mouse as input. It takes a command-line integer `N` that specifies the grid size. As a
-bonus, it prints out the sequence of sites opened in the same format used by `PercolationVisualizer` (described above),
+bonus, it prints out the sequence of sites opened in the same format used by `PercolationPicture` (described above),
 so you can use it to prepare interesting files for testing. If you design an interesting data file, feel free to share
 it on Ed.
 
 {% include alert.html type="task" content="
-**Task**: Uncomment all the code in `InteractivePercolationVisualizer.java` and follow the same steps as
-`PercolationVisualizer` to run the interactive visualizer. Note that for the interactive version, you **do not** need
+**Task**: Open `InteractivePercolationVisualizer.java` and follow the same steps as
+`PercolationPicture` to run the interactive visualizer. Note that for the interactive version, you **do not** need
 to provide a program argument.
 
 Use this tool to help you debug your `Percolation.java` methods!
 " %}
 
-{% include alert.html type="warning" content="
-If you are at this part of the spec and are still unsure of how to start, go through
-these [slides](https://docs.google.com/presentation/d/12mvVbdoq7SKZy02u_i7Z7LCyrDCpbYmUhl_qqW95T_4/edit?usp=sharing) and
-watch this [video](https://www.youtube.com/watch?v=kIYKCsvG6UI&list=PLNSdoiHk6ujjZs46s6XVXEbZUuF1MIO7g).
-" %}
+_Note: If you are using IntelliJ, you can choose which class to run (i.e. choose whose main method you want to run) in
+Run -> Edit Configurations. For more information, please check the FAQ_
 
 ## Testing
 
-We have not provided tests for you. If you would like to create unit tests to test your code, you may create an
-additional file and write tests.
+We have provided one basic test for you. You should add more tests to
+`PercolationTest.java` to test your code.
 
 ## Submission & Deliverables
 
