@@ -22,7 +22,7 @@ class: about
 
 ## Staff Resources
 
-- [Current TA Resources Thread](https://edstem.org/us/courses/25759/discussion/2411082)
+- [Current TA Resources Thread](https://edstem.org/us/courses/42700/discussion/3359948)
 - [Small Group Tutoring](https://drive.google.com/drive/folders/1TpWQ77lcC8YmxWBIwsIxOMJTXDC0CWM_?usp=share_link)
 
 ## Past Exams
@@ -99,7 +99,7 @@ Videos marked with a \* are not created by Course Staff.
 
 ### Pre-FA23
 
-- [Omar's Asymptotics Guide](materials/guides/asymptotics.md)
+- [Omar's Asymptotics Guide](/materials/guides/asymptotics.md)
 - [Allen Guo’s Website](http://aguo.us/cs61b/)
 - [Daniel Nguyen’s Website](http://danielnguyen.io/cs61b/)
 - [Matt Sit’s Website](https://mattsit.github.io/cs61b)
