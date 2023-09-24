@@ -135,7 +135,7 @@ To fix this, you should first modify the `Deque` interface so that the declarati
 public interface Deque<T> extends Iterable<T> {
 ```
 
-Next, implement the `iterator()` method using the techniques described in lecture 12.
+Next, implement the `iterator()` method using the techniques described in lecture 11.
 
 {% include alert.html type="task" content="
 **Task**: Implement the `iterator()` method in both `LinkedListDeque` and
