@@ -504,12 +504,12 @@
   days:
     - day: 2023-09-25
       lecture_topic: Disjoint Sets
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD44CGmkFro1gqxkDl5gIpXB
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpMlYLU0hWYDMHNtcGi-Qmm"
         - name: slides
-          link: https://docs.google.com/presentation/d/1CVbH3Jy9C5OOlRjwLlXvHCoEI8GGFQe6xfMLMOaxpDc/edit
+          link: "https://docs.google.com/presentation/d/1fAoMXY6--xLELL8mByB8I6ofdCAOKC555ubxid_CpGc"
       reading: >
         [Ch 14](https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets)
       assignments:
@@ -529,7 +529,7 @@
       class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5Ek10eT39UqAjcwr99xqZP
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqwuAZ5q3P5xUxe2xNZL3an"
         - name: slides
           link: https://docs.google.com/presentation/d/1BFJ7ycE15A83n6qKcZUUExezu2DC5DwHFpEKP4QOTyA/edit#slide=id.g11c4f8c058_0_29
         # - name: guide
@@ -545,12 +545,12 @@
 
     - day: 2023-09-29
       lecture_topic: ADTs, Sets, Maps, BSTs
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5JBcKwLbuUf6BAdotM4-1K
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrks2Xi7wU8s82FcwPaINYs"
         - name: slides
-          link: https://docs.google.com/presentation/d/1vf9x_H6lhzBMmkdd4jle46W3KFthWaM-sDaNvn604eE
+          link: "https://docs.google.com/presentation/d/1FRqlq7C_854ZLp-VMHZ13CxA7U45P50iEA7IuxW8H7A"
       reading: > # Format in Markdown
         [Ch 16](https://cs61b-2.gitbook.io/cs61b-textbook/16.-adts-and-bsts)
       assignments:
@@ -600,12 +600,12 @@
   days:
     - day: 2023-10-02
       lecture_topic: B-Trees (2-3, 2-3-4 Trees)
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=0SCtnf84QrI&index=3&list=PL8FaHk7qbOD41EHkD7CgQuRw1jpH_Fv7-
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoMUlGWsTyt-WHK-SuyXK_E"
         - name: slides
-          link: https://docs.google.com/presentation/d/1mNAtzfc7Mna1rpVzoTcrn9p8ejWIh72QBuEqOJwQzbk
+          link: "https://docs.google.com/presentation/d/1MZBpWtRAkJdwY4jOYiebFrktz4v3gpLCSxopN2XSsaU"
       reading: > # Format in Markdown
         [Ch 17](https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees)
       assignments:
@@ -618,12 +618,12 @@
 
     - day: 2023-10-04
       lecture_topic: Red Black Trees
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=kkd8d0QhiQ0&list=PL8FaHk7qbOD6aKgTz2W-foDiTeBEaBoS3&index=2&t=0s
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrYOYhFXExoXfP8uhHHCIri"
         - name: slides
-          link: https://docs.google.com/presentation/d/1GP_5y1hpfF7SfUz4rfwcP7uXIYZ4cNRREFyz6IDfWhg/edit?usp=sharing
+          link: "https://docs.google.com/presentation/d/1xHotCWwewVq8h3QGtm8z8V5rTuFOtMyXMiFhRJzyD0Y"
       reading: > # Format in Markdown
         [Ch 18](https://cs61b-2.gitbook.io/cs61b-textbook/18.-red-black-trees)
       assignments:
@@ -637,7 +637,7 @@
       class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/A5TwNyJns-Q
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr_rFqN57yjZtcw_P4UiJ7a"
         - name: slides
           link: https://docs.google.com/presentation/d/1ugoQ4Ni0SrmMToiXmGyRZUueqiYBWeM1E78geVmyFW4
       reading: >
@@ -695,7 +695,7 @@
       class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD637Q-6p7nn5dKz1tK6WAjJ
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrSxUje7m5-Y41ELVPm50N_"
         - name: slides
           link: https://docs.google.com/presentation/d/1U_-RQCJB3j9B-k-kY8I4nS-FuxIvO8EgVIrOthx2InU/edit#slide=id.g2165b69ef3f_0_540
       reading: >
@@ -709,12 +709,12 @@
 
     - day: 2023-10-11
       lecture_topic: Heaps and PQs
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD50LnOXTSpYgnVJQTIVFsmI
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrFJrMMOkrShULQ3KeoqZB9"
         - name: slides
-          link: https://docs.google.com/presentation/d/1uws16IyE3oGKKbKgTpl7s4a2950ef2CjI7B3ez8Gctw/
+          link: "https://docs.google.com/presentation/d/1tNPwVvUTAE8qHtGE1HqOThKlTHtASW6lf-345hXLARE"
       reading: > # Format in Markdown
         [Ch 21](https://cs61b-2.gitbook.io/cs61b-textbook/21.-heaps-and-priority-queues)
       assignments:
@@ -731,12 +731,12 @@
 
     - day: 2023-10-13
       lecture_topic: Tree and Graph Traversals
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=wkkCVWn7au4&list=PL8FaHk7qbOD4tIQrwqsx16fNq6uXNhauw
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoXCSo4Hx8TEZBsIpag6lMs"
         - name: slides
-          link: https://docs.google.com/presentation/d/1d5NtBn-qKS6AkUJ5CWhMNZArGX2_2esFoJ3R4L4-7VE
+          link: "https://docs.google.com/presentation/d/1mr841rMgVAffqi-TfL--gZPmEjAM5rpBW7MzrmJPuaU"
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
