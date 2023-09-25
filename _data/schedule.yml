@@ -510,6 +510,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpMlYLU0hWYDMHNtcGi-Qmm"
         - name: slides
           link: "https://docs.google.com/presentation/d/1fAoMXY6--xLELL8mByB8I6ofdCAOKC555ubxid_CpGc"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=XaACliagTDM"
       reading: >
         [Ch 14](https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets)
       assignments:
