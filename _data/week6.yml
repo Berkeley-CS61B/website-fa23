@@ -53,7 +53,7 @@
       assignments:
         - title: "Homework 2 (due 10/4)"
           link: /materials/hw/hw2
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
         - title: |
@@ -75,9 +75,9 @@
       reading: > # Format in Markdown
         [Ch 15](https://cs61b-2.gitbook.io/cs61b-textbook/15.-asymptotics-ii)
       assignments:
-        - title: "Homework 2 (due 10/2)"
+        - title: "Homework 2 (due 10/4)"
           link: /materials/hw/hw2
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 
