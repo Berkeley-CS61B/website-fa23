@@ -51,7 +51,7 @@
       class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD637Q-6p7nn5dKz1tK6WAjJ
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrSxUje7m5-Y41ELVPm50N_"
         - name: slides
           link: https://docs.google.com/presentation/d/1U_-RQCJB3j9B-k-kY8I4nS-FuxIvO8EgVIrOthx2InU/edit#slide=id.g2165b69ef3f_0_540
       reading: >
@@ -65,12 +65,12 @@
 
     - day: 2023-10-11
       lecture_topic: Heaps and PQs
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD50LnOXTSpYgnVJQTIVFsmI
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrFJrMMOkrShULQ3KeoqZB9"
         - name: slides
-          link: https://docs.google.com/presentation/d/1uws16IyE3oGKKbKgTpl7s4a2950ef2CjI7B3ez8Gctw/
+          link: "https://docs.google.com/presentation/d/1tNPwVvUTAE8qHtGE1HqOThKlTHtASW6lf-345hXLARE"
       reading: > # Format in Markdown
         [Ch 21](https://cs61b-2.gitbook.io/cs61b-textbook/21.-heaps-and-priority-queues)
       assignments:
@@ -87,12 +87,12 @@
 
     - day: 2023-10-13
       lecture_topic: Tree and Graph Traversals
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=wkkCVWn7au4&list=PL8FaHk7qbOD4tIQrwqsx16fNq6uXNhauw
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoXCSo4Hx8TEZBsIpag6lMs"
         - name: slides
-          link: https://docs.google.com/presentation/d/1d5NtBn-qKS6AkUJ5CWhMNZArGX2_2esFoJ3R4L4-7VE
+          link: "https://docs.google.com/presentation/d/1mr841rMgVAffqi-TfL--gZPmEjAM5rpBW7MzrmJPuaU"
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
