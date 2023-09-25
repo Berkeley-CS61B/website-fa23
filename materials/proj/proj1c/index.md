@@ -73,7 +73,7 @@ You see a `proj1c` directory appear in your repo with the following structure:
 
 {% include alert.html type="danger" content="
 If you get some sort of error, STOP and either figure it out by carefully
-reading the [git WTFs](/materials/guides/git/wtfs/index.md) or seek help at OH
+reading the [git WTFs](../../guides/git/wtfs/index.md) or seek help at OH
 or Ed. You'll potentially save yourself a lot of trouble vs. guess-and-check
 with git commands. If you find yourself trying to use commands recommended by
 Google like `force push`,
@@ -135,7 +135,7 @@ To fix this, you should first modify the `Deque` interface so that the declarati
 public interface Deque<T> extends Iterable<T> {
 ```
 
-Next, implement the `iterator()` method using the techniques described in lecture 12.
+Next, implement the `iterator()` method using the techniques described in lecture 11.
 
 {% include alert.html type="task" content="
 **Task**: Implement the `iterator()` method in both `LinkedListDeque` and
@@ -394,9 +394,9 @@ assignment on Gradescope and submit there.
 
 The autograder for this assignment will have the following velocity limiting scheme:
 
-- From the release of the project to 10:00PM on 09/25/2023, you will have 6 tokens; each of
+- From the release of the project to 10:00PM on 09/15/2023, you will have 6 tokens; each of
   these tokens will refresh every 24 hours.
-- From 10:00PM to 11:59PM on 2/22/2023 (the last 2 hours before the deadline), you will get 4 tokens; each of
+- From 10:00PM to 11:59PM on 09/25/2023 (the last 2 hours before the deadline), you will get 4 tokens; each of
   these tokens will refresh every 15 minutes.
 -
 

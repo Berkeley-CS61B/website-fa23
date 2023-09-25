@@ -2,7 +2,7 @@
 layout: page
 title: "FAQ - HW 2: Percolation"
 categories: hw
-released: false
+released: true
 ---
 
 ## FAQ

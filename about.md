@@ -158,21 +158,22 @@ supported by academic interns.
 Labs will primarily be held in-person, though we may have limited remote
 options on Zoom.
 
-Lab attendance is not mandatory, with the _exception_ of two labs: Lab 6
-(Project 1 Code Review) and Lab 15 (Project 3 Demos). These labs include an
-assignment for which you will need to get checked-off by a TA to receive
-credit.
+Lab attendance is not mandatory, with the _exception_ of one lab - Lab 15 (Project 3 Demos).
+This lab includes an assignment for which you will need to get checked-off 
+by a TA to receive credit.
 
 Information about the staff running each section can be found on the staff
 page.
 
 We will not have section signups this term. For the mandatory
-attendance labs, you will have the following options:
+attendance lab(s), you will have the following options:
 
-- Lab 6: You will be able to attend any lab that works with your schedule.
 - Lab 15: There will be official sign ups for this checkoff, in which you and
   your partner will present the work you completed for Project 3. The signups
   will be available shortly before the last week of classes.
+
+**Lab 6 is no longer Project 1 Peer Review. Check the course website for the updated lab, but 
+this lab is no longer mandatory for attendance.**
 
 ### Office Hours
 
@@ -319,7 +320,7 @@ Out of the 14 labs, only 10 will entail an assignment you need to submit. Each
 of these 10 labs will be worth 5 points (for a total of 50 points).
 
 You do not need to attend lab to receive credit for lab, with the exception of
-two specific assignments (see [above](#lab)).
+one specific assignment (see [above](#lab)).
 
 This semester, we are **not** allowing lab partners for lab assignments. We do
 encourage you to discuss ideas (see the

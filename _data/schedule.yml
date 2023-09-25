@@ -299,7 +299,7 @@
           released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/regular/regular04sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRot6WChi3d2alB9QL7xjmpq"
         - name: slides
           released: true
@@ -312,7 +312,7 @@
           released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week04/examlevel/examlevel04sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRo32RBXkS7LFlMNNIgF618Q"
         - name: slides
           released: true
@@ -378,31 +378,31 @@
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 - week: 5
-  # weekly_survey: "https://forms.gle/CGGaqBvKGex2ufcH6"
+  weekly_survey: "https://forms.gle/7LSdniF1mqqxhwgT7"
   rows: 3
   discussions:
     - name: Comparators, Iterators
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular05.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular/regular05.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1hvub0gZbzs36W8kcstfM2A3WQOzBuOih/view?usp=sharing"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular/regular05sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRosONixmTTQnspn7fLOV4-Y"
         - name: slides
           released: true
           link: "https://docs.google.com/presentation/d/1fPizAGPMyO15j4jW0JmQp2Pz7txycgptvku6CyOEk2s/edit?usp=sharing"
     - name: Comparators, Iterators (Exam-Level)
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel05.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel/examlevel04.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1p_L2RHqOoPZxUVFzS3AKmUd_KZnBO0tI/view?usp=share_link"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel/examlevel05sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRqOkhLqRr1OoRCpUKvlqm_P"
         - name: slides
           released: true
@@ -424,8 +424,8 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrvh9PM0gK9fm7VAD0HdijJ
         - name: slides
           link: https://docs.google.com/presentation/d/1kOdhZSeCUSUwX8VwF8xNuFyXqp9OR8sfN2ZZWNxiCUU
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=89Al2pJ_0jI"
       reading: > # Format in Markdown
         [Ch 12](https://cs61b-2.gitbook.io/cs61b-textbook/12.-exceptions-iterators-object-methods)
       assignments:
@@ -435,13 +435,13 @@
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-20
-      lecture_topic: Ask Anything (midterm prep)
-      class: outdated
+      lecture_topic: "Midterm 1 Q&A"
+      #class: outdated
       lecture_links:
-        - name: video
-          link: https://youtu.be/8hhiFcOFzWU
         - name: slides
-          link: https://docs.google.com/presentation/d/189M1lQ8GMzS_c6CyOIN2XcP8vWEshZHig8993wJKHKY/edit#slide=id.g1f04a497f28_0_0
+          link: "https://docs.google.com/presentation/d/1jTTbV85O93_m9ApfCRjMIf9BZDDUkLlROd63UvvYabw"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=So1raqpV-Xo"
       assignments:
         - title: Midterm 1 (<strong>Thursday</strong> 9/21)<br>7-9 PM
           released: false
@@ -450,12 +450,14 @@
           class: emph1
     - day: 2023-09-22
       lecture_topic: Asymptotics I
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5aPaPuP4Z28OGOfWtT1jto
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrajvLNrqCND6CQUbqaR0mU"
         - name: slides
-          link: https://docs.google.com/presentation/d/1IbXUJiZw863TcdP505iAhE5FIdMK9xgp2xeyHKPDrI8/edit#slide=id.p
+          link: "https://docs.google.com/presentation/d/1jV07yNB2r9YTLjxL3qH6uGGz1AwAOs5exUItf9KKyPQ"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=kmdcA0taHaw"
       reading: > # Format in Markdown
         [Ch 13](https://cs61b-2.gitbook.io/cs61b-textbook/13.-asymptotics-i)
 - week: 6
@@ -491,22 +493,29 @@
   labs:
     - name: Disjoint Sets (due 09/29)
       link: materials/lab/lab06/
-      released: false
+      resource_links:
+        - name: videos
+          released: true
+          link: "https://youtu.be/h1qzGRAgG9Y"
+        - name: slides
+          released: true
+          link: "https://docs.google.com/presentation/d/10yd-1mKqJg2iiRfhPKZSz5hTxZmfPwlPW7-4L4ci-QA/edit?usp=sharing"
+      released: true
   days:
     - day: 2023-09-25
       lecture_topic: Disjoint Sets
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD44CGmkFro1gqxkDl5gIpXB
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpMlYLU0hWYDMHNtcGi-Qmm"
         - name: slides
-          link: https://docs.google.com/presentation/d/1CVbH3Jy9C5OOlRjwLlXvHCoEI8GGFQe6xfMLMOaxpDc/edit
+          link: "https://docs.google.com/presentation/d/1fAoMXY6--xLELL8mByB8I6ofdCAOKC555ubxid_CpGc"
       reading: >
         [Ch 14](https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets)
       assignments:
-        - title: "Homework 2 (due 10/2)"
+        - title: "Homework 2 (due 10/4)"
           link: /materials/hw/hw2
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 1 # 1 for half column, 2 for full column
         - title: |
@@ -520,7 +529,7 @@
       class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5Ek10eT39UqAjcwr99xqZP
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqwuAZ5q3P5xUxe2xNZL3an"
         - name: slides
           link: https://docs.google.com/presentation/d/1BFJ7ycE15A83n6qKcZUUExezu2DC5DwHFpEKP4QOTyA/edit#slide=id.g11c4f8c058_0_29
         # - name: guide
@@ -528,20 +537,20 @@
       reading: > # Format in Markdown
         [Ch 15](https://cs61b-2.gitbook.io/cs61b-textbook/15.-asymptotics-ii)
       assignments:
-        - title: "Homework 2 (due 10/2)"
+        - title: "Homework 2 (due 10/4)"
           link: /materials/hw/hw2
-          released: false
+          released: true
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 
     - day: 2023-09-29
       lecture_topic: ADTs, Sets, Maps, BSTs
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5JBcKwLbuUf6BAdotM4-1K
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrks2Xi7wU8s82FcwPaINYs"
         - name: slides
-          link: https://docs.google.com/presentation/d/1vf9x_H6lhzBMmkdd4jle46W3KFthWaM-sDaNvn604eE
+          link: "https://docs.google.com/presentation/d/1FRqlq7C_854ZLp-VMHZ13CxA7U45P50iEA7IuxW8H7A"
       reading: > # Format in Markdown
         [Ch 16](https://cs61b-2.gitbook.io/cs61b-textbook/16.-adts-and-bsts)
       assignments:
@@ -591,17 +600,17 @@
   days:
     - day: 2023-10-02
       lecture_topic: B-Trees (2-3, 2-3-4 Trees)
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=0SCtnf84QrI&index=3&list=PL8FaHk7qbOD41EHkD7CgQuRw1jpH_Fv7-
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoMUlGWsTyt-WHK-SuyXK_E"
         - name: slides
-          link: https://docs.google.com/presentation/d/1mNAtzfc7Mna1rpVzoTcrn9p8ejWIh72QBuEqOJwQzbk
+          link: "https://docs.google.com/presentation/d/1MZBpWtRAkJdwY4jOYiebFrktz4v3gpLCSxopN2XSsaU"
       reading: > # Format in Markdown
         [Ch 17](https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees)
       assignments:
         - title: |
-            <span class="proj">[Homework 2 due 10/2]</span>
+            <span class="proj">[Homework 2 due 10/4]</span>
           link: /materials/hw/hw2
           released: false
           rows: 1 # the number of rows the assignment spans
@@ -609,12 +618,12 @@
 
     - day: 2023-10-04
       lecture_topic: Red Black Trees
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=kkd8d0QhiQ0&list=PL8FaHk7qbOD6aKgTz2W-foDiTeBEaBoS3&index=2&t=0s
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrYOYhFXExoXfP8uhHHCIri"
         - name: slides
-          link: https://docs.google.com/presentation/d/1GP_5y1hpfF7SfUz4rfwcP7uXIYZ4cNRREFyz6IDfWhg/edit?usp=sharing
+          link: "https://docs.google.com/presentation/d/1xHotCWwewVq8h3QGtm8z8V5rTuFOtMyXMiFhRJzyD0Y"
       reading: > # Format in Markdown
         [Ch 18](https://cs61b-2.gitbook.io/cs61b-textbook/18.-red-black-trees)
       assignments:
@@ -628,7 +637,7 @@
       class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/A5TwNyJns-Q
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr_rFqN57yjZtcw_P4UiJ7a"
         - name: slides
           link: https://docs.google.com/presentation/d/1ugoQ4Ni0SrmMToiXmGyRZUueqiYBWeM1E78geVmyFW4
       reading: >
@@ -670,7 +679,7 @@
     #     released: false
     #     link:
   labs:
-    - name: HashMap (due 10/13)
+    - name: LLRBs (due 10/13)
       link: materials/lab/lab08/
       released: false
       resource_links:
@@ -686,7 +695,7 @@
       class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD637Q-6p7nn5dKz1tK6WAjJ
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrSxUje7m5-Y41ELVPm50N_"
         - name: slides
           link: https://docs.google.com/presentation/d/1U_-RQCJB3j9B-k-kY8I4nS-FuxIvO8EgVIrOthx2InU/edit#slide=id.g2165b69ef3f_0_540
       reading: >
@@ -700,12 +709,12 @@
 
     - day: 2023-10-11
       lecture_topic: Heaps and PQs
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD50LnOXTSpYgnVJQTIVFsmI
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrFJrMMOkrShULQ3KeoqZB9"
         - name: slides
-          link: https://docs.google.com/presentation/d/1uws16IyE3oGKKbKgTpl7s4a2950ef2CjI7B3ez8Gctw/
+          link: "https://docs.google.com/presentation/d/1tNPwVvUTAE8qHtGE1HqOThKlTHtASW6lf-345hXLARE"
       reading: > # Format in Markdown
         [Ch 21](https://cs61b-2.gitbook.io/cs61b-textbook/21.-heaps-and-priority-queues)
       assignments:
@@ -722,12 +731,12 @@
 
     - day: 2023-10-13
       lecture_topic: Tree and Graph Traversals
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=wkkCVWn7au4&list=PL8FaHk7qbOD4tIQrwqsx16fNq6uXNhauw
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoXCSo4Hx8TEZBsIpag6lMs"
         - name: slides
-          link: https://docs.google.com/presentation/d/1d5NtBn-qKS6AkUJ5CWhMNZArGX2_2esFoJ3R4L4-7VE
+          link: "https://docs.google.com/presentation/d/1mr841rMgVAffqi-TfL--gZPmEjAM5rpBW7MzrmJPuaU"
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
@@ -767,7 +776,7 @@
           released: false
           link: "https://docs.google.com/presentation/d/1M4M_uupWmL1XmZJRIfvvKrzpva9P0zEKN7tme5fz-2c/edit?usp=share_link"
   labs:
-    - name: LLRBs (due 10/20)
+    - name: Hashmaps (due 10/20)
       link: materials/lab/lab09/
       released: false
   days:

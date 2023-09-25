@@ -1,29 +1,29 @@
 - week: 5
-  # weekly_survey: "https://forms.gle/CGGaqBvKGex2ufcH6"
+  weekly_survey: "https://forms.gle/7LSdniF1mqqxhwgT7"
   rows: 3
   discussions:
     - name: Comparators, Iterators
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular05.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular/regular05.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1hvub0gZbzs36W8kcstfM2A3WQOzBuOih/view?usp=sharing"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/regular/regular05sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRosONixmTTQnspn7fLOV4-Y"
         - name: slides
           released: true
           link: "https://docs.google.com/presentation/d/1fPizAGPMyO15j4jW0JmQp2Pz7txycgptvku6CyOEk2s/edit?usp=sharing"
     - name: Comparators, Iterators (Exam-Level)
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel05.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel/examlevel04.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1p_L2RHqOoPZxUVFzS3AKmUd_KZnBO0tI/view?usp=share_link"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week05/examlevel/examlevel05sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRqOkhLqRr1OoRCpUKvlqm_P"
         - name: slides
           released: true
@@ -45,8 +45,8 @@
           link: https://www.youtube.com/playlist?list=PLnp31xXvnfRrvh9PM0gK9fm7VAD0HdijJ
         - name: slides
           link: https://docs.google.com/presentation/d/1kOdhZSeCUSUwX8VwF8xNuFyXqp9OR8sfN2ZZWNxiCUU
-        #- name: recording
-        #  link: TODO
+        - name: recording
+          link: "https://www.youtube.com/watch?v=89Al2pJ_0jI"
       reading: > # Format in Markdown
         [Ch 12](https://cs61b-2.gitbook.io/cs61b-textbook/12.-exceptions-iterators-object-methods)
       assignments:
@@ -56,13 +56,13 @@
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-09-20
-      lecture_topic: Ask Anything (midterm prep)
-      class: outdated
+      lecture_topic: "Midterm 1 Q&A"
+      #class: outdated
       lecture_links:
-        - name: video
-          link: https://youtu.be/8hhiFcOFzWU
         - name: slides
-          link: https://docs.google.com/presentation/d/189M1lQ8GMzS_c6CyOIN2XcP8vWEshZHig8993wJKHKY/edit#slide=id.g1f04a497f28_0_0
+          link: "https://docs.google.com/presentation/d/1jTTbV85O93_m9ApfCRjMIf9BZDDUkLlROd63UvvYabw"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=So1raqpV-Xo"
       assignments:
         - title: Midterm 1 (<strong>Thursday</strong> 9/21)<br>7-9 PM
           released: false
@@ -71,11 +71,13 @@
           class: emph1
     - day: 2023-09-22
       lecture_topic: Asymptotics I
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5aPaPuP4Z28OGOfWtT1jto
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrajvLNrqCND6CQUbqaR0mU"
         - name: slides
-          link: https://docs.google.com/presentation/d/1IbXUJiZw863TcdP505iAhE5FIdMK9xgp2xeyHKPDrI8/edit#slide=id.p
+          link: "https://docs.google.com/presentation/d/1jV07yNB2r9YTLjxL3qH6uGGz1AwAOs5exUItf9KKyPQ"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=kmdcA0taHaw"
       reading: > # Format in Markdown
         [Ch 13](https://cs61b-2.gitbook.io/cs61b-textbook/13.-asymptotics-i)
