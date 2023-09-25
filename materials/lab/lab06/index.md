@@ -203,6 +203,10 @@ to check your implementation, but they are **not comprehensive.** Passing the te
 mean you will pass the tests on Gradescope and you will need to write your own tests 
 to verify correctness. 
 
+The first four tests have been provided for you locally. If you find yourself failing the last
+two tests, ensure that you've implemented path compression correctly (`returnData` will be helpful
+here for testing) and that you've tested the correctness for all the methods you've implemented. 
+
 ## Submission
 
 Just as you did for the previous assignments, add, commit, then push your Lab 06 code to GitHub. Then, 
