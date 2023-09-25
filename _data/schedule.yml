@@ -495,12 +495,12 @@
       link: materials/lab/lab06/
       resource_links:
         - name: videos
-          released: true
-          link:
+          released: false
+          link: "https://youtu.be/h1qzGRAgG9Y"
         - name: slides
-          released: true
+          released: false
           link: "https://docs.google.com/presentation/d/10yd-1mKqJg2iiRfhPKZSz5hTxZmfPwlPW7-4L4ci-QA/edit?usp=sharing"
-      released: true
+      released: false
   days:
     - day: 2023-09-25
       lecture_topic: Disjoint Sets
