@@ -178,10 +178,10 @@ before the rest of the other methods.
 ## Lab Notes
 
 The underlying array has been provided for you in the skeleton code. **Do not delete or
-modify it, as this will affect the tests on Gradescope**. In addition, the method called 
-`returnData` is also given in the skeleton code and is provided for testing purposes - 
-**as is the same with the array, do not delete or modify it or the tests on Gradescope will 
-break**. 
+modify it, as this will affect the tests on Gradescope. Please make sure to use this 
+variable as we use it for testing**. In addition, the method called `returnData` is also 
+given in the skeleton code and is provided for testing purposes - **as is the same with 
+the array, do not delete or modify it or the tests on Gradescope will break**. 
 
 **Please note, for this lab, we will work with non-negative integers as the items 
 in our disjoint sets.**
