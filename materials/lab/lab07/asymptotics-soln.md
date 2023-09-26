@@ -2,11 +2,11 @@
 layout: page
 title: "Asymptotics Solutions - Lab 7: BSTMap"
 categories: lab
-released: false
-searchable: false
+released: true
+searchable: true
 ---
 
-# Asymptotics Problems Solutions
+## Asymptotics Problems Solutions
 
 1. False. Worst case is $\Theta(N)$, for a spindly BST
 2. False. Worst case is $\Theta(N)$

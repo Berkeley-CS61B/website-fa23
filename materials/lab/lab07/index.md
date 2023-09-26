@@ -2,17 +2,16 @@
 layout: page
 title: "Lab 07: BSTMap"
 categories: lab
-released: false
+released: true
+toc:
+  h_max: 4
 ---
 
-# FAQ
+## FAQ
 
 The FAQ for this lab can be found [here](faq.md).
 
-# Introduction
-
-The lab intro slides for this lab can be found
-[here](https://docs.google.com/presentation/d/1J91pQSLa816ZV9rNrVfRXoeTg0NDpWR4).
+## Introduction
 
 In this lab, you'll create `BSTMap`, a BST-based implementation of the `Map61B`
 interface, which represents a basic tree-based map. You will be creating this
@@ -22,13 +21,13 @@ After you've completed your implementation, you'll compare the performance of
 your implementation to a list-based `Map` implementation `ULLMap` as well as the
 built-in Java `TreeMap` class (which uses a BST variant known as a _red-black tree_).
 
-# Pulling from skeleton
+## Pulling from skeleton
 
 Follow the
-[assignment workflow instructions](https://sp23.datastructur.es/materials/guides/assignment-workflow/#getting-the-skeleton)
+[assignment workflow instructions](https://fa23.datastructur.es/materials/guides/assignment-workflow/#getting-the-skeleton)
 to get the assignment and open it in IntelliJ. This assignment is `lab07`.
 
-# BSTMap
+## BSTMap
 
 In this lab (and future labs), we may not provide as much skeleton code as in
 the past. If you're having trouble getting started, please come in to lab and/or
@@ -91,7 +90,7 @@ public class BSTSet<K extends Comparable<K>> implements Set61B<K> {
 ```
 
 {% capture alertContent %}
-You may have noticed that the syntax for a bounded type parameter uses `extends`
+**INFO**: You may have noticed that the syntax for a bounded type parameter uses `extends`
 even though `Comparable` is an `interface`. In the context of bounded type
 parameters, `extends` can mean `extends` or `implements`
 ([docs](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html)). Don't ask us why - we don't know either.
@@ -103,7 +102,7 @@ which is impossible. Go Java!)
 {% include alert.html type="info" content=alertContent %}
 
 {% include alert.html type="warning" content="
-Remember, the code snippet above emulates a `Set` - you'll need to implement a
+**NOTE:** Remember, the code snippet above emulates a `Set` - you'll need to implement a
 `Map`. We recommend you use similar logic for `BSTMap`, with some nested node
 class to help facilitate your implementation. Your `BSTMap` should have two
 generic parameters `K` and `V`, representing the generic types of the keys and
@@ -150,10 +149,9 @@ You can test your implementation using `TestBSTMap.java`.
 
 The following resources might prove useful:
 
-- Lecture 16 [slides](https://docs.google.com/presentation/d/1vf9x_H6lhzBMmkdd4jle46W3KFthWaM-sDaNvn604eE).
+- Lecture 16 [slides](https://docs.google.com/presentation/d/1FRqlq7C_854ZLp-VMHZ13CxA7U45P50iEA7IuxW8H7A/edit?usp=sharing).
 - `ULLMap.java` (given in `src/`), an unordered, linked-list-based `Map61B`
   implementation.
-- BST code from [our optional textbook](https://algs4.cs.princeton.edu/32bst/BST.java.html).
 
 ## So... How Fast Is It?
 
@@ -189,21 +187,23 @@ There is no standard format required for your results, but at a minimum, you
 should include what you did and what you observed.
 " %}
 
-# Deliverables and Scoring
+## Deliverables and Scoring
 
-The lab is out of 256 points. There is one hidden test on Gradescope (that
-checks your `speedTestResults.txt`). The rest of the tests are local. If you pass all the local tests and fill out the `speedTestResults.txt` file sufficiently, you will get full credit on Gradescope.
+The lab is out of 5 points. There is one hidden test on Gradescope (that
+checks your `speedTestResults.txt`). The rest of the tests are local. 
+**For this lab, if you pass all the local tests and fill out the`speedTestResults.txt` 
+file sufficiently, you will get full credit on Gradescope.**
 
 ## Submission
 
 Just as you did for the previous assignments, add, commit, then push your Lab 07
 code to GitHub. Then, submit to Gradescope to test your code. If you need a
 refresher, check out the instructions in the
-[Lab 1 spec](/materials/lab/lab01/index.md#saving-your-work-using-git-and-github)
+[Lab 1 spec](../lab01/index.md)
 and the
-[Assignment Workflow Guide](/materials/guides/assignment-workflow/index.md#submitting-to-gradescope).
+[Assignment Workflow Guide](../../guides/assignment-workflow/index.md#submitting-to-gradescope).
 
-# More (Ungraded) Exercises
+## More (Ungraded) Exercises
 
 These will not be graded, but you can still receive feedback using the local
 tests (and on the autograder).
@@ -216,13 +216,14 @@ challenging - you'll need to implement Hibbard deletion.
 For `remove`, you should return `null` if the argument key does not exist in the
 `BSTMap`. Otherwise, delete the key-value pair (key, value) and return value.
 
-# Optional: Asymptotics Problems
+## Optional: Asymptotics Problems
 
 Check your answers against the [solutions](asymptotics-soln.md)!
 
 Given `B`, a `BSTMap` with `N` key-value pairs, and `(K, V)`, a random key-value pair, answer the following questions.
 
-Unless otherwise stated, "big-Oh" bounds (e.g. $\mathcal{O}(N)$) and "big-Theta" bounds (e.g. $\Theta(N)$) refer to the **number of comparisons** in the given method call(s).
+Unless otherwise stated, "big-Oh" bounds (e.g. $\mathcal{O}(N)$) and "big-Theta" bounds (e.g. $\Theta(N)$) 
+refer to the **number of comparisons** in the given method call(s).
 
 For questions 1-7, state whether the statement is true or false. For question 8, give a runtime bound.
 
@@ -232,7 +233,9 @@ For questions 1-7, state whether the statement is true or false. For question 8,
 4. `B.put(K, V)` $\in \mathcal{O}(N)$
 5. `B.put(K, V)` $\in \mathcal{O}(N^2)$
 
-{:start="6"} 6. For a fixed key `C` not equal to `K`, both `B.containsKey(C)` and `B.containsKey(K)` run in $\Omega(\log N)$. 7. (This question is quite difficult.) Let `b` be a `Node` of a `BSTMap`, and two subtrees rooted at `root`, called `left` and `right`. Further, assume the method `numberOfNodes(Node p)` returns the number of nodes ($M$) of the subtree rooted at `p` and runs in $\Theta(M)$ time. What is the running time, in both the worst and best case, of `mystery(b.root, z)`, assuming `1 <= z < numberOfNodes(b.root)`?
+{:start="6"} 
+1. For a fixed key `C` not equal to `K`, both `B.containsKey(C)` and `B.containsKey(K)` run in $\Omega(\log N).$
+2. (This question is quite difficult.) Let `b` be a `Node` of a `BSTMap`, and two subtrees rooted at `root`, called `left` and `right`. Further, assume the method `numberOfNodes(Node p)` returns the number of nodes ($M$) of the subtree rooted at `p` and runs in $\Theta(M)$ time. What is the running time, in both the worst and best case, of `mystery(b.root, z)`, assuming `1 <= z < numberOfNodes(b.root)`?
 
 Hint: See if you can work out what `mystery` does first, then see how it accomplishes it.
 

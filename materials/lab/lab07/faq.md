@@ -2,8 +2,8 @@
 layout: page
 title: "FAQ - Lab 07: BSTMap"
 categories: lab
-released: false
-searchable: false
+released: true
+searchable: true
 ---
 
 ### Error relating to iterator
