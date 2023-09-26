@@ -465,8 +465,8 @@
   rows: 3
   discussions:
     - name: Asymptotics, Disjoint Sets
-      released: false
-      link: "https://drive.google.com/file/d/1Q9qtAwfzM4Vrf6F37bYymuajxNk7P8ir/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/regular/regular06.pdf"
       resource_links:
         - name: solution
           released: false
@@ -475,11 +475,11 @@
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpqWL31oiZlmcka8zFyT5uM"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1kfSeIEycRWZ30bb7_ba6cmXq2f_B9xr4MtvbiijLhQY/edit?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1sahjWafzaU4SdIFeCUEHMTIIzc9epZ4nD6VpfzxW6ZU/edit?usp=sharing"
     - name: Asymptotics, Disjoint Sets (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/13Od0bQLdudTnpCeW-hKW3ErX7FZDmBdG/view?usp=share_link"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/examlevel/examlevel06.pdf"
       resource_links:
         - name: solution
           released: false
@@ -488,8 +488,8 @@
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRpebKdnwkYKIkyCBNzNXAHW"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1qPMuME25PmeRmbbOQi51_jmz4y9OSq3KvBKomGzzyTg/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1Vd_lwwWCQa1B_QnJKXsIto2mNJ2XBoODCNYUhxHNIes/edit?usp=sharing"
   labs:
     - name: Disjoint Sets (due 09/29)
       link: materials/lab/lab06/
@@ -510,6 +510,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpMlYLU0hWYDMHNtcGi-Qmm"
         - name: slides
           link: "https://docs.google.com/presentation/d/1fAoMXY6--xLELL8mByB8I6ofdCAOKC555ubxid_CpGc"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=XaACliagTDM"
       reading: >
         [Ch 14](https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets)
       assignments:
