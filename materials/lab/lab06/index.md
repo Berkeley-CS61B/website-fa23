@@ -91,7 +91,8 @@ between a parent and the weight of the set).
 ![initial](img/initial.png)
 
 After we call `union(0,1)` and `union(2,3)`, our array and our abstract representation will end up as below
-(**the tie-breaking scheme in this case is that the smallest element becomes the root**):
+(**the tie-breaking scheme in this example is that the smallest element becomes the root - note that this isn't 
+always the case depending on the implementation**):
 
 ![union1](img/union1.png)
 
