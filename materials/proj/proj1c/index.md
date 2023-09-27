@@ -396,9 +396,7 @@ The autograder for this assignment will have the following velocity limiting sch
 
 - From the release of the project to 10:00PM on 09/15/2023, you will have 6 tokens; each of
   these tokens will refresh every 24 hours.
-- From 10:00PM to 11:59PM on 09/25/2023 (the last 2 hours before the deadline), you will get 4 tokens; each of
-  these tokens will refresh every 15 minutes.
--
+- From 10:00PM to 11:59PM on 09/26/2023 (the last 2 hours before the deadline), you will get 6 tokens; each of these tokens will refresh every 15 minutes.
 
 ### Scoring
 
