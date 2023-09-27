@@ -148,7 +148,9 @@ average!
 > Without that qualification we should still describe it by using the inverse
 > Ackermann function.
 
-An example of this is shown below, where we start out with the following: 
+An example of this is shown below, where we start out with the following
+(Note: this is only an example to demonstrate what path compression 
+does): 
 
 ![path_compression_before](img/path_compression_before.png)
 
