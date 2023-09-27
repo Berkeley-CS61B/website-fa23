@@ -176,6 +176,8 @@ following methods:
 We recommend that you start with implementing the constructor and taking a look at `find`
 before the rest of the other methods. 
 
+**Hint:** You will need to use `find` in your `union` method. 
+
 ## Lab Notes
 
 The underlying array has been provided for you in the skeleton code. **Do not delete or
