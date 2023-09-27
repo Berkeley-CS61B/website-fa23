@@ -191,7 +191,7 @@ in our disjoint sets.**
 
 Comments have been provided for each method and will go into a little more detail than the summary above, so 
 make sure to read those carefully to understand what you'll want to implement. Remember to implement both 
-optimizations discussed above, and take note of the tie-breaking scheme that is described in the comments 
+optimizations discussed above, and take note of the **tie-breaking scheme** that is described in the comments 
 of some of the methods.
 
 You should also correctly handle faulty inputs, e.g if invalid vertices are passed 
