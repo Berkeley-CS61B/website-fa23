@@ -72,6 +72,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqwuAZ5q3P5xUxe2xNZL3an"
         - name: slides
           link: "https://docs.google.com/presentation/d/1TQE_arQ0J6Be4G4PuUtRAapoh85qBLbqPXPFBPlgXDk"
+        - name: recording
+          link: "https://youtu.be/Upvp5NS6Afs"
         # - name: guide
         #   link: /materials/lectures/lec15/
       reading: > # Format in Markdown
