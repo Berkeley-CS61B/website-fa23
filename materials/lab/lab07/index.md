@@ -27,37 +27,24 @@ Follow the
 [assignment workflow instructions](https://fa23.datastructur.es/materials/guides/assignment-workflow/#getting-the-skeleton)
 to get the assignment and open it in IntelliJ. This assignment is `lab07`.
 
-## BSTMap
+## `BSTMap`
 
 In this lab (and future labs), we may not provide as much skeleton code as in
-the past. If you're having trouble getting started, please come in to lab and/or
-use the resources linked below!
-
-An algorithmic guide to `put` and `get` can be found
-[here](https://www.youtube.com/watch?v=P3_Luw2M8X4).
+the past. If you're having trouble getting started, please come in to lab or check 
+out any of the resources provided! 
 
 Create a class `BSTMap` that implements the `Map61B` interface using a BST
-(Binary Search Tree) as its core data structure. **You must do this in a file
-named `BSTMap.java`!** Your implementation is required to implement all of the
-methods specified in `Map61B` _except_ for `remove`, `iterator` and `keySet`. For
-these methods you should throw an `UnsupportedOperationException`, unless completing
-the optional portion of the lab.
-
-Your code will not compile until you create the `BSTMap` class and implement all
-the methods in `Map61B`. You can implement methods one at a time by writing the
-method signatures of all the required methods, but throwing
-`UnsupportedOperationException`s for the other implementations until you get
-around to actually writing them.
-
-For debugging purposes, your `BSTMap` should also include an additional method
-`printInOrder()` (not given in the `Map61B` interface) that prints out your
-`BSTMap` in order of increasing Key. We will not test the result of this method,
-but you may find this helpful for testing your implementation!
+(Binary Search Tree) as its core data structure. Your code will not compile until 
+you create the `BSTMap` class and implement all the methods in `Map61B`. 
+You can implement methods one at a time by writing the method signatures
+of all the required methods, but throwing `UnsupportedOperationException`s 
+for the other implementations until you get around to actually writing them.
+Refer to this [section](#exercise-bstmap) on how to throw the exception.
 
 In your implementation, you should ensure that generic keys `K` in `BSTMap<K,V>`
 implement
 [Comparable](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Comparable.html).
-This is called a _bounded type parameter_.
+This is called a [_bounded type parameter_](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html).
 
 [The syntax](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html)
 is a little tricky, but we've given an example below. Here, we are creating
@@ -128,16 +115,37 @@ method signatures, because that's all our mythical `Set61B` interface
 requires. If you follow this procedure with your code, you should have all the
 method signatures required for `Map61B`. (You can also pick and choose which signatures to generate, if you'd like.)
 
+### Exercise: `BSTMap`
+
+As mentioned, you'll want to create a class, `BSTMap`, that implements the `Map61B` interface.
+Make sure you are writing your implementation in `BSTMap.java`, otherwise your code might not
+run on the autograder! The following methods are required:
+- `void put(K key, V value)`: Associates the specified `key` with the `value`.
+- `V get(K key)`: Returns the value that is associated with `key`.
+- `boolean containsKey(K key)`: Returns if this map has a mapping for the given `key`.
+- `int size()`: Returns the number of key-value mappings.
+- `void clear()`: Removes every mapping from this map.
+
+Make sure to read through the comments for each method in the `Map61B` interface
+to fully understand what to implement. The above descriptions are not necessarily
+comprehensive.
+
+For debugging purposes, your `BSTMap` should also include an additional method
+`printInOrder()` (not given in the `Map61B` interface) that prints out your
+`BSTMap` in order of increasing Key. **We will not test the result of this method,
+but you may find this helpful for testing your implementation!**
+
 {% include alert.html type="task" content="
-**Task**: Implement the `BSTMap` class, which implements the `Map61B` interface
+**TASK**: Implement the `BSTMap` class, which implements the `Map61B` interface
 and the associated, non-optional methods. You should ensure that the keys in
 your `BSTMap` are `Comparable` by using a bounded type parameter.
 
-We _strongly recommend_ you create helper methods to facilitate your implementation.
+We _strongly recommend_ you create helper methods to facilitate your implementation
+(specifically, recursive helper methods are strongly encouraged).
 " %}
 
 {% include alert.html type="info" content="
-**Note**: Unfortunately, most methods you need to implement rely on others
+**INFO**: Unfortunately, most methods you need to implement rely on others
 (`get` requires `put`, etc.). This makes it difficult to test most methods until
 you implement `put`. We recommend you implement the methods in the order
 specified in `Map61B`.
@@ -145,24 +153,39 @@ specified in `Map61B`.
 You can test your implementation using `TestBSTMap.java`.
 " %}
 
-## Resources
+**There is an optional part of `BSTMap`. These methods are optional to implement:
+`iterator`, `remove`, `keySet`.** They are not required for the timing portion, described in this 
+[section](#so-how-fast-is-it).
+
+As mentioned, if you are not implementing the optional part, throw an
+`UnsupportedOperationException`, like below:
+
+```
+throw new UnsupportedOperationException(); 
+```
+
+If you are completing the optional part, refer to this [section](#more-ungraded-exercises-for-bstmap)
+and the comments in `Map61B` for a more detailed description.
+
+### Resources
 
 The following resources might prove useful:
 
 - Lecture 16 [slides](https://docs.google.com/presentation/d/1FRqlq7C_854ZLp-VMHZ13CxA7U45P50iEA7IuxW8H7A/edit?usp=sharing).
 - `ULLMap.java` (given in `src/`), an unordered, linked-list-based `Map61B`
   implementation.
+- To help you also get started, an algorithmic guide to `put` and `get` can be
+  found [here](https://www.youtube.com/watch?v=P3_Luw2M8X4)
 
 ## So... How Fast Is It?
 
-There are two interactive speed tests provided in `InsertRandomSpeedTest.java`
-and `InsertInOrderSpeedTest.java`. Do not attempt to run these tests before
-you've completed `BSTMap`. Once you're ready, you can run the tests in
-IntelliJ.
+There is one interactive speed test provided in `InsertRandomSpeedTest.java`. 
+Do not attempt to run this test before you've completed `BSTMap`. 
+Once you're ready, you can run the tests in IntelliJ.
 
 The `InsertRandomSpeedTest` class performs tests on element-insertion speed of
 your `BSTMap`, `ULLMap` (provided), Java's built-in `TreeMap`, and Java's
-built-in `HashMap` (which you'll explore more in the next lab). It works by
+built-in `HashMap` (which you'll explore more in a later lab). It works by
 asking the user for a desired length of each String to insert, and also for an
 input size (the number of insertions to perform). It then generates that many
 Strings of length as specified and inserts them into the maps as
@@ -170,29 +193,39 @@ Strings of length as specified and inserts them into the maps as
 
 Try it out and see how your data structure scales with the number of insertions
 compared to the naive and industrial-strength implementations. Remember that
-asympototics aren't representative on small samples, so make sure your inputs
-are sufficiently large if you are getting a confusing trend. Record your results
+asymptotics aren't representative on small samples, so make sure your inputs
+are sufficiently large if you are getting a confusing trend (keep in mind that there 
+is a limit thought - if you enter too large of a value, the program might overflow, 
+so play around with sufficiently large values). Record your results
 in a file named `speedTestResults.txt`.
 
-Now try running `InsertInOrderSpeedTest`, which behaves similarly to
-`InsertRandomSpeedTest`, except this time the Strings in `<String, Integer>`
-key-value pairs are inserted in
-[lexicographically-increasing order](http://en.wikipedia.org/wiki/Lexicographical_order).
-If you observed anything interesting, discuss it with your fellow students or a
-staff member!
-
 {% include alert.html type="task" content="
-**Task**: Run the speed tests and record your results in `speedTestResults.txt`.
+**TASK**: Run the speed tests and record your results in `speedTestResults.txt`.
 There is no standard format required for your results, but at a minimum, you
 should include what you did and what you observed.
 " %}
 
-## Deliverables and Scoring
+## Scoring
 
-The lab is out of 5 points. There is one hidden test on Gradescope (that
-checks your `speedTestResults.txt`). The rest of the tests are local. 
-**For this lab, if you pass all the local tests and fill out the`speedTestResults.txt` 
-file sufficiently, you will get full credit on Gradescope.**
+The lab is out of 5 points. There are no hidden tests on Gradescope, in the sense that
+the score you get on Gradescope is your final score. However, there is one test not provided
+locally, which checks for your `speedTestResults.txt`. Passing the local test `TestBSTMap.java`
+means that you will get full credit for `BSTMap.java`, but not necessarily for your `speedTestResults.txt`
+on Gradescope. **So, for this lab, as long as you pass the relevant local tests (`TestBSTMap.java`) and 
+fill out the `speedTestResults.txt` file sufficiently, you will get full credit on Gradescope.**
+
+## More (Ungraded) Exercises for `BSTMap`
+
+These will not be graded, but you can still receive feedback using the local
+tests, specifically `TestBSTMapExtra.java` (and on the autograder).
+
+Implement the methods `iterator()`, `keySet()`, `remove(K key)` in your `BSTMap`
+class. When implementing the `iterator` method, you should return an iterator
+over the _keys_, in _sorted order_. `remove()` is fairly
+challenging - you'll need to implement Hibbard deletion.
+
+For `remove`, you should return `null` if the argument key does not exist in the
+`BSTMap`. Otherwise, delete the key-value pair (key, value) and return value.
 
 ## Submission
 
@@ -203,21 +236,9 @@ refresher, check out the instructions in the
 and the
 [Assignment Workflow Guide](../../guides/assignment-workflow/index.md#submitting-to-gradescope).
 
-## More (Ungraded) Exercises
-
-These will not be graded, but you can still receive feedback using the local
-tests (and on the autograder).
-
-Implement the methods `iterator()`, `keySet()`, `remove(K key)` in your `BSTMap`
-class. When implementing the `iterator` method, you should return an iterator
-over the _keys_, in _sorted order_. `remove()` is fairly
-challenging - you'll need to implement Hibbard deletion.
-
-For `remove`, you should return `null` if the argument key does not exist in the
-`BSTMap`. Otherwise, delete the key-value pair (key, value) and return value.
-
 ## Optional: Asymptotics Problems
 
+This part is also optional, and we've included it here for additional practice on asymptotics. 
 Check your answers against the [solutions](asymptotics-soln.md)!
 
 Given `B`, a `BSTMap` with `N` key-value pairs, and `(K, V)`, a random key-value pair, answer the following questions.
