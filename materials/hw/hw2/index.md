@@ -21,7 +21,7 @@ FAQ for Homework 2 is located
 ## Getting the Skeleton Files
 
 As usual, run `git pull skeleton main` to get the skeleton files. Remember you will also need to import the Java
-libraries from `library-sp23`.
+libraries from `library-fa23`.
 
 ## Introduction
 
