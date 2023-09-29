@@ -29,6 +29,8 @@ get lots of experience with different useful data structures. The early part of 
 telling you exactly what functions to write and classes to create. The later part (proj2b) will be more open to your
 own design.
 
+You can view the staff solution to the project at [ngordnet.datastructur.es](https://ngordnet.datastructur.es).
+
 ## Getting Started
 
 To get started, use `git pull skeleton main` as usual.
@@ -143,6 +145,8 @@ The `NGramMap` class will provide various convenient methods for interacting wit
 more open-ended and challenging than the creation of the `TimeSeries` class. As with `TimeSeries`, you'll be filling in
 the methods of an existing `NGramMap.java` file. **NGramMap should not extend any class.**
 
+If you call a method that returns a `TimeSeries`, and there is no available data for the given method call, you should return an empty `TimeSeries`. For example: `TimeSeries ts = ngm.countHistory("adopt", 1400, 1410)` should return a `TimeSeries` with nothing in it.
+
 {% include alert.html type="task" content="
 **Task:** Fill out the `NGramMap` class (located in the `ngordnet/ngrams/NGramMap.java` file) according to
 the API provided in the file. Once again, be sure to read the comments above each method.
@@ -154,7 +158,6 @@ For an example of an `NGramMap` at work, the `testOnLargeFile()` in `NGramMapTes
 occurrences of the words \"fish\" and \"dog\" in the period between 1850 and 1933.
 " %}
 
-EDIT (2/27): If you call a method that returns a `TimeSeries`, and there is no available data for the given method call, you should return an empty `TimeSeries`. For example: `TimeSeries ts = ngm.countHistory("adopt", 1400, 1410)` should return a `TimeSeries` with nothing in it.
 
 {% include alert.html type="danger" content="
 You may not add additional public methods to this class. You're welcome to add additional private methods.
@@ -307,6 +310,12 @@ Then, modify `Main.java` so that your `HistoryTextHandler` is used when someone 
 instead of registering `DummyHistoryTextHandler`, you should register your `HistoryTextHandler` class instead.
 " %}
 
+{% include alert.html type="info" content="
+You might notice that `Main.java` prints out a link when the server has started up. 
+If you find it more convenient, you can just click this link instead of opening
+the `ngordnet_2a.html` file manually.
+" %}
+
 ### HistoryTextHandler Tips
 
 - The constructor for `HistoryTextHandler` should be of the following form: `public HistoryTextHandler(NGramMap map)`.
@@ -382,8 +391,8 @@ You are responsible for implementing four classes:
 Below is the velocity limiting policy for this assignment:
 
 1. You will start with **8 tokens, each of which have a 24 hour refresh time.**
-2. At **9:00PM on March 8th** (3 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
-3. At **12:00AM on March 9th**, you will again be reset to **8 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
+2. At **9:00PM on October 11th** (3 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
+3. At **11:59PM on October 11th**, you will again be reset to **8 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
 
 ## Acknowledgements
 
