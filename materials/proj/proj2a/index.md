@@ -54,8 +54,9 @@ proj2a
 ├── data
 │   ├── ngrams
 │   └── wordnet
-├── ngordnet
+├── src
 ├── static
+├── tests
 ```
 
 Note that we've set up hidden [`.gitignore`](https://help.github.com/articles/ignoring-files/) files
