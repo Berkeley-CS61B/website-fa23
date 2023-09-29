@@ -145,7 +145,8 @@ The `NGramMap` class will provide various convenient methods for interacting wit
 more open-ended and challenging than the creation of the `TimeSeries` class. As with `TimeSeries`, you'll be filling in
 the methods of an existing `NGramMap.java` file. **NGramMap should not extend any class.**
 
-If you call a method that returns a `TimeSeries`, and there is no available data for the given method call, you should return an empty `TimeSeries`. For example: `TimeSeries ts = ngm.countHistory("adopt", 1400, 1410)` should return a `TimeSeries` with nothing in it.
+If you call a method that returns a `TimeSeries`, and there is no available data for the given method call, you should return an empty `TimeSeries`. For example, `ngm.weightHistory("asdfasdf")` should return a `TimeSeries` with nothing in it, since `"asdfasdf"` is not a word in the dataset. As another example, `ngm.countHistory("adopt", 1400, 1410)` should also return a `TimeSeries` with nothing in it,
+since `"adopt"` has no data during those years.
 
 {% include alert.html type="task" content="
 **Task:** Fill out the `NGramMap` class (located in the `ngordnet/ngrams/NGramMap.java` file) according to
