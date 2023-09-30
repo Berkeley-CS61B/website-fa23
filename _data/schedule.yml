@@ -461,7 +461,7 @@
       reading: > # Format in Markdown
         [Ch 13](https://cs61b-2.gitbook.io/cs61b-textbook/13.-asymptotics-i)
 - week: 6
-  # weekly_survey: "https://forms.gle/rNaz3FFqsfKmFSum8"
+  weekly_survey: "https://forms.gle/gskU5jUo47zqqopk6"
   rows: 3
   discussions:
     - name: Asymptotics, Disjoint Sets
@@ -469,10 +469,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/regular/regular06.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1DnrX6OiUBCQEUJxe6wvr4QNgWeGHn6jJ/view?usp=sharing"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/regular/regular06sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpqWL31oiZlmcka8zFyT5uM"
         - name: slides
           released: true
@@ -482,10 +482,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/examlevel/examlevel06.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1GDh85Mr4193s6EIBs-94bHrcNPA8t4vt/view?usp=share_link"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/examlevel/examlevel06sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRpebKdnwkYKIkyCBNzNXAHW"
         - name: slides
           released: true
@@ -555,6 +555,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrks2Xi7wU8s82FcwPaINYs"
         - name: slides
           link: "https://docs.google.com/presentation/d/1FRqlq7C_854ZLp-VMHZ13CxA7U45P50iEA7IuxW8H7A"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=U6K_jcgrtKA"
       reading: > # Format in Markdown
         [Ch 16](https://cs61b-2.gitbook.io/cs61b-textbook/16.-adts-and-bsts)
       assignments:
