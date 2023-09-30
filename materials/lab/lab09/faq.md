@@ -1,20 +1,16 @@
 ---
 layout: page
-title: "FAQ - Lab 09: Project 2B Checkpoint"
+title: "FAQ - Lab 08: HashMap"
 categories: lab
 released: false
 searchable: false
 ---
 
-# How will the last question be graded?
+### Failing edge cases
 
-Any good-faith attempt to run the testing file will warrant full credit.
+The `Bee` class has some strange `equals` and `hashCode` implementations. If you're stuck on this test, use the debugger to see what values are expected from the reference map, which is Java's built-in HashMap. Walking through the expected behavior by hand may help as well.
 
-# How many times can we submit?
+Some things to think about:
 
-You can submit as many times as you want before the deadline.
-
-# Can we complete this lab with a partner?
-
-Yes, you can complete this lab with your partner. However, please both make your
-own individual submissions to Gradescope.
+The reference map has some (maybe) unexpected behaviors. _Why_ does the reference map behave the way it does (remember `equals` and `hashCode`!)?
+Does your map behave the same way?

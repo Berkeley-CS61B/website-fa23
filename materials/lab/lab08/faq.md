@@ -1,16 +1,14 @@
 ---
 layout: page
-title: "FAQ - Lab 08: HashMap"
+title: "FAQ - Lab 12: Balanced Search Trees"
 categories: lab
-released: false
-searchable: false
+released: true
+searchable: true
 ---
 
-### Failing edge cases
+### Why does the root of an LLRB tree always need to be black?
 
-The `Bee` class has some strange `equals` and `hashCode` implementations. If you're stuck on this test, use the debugger to see what values are expected from the reference map, which is Java's built-in HashMap. Walking through the expected behavior by hand may help as well.
-
-Some things to think about:
-
-The reference map has some (maybe) unexpected behaviors. _Why_ does the reference map behave the way it does (remember `equals` and `hashCode`!)?
-Does your map behave the same way?
+Check out the [LLRB Properties](index.md#llrb-tree-properties) section in the
+spec. The root node could technically be colored red and considered to be a
+special case, but for consistency with the other nodes and LLRB tree
+properties, we choose to require that it is colored black.
