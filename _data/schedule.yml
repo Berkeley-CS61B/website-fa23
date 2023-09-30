@@ -461,7 +461,7 @@
       reading: > # Format in Markdown
         [Ch 13](https://cs61b-2.gitbook.io/cs61b-textbook/13.-asymptotics-i)
 - week: 6
-  # weekly_survey: "https://forms.gle/rNaz3FFqsfKmFSum8"
+  weekly_survey: "https://forms.gle/gskU5jUo47zqqopk6"
   rows: 3
   discussions:
     - name: Asymptotics, Disjoint Sets
