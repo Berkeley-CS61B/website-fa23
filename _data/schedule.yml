@@ -469,10 +469,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/regular/regular06.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1DnrX6OiUBCQEUJxe6wvr4QNgWeGHn6jJ/view?usp=sharing"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/regular/regular06sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpqWL31oiZlmcka8zFyT5uM"
         - name: slides
           released: true
@@ -482,10 +482,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/examlevel/examlevel06.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1GDh85Mr4193s6EIBs-94bHrcNPA8t4vt/view?usp=share_link"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week06/examlevel/examlevel06sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRpebKdnwkYKIkyCBNzNXAHW"
         - name: slides
           released: true
