@@ -40,7 +40,7 @@ You'll also need to download the Project 2 data files (not provided via GitHub f
 {% include alert.html type="task" content="
 **Task:** Download the data files [at this link](https://drive.google.com/file/d/1xGTZqCo5maiZjA307OPocmKDOTYlJXnz/view?usp=sharing).
 
-You should unzip this file into the proj2 directory such that the `data` folder is at the same level as the `ngordnet`
+You should unzip this file into the proj2 directory such that the `data` folder is at the same level as the `src`
 and `static` folders.
 
 - [How to unzip folders on Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc#:~:text=To%20unzip%20files,folder%20to%20a%20new%20location.)
@@ -60,10 +60,10 @@ proj2a
 ```
 
 Note that we've set up hidden [`.gitignore`](https://help.github.com/articles/ignoring-files/) files
-in the skeleton code so that Git will avoid uploading these data files. This is intentional. Uploading the data files
-to GitHub will result in a
-lot of headaches for everybody, so please don't mess with any filed called `.gitignore`. If you need to work on multiple
-machines, you should download the zip file once for each machine.
+in the skeleton code so that Git will avoid uploading these data files. This is intentional.
+
+{% include alert.html type="danger" content="Uploading the data files to GitHub will result in a lot of headaches for everybody, so please don't mess with any files called `.gitignore`. If you need to work on multiple machines, you should download the zip file once for each machine." %}
+
 
 If `NgordnetQuery` doesn't compile, make sure you are using Java version 15 (preview) or higher (preferably 17+).
 
@@ -99,7 +99,7 @@ numerical data point for that year.
 For example, the following code would create a `TimeSeries` and associate the number 3.6 with 1992 and 9.2 with 1993.
 
 ```java
-TimeSeries ts=new TimeSeries();
+TimeSeries ts = new TimeSeries();
 ts.put(1992,3.6);
 ts.put(1993,9.2);
 ```
@@ -129,15 +129,14 @@ You may not add additional public methods to this class. You're welcome to add a
 - `TimeSeries` objects should have no instance variables. A `TimeSeries` is-a `TreeMap`. That means your `TimeSeries`
   class also has access to all methods that a TreeMap has;
   see [the TreeMap API](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/TreeMap.html).
-- **You should never impute any zeroes.** In other words, nowhere should you have any code which fills in a zero if a value
-  is unavailable.
+- **You should not have any code which fills in a zero if a value is unavailable.**
 - The provided `TimeSeriesTest` class provides a simple test of the `TimeSeries` class. Feel free to add your own tests.
   - Note that the unit tests we gave you **do not** evaluate the correctness of the `dividedBy` method.
 - You'll notice in `testFromSpec()` that we did not directly compare `expectedTotal` with `totalPopulation.data()`. This
   is because doubles are prone to rounding errors, especially after division operations (for reasons that you will learn
   in 61C). Thus, `assertThat(x).isEqualTo(y)` may unexpectedly
   return false when `x` and `y` are doubles. Instead, you should use `assertThat(x).isWithin(1E-10).of(y)`, which returns
-  true as long as `x` and `y` are within 1E-10 of each other.
+  true as long as `x` and `y` are within $10^{-10}$ of each other.
 - You may assume that the `dividedBy` operation never divides by zero.
 
 ## NGramMap
@@ -238,9 +237,8 @@ load `top_49887_words.csv`.
   write additional tests.
   - Rather than using one of the large input files (e.g. `top_14377_words.csv`), we recommend starting with one of the
     smaller input files, either `very_short.csv` or `words_that_start_with_q.csv`.
-- **You should never impute any zeroes.** In other words, nowhere should you have any code which fills in a zero if a value
-  is unavailable.
-- If it helps speed up your code, you can assume year arguments are between 1400 and 2100.
+- **You should not have any code which fills in a zero if a value is unavailable.**
+- If it helps speed up your code, you can assume year arguments are between 1400 and 2100. These variables are stored as constants `MIN_YEAR` and `MAX_YEAR` in the `TimeSeries` class.
 - `NGramMap` should not extend any other class.
 - Your methods should be simple! If you pick the right data structures, the methods should be relatively short.
 
