@@ -62,7 +62,7 @@ proj2a
 Note that we've set up hidden [`.gitignore`](https://help.github.com/articles/ignoring-files/) files
 in the skeleton code so that Git will avoid uploading these data files. This is intentional.
 
-{% include alert.html type="danger" content="Uploading the data files to GitHub will result in a lot of headaches for everybody, so please don't mess with any filed called `.gitignore`. If you need to work on multiple machines, you should download the zip file once for each machine." %}
+{% include alert.html type="danger" content="Uploading the data files to GitHub will result in a lot of headaches for everybody, so please don't mess with any files called `.gitignore`. If you need to work on multiple machines, you should download the zip file once for each machine." %}
 
 
 If `NgordnetQuery` doesn't compile, make sure you are using Java version 15 (preview) or higher (preferably 17+).
