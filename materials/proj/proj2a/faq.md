@@ -2,7 +2,7 @@
 layout: page
 title: "FAQ - Project 2A: NGordnet"
 categories: proj
-released: false
+released: true
 ---
 
 Course staff will continuously add to this page as you all ask questions about the project! If you have a question that
