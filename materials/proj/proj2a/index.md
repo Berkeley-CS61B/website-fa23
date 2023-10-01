@@ -84,9 +84,6 @@ In Project 2A, you will be build a version of this tool that only handles 1grams
 handle individual words. We'll only use a small subset (around 300 megabytes) of the full 1grams dataset, as larger
 datasets will require more sophisticated techniques that are out of scope for this class.
 
-Most of your work for Project 2A will be in the `ngordnet.ngrams` package, though some work will also be
-in `ngordnet.main`, as well as potentially the `ngordnet.plotter` package.
-
 ## TimeSeries
 
 A `TimeSeries` is a special purpose extension of the existing `TreeMap` class where the key type parameter is
@@ -228,7 +225,7 @@ load `top_49887_words.csv`.
   technique you'd like that you learn about online. We provide an example class `FileReaderDemo.java` that gives
   examples of how to use `In`.
 - If you use `In`, don't use `readAllLines` or `readAllStrings`. These methods are slow. Instead, read inputs one chunk
-  at a time. See `ngordnet/main/FileReaderDemo.java` for an example.
+  at a time. See `src/main/FileReaderDemo.java` for an example.
   - Additionally, to check if there are any lines left in a file, you should use `hasNextLine` (and not `isEmpty`).
 - Our provided tests only cover some methods, but some methods are only tested on a very large file. You will need to
   write additional tests.
@@ -238,6 +235,7 @@ load `top_49887_words.csv`.
 - If it helps speed up your code, you can assume year arguments are between 1400 and 2100. These variables are stored as constants `MIN_YEAR` and `MAX_YEAR` in the `TimeSeries` class.
 - `NGramMap` should not extend any other class.
 - Your methods should be simple! If you pick the right data structures, the methods should be relatively short.
+- If the word is invalid, return an empty `TimeSeries`.
 
 ## HistoryTextHandler
 
@@ -259,14 +257,14 @@ data structures, it is incredibly important to be able to take projects and depl
     server to generate the results, but there is no web server running that can handle the request to see the history of
     cat and dog.
 
-3.  Open the `ngordnet.main.Main` class. This class's `main` method first creates a `NgordnetServer` object. The API for this
+3.  Open the `main.Main` class. This class's `main` method first creates a `NgordnetServer` object. The API for this
     class is as follows: First, we call `startUp` on the `NgordnetServer` object, then we "register" one or
     more `NgordnetQueryHandler` using the `register` command. The precise details here are beyond the scope of our class.
 
     The basic idea is that when you call `hns.register("historytext", new DummyHistoryTextHandler(ngm))`, an object of
     type `DummyHistoryTextHandler` is created that will handle any clicks to the `History (Text)` button.
 
-4.  Try running the `ngordnet.main.Main` class. The terminal output in IntelliJ might be red, but as long as you see the
+4.  Try running the `main.Main` class. The terminal output in IntelliJ might be red, but as long as you see the
     line: `INFO org.eclipse.jetty.server.Server - Started...`, the server started correctly. Now open the
     `ngordnet_2a.html` file again, enter "cat, dog" again, then click `History (Text)`. This time, you should see a
     message that says:
@@ -276,7 +274,7 @@ data structures, it is incredibly important to be able to take projects and depl
          Start Year: 2000
          End Year: 2020
 
-5.  Now open `ngordnet.main.DummyHistoryTextHandler`, you'll see a `handle` method. This is called whenever the user
+5.  Now open `main.DummyHistoryTextHandler`, you'll see a `handle` method. This is called whenever the user
     clicks the `History (Text)` button. The expected behavior should instead be that when the user clicks `History (Text)` for the prompt above, the
     following text should be displayed:
 
@@ -324,13 +322,14 @@ the `ngordnet_2a.html` file manually.
 - For your `HistoryTextHandler` to be able to do something useful, it's going to need to be able to access the data
   stored in your `NGramMap`. **DO NOT MAKE THE NGRAM MAP INTO A STATIC VARIABLE!** This is known as a "global variable"
   and is rarely the appropriate solution for any problem. Hint: Your `HistoryTextHandler` class can have a constructor.
+- If word is invalid, think about how `NGramMap` is handling this situation.
 
 ## HistoryHandler
 
 The text based history from the previous section is not useful for much other than auto-grading your work. Actually using
 our tool to discover interesting things will require visualization.
 
-The `ngordnet.main.PlotDemo` provides example code that uses your `NGramMap` to generate a visual plot showing the
+The `main.PlotDemo` provides example code that uses your `NGramMap` to generate a visual plot showing the
 relative frequency of the words cat and dog between 1900 and 1950. Try running it. If your `NGramMap` class is correct,
 you should see a very long string printed to your console that might look something like:
 
@@ -354,7 +353,7 @@ The `ngordnet.Plotter.generateTimeSeriesChart` method returns an object of type 
 either be converted into base 64 by the `ngordnet.Plotter.encodeChartAsString` method, or can be displayed to the screen
 directly by `ngordnet.Plotter.displayChart`.
 
-In your web browser, again open up the `ngordnet_2a.html` file in the `static` folder. With your `ngordnet.main.Main`
+In your web browser, again open up the `ngordnet_2a.html` file in the `static` folder. With your `main.Main`
 class running, enter "cat, dog" into the "words" box, then click "history". You'll see the strange image below:
 
 ![parabola and sinusoid](default_history_plot.png)
