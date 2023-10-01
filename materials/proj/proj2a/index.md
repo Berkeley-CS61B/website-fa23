@@ -67,9 +67,6 @@ in the skeleton code so that Git will avoid uploading these data files. This is 
 
 If `NgordnetQuery` doesn't compile, make sure you are using Java version 15 (preview) or higher (preferably 17+).
 
-Check that your style checker plugin is up-to-date. The version should be between 2.0.8-2.0.10! See [this Ed post](https://edstem.org/us/courses/25759/discussion/2537883)
-for more details.
-
 A video guide to setting up your computer for this project can be found [at this link](https://youtu.be/8uIt7pXua6Y).
 Note that some files/filenames may be slightly different; in particular, the `hugbrowsermagic` directory in the
 video is now just called `browser` in your skeleton files.
@@ -94,7 +91,7 @@ in `ngordnet.main`, as well as potentially the `ngordnet.plotter` package.
 
 A `TimeSeries` is a special purpose extension of the existing `TreeMap` class where the key type parameter is
 always `Integer`, and the value type parameter is always `Double`. Each key will correspond to a year, and each value a
-numerical data point for that year.
+numerical data point for that year. You can find the `TreeMap` API from [here](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html) to see which methods are available to you.
 
 For example, the following code would create a `TimeSeries` and associate the number 3.6 with 1992 and 9.2 with 1993.
 
