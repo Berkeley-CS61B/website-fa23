@@ -40,7 +40,7 @@ You'll also need to download the Project 2 data files (not provided via GitHub f
 {% include alert.html type="task" content="
 **Task:** Download the data files [at this link](https://drive.google.com/file/d/1xGTZqCo5maiZjA307OPocmKDOTYlJXnz/view?usp=sharing).
 
-You should unzip this file into the proj2 directory such that the `data` folder is at the same level as the `ngordnet`
+You should unzip this file into the proj2 directory such that the `data` folder is at the same level as the `src`
 and `static` folders.
 
 - [How to unzip folders on Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc#:~:text=To%20unzip%20files,folder%20to%20a%20new%20location.)
@@ -60,15 +60,12 @@ proj2a
 ```
 
 Note that we've set up hidden [`.gitignore`](https://help.github.com/articles/ignoring-files/) files
-in the skeleton code so that Git will avoid uploading these data files. This is intentional. Uploading the data files
-to GitHub will result in a
-lot of headaches for everybody, so please don't mess with any filed called `.gitignore`. If you need to work on multiple
-machines, you should download the zip file once for each machine.
+in the skeleton code so that Git will avoid uploading these data files. This is intentional.
+
+{% include alert.html type="danger" content="Uploading the data files to GitHub will result in a lot of headaches for everybody, so please don't mess with any files called `.gitignore`. If you need to work on multiple machines, you should download the zip file once for each machine." %}
+
 
 If `NgordnetQuery` doesn't compile, make sure you are using Java version 15 (preview) or higher (preferably 17+).
-
-Check that your style checker plugin is up-to-date. The version should be between 2.0.8-2.0.10! See [this Ed post](https://edstem.org/us/courses/25759/discussion/2537883)
-for more details.
 
 A video guide to setting up your computer for this project can be found [at this link](https://youtu.be/8uIt7pXua6Y).
 Note that some files/filenames may be slightly different; in particular, the `hugbrowsermagic` directory in the
@@ -87,19 +84,16 @@ In Project 2A, you will be build a version of this tool that only handles 1grams
 handle individual words. We'll only use a small subset (around 300 megabytes) of the full 1grams dataset, as larger
 datasets will require more sophisticated techniques that are out of scope for this class.
 
-Most of your work for Project 2A will be in the `ngordnet.ngrams` package, though some work will also be
-in `ngordnet.main`, as well as potentially the `ngordnet.plotter` package.
-
 ## TimeSeries
 
 A `TimeSeries` is a special purpose extension of the existing `TreeMap` class where the key type parameter is
 always `Integer`, and the value type parameter is always `Double`. Each key will correspond to a year, and each value a
-numerical data point for that year.
+numerical data point for that year. You can find the `TreeMap` API from [here](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html) to see which methods are available to you.
 
 For example, the following code would create a `TimeSeries` and associate the number 3.6 with 1992 and 9.2 with 1993.
 
 ```java
-TimeSeries ts=new TimeSeries();
+TimeSeries ts = new TimeSeries();
 ts.put(1992,3.6);
 ts.put(1993,9.2);
 ```
@@ -129,15 +123,14 @@ You may not add additional public methods to this class. You're welcome to add a
 - `TimeSeries` objects should have no instance variables. A `TimeSeries` is-a `TreeMap`. That means your `TimeSeries`
   class also has access to all methods that a TreeMap has;
   see [the TreeMap API](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/TreeMap.html).
-- **You should never impute any zeroes.** In other words, nowhere should you have any code which fills in a zero if a value
-  is unavailable.
+- **You should not have any code which fills in a zero if a value is unavailable.**
 - The provided `TimeSeriesTest` class provides a simple test of the `TimeSeries` class. Feel free to add your own tests.
   - Note that the unit tests we gave you **do not** evaluate the correctness of the `dividedBy` method.
 - You'll notice in `testFromSpec()` that we did not directly compare `expectedTotal` with `totalPopulation.data()`. This
   is because doubles are prone to rounding errors, especially after division operations (for reasons that you will learn
   in 61C). Thus, `assertThat(x).isEqualTo(y)` may unexpectedly
   return false when `x` and `y` are doubles. Instead, you should use `assertThat(x).isWithin(1E-10).of(y)`, which returns
-  true as long as `x` and `y` are within 1E-10 of each other.
+  true as long as `x` and `y` are within $10^{-10}$ of each other.
 - You may assume that the `dividedBy` operation never divides by zero.
 
 ## NGramMap
@@ -232,17 +225,17 @@ load `top_49887_words.csv`.
   technique you'd like that you learn about online. We provide an example class `FileReaderDemo.java` that gives
   examples of how to use `In`.
 - If you use `In`, don't use `readAllLines` or `readAllStrings`. These methods are slow. Instead, read inputs one chunk
-  at a time. See `ngordnet/main/FileReaderDemo.java` for an example.
+  at a time. See `src/main/FileReaderDemo.java` for an example.
   - Additionally, to check if there are any lines left in a file, you should use `hasNextLine` (and not `isEmpty`).
 - Our provided tests only cover some methods, but some methods are only tested on a very large file. You will need to
   write additional tests.
   - Rather than using one of the large input files (e.g. `top_14377_words.csv`), we recommend starting with one of the
     smaller input files, either `very_short.csv` or `words_that_start_with_q.csv`.
-- **You should never impute any zeroes.** In other words, nowhere should you have any code which fills in a zero if a value
-  is unavailable.
-- If it helps speed up your code, you can assume year arguments are between 1400 and 2100.
+- **You should not have any code which fills in a zero if a value is unavailable.**
+- If it helps speed up your code, you can assume year arguments are between 1400 and 2100. These variables are stored as constants `MIN_YEAR` and `MAX_YEAR` in the `TimeSeries` class.
 - `NGramMap` should not extend any other class.
 - Your methods should be simple! If you pick the right data structures, the methods should be relatively short.
+- If the word is invalid, return an empty `TimeSeries`.
 
 ## HistoryTextHandler
 
@@ -264,14 +257,14 @@ data structures, it is incredibly important to be able to take projects and depl
     server to generate the results, but there is no web server running that can handle the request to see the history of
     cat and dog.
 
-3.  Open the `ngordnet.main.Main` class. This class's `main` method first creates a `NgordnetServer` object. The API for this
+3.  Open the `main.Main` class. This class's `main` method first creates a `NgordnetServer` object. The API for this
     class is as follows: First, we call `startUp` on the `NgordnetServer` object, then we "register" one or
     more `NgordnetQueryHandler` using the `register` command. The precise details here are beyond the scope of our class.
 
     The basic idea is that when you call `hns.register("historytext", new DummyHistoryTextHandler(ngm))`, an object of
     type `DummyHistoryTextHandler` is created that will handle any clicks to the `History (Text)` button.
 
-4.  Try running the `ngordnet.main.Main` class. The terminal output in IntelliJ might be red, but as long as you see the
+4.  Try running the `main.Main` class. The terminal output in IntelliJ might be red, but as long as you see the
     line: `INFO org.eclipse.jetty.server.Server - Started...`, the server started correctly. Now open the
     `ngordnet_2a.html` file again, enter "cat, dog" again, then click `History (Text)`. This time, you should see a
     message that says:
@@ -281,7 +274,7 @@ data structures, it is incredibly important to be able to take projects and depl
          Start Year: 2000
          End Year: 2020
 
-5.  Now open `ngordnet.main.DummyHistoryTextHandler`, you'll see a `handle` method. This is called whenever the user
+5.  Now open `main.DummyHistoryTextHandler`, you'll see a `handle` method. This is called whenever the user
     clicks the `History (Text)` button. The expected behavior should instead be that when the user clicks `History (Text)` for the prompt above, the
     following text should be displayed:
 
@@ -329,13 +322,14 @@ the `ngordnet_2a.html` file manually.
 - For your `HistoryTextHandler` to be able to do something useful, it's going to need to be able to access the data
   stored in your `NGramMap`. **DO NOT MAKE THE NGRAM MAP INTO A STATIC VARIABLE!** This is known as a "global variable"
   and is rarely the appropriate solution for any problem. Hint: Your `HistoryTextHandler` class can have a constructor.
+- If word is invalid, think about how `NGramMap` is handling this situation.
 
 ## HistoryHandler
 
 The text based history from the previous section is not useful for much other than auto-grading your work. Actually using
 our tool to discover interesting things will require visualization.
 
-The `ngordnet.main.PlotDemo` provides example code that uses your `NGramMap` to generate a visual plot showing the
+The `main.PlotDemo` provides example code that uses your `NGramMap` to generate a visual plot showing the
 relative frequency of the words cat and dog between 1900 and 1950. Try running it. If your `NGramMap` class is correct,
 you should see a very long string printed to your console that might look something like:
 
@@ -359,7 +353,7 @@ The `ngordnet.Plotter.generateTimeSeriesChart` method returns an object of type 
 either be converted into base 64 by the `ngordnet.Plotter.encodeChartAsString` method, or can be displayed to the screen
 directly by `ngordnet.Plotter.displayChart`.
 
-In your web browser, again open up the `ngordnet_2a.html` file in the `static` folder. With your `ngordnet.main.Main`
+In your web browser, again open up the `ngordnet_2a.html` file in the `static` folder. With your `main.Main`
 class running, enter "cat, dog" into the "words" box, then click "history". You'll see the strange image below:
 
 ![parabola and sinusoid](default_history_plot.png)
