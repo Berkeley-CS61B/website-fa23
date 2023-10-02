@@ -3,8 +3,8 @@
   rows: 3
   discussions:
     - name: ADTs, Asymptotics II, BSTs
-      released: false
-      link: "https://drive.google.com/file/d/1a1SWyETjnPTgkkTiXmMYzfJNwWEYrPfx/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week07/regular/regular07.pdf"
       resource_links:
         - name: solution
           released: false
@@ -13,11 +13,11 @@
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRpBCAx-EGDwnOY4YW0zwczO"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1S1Hlu76htddAk_FAX7WyN6YvIF7mg6Bc8k7UczvIZWc/edit?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1_AuShl-1l6S39SOGyBuby2OG99cO5XxmQ9a9zFLUFjE/edit?usp=sharing"
     - name: ADTs, Asymptotics II, BSTs (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/1DDGhpJEy6TdUkK-ru8kITbYs4u6HTs62/view?usp=share_link"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week07/examlevel/examlevel07.pdf"
       resource_links:
         - name: solution
           released: false
@@ -26,8 +26,8 @@
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRonJvfbSeiELXQ5TcvrAO1U"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/166G3dc-Qm0QPEMaFrDzXQ0vA_zMzlRIwwJw84BckJlw/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1VnHSnHjsARtoW0oF3pazb7v2amMLMrPK0Tkw0OGK8qs/edit?usp=sharing"
   labs:
     - name: BSTMap (due 10/06)
       link: materials/lab/lab07/
