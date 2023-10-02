@@ -33,9 +33,9 @@
       link: materials/lab/lab07/
       resource_links:
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1J91pQSLa816ZV9rNrVfRXoeTg0NDpWR4/"
-      released: false
+          released: true
+          link: "https://docs.google.com/presentation/d/16BCWjG2h_95WQbzx8ciWvMoHBfekpeRc88Fuaz9GeAQ/edit?usp=sharing"
+      released: true
   days:
     - day: 2023-10-02
       lecture_topic: B-Trees (2-3, 2-3-4 Trees)
@@ -68,7 +68,7 @@
       assignments:
         - title: "Project 2A (due 10/11)"
           link: materials/proj/proj2a
-          released: false
+          released: true
           rows: 2 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-10-06
