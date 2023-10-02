@@ -7,11 +7,9 @@ toc:
   h_max: 4
 ---
 
-## [FAQ](faq.md)
+## FAQ
 
-Each assignment will have an FAQ linked at the top. You can also access it by
-adding "/faq" to the end of the URL. The FAQ for Lab 12 is located
-[here](faq.md).
+The FAQ for this lab can be found [here](faq.md).
 
 ## Before You Begin
 
@@ -609,48 +607,6 @@ that `insert` still takes $$O(\log N)$$ as in balanced binary search trees.
 *Hint:* How long is the path from root to the new leaf? For each node along the
 path, are additional operations limited to some constant number? What does that
 mean?
-
-<details markdown="block">
-<summary markdown="block">
-## (Optional) Other Balanced Trees
-</summary>
-
-Balanced search is a very important problem in computer science which has garnered
-many unique and diverse solutions. We have chose two common solutions to the
-problem to explore in depth. It is also useful to know about other alternatives
-but we will not expect you to fully understand how they work. Two other interesting
-solutions to this problem are presented below. 
-
-### AVL Trees
-{: .no_toc}
-
-**AVL trees** (named after their Russian inventors, Adel'son-Vel'skii and
-Landis) are height-balanced binary search trees, in which information about tree
-height is stored in each node along with the item. Restructuring of an AVL tree
-after insertion is done via a familiar process of *rotation*, but without color
-changes.
-
-### Splay Trees
-{: .no_toc}
-
-Another type of self-balancing BST is called the **splay tree**. Like other
-self-balancing trees (AVL, red-black), a splay tree uses rotations to keep
-itself balanced. However, for a splay tree, the notion of what it means to be
-balanced is different. A splay tree doesn't care about differing heights of
-subtrees, so its shape is less constrained. All a splay tree cares about is that
-*recently accessed* nodes are near the top. Upon insertion or access of an item,
-the tree is adjusted so that item is at the top. Upon deletion, the item is
-first brought to the top and then deleted.
-
-{% include alert.html type="info" content="
-If you would like to do some more reading about either of these trees, their
-Wikipedia articles are a great place to start. Remember, these are both
-optional and therefore out of scope for the course.
-
-- [AVL Trees](https://en.wikipedia.org/wiki/AVL_tree)
-- [Splay Trees](https://en.wikipedia.org/wiki/Splay_tree)
-" %}
-</details>
 
 ## Deliverables
 

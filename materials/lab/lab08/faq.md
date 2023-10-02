@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "FAQ - Lab 12: Balanced Search Trees"
+title: "FAQ - Lab 08: Balanced Search Trees"
 categories: lab
 released: true
 searchable: true
