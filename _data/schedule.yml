@@ -612,7 +612,7 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoMUlGWsTyt-WHK-SuyXK_E"
         - name: slides
           link: "https://docs.google.com/presentation/d/1MZBpWtRAkJdwY4jOYiebFrktz4v3gpLCSxopN2XSsaU"
-        - name: recording:
+        - name: recording
           link: "https://www.youtube.com/watch?v=t-tTKKGMZzY"
       reading: > # Format in Markdown
         [Ch 17](https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees)
