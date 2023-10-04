@@ -65,6 +65,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrYOYhFXExoXfP8uhHHCIri"
         - name: slides
           link: "https://docs.google.com/presentation/d/1xHotCWwewVq8h3QGtm8z8V5rTuFOtMyXMiFhRJzyD0Y"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=wITnCbmrvMs"
       reading: > # Format in Markdown
         [Ch 18](https://cs61b-2.gitbook.io/cs61b-textbook/18.-red-black-trees)
       assignments:
