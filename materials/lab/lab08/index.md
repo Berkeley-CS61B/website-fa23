@@ -282,9 +282,15 @@ from the above section two. **Make sure you follow
 the steps from all the cases very carefully!** The root of the `RedBlackTree`
 should always be black.
 
-Use the helper methods that have already been provided for you in the skeleton
-(`flipColors` and `isRed`) and your `rotateRight` and `rotateLeft`
-methods to simplify the code writing!
+Make sure to use the methods you've already implemented (`rotateRight`, `rotateLeft`, 
+`flipColors`) to simplify the code writing. The helper method `isRed` has already been 
+provided to you in the skeleton code so make sure to use it!
+
+## Testing 
+ 
+All tests have been provided to you locally. If you pass all tests in `TestRedBlackTree.java`, 
+you receive full credit on Gradescope. Comments have been provided for you throughout the tests 
+to help you further debug. 
 
 ## Deliverables
 
@@ -293,5 +299,4 @@ Complete the following methods in `RedBlackTree.java`:
 - `rotateRight` and `rotateLeft`
 - `insert`
 
-This lab is worth 5 points. All tests are provided to you locally. If you pass all tests
-(`TestRedBlackTree.java`), then you will get full score on the Gradescope autograder. 
+This lab is worth 5 points.
