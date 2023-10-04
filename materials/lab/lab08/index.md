@@ -252,14 +252,20 @@ We also have the color flip operation:
 done so, please do before you start implementing this lab.
 " %}
 
+Before starting, make sure to read through the entire class, `RedBlackTree.java`, especially 
+the provided node class. Make sure to also read the comments for each method! 
+
 ### Exercise: Rotations
 
 Now we have seen that we can rotate the tree to balance it without violating the
 binary search tree invariants. Now, we will implement it ourselves!
 
-In `RedBlackTree.java`, implement `rotateRight` and `rotateLeft`. For your
-implementation, make the new root have the color of the old root, and color the
-old root red.
+In `RedBlackTree.java`, implement `rotateRight` and `rotateLeft`.
+
+{% include alert.html type="info" content="
+**INFO:** **For your implementation, make the new root have the color of the old root,
+and color the old root red. Make sure to do this or you won't pass the tests!**
+" %}
 
 *Hint*: The two operations are symmetric. Should the code significantly differ?
 If you find yourself stuck, take a look at the examples that are shown above!
