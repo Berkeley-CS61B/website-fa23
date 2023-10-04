@@ -101,7 +101,7 @@ ts.put(1993,9.2);
 The `TimeSeries` class provides some additional utility methods to the `TreeMap` class, which it extends.
 
 {% include alert.html type="task" content="
-**Task:** Fill out the `TimeSeries` class (located in the `ngordnet/ngrams/TimeSeries.java` file) according to
+**Task:** Fill out the `TimeSeries` class (located in the `src/ngrams/TimeSeries.java` file) according to
 the API provided in the file. Be sure to read the comments above each method.
 
 **Note:** there are two constructors for this class, and you must complete them both.
@@ -143,7 +143,7 @@ If you call a method that returns a `TimeSeries`, and there is no available data
 since `"adopt"` has no data during those years.
 
 {% include alert.html type="task" content="
-**Task:** Fill out the `NGramMap` class (located in the `ngordnet/ngrams/NGramMap.java` file) according to
+**Task:** Fill out the `NGramMap` class (located in the `src/ngrams/NGramMap.java` file) according to
 the API provided in the file. Once again, be sure to read the comments above each method.
 " %}
 
