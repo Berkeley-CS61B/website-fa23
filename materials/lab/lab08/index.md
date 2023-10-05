@@ -87,8 +87,8 @@ in our examples and descriptions to make the lab implementation easier.**
 
 At its core, LLRBs are just a binary search tree, but there are a few additional 
 invariants related to "coloring" each node red or black. This "coloring" creates 
-a mapping between 2-3 trees and LLRBs! **In particular, every 2-3 tree
-corresponds to exactly LLRB, and vice-versa.**
+a one-to-one mapping between 2-3 trees and LLRBs! **In particular, every 2-3 tree
+corresponds to exactly one LLRB, and vice-versa.**
 
 The consequence is quite astounding: LLRBs maintain the balance of
 2-3 trees while inheriting all normal binary search tree operations 
@@ -263,8 +263,8 @@ binary search tree invariants. Now, we will implement it ourselves!
 In `RedBlackTree.java`, implement `rotateRight` and `rotateLeft`.
 
 {% include alert.html type="info" content="
-**INFO:** **For your implementation, make the new root have the color of the old root,
-and color the old root red. Make sure to do this or you won't pass the tests!**
+**INFO:** **For your implementation, make sure to swap the colors of the old root 
+and the new root!**
 " %}
 
 *Hint*: The two operations are symmetric. Should the code significantly differ?
@@ -273,9 +273,8 @@ If you find yourself stuck, take a look at the examples that are shown above!
 ### Exercise: Color Flip
 
 Now we consider the color flip operation that is essential to LLRB tree
-implementation. Given a node, this operation simply flips the color of itself,
-and the left and right children. However simple it may look now, we will examine
-its consequences later on.
+implementation. Given a node, this operation simply flips its color and 
+the children's colors.
 
 Implement the `flipColors` method in `RedBlackTree.java`.
 
@@ -283,8 +282,8 @@ Implement the `flipColors` method in `RedBlackTree.java`.
 
 Now, we will implement `insert` in `RedBlackTree.java`. We have provided you
 with most of the logic structure, so all you need to do is deal with normal
-binary search tree insertion and handle the "second child" case
-from the above section two. **Make sure you follow
+binary search tree insertion and handle the different cases that causes one of the 
+operations (`rotateLeft`, `rotateRight`, `colorFlip`) to occur. **Make sure you follow
 the steps from all the cases very carefully!** The root of the `RedBlackTree`
 should always be black.
 
