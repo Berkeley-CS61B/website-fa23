@@ -649,7 +649,7 @@
         - name: video
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr_rFqN57yjZtcw_P4UiJ7a"
         - name: slides
-          link: https://docs.google.com/presentation/d/1ugoQ4Ni0SrmMToiXmGyRZUueqiYBWeM1E78geVmyFW4
+          link: https://docs.google.com/presentation/d/1sVRw4ec0Kq41_OSB-ix94u09WyQnHWf0YsOhlclnM0w
       reading: >
         [Ch 19](https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing)
 - week: 8
