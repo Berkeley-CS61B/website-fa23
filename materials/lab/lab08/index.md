@@ -236,16 +236,16 @@ up into their parent's position:
 
 ![](img/rotations_summary.png){: style="max-height: 250px;" }
 
-Here's a brief description of what's happening when we `rotateLeft(a)`: 
-
-- The root of the subtree has changed from `a` to `b`.
-- `a` and `b` have moved to the "left".
+Here's a brief description of what happens when we `rotateRight(b)`:
+- The root of the subtree has changed from `b` to `a`.
+- `a` and `b` have moved to the "right".
 - The two nodes swap colors so that the new root is the same color as the old root.
 - The reorganized subtree still satisfies the binary search property.
 
-Conversely, here's a brief description of what's happening when we `rotateRight(b)`:
-- The root of the subtree has changed from `b` to `a`.
-- `a` and `b` have moved to the "right".
+Here's a brief description of what happens when we `rotateLeft(a)`: 
+
+- The root of the subtree has changed from `a` to `b`.
+- `a` and `b` have moved to the "left".
 - The two nodes swap colors so that the new root is the same color as the old root.
 - The reorganized subtree still satisfies the binary search property.
 
