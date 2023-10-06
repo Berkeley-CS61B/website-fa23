@@ -566,7 +566,7 @@
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 - week: 7
-  # weekly_survey: "https://forms.gle/rK8mvkFg9W9y226v5"
+  weekly_survey: "https://forms.gle/Kz38nvEihp2GzM8R8"
   rows: 3
   discussions:
     - name: ADTs, Asymptotics II, BSTs
