@@ -28,7 +28,7 @@ it's possible to produce a *spindly* tree that affects the performance
 of our data structure. 
 
 Informally, a tree being "balanced" means that the paths from the root to 
-leaves are all roughly the same length. Any algorithm that looks once at 
+each leaf are all roughly the same length. Any algorithm that looks once at 
 each level of the tree -- such as searching for a value in the binary search 
 tree -- only looks at the number of layers. In regard to the binary search 
 tree, the smallest number of layers we can have is logarithmic with respect 
@@ -112,7 +112,7 @@ No node can have two red children.
   as the parent. This means that the corresponding 2-3 node contains 3 keys,
   which is not allowed.
 
-No red node can have a red parent; or every red node's parent is black.
+No red node can have a red parent (every red node's parent is black).
 : If a red node has a red parent, then both the red child and red parent are in
   the same 2-3 node as the red parent's parent. This means that the
   corresponding 2-3 node contains 3 keys, which is not allowed.
@@ -146,7 +146,7 @@ doesn't exist.** This breaks our invariant, where "If a node has one red
 child, it must be on the left". Since we can't have any red-leaning nodes, we 
 would want to **rotate left** on the parent node. An example is shown below:
 
-![](img/RBtree-5.svg){: style="max-height: 250px;" }
+![](img/rotate_left.png){: style="max-height: 250px;" }
 
 ### No node can have two red children
 
@@ -157,11 +157,11 @@ of "No node can have two red children". We then perform the operation
 "color flip" on the parent. Here, we apply the color flip operation on `b`, 
 flipping its color and its childrens' colors.
 
-![](img/RBtree-7.svg){: style="max-height: 250px;" }
+![](img/color_flip.png){: style="max-height: 250px;" }
 
 We will return to this configuration later.
 
-### No red node can have a red parent; or every red node’s parent is black
+### No red node can have a red parent (every red node’s parent is black)
 
 This can be broken down into two cases defined below.  
 
@@ -175,7 +175,7 @@ original subtree if applied to the new root.
 
 In this case, we rotate right on `b`:
 
-![](img/RBtree-10.svg){: style="max-height: 250px;" }
+![](img/rotate_right.png){: style="max-height: 250px;" }
 
 At this point, we notice that it's the same pattern as the previous case, so
 we apply a color flip to `a`.
@@ -187,28 +187,36 @@ already red node. In this case, we then apply our rotate left operation.
 
 As shown below, we rotate left on `a` in this example and we get:
 
-![](img/RBtree-12.svg){: style="max-height: 250px;" }
+![](img/rotate_left2.png){: style="max-height: 250px;" }
 
 Here, we have the previous case again, so we know that we can rotate right on
 `b` and apply a color flip to the root, `x`.
 
 #### Upward Propagation
 
-Hold on -- each of these three cases ended up in a color flip. What if the
-subtree we modified was a *right subtree*, and the rest of the tree looked like
-this:
+Hold on -- notice that some of these cases we just covered have ended up in a color flip.
+What if the subtree we modified was a *right subtree*, and the rest of the tree looked
+like this:
 
-![](img/RBtree-13.svg){: style="max-height: 250px;" }
+![](img/upward_propagation.png){: style="max-height: 250px;" }
 
 Just like how pushing up a key in a 2-3 tree may result in overstuffing
-the parent node, performing these transformations may *also* violate an LLRB
-invariant, giving us one of these three cases again. We resolve
+the parent node, **performing these transformations may *also* violate an LLRB
+invariant**, giving us one of these three cases again. We resolve
 these cases until we either:
 
 - Do not have any broken invariants
 - Flip the root's color
 
-In the second case, we must remember to flip the root back to black in 
+{% include alert.html type="info" content="
+**INFO**: What this means is that performing some of these operations (color flip, 
+rotate right, or rotate left) may end up breaking another invariant, resulting
+in more operations. As we try to resolve these cases, these transformations 
+effectively work up the LLRB tree until we've resolved them according to the 
+conditions above.
+" %}
+
+In some cases, we must remember to flip the root back to black in 
 our representation.
 
 ### LLRB Insertion Summary
@@ -226,7 +234,7 @@ let's try to generalize our operations a little more visually (specifically for 
 We have two rotations, that can be used to move a right child or left child
 up into their parent's position:
 
-![](img/RBtree-14.svg){: style="max-height: 250px;" }
+![](img/rotations_summary.png){: style="max-height: 250px;" }
 
 Here's a brief description of what's happening when we `rotateLeft(a)`: 
 
@@ -243,22 +251,30 @@ Conversely, here's a brief description of what's happening when we `rotateRight(
 
 We also have the color flip operation:
 
-![](img/RBtree-7.svg){: style="max-height: 250px;" }
+![](img/color_flip.png){: style="max-height: 250px;" }
 
 ## LLRB Tree Implementation
 
 {% include alert.html type="danger" content="
-**WARNING (IMPORTANT):** Have you read this [section](#links-vs-nodes-) yet? If you haven't
+**WARNING (IMPORTANT):** Have you read this [section](#links-vs-nodes) yet? If you haven't
 done so, please do before you start implementing this lab.
 " %}
 
 Before starting, make sure to read through the entire class, `RedBlackTree.java`, especially 
 the provided node class. Make sure to also read the comments for each method! 
 
+### Exercise: Color Flip
+
+Let's first consider the color flip operation that is essential to LLRB tree
+implementation. Given a node, this operation simply flips its color and
+the children's colors.
+
+Implement the `flipColors` method in `RedBlackTree.java`.
+
 ### Exercise: Rotations
 
-Now we have seen that we can rotate the tree to balance it without violating the
-binary search tree invariants. Now, we will implement it ourselves!
+We have seen that we can rotate the tree to balance it without violating the 
+binary search tree invariants. Now, will implement it ourselves!
 
 In `RedBlackTree.java`, implement `rotateRight` and `rotateLeft`.
 
@@ -270,26 +286,22 @@ and the new root!**
 *Hint*: The two operations are symmetric. Should the code significantly differ?
 If you find yourself stuck, take a look at the examples that are shown above!
 
-### Exercise: Color Flip
-
-Now we consider the color flip operation that is essential to LLRB tree
-implementation. Given a node, this operation simply flips its color and 
-the children's colors.
-
-Implement the `flipColors` method in `RedBlackTree.java`.
-
 ### Exercise: `insert`
 
-Now, we will implement `insert` in `RedBlackTree.java`. We have provided you
-with most of the logic structure, so all you need to do is deal with normal
-binary search tree insertion and handle the different cases that causes one of the 
-operations (`rotateLeft`, `rotateRight`, `colorFlip`) to occur. **Make sure you follow
-the steps from all the cases very carefully!** The root of the `RedBlackTree`
-should always be black.
+We will now implement `insert` in `RedBlackTree.java`. We have provided you
+with most of the logic structure - we have provided the logic to help out with 
+normal binary search tree insertion, so all you need to do is handle the different 
+cases that causes one of the operations (`rotateLeft`, `rotateRight`, `colorFlip`)
+to occur. **Make sure you follow the steps from all the cases very carefully!** 
+The root of the `RedBlackTree` should always be black.
 
 Make sure to use the methods you've already implemented (`rotateRight`, `rotateLeft`, 
-`flipColors`) to simplify the code writing. The helper method `isRed` has already been 
+`flipColors`) to simplify the code writing. 
+
+{% include alert.html type="info" content="
+**INFO**: The helper method `isRed` has already been
 provided to you in the skeleton code so make sure to use it!
+" %}
 
 ## Testing 
  
