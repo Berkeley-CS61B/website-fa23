@@ -65,7 +65,7 @@ proj2b
 ## Getting Started
 
 {% include alert.html type="warning" content="
-**IMPORTANT NOTE:** You should *really* complete **Projecet 2B: Checkpoint** first before starting coding, or even designing your project. We think this would be helpful.
+**IMPORTANT NOTE:** You should *really* complete **Projecet 2B: [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941)** first before starting coding, or even designing your project. We think this would be helpful.
 " %}
 
 The course staff has created a couple of introductory videos to the project and the starter code
@@ -504,9 +504,12 @@ files above. If any additional datafiles are needed, they will be added to this 
 ### Deliverables and Scoring
 
 The weights of the test distribution are as it follows:
-- `HyponymHandler` single word case: 40%, k = 0
-- `HyponymHandler` multi-word case: 20%, k = 0
-- `HyponymHandler` popularity: 40%, k != 0
+- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points): 
+- Coding (70 points):
+   - `HyponymHandler` single word case: 40%, k = 0
+   - `HyponymHandler` multi-word case: 20%, k = 0
+   - `HyponymHandler` popularity: 40%, k != 0
+
 
 The token limiting policy for this project will be as follows:
 
