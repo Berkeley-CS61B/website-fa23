@@ -62,6 +62,12 @@ proj2b
 ├── tests
 ```
 
+
+{% include alert.html type="warning" content="
+Since this project will be using frequency for k != 0 (don't worry about it yet), we need to use the implementation from 2A to come up with frequencies with `NGramMap`. As mentioned above, we have provided you our `NGramMap` class and once you run `git pull skeleton main` you'll realize that `NGramMap.java` uses our `NGramMap` imported from the library. You don't need to worry about `TimeSeries.java` since it will just return a `TreeMap` for `NGramMap` to use. Please make sure that you have the correct library otherwise you won't be able to run your code.
+" %}
+
+
 ## Getting Started
 
 {% include alert.html type="warning" content="
@@ -80,6 +86,7 @@ We'll link them here, as well as in other relevant parts of the spec.
   features of this tool!
 - [Staff Solution Webpage](https://ngordnet.datastructur.es/): Useful for generating expected outputs for different test
   case inputs. Use this to write your unit tests!
+
 
 ## Using the WordNet Dataset
 
