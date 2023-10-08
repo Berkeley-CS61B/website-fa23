@@ -2,7 +2,7 @@
 layout: page # The HTML template to use to render this page.
 title: "Project 2B: NGordnet (Wordnet)" # Title of page.
 categories: proj
-released: false # you have to also change this to true to release.
+released: true # you have to also change this to true to release.
 ---
 
 ## [FAQ](faq.md)
