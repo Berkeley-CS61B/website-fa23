@@ -117,12 +117,11 @@ No red node can have a red parent (every red node's parent is black).
   the same 2-3 node as the red parent's parent. This means that the
   corresponding 2-3 node contains 3 keys, which is not allowed.
 
-In a balanced LLRB tree, every path to a leaf goes through the same number of black nodes.
-: In a balanced 2-3 tree, every leaf node is the same distance from the root.
+In a balanced LLRB tree, every path to a null reference goes through the same number of black nodes.
+: In a balanced 2-3 tree, every null node is the same distance from the root.
   We also know that every black node in an LLRB tree corresponds to exactly one
-  node in the equivalent 2-3 tree. Therefore, every leaf node in an LLRB tree
-  is the same number of black nodes from the root, just as every leaf node
-  in a 2-3 tree is the same distance from the root.
+  node in the equivalent 2-3 tree. Therefore, every null node in an LLRB tree
+  is the same number of black nodes from the root.
 
 ## Inserting Into LLRB Trees
 
@@ -168,7 +167,8 @@ This can be broken down into two cases defined below.
 #### Two consecutive left-leaning red nodes. 
 
 What happens if we insert our node and it ends up as a left child of a red node?
-In this case, we then want to adjust our operation and "rotate right". 
+In this case, we then want to adjust our operation and "rotate right" (**in other 
+words, it is not possible to have two left-leaning red nodes**).
 
 Rotating right is the opposite of rotating left! It will give us back the
 original subtree if applied to the new root.
@@ -189,7 +189,8 @@ As shown below, we rotate left on `a` in this example and we get:
 
 ![](img/rotate_left2.png){: style="max-height: 250px;" }
 
-Here, we have the previous case again, so we know that we can rotate right on
+**Note that this ties into the invariant mentioned above, where we can't have a 
+red-leaning right node.** Here, we have the previous case again, so we know that we can rotate right on
 `b` and apply a color flip to the root, `x`.
 
 #### Upward Propagation
