@@ -11,7 +11,7 @@ Each assignment will have an FAQ linked at the top. You can also access it by ad
 FAQ for Project 2b is located
 [here](faq.md).
 
-## Due 10/27/23
+## Checkpoint Due 10/20/23 - Coding Due 10/27/23
 
 In this project, you'll complete your implementation of the NGordnet tool.
 
@@ -504,8 +504,10 @@ files above. If any additional datafiles are needed, they will be added to this 
 ### Deliverables and Scoring
 
 The weights of the test distribution are as it follows:
-- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points): 
+- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points):
+   - Due 10/20/2023
 - Coding (70 points):
+   - Due 10/27/2023
    - `HyponymHandler` single word case: 40%, k = 0
    - `HyponymHandler` multi-word case: 20%, k = 0
    - `HyponymHandler` popularity: 40%, k != 0
@@ -514,8 +516,8 @@ The weights of the test distribution are as it follows:
 The token limiting policy for this project will be as follows:
 
 1. You will **each** start with 4 tokens that have a 24 hour refresh time.
-2. **At 10:00PM on October 26th** (3 hours before the deadline), you will each be reset to **4 tokens, each of which have a 15 minute refresh time.**
-3. **At 12:00AM on October 27th**, you  will each again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
+2. **At 10:00PM on October 27th** (3 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
+3. **At 12:00AM on October 28th**, you  will again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
 
 
 ## Optional Extra Features
