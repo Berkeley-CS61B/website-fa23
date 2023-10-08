@@ -91,7 +91,7 @@ proj2b
 ## Getting Started
 
 {% include alert.html type="warning" content="
-**IMPORTANT NOTE:** You should *really* complete [**LAB 9**](https://sp23.datastructur.es/materials/lab/lab09/) first before starting coding, or even designing your project. We think this would be helpful.
+**IMPORTANT NOTE:** You should *really* complete **LAB 9** first before starting coding, or even designing your project. We think this would be helpful.
 " %}
 
 The course staff has created a couple of introductory videos to the project and the starter code
