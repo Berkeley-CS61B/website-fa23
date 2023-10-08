@@ -11,7 +11,7 @@ Each assignment will have an FAQ linked at the top. You can also access it by ad
 FAQ for Project 2b is located
 [here](faq.md).
 
-## Due 3/24/23
+## Due 10/27/23
 
 In this project, you'll complete your implementation of the NGordnet tool.
 
@@ -30,33 +30,6 @@ sort, please post on Ed.
 **THE SETUP FOR THIS PROJECT IS DIFFERENT THAN THE OTHER LABS / PROJECTS. PLEASE DO NOT SKIP THIS STEP!**
 " %}
 
-### Group Repository Setup
-
-As mentioned earlier, you'll be working exclusively in a group repository for this portion of the project. To set this group repo up on your local computer, follow the instructions below (these are also in the spec):
-
-- Go to your email and accept the GitHub repo invite that you should have received.
-- Log in to Beacon, and click on the "Groups" tab. You should have a group listed here.
-- Click the "View Repository on GitHub" link.
-- You'll now be taken to your new repository on GitHub. Click the green "Code" button in the top right corner (shown below) and copy the clone link shown in the text bar (blacked out in the screenshot).
-
-![group-repo](group-repo.png)
-
-- Open a new Terminal window, and navigate to the directory that you store your CS 61B files in (usually, students have a directory called `cs61b`).
-
-{% include alert.html type="warning" content="
-**IMPORTANT:** Do not cd into your `sp23-s****` repo! You should not be cloning the group repo inside of your personal 61b one.
-" %}
-
-- Type the following commands into your terminal, and hit Enter after each one:
-
-```sh
-git clone <paste your link from GitHub here>
-cd sp23-proj2b-g***  // Replace the *** here with your group repo number
-git remote add skeleton https://github.com/Berkeley-CS61B/proj2b-skeleton-sp23.git
-git pull skeleton main --allow-unrelated-histories
-```
-
-Once you've completed the above steps, you should see your new group repo called `sp23-proj2b-g***` in your local files, and if you open this repo, you'll see the `proj2b` skeleton folder. From here, you and your partner can proceed as normal, by adding, committing, pushing, and pulling from this repo as you would otherwise.
 
 ### Skeleton Setup
 
@@ -64,18 +37,18 @@ Once you've completed the above steps, you should see your new group repo called
    project.
    1. NOTE: You'll notice that this skeleton is (almost) the exact same as the Project 2A skeleton. Rather than having
       you use your own implementations of `TimeSeries`, `NGramMap`, `HistoryTextHandler`, and `HistoryHandler`, we've
-      instead provided you with working (and obfuscated) implementations of these classes in `library-sp23` (see the
+      instead provided you with working (and obfuscated) implementations of these classes in `library-fa23` (see the
       next step).
    2. Our provided `NGramMap` class has the behavior that if you call a function like `countHistory` but there are no
       valid words in the time frame specified, e.g. `TimeSeries ts = ngm.countHistory("gwexlbexl", 1900, 1950);`, then
       the resulting `ts` is just an empty `TimeSeries`, i.e. a map with an empty `keySet`.
-2. To get the new library, `cd` into your `library-sp23` directory and run `git pull`. Then,
-   import all the libraries from `library-sp23` into this project like you normally would.
+2. To get the new library, `cd` into your `library-fa23` directory and run `git pull`. Then,
+   import all the libraries from `library-fa23` into this project like you normally would.
    1. Now that you've pulled and imported the libraries, you'll notice that the code in Main.java (including the lines
       that use `NGramMap`) should no longer be red.
 3. Download the new `data` files for this project
    using [this link](https://drive.google.com/file/d/1xGTZqCo5maiZjA307OPocmKDOTYlJXnz/view?usp=sharing)
-   and move them into your `proj2b` folder on the same level as `ngordnet`.
+   and move them into your `proj2b` folder on the same level as `src`.
 
 Once you are done, your `proj2b` directory should look like this:
 
@@ -84,14 +57,15 @@ proj2b
 ├── data
 │   ├── ngrams
 │   └── wordnet
-├── ngordnet
+├── src
 ├── static
+├── tests
 ```
 
 ## Getting Started
 
 {% include alert.html type="warning" content="
-**IMPORTANT NOTE:** You should *really* complete **LAB 9** first before starting coding, or even designing your project. We think this would be helpful.
+**IMPORTANT NOTE:** You should *really* complete **Projecet 2B: Checkpoint** first before starting coding, or even designing your project. We think this would be helpful.
 " %}
 
 The course staff has created a couple of introductory videos to the project and the starter code
@@ -106,30 +80,6 @@ We'll link them here, as well as in other relevant parts of the spec.
   features of this tool!
 - [Staff Solution Webpage](https://ngordnet.datastructur.es/): Useful for generating expected outputs for different test
   case inputs. Use this to write your unit tests!
-
-## Partnership Details
-
-Project 2B is a partner-based project! This means that you'll be working with **one** other CS61B student in a special
-group GitHub repository that both of you will have access to. All submissions to this project must only come from this
-group repository, and you can submit to either your own or your partner's repo; please read the info in [Partnership Submissions](#partnership-submissions)
-for more about this.
-
-The first step in the partnership process is to fill out the **Project 2B Partnership Preferences Form**. If you already have
-a partner in 61B that you'd like to work with, you can indicate that in this form; otherwise, the form will ask you to
-fill out some partner preferences so that we can match you with someone who is most compatible with your work habits.
-
-{% include alert.html type="task" content="
-**Task:** Fill out the [Project 2B Partnership Preferences Form](https://forms.gle/bT7wCHqMsJcJWRwm9).
-
-**This form is due on Sunday, March 12th at 11:59PM.** After this due date, we will match everyone and release
-partner repository details.
-" %}
-
-{% include alert.html type="danger" content="
-If you do not fill out the form by the due date above, **we will be matching you with someone at random.** There are **no
-exceptions** to this rule, even if you already have a partner in mind. Thus, if you do want to work with someone in
-particular (or if you want to be matched based on your preferences), make sure to fill out the form on time!!
-" %}
 
 ## Using the WordNet Dataset
 
@@ -551,27 +501,24 @@ Now that you've created `proj2b_testing.AutograderBuddy`, you can submit to the
 autograder. If you fail any tests, you should be able to replicate them locally as JUnit tests by building on the test
 files above. If any additional datafiles are needed, they will be added to this section as links.
 
-### Partnership Submissions
+### Deliverables and Scoring
+
+The weights of the test distribution are as it follows:
+- `HyponymHandler` single word case: 40%, k = 0
+- `HyponymHandler` multi-word case: 20%, k = 0
+- `HyponymHandler` popularity: 40%, k != 0
 
 The token limiting policy for this project will be as follows:
 
-1. You and your partner will **each** start with 4 tokens that have a 24 hour refresh time.
-2. **At 10:00PM on March 24th** (3 hours before the deadline), you and your partner will each be reset to **4 tokens, each of which have a 15 minute refresh time.**
-3. **At 12:00AM on March 25th**, you and your partner will each again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
+1. You will **each** start with 4 tokens that have a 24 hour refresh time.
+2. **At 10:00PM on October 26th** (3 hours before the deadline), you will each be reset to **4 tokens, each of which have a 15 minute refresh time.**
+3. **At 12:00AM on October 27th**, you  will each again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
 
-You may submit to either your own or your partner's Gradescope accounts. We strongly recommend that you use both partner's
-accounts to submit, in order to maximize the number of autograder tokens that your group has access to.
-
-- When submitting to the autograder, be sure to add your partner as a Group Member in the top right corner.
-- When assigning you a score for this project, we will use the score of the most recent Gradescope submission that you
-  are a part of (either a submission that you made to your own Gradescope, or one that you were added to on your partner's Gradescope).
 
 ## Optional Extra Features
 
 If you'd like to go above and beyond in this project (and even explore some front-end development), read through the
 [Optional Features](optional_features.md) spec!
-
-To get “The Lamp”, you should correctly implement the hypohist button as described on this page AND you should also pick one interesting feature of your choosing, which may be one of three options listed above (an additional button, a new field d, a new ! operator), or anything else of your choosing. Create a public or unlisted youtube video and fill out [this form](https://forms.gle/aM54smY9vQn2kCae9)
 
 ## Acknowledgements
 
