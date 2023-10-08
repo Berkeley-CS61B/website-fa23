@@ -566,7 +566,7 @@
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 - week: 7
-  # weekly_survey: "https://forms.gle/rK8mvkFg9W9y226v5"
+  weekly_survey: "https://forms.gle/Kz38nvEihp2GzM8R8"
   rows: 3
   discussions:
     - name: ADTs, Asymptotics II, BSTs
@@ -644,12 +644,14 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-10-06
       lecture_topic: Hashing
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr_rFqN57yjZtcw_P4UiJ7a"
         - name: slides
-          link: https://docs.google.com/presentation/d/1ugoQ4Ni0SrmMToiXmGyRZUueqiYBWeM1E78geVmyFW4
+          link: https://docs.google.com/presentation/d/1sVRw4ec0Kq41_OSB-ix94u09WyQnHWf0YsOhlclnM0w
+        - name: recording
+          link: "https://youtu.be/NnhQWVdsGyI"
       reading: >
         [Ch 19](https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing)
 - week: 8
