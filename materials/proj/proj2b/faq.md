@@ -2,7 +2,7 @@
 layout: page
 title: "FAQ - Project 2b: NGordnet (Wordnet)"
 categories: proj
-released: false
+released: true
 searchable: false
 ---
 
