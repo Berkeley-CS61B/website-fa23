@@ -2,7 +2,7 @@
 layout: page # The HTML template to use to render this page.
 title: "Project 2B: NGordnet (Wordnet)" # Title of page.
 categories: proj
-released: false # you have to also change this to true to release.
+released: true # you have to also change this to true to release.
 ---
 
 ## [FAQ](faq.md)
@@ -91,7 +91,7 @@ proj2b
 ## Getting Started
 
 {% include alert.html type="warning" content="
-**IMPORTANT NOTE:** You should *really* complete [**LAB 9**](https://sp23.datastructur.es/materials/lab/lab09/) first before starting coding, or even designing your project. We think this would be helpful.
+**IMPORTANT NOTE:** You should *really* complete **LAB 9** first before starting coding, or even designing your project. We think this would be helpful.
 " %}
 
 The course staff has created a couple of introductory videos to the project and the starter code
