@@ -504,9 +504,8 @@ files above. If any additional datafiles are needed, they will be added to this 
 ### Deliverables and Scoring
 
 The weights of the test distribution are as it follows:
-- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points):
-   - Due 10/20/2023
-- Coding (70 points):
+- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points - Due October 20th)
+- Coding (70 points - Due October 27th):
    - Due 10/27/2023
    - `HyponymHandler` single word case: 40%, k = 0
    - `HyponymHandler` multi-word case: 20%, k = 0
