@@ -147,7 +147,7 @@ would want to **rotate left** on the parent node. An example is shown below:
 
 ![](img/rotate_left.png){: style="max-height: 250px;" }
 
-### No node can have two red children
+### Invariant: No node can have two red children
 
 Let's consider another case. Similar to above, we insert our node into the LLRB 
 as a red node, and it ends up as the **right child** of node `b` (in this example).
@@ -160,7 +160,7 @@ flipping its color and its childrens' colors.
 
 We will return to this configuration later.
 
-### No red node can have a red parent (every red node’s parent is black)
+### Invariant: No red node can have a red parent (every red node’s parent is black)
 
 This can be broken down into two cases defined below.  
 

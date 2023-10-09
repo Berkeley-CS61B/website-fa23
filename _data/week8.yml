@@ -37,14 +37,14 @@
   labs:
     - name: LLRBs (due 10/13)
       link: materials/lab/lab08/
-      released: false
+      released: true
       resource_links:
         - name: video
           released: false
-          link: "https://www.youtube.com/watch?v=8QRAFbimWYw"
+          link: ""
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1KlEcp8s4cpjU6aiHJwv1EHYG5OJO5bJt/"
+          released: true
+          link: "https://docs.google.com/presentation/d/18P5Py0-sO7i_5CE5aam7rTvWQD5hmkOM0ihTJLZ96KY/edit?usp=drive_link"
   days:
     - day: 2023-10-09
       lecture_topic: Hashing II
