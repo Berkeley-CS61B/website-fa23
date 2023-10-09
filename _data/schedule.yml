@@ -704,12 +704,12 @@
   days:
     - day: 2023-10-09
       lecture_topic: Hashing II
-      class: outdated
+      # class: outdated
       lecture_links:
         - name: video
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrSxUje7m5-Y41ELVPm50N_"
         - name: slides
-          link: https://docs.google.com/presentation/d/1U_-RQCJB3j9B-k-kY8I4nS-FuxIvO8EgVIrOthx2InU/edit#slide=id.g2165b69ef3f_0_540
+          link: https://docs.google.com/presentation/d/1y0iOW7U3UAiO6lK3ArrVHSwDbX998Q4YDcZ_HeToL2s/
       reading: >
         [Ch 20](https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii)
       assignments:
