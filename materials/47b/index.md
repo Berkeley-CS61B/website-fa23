@@ -37,7 +37,7 @@ Standard students are assumed to have a decent understanding of most of the mate
 - Lab 2 (Debugging)
 - Lab 3 (Testing)
 - Lab 7 (BSTMap)
-- Lab 8 (HashMap)
+- Lab 9 (HashMap)
 - Homework 1 (Being a Good Classmate)
 - Homework 3 (Theory-based homework)
 - Homework 4 (Theory-based homework)

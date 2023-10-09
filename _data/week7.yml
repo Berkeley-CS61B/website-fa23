@@ -1,5 +1,5 @@
 - week: 7
-  # weekly_survey: "https://forms.gle/rK8mvkFg9W9y226v5"
+  weekly_survey: "https://forms.gle/Kz38nvEihp2GzM8R8"
   rows: 3
   discussions:
     - name: ADTs, Asymptotics II, BSTs
@@ -10,7 +10,7 @@
           released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week07/regular/regular07sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRpBCAx-EGDwnOY4YW0zwczO"
         - name: slides
           released: true
@@ -23,7 +23,7 @@
           released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week07/examlevel/examlevel07sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRonJvfbSeiELXQ5TcvrAO1U"
         - name: slides
           released: true
@@ -45,6 +45,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoMUlGWsTyt-WHK-SuyXK_E"
         - name: slides
           link: "https://docs.google.com/presentation/d/1MZBpWtRAkJdwY4jOYiebFrktz4v3gpLCSxopN2XSsaU"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=t-tTKKGMZzY"
       reading: > # Format in Markdown
         [Ch 17](https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees)
       assignments:
@@ -63,6 +65,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrYOYhFXExoXfP8uhHHCIri"
         - name: slides
           link: "https://docs.google.com/presentation/d/1xHotCWwewVq8h3QGtm8z8V5rTuFOtMyXMiFhRJzyD0Y"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=wITnCbmrvMs"
       reading: > # Format in Markdown
         [Ch 18](https://cs61b-2.gitbook.io/cs61b-textbook/18.-red-black-trees)
       assignments:
@@ -73,11 +77,13 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-10-06
       lecture_topic: Hashing
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr_rFqN57yjZtcw_P4UiJ7a"
         - name: slides
-          link: https://docs.google.com/presentation/d/1ugoQ4Ni0SrmMToiXmGyRZUueqiYBWeM1E78geVmyFW4
+          link: https://docs.google.com/presentation/d/1sVRw4ec0Kq41_OSB-ix94u09WyQnHWf0YsOhlclnM0w
+        - name: recording
+          link: "https://youtu.be/NnhQWVdsGyI"
       reading: >
         [Ch 19](https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing)
