@@ -710,6 +710,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrSxUje7m5-Y41ELVPm50N_"
         - name: slides
           link: https://docs.google.com/presentation/d/1y0iOW7U3UAiO6lK3ArrVHSwDbX998Q4YDcZ_HeToL2s/
+        - name: recording
+          link: https://www.youtube.com/watch?v=jT9gpLB5qp0
       reading: >
         [Ch 20](https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii)
       assignments:
