@@ -35,13 +35,12 @@ sort, please post on Ed.
 
 1. Similar to other assignments in this class, run `git pull skeleton main` **in your group repo** to get the skeleton code for this
    project.
-   1. NOTE: You'll notice that this skeleton is (almost) the exact same as the Project 2A skeleton. Rather than having
-      you use your own implementations of `TimeSeries`, `NGramMap`, `HistoryTextHandler`, and `HistoryHandler`, we've
-      instead provided you with working (and obfuscated) implementations of these classes in `library-fa23` (see the
+   1. NOTE: You'll notice that this skeleton is (almost) the exact same as the Project 2A skeleton. We have provided placeholder implementation for `TimeSeries`, `NGramMap`, `HistoryTextHandler`, and `HistroyHadnler`. We've provided you with working implementation of `countHistory` method from `NGramMap` in `library-fa23` (see the
       next step).
    2. Our provided `NGramMap` class has the behavior that if you call a function like `countHistory` but there are no
       valid words in the time frame specified, e.g. `TimeSeries ts = ngm.countHistory("gwexlbexl", 1900, 1950);`, then
       the resulting `ts` is just an empty `TimeSeries`, i.e. a map with an empty `keySet`.
+   3. Although we are not explicitly testing your other methods in `TimeSeries` and `NGramMap`, please fill out your class with your code from part A except `countHistory` and constructor since we have provided them for you. You might find useful other methods for plotting purposes or the completeness of the browser. Bear in mind, that we also did not provide `HistoryTextHandler` or `HistoryHandler` - if you want to use these buttons, please copy your code from part A.
 2. To get the new library, `cd` into your `library-fa23` directory and run `git pull`. Then,
    import all the libraries from `library-fa23` into this project like you normally would.
    1. Now that you've pulled and imported the libraries, you'll notice that the code in Main.java (including the lines
@@ -49,6 +48,7 @@ sort, please post on Ed.
 3. Download the new `data` files for this project
    using [this link](https://drive.google.com/file/d/1xGTZqCo5maiZjA307OPocmKDOTYlJXnz/view?usp=sharing)
    and move them into your `proj2b` folder on the same level as `src`.
+4. Use your o
 
 Once you are done, your `proj2b` directory should look like this:
 
@@ -64,7 +64,7 @@ proj2b
 
 
 {% include alert.html type="warning" content="
-Since this project will be using frequency for k != 0 (don't worry about it yet), we need to use the implementation from 2A to come up with frequencies with `NGramMap`. As mentioned above, we have provided you our `NGramMap` class and once you run `git pull skeleton main` you'll realize that `NGramMap.java` uses our `NGramMap` imported from the library. Please make sure that you have the correct library otherwise you won't be able to run your code. **If you got full points from 2A, you can use your files (`NGramMap` & `TimeSeries`) from 2A - just copy and paste them to correct directory.**
+Since this project will be using frequency for k != 0 (don't worry about it yet), we need to use the implementation from 2A to come up with frequencies with `NGramMap`. As mentioned above, we have provided you our `NGramMap` class and once you run `git pull skeleton main` you'll realize that `NGramMap.java` uses our `NGramMap` imported from the library. Please make sure that you have the correct library otherwise you won't be able to run your code.
 " %}
 
 
