@@ -35,7 +35,7 @@ sort, please post on Ed.
 
 1. Similar to other assignments in this class, run `git pull skeleton main` **in your group repo** to get the skeleton code for this
    project.
-   1. NOTE: You'll notice that this skeleton is (almost) the exact same as the Project 2A skeleton. We have provided placeholder implementation for `TimeSeries`, `NGramMap`, `HistoryTextHandler`, and `HistroyHadnler`. We've provided you with working implementation of `countHistory` method from `NGramMap` in `library-fa23` (see the
+   1. NOTE: You'll notice that this skeleton is (almost) the exact same as the Project 2A skeleton. We have provided placeholder implementation for `TimeSeries`, `NGramMap`, `DummyHistoryTextHandler`, and `DummyHistroyHadnler`. We've provided you with working implementation of `countHistory` method from `NGramMap` in `library-fa23` (see the
       next step).
    2. Our provided `NGramMap` class has the behavior that if you call a function like `countHistory` but there are no
       valid words in the time frame specified, e.g. `TimeSeries ts = ngm.countHistory("gwexlbexl", 1900, 1950);`, then
