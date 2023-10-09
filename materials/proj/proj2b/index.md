@@ -456,11 +456,20 @@ lectures.
 For Project 2B, the only required deliverable is the `HyponymsHandler.java` file, in addition to any helper classes.
 However, we will not be directly grading these classes, since they can vary from student to student.
 
-Project 2B will be worth 3200 points. The points will be split as follows:
+Project 2B will be worth 75 points. The points will be split as follows:
 
-- **Basic Case, k = 0 (40%)**: Correctly handle queries with a single word when `k = 0`.
-- **List of Words, k = 0 (20%)**: Correctly handle queries with multiple words when `k = 0`.
-- **Handling k != 0 (40%)**: Correctly handle queries with either a single word or multiple words when `k != 0`.
+- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points - Due October 20th)
+- Coding (70 points - Due October 27th):
+   - Due 10/27/2023
+   - `HyponymHandler` single word case: 40%, k = 0
+   - `HyponymHandler` multi-word case: 20%, k = 0
+   - `HyponymHandler` popularity: 40%, k != 0
+
+The token limiting policy for this project will be as follows:
+
+1. You will **each** start with 4 tokens that have a 24 hour refresh time.
+2. **At 10:00PM on October 27th** (3 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
+3. **At 12:00AM on October 28th**, you  will again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
 
 ## Testing Your Code
 
@@ -507,24 +516,6 @@ that uses the four given files. Your code here should be quite similar to your c
 Now that you've created `proj2b_testing.AutograderBuddy`, you can submit to the
 autograder. If you fail any tests, you should be able to replicate them locally as JUnit tests by building on the test
 files above. If any additional datafiles are needed, they will be added to this section as links.
-
-### Deliverables and Scoring
-
-The weights of the test distribution are as it follows:
-- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points - Due October 20th)
-- Coding (70 points - Due October 27th):
-   - Due 10/27/2023
-   - `HyponymHandler` single word case: 40%, k = 0
-   - `HyponymHandler` multi-word case: 20%, k = 0
-   - `HyponymHandler` popularity: 40%, k != 0
-
-
-The token limiting policy for this project will be as follows:
-
-1. You will **each** start with 4 tokens that have a 24 hour refresh time.
-2. **At 10:00PM on October 27th** (3 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
-3. **At 12:00AM on October 28th**, you  will again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
-
 
 ## Optional Extra Features
 
