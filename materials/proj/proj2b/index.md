@@ -64,7 +64,7 @@ proj2b
 
 
 {% include alert.html type="warning" content="
-Since this project will be using frequency for k != 0 (don't worry about it yet), we need to use the implementation from 2A to come up with frequencies with `NGramMap`. As mentioned above, we have provided you our `NGramMap` class and once you run `git pull skeleton main` you'll realize that `NGramMap.java` uses our `NGramMap` imported from the library. You don't need to worry about `TimeSeries.java` since it will just return a `TreeMap` for `NGramMap` to use. Please make sure that you have the correct library otherwise you won't be able to run your code.
+Since this project will be using frequency for k != 0 (don't worry about it yet), we need to use the implementation from 2A to come up with frequencies with `NGramMap`. As mentioned above, we have provided you our `NGramMap` class and once you run `git pull skeleton main` you'll realize that `NGramMap.java` uses our `NGramMap` imported from the library. Please make sure that you have the correct library otherwise you won't be able to run your code.
 " %}
 
 
