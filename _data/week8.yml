@@ -58,10 +58,10 @@
         [Ch 20](https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii)
       assignments:
         - title: Homework 3 (due 10/16)
-          link: https://www.gradescope.com/courses/484660/assignments/2713206
+          link: https://www.gradescope.com/courses/572446/assignments/3491790
           rows: 1
           cols: 2
-          released: false
+          released: true
 
     - day: 2023-10-11
       lecture_topic: Heaps and PQs
