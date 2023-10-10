@@ -40,8 +40,8 @@
       released: true
       resource_links:
         - name: video
-          released: false
-          link: ""
+          released: true
+          link: "https://youtu.be/WiBHU9z9Di8"
         - name: slides
           released: true
           link: "https://docs.google.com/presentation/d/18P5Py0-sO7i_5CE5aam7rTvWQD5hmkOM0ihTJLZ96KY/edit?usp=drive_link"

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: "Lab 08: HashMap"
+title: "Lab 09: HashMap"
 categories: lab
 released: false
 ---
 
-# FAQ
+## FAQ
 
 The FAQ for this lab can be found [here](faq.md).
 
-# Introduction
+## Introduction
 
 The lab intro slides can be found [here](https://docs.google.com/presentation/d/1KlEcp8s4cpjU6aiHJwv1EHYG5OJO5bJt).
 
@@ -17,22 +17,20 @@ In this lab, you'll work on `MyHashMap`, a hashtable-based implementation of
 the `Map61B` interface. This will be very similar to Lab 07, except this time
 we're building a `HashMap` rather than a `TreeMap`.
 
-Please use the usual `git` commands to pull the skeleton. If you are experiencing a merge conflict, refer to the special `git pull` commands listed on the Lab06 spec.
-
 After you've completed your implementation, you'll compare the performance of
 your implementation to a list-based Map implementation `ULLMap` as well as the
 built-in Java `HashMap` class (which also uses a hash table). We'll also compare
 the performance of `MyHashMap` when it uses different data structures to be the
 buckets.
 
-# MyHashMap
+## MyHashMap
 
 ### Overview
 
 We've created a class `MyHashMap` in `MyHashMap.java`, with very minimal starter
 code. Your goal is to implement all of the methods in the `Map61B` interface
 from which `MyHashMap` inherits, _except_ `remove`, `keySet` and `iterator`
-(optional for Lab 08). For these, feel free to throw an
+(optional for Lab 09). For these, feel free to throw an
 `UnsupportedOperationException`.
 
 Note that your code will not compile until you implement all the methods of
@@ -46,7 +44,7 @@ actually writing them.
 The following is a quick animation of how a hash table works. `N` refers to the
 number of items in the hash table, and `M` refers to the number of buckets.
 
-We use an object's `hashCode` modulo'd by the number of buckets to determine
+We use an object's `hashCode` modulo'd (%) by the number of buckets to determine
 which bucket the object (represented by a shape) falls into. When the load
 factor is reached, we multiply the number of buckets by the resizing factor and
 rehash all of the items, modulo-ing them by the new number of buckets.
@@ -55,15 +53,6 @@ Credits to Meshan Khosla for this animation!
 
 <p align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tUEixFouAjg?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
-
-### Refresher Video
-
-If you need a more in-depth explanation of how hash tables work, the following
-video will prove useful.
-
-<p align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8QRAFbimWYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
 
 ### Skeleton Code
