@@ -3,31 +3,31 @@
   rows: 3
   discussions:
     - name: B-Trees, LLRBs, Hashing
-      released: false
-      link: "https://drive.google.com/file/d/1bsav6ui7bNOzgI_KfeOZ1a831KXbqzF8/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/regular/regular08.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1SkTLqWZNPBIhcm7afKExwliYCRrMesC7/view?usp=sharing"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/regular/regular08sol.pdf"
         - name: video
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrjXIJbf0eFsWeUnD6RsfYa"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1tRaCrWTaAuQOIqJ1CXvAXlBAWHJY9COP-wP7wugByVo/edit?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1zr7p4JC8se2bmlS9mP2tY2xweGxBnmcnnRyInj0lrcI/edit?usp=drive_link"
     - name: B-Trees, LLRBs, Hashing (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/1wFMeZYDfuTaeCCDPe7xRDIfZkjQdpOoi/view?usp=share_link"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/examlevel/examlevel08.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1Ts1vNUHt7_9BcxNHFZzRDyv9Un7eszdg/view?usp=share_link"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/examlevel/examlevel08sol.pdf"
         - name: video
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoIGRoR3H0WHl2AmxCgcxTN"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1eO0hUbtRLQfTgPFBBhDHKIW-Qp7GiqvGN8aFIcmlIYQ/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1-YRSOkottk2t-Otb71QOhkUypzOZ2vtncQzA_uZUY6U/edit?usp=sharing"
     #   - name: video
     #     released: false
     #     link: "https://youtube.com/playlist?list=PLHnsju1DjvZNy62TahsOCauunuBB5XSoh"
@@ -48,20 +48,22 @@
   days:
     - day: 2023-10-09
       lecture_topic: Hashing II
-      class: outdated
+      # class: outdated
       lecture_links:
         - name: video
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrSxUje7m5-Y41ELVPm50N_"
         - name: slides
-          link: https://docs.google.com/presentation/d/1U_-RQCJB3j9B-k-kY8I4nS-FuxIvO8EgVIrOthx2InU/edit#slide=id.g2165b69ef3f_0_540
+          link: https://docs.google.com/presentation/d/1y0iOW7U3UAiO6lK3ArrVHSwDbX998Q4YDcZ_HeToL2s/
+        - name: recording
+          link: https://www.youtube.com/watch?v=jT9gpLB5qp0
       reading: >
         [Ch 20](https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii)
       assignments:
         - title: Homework 3 (due 10/16)
-          link: https://www.gradescope.com/courses/484660/assignments/2713206
+          link: https://www.gradescope.com/courses/572446/assignments/3491790
           rows: 1
           cols: 2
-          released: false
+          released: true
 
     - day: 2023-10-11
       lecture_topic: Heaps and PQs
