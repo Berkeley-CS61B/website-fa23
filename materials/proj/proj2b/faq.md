@@ -2,7 +2,7 @@
 layout: page
 title: "FAQ - Project 2b: NGordnet (Wordnet)"
 categories: proj
-released: false
+released: true
 searchable: false
 ---
 
@@ -18,7 +18,7 @@ Run `git config pull.rebase false` and pull again.
 
 ### I'm getting 'Cannot invoke "ngordnet.ngrams.TimeSeries.years()" because "ILILILILIILILIILILIILIL" is null'
 
-Re-pull the libraries in `library-sp23`.
+Re-pull the libraries in `library-fa23`.
 
 ### I tried running `git pull` from `library-sp23` but am still getting the above exception.
 
@@ -26,7 +26,7 @@ Be sure you've re-imported the libraries in IntelliJ after getting the new libra
 
 ### No matter what I do, the libraries still aren't working!
 
-Try deleting the `library-sp23` entirely and re-cloning it.
+Try deleting the `library-fa23` entirely and re-cloning it.
 
 ### I'm getting `Failed to bind to /0.0.0.0:4567` when running `Main.java`.
 

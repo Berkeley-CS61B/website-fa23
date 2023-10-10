@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "FAQ - Lab 12: Balanced Search Trees"
+title: "FAQ - Lab 08: Balanced Search Trees"
 categories: lab
 released: true
 searchable: true
 ---
 
-### Why does the root of an LLRB tree always need to be black?
+### Why does the root of an LLRB tree always need to be black (note: this only applies if we use colored nodes as our representation instead of links)?
 
 Check out the [LLRB Properties](index.md#llrb-tree-properties) section in the
 spec. The root node could technically be colored red and considered to be a
