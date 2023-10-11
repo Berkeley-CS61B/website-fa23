@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "FAQ - Lab 08: HashMap"
+title: "FAQ - Lab 09: HashMap"
 categories: lab
 released: false
 searchable: false

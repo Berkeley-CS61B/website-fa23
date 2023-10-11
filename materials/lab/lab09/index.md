@@ -2,7 +2,7 @@
 layout: page
 title: "Lab 09: HashMap"
 categories: lab
-released: false
+released: true
 ---
 
 ## FAQ
@@ -10,8 +10,6 @@ released: false
 The FAQ for this lab can be found [here](faq.md).
 
 ## Introduction
-
-The lab intro slides can be found [here](https://docs.google.com/presentation/d/1KlEcp8s4cpjU6aiHJwv1EHYG5OJO5bJt).
 
 In this lab, you'll work on `MyHashMap`, a hashtable-based implementation of
 the `Map61B` interface. This will be very similar to Lab 07, except this time
@@ -96,11 +94,25 @@ the starter code, we give the instance variable
 the hash table. Let's unpack what this code means:
 
 - `buckets` is a `private` variable in the `MyHashMap` class.
+```java
+private Collection<Node>[] buckets;
+```
 - It is an array (or table) of `Collection<Node>` objects, where each
   `Collection` of `Node`s represents a single bucket in the hash table
-- `Node` is a private helper class we give that stores a single key-value
+- `Node` is a private (nested) helper class we give that stores a single key-value
   mapping. The starter code for this class should be straightforward to
   understand, and should not require any modification.
+```java
+protected class Node {
+    K key;
+    V value;
+
+    Node(K k, V v) {
+        key = k;
+        value = v;
+    }
+}
+```
 - [`java.util.Collection`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)
   is an interface which most data structures inherit from, and it represents a
   group of objects. The `Collection` interface supports methods such as `add`,
@@ -109,7 +121,7 @@ the hash table. Let's unpack what this code means:
   `PriorityQueue`, and many others. Note that because these data structures
   implement `Collection`, we can assign them to a variable of static type
   `Collection` with polymorphism.
-- Therefore, our array of `Collection<Node>` objects can be instantated by many
+- Therefore, our array of `Collection<Node>` objects can be instantiated by many
   different types of data structures, e.g. `LinkedList<Node>` or
   `ArrayList<Node>`.
   **Make sure your buckets generalize to any Collection!** See the below warning
@@ -119,11 +131,15 @@ the hash table. Let's unpack what this code means:
   [cannot create an array of parameterized type](https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html#createArrays).
   `Collection<Node>` is a parameterized type, because we parameterize the
   `Collection` class with the `Node` class. Therefore, Java disallows
-  `new Collection<Node>[size]`, for any given `size`. To get around this,
-  you should instead create a `new Collection[size]`, where `size` is the
-  desired size. The elements of a `Collection[]` can be a collection of any
-  type, like a `Collection<Integer>` or a `Collection<Node>`. For our purposes,
-  we will only add elements of type `Collection<Node>` to our `Collection[]`.
+  `new Collection<Node>[size]`, for any given `size`.
+  {% include alert.html type="warning" content="
+  **NOTE:** **To get around this,
+  you should instead create a `new Collection[size]`**, where `size` is the
+  desired size.
+  " %}
+- The elements of a `Collection[]` can be a collection of any
+  type, like a `Collection<Integer>` or a `Collection<Node>`. **For our purposes,
+  we will only add elements of type `Collection<Node>` to our `Collection[]`.**
 
 The mechanism by which different implementations of the hash table implement different buckets is through a factory method
 `protected Collection<Node> createBucket()`, which simply returns a
@@ -138,7 +154,7 @@ protected Collection<Node> createBucket() {
 ```
 
 {% include alert.html type="warning" content="
-**Instead of creating new bucket data structures with the `new` operator, you
+**NOTE: Instead of creating new bucket data structures with the `new` operator, you
 must use the `createBucket` method instead**. This might seem useless at first,
 but it allows our factory classes to override the `createBucket` method in order
 to provide different data structures as each of the buckets.
@@ -182,8 +198,8 @@ Some additional requirements for `MyHashMap` are below:
 - When resizing, make sure to multiplicatively (geometrically) resize, not
   additively (arithmetically) resize. You are **not** required to resize down.
 - `MyHashMap` operations should all be constant amortized time, assuming that
-  the `hashCode` of any objects inserted spread things out nicely (recall: every
-  `Object` in Java has its own `hashCode()` method).
+  the `hashCode` of any objects inserted spread things out nicely (**recall: every
+  `Object` in Java has its own `hashCode()` method**).
 
 {% include alert.html type="warning" content="
 **Note**:
@@ -227,25 +243,21 @@ methods provided (i.e., `createBucket`) for `TestHashMapBuckets.java` to pass.
 If you choose to implement the additional `remove`, `keySet`, and `iterator`
 methods, we provide some tests in `TestHashMapExtra.java`.
 
-### Resources
+### Resources [REDO]
 
 You may find the following resources useful
 
 - Lecture slides:
-  - [hashing 1](https://docs.google.com/presentation/d/1ugoQ4Ni0SrmMToiXmGyRZUueqiYBWeM1E78geVmyFW4)
-  - [hashing 2](https://docs.google.com/presentation/d/16MIav2tOsWShkDXmVTe5r2rcfe_X0bdKHA6Ixu51dtA)
-  - [inheritance](https://docs.google.com/presentation/d/1iqgV3yttGp8VxfIhJzTT7DMHv8LZ78SFMvklO8z58rI)
-  - [subtype polymorphism](https://docs.google.com/presentation/d/1oug8uNDvLoDu1szTZ5CZINecDFHKSbRLdNGY5S21NpE)
+  - [Lecture 19](https://docs.google.com/presentation/d/1sVRw4ec0Kq41_OSB-ix94u09WyQnHWf0YsOhlclnM0w)
+  - [Lecture 20](https://docs.google.com/presentation/d/1y0iOW7U3UAiO6lK3ArrVHSwDbX998Q4YDcZ_HeToL2s/)
 
 The following may contain antiquated code or use unfamiliar techniques, but should
 still be useful:
 
 - HashMap code from pages 136 and 137 of [Data Structures Into Java](http://www-inst.eecs.berkeley.edu/~cs61b/fa14/book2/data-structures.pdf), from our course references page
-- [Chapter 3.4](https://algs4.cs.princeton.edu/34hash) of our optional textbook
-- [HashTable code](http://algs4.cs.princeton.edu/34hash/SeparateChainingHashST.java.html) from our optional textbook
 - `ULLMap.java` (provided), a working unordered linked list based `Map61B` implementation
 
-# Speed Testing
+## Speed Testing
 
 There are two interactive speed tests provided in `InsertRandomSpeedTest.java`
 and `InsertInOrderSpeedTest.java`. Do not attempt to run these tests before
@@ -261,18 +273,17 @@ Try it out and see how your data structure scales with `N` compared to the naive
 and industrial-strength implementations. Record your results in the provided
 file named `src/results.txt`. There is no standard format required for
 your results, and there is no required number of data points. We expect you to
-write at least sentence or two with your observations, though.
+write at least a sentence or two with your observations, though.
 
 Now try running `InsertInOrderSpeedTest`, which behaves similarly to
 `InsertRandomSpeedTest`, except this time the `String`s in `<String, Integer>`
 key-value pairs are inserted in [lexicographically-increasing
-order](http://en.wikipedia.org/wiki/Lexicographical_order). Note that unlike Lab
-7, your code should be in the rough ballpark of Java's built in solution -- say,
+order](http://en.wikipedia.org/wiki/Lexicographical_order). Your code should be in the rough ballpark of Java's built in solution -- say,
 within a factor of 10 or so. What this tells us is that state-of-the-art
 `HashMaps` are relatively easy to implement compared to state-of-the-art
-`TreeMaps`. When would it be better to use a `BSTMap`/`TreeMap` instead of a
-`HashMap`? Discuss this with your labmates, and add your answer to
-`results.txt`.
+`TreeMaps`. Consider this relation with `BSTMap`/`TreeMap` and other data structures - 
+are there certain instances where a `Hashmap` might be better? Discuss this with your 
+peers, and add your answer to `results.txt`.
 
 ## Different Bucket Types
 
@@ -285,27 +296,27 @@ an integer `N`, and runs a speed test on your `MyHashMap` using different types 
 buckets.
 
 Try it out and compare how the different implementations scale with `N`. Discuss
-your results with your labmates, and record your responses in `results.txt`.
+your results with your peers, and record your responses in `results.txt`.
 
 You might notice that our implementation using `HashSet`s as buckets searches
 for a `Node` by iterating over the entire data structure. But we know hash
 tables support more efficient lookups than that. Would our hash table speed up
 asymptotically if we were able to use a constant-time search over the `HashSet`?
-You do not need to implement anything new here, just discuss with your labmates,
+You do not need to implement anything new here, just discuss with your peers,
 and record your ideas in `results.txt`.
 
 {% include alert.html type="task" content="
-**Task**: Run the above speed tests in the `speed` directory and record your results in `results.txt`.
+**TASK**: Run the above speed tests in the `speed` directory and record your results in `results.txt`.
 " %}
 
-# Deliverables and Scoring
+## Deliverables and Scoring
 
-The lab is out of 256 points. There is one
+The lab is out of 5 points. There is one
 hidden test on Gradescope (that checks your `results.txt`). The rest of the
 tests are local. If you pass all the local tests and fill out the `results.txt`
 file sufficiently, you will get full credit on Gradescope.
 
-Each of the following is worth $\frac{256}{11}$ points and corresponds to a unit test:
+Each of the following is worth $\frac{5}{11}$ points and corresponds to a unit test:
 
 - Generics
 - `clear`
@@ -317,18 +328,21 @@ Each of the following is worth $\frac{256}{11}$ points and corresponds to a unit
 - Resizing
 - Edge cases
 - Buckets (all of `TestMyHashMapBuckets`)
-- `results.txt` (not tested locally)
+- `results.txt` (not tested locally, but on the Gradescope autograder)
+
+As mentioned, if you are not implementing the [optional exercises](#optional-exercises), 
+throw an `UnsupportedOperationException`, like below:
+
+```
+throw new UnsupportedOperationException(); 
+```
 
 ## Submission
 
-Just as you did for the previous assignments, add, commit, then push your Lab 08
-code to GitHub. Then, submit to Gradescope to test your code. If you need a
-refresher, check out the instructions in the
-[Lab 1 spec](/materials/lab/lab01/index.md#saving-your-work-using-git-and-github)
-and the
-[Assignment Workflow Guide](/materials/guides/assignment-workflow/index.md#submitting-to-gradescope).
+Just as you did for the previous assignments, add, commit, then push your Lab 09
+code to GitHub. Then, submit to Gradescope to test your code. 
 
-# Optional Exercises
+## Optional Exercises
 
 These will not be graded, but you can still receive feedback with the given tests.
 
