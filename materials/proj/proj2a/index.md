@@ -103,8 +103,6 @@ The `TimeSeries` class provides some additional utility methods to the `TreeMap`
 {% include alert.html type="task" content="
 **Task:** Fill out the `TimeSeries` class (located in the `src/ngrams/TimeSeries.java` file) according to
 the API provided in the file. Be sure to read the comments above each method.
-
-**Note:** there are two constructors for this class, and you must complete them both.
 " %}
 
 {% include alert.html type="warning" content="
