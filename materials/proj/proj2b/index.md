@@ -33,22 +33,17 @@ sort, please post on Ed.
 
 ### Skeleton Setup
 
-1. Similar to other assignments in this class, run `git pull skeleton main` **in your group repo** to get the skeleton code for this
-   project.
-   1. NOTE: You'll notice that this skeleton is (almost) the exact same as the Project 2A skeleton. We have provided placeholder implementation for `TimeSeries`, `NGramMap`, `DummyHistoryTextHandler`, and `DummyHistroyHadnler`. We've provided you with working implementation of `countHistory` method from `NGramMap` in `library-fa23` (see the
-      next step).
-   2. Our provided `NGramMap` class has the behavior that if you call a function like `countHistory` but there are no
-      valid words in the time frame specified, e.g. `TimeSeries ts = ngm.countHistory("gwexlbexl", 1900, 1950);`, then
-      the resulting `ts` is just an empty `TimeSeries`, i.e. a map with an empty `keySet`.
-   3. Although we are not explicitly testing your other methods in `TimeSeries` and `NGramMap`, please fill out your class with your code from part A except `countHistory` and constructor since we have provided them for you. You might find useful other methods for plotting purposes or the completeness of the browser. Bear in mind, that we also did not provide `HistoryTextHandler` or `HistoryHandler` - if you want to use these buttons, please copy your code from part A.
+
+1. Similar to other assignments in this class, run `git pull skeleton main` to get the skeleton code for this project.
+   1. NOTE: You'll notice that this skeleton is (almost) the exact same as the Project 2A skeleton. We have provided placeholder implementations for `TimeSeries`, `NGramMap` from project 2a. This includes a working implementation of `countHistory` method using a new
+   library from in `library-fa23` (see next step).
+   2. The placeholder implementations throw `UnsupportedOperationException`s for some methods. You will not need these methods.
 2. To get the new library, `cd` into your `library-fa23` directory and run `git pull`. Then,
    import all the libraries from `library-fa23` into this project like you normally would.
-   1. Now that you've pulled and imported the libraries, you'll notice that the code in Main.java (including the lines
-      that use `NGramMap`) should no longer be red.
-3. Download the new `data` files for this project
+   1. Now that you've pulled and imported the libraries, you'll notice that the code in `NgramMap.java` should no longer be red.
+3. Download the `data` files for this project
    using [this link](https://drive.google.com/file/d/1xGTZqCo5maiZjA307OPocmKDOTYlJXnz/view?usp=sharing)
    and move them into your `proj2b` folder on the same level as `src`.
-4. Use your o
 
 Once you are done, your `proj2b` directory should look like this:
 
@@ -63,15 +58,21 @@ proj2b
 ```
 
 
+{% include alert.html type="info" content="
+The k != 0 portion of this project uses the `NGramMap` class from project 2a, which is why we have provided placeholder implementations for `NGramMap` and `TimeSeries`. The placeholder implementations are sufficient to complete project 2b.
+
+If you want to copy in your own `NGramMap` and `TimeSeries` from project 2a, you can. However, we suggest only doing so after you get a full score on project 2b, just in case your implementation has any subtle bugs in it.
+" %}
+
 {% include alert.html type="warning" content="
-Since this project will be using frequency for k != 0 (don't worry about it yet), we need to use the implementation from 2A to come up with frequencies with `NGramMap`. As mentioned above, we have provided you our `NGramMap` class and once you run `git pull skeleton main` you'll realize that `NGramMap.java` uses our `NGramMap` imported from the library. Please make sure that you have the correct library otherwise you won't be able to run your code.
+If you are getting errors in `NGramMap`, make sure you did step 2 (updating `library-fa23`).
 " %}
 
 
 ## Getting Started
 
 {% include alert.html type="warning" content="
-**IMPORTANT NOTE:** You should *really* complete **Projecet 2B: [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941)** first before starting coding, or even designing your project. We think this would be helpful.
+**IMPORTANT NOTE:** You should *really* complete **Project 2B: [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941)** first before starting coding, or even designing your project. We think this would be helpful.
 " %}
 
 The course staff has created a couple of introductory videos to the project and the starter code
@@ -430,6 +431,10 @@ If there are fewer than `k` words with non-zero counts, return only those words.
 {% include alert.html type="warning" content="
 This task will be a little trickier since you'll need to figure out how to pass information around so that the
 `HyponymsHandler` knows how to access a useful `NGramMap`.
+" %}
+
+{% include alert.html type="warning" content="
+The `TimeSeries` class we provide in the skeleton code does not support `.data()`. You can use `.values()` instead.
 " %}
 
 {% include alert.html type="danger" content="
