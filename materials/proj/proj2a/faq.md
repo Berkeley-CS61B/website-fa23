@@ -80,7 +80,8 @@ method on top of that method to **`get`** the specific year.
 - Timeout might also be related to making many calls to `weightHistory` which is an expensive operation. You can take
   advantage of `weightHistory(word, startYear, endYear)`.
 
+## Getting “Your submission failed to complete on the test suite [TEST NAME]. You’re most likely using too much memory” in Gradescope.
+This might be related to a glitch on Gradescope’s backend. Please post on Ed if that happens.
+
 ## Failing locally, passing on Gradescope
 It might be related to how you implement your while loop when you are reading the file. Consider using `isEmpty()` instead of `hasNextLine()` for your check.
-
-##
