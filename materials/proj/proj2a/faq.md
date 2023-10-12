@@ -14,14 +14,14 @@ This might cause errors, please considner not calling `.years()` in a loop.
 
 ### I'm getting `SLF4J: No SLF4J providers were found.` error, what should I do?
 
-It is fine if you get this error. Your code will still run but if they want to make the error disappear then you should pull in `library-sp23` and reimport libraries.
+It is fine if you get this error. Your code will still run but if they want to make the error disappear then you should pull in `library-fa23` and reimport libraries.
 
 ## Setup
 
-### I'm getting errors with imports e.g. `Cannot resolve symbol 'spark'`, but already selected the library-sp23 files in IntelliJ.
+### I'm getting errors with imports e.g. `Cannot resolve symbol 'spark'`, but already selected the library-fa23 files in IntelliJ.
 
-Per the spec: You should also go to the `library-sp23` folder and run `git pull` to make sure you have all the library
-files you’ll need for this project. When adding libraries to your project, select ALL libraries in the `library-sp23`
+Per the spec: You should also go to the `library-fa23` folder and run `git pull` to make sure you have all the library
+files you’ll need for this project. When adding libraries to your project, select ALL libraries in the `library-fa23`
 directory (or, just import the directory as a whole).
 
 You may need to select all the `.jar` files individually when importing (don't just select the entire folder).
@@ -79,3 +79,8 @@ method on top of that method to **`get`** the specific year.
 - If you are seeing issues in handler methods, check formatting!
 - Timeout might also be related to making many calls to `weightHistory` which is an expensive operation. You can take
   advantage of `weightHistory(word, startYear, endYear)`.
+
+## Failing locally, passing on Gradescope
+It might be related to how you implement your while loop when you are reading the file. Consider using `isEmpty()` instead of `hasNextLine()` for your check.
+
+##
