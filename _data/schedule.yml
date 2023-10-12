@@ -663,10 +663,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/regular/regular08.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/regular/regular08sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrjXIJbf0eFsWeUnD6RsfYa"
         - name: slides
           released: true
@@ -676,10 +676,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/examlevel/examlevel08.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/examlevel/examlevel08sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoIGRoR3H0WHl2AmxCgcxTN"
         - name: slides
           released: true
