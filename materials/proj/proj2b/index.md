@@ -46,9 +46,9 @@ sort, please post on Ed.
    1. Now that you've pulled and imported the libraries, you'll notice that the code in Main.java (including the lines
       that use `NGramMap`) should no longer be red.
 3. Download the new `data` files for this project
-   using [this link](https://drive.google.com/file/d/1xGTZqCo5maiZjA307OPocmKDOTYlJXnz/view?usp=sharing)
+   using [this link]([https://drive.google.com/file/d/1xGTZqCo5maiZjA307OPocmKDOTYlJXnz/view?usp=sharing](https://drive.google.com/file/d/1L9hFdOQw9CyYweyLaae4nyqhn7rWfS5a/view?usp=sharing)
    and move them into your `proj2b` folder on the same level as `src`.
-4. Use your o
+
 
 Once you are done, your `proj2b` directory should look like this:
 
