@@ -20,7 +20,7 @@ Run `git config pull.rebase false` and pull again.
 
 Re-pull the libraries in `library-fa23`.
 
-### I tried running `git pull` from `library-sp23` but am still getting the above exception.
+### I tried running `git pull` from `library-fa23` but am still getting the above exception.
 
 Be sure you've re-imported the libraries in IntelliJ after getting the new library files.
 
