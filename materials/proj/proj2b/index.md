@@ -11,7 +11,7 @@ Each assignment will have an FAQ linked at the top. You can also access it by ad
 FAQ for Project 2B is located
 [here](faq.md).
 
-## Checkpoint Due 10/20/23 - Coding Due 10/30/23
+## Checkpoint Due 10/23/23 - Coding Due 10/27/23
 
 In this project, you'll complete your implementation of the NGordnet tool.
 
@@ -463,8 +463,8 @@ However, we will not be directly grading these classes, since they can vary from
 
 Project 2B will be worth 75 points. The points will be split as follows:
 
-- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points - Due October 20th)
-- Coding (70 points - Due October 30th):
+- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points - Due October 23th)
+- Coding (70 points - Due October 27th):
    - `HyponymHandler` single word case: 40%, k = 0
    - `HyponymHandler` multi-word case: 20%, k = 0
    - `HyponymHandler` popularity: 40%, k != 0
