@@ -1,5 +1,5 @@
 - week: 8
-  # weekly_survey: "https://forms.gle/y1XfGX73UdVRpdNR9"
+  weekly_survey: "https://forms.gle/1FgWL6r6TUKYUqgA7"
   rows: 3
   discussions:
     - name: B-Trees, LLRBs, Hashing
