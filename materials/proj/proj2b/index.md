@@ -472,8 +472,8 @@ Project 2B will be worth 75 points. The points will be split as follows:
 The token limiting policy for this project will be as follows:
 
 1. You will start with 4 tokens that have a 24 hour refresh time.
-2. **At 10:00PM on October 30th** (3 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
-3. **At 12:00AM on October 31st**, you  will again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
+2. **At 10:00PM on October 27th** (3 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
+3. **At 12:00AM on October 28th**, you  will again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
 
 ## Testing Your Code
 
