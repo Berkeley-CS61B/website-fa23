@@ -44,11 +44,11 @@
       reading: > # Format in Markdown
         [Ch 26](https://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
       assignments:
-        - title: [Project 2B due 10/27]
+        - title: Project 2B due 10/27
           link: materials/proj/proj2b
           rows: 2
           cols: 2
-          released: false
+          released: true
 
     - day: 2023-10-25
       lecture_topic: Software Engineering I
