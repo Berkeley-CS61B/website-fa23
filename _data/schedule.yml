@@ -737,11 +737,11 @@
           rows: 1
           cols: 1
           released: false
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 1
-          released: false
+          released: true
 
     - day: 2023-10-13
       lecture_topic: Tree and Graph Traversals
@@ -754,11 +754,11 @@
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 2
-          released: false
+          released: true
 - week: 9
   # weekly_survey: "https://forms.gle/R1JNQaMwycgzAphEA"
   rows: 3
@@ -886,7 +886,7 @@
       reading: > # Format in Markdown
         [Ch 26](https://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
       assignments:
-        - title: Project 2B (due TBD)
+        - title: [Project 2B due 10/30]
           link: materials/proj/proj2b
           rows: 2
           cols: 2
