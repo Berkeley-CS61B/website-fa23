@@ -502,10 +502,10 @@ respective ambition point items to help clear any confusions. Yours do not need 
 
 [![replay](img/replay.gif)](img/replay.gif)
 
-- Add the ability for the user to change the perspective of their view (first-person, 2.5D, 3D, etc.) (We've never seen
-  anyone do 2.5D before! The Nintendo 64
-  game '[Kirby 64 - The Crystal Shards](https://www.youtube.com/watch?v=5uu2TWli-_M)' is an example of what a 2.5D world
-  looks like). The first 3D submission that we're aware of is [Dorottya Urmossy and David Yang's Fall 2022 submission](https://www.youtube.com/watch?v=XJBQYucuAKc&t=94s).
+- Add the ability for the user to change the perspective of their view (first-person, isometric 2.5D, 3D, etc.) (We've never seen
+  anyone do isometric 2.5D or full 3D before! The Nintendo 64
+  game '[Kirby 64 - The Crystal Shards](https://www.youtube.com/watch?v=5uu2TWli-_M)' is an example of what an isometric 2.5D world
+  looks like). One particularly interesting example is [Dorottya Urmossy and David Yang's Fall 2022 submission](https://www.youtube.com/watch?v=XJBQYucuAKc&t=94s), which is a 2.5D first-person view, i.e. the world is 3D but the entities are 2D.
 
 ### 360 Point Secondary Features
 
