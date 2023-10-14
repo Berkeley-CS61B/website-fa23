@@ -11,7 +11,7 @@ Each assignment will have an FAQ linked at the top. You can also access it by ad
 FAQ for Project 2B is located
 [here](faq.md).
 
-## Checkpoint Due 10/23/23 - Coding Due 10/27/23
+## Checkpoint Due 10/23/23 - Coding Due 10/30/23
 
 In this project, you'll complete your implementation of the NGordnet tool.
 
@@ -464,16 +464,16 @@ However, we will not be directly grading these classes, since they can vary from
 Project 2B will be worth 75 points. The points will be split as follows:
 
 - [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points - Due October 23th)
-- Coding (70 points - Due October 27th):
+- Coding (70 points - Due October 30th):
    - `HyponymHandler` single word case: 40%, k = 0
    - `HyponymHandler` multi-word case: 20%, k = 0
    - `HyponymHandler` popularity: 40%, k != 0
 
 The token limiting policy for this project will be as follows:
 
-1. You will start with 4 tokens that have a 24 hour refresh time.
-2. **At 10:00PM on October 27th** (3 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
-3. **At 12:00AM on October 28th**, you  will again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
+1. You will start with 8 tokens, each of which have a 24 hour refresh time.
+2. **At 10:00PM on October 30th** (2 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
+3. **At 12:00AM on October 31st**, you  will again be reset back to **8 tokens with a 24 hour refresh.** 
 
 ## Testing Your Code
 
