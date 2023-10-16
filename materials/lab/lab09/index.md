@@ -47,11 +47,14 @@ which bucket the object (represented by a shape) falls into. When the load
 factor is reached, we multiply the number of buckets by the resizing factor and
 rehash all of the items, modulo-ing them by the new number of buckets.
 
-Credits to Meshan Khosla for this animation!
+For the video animation below, the hash function is arbitrary and outputs a random 
+integer for each shape (the object) that is inputted. 
 
 <p align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tUEixFouAjg?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
+
+Credits to Meshan Khosla for this animation!
 
 ### Skeleton Code
 
@@ -227,6 +230,19 @@ bucket in the range $[0, M)$. There are a myriad of ways to handle this:
 **Task**: Complete the `MyHashMap` class according to the specifications in `Map61B` and the guidelines above.
 " %}
 
+### Resources
+
+You may find the following resources useful
+
+- Lecture slides:
+  - [Lecture 19](https://docs.google.com/presentation/d/1sVRw4ec0Kq41_OSB-ix94u09WyQnHWf0YsOhlclnM0w)
+  - [Lecture 20](https://docs.google.com/presentation/d/1y0iOW7U3UAiO6lK3ArrVHSwDbX998Q4YDcZ_HeToL2s/)
+
+The following may contain antiquated code or use unfamiliar techniques, but should
+still be useful:
+
+- `ULLMap.java` (provided), a working unordered linked list based `Map61B` implementation
+
 ### Testing
 
 You can test your implementation using `TestMyHashMap.java`. Some of the tests
@@ -242,20 +258,6 @@ methods provided (i.e., `createBucket`) for `TestHashMapBuckets.java` to pass.
 
 If you choose to implement the additional `remove`, `keySet`, and `iterator`
 methods, we provide some tests in `TestHashMapExtra.java`.
-
-### Resources [REDO]
-
-You may find the following resources useful
-
-- Lecture slides:
-  - [Lecture 19](https://docs.google.com/presentation/d/1sVRw4ec0Kq41_OSB-ix94u09WyQnHWf0YsOhlclnM0w)
-  - [Lecture 20](https://docs.google.com/presentation/d/1y0iOW7U3UAiO6lK3ArrVHSwDbX998Q4YDcZ_HeToL2s/)
-
-The following may contain antiquated code or use unfamiliar techniques, but should
-still be useful:
-
-- HashMap code from pages 136 and 137 of [Data Structures Into Java](http://www-inst.eecs.berkeley.edu/~cs61b/fa14/book2/data-structures.pdf), from our course references page
-- `ULLMap.java` (provided), a working unordered linked list based `Map61B` implementation
 
 ## Speed Testing
 
