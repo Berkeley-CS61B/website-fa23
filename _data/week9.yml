@@ -34,12 +34,12 @@
   days:
     - day: 2023-10-16
       lecture_topic: Graph Traversals and Implementations
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/YgPtwbWpLaM
+          link: "https://www.youtube.com/watch?v=YgPtwbWpLaM&list=PLnp31xXvnfRqyRDKtQeHvjxhonhNuaOAK"
         - name: slides
-          link: https://docs.google.com/presentation/d/14JBHhFswzC_9_g_OD0DARiLTE5J7wZJ4hIQJQCvBB6c
+          link: "https://docs.google.com/presentation/d/1mHaFA7w9G-wsEPLu-HSpqjm3EYAhDbhrXdcWUJdn4N8"
       reading: > # Format in Markdown
         [Ch 23](https://cs61b-2.gitbook.io/cs61b-textbook/23.-graph-traversals-and-implementations)
       assignments:
