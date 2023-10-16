@@ -29,8 +29,16 @@
           released: false
           link: "https://docs.google.com/presentation/d/1rwMI17qMU3KgmA3k1nh1fuWBW8ZFCO4RwB_VfT8mYsY/edit?usp=share_link"
   labs:
-    - name: Project 2 Workday
-      released: false
+    - name: Hashmaps (due 10/27)
+      link: materials/lab/lab09/
+      released: true
+      resource_links:
+        - name: video
+          released: true
+          link: "https://www.youtube.com/watch?v=7B_1cWZBEFY"
+        - name: slides
+          released: false
+          link: ""
 
   days:
     - day: 2023-10-23
