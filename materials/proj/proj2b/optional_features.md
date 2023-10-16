@@ -5,9 +5,17 @@ categories: proj
 released: true # you have to also change this to true to release.
 ---
 
-## Adding New Buttons
+## Getting Started
 
 The remainder of this assignment is optional, but strongly recommended.
+
+This portion of the project combines the powers of `NGramMap` (project 2a) 
+and `WordNet` (project 2b). To get started, copy `HistoryHandler`, 
+`HistoryTextHandler`, `NGramMap`, and `TimeSeries` from project 2a into
+project 2b. You should also adjust `Main.java` so that it registers all
+three handlers.
+
+## Adding New Buttons
 
 Getting a list of hyponyms is cool, but what can sometimes be even cooler is plotting their relative frequencies. For
 example, if the user enters the words "food, cake", startYear = 1900, endYear = 2020, k = 8 and clicks "Hypohist",

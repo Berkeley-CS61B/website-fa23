@@ -8,10 +8,10 @@ released: true # you have to also change this to true to release.
 ## [FAQ](faq.md)
 
 Each assignment will have an FAQ linked at the top. You can also access it by adding "/faq" to the end of the URL. The
-FAQ for Project 2b is located
+FAQ for Project 2B is located
 [here](faq.md).
 
-## Checkpoint Due 10/20/23 - Coding Due 10/27/23
+## Checkpoint Due 10/23/23 - Coding Due 10/30/23
 
 In this project, you'll complete your implementation of the NGordnet tool.
 
@@ -33,22 +33,17 @@ sort, please post on Ed.
 
 ### Skeleton Setup
 
-1. Similar to other assignments in this class, run `git pull skeleton main` **in your group repo** to get the skeleton code for this
-   project.
-   1. NOTE: You'll notice that this skeleton is (almost) the exact same as the Project 2A skeleton. We have provided placeholder implementation for `TimeSeries`, `NGramMap`, `DummyHistoryTextHandler`, and `DummyHistroyHadnler`. We've provided you with working implementation of `countHistory` method from `NGramMap` in `library-fa23` (see the
-      next step).
-   2. Our provided `NGramMap` class has the behavior that if you call a function like `countHistory` but there are no
-      valid words in the time frame specified, e.g. `TimeSeries ts = ngm.countHistory("gwexlbexl", 1900, 1950);`, then
-      the resulting `ts` is just an empty `TimeSeries`, i.e. a map with an empty `keySet`.
-   3. Although we are not explicitly testing your other methods in `TimeSeries` and `NGramMap`, please fill out your class with your code from part A except `countHistory` and constructor since we have provided them for you. You might find useful other methods for plotting purposes or the completeness of the browser. Bear in mind, that we also did not provide `HistoryTextHandler` or `HistoryHandler` - if you want to use these buttons, please copy your code from part A.
+
+1. Similar to other assignments in this class, run `git pull skeleton main` to get the skeleton code for this project.
+   1. NOTE: You'll notice that this skeleton is (almost) the exact same as the Project 2A skeleton. We have provided placeholder implementations for `TimeSeries`, `NGramMap` from project 2a. This includes a working implementation of `countHistory` method using a new
+   library from in `library-fa23` (see next step).
+   2. The placeholder implementations throw `UnsupportedOperationException`s for some methods. You will not need these methods.
 2. To get the new library, `cd` into your `library-fa23` directory and run `git pull`. Then,
    import all the libraries from `library-fa23` into this project like you normally would.
-   1. Now that you've pulled and imported the libraries, you'll notice that the code in Main.java (including the lines
-      that use `NGramMap`) should no longer be red.
-3. Download the new `data` files for this project
+   1. Now that you've pulled and imported the libraries, you'll notice that the code in `NgramMap.java` should no longer be red.
+3. Download the `data` files for this project
    using [this link](https://drive.google.com/file/d/1xGTZqCo5maiZjA307OPocmKDOTYlJXnz/view?usp=sharing)
    and move them into your `proj2b` folder on the same level as `src`.
-4. Use your o
 
 Once you are done, your `proj2b` directory should look like this:
 
@@ -63,15 +58,21 @@ proj2b
 ```
 
 
+{% include alert.html type="info" content="
+The k != 0 portion of this project uses the `NGramMap` class from project 2a, which is why we have provided placeholder implementations for `NGramMap` and `TimeSeries`. The placeholder implementations are sufficient to complete project 2b.
+
+If you want to copy in your own `NGramMap` and `TimeSeries` from project 2a, you can. However, we suggest only doing so after you get a full score on project 2b, just in case your implementation has any subtle bugs in it.
+" %}
+
 {% include alert.html type="warning" content="
-Since this project will be using frequency for k != 0 (don't worry about it yet), we need to use the implementation from 2A to come up with frequencies with `NGramMap`. As mentioned above, we have provided you our `NGramMap` class and once you run `git pull skeleton main` you'll realize that `NGramMap.java` uses our `NGramMap` imported from the library. Please make sure that you have the correct library otherwise you won't be able to run your code.
+If you are getting errors in `NGramMap`, make sure you did step 2 (updating `library-fa23`).
 " %}
 
 
 ## Getting Started
 
 {% include alert.html type="warning" content="
-**IMPORTANT NOTE:** You should *really* complete **Projecet 2B: [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941)** first before starting coding, or even designing your project. We think this would be helpful.
+**IMPORTANT NOTE:** You should *really* complete **Project 2B: [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941)** first before starting coding, or even designing your project. We think this would be helpful.
 " %}
 
 The course staff has created a couple of introductory videos to the project and the starter code
@@ -138,7 +139,7 @@ by [using the web interface](http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1
 
 #### Setting up a HyponymsHandler
 
-1. In your web browser, open the `ngordnet.html` file in the `static` folder. You'll see that there is a new button: "
+1. In your web browser, open the `ngordnet.html` file in the `static` folder. As a refresher, you can find how to do that [here](https://fa23.datastructur.es/materials/proj/proj2a/#:~:text=In%20your%20web,of%20our%20class.). You'll see that there is a new button: "
    Hyponyms". Note that there is also a new input box called `k`.
 
 2. Try clicking the Hyponyms button. You'll see nothing happens (and if you open the developer tools feature of your web
@@ -191,7 +192,7 @@ even though "change" belongs to two different synsets, it only appears once.
 **Note: Don't overthink this** and make life harder than it needs to be. Specifically, observe that the output **does
 not** include:
 
-- Synonyms of synonyms (e.g. does not include adjustment)
+- Synonyms of synonyms (e.g. does not include *"adjustment"*)
 - Hyponyms of synonyms (e.g. does not include conversion)
 - Hyponyms of other definitions of hyponyms (e.g. does not include \"flashback\", which is a hyponym of another
   definition of \"transition\")
@@ -286,9 +287,9 @@ meaning that each line contains a sequence of fields, separated by commas.
 To get the "Hyponyms" button working you'll need to:
 
 - Develop a **graph class**. If you aren't familiar with this data structure, take a look at lectures 21 and 22. You
-  should test this with operations that are independent of the given data files. For example, my tests evaluated that
-  my `createNode` and `addEdge` functions yielded appropriate graphs by using my graph classes's `getNodes`
-  and `neighbors` functions.
+  should test this with operations that are independent of the given data files. For example, our tests evaluated that
+  our `createNode` and `addEdge` functions yielded appropriate graphs by using our graph classes's `getNodes`
+  and `neighbors` functions. For inspiration, you can check out [Lecture 21](https://docs.google.com/presentation/u/1/d/1tNPwVvUTAE8qHtGE1HqOThKlTHtASW6lf-345hXLARE/edit) and [22](https://docs.google.com/presentation/d/1mr841rMgVAffqi-TfL--gZPmEjAM5rpBW7MzrmJPuaU/edit).
 - Write code that **converts the WordNet dataset files into a graph**. This could be part of your graph class, or it
   could be a class that uses your graph class.
 - Write code that takes a word, and uses a **graph traversal** to find all hyponyms of that word in the given graph.
@@ -296,10 +297,10 @@ To get the "Hyponyms" button working you'll need to:
 We strongly recommended writing tests that evaluate queries on the examples above (for example, you might look at the
 hyponyms of "descent" in synsets11/hypernyms11, or the hyponyms of "change" in synsets16/hypernyms16).
 
-Tests should be written at a level of abstraction appropriate to what they're evaluating. For example, I have a class
-called `TestGraph` that evaluates various aspects of my `Graph` class.
+Tests should be written at a level of abstraction appropriate to what they're evaluating. For example, we have a class
+called `TestGraph` that evaluates various aspects of our `Graph` class.
 
-Or as another example, my code has a class called `TestWordNet` containing the function below.
+Or as another example, our code has a class called `TestWordNet` containing the function below.
 
 ```java
 @Test
@@ -310,7 +311,7 @@ public void testHyponymsSimple(){
 ```
 
 Note your WordNet class may not have the same functions as mine so the test shown will probably not work verbatim with
-your code. Note that my test does NOT use an `NGramMap` anywhere, nor is it using a `HyponymHandler`, nor is it directly
+your code. Note that our test does NOT use an `NGramMap` anywhere, nor is it using a `HyponymHandler`, nor is it directly
 invoking an object of type `Graph`. It is specifically tailored to testing the `WordNet` class. **Relying on only
 browser tests will be incredibly frustrating (and slow!). Use your JUnit skills to build confidence in the foundational
 abstractions that you build (e.g. Graph, WordNet, etc.).**
@@ -432,6 +433,10 @@ This task will be a little trickier since you'll need to figure out how to pass 
 `HyponymsHandler` knows how to access a useful `NGramMap`.
 " %}
 
+{% include alert.html type="warning" content="
+The `TimeSeries` class we provide in the skeleton code does not support `.data()`. You can use `.values()` instead.
+" %}
+
 {% include alert.html type="danger" content="
 **DO NOT MAKE A STATIC NGRAMMAP FOR THIS TASK!** It might be tempting to simply make some sort of
 `public static NGramMap` that can be accessed from anywhere in your code. This is called a \"global variable\".
@@ -458,18 +463,17 @@ However, we will not be directly grading these classes, since they can vary from
 
 Project 2B will be worth 75 points. The points will be split as follows:
 
-- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points - Due October 20th)
-- Coding (70 points - Due October 27th):
-   - Due 10/27/2023
+- [Checkpoint](https://www.gradescope.com/courses/572446/assignments/3489941) (5 points - Due October 23th)
+- Coding (70 points - Due October 30th):
    - `HyponymHandler` single word case: 40%, k = 0
    - `HyponymHandler` multi-word case: 20%, k = 0
    - `HyponymHandler` popularity: 40%, k != 0
 
 The token limiting policy for this project will be as follows:
 
-1. You will **each** start with 4 tokens that have a 24 hour refresh time.
-2. **At 10:00PM on October 27th** (3 hours before the deadline), you will be reset to **4 tokens, each of which have a 15 minute refresh time.**
-3. **At 12:00AM on October 28th**, you  will again be reset back to **4 tokens with a 24 hour refresh.** This policy will remain in place for the remainder of the semester.
+1. You will start with 8 tokens, each of which has a 24-hour refresh time.
+2. **At 10:00 PM on October 30th** (2 hours before the deadline), you will be reset to **4 tokens, each of which has a 15-minute refresh time.**
+3. **At 12:00AM on October 31st**, you  will again be reset back to **8 tokens with a 24-hour refresh.** 
 
 ## Testing Your Code
 

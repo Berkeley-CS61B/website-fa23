@@ -1,5 +1,5 @@
 - week: 8
-  # weekly_survey: "https://forms.gle/y1XfGX73UdVRpdNR9"
+  weekly_survey: "https://forms.gle/1FgWL6r6TUKYUqgA7"
   rows: 3
   discussions:
     - name: B-Trees, LLRBs, Hashing
@@ -7,10 +7,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/regular/regular08.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/regular/regular08sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrjXIJbf0eFsWeUnD6RsfYa"
         - name: slides
           released: true
@@ -20,10 +20,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/examlevel/examlevel08.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week08/examlevel/examlevel08sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoIGRoR3H0WHl2AmxCgcxTN"
         - name: slides
           released: true
@@ -73,6 +73,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrFJrMMOkrShULQ3KeoqZB9"
         - name: slides
           link: "https://docs.google.com/presentation/d/1tNPwVvUTAE8qHtGE1HqOThKlTHtASW6lf-345hXLARE"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=r71V42R366M"
       reading: > # Format in Markdown
         [Ch 21](https://cs61b-2.gitbook.io/cs61b-textbook/21.-heaps-and-priority-queues)
       assignments:
@@ -85,7 +87,7 @@
           link: materials/proj/proj2b
           rows: 1
           cols: 1
-          released: false
+          released: true
 
     - day: 2023-10-13
       lecture_topic: Tree and Graph Traversals
@@ -95,6 +97,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoXCSo4Hx8TEZBsIpag6lMs"
         - name: slides
           link: "https://docs.google.com/presentation/d/1mr841rMgVAffqi-TfL--gZPmEjAM5rpBW7MzrmJPuaU"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=eGJKUpHGxiQ"
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
@@ -102,4 +106,4 @@
           link: materials/proj/proj2b
           rows: 1
           cols: 2
-          released: false
+          released: true

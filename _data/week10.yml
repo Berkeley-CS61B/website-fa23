@@ -44,7 +44,7 @@
       reading: > # Format in Markdown
         [Ch 26](https://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
       assignments:
-        - title: Project 2B (due TBD)
+        - title: [Project 2B due 10/27]
           link: materials/proj/proj2b
           rows: 2
           cols: 2
@@ -70,8 +70,9 @@
       reading: > # Format in Markdown
         [Ch 28](https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition)
       assignments:
-        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
-          link: materials/proj/proj3
-          rows: 1
-          cols: 2
+        - title: |
+            <span class="proj">[Project 2B due 10/27]</span>
+          link: /materials/proj/proj2b
           released: false
+          rows: 1 # the number of rows the assignment spans
+          cols: 2 # 1 for half column, 2 for full column
