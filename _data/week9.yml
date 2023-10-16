@@ -3,31 +3,31 @@
   rows: 3
   discussions:
     - name: Graphs, Heaps
-      released: false
-      link: "https://drive.google.com/file/d/1xQuz9DGTkarjvl8MCxpbXiBBRFOIBj1_/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week09/regular/regular09.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1ozcY7plnywg1NeWhuI9vDGSvmZDw-_2S/view?usp=sharing"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week09/regular/regular09sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrdIn4Jnf_aI1Hgw5m-wrL2"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1Qsw8cnhfkmZxCmnD5jNS1CYnGZiyAoun9M3L3aKEVq8/edit?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1RbB7_-2P4bK0RE2DW1rEizFhPNSBE3yj0vPj0el4h9c/"
     - name: Graphs, Heaps (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/1O3ks_kojbcnm-K2GkTGfniABxM0xiEwn/view?usp=share_link"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week09/examlevel/examlevel09.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1dcDpCOcvJNdctZXQIpakl-R2FGUs-3dT/view?usp=share_link"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week09/examlevel/examlevel09sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRqWGEpy-S22SMXVVxtkqmmT"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1M4M_uupWmL1XmZJRIfvvKrzpva9P0zEKN7tme5fz-2c/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1blYUNKX9keSZVau_2cLzgHuqwAoadIVPjire_uTKGFw"
   labs:
     - name: Project 2 Workday
       released: false
