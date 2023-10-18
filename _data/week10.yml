@@ -43,12 +43,12 @@
   days:
     - day: 2023-10-23
       lecture_topic: Prefix Operations and Tries
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=F8Q-SHW2hAM&list=PL8FaHk7qbOD7eyAcACitG8neRNL2rsvng
+          link: "https://www.youtube.com/watch?v=F8Q-SHW2hAM&list=PLnp31xXvnfRoMxe8IbO1qF3lXwudLHVDk"
         - name: slides
-          link: https://docs.google.com/presentation/d/1Xvm1BB6WeUwYrwRe8QmcRscD0ivqOlLyWBhYQrDxzHQ/edit
+          link: "https://docs.google.com/presentation/d/13nBkI3osKTq3a8g0xBXlhlVPckcW8fX3fZXQzdhaSZ0"
       reading: > # Format in Markdown
         [Ch 26](https://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
       assignments:
