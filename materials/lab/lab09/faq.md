@@ -2,8 +2,8 @@
 layout: page
 title: "FAQ - Lab 09: HashMap"
 categories: lab
-released: false
-searchable: false
+released: true
+searchable: true
 ---
 
 ### Failing edge cases
