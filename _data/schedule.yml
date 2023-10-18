@@ -823,6 +823,8 @@
           link: "https://www.youtube.com/watch?v=iMoFtG1md3w&list=PLnp31xXvnfRrbIn8mZ3pmpgygnfwp2zjW"
         - name: slides
           link: "https://docs.google.com/presentation/d/1UHAU4IgEPYO3AJKYANd8XN8VDw5KZlt86HMLm9mJyyY"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=MUWBN91yqVc"
       reading: > # Format in Markdown
         [Ch 24](https://cs61b-2.gitbook.io/cs61b-textbook/24.-shortest-paths)
       assignments:
