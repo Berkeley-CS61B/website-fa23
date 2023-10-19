@@ -37,8 +37,8 @@
           released: true
           link: "https://www.youtube.com/watch?v=7B_1cWZBEFY"
         - name: slides
-          released: false
-          link: ""
+          released: true
+          link: "https://docs.google.com/presentation/d/1uz6HCA37q8ACjVz22_qEkyuDbE1rUGJ_1pTV4LoEIFs/edit?usp=sharing"
 
   days:
     - day: 2023-10-23
