@@ -10,6 +10,46 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
+- bio: "hi everyone! i\u2019m a third-year CS + DS major from seattle and this is\
+    \ my second time teaching 61B(L). when I\u2019m not tutoring, you can probably\
+    \ find me playing honkai star rail (pls don't make fun of me ;-;), consuming concerning\
+    \ amounts of celsius, or finding new music to put in my 1000+ song playlist. excited\
+    \ to meet y\u2019all and feel free to reach out to me for anything :3"
+  email: alyssa.427@berkeley.edu
+  link: null
+  name: Alyssa Smith
+  pic1: assets/img/staff/alyssa-smith-1.jpg
+  pic2: assets/img/staff/alyssa-smith-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: she/her/hers
+- bio: "Hello there! I\u2019m a 4th-year majoring in Computer Science and Political\
+    \ Science and minoring in Journalism! You can usually find me wearing bright red\
+    \ beats headphones probably listening to some Bowie or some OSTs. Right now, as\
+    \ I\u2019m writing this I am reading Dune, but I also enjoy watching Better Call\
+    \ Saul, Succession and Ghibli movies. I also really love playing piano and Super\
+    \ Metroid! I hope to be as helpful to you as a data structure is to an algorithm/project!\
+    \ So feel free to reach out (especially if you have any recommendations)!"
+  email: aaaldaco2002@berkeley.edu
+  link: null
+  name: Angel Aldaco
+  pic1: assets/img/staff/angel-aldaco-1.jpg
+  pic2: assets/img/staff/angel-aldaco-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him/his
+- bio: "Hi! My name is Anniyat and I am a junior from Kazakhstan. Apart from teaching,\
+    \ I really enjoy watching detectives, ballroom dancing, and listening to Frank\
+    \ Sinatra\u2019s songs. When it comes to food, I am (unhealthily) obsessed with\
+    \ Seoul Hotdog!"
+  email: kanniyat@berkeley.edu
+  link: https://www.youtube.com/watch?v=dxnjeIH5E58
+  name: Anniyat Karymsak
+  pic1: assets/img/staff/anniyat-karymsak-1.jpg
+  pic2: assets/img/staff/anniyat-karymsak-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him/his
 - bio: "Hey all! Hope you had a great summer and welcome to CS 61B! This will be my\
     \ second time as a tutor on course staff, and i'm so ready to get to know everyone!\r\
     \nI'm a junior studying CS with a minor in History. Over the summer, I spent a\
@@ -25,6 +65,41 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
+- bio: hiii y'all! I'm a fourth-year majoring in computer science. I love fashion,
+    gaming, and going to concerts! I'm currently learning to dj and I also have my
+    California bartenders license. feel free to reach out about runway shows, virtual
+    reality, the gaming industry, or anything at all!
+  email: erik.nelson@berkeley.edu
+  link: null
+  name: Erik Nelson
+  pic1: assets/img/staff/erik-nelson-1.jpg
+  pic2: assets/img/staff/erik-nelson-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/they
+- bio: Hi guys! I'm a fourth year studying CS and Music from Davis! I play baseball
+    at Cal, the cello in UCBSO, and my twin sister claims I ate her optical nerves
+    in the womb. Hit me up if you have any questions about anything. Cant wait to
+    meet y'all!
+  email: ethanlo@berkeley.edu
+  link: null
+  name: Ethan Lo
+  pic1: assets/img/staff/ethan-lo-1.jpg
+  pic2: assets/img/staff/ethan-lo-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him/his
+- bio: "Hello, I\u2019m Hanqi Xiong and I\u2019m a incoming junior studying computer\
+    \ science and data science. On my free time I love to play video games: TFT/ARAM/Valorant.\
+    \ Please don\u2019t hesitate to contact me if we have anything in common!"
+  email: hxiong@berkeley.edu
+  link: https://www.youtube.com/watch?v=u1JB_opf2u8
+  name: Hanqi Xiong
+  pic1: assets/img/staff/hanqi-xiong-1.jpg
+  pic2: assets/img/staff/hanqi-xiong-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him/his
 - bio: zzz
   email: j.tuazon@berkeley.edu
   link: null
@@ -34,6 +109,19 @@
   pic3: null
   pic4: null
   pronouns: he/him/his
+- bio: "Hi, I\u2019m Nathalys, and I\u2019m a junior majoring in CS. I spend too much\
+    \ time playing games like Catan, Dominion, and TFT and watching shows like Futurama,\
+    \ Saiki K, and ATLA. Some of my hobbies are drawing, crocheting, baking, and knitting!\
+    \ I also like Kpop and dessert, and all of my money from being on staff will go\
+    \ to concerts and boba <3."
+  email: ntpham@berkeley.edu
+  link: null
+  name: Nathalys Pham
+  pic1: assets/img/staff/nathalys-pham-1.jpg
+  pic2: assets/img/staff/nathalys-pham-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: she/her/hers
 - bio: Hi! I'm a fourth-year from NJ studying CS and cognitive science. I'm a big
     kpoppie and in my free time, I watch kdramas, waste away my money on boba, or
     play Minecraft with friends :0 This is my second time teaching 61B and I'm so
@@ -47,6 +135,15 @@
   pic3: null
   pic4: null
   pronouns: she/her
+- bio: A sophomore who loves a good poem
+  email: yixuanstonewu@berkeley.edu
+  link: null
+  name: Stone Wu
+  pic1: assets/img/staff/stone-wu-1.jpg
+  pic2: assets/img/staff/stone-wu-1.jpg
+  pic3: null
+  pic4: null
+  pronouns: he/him/his
 - bio: "Hi! I\u2019m Vika and I\u2019m a third year Computer Science and Data Science\
     \ major. Some of my interests include hiking, ballet, and skiing! When I\u2019\
     m not debugging something you can find me going on walks around Berkeley or the\
