@@ -845,6 +845,8 @@
           link: "https://www.youtube.com/watch?v=vnKK38JS9Ik&list=PLnp31xXvnfRr6RTCpKB1Xj3n9bZffJQ7L"
         - name: slides
           link: "https://docs.google.com/presentation/d/102XAttadgxd3dW78_ymTpA2mK4xT5pPDz6DDShafJUg"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=kwIU3vM9cu8"
       reading: > # Format in Markdown
         [Ch 25](https://cs61b-2.gitbook.io/cs61b-textbook/25.-minimum-spanning-trees)
 - week: 10
