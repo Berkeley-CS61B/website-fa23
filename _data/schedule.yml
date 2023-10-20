@@ -901,13 +901,13 @@
         - name: slides
           link: "https://docs.google.com/presentation/d/13nBkI3osKTq3a8g0xBXlhlVPckcW8fX3fZXQzdhaSZ0"
       reading: > # Format in Markdown
-        [Ch 26](https://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
+        [Ch 26](httpsae://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
       assignments:
-        - title: [Project 2B due 10/27]
+        - title: Project 2B due 10/27
           link: materials/proj/proj2b
           rows: 2
           cols: 2
-          released: false
+          released: true
 
     - day: 2023-10-25
       lecture_topic: Software Engineering I
