@@ -3,31 +3,31 @@
   rows: 3
   discussions:
     - name: Shortest Paths, MSTs
-      released: false
-      link: "https://drive.google.com/file/d/1BS-5XtL9GpkmeW3IWx44xt-qJHD3pk7P/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/regular/regular10.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1_jT2AmCMkP25F1KRhHRXV2-abHiLq2V8/view?usp=sharing"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/regular/regular10sol.pdf"
         - name: video
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRp0SkHfIO9HavzXht0K9mOA"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/19aJa7llCHKmBFlmlI0pzWapV8DE_nRjKE0C9ciO1x6g/edit?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1hjmIsF4xQNWxr73VHpYPThXZPgj_HBt8-1mOJaIiUHc"
     - name: Shortest Paths, MSTs (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/1At-W5zAQzyrbUyX6VdDJJPh9UY9rTWYx/view?usp=share_link"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/examlevel/examlevel10.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1X5oVs_qO2hgN5vwNMZnoIRrqVo8TaaOk/view?usp=share_link"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/examlevel/examlevel10sol.pdf"
         - name: video
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRqhMYH6tRt4bru5HxoWta9G"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1rwMI17qMU3KgmA3k1nh1fuWBW8ZFCO4RwB_VfT8mYsY/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1G7B3z0iODeQLUgnvTjmeQ0gw2Vj6gT-P_lSJcqgApf0"
   labs:
     - name: Hashmaps (due 10/27)
       link: materials/lab/lab09/
