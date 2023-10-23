@@ -52,12 +52,14 @@
           released: false
     - day: 2023-10-18
       lecture_topic: Shortest Paths
-      class: outdated
+      #class: outdated
       lecture_links:
-        - name: old video
-          link: https://www.youtube.com/watch?v=iMoFtG1md3w&feature=youtu.be&t=5m03s
+        - name: video
+          link: "https://www.youtube.com/watch?v=iMoFtG1md3w&list=PLnp31xXvnfRrbIn8mZ3pmpgygnfwp2zjW"
         - name: slides
-          link: https://docs.google.com/presentation/d/18pU3NjOeYZCWqo7VrXZwsF2y7AEO4X7xY50NnsKyHw0/edit?usp=sharing
+          link: "https://docs.google.com/presentation/d/1UHAU4IgEPYO3AJKYANd8XN8VDw5KZlt86HMLm9mJyyY"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=MUWBN91yqVc"
       reading: > # Format in Markdown
         [Ch 24](https://cs61b-2.gitbook.io/cs61b-textbook/24.-shortest-paths)
       assignments:
@@ -72,11 +74,13 @@
           class: emph1
     - day: 2023-10-20
       lecture_topic: Minimum Spanning Trees
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=vnKK38JS9Ik&list=PL8FaHk7qbOD7SvlWei_-neNmgmXzJG2ad&index=1
+          link: "https://www.youtube.com/watch?v=vnKK38JS9Ik&list=PLnp31xXvnfRr6RTCpKB1Xj3n9bZffJQ7L"
         - name: slides
-          link: https://docs.google.com/presentation/d/1ILecDfqGbGg676xEmp4djysXv2nPNKOZ8FcqjlnR9fE/edit?usp=sharing
+          link: "https://docs.google.com/presentation/d/102XAttadgxd3dW78_ymTpA2mK4xT5pPDz6DDShafJUg"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=kwIU3vM9cu8"
       reading: > # Format in Markdown
         [Ch 25](https://cs61b-2.gitbook.io/cs61b-textbook/25.-minimum-spanning-trees)

@@ -1,29 +1,27 @@
 ---
 layout: page
-title: "Lab 12: BYOW Introduction"
+title: "Lab 11: BYOW Introduction"
 categories: lab
-released: false
+released: true
 ---
 
 ## [FAQ](faq.md)
 
 Each assignment will have an FAQ linked at the top. You can also access it by
-adding "/faq" to the end of the URL. The FAQ for Lab 12 is located
+adding "/faq" to the end of the URL. The FAQ for Lab 11 is located
 [here](faq.md).
 
-The slides for Lab 12 can be found [here](https://docs.google.com/presentation/d/1ZWegt0VUifxxL79V-M3nJFHprebB3XBTN1xbTHT4l9s).
 
 ## Introduction
 
 This lab will help you with Project 3: Build Your Own World (BYOW). The first
 part will teach you how to use a set of "tiles" to generate shapes on your
 screen. This will apply to building the rooms, hallways, and other features of
-your world in Project 3. Next week's lab will teach you more about how to use
-the StdDraw package to make a fun text-based game. This will help you build the
-main menu and other text-based elements of Project 3. It will also teach you how
-to achieve user interactivity, which is vital to Project 3!
+your world in Project 3. Next week's lab will go more into implementing interactivity, 
+which is relevant towards building a part of Project 3 (but more on this in the 
+next lab).
 
-## Pre-lab
+## Pre-Lab [Under Construction - for QAers, this part might be updated]
 
 Some steps to complete before getting started on this lab:
 
@@ -65,7 +63,7 @@ number of tiles. Each tile is 16 pixels by 16 pixels, so for example, if we
 called `ter.initialize(10, 20)`, we'd end up with a world that is 10 tiles wide
 and 20 tiles tall, or equivalently 160 pixels wide and 320 pixels tall. For this
 lab, you don't need to think about pixels, though you'll eventually need to when
-you start building the user interface for Project 3 (discussed in the next lab).
+you start building the user interface for Project 3.
 
 `TETile` objects are also quite simple. You can either build them from scratch
 using the `TETile` constructor (see `TETile.java`), or you can choose from a
@@ -95,6 +93,11 @@ for (int x = 20; x < 35; x++) {
 }
 ```
 
+{% include alert.html type="info" content="
+**INFO: Note that $(0, 0)$ is the bottom-left corner of the world in this case
+(not the top-left as you may be used to).**
+" %}
+
 Note that $(0, 0)$ is the bottom-left corner of the world in this case (not the top-left as you may be used to).
 
 The last step in rendering is to simply call `ter.renderFrame(world)`, where
@@ -106,12 +109,12 @@ than `WALL` and see what happens. Also experiment with changing the constants in
 the loop and see how the world changes.
 
 {% include alert.html type="warning" content="
-**Note**: Tiles themselves are immutable! You cannot do something like
+**NOTE**: Tiles themselves are immutable! You cannot do something like
 `world[x][y].character = 'X'`.
 " %}
 
 {% include alert.html type="info" content="
-Why do we initialize the world to `Tileset.NOTHING`, rather than just leaving it
+**INFO**: Why do we initialize the world to `Tileset.NOTHING`, rather than just leaving it
 untouched? The reason is that the `renderFrame` method will not draw any tiles
 that are `null`. If you don't initialize the world to `Tileset.NOTHING`, you'll
 get a `NullPointerException` when you try to call `renderFrame`.
@@ -370,11 +373,33 @@ is satisfactory, they'll give you a magic word to put into `magic_word.txt` and
 you'll be done!
 
 If you're not able to make it to lab this week for a checkoff, please attend an
-OH block or make a private post on Ed and fill out the checkoff template. We'll
-get back to you as soon as we can.
+OH block or make a private post on Ed and fill out the checkoff template. While 
+we'll try to get back to you as soon as we can, please do not expect us to respond 
+immediately as we'll process the checkoffs in order, so make sure not to do this last
+minute!
+
+### Persistence (Ungraded, but HIGHLY RECOMMENDED) 
+
+In Project 3, you'll have to implement the ability to save and load your game state, as 
+mentioned in this part of the project [spec](http://127.0.0.1:4000/materials/proj/proj3/#saving-and-loading). 
+While this part of the lab is not graded or required, we highly recommend that you do 
+start thinking early about you might want to do implement this feature. Note that we haven't 
+talked too much about interactivity in this lab, so the goal of this portion is for you
+to get familiar with the idea of persistence and see how that might apply once you get 
+to the later part of the project. 
+
+Whenever a Java program is run, we use variables to keep track of our values. But once that 
+program ends, those values "no longer exist" or they are no longer accessible. For us to continue 
+accessing those values, we want to ensure that the state of our program persists. This is called 
+persistence. 
+
+We've provided a class to help you save and load information into a file, called `FileUtils`.
+For this exercise, we want to keep track of the number of times the file is written to (excluding
+the first time, more details in the file). Go ahead and open up `SaveLoad` and refer to the 
+comments in the file and play around with the given `FileUtils` class.
 
 ## Submission
 
 You'll be submitting your completed `project3prep.md` file and `magic_word.txt`
 to Gradescope. You will get full credit as long as these are filled out and
-submitted!
+submitted! The lab is worth 5 points. 

@@ -134,7 +134,7 @@ and fail.**
 As mentioned above, the first goal of the project will be to write a world generator. The requirements for your world
 are listed below:
 
-- The world must be a 2D grid, drawn using our tile engine. The tile engine is described in [lab12](../../lab/lab12).
+- The world must be a 2D grid, drawn using our tile engine. The tile engine is described in [lab12](../../lab/lab11).
 - The world must be pseudo-randomly generated. Pseudo-randomness is discussed in lab 12.
 - The generated world must include distinct rooms and hallways, though it may also include outdoor spaces.
 - At least some rooms should be rectangular, though you may support other shapes as well.

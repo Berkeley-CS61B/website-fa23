@@ -2,9 +2,13 @@
 layout: page
 title: "FAQ - Lab 09: HashMap"
 categories: lab
-released: false
-searchable: false
+released: true
+searchable: true
 ---
+
+### I'm getting a "Generic array creation" error.
+
+Be sure to instantiate your buckets table with `new Collection[size]` or `(Collection<Node>[]) new Object[size]`!
 
 ### Failing edge cases
 
