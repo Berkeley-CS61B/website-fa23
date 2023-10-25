@@ -62,8 +62,10 @@
 
     - day: 2023-10-25
       lecture_topic: Software Engineering I
-      class: optional outdated
+      class: optional
       lecture_links:
+        - name: slides
+          link: https://docs.google.com/presentation/d/1ZQ35zGrbnMCIk2kr37bKyxc4RMvRBFrvZd1me2Av2hQ/
       reading: >
         [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
 
