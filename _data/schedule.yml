@@ -1165,7 +1165,7 @@
     - name: No Lab
       released: false
   days:
-    - day: 2023-11-24
+    - day: 2023-11-20
       lecture_topic: Software Engineering IV<br>Designing 61B
       class: optional outdated
       lecture_links:
