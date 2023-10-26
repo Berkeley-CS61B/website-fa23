@@ -1,5 +1,5 @@
 - week: 9
-  # weekly_survey: "https://forms.gle/R1JNQaMwycgzAphEA"
+  weekly_survey: "https://docs.google.com/forms/d/e/1FAIpQLScO4AkpZQFyW2GLuqgRx2dBKSYeev77AOA2WYG0HKLGPebwpw/viewform"
   rows: 3
   discussions:
     - name: Graphs, Heaps

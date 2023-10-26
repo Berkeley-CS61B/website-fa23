@@ -6,6 +6,10 @@ released: true
 searchable: true
 ---
 
+### I'm getting a "Generic array creation" error.
+
+Be sure to instantiate your buckets table with `new Collection[size]` or `(Collection<Node>[]) new Object[size]`!
+
 ### Failing edge cases
 
 The `Bee` class has some strange `equals` and `hashCode` implementations. If you're stuck on this test, use the debugger to see what values are expected from the reference map, which is Java's built-in HashMap. Walking through the expected behavior by hand may help as well.
