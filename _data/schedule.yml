@@ -928,6 +928,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRprqOwH0sojH3VLONWXtYM0"
         - name: slides
           link: "https://docs.google.com/presentation/d/1DOXjoC-gBSISM1DKlbVSNuOhnS0CY3kzIg6nM-mIlek"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=4aNpmRVN6nA"
         # - name: check in
         #   link: https://forms.gle/LKCByxFmEpRVFVHo9
       reading: > # Format in Markdown
