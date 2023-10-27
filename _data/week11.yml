@@ -34,13 +34,13 @@
 
   days:
     - day: 2023-10-30
-      lecture_topic: Basic Sorts
-      class: outdated
+      lecture_topic: "Sorting 1: Basic Sorts"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=mBIUU38XNyk
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoHP_K6uHiVXkB1qnQfjFsJ"
         - name: slides
-          link: https://docs.google.com/presentation/d/14RfFPU3RX9iDpE4OCXlXKmtaoxZbdNdcXTGhC9dr9xQ/edit#slide=id.g22a557a7614_0_0
+          link: "https://docs.google.com/presentation/d/1nJUUFB1iKLgofw7b2pU21gU5oHVmhzaQb7PmEeatm_4"
       reading: >
         [Ch 29](https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts)
       assignments:
@@ -50,13 +50,13 @@
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-01
-      lecture_topic: Quick Sort
-      class: outdated
+      lecture_topic: "Sorting 2: Quick Sort"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/H3Kn8cqfOtU
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqI7u80CibPQgYV0y7Bip1O"
         - name: slides
-          link: https://docs.google.com/presentation/d/1_7VuU3cynSGKbvzHk0PfK65HeHFT-jDp3XrbihRXetw/
+          link: "https://docs.google.com/presentation/d/1h9qHvSlDFn0WqoxB4v6ZaeEXEepsuwVM78uO4UNeKH0"
       reading: > # Format in Markdown
         [Ch 30](https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort)
     - day: 2023-11-03
