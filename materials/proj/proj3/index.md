@@ -457,7 +457,7 @@ clicks, the project should still allow keyboard based movement!
 Under the description of some primary features, we've provided some GIFS that would score full points on their
 respective ambition point items to help clear any confusions. Yours do not need to look exactly like the examples given.
 
-### 1080 Point Primary Features
+### 21 Points Primary Features
 
 - Create a system so that the tile renderer only displays tiles on the screen that are within the line of sight of the
   avatar. The line of sight must be able to be toggled on and off with a keypress. (The line of sight GIF below is a
@@ -492,7 +492,7 @@ respective ambition point items to help clear any confusions. Yours do not need 
   game '[Kirby 64 - The Crystal Shards](https://www.youtube.com/watch?v=5uu2TWli-_M)' is an example of what an isometric 2.5D world
   looks like). One particularly interesting example is [Dorottya Urmossy and David Yang's Fall 2022 submission](https://www.youtube.com/watch?v=XJBQYucuAKc&t=94s), which is a 2.5D first-person view, i.e. the world is 3D but the entities are 2D.
 
-### 360 Point Secondary Features
+### 7 Points Secondary Features
 
 - Add multiple save slots that can be accessed with a new menu option, and a new keyboard shortcut to save to a slot
   other than slot 1. You should be careful to still support the default behavior of saving and loading in order to be
