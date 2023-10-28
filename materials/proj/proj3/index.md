@@ -441,7 +441,7 @@ or `L`, where `#` represents the user entered seed.
 The return value of the `getWorldFromInput` method should not depend on whether the input string ends with `:Q` or
 not. The only difference is whether the world state is saved or not as a side effect of the method.
 
-## Ambition Score
+## 3C: Ambition & Demos
 
 28 points of your project score will be based on features of your choosing, which we call your "ambition score". The
 big idea is that beyond the base requirements of this project, we want you to try to polish your product a bit more and
@@ -660,7 +660,7 @@ There will be **no** movement in these tests.
 
 **Remember to add your partner as a group member when submitting to the autograder.**
 
-### 3B & 3C Large Language Models
+### 3C Large Language Models
 
 Recall that in the collaboration policy, we say:
 
