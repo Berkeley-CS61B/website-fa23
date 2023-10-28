@@ -38,7 +38,7 @@
       #class: outdated
       lecture_links:
         - name: video
-          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoHP_K6uHiVXkB1qnQfjFsJ"
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrK9o_QZyGOCbQVFTsqOPtN"
         - name: slides
           link: "https://docs.google.com/presentation/d/1nJUUFB1iKLgofw7b2pU21gU5oHVmhzaQb7PmEeatm_4"
       reading: >
@@ -54,7 +54,7 @@
       #class: outdated
       lecture_links:
         - name: video
-          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqI7u80CibPQgYV0y7Bip1O"
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqsfDWZNS86oYmHFY6UKA2t"
         - name: slides
           link: "https://docs.google.com/presentation/d/1h9qHvSlDFn0WqoxB4v6ZaeEXEepsuwVM78uO4UNeKH0"
       reading: > # Format in Markdown

@@ -38,7 +38,7 @@
       #class: outdated
       lecture_links:
         - name: video
-          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrc-dnyi6pUOhIVFpCk2sdF"
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqEadgCMXeo1gnlIxnETooG"
         - name: slides
           link: "https://docs.google.com/presentation/d/1PJ_ii69wSdGNW5LcxfxqPxD9NIedOg_XC7wg51K_29E"
       reading: > # Format in Markdown
@@ -54,7 +54,7 @@
       #class: outdated
       lecture_links:
         - name: video
-          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrSthJE9jzNL6O_Zz1bKJ_M"
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr4cg5TeJZplLTlOVmMNE0d"
         - name: slides
           link: "https://docs.google.com/presentation/d/1BmUyKesAHUmyXmhrX5woC2wvSTX7zgIcxsAFKAstk1g"
       reading: > # Format in Markdown
@@ -66,11 +66,11 @@
           rows: 2 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-17
-      lecture_topic: Sorting and Data Structures Conclusion
+      lecture_topic: "Sorting 6: Radix vs. Comparison Sorting"
       #class: outdated
       lecture_links:
         - name: video
-          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpJeVOEq1SITqHmZwcQWFiy"
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoDV1sFRy3Hdx0N6BMZjI1n"
         - name: slides
           link: "https://docs.google.com/presentation/d/1SgHnDc3MV2otqvP7fHS0VcRNhqEAkYgJdJ_GWDmG8Xo"
       reading: > # Format in Markdown
