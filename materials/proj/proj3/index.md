@@ -2,7 +2,7 @@
 layout: page
 title: "Project 3: BYOW"
 categories: proj
-released: false
+released: true
 ---
 
 ## [FAQ](faq.md)
@@ -38,25 +38,30 @@ found [at this link](https://www.youtube.com/playlist?list=PL8FaHk7qbOD6REWjsJd5
 Note that the API has changed slightly, but the basic ideas are all still true. Slides for these videos can be
 found [at this link](https://docs.google.com/presentation/d/1XIu1L0k18A2QUlZuFYlJqjrQqSRNQp05qr1OmoBQkFE/edit?usp=sharing).
 
+Please also note that since the structure of the project has been changed, Phase 1 will refer to 3A of the project.
+
 There are several key deadlines for this assignment:
 
-- Phase 0 - Team formation: You must submit the [Project 3 Partnerships Form](https://forms.gle/ERSX8MLCu7LS6d7T9) by
-  Wednesday, April 5th at 11:59 PM PST. You will **not** be able to change your partner later. Read and understand
+- Team formation: You must submit the [Project 3 Partnerships Form](https://forms.gle/DASC9VZhDRVfU5tw9) by
+  Wednesday, November 2nd at 11:59 PM. You will **not** be able to change your partner later. Read and understand
   the [partnership guidelines](../../guides/partnerships) before starting the assignment.
-- Phase 1 - World Generation: Due on Gradescope by 4/14 at 11:59 PM.
-- Phase 2 - Interactivity: Due on Gradescope by 4/25 at 11:59 PM.
+- Project 3A - World Generation: Due on Gradescope by 11/13 at 11:59 PM.
+- Project 3B - Interactivity: Due on Gradescope by 11/27 at 11:59 PM.
+- Project 3C - Ambition & Demos: Due at [Ambition Checkoff Form](https://forms.gle/peo2JEEqsX7AJgAg9) by 11/27 at 11:59 PM. Demos will be in lab in that week of.
 
-You cannot submit Phase 2 of the project late, as it will be graded during a lab checkoff with a TA. While in theory you could submit Phase 1 and the supporting labs (Lab 12 and Lab 13) late,
-Phase 2 of the project builds upon these assignments, so it is unlikely that you will be able to submit these
-assignments late and still complete Phase 2 on time.
+Although, Project 3B & 3C are due same day, since you need to be manually checked off for "Ambition" part, we made a division between "Interactivity" and "Ambition & Demos". Once you submit to Gradescope for 3B, your code should also have "Ambition" features because we will be asking your Gradescope submission ID from 3B in 3C Form.
+
+You cannot submit Project 3B & 3C late, as it will be graded during a lab checkoff with a TA. While in theory you could submit 3A and the supporting labs (Lab 12 and Lab 13) late,
+Project 3B & 3C builds upon these assignments, so it is unlikely that you will be able to submit these
+assignments late and still complete Project 3B on time.
 
 For convenience, here are the form links for this project:
 
-- [Partnerships Form](https://forms.gle/ERSX8MLCu7LS6d7T9)
-- [Phase 1 Reflection](https://forms.gle/ipfbMBehkMp2qzz57)
-- [Phase 1 Checkoff](https://forms.gle/YB6nfbJUXSm2YGku9)
-- [Phase 2 Reflection](https://forms.gle/KdNzma8BVuwExRRF7)
-- [Phase 2 Checkoff](https://forms.gle/L4od34RocUs8RCmu5)
+- [Partnerships Form](https://forms.gle/DASC9VZhDRVfU5tw9)
+- [Project 3A Reflection](https://forms.gle/imHFgDx1RaYNzBtG8)
+- [Project 3A Checkoff](https://forms.gle/vgZZ2Gj1cRcuRXy29)
+- [Project 3B & 3C Reflection](https://forms.gle/5EzeBoyLudjbMPNw8)
+- [Project 3C Checkoff](https://forms.gle/peo2JEEqsX7AJgAg9)
 
 Now on to the assignment spec!
 
@@ -89,7 +94,7 @@ the worlds you generate might even be beautiful.
 ## Skeleton Code
 
 As you did in Project 2B, use `git pull skeleton main` in your group repo to pull the skeleton code. The skeleton code
-contains two key packages that you'll be using: `byow.TileEngine` and `byow.Core`. `byow.TileEngine` provides some basic methods for rendering, as well
+contains two key packages that you'll be using: `TileEngine` and `Core`. `TileEngine` provides some basic methods for rendering, as well
 as basic code structure for tiles, and contains:
 
 - `TERenderer.java` - contains rendering-related methods.
@@ -99,21 +104,19 @@ as basic code structure for tiles, and contains:
 **IMPORTANT NOTE: Do NOT change TETile.java's `character` field or `character()` method as it may lead to bad autograder
 results.**
 
-The other package `byow.Core` contains everything unrelated to tiles. We recommend that you put all of your code for
-this project in the `byow.Core` package, though this not required. The `byow.Core` package comes with the following
+The other package `Core` contains everything unrelated to tiles. We recommend that you put all of your code for
+this project in the `Core` package, though this not required. The `Core` package comes with the following
 classes:
 
-- `RandomUtils.java` - Handy utility methods for doing randomness related things.
+- `AutograderBuddy.java` - Provides two method for interacting with your system. `TETile[][] getWorldFromInput(String input)` simulates the game without rendering by returning the world that would result if the input string had been typed on the keyboard. You should fill this out for autograder.
 - `Main.java` - How the user starts the entire system. Reads command line arguments and calls the appropriate function
-  in `Engine.java`.
-- `Engine.java` - Contains the two methods that allow interacting with your system.
+  in `World.java`.
+- `World.java` - Contains the two methods that allow interacting with your system.
 
-`byow.Core.Engine` provides two methods for interacting with your system. The first
-is `public TETile[][] interactWithInputString(String input)`. This method takes as input a series of keyboard inputs,
-and returns a 2D `TETile` array representing the state of the universe after processing all the key presses provided in
-input (described below). The second is `public void interactWithKeyboard()`. This method takes input from the keyboard,
-and draws the result of each keypress to the screen. Lab 12 covers how to render tiles, and Lab 13 covers how to get
-user input.
+The last package `Utils` contains everything that you might need to implement your `World.java` class.
+
+- `RandomUtils.java` - Provides handful of functions that might be useful.
+- `FileUtils.java` - Library of simple file operations.
 
 This project makes heavy use of `StdDraw`, which is a package that has basic graphics rendering capabilities.
 Additionally, it supports user interaction with keyboard and mouse clicks. You will likely need to consult the API
@@ -121,21 +124,21 @@ specification for `StdDraw` at some points in the project, which can be
 found [here](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html).
 
 Your project should only use standard java libraries (imported from java.\*) or any libraries we provided with your
-repo. Your final submission for the Phase 2 Autograder and Checkoff should not use any external libraries other than the ones provided in the
+repo. Your final submission for 3B and 3C should not use any external libraries other than the ones provided in the
 skeleton.
 
 **IMPORTANT NOTE: Do NOT use static variables unless they have the final keyword! In 2018, many students ran into major
 debugging issues by trying to use static variables. Static non-final variables add a huge amount of complexity to a
-system. Additionally, do not call `System.exit()` in `interactWithInputString` as this will cause the autograder to exit
+system. Additionally, do not call `System.exit()` in `getWorldFromInput` as this will cause the autograder to exit
 and fail.**
 
-## Phase 1: World Generation
+## 3A: World Generation
 
 As mentioned above, the first goal of the project will be to write a world generator. The requirements for your world
 are listed below:
 
-- The world must be a 2D grid, drawn using our tile engine. The tile engine is described in [lab12](../../lab/lab11).
-- The world must be pseudo-randomly generated. Pseudo-randomness is discussed in lab 12.
+- The world must be a 2D grid, drawn using our tile engine. The tile engine is described in [lab11](../../lab/lab11).
+- The world must be pseudo-randomly generated. Pseudo-randomness is discussed in lab 11.
 - The generated world must include distinct rooms and hallways, though it may also include outdoor spaces.
 - At least some rooms should be rectangular, though you may support other shapes as well.
 - Your world generator must be capable of generating hallways that include turns (or equivalently, straight hallways
@@ -157,7 +160,7 @@ that represents a locked door. All unused spaces are left blank.
 
 [![compliant_world_example](img/compliant_world_example.png)](img/compliant_world_example.png)
 
-Once you've completed lab 12, you can start working on your world generation algorithm.
+Once you've completed lab 11, you can start working on your world generation algorithm.
 
 **It is very likely that you will end up throwing away your first world generation algorithm.** This is normal! In real
 world systems, it is common to build several completely new versions before getting something you're happy with. The
@@ -201,42 +204,26 @@ of the system otherwise.
 
 ### Starting Your Program
 
-Your program will be started by running the `main` method of the `Main` class. You will see that this method calls one
-of two possible methods, based on the way a user wants to interact with your program. Users can provide the program a
-command line argument, describing how they want to generate the random world and what exploration they wish to complete,
-in which case, `Main.main` calls the `Core.Engine.interactWithInputSting(String s)` method. **When
-running `Core.Main.main` with an input string, the format of the command argument should be `-s inputString`,
-where `inputString` is the input of `interactWithInputString()`.** If no command line argument was provided, the user
-wants to interact with the program using a GUI menu and exploring the world using the keyboard, in which
-case `Main.main` calls the `Core.Engine.interactWithKeyboard()` method.
-
-For phase 1, your project does not need to support `interactWithKeyboard()` but it must
-support `interactWithInputString()`. Specifically, you should be able to handle an input of the format `"N#######S"`
+Your program will be started by running the `main` method of the `Main` class. You will see that this method will render your program and will provide interactivity for you in the future. On top of that, in order to test your world, for 3A, your project must
+support `getWorldFromInput`. Specifically, you should be able to handle an input of the format `"N#######S"`
 where each # is a digit and there can be an arbitrary number of `#`s. This corresponds to requesting a new world (`N`),
-providing a seed (`#`s), and then pressing `S` to indicate that the seed has been completely entered.
+providing a seed (`#`s), and then pressing `S` to indicate that the seed has been completely entered. The logic between your world generation in `Main` class and `getWorldFromInput` method should be similar. While you should render your program in `Main`, you should not do that in `getWorldFromInput` since this will be used for Autograder.
 
-We recommend that you do not implement `Core.Engine.interactWithKeyboard()` until you get to phase 2 of the project (
-interactivity), though you're welcome to do so at anytime. It will be easier to test drive and debug your world
-generator by using `interactWithInputString` instead.
 
-We also recommend not using `Core.Main.main` until you get to phase 2. It's easier to do phase 1 by writing your
-own `main` method in the class you interact with the most, that creates a renderer, calls `interactWithInputString`,
-then draws the result. If you write your own `main` method, you can ignore the `-s` flag and make the input string your
-only program argument. To provide a `main` method command line argument through IntelliJ, if you've already tried to run
-the `main` method, go to Run > Edit Configurations, and you can edit the Program Arguments box to input your string, as
-shown below.
-
-![program_args](img/program_args.png)
+<!-- ![program_args](img/program_args.png)
 
 If you haven't run the `main` method yet, right-click the green arrow next to your main method like shown below, and
 click "Modify Run Configurations" to access the same window as above.
 
-![access_config](img/access_config.png)
+Not needed anymore
+ -->
+
+<!-- ![access_config](img/access_config.png) -->
 
 Finally, we recommend that you make minimal modifications to the `Core.Main` class. It is a much better idea to delegate
 all the work of the program to other classes you will create.
 
-When your `Core.Engine.interactWithKeyboard()` method is run, your program must display a Main Menu that provides at
+When your `Core.Main.main()` method is run, your program must display a Main Menu that provides at
 LEAST the options to start a new world, load a previously saved world, and quit. The Main Menu should be fully navigable
 via the keyboard, using N for "new world", L for "load world", and Q for quit. You may include additional options or
 methods of navigation if you so choose.
@@ -252,13 +239,13 @@ seeds larger than this.
 
 The behavior of the "Load" command is described later in this specification.
 
-If the system is instead started with `Core.Engine.interactWithInputString()`, no menu should be displayed and nothing
-should be drawn to the screen. The system should otherwise process the given String as if a human user was pressing the
-given keys using the `Core.Engine.interactWithKeyboard()` method. For example, if we
-call `Core.Engine.interactWithInputString("N3412S")`, your program should generate a world with seed 3412 and return the
+If the system is being called with `Core.AutograderBuddy.getWorldFromInput`, no menu should be displayed and nothing
+should be drawn to the screen. The system should process the given String as if a human user was pressing the
+given keys using the `main()` method. For example, if we
+call `getWorldFromInput("N3412S")`, your program should generate a world with seed 3412 and return the
 generated 2D tile array. **Note that letters in the input string can be upper or lower case and your engine should be
 able to accept either keypress (i.e. "N" and "n" should both initiate the process of world generation).** You should **
-NOT** render any tiles or play any sound when using `interactWithInputString()`.
+NOT** render any tiles or play any sound when using `getWorldFromInput`.
 
 If you want to allow the user to have additional options, e.g. the ability to pick attributes of their character,
 specify world generation parameters, etc., you should create additional options. For example, you might add a fourth
@@ -268,10 +255,10 @@ N, L, and Q must be exactly as described in the spec!
 
 ### Requirements
 
-For Phase 1, you should be able to run `Main.main` by providing an input String, and have your program create a world,
+For 3A, you should be able to run `Main.main` by providing an input String, and have your program create a world,
 that adhere to the requirements mentioned above along with our randomness requirements mentioned in the **Submission and
 Grading section** below. Note that you should render the world to check your code by writing your own `main` method, but
-for the autograder, `interactWithInputString()` should not render the world, only returning the row as a `TETile` array.
+for the autograder, `getWorldFromInput` should not render the world, only returning the row as a `TETile` array.
 Worlds should be visibly different for different seeds provided to the program.
 
 ## Design Document
@@ -306,14 +293,14 @@ above a method, including any edge cases you are accounting for.
 
 ##### 3. Persistence
 
-You should only tackle this section after you are done with Phase 1. This section should describe how you are going to
+You should only tackle this section after you are done with 3A. This section should describe how you are going to
 save the state of a world, and load it again, following the requirements in the spec. Again, try to keep your
 explanations clear and short. Include all the components your program interacts with - classes, specific methods, and
 files you may create.
 
-## Phase 2: Interactivity
+## 3B: Interactivity
 
-In the second phase of the project, you'll add the ability for the user to actually interact with the world, and will
+In the second part of the project, you'll add the ability for the user to actually interact with the world, and will
 also add user interface (UI) elements to your world to make it feel more immersive and informative.
 
 The requirements for interactivity are as follows:
@@ -338,7 +325,7 @@ of your project must include:
 
 - A 2D grid of tiles showing the current state of the world.
 - A "Heads Up Display" (HUD) that provides additional information that maybe useful to the user. At the bare minimum,
-  this should include Text that describes the tile currently under the mouse pointer.
+  this should include Text that describes the tile currently under the mouse pointer. ** This should not be flickering, if it flickers you wo't be able to receive credit.**
 
 As an example of the bare minimum, the simple interface below displays a grid of tiles and a HUD that displays the
 description of the tile under the mouse pointer (click image for higher resolution):
@@ -361,7 +348,7 @@ some interesting visuals).
 [![mouseover_example2](img/UI_example2.png)](img/UI_example2.png)
 
 For information about how to specify the location of the HUD, see
-the `initialize(int width, int height, int xOffset, int yOffset)` method of `TERenderer` or see lab 12.
+the `initialize(int width, int height, int xOffset, int yOffset)` method of `TERenderer` or see lab 11.
 
 ### UI Behavior
 
@@ -386,9 +373,9 @@ This project uses `StdDraw` to handle user input. This results in a couple of im
   the arrow keys and escape will not work.
 - On some computers, it may not support holding down of keys without some significant modifications; i.e. you can't hold
   down the e key and keep moving east. If you can figure out how to support holding down of keys in a way that is
-  compatible with `interactWithInputString`, you're welcome to do so.
+  compatible with `getWorldFromInput`, you're welcome to do so.
 
-Because of the requirement that your system must handle String input (via `interactWithInputString`), your engine cannot
+Because of the requirement that your system must handle String input (via `getWorldFromInput`), your engine cannot
 make use of real time, i.e. your system cannot have any mechanic which depends on a certain amount of time passing in
 real life, since that would not be captured in an input string and would not lead to deterministic behavior when using
 that string vs. providing input with the keyboard. Keeping track of the number of turns that have elapsed is a perfectly
@@ -396,8 +383,6 @@ reasonable mechanic, and might be an interesting thing to include in your world,
 darker with each step. You're welcome to include other key presses like allowing the user to press space bar in
 order to wait one turn.
 
-If you're having trouble getting started on how to implement user interaction, check out `InputDemo.java` for
-inspiration.
 
 ### Saving and Loading
 
@@ -410,7 +395,7 @@ Within a running Java program, we use variables to store and load values. Keep i
 the variables will go out of scope. Thus, you will need to persist the state of your program on some files that your
 program should create.
 
-When the user restarts `byow.Core.Main` and presses `L`, the world should be in **exactly the same state as it was before
+When the user restarts `Core.Main` and presses `L`, the world should be in **exactly the same state as it was before
 the project was terminated**. This state includes the state of the random number generator! More on this in the next
 section. In the case that a user attempts to load but there is no previous save, your system should simply quit and the
 UI interface should close with no errors produced.
@@ -421,31 +406,31 @@ again with an input string starting with `L`.
 
 ### Interacting With Input Strings
 
-Your `Core.Engine.interactWithInputString(String s)` must be able to handle input strings that include movement
+Your `getWorldFromInput(String input)` must be able to handle input strings that include movement
 
 For example, the string `N543SWWWWAA` corresponds to the user creating a world with the seed 543, then moving up four
-times, then left twice. If we called `Core.Engine.interactWithInputString("N543SWWWWAA")`, your system would return
-a `TETile[][]` representing the world EXACTLY as it would be if we'd used `interactWithKeyboard` and typed these keys in
+times, then left twice. If we called `getWorldFromInput("N543SWWWWAA")`, your system would return
+a `TETile[][]` representing the world EXACTLY as it would be if we'd used `main` and typed these keys in
 manually. Since the system must be deterministic given a seed and a string of inputs, this will allow users to replay
 exactly what happened for a given sequence of inputs. This will also be handy for testing out your code, as well as for
 our autograder.
 
-`Core.Engine.interactWithInputString(String s)` must also be able to handle saving and loading in a replay string,
+`getWorldFromInput(String s)` must also be able to handle saving and loading in a replay string,
 e.g. `N25SDDWD:Q` would correspond to starting a new world with seed 25, then moving right, right, up, right, then
 quit/saving. The method would then return the 2D `TETile[][]` array at the time of save. If we then started the engine
 with the replay string `LDDDD`, we'd reload the world we just saved, move right four times, then return the
 2D `TETile[][]` array after the fourth move.
 
 **Your world should not change in any way between saves**, i.e. the same exact `TETile[][]` should be returned by the
-last call to `interactWithInputString` for all the following scenarios:
+last call to `getWorldFromInput` for all the following scenarios:
 
-- `interactWithInputString(N999SDDDWWWDDD)`
-- `interactWithInputString(N999SDDD:Q)`, then `interactWithInputString(LWWWDDD)`
-- `interactWithInputString(N999SDDD:Q)`, then `interactWithInputString(LWWW:Q)`, then `interactWithInputString(LDDD:Q)`
-- `interactWithInputString(N999SDDD:Q)`, then `interactWithInputString(L:Q)`, then `interactWithInputString(L:Q)`
-  then `interactWithInputString(LWWWDDD)`
+- `getWorldFromInput(N999SDDDWWWDDD)`
+- `getWorldFromInput(N999SDDD:Q)`, then `getWorldFromInput(LWWWDDD)`
+- `getWorldFromInput(N999SDDD:Q)`, then `getWorldFromInput(LWWW:Q)`, then `getWorldFromInput(LDDD:Q)`
+- `getWorldFromInput(N999SDDD:Q)`, then `getWorldFromInput(L:Q)`, then `getWorldFromInput(L:Q)`
+  then `getWorldFromInput(LWWWDDD)`
 
-we then called `interactWithInputString` with input `L:Q`, we'd expect the exact same world state to be saved and
+we then called `getWorldFromInput` with input `L:Q`, we'd expect the exact same world state to be saved and
 returned as `TETile[][]` as with the previous call where we provided `LDDDD`.
 
 You do not need to worry about replay strings that contain multiple saves, i.e. `N5SDD:QD:QDD:Q` is not considered a
@@ -453,17 +438,17 @@ valid replay string, since the program should have terminated before the second 
 invalid replay strings, i.e. you can assume that every replay string provided by the autograder starts with either `N#S`
 or `L`, where `#` represents the user entered seed.
 
-The return value of the `interactWithInputString` method should not depend on whether the input string ends with `:Q` or
+The return value of the `getWorldFromInput` method should not depend on whether the input string ends with `:Q` or
 not. The only difference is whether the world state is saved or not as a side effect of the method.
 
 ## Ambition Score
 
-1440 points of your project score will be based on features of your choosing, which we call your "ambition score". The
+28 points of your project score will be based on features of your choosing, which we call your "ambition score". The
 big idea is that beyond the base requirements of this project, we want you to try to polish your product a bit more and
-add some cool features. Below is a list of features worth either 1080 points (primary feature) or 360 points (secondary
+add some cool features. Below is a list of features worth either 21 points (primary feature) or 7 points (secondary
 feature). From these two categories, you are required to implement at least one primary feature in order to get full
-credit (not implementing a secondary feature is okay). This "ambition" category is only worth 1440 points.
-If you do, e.g., 1800 points worth, you do not get extra credit.
+credit (not implementing a secondary feature is okay). This "ambition" category is only worth 28 points.
+If you do, e.g., 35 points worth, you do not get extra credit.
 However, feel free to add as many features as you'd like if you have the time and inclination.
 
 **Your project must still meet the basic requirements described above!** For example, if you allow the user to use mouse
@@ -541,51 +526,51 @@ respective ambition point items to help clear any confusions. Yours do not need 
 Here is a list of the requirements and restrictions on your project. Please note that this section does not substitute
 reading the entire spec since there are a lot of details which are not captured here.
 
-- When using `interactWithKeyboard`, your program must have a menu screen that has New World (N), Load (L), and Quit (Q)
+- When using `main`, your program must have a menu screen that has New World (N), Load (L), and Quit (Q)
   options, navigable by the keyboard, which are all not case-sensitive.
 - When entering New World, the user should enter an integer seed followed by the S key. Upon pressing S, the world
   should be generated and displayed.
 - The UI should show the numbers entered so far when the user is giving the seed.
 - Must have pseudo-randomly generated worlds/variety in worlds, i.e. the world should be different for every seed.
-- All generated worlds must include all the visual features described in phase 1 above.
+- All generated worlds must include all the visual features described in 3A above.
 - Users must be able to move around in the world using W, A, S, and D keys.
 - Users must be able to press ":Q" to quit, and after starting the program up again, the L option on the main menu
   should load the world state **exactly as it was before**.
 - All random events should be pseudorandom. That is, your program gives deterministic behavior given a seed.
-- Users must be able to interact using `interactWithInputString`, and behavior other than accepting input and drawing to
-  the screen should be identical to `interactWithKeyboard`.
-- `interactWithInputString` must return a `TETile[][]` array of the world at the time after the last character in the
+- Users must be able to interact using `getWorldFromInput`, and behavior other than accepting input and drawing to
+  the screen should be identical to `main`.
+- `getWorldFromInput` must return a `TETile[][]` array of the world at the time after the last character in the
   string is processed.
-- `interactWithInputString` must be able to handle saving and loading, just like `interactWithKeyboard`.
+- `getWorldFromInput` must be able to handle saving and loading, just like `main`.
 - Your program must use our `TileEngine` and `StdDraw` for displaying graphics.
 - Your program must have a HUD, which displays relevant information somewhere outside the area displaying the
   world/tiles.
 - HUD must display a description of tile upon hovering over the tile.
 - Your program must not use real time. Nothing should be moving if no input is being received.
-- Your program must include features that make up 1440 points from the Ambition categories, **with at least one primary
+- Your program must include features that make up 28 points from the Ambition categories, **with at least one primary
   feature**.
 
 ## Submission and Scoring Details
 
 As usual, we'll have a grader for this project on Gradescope. **Remember to add your partner as a group member to your
-Gradescope submission.** In addition, you'll also submit [this form](https://forms.gle/L4od34RocUs8RCmu5) when you've
+Gradescope submission.** In addition, you'll also submit [this form](https://forms.gle/wTnVL4tpW7ZmsWsH9) when you've
 completed the project. More details in the next section about checkoffs. **If you do not submit this form then you will
 receive a 0 on the checkoff portion of the project.** Only one of your partners needs to submit this, but you should
 write the responses together.
 
-#### Partnership Preferences Form: 50 points
+#### Partnership Preferences Form: 2 points
 
-Filling out the [Project 3 Partnership Preferences Form](https://forms.gle/ERSX8MLCu7LS6d7T9) is worth 50 points for
-this project. You must fill out the form by **Wednesday, April 5th at 11:59pm** to get these points.
+Filling out the [Project 3 Partnership Preferences Form](https://forms.gle/ERSX8MLCu7LS6d7T9) is worth 2 points for
+this project. You must fill out the form by **Wednesday, November 1st at 11:59pm** to get these points.
 
-#### Autograders: 500 points
+#### Autograders: 12 points
 
 See [this section](#autograder-details) for autograder details.
 
-- Phase 1: 100 points
-- Phase 2: 400 points
+- 3A: 3 points
+- 3B: 9 points
 
-#### Phase 1 Manual Review: 250 points
+#### 3A Manual Review: 6 points
 
 A TA will pull your code, and run your game 5 separate times with 5 separate
 seeds. **They will then check that your 5 different worlds meet our randomness criteria defined below**:
@@ -598,19 +583,19 @@ seeds. **They will then check that your 5 different worlds meet our randomness c
 
 If you have questions or concerns about whether your world matches these criteria, you may ask a TA in Office Hours to confirm.
 
-**In order to get credit for the Phase 1 Checkoff, you must fill out [this form](https://forms.gle/YB6nfbJUXSm2YGku9) by Friday, April 14th at 11:59PM.**
+**In order to get credit for the 3A Checkoff, you must fill out [this form](https://forms.gle/vgZZ2Gj1cRcuRXy29) by Monday, November 13th at 11:59PM.**
 
-#### Partner Review Points: 640 points
+#### Partner Review: 10 points
 
-- [Phase 1 Review Form](https://forms.gle/xTQrwkVdFhGz4cf88): 320 points (due April 14th at 11:59PM)
-- [Phase 2 Review Form](https://forms.gle/tTmc9XAy5yZjHDHT9): 320 points (due April 24th at 11:59PM)
+- [3A Review Form](https://forms.gle/imHFgDx1RaYNzBtG8): 5 points (due November 13th at 11:59PM)
+- [3B & 3C Review Form](https://forms.gle/5EzeBoyLudjbMPNw8): 5 points (due November 27th at 11:59PM)
 
-#### Phase 2 Checkoff Demo: 4960 points
+#### 3C - Checkoff Demo: 95 points
 
-To get credit for the checkoff demo, you **must** submit [this form](https://forms.gle/L4od34RocUs8RCmu5).
+To get credit for the checkoff demo, you **must** submit [this form](https://forms.gle/wTnVL4tpW7ZmsWsH9).
 
-- 3520 points: Obeying base spec for Phase 1 and Phase 2.
-- 1440 points: Ambition points.
+- 67 points: Obeying base spec for 3A and 3B.
+- 28 points: Ambition points.
 
 **You'll also need identify a commit** so we can grade it. You should:
 
@@ -647,43 +632,43 @@ Once you've ensured that you have:
 1. Completed the project
 2. Read through all the specifications again to ensure you didn't miss any
 3. Identified the commit you want graded (see previous section)
-4. **Ensure you only use libraries in `library-sp23` or `java.*`**
+4. **Ensure you only use libraries in `library-fa23` or `java.*`**
 
-then you are ready to submit the [Project 3 Checkoff Form](https://forms.gle/L4od34RocUs8RCmu5).
+then you are ready to submit the [Project 3C Checkoff Form](https://forms.gle/peo2JEEqsX7AJgAg9).
 
 ## Autograder Details
 
-We have two autograders for BYOW: the Phase 1 grader and the Phase 2 grader.
+We have two autograders for BYOW: the 3A grader and the 3B grader.
 
-### Phase 1 Grader
+### 3A Grader
 
-Phase 1 is due on **April 14th at 11:59 PM** for 100 points. It will test:
+3A is due on **November 13th at 11:59 PM** for 3 points. It will test:
 
-- `interactWithInputString` returns a world
-- `interactWithInputString` recreates the same world given the same seed multiple times
-- `interactWithInputString` creates different worlds given different seeds
+- `getWorldFromInput` returns a world
+- `getWorldFromInput` recreates the same world given the same seed multiple times
+- `getWorldFromInput` creates different worlds given different seeds
 
 There will be **no** movement in these tests.
 
-### Phase 2 Grader
+### 3B Grader
 
-Phase 2 is due on **April 24th at 11:59 PM** for 400 points. It will test:
+3B is due on **November 27th at 11:59 PM** for 9 points. It will test:
 
-- `interactWithInputString` recreates the same world given the same seed and same movements multiple times
-- `interactWithInputString` creates different worlds given different seeds and different movement
-- `interactWithInputString` creates the same world even with saving and loading throughout the input string
+- `getWorldFromInput` recreates the same world given the same seed and same movements multiple times
+- `getWorldFromInput` creates different worlds given different seeds and different movement
+- `getWorldFromInput` creates the same world even with saving and loading throughout the input string
 
 **Remember to add your partner as a group member when submitting to the autograder.**
 
-### Phase 2 Large Language Models
+### 3B & 3C Large Language Models
 
 Recall that in the collaboration policy, we say:
 
 "Use of GitHub Copilot / GPT3 / etc. \[is permitted with extreme caution\] if you're just generating some amount of boilerplate code, that's ok. However, you should not use such tools to generate non-trivial methods. We are trying to build your fundamental skills, and leaning on an AI is going to cause you trouble in circumstances where you don't have an AI to help, such as exams. Any AI generated code must be cited and explicitly commented as such."
 
-For project 3 phase 2, we're relaxing this rule and it's OK to use large language models (LLMs) like ChatGPT, Bard, Bing, CoPilot, etc. for project 3 phase 2 however you want, with the important note that any code generated must be explicitly cited as being AI generated.
+For project 3B & 3C, we're relaxing this rule and it's OK to use large language models (LLMs) like ChatGPT, Bard, Bing, CoPilot, etc. for project 3A & 3B however you want, with the important note that any code generated must be explicitly cited as being AI generated.
 
-If you want LLMs to be useful for project 3 phase 2, you're going to want to give them small tasks. You should think of LLMs as assistant programmers you've hired to help you out on your project — they're very fast and sloppy programmers who have little common sense, and they often need very specific directions to be useful.
+If you want LLMs to be useful for project 3B & 3C, you're going to want to give them small tasks. You should think of LLMs as assistant programmers you've hired to help you out on your project — they're very fast and sloppy programmers who have little common sense, and they often need very specific directions to be useful.
 
 If you give high level prompts like write a "write a lighting engine for my game with the code below", it's going to do badly. Prompts like "write a function that takes a Color and a brightness level and returns a new color with the given brightness" are really great use cases for LLMs.
 
@@ -691,6 +676,3 @@ If you give high level prompts like write a "write a lighting engine for my game
 
 Another possible use for LLMs is for debugging! I've occasionally given an LLM some code, described my issue, and it's been able to figure out what was wrong.
 
-### The Crab Claw
-
-To get "The Crab Claw", you should create a public or unlisted youtube video demoing your project (with narration!) and fill out [this form](https://forms.gle/4K72dSnJeCtFiX1U7).
