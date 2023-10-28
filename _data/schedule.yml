@@ -928,6 +928,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRprqOwH0sojH3VLONWXtYM0"
         - name: slides
           link: "https://docs.google.com/presentation/d/1DOXjoC-gBSISM1DKlbVSNuOhnS0CY3kzIg6nM-mIlek"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=4aNpmRVN6nA"
         # - name: check in
         #   link: https://forms.gle/LKCByxFmEpRVFVHo9
       reading: > # Format in Markdown
@@ -975,13 +977,13 @@
 
   days:
     - day: 2023-10-30
-      lecture_topic: Basic Sorts
-      class: outdated
+      lecture_topic: "Sorting 1: Basic Sorts"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=mBIUU38XNyk
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrK9o_QZyGOCbQVFTsqOPtN"
         - name: slides
-          link: https://docs.google.com/presentation/d/14RfFPU3RX9iDpE4OCXlXKmtaoxZbdNdcXTGhC9dr9xQ/edit#slide=id.g22a557a7614_0_0
+          link: "https://docs.google.com/presentation/d/1nJUUFB1iKLgofw7b2pU21gU5oHVmhzaQb7PmEeatm_4"
       reading: >
         [Ch 29](https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts)
       assignments:
@@ -991,13 +993,13 @@
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-01
-      lecture_topic: Quick Sort
-      class: outdated
+      lecture_topic: "Sorting 2: Quick Sort"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/H3Kn8cqfOtU
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqsfDWZNS86oYmHFY6UKA2t"
         - name: slides
-          link: https://docs.google.com/presentation/d/1_7VuU3cynSGKbvzHk0PfK65HeHFT-jDp3XrbihRXetw/
+          link: "https://docs.google.com/presentation/d/1h9qHvSlDFn0WqoxB4v6ZaeEXEepsuwVM78uO4UNeKH0"
       reading: > # Format in Markdown
         [Ch 30](https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort)
     - day: 2023-11-03
@@ -1050,13 +1052,13 @@
       released: false
   days:
     - day: 2023-11-06
-      lecture_topic: More Quicksort, Quick Select, Stability
-      class: outdated
+      lecture_topic: "Sorting 3: More Quicksort, Quick Select, Stability"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/l1vAXGWPeG4
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrHHQP93qqc_QBNBF_WEQLy"
         - name: slides
-          link: https://docs.google.com/presentation/d/1jcIhrPiw6ycHG0cLpjJ5V__TdB1fOVqe-y0buFSd-SY/
+          link: "https://docs.google.com/presentation/d/1hRa_hUlQIvwc2K2BUtvyibYiPrbWiclB5uPmhiJXnbQ"
       reading: > # Format in Markdown
         [Ch 32](https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary)
       assignments:
@@ -1113,13 +1115,13 @@
       released: false
   days:
     - day: 2023-11-13
-      lecture_topic: Sorting and Algorithmic Bounds
-      class: outdated
+      lecture_topic: "Sorting 4: Sorting and Algorithmic Bounds"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD7y8-q2qpfhZ-fzphsk3ETf
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqEadgCMXeo1gnlIxnETooG"
         - name: slides
-          link: https://docs.google.com/presentation/d/18wdzl7XSbg6n5FsPvRA5-Xe2AtqeAQ2I1fT1BgMAHaU
+          link: "https://docs.google.com/presentation/d/1PJ_ii69wSdGNW5LcxfxqPxD9NIedOg_XC7wg51K_29E"
       reading: > # Format in Markdown
         [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
       assignments:
@@ -1129,13 +1131,13 @@
           cols: 2
           released: false
     - day: 2023-11-15
-      lecture_topic: Radix Sorts
-      class: outdated
+      lecture_topic: "Sorting 5: Radix Sorts"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=AHgK4UqP_ig
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr4cg5TeJZplLTlOVmMNE0d"
         - name: slides
-          link: https://docs.google.com/presentation/d/1p12fmvg4PXeMHBufBeXTo_BeFiSdl9l5jKeu13LEpbc
+          link: "https://docs.google.com/presentation/d/1BmUyKesAHUmyXmhrX5woC2wvSTX7zgIcxsAFKAstk1g"
       reading: > # Format in Markdown
         [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
       assignments:
@@ -1145,13 +1147,13 @@
           rows: 2 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-17
-      lecture_topic: Sorting and Data Structures Conclusion
-      class: outdated
+      lecture_topic: "Sorting 6: Radix vs. Comparison Sorting"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4i4ozOgclL_5HMpZrHYA8c&disable_polymer=true
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoDV1sFRy3Hdx0N6BMZjI1n"
         - name: slides
-          link: https://docs.google.com/presentation/d/1ILp-tXesmyfkeJ_hfd80fK1CxKB8os_5pCSyDJ-n6Nk/
+          link: "https://docs.google.com/presentation/d/1SgHnDc3MV2otqvP7fHS0VcRNhqEAkYgJdJ_GWDmG8Xo"
       reading: > # Format in Markdown
         [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)
 - week: 14
