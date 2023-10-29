@@ -389,7 +389,7 @@ minute!
 ### Persistence (Ungraded)
 
 In Project 3, you'll have to implement the ability to save and load your game state, as 
-mentioned in this part of the project [spec] (not updated yet). 
+mentioned in this part of the project [spec](../../proj/proj3/index.md/#saving-and-loading). 
 While this part of the lab is not graded or required, we highly recommend that you do 
 start thinking early about you might want to do implement this feature. Note that we haven't 
 talked too much about interactivity in this lab, so the goal of this portion is for you
