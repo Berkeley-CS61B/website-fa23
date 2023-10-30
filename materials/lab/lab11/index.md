@@ -23,7 +23,7 @@ your world in Project 3. Next week's lab will go more into implementing interact
 which is relevant towards building a part of Project 3 (but more on this in the 
 next lab).
 
-We've also included an optional, but highly recommend 
+We've also included an optional, but highly recommended
 [part](#persistence-ungraded) of this lab that 
 touches on how to read and write into a file, which will come in 
 handy for a later portion of Project 3 (saving and loading).
