@@ -29,12 +29,16 @@
           released: false
           link: "https://docs.google.com/presentation/d/1ykhZDgYmaUiGWkNW5CUGf2QdQt9GoMiVtUesajjxAXs/edit?usp=share_link"
   labs:
-    - name: Interactivity in Project 3 (due 11/13)
+    - name: Tetris (due 11/13)
       link: materials/lab/lab12/
       resource_links:
         - name: slides
           released: false
-          link: "https://docs.google.com/presentation/d/1ZWegt0VUifxxL79V-M3nJFHprebB3XBTN1xbTHT4l9s"
+          link: ""
+        - name: video
+          released: false
+          link: ""
+
       released: false
   days:
     - day: 2023-11-06

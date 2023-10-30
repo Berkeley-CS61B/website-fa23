@@ -30,7 +30,15 @@
           link: "https://docs.google.com/presentation/d/1GMU44_pRrfpRl9aFjbf4SBANmQf1UbV3cVjWpohQs9k/edit?usp=share_link"
   labs:
     - name: Getting Started on Project 3 (due 11/3)
-      released: false
+      link: materials/lab/lab11
+      released: true
+      resource_links:
+        - name: video
+          released: false
+          link: ""
+        - name: slides
+          released: true
+          link: "https://docs.google.com/presentation/d/1cyHE9V75sSOErKaLcEqP22JTazt0E-lWc-PFtJGdzdo/edit?usp=sharing"
 
   days:
     - day: 2023-10-30
