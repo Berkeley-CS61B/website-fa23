@@ -3,31 +3,31 @@
   rows: 3
   discussions:
     - name: Graphs II, Tries
-      released: false
-      link: "https://drive.google.com/file/d/1xKHMF0kUsj2_qx4KgQEapL69TZocMAje/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/regular/regular11.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1RDY7tsuOBe3T3XW1xdmaT_eWZam1tb-E/view?usp=sharing"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/regular/regular11sol.pdf"
         - name: video
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrD3GyILak06gbTN0rbKJat"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1mT6m3jleTW3B1JzPFv116nUnboWj29-0eBqoiOTxgLY/edit?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1xeGiQ8FmWdbwCSfZ9MKqOZuGFTW0fpgrCOiVMAhwbI4/edit?usp=sharing"
     - name: Graphs II, Tries (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/1T8nHuKBz7Za6sodZ8U1QszvV7XzAH-vM/view?usp=share_link"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/examlevel/examlevel11.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1BHLJLyvzXPLu_6WKNRA6iSKqtFekvs8_/view?usp=share_link"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/examlevel/examlevel11sol.pdf"
         - name: video
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRoboeJhEoJbAb7U_W7KBvoj"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1GMU44_pRrfpRl9aFjbf4SBANmQf1UbV3cVjWpohQs9k/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1XXE_1qfQEmDVpldBFJZ8VrnEsjwn9uDQ90DVbLBAqEQ/edit?usp=sharing"
   labs:
     - name: Getting Started on Project 3 (due 11/3)
       link: materials/lab/lab11
