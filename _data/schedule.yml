@@ -917,6 +917,8 @@
       lecture_links:
         - name: slides
           link: https://docs.google.com/presentation/d/1ZQ35zGrbnMCIk2kr37bKyxc4RMvRBFrvZd1me2Av2hQ/
+        - name: recording
+          link: "https://www.youtube.com/watch?v=JfATr-BBPY0"
       reading: >
         [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
 
