@@ -112,8 +112,12 @@ through `Movement.java` and the `StdDraw` API!
 ### `incrementScore`
 
 This is a helper method to help update your score. The player's score increases based on the number of 
-lines cleared, that is, it increases by the lines clear multiplied by 100 points. The minimum 
-number of lines that can be cleared is 1 and the maximum is 4. 
+lines cleared The minimum number of lines that can be cleared is 1 and the maximum is 4. For each case, 
+the score should increase as below for number of lines cleared: 
+- 1: 100 points
+- 2: 300 points
+- 3: 500 points
+- 4: 800 points
 
 {% include alert.html type="task" content="
 **TASK**: Fill out `incrementScore` so the player's score increases as described above. 
@@ -202,5 +206,9 @@ For the checkoff, we'll be looking for the following:
 
 If you're getting checked off asynchronously through Ed, you will need to provide a screen recording of all of the above, 
 so please plan ahead of time as it will take time to make the recording and to get checked off.
+
+## Credits
+
+4 TAs were harmed in the creation of this lab (Noah Adhikari, Erik Nelson, Omar Yu and Jasmine Lin). 
 
 
