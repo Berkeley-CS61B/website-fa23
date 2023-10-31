@@ -642,7 +642,7 @@ Once you've ensured that you have:
 
 ## Autograder Details
 
-We have two autograders for BYOW: the 3A grader and the 3B grader.
+We have two autograders for BYOW: the 3A grader and the 3B grader. We don't have token restrictions for these Autograders.
 
 ### 3A Grader
 
@@ -664,7 +664,7 @@ There will be **no** movement in these tests.
 
 **Remember to add your partner as a group member when submitting to the autograder.**
 
-## 3C Large Language Models
+## Large Language Models (LLMs)
 
 Recall that in the collaboration policy, we say:
 
