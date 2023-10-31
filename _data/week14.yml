@@ -20,7 +20,7 @@
       reading: >
         [Ch 37](https://cs61b-2.gitbook.io/cs61b-textbook/37-software-engineering-iv)
       assignments:
-        - title: "Project 3 Phase 2 (due 11/27)"
+        - title: "Project 3B & 3C (due 11/27)"
           link: materials/proj/proj3
           released: false
           rows: 3 # the number of rows the assignment spans
