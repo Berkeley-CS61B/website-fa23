@@ -739,7 +739,7 @@
           rows: 1
           cols: 1
           released: false
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 1
@@ -758,7 +758,7 @@
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 2
@@ -905,7 +905,7 @@
       reading: > # Format in Markdown
         [Ch 26](httpsae://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
       assignments:
-        - title: Project 2B due 10/27
+        - title: Project 2B due 10/30
           link: materials/proj/proj2b
           rows: 2
           cols: 2
@@ -938,7 +938,7 @@
         [Ch 28](https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition)
       assignments:
         - title: |
-            <span class="proj">[Project 2B due 10/27]</span>
+            <span class="proj">[Project 2B due 10/30]</span>
           link: /materials/proj/proj2b
           released: false
           rows: 1 # the number of rows the assignment spans

@@ -83,7 +83,7 @@
           rows: 1
           cols: 1
           released: false
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 1
@@ -102,7 +102,7 @@
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 2
