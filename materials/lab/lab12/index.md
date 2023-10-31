@@ -34,7 +34,7 @@ All of your implementation will be in `Tetris.java`. We have also provided two o
 which contains logic for rotating and moving the pieces. You won't be writing 
 anything in either files directly, but these classes are used in `Tetris.java`.
 We'll also be working with a library, `StdDraw`, to help implement some features,
-such as user input. You may find this library very useful for Project 3.
+such as user input. You will find this library very useful for Project 3.
 
 While we want to have a working game of `Tetris.java`, we should break it down into 
 smaller steps instead of tackling it all at once. The game can be loosely broken down 
@@ -77,9 +77,9 @@ have to fill out to get your game working.
 
 {% include alert.html type="info" content="
 **INFO**: Please make sure to read through `Tetris.java`, `Tetrimino.java`, and `Movement.java`
-to gain familiarity with the helper methods in this lab. While you don't necessarily need 
-to understand what every helper method does (abstraction!), you will find some of them 
-useful to use and it's always good to know what you're working with.
+to gain familiarity with the helper methods in this lab. While you don't necessarily need to 
+understand how every helper method works (abstraction!), you will find some of them useful, 
+so make sure that you understand what some of them do!
 " %}
 
 ### `updateBoard`
@@ -91,6 +91,7 @@ that will be useful for implementing this part of the lab.
 
 The next step is to implement the actions that are taken from specific keys. 
 The user is able to input 5 keys: 
+
 - `a`: move the current piece towards the left by one tile
 - `s`: move the current piece downwards by one tile
 - `d`: move the current piece towards the right by one tile 
@@ -99,10 +100,9 @@ The user is able to input 5 keys:
 
 We recommend that you look at some of the provided helper methods in `Movement.java`
 to see which ones you can call on to move a piece or rotate a piece (**you should not have to implement 
-the logic yourself, but instead, rely on understanding what the helper methods do**). 
+any of the movement logic yourself, but instead, rely on understanding what the helper methods do**). 
 
-A `Movement` instance has also been provided for you, so you may use this to help you implement this 
-method. 
+A `Movement` instance has also been provided for you to use. 
 
 {% include alert.html type="task" content="
 **TASK**: Fill out the method according to the description above. As a reminder, make sure to read 
@@ -112,8 +112,8 @@ through `Movement.java` and the `StdDraw` API!
 ### `incrementScore`
 
 This is a helper method to help update your score. The player's score increases based on the number of 
-lines cleared The minimum number of lines that can be cleared is 1 and the maximum is 4. For each case, 
-the score should increase as below for number of lines cleared: 
+lines cleared. There are four cases that this can be broken down into, as listed below:
+
 - 1: 100 points
 - 2: 300 points
 - 3: 500 points
@@ -125,14 +125,19 @@ the score should increase as below for number of lines cleared:
 
 ### `clearLines`
 
-Whenever a line is completed in Tetris, we want to update our score. To help check if a row or multiple rows 
-have been horizontally filled after a piece is placed, we want to implement this method. Let's break this down:
-- To check if a row is full, we need to iterate through the entire height of our board. 
-  - We track if a row is full through a boolean variable. The default is set to true. 
-    - Note that we use a while loop with this boolean variable. If it is set to false, we no longer need to continue to check our rows.
-  - We then go through the entire row at the current height. If a tile is equal to `Tileset.NOTHING`, then we set our boolean variable to false.
-  - If we find that the current row is full, then we need to move all the rows above it down. 
-  - Once the rows are moved down, then we update the amount of lines that are cleared and continue to check if there are any more complete rows.
+Whenever a line is completed in Tetris, we want to update our score and clear the line. To help 
+check if a row or multiple rows have been horizontally filled after a piece is placed, we want to 
+implement this method. Let's break this down:
+
+- To check if a row is complete/full, we need to iterate through the entire height of our board. 
+  - We track if a row is full through a boolean variable. The default is set to true for each iteration of the outer loop. 
+    - Note that we use a while loop with this boolean variable. If it is set to false, we can exit out of the loop and move 
+      onto the next row above as it means we have found an incomplete row. 
+  - We then go through the entire row at the current height. If a tile is equal to `Tileset.NOTHING`, then we set our boolean variable to false
+    (as it indicates that we have a gap in our row).
+  - If we find that the current row is complete, then we need to move all the rows above it down and effectively clear the current row. 
+  - Once the rows are moved down, then we update the amount of lines that are cleared and continue to check if there are any more complete rows
+    after clearing the previous row (note that we don't move up the board until we find another incomplete row, why?).
 - At the very end, we want to update our score based on the number of lines cleared.
 
 {% include alert.html type="task" content="
@@ -144,10 +149,12 @@ board accordingly.
 
 This is where the main game logic takes place. Comments have been left in the skeleton code
 to help you get started. A couple of things to note:
+
 - You'll need to ensure that the game does not exit or stop until the game is over (hint: how do you make sure this happens continuously?).
 - Once you've completed the step above, you will need to check if you should render a new frame.
   - Specifically, you'll want to call on the helper method `shouldRenderFrame()`.
-  - You don't need to know what this does, but it's to prevent flickering on the game (it should work without the condition too, but it won't be as seamless)
+  - You don't need to know what this does, but it's to prevent flickering in the game (it should work without the condition too,
+    but it won't be as seamless of an experience).
   - The next steps should be done within this check, so you'll have something like the below code snippet in your implementation. 
 
   ```sh
@@ -162,7 +169,7 @@ to help you get started. A couple of things to note:
   - Once a piece has been placed and can no longer move, make sure to check if any lines need to be cleared and spawn another piece. 
 - Make sure to update the board based on the user input and then render those changes.
 
-**For this part, please use the helper methods that are provided or the ones you've already implemented to complete
+**For this part, please use the helper methods that are provided and/or the ones you've already implemented to complete
 this portion of the lab.** 
 
 {% include alert.html type="task" content="
@@ -172,12 +179,13 @@ this portion of the lab.**
 ### `renderScore`
 
 At this point, if you run the game, you'll notice that something is missing. The score! That's because we haven't 
-yet rendered it. Fill out the method `renderScore` so that the score displays and you can use this to verify 
+yet displayed it. Fill out the method `renderScore` so that the score displays, and you can use this to verify 
 if your score is updated correctly when lines are completed in the game. 
 
-Some notes: 
+Here are the steps: 
+
 - Make sure to set the color of the text to white (rgb value of (255, 255, 255)) so the score is visible against a black background. 
-- The score should appear at position x = 7, y = 19 
+- The score should appear at position x = 7, y = 19. 
 - Make sure to render the score once it's drawn!
 
 Here are some useful methods to look at from the `StdDraw` library: 
@@ -200,8 +208,9 @@ come to labs or office hours to get checked off in-person, or you may get checke
 
 For the checkoff, we'll be looking for the following: 
 - Pieces can be moved left, down, and right with the `a`, `s` and `d` keys respectively and rotated left and right with `q` and `w` respectively. 
+- Other keys should not do anything (i.e. if we press on `h`, that should not affect the game board)
 - When a row is completed, the score is updated accordingly. 
-- The score renders throughout the game and doesn't disappear at any point. 
+- The score renders throughout the game and does not disappear at any point. 
 - The game stops once the game over condition is met.
 
 If you're getting checked off asynchronously through Ed, you will need to provide a screen recording of all of the above, 
