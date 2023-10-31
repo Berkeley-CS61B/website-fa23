@@ -129,7 +129,7 @@ Whenever a line is completed in Tetris, we want to update our score and clear th
 check if a row or multiple rows have been horizontally filled after a piece is placed, we want to 
 implement this method. Let's break this down:
 
-- To check if a row is complete/full, we need to iterate through the entire height of our board. 
+- We need to iterate through the entire height of our board. As we do so, we want to check row by row if any of the rows are complete. 
   - We track if a row is full through a boolean variable. The default is set to true for each iteration of the outer loop. 
     - Note that we use a while loop with this boolean variable. If it is set to false, we can exit out of the loop and move 
       onto the next row above as it means we have found an incomplete row. 
