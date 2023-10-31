@@ -979,8 +979,8 @@
       released: true
       resource_links:
         - name: video
-          released: false
-          link: ""
+          released: true
+          link: "https://youtu.be/VxnwrEsQUjc"
         - name: slides
           released: true
           link: "https://docs.google.com/presentation/d/1cyHE9V75sSOErKaLcEqP22JTazt0E-lWc-PFtJGdzdo/edit?usp=sharing"
