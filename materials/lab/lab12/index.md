@@ -123,7 +123,7 @@ lines cleared. There are four cases that this can be broken down into, as listed
 **TASK**: Fill out `incrementScore` so the player's score increases as described above. 
 " %}
 
-### `clearLines`
+### `clearLines` [EDIT DOWN]
 
 Whenever a line is completed in Tetris, we want to update our score and clear the line. To help 
 check if a row or multiple rows have been horizontally filled after a piece is placed, we want to 
