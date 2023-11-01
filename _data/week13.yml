@@ -45,7 +45,7 @@
         [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
       assignments:
         - title: |
-            <span class="proj">[Project 3 Phase 1 due 11/17]</span>
+            <span class="proj">[Project 3A due 11/17]</span>
           rows: 1
           cols: 2
           released: false
@@ -60,9 +60,9 @@
       reading: > # Format in Markdown
         [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
       assignments:
-        - title: "Project 3 Phase 2 (due 11/27)"
+        - title: "Project 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 2 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-17

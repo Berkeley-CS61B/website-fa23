@@ -739,7 +739,7 @@
           rows: 1
           cols: 1
           released: false
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 1
@@ -758,7 +758,7 @@
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 2
@@ -905,7 +905,7 @@
       reading: > # Format in Markdown
         [Ch 26](httpsae://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
       assignments:
-        - title: Project 2B due 10/27
+        - title: Project 2B due 10/30
           link: materials/proj/proj2b
           rows: 2
           cols: 2
@@ -938,7 +938,7 @@
         [Ch 28](https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition)
       assignments:
         - title: |
-            <span class="proj">[Project 2B due 10/27]</span>
+            <span class="proj">[Project 2B due 10/30]</span>
           link: /materials/proj/proj2b
           released: false
           rows: 1 # the number of rows the assignment spans
@@ -999,9 +999,9 @@
       reading: >
         [Ch 29](https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts)
       assignments:
-        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
+        - title: "Project 3 3A (due 11/13) and 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-01
@@ -1078,9 +1078,9 @@
       reading: > # Format in Markdown
         [Ch 32](https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary)
       assignments:
-        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
+        - title: "Project 3A (due 11/13) and 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-08
@@ -1142,7 +1142,7 @@
         [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
       assignments:
         - title: |
-            <span class="proj">[Project 3 Phase 1 due 11/17]</span>
+            <span class="proj">[Project 3A due 11/17]</span>
           rows: 1
           cols: 2
           released: false
@@ -1157,9 +1157,9 @@
       reading: > # Format in Markdown
         [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
       assignments:
-        - title: "Project 3 Phase 2 (due 11/27)"
+        - title: "Project 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 2 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-17
@@ -1194,9 +1194,9 @@
       reading: >
         [Ch 37](https://cs61b-2.gitbook.io/cs61b-textbook/37-software-engineering-iv)
       assignments:
-        - title: "Project 3 Phase 2 (due 11/27)"
+        - title: "Project 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - custom: |
@@ -1232,7 +1232,7 @@
         [Ch 38](https://cs61b-2.gitbook.io/cs61b-textbook/38.-compression-and-complexity)
       assignments:
         - title: |
-            <span class="proj">[Project 3 Phase 2 due 11/27]</span>
+            <span class="proj">[Project 3B & 3C 11/27]</span>
           rows: 1
           cols: 2
           released: false

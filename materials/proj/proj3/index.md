@@ -35,15 +35,15 @@ because we learned about them in class. Only use these tools if you feel comfort
 
 A video playlist (from Spring 2018) discussing tips for working on this project can be
 found [at this link](https://www.youtube.com/playlist?list=PL8FaHk7qbOD6REWjsJd5jz9fpXO5_3ebY&disable_polymer=true).
-Note that the API has changed slightly, but the basic ideas are all still true. Slides for these videos can be
-found [at this link](https://docs.google.com/presentation/d/1XIu1L0k18A2QUlZuFYlJqjrQqSRNQp05qr1OmoBQkFE/edit?usp=sharing).
+A walkthrough of the new skeleton code is also available [here](https://youtu.be/A8NlkICBWL8).
 
-Please also note that since the structure of the project has been changed, Phase 1 will refer to 3A of the project.
+Please also note that since the structure of the project has been changed, Phase 1 will refer to part 3A of the project.
+
 
 There are several key deadlines for this assignment:
 
-- Team formation: You must submit the [Project 3 Partnerships Form](https://forms.gle/DASC9VZhDRVfU5tw9) by
-  Wednesday, November 2nd at 11:59 PM. You will **not** be able to change your partner later. Read and understand
+- Team formation: You must submit the [Project 3 Partnerships Form](https://forms.gle/RTjyhVitifNzfXz78) by
+  Thursday, November 2nd at 11:59 PM. You will **not** be able to change your partner later. Read and understand
   the [partnership guidelines](../../guides/partnerships) before starting the assignment.
 - Project 3A - World Generation: Due on Gradescope by 11/13 at 11:59 PM.
 - Project 3B - Interactivity: Due on Gradescope by 11/27 at 11:59 PM.
@@ -51,17 +51,17 @@ There are several key deadlines for this assignment:
 
 Although, Project 3B & 3C are due same day, since you need to be manually checked off for "Ambition" part, we made a division between "Interactivity" and "Ambition & Demos". Once you submit to Gradescope for 3B, your code should also have "Ambition" features because we will be asking your Gradescope submission ID from 3B in 3C Form.
 
-You cannot submit Project 3B & 3C late, as it will be graded during a lab checkoff with a TA. While in theory you could submit 3A and the supporting labs (Lab 12 and Lab 13) late,
+You cannot submit Project 3B & 3C late, as it will be graded during a lab checkoff with a TA. While in theory you could submit 3A and the supporting labs (Lab 11 and Lab 12) late,
 Project 3B & 3C builds upon these assignments, so it is unlikely that you will be able to submit these
 assignments late and still complete Project 3B on time.
 
 For convenience, here are the form links for this project:
 
-- [Partnerships Form](https://forms.gle/DASC9VZhDRVfU5tw9)
-- [Project 3A Reflection](https://forms.gle/imHFgDx1RaYNzBtG8)
-- [Project 3A Checkoff](https://forms.gle/vgZZ2Gj1cRcuRXy29)
-- [Project 3B & 3C Reflection](https://forms.gle/5EzeBoyLudjbMPNw8)
-- [Project 3C Checkoff](https://forms.gle/peo2JEEqsX7AJgAg9)
+- [Partnerships Form](https://forms.gle/RTjyhVitifNzfXz78)
+- [Project 3A Reflection](https://forms.gle/RTjyhVitifNzfXz78)
+- [Project 3A Checkoff](https://forms.gle/kEHSEYw4HN1GR1hE7)
+- [Project 3B & 3C Reflection](https://forms.gle/wmCQ5KC7WLnW5mrc8)
+- [Project 3C Checkoff](https://forms.gle/6YfiQJW5PQEWmSgLA)
 
 Now on to the assignment spec!
 
@@ -93,8 +93,8 @@ the worlds you generate might even be beautiful.
 
 ## Skeleton Code
 
-As you did in Project 2B, use `git pull skeleton main` in your group repo to pull the skeleton code. The skeleton code
-contains two key packages that you'll be using: `TileEngine` and `Core`. `TileEngine` provides some basic methods for rendering, as well
+Use `git pull skeleton main` in your group repo to pull the skeleton code. The skeleton code
+contains two key packages that you'll be using: `TileEngine`, `Core` and `Utils`. `TileEngine` provides some basic methods for rendering, as well
 as basic code structure for tiles, and contains:
 
 - `TERenderer.java` - contains rendering-related methods.
@@ -111,12 +111,14 @@ classes:
 - `AutograderBuddy.java` - Provides two method for interacting with your system. `TETile[][] getWorldFromInput(String input)` simulates the game without rendering by returning the world that would result if the input string had been typed on the keyboard. You should fill this out for autograder.
 - `Main.java` - How the user starts the entire system. Reads command line arguments and calls the appropriate function
   in `World.java`.
-- `World.java` - Contains the two methods that allow interacting with your system.
+- `World.java` - YOUR WORLD!
+
+This is a open ended project. As you can see, we gave you just one file called `World.java` where you can do necessary things to create your world! The aim of this project to give you freedom to create your own world with different desing choices. You can create any other classes if you want. Primarly, you can use `World.java` for the logic behind your world creation.
 
 The last package `Utils` contains everything that you might need to implement your `World.java` class.
 
 - `RandomUtils.java` - Provides handful of functions that might be useful.
-- `FileUtils.java` - Library of simple file operations.
+- `FileUtils.java` - Library of simple file operations. You can find related APIs [here](https://docs.oracle.com/javase/8/docs/api/java/io/File.html) and [here](https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html).
 
 This project makes heavy use of `StdDraw`, which is a package that has basic graphics rendering capabilities.
 Additionally, it supports user interaction with keyboard and mouse clicks. You will likely need to consult the API
@@ -146,13 +148,13 @@ are listed below:
 - The world should contain a random number of rooms and hallways.
 - The locations of the rooms and hallways should be random.
 - The width and height of rooms should be random.
-- Hallways should have a width of 1 or 2 tiles and a random length.
+- Hallways should have a width of 1 tile and a random length.
 - Rooms and hallways must have walls that are visually distinct from floors. Walls and floors should be visually
   distinct from unused spaces.
 - Rooms and hallways should be connected, i.e. there should not be gaps in the floor between adjacent rooms or hallways.
 - All rooms should be reachable, i.e. there should be no rooms with no way to enter
-- The world should be substantially different each time, i.e. you should not have the same basic layout with easily
-  predictable features
+- The world should be substantially different each time, i.e. you should **NOT** have the same basic layout with easily
+  predictable features. FAQ will have a description of what "substantially different" means.
 
 As an example of a world that meets all of these requirements (click for higher resolution), see the image below. In
 this image, # represents a wall tile, a dot represents a floor tile, and there is also one golden colored wall segment
@@ -220,10 +222,10 @@ Not needed anymore
 
 <!-- ![access_config](img/access_config.png) -->
 
-Finally, we recommend that you make minimal modifications to the `Core.Main` class. It is a much better idea to delegate
+Finally, we recommend that you make minimal modifications to the `core.Main` class. It is a much better idea to delegate
 all the work of the program to other classes you will create.
 
-When your `Core.Main.main()` method is run, your program must display a Main Menu that provides at
+When your `core.Main.main()` method is run, your program must display a Main Menu that provides at
 LEAST the options to start a new world, load a previously saved world, and quit. The Main Menu should be fully navigable
 via the keyboard, using N for "new world", L for "load world", and Q for quit. You may include additional options or
 methods of navigation if you so choose.
@@ -239,7 +241,7 @@ seeds larger than this.
 
 The behavior of the "Load" command is described later in this specification.
 
-If the system is being called with `Core.AutograderBuddy.getWorldFromInput`, no menu should be displayed and nothing
+If the system is being called with `core.AutograderBuddy.getWorldFromInput`, no menu should be displayed and nothing
 should be drawn to the screen. The system should process the given String as if a human user was pressing the
 given keys using the `main()` method. For example, if we
 call `getWorldFromInput("N3412S")`, your program should generate a world with seed 3412 and return the
@@ -253,12 +255,14 @@ option "S" to the main menu for "select creature and create new world" if you wa
 of creature to play as. These additional options may have arbitrary behavior of your choosing, however, the behavior of
 N, L, and Q must be exactly as described in the spec!
 
+
+
 ### Requirements
 
 For 3A, you should be able to run `Main.main` by providing an input String, and have your program create a world,
 that adhere to the requirements mentioned above along with our randomness requirements mentioned in the **Submission and
 Grading section** below. Note that you should render the world to check your code by writing your own `main` method, but
-for the autograder, `getWorldFromInput` should not render the world, only returning the row as a `TETile` array.
+for the autograder, `getWorldFromInput` should not render the world, only returning the world as a `TETile` array.
 Worlds should be visibly different for different seeds provided to the program.
 
 ## Design Document
@@ -296,7 +300,7 @@ above a method, including any edge cases you are accounting for.
 You should only tackle this section after you are done with 3A. This section should describe how you are going to
 save the state of a world, and load it again, following the requirements in the spec. Again, try to keep your
 explanations clear and short. Include all the components your program interacts with - classes, specific methods, and
-files you may create.
+files you may create. You can check out [lab 11](../../lab/lab11).
 
 ## 3B: Interactivity
 
@@ -325,7 +329,7 @@ of your project must include:
 
 - A 2D grid of tiles showing the current state of the world.
 - A "Heads Up Display" (HUD) that provides additional information that maybe useful to the user. At the bare minimum,
-  this should include Text that describes the tile currently under the mouse pointer. ** This should not be flickering, if it flickers you wo't be able to receive credit.**
+  this should include Text that describes the tile currently under the mouse pointer. **This should not be flickering, if it flickers you won't be able to receive credit.**
 
 As an example of the bare minimum, the simple interface below displays a grid of tiles and a HUD that displays the
 description of the tile under the mouse pointer (click image for higher resolution):
@@ -395,7 +399,7 @@ Within a running Java program, we use variables to store and load values. Keep i
 the variables will go out of scope. Thus, you will need to persist the state of your program on some files that your
 program should create.
 
-When the user restarts `Core.Main` and presses `L`, the world should be in **exactly the same state as it was before
+When the user restarts `core.Main` and presses `L`, the world should be in **exactly the same state as it was before
 the project was terminated**. This state includes the state of the random number generator! More on this in the next
 section. In the case that a user attempts to load but there is no previous save, your system should simply quit and the
 UI interface should close with no errors produced.
@@ -406,7 +410,7 @@ again with an input string starting with `L`.
 
 ### Interacting With Input Strings
 
-Your `getWorldFromInput(String input)` must be able to handle input strings that include movement
+Your `getWorldFromInput(String input)` must be able to handle input strings that include movement.
 
 For example, the string `N543SWWWWAA` corresponds to the user creating a world with the seed 543, then moving up four
 times, then left twice. If we called `getWorldFromInput("N543SWWWWAA")`, your system would return
@@ -550,7 +554,7 @@ reading the entire spec since there are a lot of details which are not captured 
 - Your program must include features that make up 28 points from the Ambition categories, **with at least one primary
   feature**.
 
-## Submission and Scoring Details
+## Submission and Grading
 
 As usual, we'll have a grader for this project on Gradescope. **Remember to add your partner as a group member to your
 Gradescope submission.** In addition, you'll also submit [this form](https://forms.gle/wTnVL4tpW7ZmsWsH9) when you've
@@ -558,19 +562,19 @@ completed the project. More details in the next section about checkoffs. **If yo
 receive a 0 on the checkoff portion of the project.** Only one of your partners needs to submit this, but you should
 write the responses together.
 
-#### Partnership Preferences Form: 2 points
+### Partnership Preferences Form: 2 points
 
-Filling out the [Project 3 Partnership Preferences Form](https://forms.gle/ERSX8MLCu7LS6d7T9) is worth 2 points for
-this project. You must fill out the form by **Wednesday, November 1st at 11:59pm** to get these points.
+Filling out the [Project 3 Partnership Preferences Form](https://forms.gle/RTjyhVitifNzfXz78) is worth 2 points for
+this project. You must fill out the form by **Thursdat, November 2nd at 11:59pm** to get these points.
 
-#### Autograders: 12 points
+### Autograders: 12 points
 
 See [this section](#autograder-details) for autograder details.
 
 - 3A: 3 points
 - 3B: 9 points
 
-#### 3A Manual Review: 6 points
+### 3A Manual Review: 6 points
 
 A TA will pull your code, and run your game 5 separate times with 5 separate
 seeds. **They will then check that your 5 different worlds meet our randomness criteria defined below**:
@@ -583,19 +587,19 @@ seeds. **They will then check that your 5 different worlds meet our randomness c
 
 If you have questions or concerns about whether your world matches these criteria, you may ask a TA in Office Hours to confirm.
 
-**In order to get credit for the 3A Checkoff, you must fill out [this form](https://forms.gle/vgZZ2Gj1cRcuRXy29) by Monday, November 13th at 11:59PM.**
+**In order to get credit for the 3A Checkoff, you must fill out [this form](https://forms.gle/kEHSEYw4HN1GR1hE7) by Monday, November 13th at 11:59PM.**
 
-#### Partner Review: 10 points
+### Partner Review: 10 points
 
-- [3A Review Form](https://forms.gle/imHFgDx1RaYNzBtG8): 5 points (due November 13th at 11:59PM)
-- [3B & 3C Review Form](https://forms.gle/5EzeBoyLudjbMPNw8): 5 points (due November 27th at 11:59PM)
+- [3A Review Form](https://forms.gle/RTjyhVitifNzfXz78): 5 points (due November 13th at 11:59PM)
+- [3B & 3C Review Form](https://forms.gle/wmCQ5KC7WLnW5mrc8): 5 points (due November 27th at 11:59PM)
 
-#### 3C - Checkoff Demo: 95 points
+### 3C - Checkoff Demo: 85 points
 
 To get credit for the checkoff demo, you **must** submit [this form](https://forms.gle/wTnVL4tpW7ZmsWsH9).
 
-- 67 points: Obeying base spec for 3A and 3B.
-- 28 points: Ambition points.
+- 63 points: Obeying base spec for 3A and 3B.
+- 22 points: Ambition points.
 
 **You'll also need identify a commit** so we can grade it. You should:
 
@@ -634,11 +638,11 @@ Once you've ensured that you have:
 3. Identified the commit you want graded (see previous section)
 4. **Ensure you only use libraries in `library-fa23` or `java.*`**
 
-then you are ready to submit the [Project 3C Checkoff Form](https://forms.gle/peo2JEEqsX7AJgAg9).
+**then you are ready to submit the [Project 3C Checkoff Form](https://forms.gle/6YfiQJW5PQEWmSgLA).**
 
 ## Autograder Details
 
-We have two autograders for BYOW: the 3A grader and the 3B grader.
+We have two autograders for BYOW: the 3A grader and the 3B grader. We don't have token restrictions for these Autograders.
 
 ### 3A Grader
 
@@ -660,7 +664,7 @@ There will be **no** movement in these tests.
 
 **Remember to add your partner as a group member when submitting to the autograder.**
 
-### 3C Large Language Models
+## Large Language Models (LLMs)
 
 Recall that in the collaboration policy, we say:
 

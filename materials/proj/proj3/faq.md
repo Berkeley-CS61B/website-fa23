@@ -2,8 +2,8 @@
 layout: page
 title: "FAQ - Project 3: BYOW"
 categories: proj
-released: false
-searchable: false
+released: true
+searchable: true
 ---
 
 # Topics
@@ -18,40 +18,32 @@ searchable: false
 
 Make sure that if you create any classes, override the `.equals()` method AND the `.hashcode()` method. This will guarantee that two instances that are equal will have the same hashcode
 
-### I'm using the `InputSource` used in `byow/InputDemo`, but I can't get the HUD to display what tile the mouse is hovering over.
-
-The point of `byow/InputDemo` is just that: a demo. If you use this, you'll
-need to modify `KeyboardSource` since the `getNextKey` method "blocks" when you call it. Block here means that it will not return until the user inputs a key: thus, if the user isn't moving, this method will just loop doing nothing. However, if the user is moving the mouse, then you can't possibly check what tile they're hovering over since the code is stuck in this loop. So, if you choose to use this approach, you should modify this loop to also check the tile you're hovering over.
 
 ### I'm not passing the test where the input is "lwsd".
 
-We provided a valid input with a seed prior to calling lwsd. Likely, you're not handling persistence properly. Make sure to input the exact sequence of calls to replicate this functionality (edit configurations to call interactWithInputString with a valid parameter, then call it again with "lwsd").
+We provided a valid input with a seed prior to calling lwsd. Likely, you're not handling persistence properly. Make sure to input the exact sequence of calls to replicate this functionality (edit configurations to call getWorldFromInput with a valid parameter, then call it again with "lwsd").
 
 ### I'm getting an `AccessControlException` - what do I do?
 
 Be sure you're only creating / writing to _files_ (not _directories_). This means that you should only be writing to `CWD` in a file ending with `.txt`, for example — not any other folders or subfolders.
 
-### I'm trying to implement `interactWithInputString` but my world is not rendering when I'm running `Main.java`!
+### I'm trying to implement `getWorldFromInput` but my world is not rendering when I'm running `Main.java`!
 
-Make sure to temporarily call ter.renderFrame() (with your appropriate 2-D TETile array input) in interactWithInputString - you must comment this method call out before submitting to the autograder. If you're using a separate class to generate random worlds, you can debug by creating a main method within that class and calling ter.renderFrame().
+Make sure to temporarily call ter.renderFrame() (with your appropriate 2-D TETile array input) in getWorldFromInput - you must comment this method call out before submitting to the autograder. If you're using a separate class to generate random worlds, you can debug by creating a main method within that class and calling ter.renderFrame().
 
 ### How do I close my world after the input `:q`?
 
-Call System.exit(0); You are allowed to System.exit(0), but you cannot use it in your interactWithInputString method.
+Call System.exit(0); You are allowed to System.exit(0), but you cannot use it in your getWorldFromInput method.
 
-### What do I do if the input to `interactWithInputString()` has extra characters after `:q`?
+### What do I do if the input to `getWorldFromInput()` has extra characters after `:q`?
 
 You do not need to worry about replay strings that contain multiple saves or characters after the save, i.e. "N5SDD:QD" is not considered a valid replay string.
 
-### What am I supposed to do with the `"-p"` option in `Main.java`?
-
-Don't worry about it. Your program has no expected functionality with this flag.
-
 ## Autograder Errors
 
-### Why is the phase 1 autograder saying "Could not initialize class edu.princeton.cs.algs4.StdDraw"?
+### Why is the 3A autograder saying "Could not initialize class edu.princeton.cs.algs4.StdDraw"?
 
-Somewhere in your code, your `interactWithInputString` method tries to use the `StdDraw` class which is not allowed. For example if you call `TERenderer.initialize()`, you are using `StdDraw`. No `StdDraw` window should open when you call `interactWithInputString`. We've seen some students whose code only opens a `StdDraw` window for some seeds, so look very carefully.
+Somewhere in your code, your `getWorldFromInput` method tries to use the `StdDraw` class which is not allowed. For example if you call `TERenderer.initialize()`, you are using `StdDraw`. No `StdDraw` window should open when you call `getWorldFromInput`. We've seen some students whose code only opens a `StdDraw` window for some seeds, so look very carefully.
 
 ### The autograder is getting a `NumberFormatException` caused by `Integer.parseInt`.
 
@@ -81,7 +73,7 @@ That’s fine, you can just use the seed to create a starter house (with rooms a
 
 ### Can I make a world, that supports scrolling or multiple levels (i.e. stairs)?
 
-Sure. In this case, `interactWithInputString` should return only the part of the world that is visible on the screen at the time that the last character in the replay string is entered.
+Sure. In this case, `getWorldFromInput` should return only the part of the world that is visible on the screen at the time that the last character in the replay string is entered.
 
 ### Can I add the ability for users to customize their character before creating a world?
 

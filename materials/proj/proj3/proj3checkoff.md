@@ -5,16 +5,16 @@ categories: proj
 released: false
 ---
 
-## Project 3 Lab Demo Checkoff Script
+## Project 3C Lab Demo Checkoff Script (Under Construction)
 
-Project 3 Demos will be conducted during lab.
+Project 3C Demos will be conducted during lab.
 
 To prepare for the demos, we will have you and your partner fill out a form in which you will detail all of your
 ambition features as well as clear and concise instructions on how to use these features. This is the Proj3 Checkoff
 form linked at the end of the spec. Be very specific here, as if you aren't specific enough a TA might not be able to
 use your feature. We will provide a way for you to request a regrade, but we recommend that you get it right the first
 time to avoid the trouble. It's also of utmost importance that your code uses only libraries in java.\* and the
-skeleton's library-sp23 folder. If your code uses additional libraries, then the TA will not be able to compile nor run
+skeleton's library-fa23 folder. If your code uses additional libraries, then the TA will not be able to compile nor run
 your code in the case that there is a technical failure during your checkoff, and the TA has to clone your repo and run
 it from their laptop. The majority of the points are in the checkoff, so please make sure you've only
 used those libraries.
@@ -39,8 +39,8 @@ directory) if you want to follow along and simulate your checkoff.
 
 ## Checkoff Script
 
-1. The grader will ask for everyone's class ID (sp23-s\*\*\*)
-2. One partner should designate their laptop as the "check-in laptop", and already have a terminal window in their `sp23-proj3-g***/proj3`. Their Git should be in a clean
+1. The grader will ask for everyone's class ID (fa23-s\*\*\*)
+2. One partner should designate their laptop as the "check-in laptop", and already have a terminal window in their `fa23-proj3-g***/proj3`. Their Git should be in a clean
    state (git status should be clean), IntelliJ should be open, and the Project 3 main menu
    should be running.
 
@@ -52,7 +52,7 @@ directory) if you want to follow along and simulate your checkoff.
 5. Check that hitting "n" lets player type in a seed
 6. Check that typing numbers and hitting "s" starts the world
 7. Check that the floor and walls are distinguishable
-8. Check that there are structures which can be considered hallways. (1 or 2 wide, kinda long)
+8. Check that there are structures which can be considered hallways. (1 wide, kinda long)
 9. Check that the world contains a turning hallway. If the current world doesn't have a turning hallway, ask the students to generate a world that has a turning hallway.
 10. Check that there are a few rectangular structures which can be considered rooms, which are connected via hallways
 11. Check WASD moves the player up, left, down, right
@@ -88,55 +88,54 @@ directory) if you want to follow along and simulate your checkoff.
 They will then grade each requirement of the game. Each requirement can either be evaluated as full points, half points,
 or zero points.
 
-### Basic World Functionality (2,288 points total)
+### Basic World Functionality (points TBD)
 
 #### The TA will run your project and will check for the following features:
 
-- The world has a main menu screen with a New World, Load, and Quit option (60 points)
+- The world has a main menu screen with a New World, Load, and Quit option (points TBD)
 
-- The TA will hit "n" or "N" (they may do either) and check that the world prompts for a seed (60 points)
+- The TA will hit "n" or "N" (they may do either) and check that the world prompts for a seed (points TBD)
 
 - The TA should type in a few random numbers and hit "s" or "S" (they may do either) which should immediately start the
-  world (116 points)
+  world (points TBD)
 
 #### At this point, the program should be running and there should be a visible world.
 
-- World has visually distinct walls and floors (116 points)
+- World has visually distinct walls and floors (points TBD)
 
-- World has hallways which are 1 or 2 tiles wide (88 points)
+- World has hallways which are 1 or 2 tiles wide (points TBD)
 
-- World has at least 1 hallway containing a turn in it. If current world doesn't, ask students to generate a world that has a turning hallway. (88 points)
+- World has at least 1 hallway containing a turn in it. If current world doesn't, ask students to generate a world that has a turning hallway. (points TBD)
 
-- World has some number of rooms that are connected via hallways (352 points)
+- World has some number of rooms that are connected via hallways (points TBD)
 
 #### The TA will now try the basic commands that should be available during gameplay.
 
-- TA should hit the W, A, S, and D keys randomly and check the player movement is consistent with the key pressed (116
-  points)
+- TA should hit the W, A, S, and D keys randomly and check the player movement is consistent with the key pressed (points TBD)
 
 - TA should hover over 3 different tiles and make sure their names show up somewhere on screen and that the names make
-  sense (296 points)
+  sense (points TBD)
 
-- TA should move into a wall and make sure the player stops at the wall instead of moving into it (116 points)
+- TA should move into a wall and make sure the player stops at the wall instead of moving into it (points TBD)
 
 - TA should type ":q" or ":Q" (they may do either) which should quit the world and close the program. TA should remember
-  the world layout at this point (116 points)
+  the world layout at this point (points TBD)
 
 #### The program is now closed, and we will test the load feature.
 
 #### The TA will run the world again after it has been closed and the main menu should appear again.
 
-- TA should hit "l" or "L" and the world should immediately start (116 points)
+- TA should hit "l" or "L" and the world should immediately start (points TBD)
 
-- TA should check that the world layout is exactly as it was before closing the world (176 points)
+- TA should check that the world layout is exactly as it was before closing the world (points TBD)
 
-- TA will run through the basic commands again (listed above) to make sure the world still works (148 points)
+- TA will run through the basic commands again (listed above) to make sure the world still works (points TBD)
 
-- TA will quit and load again and make sure that the basic commands work (176 points).
+- TA will quit and load again and make sure that the basic commands work (points TBD).
 
-- TA will check that "q" or "Q" alone does not quit the game (148 points).
+- TA will check that "q" or "Q" alone does not quit the game (points TBD).
 
-### Randomness (1,232 points total)
+### Randomness (points TBD)
 
 - The TA should close the world again and will begin testing to see if worlds are randomly generated.
 
@@ -154,13 +153,13 @@ or zero points.
 
 The grading breakdown is as follows:
 
-- 1232 points: The worlds are mainly random, as described by the above section.
+- points TBD: The worlds are mainly random, as described by the above section.
 
-- 616 points: The worlds exhibit a few random elements, but generally look the same
+- points TBD: The worlds exhibit a few random elements, but generally look the same
 
 - 0 points: The worlds contain no random elements.
 
-### Ambition Points (1440 points max)
+### Ambition Points (max points TBD)
 
 - The student should state and demonstrate the features that are in the Ambition category. You should be very explicit
   about how to "activate" or use that feature.
