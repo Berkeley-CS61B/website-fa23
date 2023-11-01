@@ -1005,13 +1005,15 @@
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-01
-      lecture_topic: "Sorting 2: Quick Sort"
+      lecture_topic: "Sorting 2: Insertion Sort and Quicksort"
       #class: outdated
       lecture_links:
         - name: video
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqsfDWZNS86oYmHFY6UKA2t"
         - name: slides
           link: "https://docs.google.com/presentation/d/1h9qHvSlDFn0WqoxB4v6ZaeEXEepsuwVM78uO4UNeKH0"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=gTX_hfd8Kzw"
       reading: > # Format in Markdown
         [Ch 30](https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort)
     - day: 2023-11-03
