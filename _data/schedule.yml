@@ -999,7 +999,7 @@
       reading: >
         [Ch 29](https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts)
       assignments:
-        - title: "Project 3 3A (due 11/13) and 3B & 3C (due 11/27)"
+        - title: "Project 3A (due 11/13) and 3B & 3C (due 11/27)"
           link: materials/proj/proj3
           released: true
           rows: 3 # the number of rows the assignment spans
