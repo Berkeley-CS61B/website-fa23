@@ -242,6 +242,13 @@ If you're getting checked off asynchronously through Ed, you will need to provid
 answer the questions that are provided on the template, so please plan ahead of time as it will take time to
 make the recording and to get checked off.
 
+To reiterate, here is a brief summary of the methods to implement: 
+- `updateBoard`: updates the board based on user input
+- `incrementScore`: updates the score based on number of lines cleared
+- `clearLines`: clears the rows if they're completed 
+- `runGame`: where the game logic takes place to run the game
+- `renderScore`: displays the score 
+
 ## Credits
 
 4 TAs were harmed in the creation of this lab (Noah Adhikari, Erik Nelson, Omar Yu and Jasmine Lin). 
