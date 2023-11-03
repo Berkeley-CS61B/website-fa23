@@ -160,7 +160,7 @@ As an example of a world that meets all of these requirements (click for higher 
 this image, # represents a wall tile, a dot represents a floor tile, and there is also one golden colored wall segment
 that represents a locked door. All unused spaces are left blank.
 
-[![compliant_world_example](img/valid-word.png)](img/valid-word.png)
+[![compliant_world_example](img/compliant_world_example.png)](img/compliant_world_example.png)
 
 Once you've completed lab 11, you can start working on your world generation algorithm.
 
@@ -334,7 +334,7 @@ of your project must include:
 As an example of the bare minimum, the simple interface below displays a grid of tiles and a HUD that displays the
 description of the tile under the mouse pointer (click image for higher resolution):
 
-[![mouseover_example1](img/valid-word-hud.png)](img/valid-word-hud.png)
+[![mouseover_example1](img/UI_example0.png)](img/UI_example0.png)
 
 You may include additional features if you choose. In the example below (click image for higher resolution), as with the
 previous example, the mouse cursor is currently over a wall, so the HUD displays the text "wall" in the top right.
