@@ -11,7 +11,6 @@ Each assignment will have an FAQ linked at the top. You can also access it by
 adding "/faq" to the end of the URL. The FAQ for Lab 11 is located
 [here](faq.md).
 
-
 ## Introduction
 
 This lab will help you with Project 3: Build Your Own World (BYOW). The first
@@ -21,7 +20,12 @@ your world in Project 3. Next week's lab will go more into implementing interact
 which is relevant towards building a part of Project 3 (but more on this in the 
 next lab).
 
-## Pre-Lab [Under Construction - for QAers, this part might be updated]
+We've also included an optional, but highly recommended
+[part](#persistence-ungraded) of this lab that 
+touches on how to read and write into a file, which will come in 
+handy for a later portion of Project 3 (saving and loading).
+
+## Pre-Lab
 
 Some steps to complete before getting started on this lab:
 
@@ -57,7 +61,7 @@ bottom middle. The code to generate this world consists of three main parts:
 - Using the tile rendering engine to display the `TETile[][]` array.
 
 The API for the tile rendering engine is simple. After creating a `TERenderer`
-object, you simply need to call the `initialize` method, specifying the width
+object, you need to call the `initialize` method, specifying the width
 and height of your world, where the width and height are given in terms of the
 number of tiles. Each tile is 16 pixels by 16 pixels, so for example, if we
 called `ter.initialize(10, 20)`, we'd end up with a world that is 10 tiles wide
@@ -98,9 +102,7 @@ for (int x = 20; x < 35; x++) {
 (not the top-left as you may be used to).**
 " %}
 
-Note that $(0, 0)$ is the bottom-left corner of the world in this case (not the top-left as you may be used to).
-
-The last step in rendering is to simply call `ter.renderFrame(world)`, where
+The last step in rendering is to call `ter.renderFrame(world)`, where
 `ter` is a `TERenderer` object. Changes made to the tiles array will not appear
 on the screen until you call the `renderFrame` method.
 
@@ -149,15 +151,13 @@ We call `Random` a _pseudorandom_ number generator because it isn't truly
 random. Underneath the hood, it uses cool math to take the previously generated
 number and calculate the next number. We won't go into the details of this math,
 but see [Wikipedia](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)
-if you're curious. Importantly, the sequence generated is deterministic, and the
-way we get different sequences is by choosing what is called a "seed". If you
-start up a pseudorandom generator with a particular seed, you are guaranteed to
-get the exact sequence of random values.
+if you're curious. More importantly, the sequence generated is deterministic, and the
+way we get different sequences is by choosing what is called a "seed". 
 
 In the above code snippet, the seed is the input to the `Random` constructor, so
 `1000` in this case. Having control over the seed is pretty useful since it
-allows us to indirectly control the output of the random number generator. If we
-provide the same seed to the constructor, we will get the same sequence values.
+allows us to indirectly control the output of the random number generator. **If we
+provide the same seed to the constructor, we will get the same sequence values.**
 For example, the code below prints 4 random numbers, then prints the SAME 4
 random numbers again. Since the seed is different than the previous code
 snippet, the 4 numbers will likely be different than the 3 numbers printed
@@ -210,11 +210,16 @@ with an "X" in the diagram below.
 
 We've seen how we can draw a world and generate randomness. Your task for this
 lab is to use the tile generator we've seen to draw a world like the one below,
-where each hole is a knight's move away from the closest neighboring holes (note
-that we've only included every other square instead of all eight to create a
-pleasing repeating pattern). For this example, we've used `Tileset.NOTHING` to
+where each hole is a knight's move away from the closest neighboring holes. Note that 
+we've only included every other square instead of all eight to create a pleasing 
+repeating pattern. This has been annotated on the above image, specifically 
+with the red squares and has also been annotated on the image below (the blue 
+square is where the knight would be, with the red squares as the corresponding moves
+from that position).
+
+For the example below, we've used `Tileset.NOTHING` to
 represent holes and a grey version of `Tileset.LOCKED_DOOR` to represent floor
-tiles, but you can use any tilesets you'd like.
+tiles, but you can use any tilesets you'd like. 
 
 The location of the specific holes is flexible, as long as the hole pattern is
 correct (e.g. translating each of the holes in the image below one square to the
@@ -378,10 +383,10 @@ we'll try to get back to you as soon as we can, please do not expect us to respo
 immediately as we'll process the checkoffs in order, so make sure not to do this last
 minute!
 
-### Persistence (Ungraded, but HIGHLY RECOMMENDED) 
+### Persistence (Ungraded)
 
 In Project 3, you'll have to implement the ability to save and load your game state, as 
-mentioned in this part of the project [spec](http://127.0.0.1:4000/materials/proj/proj3/#saving-and-loading). 
+mentioned in this part of the project [spec](../../proj/proj3/index.md/#saving-and-loading). 
 While this part of the lab is not graded or required, we highly recommend that you do 
 start thinking early about you might want to do implement this feature. Note that we haven't 
 talked too much about interactivity in this lab, so the goal of this portion is for you
@@ -402,4 +407,4 @@ comments in the file and play around with the given `FileUtils` class.
 
 You'll be submitting your completed `project3prep.md` file and `magic_word.txt`
 to Gradescope. You will get full credit as long as these are filled out and
-submitted! The lab is worth 5 points. 
+submitted! The lab is worth 5 points.

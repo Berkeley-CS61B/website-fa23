@@ -739,7 +739,7 @@
           rows: 1
           cols: 1
           released: false
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 1
@@ -758,7 +758,7 @@
       reading: > # Format in Markdown
         [Ch 22](https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs)
       assignments:
-        - title: Project 2B (due 10/27)
+        - title: Project 2B (due 10/30)
           link: materials/proj/proj2b
           rows: 1
           cols: 2
@@ -850,7 +850,7 @@
       reading: > # Format in Markdown
         [Ch 25](https://cs61b-2.gitbook.io/cs61b-textbook/25.-minimum-spanning-trees)
 - week: 10
-  # weekly_survey: "https://forms.gle/x7a6Do3JYSTr1sEf8"
+  weekly_survey: "https://forms.gle/tD7DzgwYBgW73fRG8"
   rows: 3
   discussions:
     - name: Shortest Paths, MSTs
@@ -858,10 +858,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/regular/regular10.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/regular/regular10sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRp0SkHfIO9HavzXht0K9mOA"
         - name: slides
           released: true
@@ -871,10 +871,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/examlevel/examlevel10.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/examlevel/examlevel10sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRqhMYH6tRt4bru5HxoWta9G"
         - name: slides
           released: true
@@ -905,7 +905,7 @@
       reading: > # Format in Markdown
         [Ch 26](httpsae://cs61b-2.gitbook.io/cs61b-textbook/26.-prefix-operations-and-tries)
       assignments:
-        - title: Project 2B due 10/27
+        - title: Project 2B due 10/30
           link: materials/proj/proj2b
           rows: 2
           cols: 2
@@ -917,24 +917,28 @@
       lecture_links:
         - name: slides
           link: https://docs.google.com/presentation/d/1ZQ35zGrbnMCIk2kr37bKyxc4RMvRBFrvZd1me2Av2hQ/
+        - name: recording
+          link: "https://www.youtube.com/watch?v=JfATr-BBPY0"
       reading: >
         [Ch 27](https://cs61b-2.gitbook.io/cs61b-textbook/27.-software-engineering-i)
 
     - day: 2023-10-27
       lecture_topic: Directed Acyclic Graphs
-      class: outdated
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/rf1mHSoGomk
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRprqOwH0sojH3VLONWXtYM0"
         - name: slides
-          link: https://docs.google.com/presentation/d/1yrFdtRFZB9rHTNOMwB1qt9PjWK7hDhbhF3F2KXZU9hM/edit#slide=id.g409413421_0637
+          link: "https://docs.google.com/presentation/d/1DOXjoC-gBSISM1DKlbVSNuOhnS0CY3kzIg6nM-mIlek"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=4aNpmRVN6nA"
         # - name: check in
         #   link: https://forms.gle/LKCByxFmEpRVFVHo9
       reading: > # Format in Markdown
         [Ch 28](https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition)
       assignments:
         - title: |
-            <span class="proj">[Project 2B due 10/27]</span>
+            <span class="proj">[Project 2B due 10/30]</span>
           link: /materials/proj/proj2b
           released: false
           rows: 1 # the number of rows the assignment spans
@@ -944,60 +948,72 @@
   rows: 3
   discussions:
     - name: Graphs II, Tries
-      released: false
-      link: "https://drive.google.com/file/d/1xKHMF0kUsj2_qx4KgQEapL69TZocMAje/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/regular/regular11.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1RDY7tsuOBe3T3XW1xdmaT_eWZam1tb-E/view?usp=sharing"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/regular/regular11sol.pdf"
         - name: video
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrD3GyILak06gbTN0rbKJat"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1mT6m3jleTW3B1JzPFv116nUnboWj29-0eBqoiOTxgLY/edit?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1xeGiQ8FmWdbwCSfZ9MKqOZuGFTW0fpgrCOiVMAhwbI4/edit?usp=sharing"
     - name: Graphs II, Tries (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/1T8nHuKBz7Za6sodZ8U1QszvV7XzAH-vM/view?usp=share_link"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/examlevel/examlevel11.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://drive.google.com/file/d/1BHLJLyvzXPLu_6WKNRA6iSKqtFekvs8_/view?usp=share_link"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/examlevel/examlevel11sol.pdf"
         - name: video
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRoboeJhEoJbAb7U_W7KBvoj"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1GMU44_pRrfpRl9aFjbf4SBANmQf1UbV3cVjWpohQs9k/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1XXE_1qfQEmDVpldBFJZ8VrnEsjwn9uDQ90DVbLBAqEQ/edit?usp=sharing"
   labs:
     - name: Getting Started on Project 3 (due 11/3)
-      released: false
+      link: materials/lab/lab11
+      released: true
+      resource_links:
+        - name: video
+          released: true
+          link: "https://youtu.be/VxnwrEsQUjc"
+        - name: slides
+          released: true
+          link: "https://docs.google.com/presentation/d/1cyHE9V75sSOErKaLcEqP22JTazt0E-lWc-PFtJGdzdo/edit?usp=sharing"
 
   days:
     - day: 2023-10-30
-      lecture_topic: Basic Sorts
-      class: outdated
+      lecture_topic: "Sorting 1: Selection Sort, Heapsort, Mergesort"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=mBIUU38XNyk
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrK9o_QZyGOCbQVFTsqOPtN"
         - name: slides
-          link: https://docs.google.com/presentation/d/14RfFPU3RX9iDpE4OCXlXKmtaoxZbdNdcXTGhC9dr9xQ/edit#slide=id.g22a557a7614_0_0
+          link: "https://docs.google.com/presentation/d/1nJUUFB1iKLgofw7b2pU21gU5oHVmhzaQb7PmEeatm_4"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=6sk0qQIRwEA"
       reading: >
         [Ch 29](https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts)
       assignments:
-        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
+        - title: "Project 3A (due 11/13) and 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-01
-      lecture_topic: Quick Sort
-      class: outdated
+      lecture_topic: "Sorting 2: Insertion Sort and Quicksort"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/H3Kn8cqfOtU
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqsfDWZNS86oYmHFY6UKA2t"
         - name: slides
-          link: https://docs.google.com/presentation/d/1_7VuU3cynSGKbvzHk0PfK65HeHFT-jDp3XrbihRXetw/
+          link: "https://docs.google.com/presentation/d/1h9qHvSlDFn0WqoxB4v6ZaeEXEepsuwVM78uO4UNeKH0"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=gTX_hfd8Kzw"
       reading: > # Format in Markdown
         [Ch 30](https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort)
     - day: 2023-11-03
@@ -1007,7 +1023,7 @@
         - name: video
           link: https://youtu.be/TR7kCjJAgPA
         - name: slides
-          link: https://docs.google.com/presentation/d/185YdUur8Ll4IbFbtp-FYWnlf_yG6m3AGzyGxJ_ngJuY/edit#slide=id.g22bf3f92c06_0_286
+          link: https://docs.google.com/presentation/d/19KbO7AVwNUDqD0p6D3Bf-wOPZBnhaQFUASXK4x686rQ/edit#slide=id.g25f155b838b_0_2028
       reading: >
         [Ch 31](https://cs61b-2.gitbook.io/cs61b-textbook/31.-software-engineering-ii)
 - week: 12
@@ -1041,28 +1057,32 @@
           released: false
           link: "https://docs.google.com/presentation/d/1ykhZDgYmaUiGWkNW5CUGf2QdQt9GoMiVtUesajjxAXs/edit?usp=share_link"
   labs:
-    - name: Interactivity in Project 3 (due 11/13)
+    - name: Tetris (due 11/13)
       link: materials/lab/lab12/
       resource_links:
         - name: slides
           released: false
-          link: "https://docs.google.com/presentation/d/1ZWegt0VUifxxL79V-M3nJFHprebB3XBTN1xbTHT4l9s"
+          link: ""
+        - name: video
+          released: false
+          link: ""
+
       released: false
   days:
     - day: 2023-11-06
-      lecture_topic: More Quicksort, Quick Select, Stability
-      class: outdated
+      lecture_topic: "Sorting 3: More Quicksort, Quick Select, Stability"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://youtu.be/l1vAXGWPeG4
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrHHQP93qqc_QBNBF_WEQLy"
         - name: slides
-          link: https://docs.google.com/presentation/d/1jcIhrPiw6ycHG0cLpjJ5V__TdB1fOVqe-y0buFSd-SY/
+          link: "https://docs.google.com/presentation/d/1hRa_hUlQIvwc2K2BUtvyibYiPrbWiclB5uPmhiJXnbQ"
       reading: > # Format in Markdown
         [Ch 32](https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary)
       assignments:
-        - title: "Project 3 Phase 1 (due 11/13) and Phase 2 (due 11/27)"
+        - title: "Project 3A (due 11/13) and 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-08
@@ -1113,45 +1133,45 @@
       released: false
   days:
     - day: 2023-11-13
-      lecture_topic: Sorting and Algorithmic Bounds
-      class: outdated
+      lecture_topic: "Sorting 4: Sorting and Algorithmic Bounds"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD7y8-q2qpfhZ-fzphsk3ETf
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqEadgCMXeo1gnlIxnETooG"
         - name: slides
-          link: https://docs.google.com/presentation/d/18wdzl7XSbg6n5FsPvRA5-Xe2AtqeAQ2I1fT1BgMAHaU
+          link: "https://docs.google.com/presentation/d/1PJ_ii69wSdGNW5LcxfxqPxD9NIedOg_XC7wg51K_29E"
       reading: > # Format in Markdown
         [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
       assignments:
         - title: |
-            <span class="proj">[Project 3 Phase 1 due 11/17]</span>
+            <span class="proj">[Project 3A due 11/17]</span>
           rows: 1
           cols: 2
           released: false
     - day: 2023-11-15
-      lecture_topic: Radix Sorts
-      class: outdated
+      lecture_topic: "Sorting 5: Radix Sorts"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/watch?v=AHgK4UqP_ig
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr4cg5TeJZplLTlOVmMNE0d"
         - name: slides
-          link: https://docs.google.com/presentation/d/1p12fmvg4PXeMHBufBeXTo_BeFiSdl9l5jKeu13LEpbc
+          link: "https://docs.google.com/presentation/d/1BmUyKesAHUmyXmhrX5woC2wvSTX7zgIcxsAFKAstk1g"
       reading: > # Format in Markdown
         [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
       assignments:
-        - title: "Project 3 Phase 2 (due 11/27)"
+        - title: "Project 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 2 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-17
-      lecture_topic: Sorting and Data Structures Conclusion
-      class: outdated
+      lecture_topic: "Sorting 6: Radix vs. Comparison Sorting"
+      #class: outdated
       lecture_links:
         - name: video
-          link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD4i4ozOgclL_5HMpZrHYA8c&disable_polymer=true
+          link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoDV1sFRy3Hdx0N6BMZjI1n"
         - name: slides
-          link: https://docs.google.com/presentation/d/1ILp-tXesmyfkeJ_hfd80fK1CxKB8os_5pCSyDJ-n6Nk/
+          link: "https://docs.google.com/presentation/d/1SgHnDc3MV2otqvP7fHS0VcRNhqEAkYgJdJ_GWDmG8Xo"
       reading: > # Format in Markdown
         [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)
 - week: 14
@@ -1165,7 +1185,7 @@
     - name: No Lab
       released: false
   days:
-    - day: 2023-11-24
+    - day: 2023-11-20
       lecture_topic: Software Engineering IV<br>Designing 61B
       class: optional outdated
       lecture_links:
@@ -1176,9 +1196,9 @@
       reading: >
         [Ch 37](https://cs61b-2.gitbook.io/cs61b-textbook/37-software-engineering-iv)
       assignments:
-        - title: "Project 3 Phase 2 (due 11/27)"
+        - title: "Project 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - custom: |
@@ -1214,7 +1234,7 @@
         [Ch 38](https://cs61b-2.gitbook.io/cs61b-textbook/38.-compression-and-complexity)
       assignments:
         - title: |
-            <span class="proj">[Project 3 Phase 2 due 11/27]</span>
+            <span class="proj">[Project 3B & 3C 11/27]</span>
           rows: 1
           cols: 2
           released: false
