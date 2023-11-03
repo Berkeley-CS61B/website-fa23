@@ -43,7 +43,7 @@ Please also note that since the structure of the project has been changed, Phase
 There are several key deadlines for this assignment:
 
 - Team formation: You must submit the [Project 3 Partnerships Form](https://forms.gle/RTjyhVitifNzfXz78) by
-  Thursday, November 2nd at 11:59 PM. You will **not** be able to change your partner later. Read and understand
+  Friday, November 3rd at 4:59 PM. You will **not** be able to change your partner later. Read and understand
   the [partnership guidelines](../../guides/partnerships) before starting the assignment.
 - Project 3A - World Generation: Due on Gradescope by 11/13 at 11:59 PM.
 - Project 3B - Interactivity: Due on Gradescope by 11/27 at 11:59 PM.
@@ -565,7 +565,7 @@ write the responses together.
 ### Partnership Preferences Form: 2 points
 
 Filling out the [Project 3 Partnership Preferences Form](https://forms.gle/RTjyhVitifNzfXz78) is worth 2 points for
-this project. You must fill out the form by **Thursdat, November 2nd at 11:59pm** to get these points.
+this project. You must fill out the form by **Friday, November 3rd at 4:59pm** to get these points.
 
 ### Autograders: 12 points
 
