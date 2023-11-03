@@ -589,10 +589,10 @@ If you have questions or concerns about whether your world matches these criteri
 
 **In order to get credit for the 3A Checkoff, you must fill out [this form](https://forms.gle/kEHSEYw4HN1GR1hE7) by Monday, November 13th at 11:59PM.**
 
-### Partner Review: 10 points
+### Partner Reflection: 10 points
 
-- [3A Review Form](https://forms.gle/RTjyhVitifNzfXz78): 5 points (due November 13th at 11:59PM)
-- [3B & 3C Review Form](https://forms.gle/wmCQ5KC7WLnW5mrc8): 5 points (due November 27th at 11:59PM)
+- [3A Reflection Form](https://forms.gle/RTjyhVitifNzfXz78): 5 points (due November 13th at 11:59PM)
+- [3B & 3C Reflection Form](https://forms.gle/wmCQ5KC7WLnW5mrc8): 5 points (due November 27th at 11:59PM)
 
 ### 3C - Checkoff Demo: 85 points
 
