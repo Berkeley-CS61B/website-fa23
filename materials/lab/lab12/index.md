@@ -167,14 +167,14 @@ to help you get started. A couple of things to note:
 
 - You'll need to ensure that the game does not exit or stop until the game is over (hint: how do you make sure this happens continuously?).
 - Once you've completed the step above, you will need to check if you should render a new frame.
-  - Specifically, you'll want to call on the helper method `shouldRenderFrame()`.
+  - Specifically, you'll want to call on the helper method `shouldRenderNewFrame()`.
   - You don't need to know what this does, but it's to prevent flickering in the game (it should work without the condition too,
     but it won't be as seamless of an experience).
   - The next steps should be done within this check, so you'll have something like the below code snippet in your implementation. 
 
   ```sh
   // Your code here
-  if (shouldRenderFrame()) {
+  if (shouldRenderNewFrame()) {
     // Your code here 
   
   }
@@ -190,7 +190,7 @@ Here are some relevant helper methods you may use, alongside the ones you've alr
 - `isGameOver`: checks for if the game is over 
 - `shouldRenderNewFrame`: determines if a new frame should be rendered; you don't need to know how this works, but it prevents flickering
    of the game
-- `clearLine`: checks for any lines that need to be cleared and updates the score based on the number of lines cleared
+- `clearLines`: checks for any lines that need to be cleared and updates the score based on the number of lines cleared
 - `updateBoard`: checks for the player movement and updates the board based on the user's input
 - `renderBoard`: renders the state of the board (called on after user input and clearing lines)
 
@@ -210,7 +210,7 @@ Here are the steps:
 - The score should appear at position x = 7, y = 19. 
 - Make sure to render the score once it's drawn!
 
-Here are some useful methods to look at from the `StdDraw` library: 
+Here are some useful methods from the `StdDraw` library that you might find helpful: 
 - [`StdDraw.setFont`](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html#setFont(java.awt.Font))
 - [`StdDraw.clear`](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html#clear())
 - [`StdDraw.text`](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html#text(double,%20double,%20java.lang.String))
