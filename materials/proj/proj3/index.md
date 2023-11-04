@@ -91,6 +91,40 @@ large system. Be warned: The system you build probably isn't going to be that fu
 enough time, particularly for novice programmers. However, we do hope you will find it to be a fulfilling project, and
 the worlds you generate might even be beautiful.
 
+## Project Setup
+
+{% include alert.html type="warning" content="
+**THE SETUP FOR THIS PROJECT IS DIFFERENT THAN THE OTHER LABS / PROJECTS. PLEASE DO NOT SKIP THIS STEP!**
+" %}
+
+### Group Repository Setup
+
+You'll be working exclusively in a group repository for this portion of the project. To set this group repo up on your local computer, follow the instructions below (these are also in the spec):
+
+- Go to your email and accept the GitHub repo invite that you should have received.
+- Log in to Beacon, and click on the "Groups" tab. You should have a group listed here.
+- Click the "View Repository on GitHub" link.
+- You'll now be taken to your new repository on GitHub. Click the green "Code" button in the top right corner (shown below) and copy the clone link shown in the text bar (blacked out in the screenshot).
+
+![group-repo](../proj2b/group-repo.png)
+
+- Open a new Terminal window, and navigate to the directory that you store your CS 61B files in (usually, students have a directory called `cs61b`).
+
+{% include alert.html type="warning" content="
+**IMPORTANT:** Do not cd into your `fa23-s****` repo! You should not be cloning the group repo inside of your personal 61b one.
+" %}
+
+- Type the following commands into your terminal, and hit Enter after each one:
+
+```sh
+git clone <paste your link from GitHub here>
+cd fa23-proj3-g***  // Replace the *** here with your group repo number
+git remote add skeleton https://github.com/Berkeley-CS61B/proj3-skeleton-fa23.git
+git pull skeleton main --allow-unrelated-histories
+```
+
+Once you've completed the above steps, you should see your new group repo called `fa23-proj3-g***` in your local files, and if you open this repo, you'll see the `proj3` skeleton folder. From here, you and your partner can proceed as normal, by adding, committing, pushing, and pulling from this repo as you would otherwise. 
+
 ## Skeleton Code
 
 Use `git pull skeleton main` in your group repo to pull the skeleton code. The skeleton code
