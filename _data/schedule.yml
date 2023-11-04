@@ -1018,12 +1018,12 @@
         [Ch 30](https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort)
     - day: 2023-11-03
       lecture_topic: Software Engineering II
-      class: optional outdated
+      class: optional
       lecture_links:
         - name: video
           link: https://youtu.be/TR7kCjJAgPA
         - name: slides
-          link: https://docs.google.com/presentation/d/19KbO7AVwNUDqD0p6D3Bf-wOPZBnhaQFUASXK4x686rQ/edit#slide=id.g25d19b78424_0_81
+          link: https://docs.google.com/presentation/d/19KbO7AVwNUDqD0p6D3Bf-wOPZBnhaQFUASXK4x686rQ/
       reading: >
         [Ch 31](https://cs61b-2.gitbook.io/cs61b-textbook/31.-software-engineering-ii)
 - week: 12
