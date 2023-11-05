@@ -147,8 +147,7 @@ Whenever a line is completed in Tetris, we want to update our score and clear th
 This method will help check if a row or multiple rows have been horizontally filled after
 a piece is placed. Consider the following: 
 - Since you don't know exactly which row is completed, if there are any, we'll want to check for the entire board. 
-  - How do you know when a row is complete? When do we know when it's _not complete_? If there's a gap in our row, 
-    what tile might represent that gap?
+  - How do you know when a row is complete? Specifically, when do we know when it's _not complete_? 
 - Once you find a row that is completed, that row needs to be cleared. 
   - When you clear a row, all of the rows above it need to be shifted down. 
   - For each row that is cleared, keep track of it in a variable (`linesCleared`).
