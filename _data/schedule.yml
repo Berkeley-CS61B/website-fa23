@@ -944,7 +944,7 @@
           rows: 1 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
 - week: 11
-  # weekly_survey: "https://forms.gle/x7a6Do3JYSTr1sEf8"
+  weekly_survey: "https://forms.gle/JHQcXdFbkkw248ab6"
   rows: 3
   discussions:
     - name: Graphs II, Tries
@@ -952,10 +952,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/regular/regular11.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week10/regular/regular11sol.pdf"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/regular/regular11sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrD3GyILak06gbTN0rbKJat"
         - name: slides
           released: true
@@ -965,10 +965,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/examlevel/examlevel11.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week11/examlevel/examlevel11sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRoboeJhEoJbAb7U_W7KBvoj"
         - name: slides
           released: true

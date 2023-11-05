@@ -14,6 +14,10 @@ searchable: true
 
 ## Common Problems and Errors
 
+### I can't get text to show up / My tile characters became weird / My HUD flickers!
+
+See the [Common UI Problems](./ui_bugs.md) page. 
+
 ### Two instances of my class are saying they are not equal when they should be. Also, I set the instance of my class to be the key in a HashMap, but I can't find it when I try to access that key.
 
 Make sure that if you create any classes, override the `.equals()` method AND the `.hashcode()` method. This will guarantee that two instances that are equal will have the same hashcode
