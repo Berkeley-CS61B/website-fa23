@@ -231,8 +231,7 @@ For the checkoff, we'll be looking for the following:
 - Pieces can be moved left, down, and right with the `a`, `s` and `d` keys respectively and rotated left and right with `q` and `w` respectively. 
 - Other keys should not do anything (i.e. if we press on `h`, that should not affect the game board)
 - When a row is completed, the score is updated accordingly. 
-- The score renders throughout the game and does not disappear at any point. 
-- The game stops once the game over condition is met.
+- The score renders throughout the game and does not disappear at any point.
 
 We will also be taking a look at your implementation, so make sure you're able to explain your thought process and how some of what was 
 completed in this lab can be translated to implementing interactivity in Project 3!
