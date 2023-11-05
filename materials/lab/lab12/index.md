@@ -236,16 +236,23 @@ For the checkoff, we'll be looking for the following:
 We will also be taking a look at your implementation, so make sure you're able to explain your thought process and how some of what was 
 completed in this lab can be translated to implementing interactivity in Project 3!
 
-If you're getting checked off asynchronously through Ed, you will need to provide a screen recording and
-answer the questions that are provided on the template, so please plan ahead of time as it will take time to
-make the recording and to get checked off.
-
-To reiterate, here is a brief summary of the methods to implement: 
+To reiterate, here is a brief summary of the methods to implement:
 - `updateBoard`: updates the board based on user input
 - `incrementScore`: updates the score based on number of lines cleared
-- `clearLines`: clears the rows if they're completed 
+- `clearLines`: clears the rows if they're completed
 - `runGame`: where the game logic takes place to run the game
-- `renderScore`: displays the score 
+- `renderScore`: displays the score
+
+## Asynchronous Checkoffs
+
+If you're getting checked off asynchronously through Ed, you will need to provide a screen recording. 
+We suggest using Zoom screen recordings or a screen recording software. During this recording, 
+we will need to see an **on screen keyboard**. Here are a few links for an on-screen keyboard: 
+- [Mac](https://support.apple.com/en-ke/guide/accessibility-mac/mchlc74c1c9f/mac#:~:text=Turn%20it%20on:%20On%20your,may%20need%20to%20scroll%20down.)
+- [Windows](https://support.microsoft.com/en-us/windows/use-the-on-screen-keyboard-osk-to-type-ecbb5e08-5b4e-d8c8-f794-81dbf896267a)
+
+Please make sure to answer the questions that are provided on the template and please plan ahead of time as it will take time to
+make the recording and to get checked off.
 
 ## Credits
 
