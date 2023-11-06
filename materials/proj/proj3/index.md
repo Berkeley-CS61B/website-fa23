@@ -91,6 +91,40 @@ large system. Be warned: The system you build probably isn't going to be that fu
 enough time, particularly for novice programmers. However, we do hope you will find it to be a fulfilling project, and
 the worlds you generate might even be beautiful.
 
+## Project Setup
+
+{% include alert.html type="warning" content="
+**THE SETUP FOR THIS PROJECT IS DIFFERENT THAN THE OTHER LABS / PROJECTS. PLEASE DO NOT SKIP THIS STEP!**
+" %}
+
+### Group Repository Setup
+
+You'll be working exclusively in a group repository for this portion of the project. To set this group repo up on your local computer, follow the instructions below (these are also in the spec):
+
+- Go to your email and accept the GitHub repo invite that you should have received.
+- Log in to Beacon, and click on the "Groups" tab. You should have a group listed here.
+- Click the "View Repository on GitHub" link.
+- You'll now be taken to your new repository on GitHub. Click the green "Code" button in the top right corner (shown below) and copy the clone link shown in the text bar (blacked out in the screenshot).
+
+![group-repo](../proj2b/group-repo.png)
+
+- Open a new Terminal window, and navigate to the directory that you store your CS 61B files in (usually, students have a directory called `cs61b`).
+
+{% include alert.html type="warning" content="
+**IMPORTANT:** Do not cd into your `fa23-s****` repo! You should not be cloning the group repo inside of your personal 61b one.
+" %}
+
+- Type the following commands into your terminal, and hit Enter after each one:
+
+```sh
+git clone <paste your link from GitHub here>
+cd fa23-proj3-g***  // Replace the *** here with your group repo number
+git remote add skeleton https://github.com/Berkeley-CS61B/proj3-skeleton-fa23.git
+git pull skeleton main --allow-unrelated-histories
+```
+
+Once you've completed the above steps, you should see your new group repo called `fa23-proj3-g***` in your local files, and if you open this repo, you'll see the `proj3` skeleton folder. From here, you and your partner can proceed as normal, by adding, committing, pushing, and pulling from this repo as you would otherwise. 
+
 ## Skeleton Code
 
 Use `git pull skeleton main` in your group repo to pull the skeleton code. The skeleton code
@@ -160,7 +194,7 @@ As an example of a world that meets all of these requirements (click for higher 
 this image, # represents a wall tile, a dot represents a floor tile, and there is also one golden colored wall segment
 that represents a locked door. All unused spaces are left blank.
 
-[![compliant_world_example](img/compliant_world_example.png)](img/compliant_world_example.png)
+[![compliant_world_example](img/valid_world.png)](img/valid_world.png)
 
 Once you've completed lab 11, you can start working on your world generation algorithm.
 
@@ -334,7 +368,7 @@ of your project must include:
 As an example of the bare minimum, the simple interface below displays a grid of tiles and a HUD that displays the
 description of the tile under the mouse pointer (click image for higher resolution):
 
-[![mouseover_example1](img/UI_example0.png)](img/UI_example0.png)
+[![mouseover_example1](img/valid_UI.png)](img/valid_UI.png)
 
 You may include additional features if you choose. In the example below (click image for higher resolution), as with the
 previous example, the mouse cursor is currently over a wall, so the HUD displays the text "wall" in the top right.

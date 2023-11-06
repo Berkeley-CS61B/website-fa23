@@ -147,8 +147,7 @@ Whenever a line is completed in Tetris, we want to update our score and clear th
 This method will help check if a row or multiple rows have been horizontally filled after
 a piece is placed. Consider the following: 
 - Since you don't know exactly which row is completed, if there are any, we'll want to check for the entire board. 
-  - How do you know when a row is complete? When do we know when it's _not complete_? If there's a gap in our row, 
-    what tile might represent that gap?
+  - How do you know when a row is complete? Specifically, when do we know when it's _not complete_? 
 - Once you find a row that is completed, that row needs to be cleared. 
   - When you clear a row, all of the rows above it need to be shifted down. 
   - For each row that is cleared, keep track of it in a variable (`linesCleared`).
@@ -167,14 +166,14 @@ to help you get started. A couple of things to note:
 
 - You'll need to ensure that the game does not exit or stop until the game is over (hint: how do you make sure this happens continuously?).
 - Once you've completed the step above, you will need to check if you should render a new frame.
-  - Specifically, you'll want to call on the helper method `shouldRenderFrame()`.
+  - Specifically, you'll want to call on the helper method `shouldRenderNewFrame()`.
   - You don't need to know what this does, but it's to prevent flickering in the game (it should work without the condition too,
     but it won't be as seamless of an experience).
   - The next steps should be done within this check, so you'll have something like the below code snippet in your implementation. 
 
   ```sh
   // Your code here
-  if (shouldRenderFrame()) {
+  if (shouldRenderNewFrame()) {
     // Your code here 
   
   }
@@ -190,7 +189,7 @@ Here are some relevant helper methods you may use, alongside the ones you've alr
 - `isGameOver`: checks for if the game is over 
 - `shouldRenderNewFrame`: determines if a new frame should be rendered; you don't need to know how this works, but it prevents flickering
    of the game
-- `clearLine`: checks for any lines that need to be cleared and updates the score based on the number of lines cleared
+- `clearLines`: checks for any lines that need to be cleared and updates the score based on the number of lines cleared
 - `updateBoard`: checks for the player movement and updates the board based on the user's input
 - `renderBoard`: renders the state of the board (called on after user input and clearing lines)
 
@@ -210,7 +209,7 @@ Here are the steps:
 - The score should appear at position x = 7, y = 19. 
 - Make sure to render the score once it's drawn!
 
-Here are some useful methods to look at from the `StdDraw` library: 
+Here are some useful methods from the `StdDraw` library that you might find helpful: 
 - [`StdDraw.setFont`](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html#setFont(java.awt.Font))
 - [`StdDraw.clear`](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html#clear())
 - [`StdDraw.text`](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html#text(double,%20double,%20java.lang.String))
@@ -232,22 +231,28 @@ For the checkoff, we'll be looking for the following:
 - Pieces can be moved left, down, and right with the `a`, `s` and `d` keys respectively and rotated left and right with `q` and `w` respectively. 
 - Other keys should not do anything (i.e. if we press on `h`, that should not affect the game board)
 - When a row is completed, the score is updated accordingly. 
-- The score renders throughout the game and does not disappear at any point. 
-- The game stops once the game over condition is met.
+- The score renders throughout the game and does not disappear at any point.
 
 We will also be taking a look at your implementation, so make sure you're able to explain your thought process and how some of what was 
 completed in this lab can be translated to implementing interactivity in Project 3!
 
-If you're getting checked off asynchronously through Ed, you will need to provide a screen recording and
-answer the questions that are provided on the template, so please plan ahead of time as it will take time to
-make the recording and to get checked off.
-
-To reiterate, here is a brief summary of the methods to implement: 
+To reiterate, here is a brief summary of the methods to implement:
 - `updateBoard`: updates the board based on user input
 - `incrementScore`: updates the score based on number of lines cleared
-- `clearLines`: clears the rows if they're completed 
+- `clearLines`: clears the rows if they're completed
 - `runGame`: where the game logic takes place to run the game
-- `renderScore`: displays the score 
+- `renderScore`: displays the score
+
+## Asynchronous Checkoffs
+
+If you're getting checked off asynchronously through Ed, you will need to provide a screen recording. 
+We suggest using Zoom screen recordings or a screen recording software. During this recording, 
+we will need to see an **on screen keyboard**. Here are a few links for an on-screen keyboard: 
+- [Mac](https://support.apple.com/en-ke/guide/accessibility-mac/mchlc74c1c9f/mac#:~:text=Turn%20it%20on:%20On%20your,may%20need%20to%20scroll%20down.)
+- [Windows](https://support.microsoft.com/en-us/windows/use-the-on-screen-keyboard-osk-to-type-ecbb5e08-5b4e-d8c8-f794-81dbf896267a)
+
+Please make sure to answer the questions that are provided on the template and please plan ahead of time as it will take time to
+make the recording and to get checked off.
 
 ## Credits
 

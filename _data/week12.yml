@@ -32,10 +32,10 @@
     - name: Tetris (due 11/13)
       link: materials/lab/lab12/
       resource_links:
-        - name: slides
+        - name: video
           released: false
           link: ""
-        - name: video
+        - name: slides
           released: false
           link: ""
 
