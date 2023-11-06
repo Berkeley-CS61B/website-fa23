@@ -1071,13 +1071,15 @@
       released: true
   days:
     - day: 2023-11-06
-      lecture_topic: "Sorting 3: More Quicksort, Quick Select, Stability"
+      lecture_topic: "Sorting 3: More Quicksort, Quick Select"
       #class: outdated
       lecture_links:
         - name: video
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrHHQP93qqc_QBNBF_WEQLy"
         - name: slides
           link: "https://docs.google.com/presentation/d/1hRa_hUlQIvwc2K2BUtvyibYiPrbWiclB5uPmhiJXnbQ"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=eTBI2qN1-Yw"
       reading: > # Format in Markdown
         [Ch 32](https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary)
       assignments:
