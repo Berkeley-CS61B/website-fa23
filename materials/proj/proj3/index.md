@@ -104,9 +104,9 @@ You'll be working exclusively in a group repository for this portion of the proj
 - Go to your email and accept the GitHub repo invite that you should have received.
 - Log in to Beacon, and click on the "Groups" tab. You should have a group listed here.
 - Click the "View Repository on GitHub" link.
-- You'll now be taken to your new repository on GitHub. Click the green "Code" button in the top right corner (shown below) and copy the clone link shown in the text bar (blacked out in the screenshot).
+- You'll now be taken to your new repository on GitHub. You will have an empty repository. Copy the clone link shown in the text bar (blacked out in the screenshot).
 
-![group-repo](../proj2b/group-repo.png)
+![group-repo](img/project-repo.png)
 
 - Open a new Terminal window, and navigate to the directory that you store your CS 61B files in (usually, students have a directory called `cs61b`).
 
