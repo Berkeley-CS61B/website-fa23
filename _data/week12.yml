@@ -65,7 +65,7 @@
         - name: video
           link: https://youtu.be/ytRAJtFavqw
         - name: slides
-          link: https://docs.google.com/presentation/d/1NGkMwnPngHDwJSK3DzPBkslm7bKjw6_flY_bFM95Ygs
+          link: https://docs.google.com/presentation/d/1IeyAfJZE9mSQ9rVS7J6fHS11_s7rHjLCskam4W8GUtA
       reading: >
         [Ch 33](https://cs61b-2.gitbook.io/cs61b-textbook/33.-software-engineering-iii)
     - custom: |
