@@ -182,7 +182,7 @@ are listed below:
 - The world should contain a random number of rooms and hallways.
 - The locations of the rooms and hallways should be random.
 - The width and height of rooms should be random.
-- Hallways should have a width of 1 tile and a random length.
+- Hallways should have a width of 1 tile and a random length. Dead-end hallways are not allowed.
 - Rooms and hallways must have walls that are visually distinct from floors. Walls and floors should be visually
   distinct from unused spaces.
 - Rooms and hallways should be connected, i.e. there should not be gaps in the floor between adjacent rooms or hallways.
