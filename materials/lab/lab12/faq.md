@@ -13,7 +13,7 @@ public void runGame() {
     resetActionTimer();
     resetFrameTimer();
     
-    // Call on helper method to spawn a piece 
+    // Call on helper method to spawn a piece. 
      
     while (// check for if the game is over) {
         if (shouldRenderNewFrame()) {
@@ -22,10 +22,10 @@ public void runGame() {
                // We then want to call on a helper method to check
                // for rows completed  and clear the lines. 
                
-               // As well as spawn a new piece 
+               // As well as spawn a new piece. 
                
             }
-            // Call on helper method to take user interactivity
+            // Call on helper method to take user interactivity.
 
             // Call on helper method to render the board. 
             
