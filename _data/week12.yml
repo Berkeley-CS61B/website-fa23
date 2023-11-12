@@ -29,7 +29,7 @@
           released: true
           link: "https://docs.google.com/presentation/d/1g-cRLtqkziE63Gzhmei4wy0QMVm65eOnVO2ymv6Nfas"
   labs:
-    - name: Tetris (due 11/13)
+    - name: Tetris (due 11/15)
       link: materials/lab/lab12/
       resource_links:
         - name: video
