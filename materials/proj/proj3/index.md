@@ -58,7 +58,7 @@ assignments late and still complete Project 3B on time.
 For convenience, here are the form links for this project:
 
 - [Partnerships Form](https://forms.gle/RTjyhVitifNzfXz78)
-- [Project 3A Reflection](https://forms.gle/RTjyhVitifNzfXz78)
+- [Project 3A Reflection](https://forms.gle/sPvFp6Z3FS9ZWfgBA)
 - [Project 3A Checkoff](https://forms.gle/kEHSEYw4HN1GR1hE7)
 - [Project 3B & 3C Reflection](https://forms.gle/wmCQ5KC7WLnW5mrc8)
 - [Project 3C Checkoff](https://forms.gle/6YfiQJW5PQEWmSgLA)
@@ -625,7 +625,7 @@ If you have questions or concerns about whether your world matches these criteri
 
 ### Partner Reflection: 10 points
 
-- [3A Reflection Form](https://forms.gle/RTjyhVitifNzfXz78): 5 points (due November 13th at 11:59PM)
+- [3A Reflection Form](https://forms.gle/sPvFp6Z3FS9ZWfgBA): 5 points (due November 13th at 11:59PM)
 - [3B & 3C Reflection Form](https://forms.gle/wmCQ5KC7WLnW5mrc8): 5 points (due November 27th at 11:59PM)
 
 ### 3C - Checkoff Demo: 85 points
