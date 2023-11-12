@@ -1,54 +1,55 @@
 - week: 12
-  # weekly_survey: "https://forms.gle/ddbg5RPbAARrgg2H8"
+  weekly_survey: "https://forms.gle/atsD2C4qA2AQQ1vs6"
   rows: 3
   discussions:
     - name: Sorting
-      released: false
-      link: "https://drive.google.com/file/d/1hR_fB34cOWNBZmHlkjLmEm8uKPyDiDd7/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular12.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1oViirNhl9yCn6jhq2S2Vo8jAFqVJW7AA/view?usp=sharing"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular12sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqxJ0qF1CglXRb-Qb-oNOgs"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1CddpDFnS0_i3sEk6V-iGKi3QCRpS6u_5GZDCHn_6u4E/edit?usp=sharing"
+          released: true
+          link: "https://docs.google.com/presentation/d/1HcmsXkiJcz1Fm19YapZrEY7Oo18D1b9mNRUZAPIVpHw"
     - name: Sorting (Exam-Level)
-      released: false
-      link: "https://drive.google.com/file/d/1oBQ9iQvsNHABRBPyVmkeSL2L_zWIfwPA/view?usp=sharing"
+      released: true
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/examlevel/examlevel12.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://drive.google.com/file/d/1c9cvmU2z1xFxkiWkVjmCyAsEQa-FGCUB/view?usp=share_link"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/examlevel/examlevel12sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRrxu6rDIFiBjifethxW7gSl"
         - name: slides
-          released: false
-          link: "https://docs.google.com/presentation/d/1ykhZDgYmaUiGWkNW5CUGf2QdQt9GoMiVtUesajjxAXs/edit?usp=share_link"
+          released: true
+          link: "https://docs.google.com/presentation/d/1g-cRLtqkziE63Gzhmei4wy0QMVm65eOnVO2ymv6Nfas"
   labs:
-    - name: Tetris (due 11/13)
+    - name: Tetris (due 11/15)
       link: materials/lab/lab12/
       resource_links:
         - name: video
-          released: false
-          link: ""
+          released: true
+          link: "https://youtu.be/F0U0ICK71yQ"
         - name: slides
-          released: false
-          link: ""
-
-      released: false
+          released: true
+          link: "https://docs.google.com/presentation/d/1IC5WW-DE2cHz-4xRuD83gWrpQKfkNkB4MYH3R1Kki90/edit?usp=sharing"
+      released: true
   days:
     - day: 2023-11-06
-      lecture_topic: "Sorting 3: More Quicksort, Quick Select, Stability"
+      lecture_topic: "Sorting 3: More Quicksort, Quick Select"
       #class: outdated
       lecture_links:
         - name: video
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrHHQP93qqc_QBNBF_WEQLy"
         - name: slides
           link: "https://docs.google.com/presentation/d/1hRa_hUlQIvwc2K2BUtvyibYiPrbWiclB5uPmhiJXnbQ"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=eTBI2qN1-Yw"
       reading: > # Format in Markdown
         [Ch 32](https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary)
       assignments:
@@ -64,7 +65,7 @@
         - name: video
           link: https://youtu.be/ytRAJtFavqw
         - name: slides
-          link: https://docs.google.com/presentation/d/1NGkMwnPngHDwJSK3DzPBkslm7bKjw6_flY_bFM95Ygs
+          link: https://docs.google.com/presentation/d/1IeyAfJZE9mSQ9rVS7J6fHS11_s7rHjLCskam4W8GUtA
         - name: recording
           link: https://youtu.be/VMDgRZv0FJ8
       reading: >
