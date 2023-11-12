@@ -7,10 +7,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular12.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular12sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqxJ0qF1CglXRb-Qb-oNOgs"
         - name: slides
           released: true
@@ -20,10 +20,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/examlevel/examlevel12.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/examlevel/examlevel12sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRrxu6rDIFiBjifethxW7gSl"
         - name: slides
           released: true
