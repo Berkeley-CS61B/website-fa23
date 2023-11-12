@@ -234,7 +234,8 @@ For the checkoff, we'll be looking for the following:
 - The score renders throughout the game and does not disappear at any point.
 
 We will also be taking a look at your implementation, so make sure you're able to explain your thought process and how some of what was 
-completed in this lab can be translated to implementing interactivity in Project 3!
+completed in this lab can be translated to implementing interactivity in Project 3! Once checked off, a magic word will be given 
+for you to fill in your `magic_word.txt`, where you can then submit to Gradescope for full credit. 
 
 To reiterate, here is a brief summary of the methods to implement:
 - `updateBoard`: updates the board based on user input
