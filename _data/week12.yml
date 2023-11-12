@@ -59,12 +59,14 @@
           cols: 2 # 1 for half column, 2 for full column
     - day: 2023-11-08
       lecture_topic: Software Engineering III
-      class: optional outdated
+      class: optional
       lecture_links:
         - name: video
           link: https://youtu.be/ytRAJtFavqw
         - name: slides
           link: https://docs.google.com/presentation/d/1NGkMwnPngHDwJSK3DzPBkslm7bKjw6_flY_bFM95Ygs
+        - name: recording
+          link: https://youtu.be/VMDgRZv0FJ8
       reading: >
         [Ch 33](https://cs61b-2.gitbook.io/cs61b-textbook/33.-software-engineering-iii)
     - custom: |
