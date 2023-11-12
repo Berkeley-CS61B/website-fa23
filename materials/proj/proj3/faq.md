@@ -82,3 +82,7 @@ Sure. In this case, `getWorldFromInput` should return only the part of the world
 ### Can I add the ability for users to customize their character before creating a world?
 
 Yes, but you'll need to create a fourth main menu option. Your project must support exactly the API described in this spec. That is, "N23123S" must always create a new world with the seed 23123, and must not ask for any additional input from the user.
+
+### Do I need Main Menu for 3A Autograder or 3A Manual Checkoff?
+
+No, we won't grade you on that.
