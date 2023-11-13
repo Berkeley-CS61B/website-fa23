@@ -1109,11 +1109,11 @@
   discussions:
     - name: More Sorting
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/regular/regular13.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13sol.pdf"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/regular/regular13sol.pdf"
         - name: video
           released: false
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrpqJ8WTjbBOwSNFg54wQDT"
@@ -1122,11 +1122,11 @@
           link: "https://docs.google.com/presentation/d/1PnTzQBa3HO3ue_UuewUnxqczcvjRZI-EWsptRX4A52U/edit"
     - name: More Sorting (Exam-Level)
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/examlevel/examlevel13.pdf"
       resource_links:
         - name: solution
           released: false
-          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13sol.pdf"
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/examlevel/examlevel13sol.pdf"
         - name: video
           released: false
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRoenwS-qOt7TtocoDP-qXo4"
