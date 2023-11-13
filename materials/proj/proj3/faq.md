@@ -86,3 +86,19 @@ Yes, but you'll need to create a fourth main menu option. Your project must supp
 ### Do I need Main Menu for 3A Autograder or 3A Manual Checkoff?
 
 No, we won't grade you on that.
+
+### Can I resubmit 3A Checkoff form?
+
+You can edit your answer until the deadline. But if you edit after the deadline, that would not be valid.
+
+### When will we hear 3A results back?
+
+If you have submitted it on time, probably over the weekend (11/18 - 11/19).
+
+### Are there any live checkoffs?
+
+Nope, not this semester.
+
+### Would it be possible to get points back if we lost some points during 3A checkoff?
+
+Yes, there will be some instructions about it later on in the 3C script!
