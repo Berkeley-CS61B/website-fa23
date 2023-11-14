@@ -632,8 +632,8 @@ If you have questions or concerns about whether your world matches these criteri
 
 To get credit for the checkoff demo, you **must** submit [this form](https://forms.gle/wTnVL4tpW7ZmsWsH9).
 
-- 63 points: Obeying base spec for 3A and 3B.
-- 22 points: Ambition points.
+- 57 points: Obeying base spec for 3A and 3B.
+- 28 points: Ambition points.
 
 **You'll also need identify a commit** so we can grade it. You should:
 
