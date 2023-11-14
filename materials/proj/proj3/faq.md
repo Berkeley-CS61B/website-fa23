@@ -89,7 +89,7 @@ No, we won't grade you on that.
 
 ### Can I resubmit 3A Checkoff form?
 
-You can edit your answer until the deadline. But if you edit after the deadline, that would not be valid.
+Yes. But if you resubmit after the deadline, that would not be valid.
 
 ### When will we hear 3A results back?
 
