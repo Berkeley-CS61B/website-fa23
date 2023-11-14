@@ -1145,6 +1145,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqEadgCMXeo1gnlIxnETooG"
         - name: slides
           link: "https://docs.google.com/presentation/d/1PJ_ii69wSdGNW5LcxfxqPxD9NIedOg_XC7wg51K_29E"
+        - name: recording
+          link: https://youtu.be/nttaFz6Zm50
       reading: > # Format in Markdown
         [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
       assignments:
