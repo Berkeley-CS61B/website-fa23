@@ -59,6 +59,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr4cg5TeJZplLTlOVmMNE0d"
         - name: slides
           link: "https://docs.google.com/presentation/d/1BmUyKesAHUmyXmhrX5woC2wvSTX7zgIcxsAFKAstk1g"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=YcqGMb4YGaI"
       reading: > # Format in Markdown
         [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
       assignments:
