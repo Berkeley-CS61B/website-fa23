@@ -1103,13 +1103,13 @@
     - custom: |
         <td class="emph2" colspan="3">No Classes</td>
 - week: 13
-  # weekly_survey: "https://forms.gle/Nr1dwYBbnabJg2Jq9"
+  weekly_survey: "https://forms.gle/x4TcU9S1tqT88Ca96"
   rows: 3
   custom:
   discussions:
     - name: More Sorting
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/regular/regular13.pdf"
       resource_links:
         - name: solution
           released: true
@@ -1122,7 +1122,7 @@
           link: "https://docs.google.com/presentation/d/1PnTzQBa3HO3ue_UuewUnxqczcvjRZI-EWsptRX4A52U/edit"
     - name: More Sorting (Exam-Level)
       released: true
-      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13.pdf"
+      link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/examlevel/examlevel13.pdf"
       resource_links:
         - name: solution
           released: true
@@ -1145,6 +1145,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqEadgCMXeo1gnlIxnETooG"
         - name: slides
           link: "https://docs.google.com/presentation/d/1PJ_ii69wSdGNW5LcxfxqPxD9NIedOg_XC7wg51K_29E"
+        - name: recording
+          link: https://youtu.be/nttaFz6Zm50
       reading: > # Format in Markdown
         [Ch 34](https://cs61b-2.gitbook.io/cs61b-textbook/34.-sorting-and-algorithmic-bounds)
       assignments:
@@ -1161,6 +1163,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr4cg5TeJZplLTlOVmMNE0d"
         - name: slides
           link: "https://docs.google.com/presentation/d/1BmUyKesAHUmyXmhrX5woC2wvSTX7zgIcxsAFKAstk1g"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=YcqGMb4YGaI"
       reading: > # Format in Markdown
         [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
       assignments:
@@ -1177,6 +1181,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoDV1sFRy3Hdx0N6BMZjI1n"
         - name: slides
           link: "https://docs.google.com/presentation/d/1SgHnDc3MV2otqvP7fHS0VcRNhqEAkYgJdJ_GWDmG8Xo"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=YDushzZYGIo"
       reading: > # Format in Markdown
         [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)
 - week: 14
