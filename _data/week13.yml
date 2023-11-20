@@ -77,5 +77,7 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoDV1sFRy3Hdx0N6BMZjI1n"
         - name: slides
           link: "https://docs.google.com/presentation/d/1SgHnDc3MV2otqvP7fHS0VcRNhqEAkYgJdJ_GWDmG8Xo"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=YDushzZYGIo"
       reading: > # Format in Markdown
         [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)
