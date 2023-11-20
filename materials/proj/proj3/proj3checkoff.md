@@ -2,10 +2,10 @@
 layout: page
 title: "Project 3 Lab Demo Checkoff Script"
 categories: proj
-released: false
+released: true
 ---
 
-## Project 3C Lab Demo Checkoff Script (Under Construction)
+## Project 3C Lab Demo Checkoff Script 
 
 Project 3C Demos will be conducted during lab.
 
@@ -88,54 +88,54 @@ directory) if you want to follow along and simulate your checkoff.
 They will then grade each requirement of the game. Each requirement can either be evaluated as full points, half points,
 or zero points.
 
-### Basic World Functionality (points TBD)
+### Basic World Functionality (37 points total)
 
 #### The TA will run your project and will check for the following features:
 
-- The world has a main menu screen with a New World, Load, and Quit option (points TBD)
+- The world has a main menu screen with a New World, Load, and Quit option (1 point)
 
-- The TA will hit "n" or "N" (they may do either) and check that the world prompts for a seed (points TBD)
+- The TA will hit "n" or "N" (they may do either) and check that the world prompts for a seed (1 point)
 
 - The TA should type in a few random numbers and hit "s" or "S" (they may do either) which should immediately start the
-  world (points TBD)
+  world (2 points)
 
 #### At this point, the program should be running and there should be a visible world.
 
-- World has visually distinct walls and floors (points TBD)
+- World has visually distinct walls and floors (2 points)
 
-- World has hallways which are 1 or 2 tiles wide (points TBD)
+- World has hallways which are 1 or 2 tiles wide (1 point)
 
-- World has at least 1 hallway containing a turn in it. If current world doesn't, ask students to generate a world that has a turning hallway. (points TBD)
+- World has at least 1 hallway containing a turn in it. If current world doesn't, ask students to generate a world that has a turning hallway. (1 point)
 
-- World has some number of rooms that are connected via hallways (points TBD)
+- World has some number of rooms that are connected via hallways (5.5 points)
 
 #### The TA will now try the basic commands that should be available during gameplay.
 
-- TA should hit the W, A, S, and D keys randomly and check the player movement is consistent with the key pressed (points TBD)
+- TA should hit the W, A, S, and D keys randomly and check the player movement is consistent with the key pressed (2 points)
 
 - TA should hover over 3 different tiles and make sure their names show up somewhere on screen and that the names make
-  sense (points TBD)
+  sense (5 points)
 
-- TA should move into a wall and make sure the player stops at the wall instead of moving into it (points TBD)
+- TA should move into a wall and make sure the player stops at the wall instead of moving into it (2 points)
 
 - TA should type ":q" or ":Q" (they may do either) which should quit the world and close the program. TA should remember
-  the world layout at this point (points TBD)
+  the world layout at this point (2 points)
 
 #### The program is now closed, and we will test the load feature.
 
 #### The TA will run the world again after it has been closed and the main menu should appear again.
 
-- TA should hit "l" or "L" and the world should immediately start (points TBD)
+- TA should hit "l" or "L" and the world should immediately start (2 points)
 
-- TA should check that the world layout is exactly as it was before closing the world (points TBD)
+- TA should check that the world layout is exactly as it was before closing the world (2.5 points)
 
-- TA will run through the basic commands again (listed above) to make sure the world still works (points TBD)
+- TA will run through the basic commands again (listed above) to make sure the world still works (2.5 points)
 
-- TA will quit and load again and make sure that the basic commands work (points TBD).
+- TA will quit and load again and make sure that the basic commands work (2.5 points).
 
-- TA will check that "q" or "Q" alone does not quit the game (points TBD).
+- TA will check that "q" or "Q" alone does not quit the game (2.5 points).
 
-### Randomness (points TBD)
+### Randomness (20 points total)
 
 - The TA should close the world again and will begin testing to see if worlds are randomly generated.
 
@@ -153,13 +153,13 @@ or zero points.
 
 The grading breakdown is as follows:
 
-- points TBD: The worlds are mainly random, as described by the above section.
+- 20 points TBD: The worlds are mainly random, as described by the above section.
 
-- points TBD: The worlds exhibit a few random elements, but generally look the same
+- 10 points TBD: The worlds exhibit a few random elements, but generally look the same
 
 - 0 points: The worlds contain no random elements.
 
-### Ambition Points (max points TBD)
+### Ambition Points (max points 28)
 
 - The student should state and demonstrate the features that are in the Ambition category. You should be very explicit
   about how to "activate" or use that feature.

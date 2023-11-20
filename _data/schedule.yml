@@ -1103,7 +1103,7 @@
     - custom: |
         <td class="emph2" colspan="3">No Classes</td>
 - week: 13
-  # weekly_survey: "https://forms.gle/Nr1dwYBbnabJg2Jq9"
+  weekly_survey: "https://forms.gle/x4TcU9S1tqT88Ca96"
   rows: 3
   custom:
   discussions:
@@ -1112,10 +1112,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/regular/regular13.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/regular/regular13sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrpqJ8WTjbBOwSNFg54wQDT"
         - name: slides
           released: true
@@ -1125,10 +1125,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/examlevel/examlevel13.pdf"
       resource_links:
         - name: solution
-          released: false
-          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/examlevel/examlevel13sol.pdf"
+          released: true
+          link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week13/regular/regular13sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRoenwS-qOt7TtocoDP-qXo4"
         - name: slides
           released: true
@@ -1163,6 +1163,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRr4cg5TeJZplLTlOVmMNE0d"
         - name: slides
           link: "https://docs.google.com/presentation/d/1BmUyKesAHUmyXmhrX5woC2wvSTX7zgIcxsAFKAstk1g"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=YcqGMb4YGaI"
       reading: > # Format in Markdown
         [Ch 35](https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts)
       assignments:
@@ -1179,6 +1181,8 @@
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoDV1sFRy3Hdx0N6BMZjI1n"
         - name: slides
           link: "https://docs.google.com/presentation/d/1SgHnDc3MV2otqvP7fHS0VcRNhqEAkYgJdJ_GWDmG8Xo"
+        - name: recording
+          link: "https://www.youtube.com/watch?v=YDushzZYGIo"
       reading: > # Format in Markdown
         [Ch 36](https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion)
 - week: 14
@@ -1193,13 +1197,13 @@
       released: false
   days:
     - day: 2023-11-20
-      lecture_topic: Software Engineering IV<br>Designing 61B
-      class: optional outdated
+      lecture_topic: Software Engineering IV
+      class: optional
       lecture_links:
         - name: video
           link: https://youtu.be/8lhVw-RCmKQ
         - name: slides
-          link: https://docs.google.com/presentation/d/1dWqymxQxZrMWYl76GfJoyjP20McXIW6YLx2htZoRexM
+          link: https://docs.google.com/presentation/d/1DG4vXFmBF3J-yFDHt7Y1tn8tyLVzIf1-QGEEjv2XUKs/edit?usp=sharing
       reading: >
         [Ch 37](https://cs61b-2.gitbook.io/cs61b-textbook/37-software-engineering-iv)
       assignments:

@@ -628,12 +628,12 @@ If you have questions or concerns about whether your world matches these criteri
 - [3A Reflection Form](https://forms.gle/sPvFp6Z3FS9ZWfgBA): 5 points (due November 13th at 11:59PM)
 - [3B & 3C Reflection Form](https://forms.gle/wmCQ5KC7WLnW5mrc8): 5 points (due November 27th at 11:59PM)
 
-### 3C - Checkoff Demo: 85 points
+### 3C Checkoff Demo: 85 points
 
 To get credit for the checkoff demo, you **must** submit [this form](https://forms.gle/wTnVL4tpW7ZmsWsH9).
 
-- 63 points: Obeying base spec for 3A and 3B.
-- 22 points: Ambition points.
+- 57 points: Obeying base spec for 3A and 3B.
+- 28 points: Ambition points.
 
 **You'll also need identify a commit** so we can grade it. You should:
 
