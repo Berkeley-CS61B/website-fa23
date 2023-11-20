@@ -8,10 +8,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrpqJ8WTjbBOwSNFg54wQDT"
         - name: slides
           released: true
@@ -21,10 +21,10 @@
       link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13.pdf"
       resource_links:
         - name: solution
-          released: false
+          released: true
           link: "https://github.com/Berkeley-CS61B/discussions-fa23/blob/main/week12/regular/regular13sol.pdf"
         - name: video
-          released: false
+          released: true
           link: "https://youtube.com/playlist?list=PLnp31xXvnfRoenwS-qOt7TtocoDP-qXo4"
         - name: slides
           released: true
