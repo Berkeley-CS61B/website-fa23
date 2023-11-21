@@ -1200,10 +1200,12 @@
       lecture_topic: Software Engineering IV
       class: optional
       lecture_links:
-        - name: video
-          link: https://youtu.be/8lhVw-RCmKQ
+        #- name: video
+        #  link: https://youtu.be/8lhVw-RCmKQ
         - name: slides
           link: https://docs.google.com/presentation/d/1DG4vXFmBF3J-yFDHt7Y1tn8tyLVzIf1-QGEEjv2XUKs/edit?usp=sharing
+        - name: recording
+          link: "https://www.youtube.com/watch?v=GXwUTc7zDDQ"
       reading: >
         [Ch 37](https://cs61b-2.gitbook.io/cs61b-textbook/37-software-engineering-iv)
       assignments:
