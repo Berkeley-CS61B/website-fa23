@@ -97,7 +97,7 @@ or zero points.
 - The TA will hit "n" or "N" (they may do either) and check that the world prompts for a seed (1 point)
 
 - The TA should type in a few random numbers and hit "s" or "S" (they may do either) which should immediately start the
-  world (2 points)
+  world. The TA should also be able to see the numbers you are typing on the screen. (2 points)
 
 #### At this point, the program should be running and there should be a visible world.
 
