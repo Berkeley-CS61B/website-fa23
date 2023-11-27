@@ -15,12 +15,12 @@
   days:
     - day: 2023-11-27
       lecture_topic: Compression
-      class: optional outdated
+      class: optional
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD6kGO6F1uWKggr-Ie9TCMUZ&disable_polymer=true
         - name: slides
-          link: https://docs.google.com/presentation/d/17l72hesAQEv9vPsHakJRDXmP8T5cipOMh-_8V2M7tmY
+          link: https://docs.google.com/presentation/d/1txgVXTYDT344GAOeSsEwevPpATV_tvRM0uMERT3qLdw/edit
         - name: guide
           link: materials/lectures/lec38/
       reading: > # Format in Markdown
