@@ -23,6 +23,8 @@
           link: https://docs.google.com/presentation/d/1txgVXTYDT344GAOeSsEwevPpATV_tvRM0uMERT3qLdw/edit
         - name: guide
           link: materials/lectures/lec38/
+        - name: recording
+          link: https://youtu.be/xAepPMbCBJ8
       reading: > # Format in Markdown
         [Ch 38](https://cs61b-2.gitbook.io/cs61b-textbook/38.-compression-and-complexity)
       assignments:
