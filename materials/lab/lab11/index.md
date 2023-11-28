@@ -11,9 +11,6 @@ Each assignment will have an FAQ linked at the top. You can also access it by
 adding "/faq" to the end of the URL. The FAQ for Lab 11 is located
 [here](faq.md).
 
-**Before you start, note that this lab uses some older libraries, so if you run 
-into any issues with the language level, try setting it to an older version.**
-
 ## Introduction
 
 This lab will help you with Project 3: Build Your Own World (BYOW). The first

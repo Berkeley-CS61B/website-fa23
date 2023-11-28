@@ -14,6 +14,10 @@ searchable: true
 
 ## Common Problems and Errors
 
+### I can't get text to show up / My tile characters became weird / My HUD flickers!
+
+See the [Common UI Problems](./ui_bugs.md) page. 
+
 ### Two instances of my class are saying they are not equal when they should be. Also, I set the instance of my class to be the key in a HashMap, but I can't find it when I try to access that key.
 
 Make sure that if you create any classes, override the `.equals()` method AND the `.hashcode()` method. This will guarantee that two instances that are equal will have the same hashcode
@@ -78,3 +82,23 @@ Sure. In this case, `getWorldFromInput` should return only the part of the world
 ### Can I add the ability for users to customize their character before creating a world?
 
 Yes, but you'll need to create a fourth main menu option. Your project must support exactly the API described in this spec. That is, "N23123S" must always create a new world with the seed 23123, and must not ask for any additional input from the user.
+
+### Do I need Main Menu for 3A Autograder or 3A Manual Checkoff?
+
+No, we won't grade you on that.
+
+### Can I resubmit 3A Checkoff form?
+
+Yes. But if you resubmit after the deadline, that would not be valid.
+
+### When will we hear 3A results back?
+
+If you have submitted it on time, probably over the weekend (11/18 - 11/19).
+
+### Are there any live checkoffs?
+
+Nope, not this semester.
+
+### Would it be possible to get points back if we lost some points during 3A checkoff?
+
+Yes, there will be some instructions about it later on in the 3C script!

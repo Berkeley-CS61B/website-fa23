@@ -43,7 +43,7 @@ Please also note that since the structure of the project has been changed, Phase
 There are several key deadlines for this assignment:
 
 - Team formation: You must submit the [Project 3 Partnerships Form](https://forms.gle/RTjyhVitifNzfXz78) by
-  Thursday, November 2nd at 11:59 PM. You will **not** be able to change your partner later. Read and understand
+  Friday, November 3rd at 4:59 PM. You will **not** be able to change your partner later. Read and understand
   the [partnership guidelines](../../guides/partnerships) before starting the assignment.
 - Project 3A - World Generation: Due on Gradescope by 11/13 at 11:59 PM.
 - Project 3B - Interactivity: Due on Gradescope by 11/27 at 11:59 PM.
@@ -58,7 +58,7 @@ assignments late and still complete Project 3B on time.
 For convenience, here are the form links for this project:
 
 - [Partnerships Form](https://forms.gle/RTjyhVitifNzfXz78)
-- [Project 3A Reflection](https://forms.gle/RTjyhVitifNzfXz78)
+- [Project 3A Reflection](https://forms.gle/sPvFp6Z3FS9ZWfgBA)
 - [Project 3A Checkoff](https://forms.gle/kEHSEYw4HN1GR1hE7)
 - [Project 3B & 3C Reflection](https://forms.gle/wmCQ5KC7WLnW5mrc8)
 - [Project 3C Checkoff](https://forms.gle/6YfiQJW5PQEWmSgLA)
@@ -90,6 +90,40 @@ The major goal of this project is to give you a chance to attempt to manage the 
 large system. Be warned: The system you build probably isn't going to be that fun for users! Three weeks is simply not
 enough time, particularly for novice programmers. However, we do hope you will find it to be a fulfilling project, and
 the worlds you generate might even be beautiful.
+
+## Project Setup
+
+{% include alert.html type="warning" content="
+**THE SETUP FOR THIS PROJECT IS DIFFERENT THAN THE OTHER LABS / PROJECTS. PLEASE DO NOT SKIP THIS STEP!**
+" %}
+
+### Group Repository Setup
+
+You'll be working exclusively in a group repository for this portion of the project. To set this group repo up on your local computer, follow the instructions below (these are also in the spec):
+
+- Go to your email and accept the GitHub repo invite that you should have received.
+- Log in to Beacon, and click on the "Groups" tab. You should have a group listed here.
+- Click the "View Repository on GitHub" link.
+- You'll now be taken to your new repository on GitHub. You will have an empty repository. Copy the clone link shown in the text bar (blacked out in the screenshot).
+
+![group-repo](img/project-repo.png)
+
+- Open a new Terminal window, and navigate to the directory that you store your CS 61B files in (usually, students have a directory called `cs61b`).
+
+{% include alert.html type="warning" content="
+**IMPORTANT:** Do not cd into your `fa23-s****` repo! You should not be cloning the group repo inside of your personal 61b one.
+" %}
+
+- Type the following commands into your terminal, and hit Enter after each one:
+
+```sh
+git clone <paste your link from GitHub here>
+cd fa23-proj3-g***  // Replace the *** here with your group repo number
+git remote add skeleton https://github.com/Berkeley-CS61B/proj3-skeleton-fa23.git
+git pull skeleton main --allow-unrelated-histories
+```
+
+Once you've completed the above steps, you should see your new group repo called `fa23-proj3-g***` in your local files, and if you open this repo, you'll see the `proj3` skeleton folder. From here, you and your partner can proceed as normal, by adding, committing, pushing, and pulling from this repo as you would otherwise. 
 
 ## Skeleton Code
 
@@ -148,7 +182,7 @@ are listed below:
 - The world should contain a random number of rooms and hallways.
 - The locations of the rooms and hallways should be random.
 - The width and height of rooms should be random.
-- Hallways should have a width of 1 tile and a random length.
+- Hallways should have a width of 1 tile and a random length. Dead-end hallways are not allowed.
 - Rooms and hallways must have walls that are visually distinct from floors. Walls and floors should be visually
   distinct from unused spaces.
 - Rooms and hallways should be connected, i.e. there should not be gaps in the floor between adjacent rooms or hallways.
@@ -160,7 +194,7 @@ As an example of a world that meets all of these requirements (click for higher 
 this image, # represents a wall tile, a dot represents a floor tile, and there is also one golden colored wall segment
 that represents a locked door. All unused spaces are left blank.
 
-[![compliant_world_example](img/compliant_world_example.png)](img/compliant_world_example.png)
+[![compliant_world_example](img/valid_world.png)](img/valid_world.png)
 
 Once you've completed lab 11, you can start working on your world generation algorithm.
 
@@ -334,7 +368,7 @@ of your project must include:
 As an example of the bare minimum, the simple interface below displays a grid of tiles and a HUD that displays the
 description of the tile under the mouse pointer (click image for higher resolution):
 
-[![mouseover_example1](img/UI_example0.png)](img/UI_example0.png)
+[![mouseover_example1](img/valid_UI.png)](img/valid_UI.png)
 
 You may include additional features if you choose. In the example below (click image for higher resolution), as with the
 previous example, the mouse cursor is currently over a wall, so the HUD displays the text "wall" in the top right.
@@ -565,7 +599,7 @@ write the responses together.
 ### Partnership Preferences Form: 2 points
 
 Filling out the [Project 3 Partnership Preferences Form](https://forms.gle/RTjyhVitifNzfXz78) is worth 2 points for
-this project. You must fill out the form by **Thursdat, November 2nd at 11:59pm** to get these points.
+this project. You must fill out the form by **Friday, November 3rd at 4:59pm** to get these points.
 
 ### Autograders: 12 points
 
@@ -589,17 +623,17 @@ If you have questions or concerns about whether your world matches these criteri
 
 **In order to get credit for the 3A Checkoff, you must fill out [this form](https://forms.gle/kEHSEYw4HN1GR1hE7) by Monday, November 13th at 11:59PM.**
 
-### Partner Review: 10 points
+### Partner Reflection: 10 points
 
-- [3A Review Form](https://forms.gle/RTjyhVitifNzfXz78): 5 points (due November 13th at 11:59PM)
-- [3B & 3C Review Form](https://forms.gle/wmCQ5KC7WLnW5mrc8): 5 points (due November 27th at 11:59PM)
+- [3A Reflection Form](https://forms.gle/sPvFp6Z3FS9ZWfgBA): 5 points (due November 13th at 11:59PM)
+- [3B & 3C Reflection Form](https://forms.gle/wmCQ5KC7WLnW5mrc8): 5 points (due November 27th at 11:59PM)
 
-### 3C - Checkoff Demo: 85 points
+### 3C Checkoff Demo: 85 points
 
 To get credit for the checkoff demo, you **must** submit [this form](https://forms.gle/wTnVL4tpW7ZmsWsH9).
 
-- 63 points: Obeying base spec for 3A and 3B.
-- 22 points: Ambition points.
+- 57 points: Obeying base spec for 3A and 3B.
+- 28 points: Ambition points.
 
 **You'll also need identify a commit** so we can grade it. You should:
 
@@ -670,7 +704,7 @@ Recall that in the collaboration policy, we say:
 
 "Use of GitHub Copilot / GPT3 / etc. \[is permitted with extreme caution\] if you're just generating some amount of boilerplate code, that's ok. However, you should not use such tools to generate non-trivial methods. We are trying to build your fundamental skills, and leaning on an AI is going to cause you trouble in circumstances where you don't have an AI to help, such as exams. Any AI generated code must be cited and explicitly commented as such."
 
-For project 3B & 3C, we're relaxing this rule and it's OK to use large language models (LLMs) like ChatGPT, Bard, Bing, CoPilot, etc. for project 3A & 3B however you want, with the important note that any code generated must be explicitly cited as being AI generated.
+For project 3B & 3C, we're relaxing this rule and it's OK to use large language models (LLMs) like ChatGPT, Bard, Bing, CoPilot, etc. For project 3B & 3C however you want, with the important note that any code generated must be explicitly cited as being AI generated.
 
 If you want LLMs to be useful for project 3B & 3C, you're going to want to give them small tasks. You should think of LLMs as assistant programmers you've hired to help you out on your project — they're very fast and sloppy programmers who have little common sense, and they often need very specific directions to be useful.
 

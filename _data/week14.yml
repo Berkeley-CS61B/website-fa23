@@ -10,19 +10,21 @@
       released: false
   days:
     - day: 2023-11-20
-      lecture_topic: Software Engineering IV<br>Designing 61B
-      class: optional outdated
+      lecture_topic: Software Engineering IV
+      class: optional
       lecture_links:
-        - name: video
-          link: https://youtu.be/8lhVw-RCmKQ
+        #- name: video
+        #  link: https://youtu.be/8lhVw-RCmKQ
         - name: slides
-          link: https://docs.google.com/presentation/d/1dWqymxQxZrMWYl76GfJoyjP20McXIW6YLx2htZoRexM
+          link: https://docs.google.com/presentation/d/1DG4vXFmBF3J-yFDHt7Y1tn8tyLVzIf1-QGEEjv2XUKs/edit?usp=sharing
+        - name: recording
+          link: "https://www.youtube.com/watch?v=GXwUTc7zDDQ"
       reading: >
         [Ch 37](https://cs61b-2.gitbook.io/cs61b-textbook/37-software-engineering-iv)
       assignments:
         - title: "Project 3B & 3C (due 11/27)"
           link: materials/proj/proj3
-          released: false
+          released: true
           rows: 3 # the number of rows the assignment spans
           cols: 2 # 1 for half column, 2 for full column
     - custom: |
