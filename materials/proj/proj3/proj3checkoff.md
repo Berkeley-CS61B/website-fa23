@@ -107,7 +107,7 @@ or zero points.
 
 - World has at least 1 hallway containing a turn in it. If current world doesn't, ask students to generate a world that has a turning hallway. (1 point)
 
-- World has some number of rooms that are connected via hallways (5.5 points)
+- World has some number of rooms that are connected via hallways (6 points)
 
 #### The TA will now try the basic commands that should be available during gameplay.
 
