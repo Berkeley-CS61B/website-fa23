@@ -103,7 +103,7 @@ or zero points.
 
 - World has visually distinct walls and floors (2 points)
 
-- World has hallways which are 1 or 2 tiles wide (1 point)
+- World has hallways which are 1 tile wide (1 point)
 
 - World has at least 1 hallway containing a turn in it. If current world doesn't, ask students to generate a world that has a turning hallway. (1 point)
 
