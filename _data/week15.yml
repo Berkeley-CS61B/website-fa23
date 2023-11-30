@@ -34,14 +34,16 @@
           cols: 2
           released: false
     - day: 2023-11-29
-      lecture_topic: Compression, Complexity, and P=NP?
-      class: optional outdated
+      lecture_topic: Complexity and P=NP?
+      class: optional
       lecture_links:
         - name: video
           link: https://www.youtube.com/playlist?list=PL8FaHk7qbOD5nfUOOXco_8Sx5Nkt-Wgq8
         - name: slides
-          link: https://docs.google.com/presentation/d/1LnZoDd5Xsvmvtyy2_hbBjib7_MCSNz_L3aKH2MWCMXQ
-        #   link: https://forms.gle/7Fic9NJfgxUvBKR69
+          link: https://docs.google.com/presentation/d/1V31U-KceDkOq820lBrdGEniTM4_z3j3NyebmlXHCekg/edit#slide=id.g26263cb0bbf_0_205
+        - name: recording
+          link: https://youtu.be/TR7OKHomEJQ
+      #   link: https://forms.gle/7Fic9NJfgxUvBKR69
       reading: > # Format in Markdown
         [Ch 39](https://cs61b-2.gitbook.io/cs61b-textbook/39.-compression-complexity-p-np)
       assignments:
