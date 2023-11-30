@@ -14,7 +14,7 @@ Incomplete grades allow you to complete coursework after the semester if you wer
 A couple important requirements from the website:
 
 - "Students who fail to turn in all required work cannot request an I grade unless they have been unable to finish because of circumstances beyond their control."
-- Your work must be of "passing quality", meaning that completing the projects/exams you're taking an incomplete for would bring you to at least a passing grade in the course. The grade bins can be found in [the syllabus](../../about.md#grades).
+- Your work must be of "passing quality", meaning that completing the projects you're taking an incomplete for would bring you to at least a passing grade in the course. The grade bins can be found in [the syllabus](../../about.md#grades).
 
 In CS61B, you may receive an incomplete on at most **2 projects** or **1 project/1 exam**.
 
