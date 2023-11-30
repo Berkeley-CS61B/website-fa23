@@ -2,7 +2,6 @@
 layout: page
 title: "Incomplete Grades"
 categories: guides
-author: Allen Gu
 released: true
 ---
 
@@ -10,7 +9,7 @@ released: true
 
 ## Incompletes
 
-Incomplete grades can be assigned if your work has been of "passing quality". You will have an Incomplete (I) grade for the semester and receive extended completion deadlines to submit the incomplete assignments. More information can be found on the official website [here](https://registrar.berkeley.edu/faculty-staff/grading/incomplete-grades/).
+Incomplete grades allow you to complete coursework after the semester if you were unable to finish them due to extenuating circumstances. You will have an Incomplete (I) grade for the semester and receive extended completion deadlines to submit the incomplete assignments. After resolving the incomplete, your letter grade will be calculated and submitted. If you're interested in taking an incomplete, please first read through the registrar's website [here](https://registrar.berkeley.edu/faculty-staff/grading/incomplete-grades/).
 
 A couple important requirements from the website:
 
@@ -19,10 +18,6 @@ A couple important requirements from the website:
 
 In CS61B, you may receive an incomplete on at most **2 projects** or **1 project/1 exam**.
 
-{% include alert.html type="info"
-content="If you do not meet one of the requirements above, we will still review your request on a case-by-case basis."
-%}
-
 ## Incomplete deadlines
 
 - By default, the deadline to turn in incomplete assignments will be Friday, January 13th (1/13). We will not be granting further extensions aside from exceptional cases.
@@ -30,7 +25,7 @@ content="If you do not meet one of the requirements above, we will still review 
 
 ## Is an incomplete right for you?
 
-An incomplete does grant you additional time on assignments that you may not have been able to complete during the semester due to extenuating circumstances. However, there are drawbacks as well.
+An incomplete grants you additional time on assignments that you may not have been able to complete during the semester due to extenuating circumstances. However, there are drawbacks as well.
 
 - You'll be working on the assignments during break, so you should expect to complete the assignments without official staff support.
 - Especially if you're taking an incomplete on the final, you'll be completing the incomplete work in parallel with your usual coursework.
@@ -39,7 +34,11 @@ An alternative to taking an incomplete is [late dropping](https://lsadvising.ber
 
 ## Requesting an incomplete
 
-To request an incomplete, please fill out this form by **Friday, December 8th (12/8) at 11:59pm**. We will be processing incomplete requests on a rolling basis.
+To request an incomplete, please fill out [this form](https://forms.gle/R5RCQJAVSQobCMXdA) by **Friday, December 8th (12/8) at 11:59pm**. We will be processing incomplete requests on a rolling basis.
+
+{% include alert.html type="info"
+content="If you do not meet one of the requirements above, we will still review your request on a case-by-case basis."
+%}
 
 ## FAQ
 
