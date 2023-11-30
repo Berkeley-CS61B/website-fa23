@@ -25,6 +25,12 @@ In CS61B, you may receive an incomplete on at most **2 projects** or **1 project
 
 ## Is an incomplete right for you?
 
+As you're deciding whether to take an incomplete, we highly recommend talking to an academic advisor. Here are some links you may be able to use to set up an appointment:
+
+- [Data Science Advising](https://engineering.berkeley.edu/students/advising-counseling/ess-advising/)
+- [College of Engineering Advising](https://engineering.berkeley.edu/students/advising-counseling/ess-advising/)
+- [L&S CS Advising](https://eecs.berkeley.edu/resources/undergrads/cs/advising)
+
 An incomplete grants you additional time on assignments that you may not have been able to complete during the semester due to extenuating circumstances. However, there are drawbacks as well.
 
 - You'll be working on the assignments during break, so you should expect to complete the assignments without official staff support.
