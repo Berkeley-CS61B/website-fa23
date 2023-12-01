@@ -704,7 +704,7 @@ Recall that in the collaboration policy, we say:
 
 "Use of GitHub Copilot / GPT3 / etc. \[is permitted with extreme caution\] if you're just generating some amount of boilerplate code, that's ok. However, you should not use such tools to generate non-trivial methods. We are trying to build your fundamental skills, and leaning on an AI is going to cause you trouble in circumstances where you don't have an AI to help, such as exams. Any AI generated code must be cited and explicitly commented as such."
 
-For project 3B & 3C, we're relaxing this rule and it's OK to use large language models (LLMs) like ChatGPT, Bard, Bing, CoPilot, etc. for project 3A & 3B however you want, with the important note that any code generated must be explicitly cited as being AI generated.
+For project 3B & 3C, we're relaxing this rule and it's OK to use large language models (LLMs) like ChatGPT, Bard, Bing, CoPilot, etc. For project 3B & 3C however you want, with the important note that any code generated must be explicitly cited as being AI generated.
 
 If you want LLMs to be useful for project 3B & 3C, you're going to want to give them small tasks. You should think of LLMs as assistant programmers you've hired to help you out on your project — they're very fast and sloppy programmers who have little common sense, and they often need very specific directions to be useful.
 
