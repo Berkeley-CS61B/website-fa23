@@ -1219,7 +1219,7 @@
     - custom: |
         <td class="emph2" colspan="3">No Classes (Thanksgiving)</td>
 - week: 15
-  # weekly_survey: "https://forms.gle/VihbcoV5JQu6w5Wz8"
+  weekly_survey: "https://forms.gle/X2nAweUwHb1tdJBv9"
   rows: 3
   discussions:
     - name: Goodbye, Fun
